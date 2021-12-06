@@ -1,0 +1,82 @@
+{"properties": [
+  {
+    "name": "gmail.ses.smtp.from",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.ses.smtp.from'"
+  },
+  {
+    "name": "employee.salary.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.salary.detail.email.subject'"
+  },
+  {
+    "name": "gmail.ses.smtp.username",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.ses.smtp.username'"
+  },
+  {
+    "name": "gmail.ses.smtp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.ses.smtp.password'"
+  },
+  {
+    "name": "gmail.ses.smtp.port",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.ses.smtp.port'"
+  },
+  {
+    "name": "gmail.ses.smtp.host",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.ses.smtp.host'"
+  },
+  {
+    "name": "gmail.smtp.ssl.trust",
+    "type": "java.lang.String",
+    "description": "A description for 'gmail.smtp.ssl.trust'"
+  },
+  {
+    "name": "mail.transport.protocol",
+    "type": "java.lang.String",
+    "description": "A description for 'mail.transport.protocol'"
+  },
+  {
+    "name": "mail.smtp.starttls.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'mail.smtp.starttls.enable'"
+  },
+  {
+    "name": "mail.smtp.auth",
+    "type": "java.lang.String",
+    "description": "A description for 'mail.smtp.auth'"
+  },
+  {
+    "name": "employee.id.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.id.detail.email.subject'"
+  },
+  {
+    "name": "employee.id.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.id.detail.email.subject'"
+  },
+  {
+    "name": "employee.id.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.id.detail.email.subject'"
+  },
+  {
+    "name": "employee.id.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.id.detail.email.subject'"
+  },
+  {
+    "name": "employee.id.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.id.detail.email.subject'"
+  },
+  {
+    "name": "employee.id.detail.email.subject",
+    "type": "java.lang.String",
+    "description": "A description for 'employee.id.detail.email.subject'"
+  }
+]}
