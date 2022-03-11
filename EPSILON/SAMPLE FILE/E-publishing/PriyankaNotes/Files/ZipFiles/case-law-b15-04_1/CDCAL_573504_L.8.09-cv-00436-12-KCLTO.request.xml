@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>JUAN JAVIER ALVARADO</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>COUNTRYWIDE HOME LOANS, INC. ET AL.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 09-00436-CJC(RNBx)</docket.line>
+<docket.number>SACV 09-00436-CJC(RNBx)</docket.number>
+<docket.line suppress-flag="y">8:09-cv-00436-CJC-RNB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 05/26/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Michelle Urie, Deputy Clerk, ATTORNEYS PRESENT FOR PLAINTIFF, None Present</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANT: None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>PROCEEDINGS: (IN CHAMBERS) GRANTING DEFENDANTS' MOTION TO DISMISS WITH LEAVE TO AMEND</bold> [filed 4/15/09]</headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>HONORABLE CORMAC J. CARNEY, UNITED STATES DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Having read and considered the papers presented by the parties, the Court finds this matter appropriate for disposition without a hearing. <ital>See</ital> <csc>Fed. R. Civ. P.</csc> 78; <csc>Local Rule</csc> 7-15. Accordingly, the hearing set for June 1, 2009 at 1:30 p.m. is hereby vacated and off calendar.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Introduction</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This action arises from a dispute between Defendants Countrywide Home Loans, Inc. and ReconTrust Company, N.A. (collectively &#x201C;Defendants&#x201D;) and Plaintiff Juan Javier Alvarado regarding a loan secured by Mr. Alvarado's property. (Compl. &#182; 7.) Mr. Alvarado's complaint alleges that Defendants have violated numerous state and federal statutes. (Compl. &#182;&#182; 13-19.) Based on these allegations, Mr. Alvarado seeks declaratory relief, cancellation of the loan and Defendants' interests in the property, and to quiet title to the property. (Compl. &#182;&#182; 32-33.) Defendants now move to dismiss for failure to state a claim pursuant to Federal Rule of Civil Procedure 12(b)(6). For the following reasons, Defendants' motion to dismiss is GRANTED WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Standard of Review</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">A motion to dismiss under Federal Rule of Civil Procedure 12(b)(6) tests the legal sufficiency of the claims asserted in the complaint. The issue on a motion to dismiss for failure to state a claim is not whether the claimant will ultimately prevail, but whether the claimant is entitled to offer evidence to support the claims asserted. <ital>Gilligan v. Jamco Dev. Corp.</ital>, 108 F.3d 246, 249 (9th Cir. 1997). When evaluating a Rule 12(b)(6) motion, the district court must accept all material allegations in the complaint as true and construe them in the light most favorable to the non-moving party. <ital>Mayo v. Gomez</ital>, 32 F.3d 1382, 1384 (9th Cir. 1994). Rule 12(b)(6) is read in conjunction with Rule 8(a), which requires only a short and plain statement of the claim showing that the pleader is entitled to relief. <csc>Fed. R. Civ. P.</csc> 8(a)(2). Dismissal of a complaint for failure to state a claim is not proper where a plaintiff has alleged &#x201C;enough facts to state a claim to relief that is plausible on its face.&#x201D; <ital>Bell Atl. Corp. v. Twombly</ital>, 127 S.Ct. 1955, 1974 (2007). In keeping with this liberal pleading standard, the district court should grant the plaintiff leave to amend if the complaint can possibly be cured by additional factual allegations. <ital>Doe v. United States</ital>, 58 F.3d 494, 497 (9th Cir. 1995).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Analysis</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">The Federal Rules of Civil Procedure require that a pleading provide the opposing party with notice of the relief sought. Rule 8(a) states:</paratext>
+<para><paratext ID="p5" first-line="1" turnover="1">A pleading that states a claim for relief must contain:</paratext>
+<para><paratext ID="p6" first-line="1" turnover="1">(1) a short and plain statement of the grounds for the court's jurisdiction, unless the court already has jurisdiction and the claim needs no new jurisdictional support;</paratext></para>
+<para><paratext ID="p7" first-line="1" turnover="1">(2) a short and plain statement of the claim showing that the pleader is entitled to relief; and</paratext></para>
+</para>
+<paratext ID="p8" contd-flag="y"><csc>Fed. R. Civ. P.</csc> 8(a). Insofar as a complaint fails to provide the opposing party with notice of the claims against him and the nature of the relief sought, the pleading is deficient.</paratext>
+</para>
+<para><paratext ID="p9" level="1">Mr. Alvarado's complaint fails to satisfy to this standard because the allegations contained therein are too vague to provide sufficient notice to allow Defendants to respond. Mr. Alvarado alleges that Defendants violated California and federal laws, while alleging only an inadequate handful of facts to back those allegations. Mr. Alvardo includes virtually no details regarding the loan transaction, its negotiation, or that the statutes Defendants allegedly violated apply to Mr. Alvarado's loan. Furthermore, Mr. Alvarado seeks rescission or cancellation of the loan, but has not alleged that he has or will tender the borrowed funds. Defendants raise numerous arguments in their motion to dismiss, and Mr. Alvarado is encouraged to consider these arguments should he choose to amend his complaint.</paratext></para>
+<para><paratext ID="p10" level="1">Mr. Alvarado argues that this action was improperly removed, and this Court does not have jurisdiction. Mr. Alvarado is mistaken. A cause of action arises under federal law if &#x201C;federal law creates the cause of action.&#x201D; <ital>Merrell Dow Pharmaceuticals Inc. v. Thompson</ital>, 478 U.S. 804, 808 (1986). Mr. Alvarado's complaint alleges violations of federal law. (Compl. &#182; 19.) Mr. Alvarado also seeks relief under these federal statutes. (Compl. &#182;&#182; 44-45.) Although Mr. Alvarado misleadingly entitles his cause of action under these statutes as one for declaratory relief, his federal claims nonetheless appear on the face of his well-pleaded complaint. <ital>See Skelly Oil Co. v. Phillips Petroleum Co.</ital>, 339 U.S. 667 (1950).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">For the foregoing reasons, Defendants' motion to dismiss is GRANTED WITH LEAVE TO AMEND. Mr. Alvarado has twenty days leave to amend his complaint consistent with this order. Defendants have 20 days thereafter to respond.</paratext></para>
+<para><paratext ID="p12" level="1">MINUTES FORM 11 CIVIL-GEN</paratext></para>
+<para><paratext ID="p13" level="1">Initials of Deputy Clerk MU</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

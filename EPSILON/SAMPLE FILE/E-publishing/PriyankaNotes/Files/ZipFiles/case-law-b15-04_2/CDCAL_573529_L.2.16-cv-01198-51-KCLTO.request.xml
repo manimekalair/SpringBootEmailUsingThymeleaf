@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y">CIVIL MINUTES&#8212;GENERAL</court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold><ital>Steven D. Irvin</ital></bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold><ital>Rebecca M. Madrid, et al.</ital></bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. <bold>CV 16-1198-DMG (JEMx)</bold></docket.line>
+<docket.number><bold>CV 16-1198-DMG (JEMx)</bold></docket.number>
+<docket.line suppress-flag="y">2:16-cv-01198-DMG-JEM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 02/16/2017</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">KANE TIEN, Deputy Clerk, Attorneys Present For Plaintiff(s): None Present</attorney.line>
+<attorney.line first-line="1">NOT REPORTED, Court Reporter, Attorneys Present For Defendant(s): None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: IN CHAMBERS &#8212; ORDER RE DEFENDANTS' MOTIONS TO DISMISS, MOTION TO STRIKE, AND PLAINTIFF'S REQUEST FOR RECONSIDERATION [41, 42, 44, 45]</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>The Honorable DOLLY M. GEE, UNITED STATES DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>1. Motions to Dismiss</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On December 8, 2016, the Court granted Defendants Carol Burke, Kathleen Diesman, Maurice Jolliff, Bradley L. McCartt, and Rebecca Madrid's motion to dismiss Plaintiff Steven Irvin's original Complaint. (&#x201C;December 8, 2016 Order&#x201D;) [Doc. # 38.] The Court also granted Defendant Rodney Justice's separate motion to dismiss the original Complaint for Irvin's failure to file an opposition. <ital>Id.</ital> at 8. The Court gave Irvin leave to amend his claims against Burke, Diesman, Jolliff, and Madrid. <ital>Id.</ital> The Court did not give Irvin leave to amend his claims against McCartt. <ital>Id.</ital></paratext></para>
+<para><paratext ID="p2" level="1">On December 29, 2016, Irvin filed a First Amended Complaint (&#x201C;FAC&#x201D;) alleging (1) unlawful seizure of Plaintiff's person under 42 U.S.C. &#167; 1983 in violation of the Fourth Amendment (against Madrid, Dennis Kitterman, and George Bukowski); (2) false imprisonment under 42 U.S.C. &#167;&#167; 1983, 1985, and 1986 in violation of the Fourth Amendment (against Madrid, Kitterman, Bukowski, and Joe Reyes); (3) unlawful seizure of Plaintiff's papers and effects under 42 U.S.C. &#167; 1983 in violation of the Fourth Amendment (against Steve Bisaha, John Day, Reyes, and Jolliff); (4) conspiracy to deny equal protection of the laws under 42 U.S.C. &#167;&#167; 1983, 1985, and 1986 in violation of the Fourteenth Amendment (against all named defendants); (5) violations of the Bane Act, California Civil Code section 52.1 (against all named defendants); (6) fraud under California law (against McCartt); (7) defamation under California law (against Madrid and McCartt); and (8) civil conspiracy under California law (against all named defendants).</paratext></para>
+<para><paratext ID="p3" level="1">On January 19, 2017, Burke, Diesman, Jolliff, and Madrid (&#x201C;Defendants&#x201D;) filed a motion to dismiss Irvin's FAC. [Doc. # 42.] On that same day, Justice filed a separate motion to dismiss the FAC with prejudice. [Doc. # 45.] The motions are scheduled for hearing on February 17, 2017. Pursuant to Local Rule 7-9, Irvin's oppositions were due by January 27, 2017, <ital>i.e.</ital>, at least 21 days before the date of the hearing. To date, Irvin has not filed any opposition to either motion and the time to do so has now passed.</paratext></para>
+<para><paratext ID="p4" level="1">This is the second time that Irvin has failed to file an opposition to a motion to dismiss by Justice. <ital>See</ital> December 8, 2016 Order at 8. He has also not requested any further leave to amend in response to any of the pending motions. Irvin has already had previous opportunities to amend as to each of these defendants.</paratext></para>
+<para><paratext ID="p5" level="1">Accordingly, the Court rules as follows:</paratext>
+<para><paratext ID="p6" first-line="2" turnover="hanging">a. The Court <bold>GRANTS</bold> Defendants' motion to dismiss <bold>with prejudice</bold> as to Irvin's Section 1983, 1985, and 1986 claims against Burke, Diesman, and Madrid due to his failure to file an opposition. <ital>See</ital> C.D. Cal. L.R. 7-12 (&#x201C;The failure to file any required paper, or the failure to file it within the deadline, may be deemed consent to the granting or denial of the motion.&#x201D;). The Court <bold>DISMISSES without prejudice</bold> Irvin's state law claims against Burke, Diesman, and Madrid. <ital>See</ital> FAC &#182;&#182; 138&#8211;149. As Irvin does not allege a valid federal claim against these Defendants, the Court declines to exercise supplemental jurisdiction over his state law claims against Burke, Diesman, and Madrid. <ital>See Sanford v. MemberWorks, Inc.</ital>, 625 F.3d 550, 561 (9th Cir. 2010) (&#x201C;A district court &#x2018;may decline to exercise supplemental jurisdiction&#x2019; if it &#x2018;has dismissed all claims over which it has original jurisdiction.&#x2019;&#x201D; (quoting 28 U.S.C. &#167; 1367(c)(3))).</paratext></para>
+<para><paratext ID="p7" first-line="2" turnover="hanging">b. The Court <bold>GRANTS</bold> the motion to dismiss all federal claims against Jolliff <bold>with prejudice</bold> for failure to file an opposition and failure to cure the deficiencies the Court previously identified. <ital>See</ital> December 8, 2016 Order at 7. The Court <bold>DISMISSES without prejudice</bold> Irvin's state law claims against Jolliff. <ital>See supra</ital> (declining to exercise supplemental jurisdiction).</paratext></para>
+<para><paratext ID="p8" first-line="2" turnover="hanging">c. The Court <bold>GRANTS</bold> the motion to dismiss all federal claims against Justice <bold>with prejudice</bold> for failure to file an opposition. <ital>See</ital> Doc. # 45 at 1 (Justice's motion seeks to dismiss claims against him with prejudice). The Court <bold>DISMISSES without prejudice</bold> Irvin's state law claims against Justice. <ital>See supra</ital> (declining to exercise supplemental jurisdiction).</paratext></para>
+</para>
+<para><paratext ID="p9" level="1">Defendants Burke, Diesman, Jolliff, and Madrid's motion to strike Irvin's memorandum of points and authorities attached to the FAC is <bold>DENIED</bold> as moot. <ital>See</ital> Doc. # 44.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>2. Irvin's Request for Reconsideration</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">On January 19, 2017, Irvin filed objections to and a request for reconsideration of the Court's January 5, 2017 Order [Doc. # 40] dismissing the FAC as to certain Defendants, and clarifying that all claims against McCartt were dismissed without leave to amend. [Doc. # 41.]</paratext></para>
+<para><paratext ID="p11" level="1">Federal Rule of Civil Procedure 60(b) permits a court to relieve a party from any prior order or decision for a number of reasons including, but not limited to: (1) mistake, inadvertence, surprise, or excusable neglect; (2) newly discovered evidence that could not have been discovered with reasonable diligence; and (3) any other reason that justifies relief. Fed. R. Civ. P. 60(b)(1), (6).</paratext></para>
+<para><paratext ID="p12" level="1">Local Rule 7-18 limits reconsideration, however, to three enumerated grounds: &#x201C;(a) a material difference in fact or law from that presented to the court before the decision that in the exercise of reasonable diligence could not have been known to the party moving for reconsideration at the time of the decision, or (b) the emergence of new material facts or a change of law occurring after the time of the decision, or (c) a manifest showing of a failure to consider material facts presented to the court before the decision.&#x201D; C.D. Cal. L. R. 7-18. Additionally, &#x201C;[n]o motion for reconsideration shall in any manner repeat any oral or written argument made in support of or in opposition to the original motion.&#x201D; <ital>Id.</ital> &#x201C;Whether to grant a motion for reconsideration under Local Rule 7-18 is a matter within the court's discretion.&#x201D; <ital>Daghlian v. DeVry Univ., Inc.</ital>, 582 F. Supp. 2d 1231, 1251 (C.D. Cal. 2007).</paratext></para>
+<para><paratext ID="p13" level="1">Here, Irvin fails to discuss the legal standard governing motions for reconsideration, including the limitations imposed by the Local Rules. He even fails to assert which of the three enumerated grounds under Local Rule 7-18 serves as the basis for his motion. In sum, Irvin has brought an improper motion for reconsideration and the Court need not consider his arguments that he somehow misconstrued the Court's order dismissing the FAC as to certain Defendants. <ital>See</ital> Doc. # 41 at 2&#8211;3; <ital>FDIC v. Countrywide Sec. Corp. (In re Countrywide Fin. Corp. Mortg.-Backed Sec. Litig.)</ital>, 966 F. Supp. 2d 1031, 1040 (C.D. Cal. 2013) (&#x201C;Plaintiffs have not satisfied any of these conditions [under Local Rule 7-18], and the Court may properly refuse to consider their arguments as a consequence.&#x201D;).</paratext></para>
+<para><paratext ID="p14" level="1">Accordingly, the Court <bold>DENIES</bold> Irvin's request for reconsideration. As the Court explained in its December 18, 2016 Order quite explicitly, all claims against McCartt have been dismissed without leave to amend. The February 17, 2017 hearing on the motion to dismiss is <bold>VACATED</bold>.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p15">&#8195;The sole named defendant remaining in this action is Los Angeles County Sheriff Deputy Steve Bisaha, who apparently has not yet been served as there is neither proof of service on the docket nor any indication in the docket of an issuance of summons. Plaintiff added him as a defendant for the first time in the FAC, without leave of court and without the parties' stipulation. The Court therefore <ital>sua sponte</ital> dismisses the claims against him without prejudice. <ital>See</ital> Fed. R. Civ. P. 15(a)(2); <ital>see, e.g., United States v. Kiewit Pac. Co.</ital>, 41 F. Supp. 3d 796, 810 (N.D. Cal. 2014) (&#x201C;As an initial matter, the allegations [against] new defendants Ken Riley and Terry Robinson must be dismissed because the Court did not grant [Plaintiffs] leave to add new claims against new Defendants.&#x201D;) (citing Fed. R. Civ. P. 15(a)(2)). In any event, the Court would not have granted a request by Plaintiff to add Bisaha as a defendant because of futility. Plaintiff's sole federal claim against Bisaha is for unlawful seizure of Plaintiff's papers and effects under section 1983 in violation of the Fourth Amendment. FAC &#182;&#182; 132&#8211;134. Plaintiff's claim is based on Bisaha's conduct on October 1, 2005. <ital>Id.</ital> &#182;&#182; 48, 53. Plaintiff's section 1983 claim against Bisaha is therefore time-barred. <ital>See</ital> December 8, 2016 Order at 4 (finding section 1983 claims arising from facts that occurred before February 2012 are time-barred).</paratext></para></footnote.body></footnote>
+<para><paratext ID="p16" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

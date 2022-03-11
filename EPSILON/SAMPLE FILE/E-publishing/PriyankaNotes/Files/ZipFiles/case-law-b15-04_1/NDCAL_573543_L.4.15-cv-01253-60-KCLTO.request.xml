@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><csc><bold>United States District Court</bold></csc></venue.name>
+<venue.name><csc><bold>Northern District of California</bold></csc></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold><csc>Mesa Underwriters Specialty Insurance Co.</csc>, Plaintiff</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold><csc>Paradise Skate, Inc.</csc>, Defendant.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No.: 15-CV-01253-YGR</bold></docket.line>
+<docket.number><bold>15-CV-01253-YGR</bold></docket.number>
+<docket.line suppress-flag="y">4:15-cv-01253-YGR</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 05/02/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><csc><bold>Order Adopting Magistrate Judge's Report and Recommendation; Granting Motion for Default Judgment</bold></csc></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><csc><bold>Yvonne Gonzalez Rogers United States District Court Judge</bold></csc></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">The Court has reviewed Magistrate Judge Corley's Report and Recommendation to Grant Plaintiff's Motion for Default Judgment (Dkt. No. 58), to which no party filed an objection. The Court finds the Report correct, well-reasoned and thorough, and adopts it in every respect, except that the Court also <csc><bold>Grants</bold></csc> Plaintiff's request for costs incurred in this action, as allowed by law. Plaintiff shall comply with standard procedures and submit proof of costs to the Clerk of Court with the appropriate application.</paratext></para>
+<para><paratext ID="p2" level="1">Accordingly, and for the reasons set forth in the Report, Plaintiff's Motion for Default Judgment (Dkt. No. 52) is <csc><bold>Granted.</bold></csc> The Judgment shall be entered by separate Order.</paratext></para>
+<para><paratext ID="p3" level="1">This terminates Docket Numbers 52 &#38; 58.</paratext></para>
+<para><paratext ID="p4" level="1"><csc><bold>It Is So Ordered.</bold></csc></paratext></para>
+<para><paratext ID="p5" level="1"><bold>Date: May 2, 2016</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

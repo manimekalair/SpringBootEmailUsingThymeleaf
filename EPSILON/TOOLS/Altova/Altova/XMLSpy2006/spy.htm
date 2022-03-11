@@ -1,0 +1,24 @@
+<HTML>
+<BODY>
+<SCRIPT language="javascript" defer=true>
+<!--
+
+var gsNO_WCRIPT_ERROR='Editing Files with XML Spy directly from your browser requires \n' +
+                      'the Windows Scripting Host, which is not installed on your System.\n'+
+                      'You may download the Windows Scripting host from \n'+
+                      'http://msdn.microsoft.com/scripting .'
+
+var win = external.menuArguments;
+var sFile=win.document.URL;
+try{
+  var WshShell = new ActiveXObject("WScript.Shell");
+  var sSpyPath=WshShell.regRead('HKCU\\Software\\Altova\\XML Spy\\Setup\\InstallationDirectory');
+  sSpyPath=sSpyPath + 'xmlspy.exe';
+  var oExec = WshShell.run('"' + sSpyPath+'" "'+ sFile + '"');
+}catch(ex){
+  win.alert(gsNO_WCRIPT_ERROR)  
+
+}
+</SCRIPT>
+</BODY>
+</HTML>

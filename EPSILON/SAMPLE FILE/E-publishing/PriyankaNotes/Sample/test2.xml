@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "BITS-book-oasis2.dtd">
+
+<book-part book-part-type="chapter" id="chap1">
+<book-part-meta>\
+<book-part-id book-part-id-type="doi">10.22233/9781905319619.1</book-part-id>
+
+<subj-group subj-group-type="topic-type">
+<subject>Clinical pathology and cytology</subject>
+</subj-group>
+
+<subj-group subj-group-type="animal-type">
+<subject>Dog</subject>
+<subject>Cat</subject>
+</subj-group>
+
+<subj-group subj-group-type="product-type">
+<subject>Manual</subject>
+</subj-group>
+
+<subj-group subj-group-type="animal-type">
+<subject>Dog</subject>
+<subject>Cat</subject>
+</subj-group>
+
+
+<book-title-group>
+<book-title>The Chronicle of a People&#x2019;s War</book-title>
+<subtitle>The Military and Strategic History of the Cambodian Civil War, 1979&#x2013;1991</subtitle>
+</book-title-group>
+
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Allen</surname>
+<given-names>Diane Jones</given-names>
+</name>
+</contrib>
+
+<contrib contrib-type="author">
+<name name-style="western">
+<surname initials="J">Jones</surname>
+<given-names initials="RS">Ronald S.</given-names>
+</name>
+</contrib>
+</contrib-group>
+
+<fpage></fpage>
+<lpage></lpage>
+
+<permissions>
+<copyright-statement>&#x00A9; 2017 British Small Animal Veterinary Association</copyright-statement>
+<copyright-year>2017</copyright-year>
+<copyright-holder>British Small Animal Veterinary Association</copyright-holder>
+</permissions>
+
+<self-uri content-type="pdf" xlink:href="9781905319619.1.pdf"/>
+
+<abstract>
+</abstract>
+</book-part-meta>
+
+<body>
+<sec1 id="ch1-sec1">
+<label>1.</label>
+<title>Algemeen kader</title>
+
+<sec2 id="ch1-sec2">
+<label>1.1.</label>
+<title>Klimaatverdrag</title>
+
+<p>De internationale gemeenschap heeft in 1992 het Raamverdrag over Klimaatverandering afgesloten, bekend als het ‘Klimaatverdrag van Rio’.</p>
+</sec2>
+
+<sec2 id="ch1-sec2">
+<label>1.2.</label>
+<title>Protocol van Kyoto</title>
+<p>De modaliteiten voor de uitvoering van het Klimaatverdrag worden sinds 1995 jaarlijks tijdens de Conferentie van de Partijen van het Klimaatverdrag (COP) besproken.</p>
+
+
+<p>Wegens de bevoegdheidsverdeling in België moest deze reductiedoelstelling tussen de gewesten en de federale staat worden verdeeld.
+
+<target target-type="page" id="page_"/>zijn voor het neerleggen van een bepaalde hoeveelheid rechten onder het Protocol van Kyoto.</p>
+</sec2>
+</sec1>
+================================
+<fig id="fig1_1">
+<label>1.1</label>
+<caption><title>he scavenging system.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig1_1.png" mime-subtype="png"/>
+<p>
+<fn><p>(Courtesy of Marieke de Vries, Davies Veterinary Specialists, Higham Gobion, UK)</p>
+</fn>
+</p>
+</fig>
+*******************************
+
+<table-wrap id="tbl1_2">
+<label>1.2</label>
+<caption><title>ppm = parts per million.</title></caption>
+
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="%"/>
+<col content-type="2" width="%"/>
+</colgroup>
+<thead>
+<row>
+<entry align="left"><p>Agent</p></entry>
+<entry align="left"><p>Concentration</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Halothane</p></entry>
+<entry align="left"><p>10 ppm </p></entry>
+</row>
+<row>
+<entry align="left"><p>Isoflurane</p></entry>
+<entry align="left"><p>50 ppm</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+
+*******************************
+<table-wrap id="tbl3_1">
+<label>Table 3.1</label>
+<caption><title>Unit size conversion</title></caption>
+
+<table frame="topbot" colsep="0" rowsep="0">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1" align="left"/>
+<colspec colnum="2" colname="col2" align="left"/>
+<colspec colnum="3" colname="col3" align="left"/>
+<colspec colnum="4" colname="col4" align="left"/>
+<thead>
+<row>
+<entry align="left"><p><italic>KPRA&#x2019;s echelons (average number of personnel)</italic></p></entry>
+<entry align="left"><p><italic>Khmer Rouge (NADK)</italic></p></entry>
+<entry align="left"><p><ITALIC>KPNLAF</ITALIC></p></entry>
+<entry align="left"><p><ITALIC>ANS</ITALIC></p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Battalion (200&#x2013;300)</p></entry>
+<entry align="left"><p>Regiment</p></entry>
+<entry align="left"><p>Regiment</p></entry>
+<entry align="left"><p>Regiment</p></entry>
+</row>
+<row>
+<entry align="left"><p>Regiment (300&#x2013;500)</p></entry>
+<entry align="left"><p>Division (except some special divisions)</p></entry>
+<entry align="left"><p>Brigade</p></entry>
+<entry align="left"><p>Brigade</p></entry>
+</row>
+<row>
+<entry align="left"><p>Brigade (1500&#x2013;2000)</p></entry>
+<entry align="left"><p>Special regiments</p></entry>
+<entry align="left"><p>OMZ</p></entry>
+<entry align="left"><p>Division</p></entry>
+</row>
+<row>
+<entry align="left"><p>Division (3000&#x2013;4000)</p></entry>
+<entry align="left"><p>980th, 920th, 450th, and 415th Divisions</p></entry>
+<entry align="left"><p></p></entry>
+<entry align="left"><p></p></entry>
+</row>
+<row>
+<entry align="left"><p>Division-plus (7000) or Corps</p></entry>
+<entry align="left"><p>Front</p></entry>
+<entry align="left"><p></p></entry>
+<entry align="left"><p></p></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</table-wrap>
+
+======================================
+<table-wrap>
+<label>Tabel 1:</label>
+<caption><title>De lastenverdeling van de Belgische Kyotoreductiedoelstelling tussen de gewesten volgens het akkoord van 8 maart 2004</title></caption>
+<table frame="all" border="Vside">
+<thead>
+<th>
+<td></td>
+<td>JAARLIJKSE GEMIDDELDE HOEVEELHEID NEER TE LEGGEN RECHTEN</td>
+<td>PROCENTUELE WIJZIGING T.O.V. UITSTOOT IN 1990</td>
+</th>
+</thead>
+
+<tbody>
+<tr>
+<td>Vlaams Gewest</td>
+<td>83,37 Mton CO2-eq.</td>
+<td align="left">-5,2%</td>
+</tr>
+<tr>
+<td>Waals Gewest</td>
+<td>50,23 Mton CO2-eq.</td>
+<td>-7,5%</td>
+</tr>
+<tr>
+<td>Brussels Hoofdstedelijk Gewest</td>
+<td>4,13 Mton CO2-eq.</td>
+<td>+3,475%</td>
+</tr>
+</tbody>
+<tfoot>
+<fn><p></p></fn>
+</tfoot>
+</table>
+</table-wrap>
+
+
+<p>de federale overheid bijkomende interne federale beleidsmaatregelen inzetten om de reductie-inspanningen van de gewesten te ondersteunen.</p>
+
+
+<sec1 id="ch1-sec1">
+<label>2.</label>
+<title>Wetgeving</title>
+
+<sec2 id="ch1-sec2">
+<label>2.1.</label>
+<title>Richtlijn verhandelbare emissierechten</title>
+<p>Met de Richtlijn 2003/87/EG over de verhandelbare emissierechten voor broeikasgassen (VER-richtlijn) heeft de EU vanaf 1 januari 2005 een CO2-emissiehandelssysteem ingevoerd.</p>
+
+
+<table>
+<label>Tabel 2:</label>
+<title>Activiteiten die onder de VER-richtlijn vallen</title>
+<thead>
+<th>
+<td><p>ACTIVITEITEN</p></td>
+</th>
+</thead>
+<body>
+<tr>
+<td><p>Energieactiviteiten</p>
+<p>– Verbrandingsinstallaties met een nominaal thermisch ingangsvermogen van meer dan 20 MW (met uitzondering van installaties voor het verbranden van gevaarlijke afvalstoffen of stadsafval)</p>
+<p>– Aardolieraffinaderijen</p>
+<p>– Cokesfabrieken</p></td>
+</tr>
+<tr>
+<td><p>Productie en verwerking van ferrometalen</p>
+<p>– Roost- of sinterinstallaties voor metaalerts (waaronder sulfide-erts)</p>
+<p>– Installaties voor de vervaardiging van ruwijzer of staal (primaire of secundaire smelting) inclusief continugieten, met een capaciteit van meer dan 2,5 ton per uur</p></td>
+</tr>
+
+<tr>
+<td><p>Delfstoffenindustrie</p>
+<p>– Installaties voor de vervaardiging van cementklinkers in draaiovens met een productiecapaciteit van meer dan 500 ton per dag of de bereiding van kalk in draaiovens met een productiecapaciteit van meer dan 50 ton per dag, dan wel in andere ovens met een productiecapaciteit van meer dan 50 ton per dag</p>
+<p>– Installaties voor de vervaardiging van glas, inclusief glasvezel, met een smeltcapaciteit van meer dan 20 ton per dag</p>
+<p>– Installaties voor de vervaardiging van ceramische producten door vuren, in het bijzonder dakpannen, bakstenen, vuurvaste stenen, tegels, aardewerk of porselein, met een productiecapaciteit van meer dan 75 ton per dag en/of met een ovencapaciteit van meer dan 4 m` en met een zetdichtheid per oven van meer dan 300 kg/m`</p></td>
+</tr>
+</body>
+</table>
+
+<table>
+<thead>
+<th>
+<td>ACTIVITEITEN</td>
+</th>
+</thead>
+<tbody>
+<tr>
+<td><p>Overige activiteiten</p>
+<p>Industriële installaties voor de vervaardiging van:</p>
+<p>a) pulp uit hout of andere vezelhoudende materialen</p>
+<p>b) papier en karton met een productiecapaciteit van meer dan 20 ton per dag</p></td>
+</tr>
+</tbody>
+<tfoot>
+<fn><p>Bron: Annex I van Richtlijn 2003/87/EG</p></fn>
+</tfoot>
+</table>
+
+<p>Voor het opstellen van de toewijzingsplannen voor de handelsperiode 2008-2012 heeft de Europese Commissie een nieuw richtsnoer opgesteld met verduidelijking en bijsturing van een aantal criteria.</p>
+</sec2>
+
+<sec2 id="ch1-sec2">
+<label>2.2.</label>
+
+<p>Het nationaal register heeft de volgende functies:
+
+
+<list list-tye="bullet">
+<list-item><label>&x2013;</label><p>exploitanten emissierechten toewijzen.</p></list-item>
+<list-item><label>&x2013;</label><p>transacties van emissierechten mogelijk maken.</p></list-item>
+<list-item><label>&x2013;</label><p>een boekhouding bijhouden en controle toelaten.</p></list-item>
+</list>
+
+</p>
+</sec2>
+
+<sec2 id="ch1-sec2">
+<label>2.3.</label>
+<title>Besluit verhandelbare emissierechten</title>
+<p>Het Uitvoeringsbesluit verhandelbare emissierechten (VER-besluit) vertaalt de Europese VER-richtlijn in Vlaamse wetgeving.</p>
+</sec2>
+
+<sec2 id="ch1-sec2">
+<label>2.4.</label>
+<title>Vlaams toewijzingsplan</title>
+
+<p>De Vlaamse Regering keurde het Vlaams toewijzingsplan definitief goed op 18 februari 2005 (B.S. 28 februari 2005).</p>
+
+<p>De timing en procedure voor de totstandkoming van een nieuw Vlaams Toewijzingsplan CO2-emissierechten 2008-2012 is grotendeels opgenomen in het Besluit van de Vlaamse Regering van 4 februari 2005 inzake de verhandelbare emissierechten voor broeikasgassen (zie bv. artikels 2, 4 en 6 van het besluit).</p>
+
+
+</sec2>
+</sec1>
+</body>
+</book-part>
+------------------------
+Front-mater = <book-part-meta>
+
+<p>
+Sec, Para, fig, tbales, list, quot,
+link-ref, fig, table, fn, chapters,
+id:
+<xref rid="F1">Fig. 1</xref>
+
+&#x2018; '
+&#x2019; 's
+&#x2013; -
+
+<list list-type="simple">
+<list-item><label>&#x2013;</label><p>
+
+
+LINK:
+<xref ref-type="page" id="page_"/>

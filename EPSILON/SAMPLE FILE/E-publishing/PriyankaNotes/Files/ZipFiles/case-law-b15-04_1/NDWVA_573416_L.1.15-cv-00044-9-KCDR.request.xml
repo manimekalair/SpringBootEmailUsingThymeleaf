@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>ALPHA RHO ALUMNI CORPORATION, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>FIRST UNITED BANK AND TRUST, INC., Defendant.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CIVIL ACTION NO. 1:15CV44 (Judge Keeley)</bold></docket.line>
+<docket.number><bold>1:15CV44 (Judge Keeley)</bold></docket.number>
+<docket.line suppress-flag="y">1:15-cv-00044-JPB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/27/2015</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER GRANTING PLAINTIFF'S MOTION TO PARTICIPATE [DKT. NO. 7]</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">IRENE M. KEELEY UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On April 13, 2015, the plaintiff, Alpha Rho Alumni Corporation (&#x201C;Alpha Rho&#x201D;) filed a motion pursuant to LR Gen. P. 83.04 seeking permission to allow two law students, Andrew Shaffer and John Brewster, to participate (Dkt. No. 7). On April 27, 2015, the defendant, First United Bank and Trust, Inc. (&#x201C;First United&#x201D;), filed a response stating that it does not object to the motion (Dkt. No. 8).<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p2">&#8195;First United does not concede that Alpha Rho is &#x201C;indigent&#x201D; or &#x201C;unable to pay for legal services.&#x201D; (Dkt. No. 8 at 1). Alpha Rho is a &#x201C;West Virginia non-profit corporation&#x201D; that has undergone &#x201C;severe financial hardship.&#x201D; (Dkt. No. 1-5 at 1, 4). The Clinical Law Program at the College of Law has agreed to represent it, leading this Court to believe that the indigence requirement of Rule 83.04 has been met.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p3" level="1">Under Rule 83.04, a law student may appear on behalf of an indigent consenting party so long as the student has met certain requirements: (1) current enrollment in a law school approved by the American Bar Association; (2) successful completion of four semesters of legal studies; (3) a certification from the dean of the law school that the student has good character and competent legal ability; (4) a certification, in writing, that the student has read the West Virginia Rules of Professional Conduct; (5) introduction to the Court by a permanent member of the bar of the Court; and, (6) neither asking for, nor receiving, any compensation or remuneration of any kind for services from the party assisted. LR Gen. P. 83.04(b).</paratext></para>
+<para><paratext ID="p4" level="1">Alpha Rho has consented to student representation (Dkt. No. 7-1 at 2). The students have averred that they are currently enrolled at the West Virginia University College of Law, and have completed at least four full semesters of law school. <underscore>Id.</underscore> at 2, 3. The Interim Dean of the College of Law, Gregory W. Bowman, has averred that both students are duly enrolled, have completed at least four semesters of law school, are in good academic standing, have not been convicted of a crime of moral turpitude or a felony, and have not been subjected to honor code discipline at the College of Law (Dkt. No. 7-3 at 2-4). The students also have averred that they have read the West Virginia Code of Professional Responsibility, and will not ask for or receive any compensation for their work (Dkt. No. 7-2 at 2-3). Supervising Attorney Michael W. Barill, a permanent member of the bar of this Court, has stated that he will introduce the students to the Court.</paratext></para>
+<para><paratext ID="p5" level="1">For good cause shown and hearing no objection, the Court <bold>GRANTS</bold> the motion (Dkt. No. 7) and instructs Mr. Barill to introduce Mr. Shaffer and Mr. Brewster to the Court at his earliest opportunity.</paratext></para>
+<para><paratext ID="p6" level="1">It is so <bold>ORDERED</bold>.</paratext></para>
+<para><paratext ID="p7" level="1">The Court directs the Clerk to transmit copies of this Order to counsel of record.</paratext></para>
+<para><paratext ID="p8" level="1">DATED: April 27, 2015.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

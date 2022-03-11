@@ -1,0 +1,152 @@
+[
+' // Subroutines for AlgorithmGroup.cs
+' // Language = C#
+' ////////////////////////////////////////////////////////////////////////
+
+' // XML execution implementation subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoopXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoopXML( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter, byval $lCaption )
+
+	if $rAlgorithm.IsParentLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-PARENT
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsDocSwitchLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-DOC
+[		$lRootQType = QualifiedTypeName($rAlgorithm.SourceContext)
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType] [=$rSourceParameter]
+[=$rIndent]	= ( [=$lRootQType] )m_[=$rAlgorithm.InstanceVariable];
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-VAR
+[		$lParentQType = QualifiedTypeName($rAlgorithm.LoopContext)
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lParentQType] [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject
+[=$rIndent]	= ( [=$lParentQType] )m_[=$rAlgorithm.VarID];
+[=$rIndent]for ( int i = 0; i < [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.Get[=$rAlgorithm.SourceContext.Name]Count(); i++)
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.Get[=$rAlgorithm.SourceContext.Name]At( i );
+[
+	else
+
+][=$rIndent]// {LOOP} [=$lCaption]-CHILD
+[		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+	if $lCaption = "XML"
+		$lCursor = "Local" & $rAlgorithm.SourceContext.UniqueName & "Cursor"
+][=$rIndent]for (	XmlNode [=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.GetStarting[=$rAlgorithm.SourceContext.Name]Cursor() ; 
+[=$rIndent]			[=$lCursor] != null;
+[=$rIndent]			[=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.GetAdvanced[=$rAlgorithm.SourceContext.Name]Cursor( [=$lCursor] ) )
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name]ValueAtCursor( [=$lCursor] );
+[	else : if $lCaption = "TEXT"
+][=$rIndent]int n = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name]Count();
+[=$rIndent]for ( int i = 0; i < n; i++)
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name]At( i );
+[
+	endif : endif : endif : endif : endif
+
+	$rIndent = $rIndent & "	"
+
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteBeginCreateXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginCreateXML( byref $rQType, byval $lIndent, byref $rAlgorithm )
+][=$lIndent][=$rQType] New[=$rAlgorithm.TargetContext.UniqueName]TargetObject  = [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.New[=$rAlgorithm.TargetContext.Name]();
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreateXML:
+' ------------------------------------------------------------------------
+sub ExecuteEndCreateXML( byval $lIndent, byref $rAlgorithm )
+][=$lIndent][=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Add[=$rAlgorithm.TargetContext.Name]( New[=$rAlgorithm.TargetContext.UniqueName]TargetObject );
+[
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteBeginDistributeXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginDistributeXML( byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+]
+[=$rIndent]ArrayList list = new ArrayList();
+[=$rIndent]foreach (XmlNode node in [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.getDOMNode().ChildNodes)
+[=$rIndent]	list.Add(node);
+[=$rIndent]foreach (XmlNode node in [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.getDOMNode().Attributes)
+[=$rIndent]	list.Add(node);
+[=$rIndent]foreach (XmlNode node in list)
+[=$rIndent]{
+[endsub
+
+' ------------------------------------------------------------------------
+' ExecuteDistLoopXML:
+' ------------------------------------------------------------------------
+sub ExecuteDistLoopXML( byref $rIndent, byref $rSubAlgorithm, byref $rSourceParameter, byref $rTargetParameter  )
+	$lQType = QualifiedTypeName($rSubAlgorithm.SourceContext)
+
+	if $rSubAlgorithm.SourceContext.IsBuiltinType or $rSubAlgorithm.SourceContext.IsSimpleType
+		$lArgs = "( node.InnerText )"
+	else
+		$lArgs = "( node )"
+	endif
+]
+[=$rIndent][=$rIndent]if ( node.NodeType == XmlNodeType.[if $rSubAlgorithm.SourceContext.IsAttribute]Attribute[else]Element[endif
+] && node.Name == "[=$rSubAlgorithm.SourceContext.XmlName]" && node.NamespaceURI == "[=$rSubAlgorithm.SourceContext.NamespaceURI]" )
+[=$rIndent][=$rIndent]{
+[$srcParam = "new " & $lQType & $lArgs
+][=$rIndent][=$rIndent][call ExecuteBlock( $rIndent, $rSubAlgorithm.SubAlgorithms, $srcParam, $rTargetParameter, $rSubAlgorithm )]
+[=$rIndent][=$rIndent]}
+[endsub
+
+' ------------------------------------------------------------------------
+' ExecuteEndDistributeXML:
+' ------------------------------------------------------------------------
+sub ExecuteEndDistributeXML( byref $rIndent, byref $rAlgorithm, byref $rTargetParameter )
+]
+[if $rAlgorithm.IsCopyTextNodes
+][=$rIndent][=$rIndent]if ( node.NodeType == XmlNodeType.Text)
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddTextNode( new SchemaString(node.InnerText) );
+[=$rIndent][=$rIndent]}
+[endif 
+if $rAlgorithm.IsCopyCDATA 
+][=$rIndent][=$rIndent]if ( node.NodeType == XmlNodeType.CDATA )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddCDataNode( new SchemaString(node.InnerText) );
+[=$rIndent][=$rIndent]}
+[endif
+if $rAlgorithm.IsCopyComments 
+][=$rIndent][=$rIndent]if ( node.NodeType == XmlNodeType.Comment)
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddComment( new SchemaString(node.InnerText) );
+[=$rIndent][=$rIndent]}
+[endif
+if $rAlgorithm.IsCopyPIs 
+][=$rIndent][=$rIndent]if ( node.NodeType == XmlNodeType.ProcessingInstruction )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddProcessingInstruction( new SchemaString(node.Name), new SchemaString(node.InnerText) );
+[=$rIndent][=$rIndent]}
+[endif]
+[=$rIndent]}
+[endsub
+
+' EOF
+]
+

@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapForce", "[=$application.Name].vcproj", "{[=$TestProjectGuid]}"
+EndProject
+[
+foreach $library in $application.Libraries
+]Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[=$library.UniqueName]", "..\\[=$library.UniqueName]\\[=$library.UniqueName].vcproj", "{[=$library.Guid]}"
+EndProject
+[next
+
+foreach $FuncLib in $application.FunctionLibraries
+	if $FuncLib.Name <> "core" and $FuncLib.Name <> "db" and $FuncLib.Name <> "lang" and $FuncLib.Name <> "edifact" and not $FuncLib.HasOnlyLocalFunctions
+]Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[=$FuncLib.Name]", "..\\[=$FuncLib.Name]\\[=$FuncLib.Name].vcproj", "{[=$FuncLib.Guid]}"
+EndProject
+[	endif
+next
+
+]Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Altova", "..\\Altova\\Altova.vcproj", "{[=$AltovaLibGuid]}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AltovaFunctions", "..\\AltovaFunctions\\AltovaFunctions.vcproj", "{[=$AltovaFunctionsGuid]}"
+EndProject
+[
+if $DBLibraryCount > 0
+]Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AltovaDB", "..\\AltovaDB\\AltovaDB.vcproj", "{[=$AltovaDBLibGuid]}"
+EndProject
+[endif
+
+if $EDILibraryCount > 0
+]Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AltovaText", "..\\AltovaText\\AltovaText.vcproj", "{[=$AltovaTextLibGuid]}"
+EndProject
+
+[endif
+
+if $XMLLibraryCount > 0
+]Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AltovaXML", "..\\AltovaXML\\AltovaXML.vcproj", "{[=$AltovaXMLLibGuid]}"
+EndProject
+[endif
+
+]
+Global
+[
+call vcsln8_SolutionConfigurationPlatforms()
+]	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+[
+call vcsln8_ProjectConfigurationPlatforms_Project($TestProjectGuid)
+foreach $library in $application.Libraries
+	call vcsln8_ProjectConfigurationPlatforms_Project($library.Guid)
+next
+foreach $FuncLib in $application.FunctionLibraries
+	if $FuncLib.Name <> "core" and $FuncLib.Name <> "db" and $FuncLib.Name <> "lang" and $FuncLib.Name <> "edifact" and not $FuncLib.HasOnlyLocalFunctions
+		call vcsln8_ProjectConfigurationPlatforms_Project($FuncLib.Guid)
+	endif
+next
+call vcsln8_ProjectConfigurationPlatforms_Project($AltovaLibGuid)
+call vcsln8_ProjectConfigurationPlatforms_Project($AltovaFunctionsGuid)
+if $DBLibraryCount > 0
+	call vcsln8_ProjectConfigurationPlatforms_Project($AltovaDBLibGuid)
+endif
+if $EDILibraryCount > 0
+	call vcsln8_ProjectConfigurationPlatforms_Project($AltovaTextLibGuid)
+endif
+if $XMLLibraryCount > 0
+	call vcsln8_ProjectConfigurationPlatforms_Project($AltovaXMLLibGuid)
+endif
+]	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

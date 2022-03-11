@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8212; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>TERRY ROBINSON-HINES, TONY HINES</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>U.S. BANK NATIONAL ASSOCIATION, et al. AS TRUSTEE FOR LEHMAN BROTHER STRUCTURED ASSET SECURITIES CORPORATION SASCO 2007-BNCI, and DOES 1 through 50, inclusive</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. EDCV 09-1176-VAP (CWx)</docket.line>
+<docket.number>EDCV 09-1176-VAP (CWx)</docket.number>
+<docket.line suppress-flag="y">5:09-cv-01176-VAP-CW</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 07/29/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Marva Dillard, Courtroom Deputy, ATTORNEYS PRESENT FOR PLAINTIFFS: None</attorney.line>
+<attorney.line first-line="1">None Present, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS: None</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">PROCEEDINGS: MINUTE ORDER GRANTING MOTION TO DISMISS AND REMANDING ACTION TO RIVERSIDE COUNTY SUPERIOR COURT (IN CHAMBERS)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HONORABLE VIRGINIA A. PHILLIPS, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">The Court has received and considered the papers filed in support of, and in opposition to, Defendant's &#x201C;Motion to Dismiss the Complaint&#x201D; (&#x201C;Motion&#x201D;). The matter is appropriate for resolution without hearing pursuant to Local Rule 7-15; the Court VACATES the hearing currently set on August 10, 2009 at 10:00 a.m. For the following reasons, the Court GRANTS the Motion and remands the action to the California Superior Court for Riverside County.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I. BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">On May 22, 2009, Plaintiffs Terry Robinson-Hines and Tony Hines (&#x201C;Plaintiffs&#x201D;) filed a Complaint in the California Superior Court for the County of Riverside against Defendant U.S. Bank National Association, as trustee for Lehman Brothers Structured Asset Securities Corporation SASCO 2007-BNC1, with the following claims: (1) declaratory relief; (2) wrongful foreclosure; (3) &#x201C;to cancel trustee's deed upon sale&#x201D;; (4) &#x201C;to vacate and set aside foreclosure sale&#x201D;; (5) quiet title; (6) breach of contract; (7) fraud; (8) negligent misrepresentation; (9) violation of the Truth in Lending Act (&#x201C;TILA&#x201D;); and (10) injunction. (<underscore>See</underscore> Not. of Removal at &#182; 1; Compl.) On June 19, 2009, Defendant removed the action to this Court on the basis of federal question jurisdiction, 28 U.S.C. &#167; 1331.</paratext></para>
+<para><paratext ID="p3" level="1">On July 2, 2009, Defendant filed a &#x201C;Motion to Dismiss the Complaint&#x201D; (&#x201C;Motion&#x201D;) and a &#x201C;Request for Judicial Notice&#x201D; (&#x201C;RJN&#x201D;). Plaintiffs, appearing <underscore>pro se</underscore>, filed timely Opposition on July 27, 2009.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. LEGAL STANDARD</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">Under Rule 12(b)(6), a party may bring a motion to dismiss for failure to state a claim upon which relief can be granted. As a general matter, the Federal Rules require only that a plaintiff provide &#x201C;&#x2018;a short and plain statement of the claim&#x2019; that will give the defendant fair notice of what the plaintiff's claim is and the grounds upon which it rests.&#x201D; <underscore>Conley v. Gibson</underscore>, 355 U.S. 41, 47 (1957) (quoting Fed. R. Civ. P. 8(a)(2)); <underscore>Bell Atlantic Corp. v. Twombly</underscore>, 550 U.S. 544, 555 (2007). In addition, the Court must accept all material allegations in the complaint &#8212; as well as any reasonable inferences to be drawn from them &#8212; as true. <underscore>See Doe v. United States</underscore>, 419 F.3d at 1062; <underscore>ARC Ecology v. U.S. Dep't of Air Force</underscore>, 411 F.3d at 1096.</paratext></para>
+<para><paratext ID="p5" level="1">&#x201C;While a complaint attacked by a Rule 12(b)(6) motion to dismiss does not need detailed factual allegations, a plaintiff's obligation to provide the &#x2018;grounds&#x2019; of his &#x2018;entitlement to relief&#x2019; requires more than labels and conclusions, and a formulaic recitation of the elements of a cause of action will not do.&#x201D; <underscore>Bell Atlantic</underscore>, 550 U.S. at 555 (citations omitted). Rather, the allegations in the complaint &#x201C;must be enough to raise a right to relief above the speculative level.&#x201D; <underscore>Id</underscore>.</paratext></para>
+<para><paratext ID="p6" level="1">In other words, the allegations must be plausible on the face of the complaint. <underscore>See Ashcroft v. Iqbal</underscore>, 556 U.S. __, 129 S. Ct. 1937, 1949 (2009). &#x201C;The plausibility standard is not akin to a &#x2018;probability requirement,&#x2019; but it asks for more than a sheer possibility that a defendant has acted unlawfully. Where a complaint pleads facts that are &#x2018;merely consistent with&#x2019; a defendant's liability, it stops short of the line between possibility and plausibility of &#x2018;entitlement to relief.&#x2019;&#x201D; <underscore>Id.</underscore> (citations and internal quotations omitted).</paratext></para>
+<para><paratext ID="p7" level="1">Although the scope of review is limited to the contents of the complaint, the Court may also consider exhibits submitted with the complaint, <underscore>Hal Roach Studios, Inc. v. Richard Feiner &#38; Co.</underscore>, 896 F.2d 1542, 1555 n.19 (9th Cir. 1990), and &#x201C;take judicial notice of matters of public record outside the pleadings,&#x201D; <underscore>Mir v. Little Co. of Mary Hosp.</underscore>, 844 F.2d 646, 649 (9th Cir. 1988).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Defendant moves the Court to dismiss each of Plaintiffs' claims. (<underscore>See</underscore> Mot. at 1.) The Court evaluates Plaintiffs' TILA claim first, to determine whether or not Plaintiffs have stated a claim for violation of a federal law to satisfy the Court's federal question subject matter jurisdiction requirements.</paratext></para>
+<para><paratext ID="p9" level="1">Plaintiffs' TILA claim is based on the following factual allegation: &#x201C;the amount of annual percentage rate was incorrectly calculated&#x201D; by Defendant in Plaintiffs' closed-end credit transaction. (Compl. at &#182;&#182; 50-52.) For this alleged TILA violation, Plaintiffs seek &#x201C;damages in an amount to be proven at the time of trial&#x201D; and pray &#x201C;for a cancellation and rescission of the BNC Deed of Trust for violation of the Truth in Lending Act.&#x201D; (Compl. at &#182; 52, Prayer for Relief at &#182; 10.) The Court construes Plaintiffs' Complaint as seeking damages and rescission under their TILA claim.</paratext></para>
+<para><paratext ID="p10" level="1">Defendant argues Plaintiffs' TILA claim seeking damages is time-barred by the one-year statute of limitations imposed on such claims. (<underscore>See</underscore> Mot. at 18 (citing 15 U.S.C. &#167; 1640(e).) Plaintiffs allege they executed the loan documents on or about June 20, 2007; Plaintiffs filed their Complaint on May 22, 2009. (See Compl. at &#182; 7; Not. of Removal at &#182; 1.) Accordingly, in so far as Plaintiffs seek damages for a TILA violation, their claim is barred. <underscore>See</underscore> 15 U.S.C. &#167; 1640(e).</paratext></para>
+<para><paratext ID="p11" level="1">To the extent Plaintiffs seek rescission, TILA's rescission remedy does not apply because Plaintiffs' claim concerns &#x201C;a residential mortgage transaction.&#x201D; <underscore>See</underscore> 15 U.S.C. &#167; 1635(e)(1) (listing a residential mortgage transaction as an exemption from the three-year TILA rescission remedy).</paratext></para>
+<para><paratext ID="p12" level="1">Plaintiffs have no remedy under TILA, as neither damages nor rescission are available to them; thus, Plaintiffs are unable to state a claim for violation of TILA. As their TILA claim provided the only basis for federal subject matter jurisdiction in this case, the Court does not reach Plaintiffs' remaining claims.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>IV. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">For the foregoing reasons, the Court GRANTS the Motion to Dismiss and REMANDS the action to the California Superior Court for Riverside County.</paratext></para>
+<para><paratext ID="p14" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

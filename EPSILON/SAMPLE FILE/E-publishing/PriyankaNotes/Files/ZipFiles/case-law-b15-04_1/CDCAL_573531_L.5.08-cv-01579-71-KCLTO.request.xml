@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8211; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>RAYMOND BERNAL, an individual</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>UNITED PARCEL SERVICE CO.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>EDCV 08-1579-VAP (OPx)</docket.line>
+<docket.number>EDCV 08-1579-VAP (OPx)</docket.number>
+<docket.line suppress-flag="y">5:08-cv-01579-VAP-OP</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 11/13/2009</date.line>
+</content.date>
+<procedural.history xml:lang="en">
+<appeal>
+<appeal.text>
+<para><paratext ID="p1" level="1"><bold>PRIORITY SEND</bold></paratext></para>
+</appeal.text>
+</appeal>
+</procedural.history>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Marva Dillard, Courtroom Deputy, ATTORNEYS PRESENT FOR PLAINTIFFS: None</attorney.line>
+<attorney.line first-line="1">None Present, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS: None</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">PROCEEDINGS: MINUTE ORDER (1) DENYING MOTION FOR LEAVE TO FILE FIRST AMENDED COMPLAINT; AND (2) VACATING NOVEMBER 16, HEARING (IN CHAMBERS)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HONORABLE VIRGINIA A. PHILLIPS, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p2" level="1">The Court has received and considered all papers filed in support of and opposition to the &#x201C;Motion for Leave to File First Amended Complaint&#x201D; (&#x201C;Motion&#x201D;) filed by Plaintiff Raymond Bernal (&#x201C;Plaintiff&#x201D;). Plaintiff's Motion is appropriate for resolution without a hearing. <underscore>See</underscore> Local R. 7-15.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I. BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Plaintiff filed this action on November 6, 2008, alleging claims for (1) interference with rights and discrimination under Family Medical Leave Act; (2) wrongful termination; (3) intentional infliction of emotional distress; and (4) negligent infliction of emotional distress.</paratext></para>
+<para><paratext ID="p4" level="1">On June 8, 2009, the Court entered its Civil Trial Scheduling Order, in which it set a discovery cut-off date of October 30, 2009, a non-discovery hearing cut-off date of November 30, 2009, a pre-trial conference for January 11, 2010, and a trial date of January 26, 2010. (Doc. No. 14.) On October 2, 2009, Plaintiff filed an <underscore>ex parte</underscore> application seeking to continue all pre-trial and trial dates by at least 90 days. On October 16, 2009, the Court issued an Order denying the majority of the relief sought by Plaintiff, but continuing the pre-trial conference from January 11, 2010 to January 25, 2010, and the trial date from January 26, 2010, to February 9, 2010.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;The Court's October 16, 2009 order erroneously listed the continued pre-trial conference and trial dates as January 25, 2009 and February 9, 2009, respectively. The Court hereby amends its October 16, 2009 Order for the sole purpose of correcting these dates.</paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p6" level="1">Discovery in this matter is now closed. On October 19, 2009, Defendants filed a Motion for Summary Judgment and noticed a hearing on that motion for November 9, 2009. The Court later continued the hearing on that motion to November 23, 2009.</paratext></para>
+<para><paratext ID="p7" level="1">On October 13, 2009, less than three weeks before the close of discovery in this matter, Plaintiff filed this Motion seeking leave to file a First Amended Complaint and noticed a hearing on the motion for November 16, 2009. Plaintiff seeks leave to amend his Complaint to include a number of allegations of workplace retaliation and harassment he suffered between 2003 and his dismissal in March 2008.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Federal Rule of Civil Procedure 15(a) provides that leave to amend &#x201C;shall be freely given when justice so requires.&#x201D; Fed. R. Civ. P. 15(a). Although liberally granted, leave to amend is not automatic. The Ninth Circuit strongly favors allowing amendment, and considers a motion for leave to amend under four factors: bad faith, undue delay, prejudice to the opposing party, and the futility of amendment. <underscore>Royal Ins. Co. of America v. Southwest Marine</underscore>, 194 F.3d 1009, 1016 (9th Cir. 1999) (quoting <underscore>Kaplan v. Rose</underscore>, 49 F.3d 1363, 1370 (9th Cir. 1994)). &#x201C;[L]ate amendments to assert new theories are not reviewed favorably when the facts and the theory have been known to the party seeking amendment since the inception of the cause of action.&#x201D; <underscore>Acri v. International Assoc. of Machinists &#38; Aerospace Workers</underscore>, 781 F.2d 1393, 1398 (9th Cir. 1986).</paratext></para>
+<para><paratext ID="p9" level="1">Plaintiff has unduly delayed in seeking to amend his Complaint. The facts Plaintiff seeks leave to include have been personally known to him for years, yet he waited until nearly a year after filing his Complaint, and less than three weeks before the close of discovery in this matter, before seeking leave to amend his Complaint to include such facts. Though Plaintiff claims personally to have suffered the alleged harassment and retaliation, he asserts that he only learned of such facts recently, at his own deposition. This simply is not credible.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> Plaintiff offers no persuasive justification for his delay in seeking leave to amend. Plaintiff either knew or should have known these facts at the time he filed his Complaint. <underscore>See Jackson v. Bank of Hawaii</underscore>, 902 F.2d 1385, 1388 (9th Cir. 1990).</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p10">&#8195;Plaintiff's argument that he learned of such facts during the deposition of Marsha Drescher is similarly unpersuasive. The facts Plaintiff seeks to allege would necessarily have been personally known to him. He therefore knew or should have known of these facts independent of Ms. Drescher's testimony.</paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p11" level="1">Furthermore, to allow amendment at this point would prejudice Defendant in a number of ways. First, Defendant would have insufficient time to file a motion for summary judgment as to Plaintiff's Amended Complaint. Second, Defendant would be unable to pursue discovery concerning the new facts Plaintiff seeks to allege, as discovery in this matter has now closed. Even if the Court were inclined to amend its Scheduling Order to remedy these concerns, which it is not, Defendant would be prejudiced by the undue delay that would result from changing the trial date in this matter and from the additional expense of litigation that would result from continued discovery. <underscore>See id.</underscore> Furthermore, Defendant already has had to incur the costs associated with preparing one motion for summary judgment, and should not be burdened with the costs of a second because of Plaintiff's unwarranted delay.</paratext></para>
+<para><paratext ID="p12" level="1">For the foregoing reasons, Plaintiff's Motion is DENIED. The Court AMENDS its October 16, 2009 order as follows: the pre-trial conference in this matter shall be held on January 25, 2010, and trial in this matter shall commence on February 9, 2010.</paratext></para>
+<para><paratext ID="p13" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

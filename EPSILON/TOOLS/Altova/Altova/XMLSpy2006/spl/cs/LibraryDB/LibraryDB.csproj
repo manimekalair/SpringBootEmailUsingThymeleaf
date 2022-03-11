@@ -1,0 +1,105 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{[=$ProjectLibGuid]}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "[=$module]"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                RootNamespace = "[=$module]"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\\Debug\\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\\Release\\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\\..\\..\\..\\WINDOWS\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\\..\\..\\..\\WINDOWS\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+                />
+                <Reference
+                    Name = "Altova.DB"
+                    Project = "{[=$AltovaDBLibGuid]}"
+                    Package = "{5D458EA4-4826-4648-A52F-CF3D0787600F}"
+                />
+                <Reference
+                    Name = "Altova"
+                    Project = "{[=$AltovaLibGuid]}"
+                    Package = "{5D458EA4-4826-4648-A52F-CF3D0787600F}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "[=$module]Database.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[		foreach $table in $library.Tables
+]                <File
+                    RelPath = "[=$table.Name]Set.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[		next
+]            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

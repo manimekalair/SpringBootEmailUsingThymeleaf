@@ -1,0 +1,70 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // XML Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryXML:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryXML( byref $rSourceLibrary, byref $rArgs )
+	$lDocName	= $rSourceLibrary.UniqueName & "Doc"
+	$lQDocType	= "C" & $rSourceLibrary.Type
+	$lRootName	= $rSourceLibrary.UniqueName
+	$lQRootType	= QualifiedTypeName($rSourceLibrary.RootElement)
+	$lInstance	= $rSourceLibrary.UniqueName & "SourceFilename"
+]	//WriteTrace( "Loading " + [=$lInstance] + "...\\n" );
+//	[=$lQDocType] [=$lDocName]SourceObject;
+	[=$lQRootType] [=$lRootName]SourceObject
+		= m_[=$lDocName]SourceObject.Load([=$lInstance]);
+	m_[=$rSourceLibrary.UniqueName]Instance = [=$lRootName]SourceObject;
+
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryXML:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryXML( byref $rRootName, byref $rIndent )
+	$lDocName	= $AlgorithmGroup.TargetParentContext.LibraryName & "Doc"
+	$lQDocType	= $AlgorithmGroup.TargetParentContext.LibraryName & "::C" & $AlgorithmGroup.TargetParentContext.Library.Type
+	$rRootName	= $AlgorithmGroup.TargetContext.UniqueName
+	$lQRootType	= QualifiedTypeName($AlgorithmGroup.TargetContext)
+]	[=$lQDocType] [=$lDocName]TargetObject;
+	[=$lQRootType] [=$rRootName]TargetObject;
+[	if $AlgorithmGroup.TargetRootNamespace <> "" and $domtype = 1
+]	[=$rRootName]TargetObject.MapPrefix( _T("[=$AlgorithmGroup.TargetRootPrefixCpp]"), _T("[=$AlgorithmGroup.TargetRootNamespaceCpp]") );
+
+[	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryXML:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryXML()
+	$lDocName	= $AlgorithmGroup.TargetParentContext.LibraryName & "Doc"
+	$lRootName	= $AlgorithmGroup.TargetContext.UniqueName
+	$lInstance	= $AlgorithmGroup.TargetParentContext.LibraryName & "TargetFilename"
+	if $AlgorithmGroup.TargetRootNamespace <> "" and $domtype <> 1
+]	[=$lRootName]TargetObject.MapPrefix(_T("[=$AlgorithmGroup.TargetRootPrefixCpp]"), _T("[=$AlgorithmGroup.TargetRootNamespaceCpp]"));
+	[endif
+]	[=$lDocName]TargetObject.SetRootElementName(_T("[=$AlgorithmGroup.TargetRootNamespaceCpp]"), _T("[=$AlgorithmGroup.TargetContext.XmlNameCpp]"));
+	[if $AlgorithmGroup.TargetContext.Library.SchemaType = 1
+]		[=$lDocName]TargetObject.SetDTDLocation(_T("[=$AlgorithmGroup.TargetSchema]"));
+	[endif
+	if $AlgorithmGroup.TargetContext.Library.SchemaType = 2
+]		[=$lDocName]TargetObject.SetSchemaLocation(_T("[=$AlgorithmGroup.TargetSchema]"));
+	[endif
+]	[=$lDocName]TargetObject.SetEncoding(_T("[=$AlgorithmGroup.TargetEncoding]"));
+	[=$lDocName]TargetObject.Save([=$lInstance], [=$lRootName]TargetObject);
+	//WriteTrace("Saving " + [=$lInstance] + "...\\n");
+[endsub
+
+' EOF
+]

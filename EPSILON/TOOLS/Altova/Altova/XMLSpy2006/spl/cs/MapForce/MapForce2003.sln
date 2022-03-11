@@ -1,0 +1,110 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+[ if $application.IsWebService
+]Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapForce", "[=$application.Name]_webservice.csproj", "{[=$TestProjectGuid]}"
+[else
+]Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapForce", "[=$application.Name].csproj", "{[=$TestProjectGuid]}"
+[endif
+]	ProjectSection(ProjectDependencies) = postProject
+[foreach $library in $application.Libraries : if not $library.IsDuplicate
+	if $library.Kind <> 4 : $ProjectLibGuid	= $library.Guid : endif
+]		{[=$ProjectLibGuid]} = {[=$ProjectLibGuid]}
+[endif : next
+if $DBLibraryCount > 0
+]		{[=$AltovaDBLibGuid]} = {[=$AltovaDBLibGuid]}
+[endif
+][if $EDILibraryCount > 0
+]		{[=$AltovaTextLibGuid]} = {[=$AltovaTextLibGuid]}
+[endif
+]		{[=$AltovaFunctionsGuid]} = {[=$AltovaFunctionsGuid]}
+		{[=$AltovaXMLLibGuid]} = {[=$AltovaXMLLibGuid]}
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+[foreach $library in $application.Libraries : if not $library.IsDuplicate
+	$module			= $library.UniqueName
+	if $library.Kind <> 4 
+		$ProjectLibGuid	= $library.Guid
+]Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[=$module]", "..\\[=$module]\\[=$module].csproj", "{[=$ProjectLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaDBLibGuid]} = {[=$AltovaDBLibGuid]}
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+[endif : endif : next]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaFunctions", "..\\AltovaFunctions\\AltovaFunctions.csproj", "{[=$AltovaFunctionsGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+[if $DBLibraryCount > 0]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaDB", "..\\AltovaDB\\AltovaDB.csproj", "{[=$AltovaDBLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+[endif
+][if $EDILibraryCount > 0]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaText", "..\\AltovaText\\AltovaText.csproj", "{[=$AltovaTextLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+[endif]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaXML", "..\\AltovaXML\\AltovaXML.csproj", "{[=$AltovaXMLLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altova", "..\\Altova\\Altova.csproj", "{[=$AltovaLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{[=$TestProjectGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$TestProjectGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$TestProjectGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$TestProjectGuid]}.Release.Build.0 = Release|.NET
+[
+foreach $library in $application.Libraries : if not $library.IsDuplicate
+	$module			= $library.UniqueName
+	if $library.Kind <> 4 : $ProjectLibGuid	= $library.Guid : endif
+]		{[=$ProjectLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$ProjectLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$ProjectLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$ProjectLibGuid]}.Release.Build.0 = Release|.NET
+[endif : next]
+		{[=$AltovaFunctionsGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaFunctionsGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaFunctionsGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaFunctionsGuid]}.Release.Build.0 = Release|.NET
+[if $DBLibraryCount > 0]
+		{[=$AltovaDBLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaDBLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaDBLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaDBLibGuid]}.Release.Build.0 = Release|.NET
+[endif
+if $EDILibraryCount > 0]
+		{[=$AltovaTextLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaTextLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaTextLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaTextLibGuid]}.Release.Build.0 = Release|.NET
+[endif
+]		{[=$AltovaXMLLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaXMLLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaXMLLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaXMLLibGuid]}.Release.Build.0 = Release|.NET
+		{[=$AltovaLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaLibGuid]}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

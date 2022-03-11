@@ -1,0 +1,57 @@
+[
+' // Subroutines for AlgorithmGroup.cs
+' // Language = C#
+' ////////////////////////////////////////////////////////////////////////
+
+' // Text Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryText:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryText( byref $rSourceLibrary, byref $rArgs )
+	$lInstance	= $rSourceLibrary.UniqueName & "SourceFilename"
+	$lRootType	= $rSourceLibrary.Name & "." & $rSourceLibrary.RootName & "Type"
+	$lRootName	= $rSourceLibrary.RootName
+]			WriteTrace("Parsing Text File ...\\n");
+			m_[=$rSourceLibrary.UniqueName]Instance = new [=$rSourceLibrary.Name].[=$rSourceLibrary.Type]();
+			[if $rSourceLibrary.ParseMode = 0]
+			m_[=$rSourceLibrary.UniqueName]Instance.Encoding= "[=$rSourceLibrary.InputEncodingName]";
+			m_[=$rSourceLibrary.UniqueName]Instance.ParseFile([=$lInstance]);
+			[else]
+			m_[=$rSourceLibrary.UniqueName]Instance.Encoding= "[=$rSourceLibrary.InputEncodingName]";
+			m_[=$rSourceLibrary.UniqueName]Instance.Parse([=$lInstance]);
+			[endif]
+			[=$rSourceLibrary.Name].[=$rSourceLibrary.Type] [=$rSourceLibrary.UniqueName]SourceObject = m_[=$rSourceLibrary.UniqueName]Instance;
+[endsub
+
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryText:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryText( byref $rRootName, byref $rIndent )
+	$rRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$QlRootType	= $AlgorithmGroup.TargetParentContext.Library.Type
+][=$rIndent]	[=$QlRootType]	[=$rRootName]TargetObject = new [=$QlRootType]();
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryText:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryText()
+	$lRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+]	[=$lRootName]TargetObject.Encoding= "[=$AlgorithmGroup.TargetEncoding]";
+	[=$lRootName]TargetObject.Save( [=$lRootName]TargetFilename );
+[
+endsub
+
+
+' EOF
+]

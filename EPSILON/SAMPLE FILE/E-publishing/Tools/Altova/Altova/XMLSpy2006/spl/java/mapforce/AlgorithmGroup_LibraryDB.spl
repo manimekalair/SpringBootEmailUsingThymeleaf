@@ -1,0 +1,84 @@
+[
+' // Subroutines for AlgorithmGroup.java
+' // Language = Java
+' ////////////////////////////////////////////////////////////////////////
+
+' // Database Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryDB:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryDB( byref $rSourceLibrary, byref $rArgs )
+	$lRootName	= $rSourceLibrary.UniqueName
+	$lQRootType	= $JavaPackageName & "." & $rSourceLibrary.Name & "." & $rSourceLibrary.Type
+]		writeTrace("Connecting to [=$rSourceLibrary.Name] database...\\n");
+		[=$lQRootType] [=$lRootName]SourceObject
+			= new [=$lQRootType]( [=$lRootName]SourceConnection );
+		var[=$lRootName]Instance = [=$lRootName]SourceObject;
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryDB:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryDB( byref $rRootName, byref $rIndent )
+	$rRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$lQRootType	= $JavaPackageName & "." & $AlgorithmGroup.TargetParentContext.LibraryName & "." & $AlgorithmGroup.TargetParentContext.Library.Type
+]		writeTrace("Connecting to [=$AlgorithmGroup.TargetContext.Name] database...\\n");
+		[=$lQRootType] [=$rRootName]TargetObject = new [=$lQRootType]( [=$rRootName]TargetConnection );
+		varTargetDatabase = [=$rRootName]TargetObject;
+		try {
+[	$Indent = "			"
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryDB:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryDB()
+	$lInstance	= $AlgorithmGroup.TargetParentContext.LibraryName & "TargetConnection"
+]		}
+		catch( DbTransactionException e ) {
+			if( e.getActionKind() == DbTransactionException.ROLLBACK_ALL )
+				varTargetDatabase.setRollbackTransactionOnClose();
+		}
+		catch( DbException e )
+		{
+			varTargetDatabase.setRollbackTransactionOnClose();
+			writeTrace("Closing " + [=$lInstance] + " due to error!\\n");
+			varTargetDatabase.close();
+			throw new Exception( e.getErrorMessage(), e );
+		}
+		writeTrace("Closing " + [=$lInstance] + ".\\n");
+		varTargetDatabase.close();
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' jbInitDB:
+' ------------------------------------------------------------------------
+sub jbInitDB( byref $rLibrary, byval $lNr )
+]
+		j[=$rLibrary.Name]Label[=$lNr].setText("[if $rLibrary.SourceOnly]Source JDBC-URL[else]JDBC-URL[endif] of [=$rLibrary.Name] database:");
+		j[=$rLibrary.Name]Label[=$lNr].setBounds(new Rectangle(15, [=$y1], 438, 23));
+		jPanelStructures.add(j[=$rLibrary.Name]Label[=$lNr], null);
+
+		j[=$rLibrary.Name]TextField[=$lNr].setText("[=$rLibrary.JDBCURL]");
+		j[=$rLibrary.Name]TextField[=$lNr].setBounds(new Rectangle(15, [=$y2], 438, 23));
+		j[=$rLibrary.Name]TextField[=$lNr].setEditable(false);
+		jPanelStructures.add(j[=$rLibrary.Name]TextField[=$lNr], null);
+[
+endsub
+
+' EOF
+]
+

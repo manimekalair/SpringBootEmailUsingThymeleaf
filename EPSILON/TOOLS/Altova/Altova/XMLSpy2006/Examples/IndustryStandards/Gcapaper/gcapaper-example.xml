@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gcapaper PUBLIC "-//GCA//DTD GCAPAP-X DTD 20020220 Vers 6.1//EN"
+     "http://www.altova.com/schemas/gcapaper/gcapaper.dtd">
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/Stylesheets/gcapaper/gcapaper_HTML.xsl"?>
+<?altova_sps http://www.altova.com/sps/Template/gcapaper/gcapaper.sps?>
+<gcapaper>
+	<front>
+		<title>Principles of XML Schema Design</title>
+		<keyword>XML Schema</keyword>
+		<keyword>XML</keyword>
+		<keyword>DTD</keyword>
+		<author>
+			<fname>Trace</fname>
+			<surname>Galloway</surname>
+			<address>
+				<affil>Altova, Inc.</affil>
+				<city>Beverly</city>
+				<stateorprovince>Massachusetts</stateorprovince>
+				<country>United States</country>
+				<email>trace@altova.com</email>
+				<web>http://www.altova.com/</web>
+			</address>
+			<bio>
+				<para>Trace Galloway is a Sr. XMLSPY Sales Engineer at Altova, Inc, creators of the award-winning and industry leading tool-suite for XML.  Prior to joining Altova, Trace served as the Chief Evangelist for Infoteria Corporation, a global technology company specializing in the development of B2B-centric XML-based servers and components.  He has presented at numerous industry conferences including XML Europe and Brainstorm.  He was co-author of a chapter entitled &quot;Lead Tracking by Web and Email&quot; that appeared in the XML Handbook – Third Edition.  Mr. Galloway earned his Bachelor's of Science degree in Business Administration from St. Michael's College and holds an MCSE + Internet certification from Microsoft</para>
+			</bio>
+		</author>
+		<abstract>
+			<para>XML Schema was approved as a W3C Recommendation in May, 2001 and is now being widely used for structuring XML documents for e-commerce and Web Services applications.  This session provides an introduction into the various components of the XML Schema description language.  Topics discussed include the origins of XML Schema and XML DTD’s and the benefits of XML Schema vs. XML DTD’s.  A discussion of the importance of object-orientation and inheritance in the XML Schema standard is also included.  In addition, a graphical model for representing different XML Schema components will be introduced that greatly helps express XML Schemas.  We'll investigate existing methods and principles for applied XML Schema design that have their roots in proven object-oriented analysis and design principles.  We’ll conclude with an overview of existing tools for XML Schema design and a live demonstration of various methods for creating XML Schemas including: from scratch, DTD to XML Schema transformations, and Schema to Schema transformations.</para>
+		</abstract>
+	</front>
+	<body>
+		<section id="Intro">
+			<title>Principles of XML Schema Design Introduction</title>
+			<para>Welcome to the Principles of XML Schema Design.  Over the course of the next 60 minutes we are going to review several aspects of the W3C XML Schema Standard.  We will begin with a discussion of the origins of XML Schema and it's usage of Object Oriented Programming features and Relation Database datatyping components.  In addition, we will look at a comparative analysis of an XML Schema vs. a standard DTD.  From here we will continue with an overview of some of the most useful and powerful features of the XML Schema specification.  We continue our discussion with how to design and architect robust schemas and how XML Schema plays an important role in Web Services.  A brief discussion on tools for XML Schemas follows in addition to a live demonstration where we will create schemas using a variety of methods.  A Question &amp; Answer session concludes the presentation.</para>
+		</section>
+		<section id="Origins">
+			<title>The Origins of XML Schema</title>
+			<para>The two major goals that the W3C XML Schema working group focused on when they set out to design the XML Schema standard were the following: expressing Object Oriented design principles found in common <acronym>OO</acronym> programming languages into the specification and providing rich datatyping support similar to the datatyping functionality available in most relational database systems.</para>
+			<para>The <acronym>SOX</acronym> (Schema for Object Oriented XML) as defined at that time by Commerce One did an excellent job of expressing <acronym>OO</acronym> principles in a content model definition.  Unfortunately, the standard was proprietary and not widely used.  Much of the work done on the <acronym>SOX</acronym> standard was reviewed for inclusion in the XML Schema specification.  <acronym>SOX</acronym> served as a ready made model for the working group to begin with.</para>
+			<para>On the datatyping side, the XML-Data (Microsoft, DataChannel, and ArborText) and XML Data Reduced introduced by Microsoft and Henry Thompson served as excellent examples for applying complex datatyping to an XML content model.  Datatyping features that are not available in the previous DTD content model were introduced and the XML Schema specification in it's current form does an excellent job of providing rich datatyping capabilities.</para>
+		</section>
+		<section id="Comparison">
+			<title>XML Schema vs. DTD's</title>
+			<para>DTD's used today in the XML world got their origins from the parent SGML specification.  SGML was designed around a more document centric model that did not require the use of complex datatyping definitions.  The XML Schema specification improves greatly upon the DTD content model by providing rich datatyping capabilities for elements and attributes as well as providing OO design principles.  We will review a graphical example of a standard DTD vs. an XML Schema.</para>
+		</section>
+		<section id="Components">
+			<title>XML Schema Components</title>
+			<para>One of the major advantages of the XML Schema specification is that it uses XML as it's underlying syntax.  By using XML, existing XML parsers can be used in conjunction with Schema validators to provide well-formedness and validation facilities.  Support for DTD validation is no longer required in a pure XML Schema scenario.  As mentioned earlier, the XML Schema specification allows for the use of both built-in and custom defined datatypes making it possible to more accurately express and constrain data found in compliant XML documents.  Reuse thru inheritance and groupings, similar to functionality found in OO programming languages is also provided.</para>
+			<para>The major components covered in this presentation include: elements, attributes, attributeGroups, complexTypes, substitutionGroups,extensions of complexTypes, and simpleTypes.  Each component receives a thorough review including graphical illustrations to assist in the learning process.</para>
+			<para>Elements and attributes form the building blocks of any XML document.  As a result, they also serve as the backbone of your XML Schema.  The elements and attributes models used in XML Schema work in a similar fashion to the way they behave in the XML 1.0 Specification.  Global elements may be defined in your schema for reuse in ComplexType element definitions and SubstitutionGroups.  Locally defined elements are those elements which are defined within the scope of a ComplexType.</para>
+			<para>Attribute Groups serve as a convenient way to allow the grouping of similar attributes for reuse on multiple defined elements.  By defining a collection of attributes and then referencing that collection or &quot;goup&quot;, repetitious assignment of multiple same name and type attributes can be avoided.</para>
+			<para>ComplexTypes can be defined as follows: a complexType is an element that may carry element(s) and/or attribute(s) children.  Any element that you define within your XML Schema that will have element or attribute children will have a complex content model but may not necessarily be a globally defined ComplexType.  By globally defining a complex element as a complexType, you make that particular element model available for reuse throughout other parts of the document.  </para>
+			<para>Using derivation we can extend the capabilites of complexTypes by allowing for the &quot;extension&quot; of a particular complexType to allow for potentially more child and attribute children.  When a complexType is derived by extension, its new content model becomes the model defined by the base type plus the model defined by the new derivation.  In principle, this concept is exactly the same as inheritance found in many OO programming languages.  Allowing for the extension of particular content models provides instance document authors more flexibility in the design of their XML documents. </para>
+			<para>SimpleTypes are defined as elements that do not carry any element or attribute children.  Attributes, for example, are always simpleTypes.  There are several built in simpleTypes defined in the XML Schema specification.  In addition, Schema authors may also define their own SimpleTypes in several ways.  For example, a simpleType can be defined to be type xs:string, and then can be further defined by restricting the allowable values to one or more string entries.  New simpleTypes may also be derived from existing simpleTypes by defining specific restricting patterns on a particular elements content model.  For example, we could define a simpleType called emailType and define a restricting pattern such that all email element values must match that pattern.</para>
+		</section>
+		<section id="Design">
+			<title>XML Schema Design principles</title>
+			<para>As we discuss each of the components mentioned in the preceding paragraph, the presenter will provide best use scenarios for the audience.  Many of the components are required in any XML Schema, but some more advanced concepts such as extensions to complexTypes, substitutionGroups, and attributeGroups require a more lengthy discussion and need not always be used.  Knowing when and perhaps when not to use more advanced components is crucial to authoring robust XML Schemas.  Graphical illustrations are provided as each component is discussed</para>
+		</section>
+		<section id="WebServices">
+			<title>XML Schema and Web Services</title>
+			<para>The XML Schema specification plays an important role in the design and implementation of Web Services.  <acronym>WSDL</acronym> (Web Services Description Language) files are built using XML Schema as the underlying syntax.  This design decision by the W3C to use XML Schema as the underlying syntax for WSDL files allows for the proliferation of XML parsers and XML Schema validators throughout the programming world.  The existence of existing XML parsers and Schema validators will greatly assist the proliferation of Web Services.</para>
+			<para>The presenter will include a discussion of the important wsdl types, datatypes, and xsi:types taken from the XML Schema specification and how they can be used in a WSDL file.</para>
+		</section>
+		<section id="Tools">
+			<title>XML Schema Tools</title>
+			<para>There are several tools available for working with XML and XML Schemas.  These tools fall into the following distinct categories: Graphical Schema Editors, Schema Validators, and XML parsers.</para>
+			<para>Schema Editors can be used for authoring and editing XML Schema files.  A graphical representation of an XML Schema provides many advantages over simple text based editors and allows authors to easily design their content model.</para>
+			<para>Schema Validators are used to validate existing XML instance documents against a defined XML Schema (or other Schema) content model.  There are several schema validators available both for free and for purchase.  In addition, many of the most current XML parsers also support XML Schema validation.</para>
+			<para>XML parsers are used primarily for well-formedness checking of XML compliant documents.  Since XML Schemas use XML as their underlying syntax, existing XML parsers can be used to perform well-formedness checks on XML Schemas.  In addition, many current XML parsers also support XML Schema validation as mentioned previously.</para>
+		</section>
+		<section id="Demo">
+			<title>Live Demonstration</title>
+			<para>During the demonstration portion of the presentation, the presenter will illustrate common methods for authoring and developing XML Schemas.  The three most commonly used methods are: building an XML Schema from scratch, using pre-existing example XML documents, or by conversion from one content model format (DTD, DCD, etc..) to XML Schema.  As time permits, the presenter will decide which methods to illustrate to the audience.</para>
+			<para>Developing XML Schemas from scratch is most easily achieved by utilizing a graphical Schema editor.  Graphical Schema Editors provide rich UI functionality, provide support for the complete XML Schema standard, and provide easy to use entry helpers and modeling diagrams.  In addition, XML Schemas may also be developed from scratch using existing class libraries from OO programming languages.  Expressing the underlying methodologies used in the creation of class libraries is easily accomplished in a graphical editing environment.</para>
+			<para>In many cases, developers of XML Schemas will already have existing XML documents for which a content model needs to be created.  Creation of an XML Schema from an existing XML document, or several existing XML documents, ultimately producing one inferred XML Schema is often the easiest and most efficient method for creating your XML Schemas.</para>
+			<para>In addition to having sample XML documents to work from, many organizations who currently take advantage of XML in their environments will have existing DTD's or other similar content models available.  Conversion from an existing content model to XML Schema can be achieved thru the use of tools currently available in the market.</para>
+		</section>
+		<section id="Questions">
+			<title>Question &amp; Answer time</title>
+			<para>At the end of the presentation, the presenter will take questions from the audience.  Depending upon the size of the audience at the beginning of the presentation, the presenter may decide to allow questions during the presentation.  The audience will be informed in advance when questions are appropriate.</para>
+		</section>
+	</body>
+</gcapaper>

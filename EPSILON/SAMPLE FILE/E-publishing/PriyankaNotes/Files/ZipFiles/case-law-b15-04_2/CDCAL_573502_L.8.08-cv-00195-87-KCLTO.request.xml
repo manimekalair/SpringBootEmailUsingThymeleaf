@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8211; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>All Cities Realty, Inc.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>Hollymax Realty, Inc., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. <underscore>SA CV 08-195 AHS (MLGx)</underscore></docket.line>
+<docket.number><underscore>SA CV 08-195 AHS (MLGx)</underscore></docket.number>
+<docket.line suppress-flag="y">8:08-cv-00195-AHS-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/21/2010</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Ellen Matheson, Deputy Clerk, <bold>ATTORNEYS PRESENT</bold>: None present</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS</bold>: (IN CHAMBERS) ORDER: (1) GRANTING IN PART, AND DENYING IN PART, HOLLYMAX DEFENDANTS' MOTION TO DISMISS SECOND AMENDED COMPLAINT; AND (2) DENYING ELENIAK'S MOTION TO DISMISS THE SECOND AMENDED COMPLAINT</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>HON. <underscore>ALICEMARIE H. STOTLER</underscore>, U.S. DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. <underscore>Procedural Background</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On November 2, 2009, plaintiff All Cities Realty, Inc. (&#x201C;plaintiff&#x201D;) filed a Second Amended Complaint (&#x201C;SAC&#x201D;) for trademark infringement and unfair competition against Hollymax Realty, Inc. (&#x201C;Hollymax&#x201D;), Commbroker, Inc. (&#x201C;Commbroker&#x201D;) (collectively, &#x201C;Corporate Defendants&#x201D;), Byron Rife, Jr. (&#x201C;Rife&#x201D;), Dale A. Eleniak (&#x201C;Eleniak&#x201D;), Kelli Todd-Amundson (&#x201C;Todd&#x201D;) and numerous agents of the Corporate Defendants (&#x201C;Agent Defendants&#x201D;).<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p2">&#8195;<underscore>See</underscore> Court's October 20, 2009 Order granting defendants' motions to dismiss the First Amended Complaint for additional procedural background.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p3" level="1">On November 12, 2009, Hollymax, Todd, Rife, and the Agent Defendants (collectively, &#x201C;Hollymax Defendants&#x201D;) filed a motion to dismiss the SAC pursuant to Federal Rule of Civil Procedure 12(b)(6), or, in the alternative, to stay the action. (<underscore>See</underscore> Dkt. No. 74.) The Hollymax Defendants filed an amended notice of motion and motion on November 18, 2009. (<underscore>See</underscore> Dkt. No. 78.) On November 13, 2009, Eleniak filed a separate Rule 12(b)(6) motion to dismiss. (<underscore>See</underscore> Dkt. No. 75.) Eleniak filed an amended notice of motion on November 17, 2009. (<underscore>See</underscore> Dkt. No. 76.)</paratext></para>
+<para><paratext ID="p4" level="1">On November 25, 2009, plaintiff filed oppositions to both motions. On December 7, 2009, Eleniak and the Hollymax Defendants filed separate replies in further support of their respective motions. On December 8, 2009, the Court took the motions under submission.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. <underscore>Ruling</underscore></bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. Legal Standard</bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">A Fed. R. Civ. P. 12(b)(6) motion tests the legal sufficiency of the claims in the complaint. <underscore>Navarro v. Block</underscore>, 250 F.3d 729, 732 (9th Cir. 2001). Under Rule 8(a), a complaint must contain &#x201C;a short and plain statement of the claim showing that the pleader is entitled to relief.&#x201D; Fed. R. Civ. P. 8(a)(2). In early expositions of Rule 8, the Supreme Court &#x201C;spoke not only of the need for fair notice of the grounds for entitlement to relief but of &#x2018;the accepted rule that a complaint should not be dismissed for failure to state a claim unless it appears beyond doubt that the plaintiff can prove no set of facts in support of his claim which would entitle him to relief.&#x2019;&#x201D; <underscore>Bell Atl. Corp. v. Twombly</underscore>, 550 U.S. 544, 560-61, 127 S. Ct. 1955, 167 L. Ed. 2d 929 (2007) (quoting <underscore>Conley v. Gibson</underscore>, 355 U.S. 41, 45-46, 78 S. Ct. 99, 2 L. Ed. 2d 80 (1957)). Later, the Court stated, the &#x201C;no set of facts&#x201D; statement &#x201C;is best forgotten as an incomplete, negative gloss on an accepted pleading standard.&#x201D; <underscore>Id.</underscore> at 563. Rather, &#x201C;[t]o survive a motion to dismiss, a complaint must contain sufficient factual matter, accepted as true, to&#x201D; state a facially plausible claim for relief. <underscore>Ashcroft v. Iqbal</underscore>, --- U.S. ---, 129 S. Ct. 1937, 1949, 173 L. Ed. 2d 868 (2009). &#x201C;A claim has facial plausibility when the plaintiff pleads factual content that allows the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.&#x201D; <underscore>Id.</underscore> Mere &#x201C;labels and conclusions&#x201D; or &#x201C;a formulaic recitation of the elements of a cause of action will not do.&#x201D; <underscore>Twombly</underscore>, 550 U.S. at 555. In deciding the motion, &#x201C;[a]llegations of fact are taken as true and construed in the light most favorable to the plaintiff.&#x201D; <underscore>Nat'l Wildlife Fed'n v. Espy</underscore>, 45 F.3d 1337, 1340 (9th Cir. 1995). However, the court need not accept &#x201C;[t]hreadbare recitals of the elements of a cause of action, supported by mere conclusory statements.&#x201D; <underscore>Iqbal</underscore>, 129 S. Ct. at 1949.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. Discussion</bold></headtext></head>
+<head><headtext align="center">1. <underscore>Hollymax</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Hollymax Defendants argue that the allegations in the SAC concerning Hollymax &#x201C;are conclusory&#x201D; and fail to rise above &#x201C;the level of speculation.&#x201D; (Hollymax Defs.' Mot. at 3.) As a result, &#x201C;Plaintiff fails to provide sufficient factual content that would explain what actions by Hollymax constitute use in commerce of Plaintiff's purportedly valid mark.&#x201D; (<underscore>Id.</underscore> at 4.)</paratext></para>
+<para><paratext ID="p7" level="1">As discussed in the Court's October 20, 2009 Order, infringement claims under the Trademark Act of 1946 (&#x201C;Lanham Act&#x201D;) &#x201C;are subject to a commercial use requirement,&#x201D; <underscore>Bosley Med. Inst., Inc. v. Kremer</underscore>, 403 F.3d 672, 676 (9th Cir. 2005), which plaintiff satisfies by alleging, <ital>inter alia</ital>, that defendant &#x201C;is using a mark confusingly similar [to] its own&#x201D; in connection with the sale or advertising of goods or services, <underscore>GoTo.Com, Inc. v. Walt Disney Co.</underscore>, 202 F.3d 1199, 1205 (9th Cir. 2000). Plaintiff alleges that Hollymax &#x201C;plac[ed]&#x201D; plaintiff's mark on the website, &#x201C;www.realestatelosangeles.com,&#x201D; which the Corporate Defendants used to advertise and promote their services. (SAC &#182;&#182; 21, 23, 26.) The SAC also states that Hollymax &#x201C;controlled its portion of the website&#x201D; by, among other methods, directing the Agent Defendants and computer personnel to upload content and perform other regularly-scheduled tasks &#x201C;needed to maintain the publicly visible Re/Max All Cities Realty website.&#x201D; (<underscore>Id.</underscore> &#182;&#182; 22-23, 32.) These allegations are sufficient to plead commercial use under the Lanham Act.</paratext></para>
+<para><paratext ID="p8" level="1">Relying on <underscore>Twombly</underscore> and <underscore>Iqbal</underscore>, the Hollymax Defendants argue that each of plaintiff's allegations concerning Hollymax are conclusory and/or implausible. Although certain portions of the SAC lack &#x201C;further factual enhancement,&#x201D; <underscore>Iqbal</underscore>, 129 S. Ct. at 1949, 1951, read together, plaintiff's allegations provide the Hollymax Defendants &#8211; and Hollymax specifically &#8211; with the &#x201C;fair notice&#x201D; needed to prepare an effective response. <underscore>Twombly</underscore>, 550 U.S. at 560-61. Accordingly, the motion to dismiss plaintiff's claims against Hollymax is denied.</paratext></para>
+</section.body>
+<head><headtext align="center">2. <underscore>Todd</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">The SAC asserts that Todd is liable for the alleged acts of infringement as the alter ego of Hollymax and Commbroker. (SAC &#182;&#182; 13-14.) In order to invoke the &#x201C;alter ego&#x201D; doctrine, a plaintiff must allege: (1) &#x201C;such a unity of interest and ownership between the corporation and its equitable owner that the separate personalities of the corporation and the shareholder do not in reality exist&#x201D;; and (2) &#x201C;an inequitable result if the acts in question are treated as those of the corporation alone.&#x201D; <underscore>Neilson v. Union Bank of Cal., N.A.</underscore>, 290 F. Supp. 2d 1101, 1115 (C.D. Cal. 2003) (internal quotation marks and citation omitted). Conclusory allegations of a defendant's alter ego status are insufficient. <underscore>Id.</underscore> at 1115 &#x201C;Rather, a plaintiff must allege specifically both of the elements of alter ego liability, as well as facts supporting each.&#x201D; <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p10" level="1">The SAC is unclear regarding ownership of the Corporate Defendants. Although Todd is alleged to be the &#x201C;sole shareholder<charfill numchar="3">&#8228;</charfill> of Hollymax, Commbroker, and CF,&#x201D; (SAC &#182; 14), elsewhere, it is alleged that Hollymax and Commbroker are &#x201C;one hundred percent owned and controlled by the same ownership group,&#x201D; the members of which are unstated. (<underscore>Id.</underscore> &#182;&#182; 3-4.) The SAC also attempts to plead the first prong by simply &#x201C;list[ing]<charfill numchar="3">&#8228;</charfill> the elements typically evaluated in determining alter ego liability.&#x201D; (Hollymax Defs.' Mot. at 7.) <underscore>See, e.g.</underscore> SAC &#182; 14. It is anticipated that a plaintiff will recite the elements of alter ego liability, but it must also allege the &#x201C;<ital>facts</ital> supporting each.&#x201D; <underscore>Neilson</underscore>, 290 F. Supp. 2d at 1116 (emphasis added); <underscore>see also Iqbal</underscore>, 129 S. Ct. at 1949. Plaintiff was cautioned on this point in the Court's October 20, 2009 Order wherein it was noted that the Hollymax Defendants' contentions regarding the sufficiency of plaintiff's alter ego allegations &#x201C;deserve due consideration.&#x201D; (Oct. 20, 2009 Ord. at 15 n.4.) Nonetheless, plaintiff chose not to amend its allegations.</paratext></para>
+<para><paratext ID="p11" level="1">Because plaintiff does not adequately plead alter ego liability despite having been given ample opportunity to do so, and because no showing of good cause to allow further amendment has been submitted, the Court grants the Hollymax Defendants' motion to dismiss the SAC as against Todd with prejudice. <underscore>See Zucco Partners, LLC v. Digimarc Corp.</underscore>, 552 F.3d 981, 1007 (9th Cir. 2009).</paratext></para>
+</section.body>
+<head><headtext align="center">3. <underscore>Rife and Eleniak</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">Plaintiff alleges that Rife and Eleniak, as the Corporate Defendants' brokers of record, are &#x201C;vicariously responsible for the wrongs committed against Plaintiff.&#x201D; (SAC &#182; 8.) To state a claim for vicarious trademark infringement, plaintiff must allege that defendant and the direct infringer have an actual or apparent partnership, possess &#x201C;the authority to bind one another in transactions with third parties, or exercise joint ownership or control over the infringing product&#x201D; or service. <underscore>Perfect 10, Inc. v. Visa Int'l Serv., Ass'n</underscore>, 494 F.3d 788, 807 (9th Cir. 2007) (citation and internal quotation marks omitted).</paratext></para>
+<para><paratext ID="p13" level="1">For reasons set out in the October 20, 2009 Order, Rife and Eleniak are not vicariously liable for the alleged underlying acts of infringement solely by virtue of their status as brokers of record. <underscore>See</underscore> October 20, 2009 Order, 16-18. And, relying on state statutes to create a form of automatic liability would conflict with the Supreme Court's instruction to ensure that secondary liability for trademark infringement is &#x201C;more narrowly drawn.&#x201D; <underscore>Hard Rock Cafe Licensing Corp. v. Concession Servs., Inc.</underscore>, 955 F.2d 1143, 1150 (7th Cir. 1992). However, in the SAC, Plaintiff asserts that Rife and Eleniak <ital>actually</ital> exercise joint control over the allegedly-infringing services along with Hollymax and the Agent Defendants, i.e., the direct infringers. (<underscore>See</underscore> SAC &#182;&#182; 20, 29, 70.) These allegations survive the pending motions.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p14">&#8195;Plaintiff may also premise its vicarious infringement claims against Rife and Eleniak on the acts of Commbroker. Because Commbroker remains subject to the automatic stay, no determination about the sufficiency of the SAC's corresponding vicarious infringement allegations is made now.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="center">4. <underscore>Agent Defendants</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p15" level="1">According to the SAC, Agent Defendants &#x201C;personally perform[ed] daily/weekly functions needed to maintain the publicly visible Re/Max All Cities website,&#x201D; which contained &#x201C;Re/Max All Cities Realty designations, promotions, and advertisements.&#x201D; (SAC &#182; 23.) The Agent Defendants' activities included uploading, removing, and changing the website's content. (<underscore>Id.</underscore>) Hollymax Defendants contend that these facts show, if anything, &#x201C;that the Agent Defendants engaged in routine, low level, business activities as directed by their employers.&#x201D; (Hollymax Defs.' Mot. at 17.) Hollymax Defendants provide no authority for the proposition that business activities must meet some threshold level of skill or sophistication to constitute commercial use. Taken together, plaintiff's allegations concerning the actions of the Agent Defendants are enough to plead commercial use. (<underscore>See also</underscore> SAC &#182;&#182; 27, 32, 42.)</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. <underscore>Conclusion</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">For the foregoing reasons, the Court grants in part, and denies in part, Hollymax Defendants' motion to dismiss the SAC. The motion is granted with prejudice as to defendant Todd and is denied on all other grounds, including the requested alternative relief. Defendant Eleniak's motion to dismiss the SAC is denied.</paratext></para>
+<para><paratext ID="p17" level="1">The clerk shall serve this minute order on counsel for all parties in this action.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

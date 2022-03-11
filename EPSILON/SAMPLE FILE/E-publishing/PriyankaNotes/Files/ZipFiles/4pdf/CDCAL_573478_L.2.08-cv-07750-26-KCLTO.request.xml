@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>American General Life Insurance Co.</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>Leonard Wright, <underscore>et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-04572 ODW (RZx)</docket.line>
+<docket.number>CV 09-04572 ODW (RZx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-04572-ODW-RZ</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/20/2010</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Paul Songco, Deputy Clerk, Attorneys Present for Plaintiffs: None</attorney.line>
+<attorney.line first-line="1">Not Reported, Court Reporter, Attorneys Present for Defendants: None</attorney.line>
+<attorney.line first-line="1">N/A, Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings:</bold> IN CHAMBERS &#8211; COURT ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable PERCY ANDERSON, UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is a motion to dismiss (&#x201C;Motion&#x201D;) (Docket No. 21) filed by defendants Leonard Wright and Kazia Wright, each individually and as co-trustees of the Patricial Freeman-Wright Trust dated March 1, 2001 (&#x201C;2001 Trust&#x201D;) (collectively &#x201C;Defendants&#x201D;) against plaintiff American General Life Insurance, Co. (&#x201C;Plaintiff&#x201D;). Pursuant to Rule 78 of the Federal Rules of Civil Procedure and Local Rule 7-15, the Court finds that this matter is appropriate for decision without oral argument. The hearing scheduled for June 29, 2009 is vacated, and the matter taken off calendar.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>I. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Plaintiff alleges that Defendants are the beneficiaries of two life insurance policies insuring Patricia Freeman-Wright (&#x201C;Decedent&#x201D;). (Compl. &#182;&#182; 12, 13.) Decedent disappeared on or about March 21, 2005, and her body was located on February 8, 2007. (<underscore>Id.</underscore> at &#182; 19.) The police and coroner determined that Decedent had died on March 21, 2005, in a single-car accident. (<underscore>Id.</underscore>) When Defendants made claims on the life insurance policies, Plaintiff undertook a claims analysis and allegedly discovered that Decedent had made material misrepresentations on her life insurance applications. (<underscore>Id.</underscore> at &#182;&#182; 20&#8211;24.) Plaintiff then filed its complaint (&#x201C;Complaint&#x201D;) for declaratory relief and to rescind the policies.</paratext></para>
+<para><paratext ID="p3" level="1">Defendants move to dismiss the Complaint on the grounds that Plaintiff's action is time-barred.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>II. Motion to Dismiss Standard</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">Generally, plaintiffs in federal court are required to give only &#x201C;a short and plain statement of the claim showing that the pleader is entitled to relief[.]&#x201D; Fed. R. Civ. P. 8(a). While the Federal Rules allow a court to dismiss a cause of action for &#x201C;failure to state a claim upon which relief can be granted,&#x201D; they also require all pleadings to be &#x201C;construed so as to do justice.&#x201D; Fed. R. Civ. P. 12(b)(6), 8(e). The purpose of Rule 8(a)(2) is to &#x201C;&#x2018;give the defendant fair notice of what the<charfill numchar="3">&#8228;</charfill> claim is and the grounds upon which it rests.&#x2019;&#x201D; <underscore>Bell Atlantic Corp. v. Twombly</underscore>, 550 U.S. 544, 555, 127 S. Ct. 1955, 1964, 167 L. Ed. 2d 929 (2007) (quoting <underscore>Conley v. Gibson</underscore>, 355 U.S. 41, 47, 78 S. Ct. 99, 103, 2 L. Ed. 2d 80 (1957)). The Ninth Circuit is particularly hostile to motions to dismiss under Rule 12(b)(6). <underscore>See, e.g., Gilligan v. Jamco Dev. Corp.</underscore>, 108 F.3d 246, 248&#8211;49 (9th Cir. 1997) (&#x201C;The Rule 8 standard contains a powerful presumption against rejecting pleadings for failure to state a claim.&#x201D;) (internal quotation omitted).</paratext></para>
+<para><paratext ID="p5" level="1">However, in <underscore>Twombly</underscore>, the Supreme Court rejected the notion that &#x201C;a wholly conclusory statement of a claim would survive a motion to dismiss whenever the pleadings left open the possibility that a plaintiff might later establish some set of undisclosed facts to support recovery.&#x201D; <underscore>Twombly</underscore>, 550 U.S. at 561, 127 S. Ct. at 1968, 167 L. Ed. 2d 929 (internal quotation omitted). Instead, the Court adopted a &#x201C;plausibility standard,&#x201D; in which the complaint must &#x201C;raise a reasonable expectation that discovery will reveal evidence of [the alleged infraction].&#x201D; <underscore>Id.</underscore> at 556, <underscore>Id.</underscore> at 1965, 167 L. Ed. 2d 929. For a complaint to meet this standard, the &#x201C;[f]actual allegations must be enough to raise a right to relief above the speculative level<charfill numchar="3">&#8228;</charfill>&#x201D; <underscore>Id.</underscore> (citing 5 C. Wright Miller, <underscore>Federal Practice and Procedure</underscore> &#167;1216, pp. 235&#8211;36 (3d ed. 2004) (&#x201C;[T]he pleading must contain something more<charfill numchar="3">&#8228;</charfill> than<charfill numchar="3">&#8228;</charfill> a statement of facts that merely creates a suspicion [of] a legally cognizable right of action&#x201D;)); <underscore>Daniel v. County of Santa Barbara</underscore>, 288 F.3d 375, 380 (9th Cir. 2002) (&#x201C;&#x2018;All allegations of material fact are taken as true and construed in the light most favorable to the nonmoving party.&#x2019;&#x201D;) (quoting <underscore>Burgert v. Lokelani Bernice Pauahi Bishop Trust</underscore>, 200 F.3d 661, 663 (9th Cir. 2000)). &#x201C;[A] plaintiff's obligation to provide the grounds of his entitlement to relief requires more than labels and conclusions, and a formulaic recitation of the elements of a cause of action will not do.&#x201D; <underscore>Twombly</underscore>, 550 U.S. at 555, 127 S. Ct. at 1964&#8211;65, 167 L. Ed. 2d 929 (internal quotations omitted).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>III. Analysis</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Defendants argue that Plaintiff's claims for declaratory relief and rescission of the policies are governed by California Code of Civil Procedure section 366.2. Section 366.2 states:</paratext>
+<para><paratext ID="p7" first-line="2" turnover="2">If a person against whom an action may be brought on a liability of the person, whether arising in contract, tort, or otherwise, and whether accrued or not accrued, dies before the expiration of the applicable statute of limitations period, and the cause of action survives, an action may be commenced within one year after the date of death, and the limitations period that would have been applicable does not apply.</paratext></para>
+<paratext ID="p8" contd-flag="y">Cal. Code of Civ. P. &#167; 366.2(a). It further states that the one-year limitations period &#x201C;shall not be tolled or extended for any reason[,]&#x201D; except in circumstances not applicable here. <underscore>Id.</underscore> &#167; 366.2(b). Defendants assert that Plaintiff's declaratory relief claim does not create federal subject matter jurisdiction. <underscore>See Stock West, Inc. v. Confederated Tribes of Colville Reservations</underscore>, 873 F.2d 1221, 1225 (9th Cir. 1989). Thus, jurisdiction must be based on an independent cause of action. Defendants also argue that</paratext></para>
+<para><paratext ID="p9" level="1">Plaintiff's rescission claim is not a cause of action, but is merely a remedy. <underscore>See Nakash v. Superior Court</underscore>, 196 Cal. App. 3d 59, 70, 241 Cal. Rptr. 578, 584 (1987). Thus, according to Defendants, Plaintiff's real claim is for fraud or misrepresentation against the person who filled out the policy applications, which in this case was Decedent.</paratext></para>
+<para><paratext ID="p10" level="1">As an initial matter, the Court notes that claims for rescission under California law are subject to a four-year statute of limitations. Cal. Code of Civ. P. &#167; 337(3) (establishing statute of limitations for rescission of contracts in general, including insurance contracts); Cal. Ins. Code &#167; 359 (an insurer may rescind up to four years after the representation becomes false). However, claims for fraud or mistake must be asserted within three years. Cal. Code. Civ. P. &#167; 338(d). Thus, whether rescission is a remedy or a cause of action, rescission claims are distinct from fraud claims under California law.</paratext></para>
+<para><paratext ID="p11" level="1">Moreover, the one-year statute of limitations under section 366.2 &#x201C;pertains to debts, that is, to claims resulting from the relationship between the debtor and the creditor.&#x201D; <underscore>Estate of Yool v. Yool</underscore>, 151 Cal. App. 4th 867, 876, 60 Cal. Rptr. 3d 526, 532 (2007); <underscore>see also id.</underscore> (stating that this section &#x201C;was &#x2018;intended to apply <underscore>in any action on a debt of the decedent</underscore><charfill numchar="4">&#8228;</charfill>&#x2019;&#x201D; (quoting Revised Recommendation Regarding Litigation Involving Decedents (Apr. 1992) 20 Cal. Law Revision Com. Rep. (1991&#8211;92) p. 512) (emphasis is the California Court of Appeal's)). Here, Plaintiff's claims do not involve any debt of Decedent, Decedent's estate, Defendants, or anyone else.</paratext></para>
+<para><paratext ID="p12" level="1">Section 366.2 also applies only to actions &#x201C;brought on a liability of the person[.]&#x201D; Cal. Code of Civ. P. &#167; 366.2(a). &#x201C;Liability of the person, or &#x2018;personal liability&#x2019; means &#x2018;[l]iability for which one is personally accountable and for which a wronged party can seek satisfaction out of the wrongdoer's personal assets.&#x2019;&#x201D; <underscore>Estate of Yool</underscore>, 151 Cal. App. 4th at 875, 60 Cal. Rptr. 3d at 532 (quoting <underscore>Black's Law Dictionary</underscore> 933 (8th ed. 2004)). Here, Plaintiff does not seek satisfaction of its claims out of Decedent's personal assets. Indeed, Plaintiff seeks to recover nothing from Decedent, her estate, or Defendants. Rather, Plaintiff seeks to be absolved of its liability on Defendants' claims made under the policies. (<underscore>See</underscore> Compl. &#182; 24 (&#x201C;AMERICAN GENERAL seeks a declaration that it may rescind THE POLICIES (subject to a return of premiums to the Owners of THE POLICIES or their legal representatives) and that is has no liability to MR. WRIGHT or MS. WRIGHT under the POLICIES&#x201D;).) Thus, Plaintiff's claims are not &#x201C;brought on the liability of&#x201D; Decedent, and section 366.2 does not apply. Cal. Code of Civ. P. &#167; 366.2(a).</paratext></para>
+<para><paratext ID="p13" level="1">Finally, the Court notes that Defendants provided no authority in which a court applied section 366.2 to a contracting party's claim for rescission. If section 366.2 did apply to such cases, beneficiaries of a life insurance policy could preclude the insurance company from rescinding the policy merely by waiting a year after the insured's death before filing a claim. Moreover, in cases where the death of the insured is not discovered for over a year, such as here, insurance companies would always be precluded from rescinding. The Court doubts that the California legislature intended for section 366.2 to apply in such situations.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">For the foregoing reasons, Defendants' Motion is denied.</paratext></para>
+<para><paratext ID="p15" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p16" level="1">&#95;&#95;&#95;&#95; : &#95;&#95;&#95;&#95;</paratext></para>
+<para><paratext ID="p17" level="1">Initials of Preparer &#95;&#95;&#95;&#95;</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

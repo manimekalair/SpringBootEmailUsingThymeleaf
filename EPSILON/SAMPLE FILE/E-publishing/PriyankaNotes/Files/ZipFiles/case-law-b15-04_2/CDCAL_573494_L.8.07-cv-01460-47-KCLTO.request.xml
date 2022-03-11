@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>TRACFONE WIRELESS, INC.,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>PLATFORM ENTERPRISES, ET AL.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 07-1460 AG (MLGx)</docket.line>
+<docket.number>SACV 07-1460 AG (MLGx)</docket.number>
+<docket.line suppress-flag="y">8:07-cv-01460-SGL-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 03/26/2008</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Lisa Bredahl, Deputy Clerk, Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter / Recorder, Attorneys Present for Defendants: Not Present</attorney.line>
+<attorney.line first-line="1">Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: [IN CHAMBERS] ORDER GRANTING IN PART AND DENYING
+IN PART PLAINTIFF'S MOTION TO STRIKE DEFENDANT'S AFFIRMATIVE DEFENSES</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable ANDREW J. GUILFORD</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="0">The Court now considers the Motion to Strike Defendants' Affirmative Defenses (&#x201C;Motion&#x201D;) brought by Plaintiff TracFone Wireless, Inc. (&#x201C;Plaintiff&#x201D;). This Motion is appropriate for resolution without oral argument. <ital>See</ital> Fed. R. Civ. P. 78; Local Rule 7-15. Accordingly, the hearing set for March 31, 2008 on the present Motion is removed from the Court's calendar. After carefully considering the moving, opposing, and reply papers, the Motion is GRANTED IN PART and DENIED IN PART.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>BACKGROUND</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="0">This case arises from Plaintiff's claim that it has been injured by the actions of Platform Enterprises, Hassan Essayli, and Ali Essayli (&#x201C;Defendants&#x201D;). Plaintiff is in the prepaid wireless phone business. Plaintiff's business model consists of selling cellular telephones at retail outlets such as Wal-Mart and Target, for use with Plaintiff's prepaid airtime cards. (Complaint &#182; 18.) According to Plaintiff, it subsidizes its customers' purchase of the cellular telephones by selling them for less than cost, and then &#x201C;recoups this subsidy through profits earned on the sale of the TracFone prepaid airtime cards that are required to make and receive calls&#x201D; on those phones. (Complaint &#182; 20.) Plaintiff alleges that Defendants have and continue to perpetrate an unlawful and unauthorized scheme to acquire bulk quantities of the subsidized phones at retail, and then repackage them for shipment worldwide. (Complaint &#182;&#182; 11-15.) Plaintiff's claims against Defendants include trademark and copyright infringement, unfair competition, breach of contract, and interference with business relationship.</paratext></para>
+<para><paratext ID="p3" level="0">Plaintiff's Motion requests that the Court strike the affirmative defenses pleaded by Defendants in their Answer. Plaintiff contends that Defendants have failed &#x201C;to sufficiently plead the defense[s]&#x201D; and give fair notice of the factual basis for the defenses. (Motion 2:12-15.)</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>LEGAL STANDARD</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="0">Federal Rule of Civil Procedure 12(f) provides that a court &#x201C;may order stricken from any pleading any redundant, immaterial, impertinent, or scandalous matter.&#x201D; Fed. R. Civ. P. 12(f). A motion to strike is recognized as &#x201C;the primary procedure for objecting to an insufficient defense.&#x201D; 5C Wright &#38; Miller, <ital>Federal Practice and Procedure</ital> 1380 (3d ed. 2004).</paratext></para>
+<para><paratext ID="p5" level="0">Under Federal Rule of Civil Procedure 8(b), a party must state in &#x201C;short and plain terms&#x201D; its defenses to the claims asserted against it. Fed. R. Civ. P. 8(b). &#x201C;The key to determining the sufficiency of pleading an affirmative defense is whether it gives plaintiff fair notice of the defense.&#x201D; <ital>Wyshak v. City Nat'l Bank</ital>, 607 F.2d 824, 827 (9th Cir. 1979). Motions to strike are generally disfavored. <ital>See, e.g., Kaiser Aluminum &#38; Chemical Sales, Inc. v. Avondale Shipyards, Inc.</ital>, 677 F.2d 1045, 1057 (5th Cir. 1982); <ital>see also Quintana v. Baca</ital>, 233 F.R.D. 562, 564 (C.D. Cal. 2005). A motion to strike an affirmative defense should not be granted &#x201C;unless it appears with certainty that plaintiffs would succeed despite any state of the facts which could be proved in support of the defense and are inferable from the pleadings.&#x201D; <ital>Williams v. Jader Fuel Co.</ital>, 944 F.2d 1388, 1400 (7th Cir. 1991).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>ANALYSIS</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="0">As an initial matter, the Court notes that Plaintiff has failed to fully comply with the meet and confer requirements of Local Rule 7-3. Local Rule 7-3 is an important component of the Central District's procedural framework, facilitating the timely and efficient administration of motion practice. The Court expects Plaintiff to follow all relevant rules, but because adjudication of this Motion will further judicial efficiency by narrowing the issues and disputes between the parties, the Court will not deny the Motion on this basis. Defendants are not greatly prejudiced by the failure to meet and confer because the Court has granted leave to amend on all but one of the stricken affirmative defenses.</paratext></para>
+<para><paratext ID="p7" level="0">In this Motion, Plaintiff has challenged the sufficiency of each of Defendants' fourteen affirmative defenses, arguing that they fail to provide fair notice. Defendants maintain that these defenses are sufficiently pleaded. Alternatively, Defendant contends that it &#x201C;has the ability to allege additional facts in each of its affirmative defenses to provide further notice to [Plaintiff],&#x201D; and should thus be granted leave to amend. (Opposition 13:7-9.)</paratext></para>
+<para><paratext ID="p8" level="0">In general, the Court finds Defendants' affirmative defenses insufficient to inform Plaintiff of the nature of those defenses. The conclusory statements of the defenses is exacerbated by the lack of information supplied by Defendants elsewhere in the Answer, which repeatedly asserts that &#x201C;Defendants are without sufficient information to admit or deny the allegations, and on that basis deny each and every allegation<charfill numchar="4">&#8228;</charfill>&#x201D;</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>First Affirmative Defense</bold></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="0">Plaintiff attacks the viability of Defendants' First Affirmative Defense, which asserts that &#x201C;Plaintiff failed to state a claim upon which relief can be granted.&#x201D; (Answer 11:19.) Plaintiff cites case law holding that failure to state a claim &#x201C;is not an affirmative defense that must be pled or waived.&#x201D; <ital>Quintana v. Baca</ital>, 233 F.R.D. 562, 564 (C.D. Cal. 2005). Defendants cite competing case law that appears to endorse &#x201C;failure to state a claim&#x201D; as an affirmative defense. <ital>See Hernandez v. Balakian et al.</ital>, 2007 US Dist. LEXIS 43680 (E.D. Cal. 2007); <ital>see also Ganley v. County of San Mateo</ital>, 2007 U.S. Dist. LEXIS 26467 (N.D. Cal. 2007).</paratext></para>
+<para><paratext ID="p10" level="0">The Court agrees with <ital>Quintana</ital>, a published opinion from the Central District, that failure to state a claim is not properly presented as an affirmative defense. Defendants are not prejudiced by the striking of this affirmative defense, as they remain free to attack the viability of Plaintiff's legal claims it in the context of a Rule 12(b)(6) motion. The Court GRANTS the request to strike the First Affirmative Defense, and the defense is stricken without leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Second Affirmative Defense</bold></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="0">The Second Affirmative Defense states that &#x201C;Plaintiff's claims are barred by estoppel and/or acquiescence.&#x201D; (Answer 11:19.) The Court agrees with Plaintiff that this is insufficient to provide fair notice of &#x201C;what the defense is and the grounds upon which it rests.&#x201D; (Motion 3:8-15.) Considering the various theories of estoppel, a simple assertion of &#x201C;estoppel&#x201D; does little to narrow down the potential issues the affirmative defense may raise. <ital>See Ganley v. County of San Mateo</ital>, 2007 U.S. Dist. LEXIS 26467, *6 (N.D. Cal. 2007) (&#x201C;However, the mere assertion of a broad category of legal theories, <ital>such as estoppel</ital>, with numerous possible applications requires additional specificity to satisfy the notice pleading standard.&#x201D;) (emphasis added); <ital>see also Qarbon.com Inc. v. eHelp Corp.</ital>, 315 F. Supp. 2d 1046, 1049 (N.D. Cal. 2004).</paratext></para>
+<para><paratext ID="p12" level="0">The Court GRANTS the request to strike the Second Affirmative Defense, and the defense is stricken with leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Third Affirmative Defense</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="0">The Third Affirmative Defense states &#x201C;Plaintiff's claims are barred by the doctrine of unclean hands.&#x201D; (Answer 11:23.) Like estoppel, the defense of unclean hands can take many forms, and the Court agrees with Plaintiff that in the absence of factual allegations indicating the basis for an unclean hands defense in this particular case, it fails to provide the required notice.</paratext></para>
+<para><paratext ID="p14" level="0">The Court GRANTS the request to strike the Third Affirmative Defense, and the defense is stricken with leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Fourth and Fifth Affirmative Defenses</bold></headtext></head>
+<section.body>
+<para><paratext ID="p15" level="0">The Fourth and Fifth Affirmative Defenses assert that Plaintiff's claims for copyright infringement and trafficking in circumvention technology are barred by the fair use doctrine, as codified at 17 U.S.C. &#167; 107, 17 U.S.C. &#167; 1201(c), and 15 U.S.C. &#167; 1115(b). Plaintiff contends that the lack of a factual basis for the assertion of the fair use defense renders it insufficient to survive a motion to strike. (Motion 4:15-20.) Because &#x201C;an affirmative defense may not simply reference a doctrine&#x201D; without providing any factual allegations to show the relevance of that doctrine to the parties' dispute, the Court finds that the Fourth Affirmative Defense provides insufficient notice to Plaintiff. <ital>See Qarbon.com Inc.</ital>, 315 F. Supp. 2d at 1049.</paratext></para>
+<para><paratext ID="p16" level="0">The Court GRANTS the request to strike the Fourth and Fifth Affirmative Defenses, and the defenses are stricken with leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Sixth and Seventh Affirmative Defenses</bold></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="0">The Sixth and Seventh Affirmative Defenses assert that Plaintiff's claim for breach of contract and interference with contract are barred because the &#x201C;terms and conditions&#x201D; of the contract in question are &#x201C;invalid&#x201D; and &#x201C;unconscionable.&#x201D; (Answer 12:4-11.) Plaintiff contends that the defenses should be stricken because &#x201C;they are unsupported by any factual allegations providing a basis for a finding that the contract terms are invalid or unconscionable.&#x201D; (Motion 5:12-15.)</paratext></para>
+<para><paratext ID="p18" level="0">The Court disagrees with Plaintiff and finds that the Sixth and Seventh Affirmative Defenses are sufficient. The contractual terms attacked by Defendants as invalid and unconscionable are discussed comprehensively in the Complaint, thus putting Plaintiff on notice regarding the nature of the defenses. Plaintiff's Motion is DENIED regarding the Sixth and Seventh Affirmative Defenses.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Eighth Affirmative Defense</bold></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="0">The Eighth Affirmative Defense asserts that Plaintiff's trademark and copyright infringement claims are barred by the doctrine of first sale. (Answer 12:12-14.) Similar to the affirmative defenses asserting fair use, Defendant's mere reference to a legal doctrine without any factual allegations relating that doctrine to the facts of this case is insufficient to provide Plaintiff with the required notice. <ital>See Qarbon.com Inc.</ital>, 315 F. Supp. 2d at 1049.</paratext></para>
+<para><paratext ID="p20" level="0">The Court GRANTS the request to strike the Eighth Affirmative Defense, and the defense is stricken with leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Ninth and Tenth Affirmative Defenses</bold></headtext></head>
+<section.body>
+<para><paratext ID="p21" level="0">The Ninth and Tenth Affirmative Defenses assert that Plaintiff's trademarks and copyrights related to this case &#x201C;are invalid for failure to meet the requirements specified&#x201D; in &#x201C;15 U.S.C. &#167; 1115, et seq.,&#x201D; and &#x201C;&#167; 17 U.S.C. 101, et seq.&#x201D; (Answer 12:15-24.) Plaintiff contends that mere citation to statutes fails to provide sufficient notice of the defenses, especially where use of the term &#x201C;et seq.&#x201D; renders the citations indeterminate. (Motion 6:2-11.)</paratext></para>
+<para><paratext ID="p22" level="0">The Court agrees with Plaintiff, and finds that the Ninth and Tenth Affirmative Defenses provide insufficient notice. Defendant claims to have &#x201C;identifie[d] specific sections&#x201D; of the Trademark and Copyright Acts &#x201C;that form the basis for the defense.&#x201D; But the use of &#x201C;et seq.&#x201D;, which is an abbreviation of the Latin for &#x201C;and the following ones,&#x201D; undermines the argument that &#x201C;specific sections&#x201D; have been identified for Plaintiff. <ital>See</ital> Black's Law Dictionary 592 (8th ed. 2004). It is not fair to place the burden on Plaintiff to speculate regarding which of the sections &#x201C;following&#x201D; 15 U.S.C. &#167; 1115 and &#167; 17 U.S.C. 101 Defendants intend as the basis for the affirmative defenses.</paratext></para>
+<para><paratext ID="p23" level="0">The Court GRANTS the request to strike the Ninth and Tenth Affirmative Defenses, and the defenses are stricken with leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Eleventh and Thirteenth Affirmative Defenses</bold></headtext></head>
+<section.body>
+<para><paratext ID="p24" level="0">The Eleventh Affirmative Defense asserts that &#x201C;Plaintiff's claim for interference with business relationships and prospective advantage is barred based on fair competition and free trade.&#x201D; (Answer 12:26-28.) The Thirteenth Affirmative Defense similarly asserts that the claim of unfair competition is barred by Defendants &#x201C;right to engage in fair trade and to promote, encourage, and further competition.&#x201D; (Answer 13:10-13.) Plaintiff argues that Defendants have failed to provide the factual basis for these defenses.</paratext></para>
+<para><paratext ID="p25" level="0">The Court agrees with Plaintiff, and finds that the Eleventh and Thirteenth Affirmative Defenses provide insufficient notice. &#x201C;Where an affirmative defense simply states a legal conclusion without the support of facts explaining how it connects to the instant case, it is insufficient and will not withstand a motion to strike.&#x201D; <ital>Pepsico, Inc. v. J.K. Distributors, Inc.</ital>, 2007 WL 2852647 *2 (C.D. Cal. 2007). The Eleventh and Thirteenth Affirmative Defenses state no factual basis, and even the legal basis for Defendants' assertion that the principles of &#x201C;fair competition and free trade&#x201D; bar Plaintiff's claims is not obvious.</paratext></para>
+<para><paratext ID="p26" level="0">The Court GRANTS the request to strike the Eleventh and Thirteenth Affirmative Defenses, and the defenses are stricken with leave to amend.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Twelfth Affirmative Defense</bold></headtext></head>
+<section.body>
+<para><paratext ID="p27" level="0">The Twelfth Affirmative Defense asserts that Plaintiff's claims for interference with business relationships, interference with prospective business advantage, and inducement of breach of contract is barred &#x201C;because Plaintiff's retailers and agents, not Defendants, have interfered with Plaintiff's business relationships and induced breach of contract.&#x201D; While Defendant's statement does not develop the specific facts of the theory underlying the defense, it does provide a factual basis sufficient to survive a motion to strike.</paratext></para>
+<para><paratext ID="p28" level="0">The Court DENIES the request to strike the Twelfth Affirmative Defense.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Fourteenth Affirmative Defense</bold></headtext></head>
+<section.body>
+<para><paratext ID="p29" level="0">Defendants have withdrawn the Fourteenth Affirmative Defense, and the Court affirms this withdrawal.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>CONCLUSION</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p30" level="0">The purpose of a Rule 12(f) motion to strike is to &#x201C;avoid the expenditure of time and money that must arise from litigating spurious issues by dispensing with those issues prior to trial.&#x201D; <ital>Sidney-Vinstein v. A.H. Robbins Co.</ital>, 697 F.2d 880, 885 (9th Cir. 1983). Requiring Defendants to amend certain of their affirmative defenses to more fully allege the factual bases for these defenses will serve to narrow and clarify the disputed issues in this case.</paratext></para>
+<para><paratext ID="p31" level="0">Accordingly, the Court GRANTS the Motion to Strike the First Affirmative Defense without leave to amend, GRANTS the Motion to Strike the Second, Third, Fourth, Fifth, Eighth, Ninth, Tenth, Eleventh, and Thirteenth Affirmative Defenses with leave to amend, and DENIES the Motion to Strike the Sixth, Seventh, and Twelfth Affirmative Defenses. Defendants' withdrawal of the Fourteenth Affirmative Defense is affirmed.</paratext></para>
+<para><paratext ID="p32" level="0">&#95;&#95;&#95;&#95; : <underscore>0</underscore></paratext></para>
+<para><paratext ID="p33" level="0">Initials of Preparer <underscore>nkb</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

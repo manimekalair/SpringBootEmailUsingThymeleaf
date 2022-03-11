@@ -1,0 +1,33 @@
+
+Epsilon Shortcut keys: alt+x(command key)
+
+1. find file path/folder: ctrl+x,f
+2. New file: Alt+x
+3. Save New file: Ctrl+x,ctrl+w
+4. fundamental mode: No indent with left align
+5. HTML Mode: For Color deferenciate
+6. Double window: Ctrl+2
+7. Single window:ctrl+1
+8. Want to kill current window in same path: Ctrl+x,d
+9. Up window: Alt+home
+10. Down window: Alt+end
+11. Strat page: Ctrl+home
+12. End Page: Ctrl+end
+13. Strat line: Ctrl+A
+14. End line: Ctrl+e
+15. Mark Set(select option): Ctrl+spacebar
+16. Copy: Alt+w
+17. Paste: Ctrl+y
+18. Cut: Ctrl+w
+19. Undo: F9
+20. Redo: F10
+21. Forward running search: Ctrl+s+t
+22. Reverse running search: Ctrl+r+t
+23. Forward search: Ctrl+S
+24. Reverse search: Ctrl+R
+25. Want to kill same path name: Ctrl+x, Ctrl+k
+26. Cancel: Ctrl+g
+27. Want to select all up to downwards: Ctrl+shift+end
+28. Want to select all down to upwards: Ctrl+shift+home
+29. Book mark set: alt-?
+30. Jumped to mark set: alt-j

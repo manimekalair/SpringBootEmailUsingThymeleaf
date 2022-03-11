@@ -1,0 +1,81 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "C:\Documents and Settings\riyaz.EXETERPM\Desktop\archiveJats-interchange-dtd-1.1\JATS-archivearticle1.dtd">
+<?release-delay 0|0?>
+<article article-type="research-article" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">bull</journal-id>
+<journal-title-group>
+<journal-title>The Bulletin of the Royal College of Surgeons of England</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1473-6357</issn>
+<issn pub-type="epub">1478-7075</issn>
+<publisher>
+<publisher-name>Royal College of Surgeons</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.281</article-id>
+<article-id pub-id-type="publisher-id">2017.281</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Legal</subject>
+</subj-group>
+<subj-group subj-group-type="rcs-spec">
+<compound-subject>
+<compound-subject-part content-type="code">adm</compound-subject-part>
+<compound-subject-part content-type="label">Hospital administration</compound-subject-part>
+</compound-subject>
+<compound-subject>
+<compound-subject-part content-type="code">emg</compound-subject-part>
+<compound-subject-part content-type="label">Emergency care</compound-subject-part>
+</compound-subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Cross-examination</article-title>
+<subtitle>Each month we take a close look at a recent legal case with implications for the surgical profession.</subtitle>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<surname>Wheeler</surname>
+<given-names>Robert</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+</contrib>
+<x>, </x>
+<aff id="AF0001"><sup>1</sup>Director, Department of Clinical Law, University Hospital Southampton</aff>
+</contrib-group>
+<pub-date pub-type="ppub"><month>07</month><year>2017</year></pub-date>
+<pub-date pub-type="epub"><month>07</month><year>2017</year></pub-date>
+<volume>99</volume>
+<issue>7</issue>
+<fpage>281</fpage>
+<lpage>281</lpage>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2017 Royal College of Surgeons</copyright-statement>
+<copyright-year>2017</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="rcsbull.2017.281.pdf" content-type="pdf"></self-uri>
+<abstract>
+<p>Consent for a cannula</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+
+<p><bold>I</bold>n a recent judgement, the Court of Appeal reminded clinicians of the vital importance of consent.</p>
+<p>A 64-year-old lady was lying in the resuscitation room of an emergency department in London while an SHO was proposing to insert a cannula into her left arm. This was necessary because she had a suspected fracture of her right humerus. The doctor was concerned that intravenous fluids and pain relief might soon be required. Judging the injured arm to be unsuitable for cannulation, he wished instead to insert the line on the left. Ms Border refused, explaining that she had recently undergone left mastectomy and axillary clearance. She had been forewarned by her oncologists of the risks of lymphoe-dema following infection of cuts in the skin of her left arm. The doctor considered alternative sites of cannulation, including the legs, but owing to her general physical condition could not find a suitable vein. In what the court found to be a &#x2018;quick and silent calculation on his part&#x2019;, the SHO dismissed the alternative sites and, despite the patient&#x2019;s insistence, the cannula was placed in the post-mastectomy left arm without her consent. The cannula was not then immediately used for any purpose, as her medication was oral. Lymphoedema nevertheless ensued, causing her chronic disability.</p>
+<p>Having heard from expert witnesses (in Accident and Emergency) for both Ms Border and the trust, the trial judge had concluded that the SHO had acted in a way that &#x2018;perhaps the great majority&#x2019; of responsible A&#x0026;E doctors would have done &#x2013; and that the decision to insert the cannula was not negligent. The judge set this out in the following terms: &#x2018;(L)ooking at it from the standpoint of the expert evidence, it would be a brave decision for an SHO not to follow standard practice... that an IV line should, if possible, be inserted in the early stage.&#x2019;</p>
+<p>The trial judge dismissed the claim for damages for clinical negligence, but Ms Border disagreed and appealed.</p>
+<p>The Court of Appeal found that, notwithstanding the pressures and anxieties of being a patient in a resuscitation room, during this period the claimant retained her capacity to give or withhold consent. Furthermore, because she gave no consent to the cannu-lation of her left arm then, accordingly, the doctor who chose to insert it breached his duty of care to her.</p>
+<p>Those reading the judgement might reasonably question what on earth the SHO was supposed to do in these circumstances. The Court of Appeal provided no assistance with this &#x2013; although, in fairness, courts only answer the questions posed to them, rather than advising generally upon the clinical dilemma that flows as a consequence of the judgement. In finding that Ms Border had capacity to make this decision, the appeal court simultaneously handed patients in her circumstances an unenviable choice as they lay in that resuscitation bay. Should such a patient take the risk of lymphoedema? Or just hope that they don&#x2019;t have to face a hypotensive crisis or intolerable pain without established vascular access?</p>
+<p>If the clock could be turned back, the court presumably would expect that &#x2013; instead of cannulating without consent &#x2013; the doctor would have explicitly laid out this stark choice to his patient. He should have spelt out to Ms Border that cannulation of an adult with capacity in the absence of their consent was not lawful; but that, equally, if a patient is considered ill enough to be lying in a resuscitation room then the immediately foreseeable risks of non-can-nulation overshadow the theoretical later complications that the needle puncture might cause.</p>
+<p>Should, despite this disclosure, the patient maintain the refusal then it would be prudent to revisit her capacity, record that transaction and seek another opinion before re-evaluating the situation. But, as the court reminds us, consent is required.</p>
+</body>
+</article>

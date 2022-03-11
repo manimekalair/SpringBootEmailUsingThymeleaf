@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>TRINITY CHEMICAL INDUSTRIES, LLC, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>MENLO ENERGY, LLC, et al., Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 14-CV-648-JED-FHM</docket.line>
+<docket.number>14-CV-648-JED-FHM</docket.number>
+<docket.line suppress-flag="y">4:14-cv-00648-JED-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 03/31/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JOHN E. DOWDELL UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is plaintiff's motion to dismiss the fraud claim in defendants' &#x201C;Amended Counterclaims.&#x201D; Plaintiff acknowledges that, following the filing of its prior dismissal motion, which was based upon Fed. R. Civ. P. 9(b) and 12(b)(6), the defendants' amendment &#x201C;arguably cured the lack of specificity <charfill numchar="3">&#8228;</charfill> by adding allegations concerning the who, what and where of the alleged fraud.&#x201D; (Doc. 24 at 2). However, plaintiff argues that defendants' additional allegations in the amended fraud claim do not &#x201C;imbue it with any sense of plausibility,&#x201D; and plaintiff accordingly moves again under Rule 12(b)(6).</paratext></para>
+<para><paratext ID="p2" level="1">In considering a Rule 12(b)(6) motion, the court must determine whether defendants' pleading states a claim upon which relief may be granted. Fed. R. Civ. P. 12(b)(6). A pleading must provide &#x201C;more than labels and conclusions, and a formulaic recitation of the elements of a cause of action.&#x201D; <ital>Bell Atlantic Corp. v. Twombly</ital>, 550 U.S. 544, 555 (2007). The standard requires &#x201C;enough facts to state a claim to relief that is plausible on its face,&#x201D; and the factual allegations &#x201C;must be enough to raise a right to relief above the speculative level.&#x201D; <ital>Id.</ital> at 555-56, 570 (citations omitted). <ital>Twombly</ital> articulated the pleading standard for all civil actions. <ital>See Ashcroft v. Iqbal</ital>, 556 U.S. 662, 684 (2009). The Court must accept all the well-pleaded factual allegations of the defendants' counterclaim as true, even if doubtful, and must construe the allegations in the light most favorable to defendants. <ital>See Twombly</ital>, 550 U.S. at 555.</paratext></para>
+<para><paratext ID="p3" level="1">Plaintiff urges that the scheme alleged by defendants in their fraud counterclaim &#x201C;simply makes no sense.&#x201D; (Doc. 24). While the Court acknowledges that the misrepresentation allegedly made by plaintiff would seem to more closely fit within a warranty theory than a fraud theory, the Court must assume that the factual allegations in the challenged pleading are true, &#x201C;even if doubtful in fact.&#x201D; <ital>Twombly</ital>, 550 U.S. at 555. Accordingly, the Court accepts as true the defendants' allegations that: (1) in order to induce Menlo Energy to enter into the Master Agreement, plaintiff falsely represented that the railcars being offered were suitable for Menlo Energy's uses; (2) the representation was material in that it actually induced Menlo Energy to enter into a long-term agreement with plaintiff, requiring years of continuing rental payments on the railcars; (3) plaintiff made the representation falsely or recklessly; (4) Menlo Energy reasonably relied on the false representation; and (5) Menlo Energy was injured as a result. Those allegations state a plausible counterclaim for fraud at the pleading stage.</paratext></para>
+<para><paratext ID="p4" level="1">IT IS THEREFORE ORDERED that plaintiff's motion to dismiss (Doc. 24) the fraud counterclaim is <bold>denied</bold>.</paratext></para>
+<para><paratext ID="p5" level="1">SO ORDERED this 31st day of March, 2016.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

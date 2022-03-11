@@ -1,0 +1,41 @@
+// IDEPlugInAsActiveX.idl : IDL source for IDEPlugInAsActiveX.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (IDEPlugInAsActiveX.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+#include "olectl.h"
+	
+
+	[
+		object,
+		uuid(D4711F68-57BD-44D3-B4D3-A511795D4FB1),
+		dual,
+		helpstring("IIDESampleActiveX Interface"),
+		pointer_default(unique)
+	]
+	interface IIDESampleActiveX : IDispatch
+	{
+	};
+
+[
+	uuid(B5F1719A-61E5-4EFF-8918-DE66F1B320D4),
+	version(1.0),
+	helpstring("IDEPlugInAsActiveX 1.0 Type Library")
+]
+library IDEPLUGINASACTIVEXLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(6CBB8B79-357F-4065-92B7-478D8B44B0B6),
+		helpstring("IDESampleActiveX Class")
+	]
+	coclass IDESampleActiveX
+	{
+		[default] interface IIDESampleActiveX;
+	};
+};

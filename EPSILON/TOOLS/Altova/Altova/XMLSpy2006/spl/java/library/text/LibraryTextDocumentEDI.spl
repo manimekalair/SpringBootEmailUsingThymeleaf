@@ -1,0 +1,209 @@
+import java.io.IOException;
+
+import com.altova.AltovaException;
+import com.altova.text.edifact.ServiceStringAdvice;
+import com.altova.text.edifact.TextDocument;
+import com.altova.text.edifact.Function;
+import com.altova.text.edifact.Scanner;
+import com.altova.text.edifact.StringToFunctionMap;
+import com.altova.text.TextNode;
+import com.altova.text.TextNodeXMLSerializer;
+import com.altova.text.edifact.EDIFactSettings;
+import com.altova.text.edifact.EDIX12Settings;
+import com.altova.text.edifact.EDISettings;
+
+public class [=$module]Document extends TextDocument {
+
+	[switch ($library.EDIKind)
+	   case 1:	$EDISettingsType= "EDIFactSettings"
+	   case 2:	$EDISettingsType= "EDIX12Settings"
+	   default:	$EDISettingsType= "UnknownSettings"
+	 endswitch]
+
+	private [=$EDISettingsType] m_Settings = new [=$EDISettingsType]();
+
+	protected boolean validateSource(StringBuffer buffer) {
+		[switch ($library.EDIKind)
+		   case 1:]
+		if (0==buffer.indexOf("UNA")) {
+			// extract the separator characters
+			char\[\] seps = new char\[6\];
+			buffer.getChars(3, 9, seps, 0);
+			m_Settings.getServiceStringAdvice().setFromCharArray(seps);
+			// remove 'UNA' and the six separators
+			buffer.delete(0, 8);
+
+			// 0: Component Separator
+			// 1: Element Separator
+			// 2: Decimal Notation, Comma or full stop
+			// 3: Release Indicator / Escape character
+			// 4: Reserved for future use
+			// 5: Segment Terminator
+
+			Scanner scanner = getScanner();
+			scanner.getSeparatorMap().add(seps\[0\], "component");
+			scanner.getSeparatorMap().add(seps\[1\], "element");
+			scanner.getSeparatorMap().add(seps\[5\], "segment");
+			scanner.setEscapeChar((seps\[3\]==' ') ? '\\0' : seps\[3\]);
+			scanner.setDecimalSeparator(seps\[2\]);
+		}
+		[case 2:]
+		if (0==buffer.indexOf("ISA")) {
+			Scanner scanner = getScanner();
+
+			char separatorelement= 0;
+			char separatorcomponent= 0;
+			char separatorsegment= 0;
+
+			int formatcharactercount = countFormatCharacters(buffer, 105);
+			if (formatcharactercount > 0)
+			{
+				String segmentisa= buffer.substring(0, 106 + formatcharactercount);
+				segmentisa= removeCRLF(new StringBuffer(segmentisa));
+
+				separatorelement= segmentisa.charAt(3);
+				separatorcomponent= segmentisa.charAt(104);
+				separatorsegment= segmentisa.charAt(105);
+			}
+			else
+			{
+				separatorelement= buffer.charAt(3);
+				separatorcomponent= buffer.charAt(104);
+				separatorsegment= buffer.charAt(105);
+			}
+
+			scanner.getSeparatorMap().add(separatorelement, "element");
+			scanner.getSeparatorMap().add(separatorcomponent, "component");
+			scanner.getSeparatorMap().add(separatorsegment, "segment");
+		}
+		[endswitch]
+		prepareSource(buffer);
+		return true;
+	}
+	protected boolean validateResult() {
+		boolean result = super.validateResult();
+[		if ($library.EDIKind=1)]recordDecimalSeparator();[endif
+]		return result;
+	}
+	protected void processToken(String token) {
+		Function function = this.getHandlers().get(token);
+		if (function != null)
+		    function.execute(this);
+		else
+		    throw (new AltovaException("Cannot find handler: " + token));
+		Scanner scanner= getScanner();
+		if (scanner.isEndOfText()) return;
+		char segmentseparator = scanner.getSeparatorMap().getSeparatorForSymbolicName("segment");
+		// while the scanner is not at the end of the segment,
+		// ignore the extra content and move to the next
+		// segment token. store the ignored text and
+		// build an error entry for later processing
+		while ((scanner.getCurrentCharacter()!=segmentseparator) && (scanner.scanOneCharacter()!=Scanner.END));
+
+	}
+
+	public [=$module]Document()	{
+		InitScanner();
+		InitGeneral();
+		InitHandler();
+		InitFunction();
+		InitSettings();
+	}
+	public int get[=$library.RootName]Count() {
+		return 1; // always only one root
+	}
+
+	public [=$library.RootName]Type get[=$library.RootName]() {
+		return new [=$library.RootName]Type(super.getGenerator().getRootNode());
+	}
+
+	public [=$library.RootName]Type get[=$library.RootName]At(int nIndex) {
+		return get[=$library.RootName]();
+	}
+	public void add[=$library.RootName]([=$library.RootName]Type rhs) {
+		super.getGenerator().setRootNode(rhs.getNode());
+	}
+	public void save(String filename) throws Exception {
+		TextNode structureroot= EnvelopeType.createStructureNode();
+		super.save(structureroot, filename);
+	}
+
+	protected void InitScanner() {
+		Scanner scanner = getScanner();
+[		foreach $separator in $library.Separators
+]		scanner.getSeparatorMap().add('[=$separator.Character]', "[=$separator.Symbol]");
+[		next]
+	}
+
+	protected void InitGeneral() {
+		super.setProlog( "[=$library.PrologName]" );
+		super.setEpilog( "[=$library.EpilogName]" );
+	}
+
+	protected void InitHandler() {
+		StringToFunctionMap handlers = super.getHandlers();
+[		foreach $handler in $library.Handlers
+]		handlers.add("[=$handler.Name]", HandlerFactory.createHandler[=$handler.Name]());
+[		next]
+	}
+
+	protected void InitFunction() {
+        	StringToFunctionMap functions = super.getFunctions();
+[		foreach $function in $library.Functions
+]		functions.add("[=$function.Name]", FunctionFactory.createFunction[=$function.Name]());
+[		next]
+	}
+
+	protected void InitSettings() {
+		super.setStructureName("[=$library.StructureName]");
+		[switch ($library.EDIKind)
+		case 1:]
+		// EDIFact specific settings:
+		[if $library.EDIFactSettings.SyntaxLevel<>""]
+		m_Settings.setSyntaxLevel('[=$library.EDIFactSettings.SyntaxLevel]');
+		[endif]
+		m_Settings.setSyntaxVersionNumber([=$library.EDIFactSettings.SyntaxVersionNumber]);
+		[if $library.EDIFactSettings.ControllingAgency<>""]
+		m_Settings.setControllingAgency("[=$library.EDIFactSettings.ControllingAgency]");
+		[endif]
+		m_Settings.setWriteUNA([=$library.EDIFactSettings.WriteUNA]);
+		[case 2:]
+		// X12 specific settings:
+[		 $subsep = $library.ToHexCode($library.EDIX12Settings.SubElementSeparator)
+]		m_Settings.setSubElementSeparator((char) 0x[=$subsep]); // [=$library.EDIX12Settings.SubElementSeparator]
+		m_Settings.setInterchangeControlVersionNumber("[=$library.EDIX12Settings.InterchangeControlVersionNumber]");
+		m_Settings.setRequestAcknowledgement([=$library.EDIX12Settings.RequestAcknowledgement]);
+		[default:]
+		// unknown EDI document type
+		[endswitch]
+		// general settings:
+		m_Settings.setAutoCompleteData([=$library.EDISettings.AutoCompleteData]);
+		m_Settings.setTerminateSegmentsWithLinefeed([=$library.EDISettings.TerminateSegmentsWithLinefeed]);
+		ServiceStringAdvice una= m_Settings.getServiceStringAdvice();
+		[
+		 $compsep = $library.ToHexCode($library.EDISettings.ComponentDataElementSeparator)
+		 $datasep = $library.ToHexCode($library.EDISettings.DataElementSeparator)
+		 $decisep = $library.ToHexCode($library.EDISettings.DecimalNotation)
+		 $escpsep = $library.ToHexCode($library.EDISettings.ReleaseIndicator)
+		 $segmsep = $library.ToHexCode($library.EDISettings.SegmentTerminator)
+		]
+		una.setComponentSeparator((char) 0x[=$compsep]); // [=$library.EDISettings.ComponentDataElementSeparator]
+		una.setDataElementSeparator((char) 0x[=$datasep]); // [=$library.EDISettings.DataElementSeparator]
+		una.setDecimalSeparator((char) 0x[=$decisep]); // [=$library.EDISettings.DecimalNotation]
+		una.setReleaseCharacter((char) 0x[=$escpsep]); // [=$library.EDISettings.ReleaseIndicator]
+		una.setSegmentTerminator((char) 0x[=$segmsep]); // [=$library.EDISettings.SegmentTerminator]
+	}
+	
+	protected EDISettings getSettings() {
+		return m_Settings;
+	}
+	protected short getEDIKind() {
+		[switch ($library.EDIKind)
+		   case 1:   $EDIKindSpecifier= "EDIFact"
+		   case 2:   $EDIKindSpecifier= "EDIX12"
+		   default:  $EDIKindSpecifier= "Unknown"
+		 endswitch]
+		return TextDocument.[=$EDIKindSpecifier];
+	}
+}
+

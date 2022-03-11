@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8212; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><ital>Mellissa Withers</ital></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><ital>eHarmony, Inc.</ital></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-2266-GHK (RCx)</docket.line>
+<docket.number>CV 09-2266-GHK (RCx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-02266-GHK-RC</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/25/2010</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Beatrice Herrera, Deputy Clerk, Attorneys Present For Plaintiffs: None</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter / Recorder, Attorneys Present For Defendants: None</attorney.line>
+<attorney.line first-line="1">N/A, Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: (In Chambers) Order re</bold>: Peter Schmidt's Motion to Intervene</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>The Honorable GEORGE H. KING, U.S. DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Peter Schmidt (&#x201C;Schmidt&#x201D;), a class member in the putative class action against Defendant eHarmony, Inc. (&#x201C;Defendant&#x201D;), seeks to intervene as a named plaintiff and putative class representative as of right under Federal Rule of Civil Procedure 24(a), or alternatively with our permission under Rule 24(b). Schmidt filed his Motion to Intervene after it became apparent that Mellissa Withers (&#x201C;Withers&#x201D;), currently the sole named plaintiff in this action, may be subject to challenge as an inadequate class representative due to unique defenses applicable to her claims against Defendant. We have considered the papers filed in support of and opposition to the Motion to Intervene, and deem this matter appropriate for resolution without oral argument. L.R. 7-15. As the Parties are familiar with the facts, we will repeat them only as necessary. Accordingly, we rule as follows.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Permissive Intervention</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">A party seeking to intervene in a pending action may move to intervene as a matter of right pursuant to Federal Rule of Civil Procedure 24(a). Alternatively, we have the discretion to grant permissive intervention under Rule 24(b) if the motion to intervene is timely, there is an independent ground for jurisdiction, and a common question of law or fact exists. <ital>Donnelly v. Glickman</ital>, 159 F.3d 405, 412 (9th Cir. 1998). In exercising our discretion, we &#x201C;must consider whether intervention will unduly delay the main action or will unfairly prejudice the existing parties.&#x201D; <ital>Id.</ital>; <csc>Fed</csc>. R. <csc>Civ</csc>. P. 24(b)(3). &#x201C;In addition to the interests of the original parties,&#x201D; we should also evaluate whether the proposed intervenor's &#x201C;interests are adequately represented by existing parties,&#x201D; and whether judicial economy would be served by intervention. <ital>Venegas v. Skaggs</ital>, 867 F.2d 527, 530-31 (9th Cir. 1989). While the party seeking to intervene bears the burden of demonstrating that the requisite elements of Rule 24 are satisfied, &#x201C;a district court is required to accept as true the non-conclusory allegations made in support of an intervention motion.&#x201D; <ital>Sw. Ctr. for Biological Diversity v. Berg</ital>, 268 F.3d 810, 819 (9th Cir. 2001).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><ital><bold>A. Schmidt's Motion to Intervene Is Timely, and Does Not Prejudice Defendant</bold></ital></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Timeliness is a threshold requirement for permissive intervention; if untimely, we need not consider the other elements. <csc>Fed</csc>. R. <csc>Civ</csc>. P. 24(b)(1). In determining whether a proposed intervenor's motion is timely, we consider the stage of the proceedings when the motion is filed, the prejudice to existing parties if intervention is allowed, and the reason for and length of delay. <ital>League of United Latin Am. Citizens v. Wilson</ital>, 131 F.3d 1297, 1302 (9th Cir. 1997). Although the Complaint in this case was filed over a year ago, &#x201C;mere lapse of time, without more, is not necessarily a bar to intervention.&#x201D; <ital>United States v. Alisal Water Corp.</ital>, 370 F.3d 915, 921 (9th Cir. 2004). &#x201C;The crucial date for assessing the timeliness of a motion to intervene is when proposed intervenors should have been aware that their interests would not be adequately protected by the existing parties.&#x201D; <ital>Smith v. Marsh</ital>, 194 F.3d 1045, 1052 (9th Cir. 1999).</paratext></para>
+<para><paratext ID="p4" level="1">Here, Plaintiff's counsel have submitted declarations attesting to the fact that they only discovered the potential need for intervention after Defendant deposed Withers. (Gignac Decl. &#182;&#182; 5, 12; McLachlan Decl. &#182; 8). Schmidt promptly sought to intervene after realizing the significance of Withers's deposition testimony upon her adequacy as lead plaintiff. Cognizant of the impending deadline for filing a motion for class certification, Plaintiff's counsel requested a stay of the certification issues until we could rule on the Motion to Intervene. The relatively early stage of the proceedings is highlighted by the fact that we have made no factual findings, discovery is still being conducted, and we have not addressed the underlying merits of the claims in either summary judgment or class certification proceedings. <ital>See Martinez v. City of Oxnard</ital>, 229 F.R.D. 159, 162 (C.D. Cal. 2005) (finding motion to intervene timely where &#x201C;only a few months&#x201D; passed since the depositions that prompted the intervention, and defendants had not demonstrated they would be prejudiced by intervention). Moreover, the fact that Schmidt has filed his motion now, rather than earlier in the proceedings, cannot be said to prejudice Defendant since the end result&#8212;defending against certification of a class represented by Schmidt&#8212;would have occurred regardless of when Schmidt joined as a named plaintiff. This is especially so given Defendant's arguments that allowing the claims to proceed on a class-wide basis is inappropriate irrespective of the identity of the class representative. (<ital>See</ital> Opp'n 6-17).</paratext></para>
+<para><paratext ID="p5" level="1">At base, &#x201C;[t]imeliness is a flexible concept; its determination is left to the district court's discretion.&#x201D; <ital>Alisal</ital>, 370 F.3d at 921. This is not a case where a proposed intervenor has purposefully delayed intervention to save costs or gain a tactical advantage. <ital>See id.</ital> at 923-24 (&#x201C;An applicant's desire to save costs by waiting to intervene until a late stage in litigation is not a valid justification for delay. To hold otherwise would encourage interested parties to impede litigation by waiting to intervene until the final stages of a case.&#x201D;). Likewise, we have not &#x201C;substantively&#8212;and substantially&#8212;engaged the issues in this case,&#x201D; a fact that would cut against the timeliness of the Motion to Intervene. <ital>Wilson</ital>, 131 F.3d at 1302. Under the circumstances, Schmidt's Motion to Intervene is timely.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><ital><bold>B. Independent Ground for Jurisdiction, Common Questions of Law and Fact</bold></ital></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Schmidt seeks to intervene as a named plaintiff in this action, to represent the class of all persons similarly situated pursuant to the Class Action Fairness Act (&#x201C;CAFA&#x201D;), 28 U.S.C. &#167; 1332(d)(2). <ital>See Luther v. Countrywide Homes Loans Servicing LP</ital>, 533 F.3d 1031, 1033-34 (9th Cir. 2008) (noting CAFA &#x201C;amended the requirements for diversity jurisdiction by granting district courts original jurisdiction over class actions exceeding $5,000,000 in controversy where at least one plaintiff is diverse from at least one defendant. In other words, complete diversity is not required.&#x201D;). Schmidt's claims against Defendant are predicated on the same legal and factual grounds as those raised by Withers's First Amended Complaint. (<ital>See</ital> McLachlan Decl., Ex. 11 (proposed Complaint-in-Intervention)). Schmidt's aim in seeking intervention is to maintain the viability of this putative class action by improving the adequacy of class representation, rather than to inject new legal issues into the case.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><ital><bold>C. Discretionary Considerations</bold></ital></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">Schmidt's Motion to Intervene, prompted by Defendant's challenge to the adequacy of Withers as a lead plaintiff, essentially seeks to strengthen the class representation. In light of Defendant's assertion that Withers's claims are subject to unique defenses or are otherwise rendered moot, as well as the liberal construction of requirements in favor of intervention, permitting Schmidt to intervene to cure the perceived defects in Withers's representation of the class would serve both the interests of the putative class and judicial economy. <ital>See Bromley v. Mich. Educ. Ass'n-NEA</ital>, 178 F.R.D. 148, 153, 156 (E.D. Mich. 1998) (allowing unnamed class members to intervene, prior to adjudication of motion to certify the class, in order to &#x201C;strengthen representation of the class in the face of defendants' challenge to the adequacy of class representation&#x201D;).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">In light of the foregoing discussion, we exercise our discretion and hereby <bold>GRANT</bold> Schmidt's Motion to Intervene pursuant to Rule 24(b)(2).<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Schmidt <bold>SHALL</bold> file his Complaint-in-Intervention <bold>within ten (10) days</bold> hereof. Any Motion for Class Certification <bold>SHALL</bold> be filed by no later than March 22, 2010.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p9">&#8195;Given our conclusion that permissive intervention is appropriate, there is no need to address whether Schmidt is entitled to intervene as a matter of right pursuant to Rule 24(a)(2).</paratext></para></footnote.body></footnote>
+<para><paratext ID="p10" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p11" level="1"><underscore>--- : ---</underscore></paratext></para>
+<para><paratext ID="p12" level="1">Initials of Deputy Clerk <underscore>ljw for Bea</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

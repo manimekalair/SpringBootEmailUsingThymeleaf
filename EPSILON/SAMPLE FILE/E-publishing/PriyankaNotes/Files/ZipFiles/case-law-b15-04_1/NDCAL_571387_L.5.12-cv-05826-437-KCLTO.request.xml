@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>NORTHERN DISTRICT OF CALIFORNIA</venue.name>
+<venue.name>SAN JOSE DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>GOOD TECHNOLOGY CORPORATION AND) GOOD TECHNOLOGY SOFTWARE, INC., Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>MOBILEIRON, INC., Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 5:12-cv-05826-PSG</docket.line>
+<docket.number>5:12-cv-05826-PSG</docket.number>
+<docket.line suppress-flag="y">5:12-cv-05826-PSG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 07/06/2015</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>OMNIBUS ORDER RE: MOTIONS IN LIMINE AND OTHER PRE-TRIAL ISSUES</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">PAUL S. GREWAL United States Magistrate Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Plaintiffs Good Technology Corp. and Good Technology Software, Inc. and Defendant MobileIron, Inc. have collectively filed 22 motions in limine.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> The parties appeared earlier at a pre-trial conference and supplemented their briefing with oral argument. As previewed at the hearing and explained further below, the court grants the requested relief&#8212;but only in limited part.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p2">&#8195;<ital>See</ital> Docket Nos. 358, 361.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. Docket No. 358: Good's MIL No. 1</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Good moves to exclude evidence of, reference to or argument regarding any suggestion by this court that any patents-in-suit may be invalid. Specifically, Good moves to exclude reference to the court's statements in its order denying MobileIron's motion for judgment on the pleadings<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> and &#x201C;any other such statements by the court.&#x201D; The motion is GRANTED.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p4">&#8195;<ital>See</ital> Docket No. 298.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>B. Docket No. 358: Good's MIL No. 2</bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Good moves to exclude evidence of, reference to or suggestion of disparaging characterizations of the USPTO, its examiners or its examination process. Based on MobileIron's representations that it will not make such arguments, the motion is DENIED. Should MobileIron attempt to present any unfair or inflammatory characterizations of the USPTO, its examiners or its process, Good is free to renew its objection.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>C. Docket No. 358: Good's MIL No. 3</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Good moves to exclude references to the construction of claim terms and arguments about the construction of claim terms that this court previously rejected. The motion is GRANTED.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>D. Docket No. 358: Good's MIL No. 4</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">Good moves to exclude evidence of, reference to or suggestion regarding the claim construction process beyond the words of this court's claim construction order.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> The motion is GRANTED.</paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p8">&#8195;<ital>See id.</ital></paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>E. Docket No. 358: Good's MIL No. 5</bold></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Good moves to exclude evidence of, reference to or suggestion of Good's initial public offering, its IPO process or its securities. While MobileIron argues that the information is relevant to reasonable royalty determinations and Good's Lanham Act claim, the court is convinced that the potential prejudice of opening up the contents of SEC filings before Good actually goes public outweighs the potential relevance of the information contained therein.<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference> The motion is GRANTED. Any evidence of, reference to or suggestion of MobileIron's SEC filings is similarly excluded.<footnote.reference ID="fr5" refid="f5" style="percent_n">5</footnote.reference></paratext></para>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p10">&#8195;<ital>See</ital> Fed. R. Evid. 403.</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f5"><footnote.body><para><label.designator>FN5.</label.designator><paratext ID="p11">&#8195;To the extent the parties wish to meet and confer on this issue and stipulate to a different outcome, the court will entertain any such stipulation.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>F. Docket No. 358: Good's MIL No. 6</bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">Good moves for an order precluding MobileIron from referring to Good as &#x201C;Visto&#x201D; during the trial. While reference to Good as Visto may create juror confusion, references to Visto are inevitable. Accordingly, the motion is GRANTED-IN-PART. Only statements that refer to post-merger Good as Visto are precluded.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>G. Docket No. 358: Good's MIL No. 7</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Good moves to exclude any evidence of, reference to or suggestion of Good's alleged willful infringement. At least in competitor cases, <ital>In re Seagate</ital> set a clear bar precluding a finding of willful infringement in the absence of a patentee seeking a preliminary injunction.<footnote.reference ID="fr6" refid="f6" style="percent_n">6</footnote.reference> As MobileIron sought no such injunction&#8212;and for the sake of consistency with this court's order granting MobileIron summary judgment of no willful infringement<footnote.reference ID="fr7" refid="f7" style="percent_n">7</footnote.reference>&#8212;the motion is GRANTED.</paratext></para>
+<footnote ID="f6"><footnote.body><para><label.designator>FN6.</label.designator><paratext ID="p14">&#8195;<ital>In re Seagate Tech., LLC</ital>, 497 F.3d 1360, 1374 (Fed. Cir. 2007) (en banc) (a &#x201C;patentee who does not attempt to stop an accused infringer's activities [by seeking a preliminary injunction] should not be allowed to accrue enhanced damages based solely on the infringer's post-filing conduct.&#x201D;).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f7"><footnote.body><para><label.designator>FN7.</label.designator><paratext ID="p15">&#8195;<ital>See</ital> Docket No. 424.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>H. Docket No. 361: MobileIron's MIL No. 1</bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">MobileIron moves to preclude Good from asserting obviousness combinations that were not disclosed in its invalidity contentions. While the court intends to hold the parties to its disclosures at trial&#8212;and will entertain any objections under Fed. R. Civ. P. 37(c) at the appropriate juncture&#8212; the court will not exclude such combinations wholesale before trial. The motion is DENIED.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Docket No. 361: MobileIron's MIL No. 2</bold></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="1">MobileIron moves to preclude one of Good's technical experts, Hugh Smith, from offering certain doctrine of equivalents opinions. MobileIron offers no reason it could not have included this challenge in its earlier challenge to Smith's opinion testimony. The motion is DENIED.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>J. Docket No. 361: MobileIron's MIL No. 3</bold></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">MobileIron moves to preclude Good from relying on applications that the &#x2018;606 patent incorporates by reference. In light of the court's order granting summary judgment of non-infringement and invalidity of the &#x2018;606 patent, the motion is DENIED AS MOOT.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>K. Docket No. 361: MobileIron's MIL No. 4</bold></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">MobileIron moves to preclude Good from asserting the &#x2018;606 patent is entitled to an invention date earlier than January 16, 1998. In light of the court's order granting summary judgment of non-infringement and invalidity of the &#x2018;606 patent, the motion is DENIED AS MOOT.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>L. Docket No. 361: MobileIron's MIL No. 5</bold></headtext></head>
+<section.body>
+<para><paratext ID="p20" level="1">MobileIron moves to preclude Good from offering any evidence relating to MobileIron's iOS jailbreak detection feature. Because MobileIron's iOS jailbreak detection is not an accused feature, the court is persuaded that evidence about its function is not relevant. But MobileIron's similar &#x201C;root detection&#x201D; feature is accused and documents describing its function often use the term &#x201C;jailbreak.&#x201D; The motion is GRANTED-IN-PART. Evidence solely relating to MobileIron's iOS jailbreak detection is excluded. This does not bar Good from admitting evidence that merely uses the term &#x201C;jailbreak&#x201D; or refers to both jailbreak detection and root detection to establish facts about the root detection feature.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>M. Docket No. 361: MobileIron's MIL No. 6</bold></headtext></head>
+<section.body>
+<para><paratext ID="p21" level="1">MobileIron moves to preclude Good from arguing that MobileIron directly infringes the method claims of the patents-in-suit through sales of software or use of software by others. The Federal Circuit requires that the accused infringer practice each and every step of the method to prove direct infringement,<footnote.reference ID="fr8" refid="f8" style="percent_n">8</footnote.reference> and this Good cannot do.<footnote.reference ID="fr9" refid="f9" style="percent_n">9</footnote.reference> The motion is GRANTED.</paratext></para>
+<footnote ID="f8"><footnote.body><para><label.designator>FN8.</label.designator><paratext ID="p22">&#8195;<ital>See Ericsson v. D-Link Sys., Inc.</ital>, 773 F.3d 1201, 1222 (Fed. Cir. 2014) (&#x201C;[N]one of our decisions have found direct infringement of a method claim by sales of an end user product which performs the entire method, and we decline to do so here.&#x201D;); <ital>Ricoh Co., Ltd. v. Quanta Computer Inc.</ital>, 550 F.3d 1325, 1335 (Fed. Cir. 2008) (&#x201C;[A] party that sells or offers to sell software containing instructions to perform a patented method does not infringe the patent under &#167; 271(a).&#x201D;); <ital>Ormco Corp. v. Align Tech., Inc.</ital>, 463 F.3d 1299, 1311 (Fed. Cir. 2006) (&#x201C;Method claims are only infringed when the claimed process is performed, not by the sale of an apparatus that is capable of infringing use.&#x201D;).</paratext></para>
+</footnote.body></footnote>
+<footnote ID="f9"><footnote.body><para><label.designator>FN9.</label.designator><paratext ID="p23">&#8195;This ruling does not impact any damages Good may seek based on direct infringement.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>N. Docket No. 361: MobileIron's MIL No. 7</bold></headtext></head>
+<section.body>
+<para><paratext ID="p24" level="1">MobileIron moves to preclude Good's experts from testifying about MobileIron's advice of counsel letters. In light of the court's order granting summary judgment on willfulness and indirect infringement, the motion is DENIED AS MOOT.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>O. Docket No. 361: MobileIron's MIL No. 8</bold></headtext></head>
+<section.body>
+<para><paratext ID="p25" level="1">MobileIron moves to preclude Good from introducing or relying upon MOBIR0961876, an internal MobileIron email from 2008. The court is persuaded that MOBIR0961876 is relevant and not unfairly prejudicial. The motion is DENIED. Should Good attempt to improperly use MOBIR0961876 at trial to support untrue or inflammatory characterizations, MobileIron is free to renew its objection.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>P. Docket No. 361: MobileIron's MIL No. 9</bold></headtext></head>
+<section.body>
+<para><paratext ID="p26" level="1">MobileIron moves to exclude certain evidence from trial in the event that Good's Lanham Act claim is bifurcated for a bench trial. In light of the court's denial of the request for bifurcation, the motion is DENIED AS MOOT.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Q. Docket No. 361: MobileIron's MIL No. 10</bold></headtext></head>
+<section.body>
+<para><paratext ID="p27" level="1">MobileIron moves to preclude Good from relying on theories, witnesses and evidence disclosed for the first time in a May 2015 discovery response. The motion is GRANTED-INPART. To the extent any of this information was properly disclosed before the close of fact discovery in December 2014, it is fair game. But theories, witnesses and evidence disclosed after the close of fact discovery are out under Fed. R. Civ. P. 37(c).<footnote.reference ID="fr10" refid="f10" style="percent_n">10</footnote.reference></paratext></para>
+<footnote ID="f10"><footnote.body><para><label.designator>FN10.</label.designator><paratext ID="p28">&#8195;Fed. R. Civ. P. 37(c) (&#x201C;If a party fails to provide information or identify a witness as required by Rule 26(a) or (e), the party is not allowed to use that information or witness to supply evidence <charfill numchar="3">&#8228;</charfill> at a trial&#x201D;).</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>R. Docket No. 361: MobileIron's MIL No. 11</bold></headtext></head>
+<section.body>
+<para><paratext ID="p29" level="1">MobileIron moves to preclude Good from seeking Lanham Act damages. MobileIron argues that Good never provided a damages computation in any of its disclosures and that its &#x201C;late-disclosed&#x201D; theories on lost profits and disgorgement should be excluded under Fed. R. Civ. P. 37(c).<footnote.reference ID="fr11" refid="f11" style="percent_n">11</footnote.reference> Good counters that it disclosed its intention to seek Lanham Act damages in its First Amended Complaint.<footnote.reference ID="fr12" refid="f12" style="percent_n">12</footnote.reference> Beyond that, Good argues that it was not required to disclose any computation of MobileIron's profits because, in the event that Good is able to prove willfulness at trial, the burden will shift to MobileIron to prove that its profits were not attributed to the alleged conduct.<footnote.reference ID="fr13" refid="f13" style="percent_n">13</footnote.reference> In light of the latitude of Rule 37, the court cannot say that Good's failure to specify a damages computation&#8212;under the circumstances of a shifting burden&#8212;was not &#x201C;substantially justified.&#x201D;<footnote.reference ID="fr14" refid="f14" style="percent_n">14</footnote.reference> The motion is DENIED.</paratext></para>
+<footnote ID="f11"><footnote.body><para><label.designator>FN11.</label.designator><paratext ID="p30">&#8195;<ital>Id.</ital></paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f12"><footnote.body><para><label.designator>FN12.</label.designator><paratext ID="p31">&#8195;Docket No. 32 at 16 (&#x201C;That the Court require MobileIron to pay damages (including without limitation lost profits and disgorgement) and enhanced damages and/or treble damages, in a sum to be proven at trial, based on its violation of the Lanham Act&#x201D;).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f13"><footnote.body><para><label.designator>FN13.</label.designator><paratext ID="p32">&#8195;<ital>See Lindy Pen Co., Inc. v. Bic Pen Corp.</ital>, 982 F.2d 1400, 1408 (9th Cir. 1993) (holding that gross profits are presumed to be the result of the infringing activity and the burden shifts to defendant to show otherwise); <ital>Southland Sod Farms v. Stover Seed Co.</ital>, 108 F.3d 1134, 1146 (9th Cir. 1997) (&#x201C;In fact, for false comparative advertising claims, this circuit has held that &#x2018;publication of deliberately false comparative claims gives rise to a presumption of actual deception and reliance.&#x2019;&#x201D; (citing <ital>U-Haul Int'l, Inc. v. Jartran, Inc.</ital>, 793 F.2d 1034, 1040-41 (9th Cir. 1986) (quoting <ital>U-Haul Int'l, Inc. v. Jartran, Inc.</ital>, 601 F. Supp. 1140, 1149 (D. Ariz. 1984)))).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f14"><footnote.body><para><label.designator>FN14.</label.designator><paratext ID="p33">&#8195;Fed. R. Civ. P. 37(c)(1) (&#x201C;If a party fails to provide information or identify a witness as required by Rule 26(a) or (e), the party is not allowed to use that information or witness to supply evidence on a motion, at a hearing, or at a trial, unless the failure was substantially justified or is harmless.&#x201D;); <ital>see also</ital> Fed. R. Civ. Proc. 26(a) advisory committee's note (1993) (&#x201C;Likewise, a party would not be expected to provide a calculation of damages which, as in many patent infringement actions, depends on information in the possession of another party or person.&#x201D;).</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>S. Docket No. 361: MobileIron's MIL No. 12</bold></headtext></head>
+<section.body>
+<para><paratext ID="p34" level="1">MobileIron moves to preclude Good from offering any evidence, testimony or argument regarding the identities of specific Good entities which sold GFE or GMM products in the United States. In light of the court's order granting summary judgment of lost profits,<footnote.reference ID="fr15" refid="f15" style="percent_n">15</footnote.reference> the motion is DENIED AS MOOT.</paratext></para>
+<footnote ID="f15"><footnote.body><para><label.designator>FN15.</label.designator><paratext ID="p35">&#8195;<ital>See</ital> Docket No. 378.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>T. Docket No. 361: MobileIron's MIL No. 13</bold></headtext></head>
+<section.body>
+<para><paratext ID="p36" level="1">MobileIron moves to preclude Good from asserting a single functioning unit damages theory, a reasonable royalty based on 30 percent of MobileIron's product revenue and per patent royalties for the &#x2018;606, &#x2018;219 and &#x2018;386 patents. In light of the court's orders on Good's lost profits and reasonable royalty theories,<footnote.reference ID="fr16" refid="f16" style="percent_n">16</footnote.reference> the portion of the motion concerning a single functioning unit theory is DENIED AS MOOT.</paratext></para>
+<footnote ID="f16"><footnote.body><para><label.designator>FN16.</label.designator><paratext ID="p37">&#8195;<ital>See id.</ital></paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p38" level="1">The remainder of the motion concerns the strength of conclusions reached by Good's experts. While MobileIron argues that these issues were raised for the first time in opposition to its motions for summary judgment and to exclude experts, if MobileIron believes Good's 30 percent product revenue and per patent royalties lack support, cross-examination is available to point out these deficiencies to the jury. Wholesale exclusion is unwarranted. The motion is DENIED.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>U. Docket No. 361: MobileIron's MIL No. 14</bold></headtext></head>
+<section.body>
+<para><paratext ID="p39" level="1">MobileIron moves to exclude an Excel spreadsheet produced by Good entitled &#x201C;Value of Lost Opportunities.&#x201D; The spreadsheet indicates the amount in sales that Good lost to MobileIron based on Good's salespeople self-reporting which competitors they believe made final sales to potential customers. While MobileIron argues that such information is more prejudicial than probative, the court finds that it clears relevance, hearsay and prejudice hurdles under Fed. R. Evid. 401, 403 and 801. MobileIron will have the opportunity to vigorously cross-exam Good witnesses as to the contents of the document, nullifying any concerns about potential prejudice. The motion is DENIED.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>V. Docket No. 361: MobileIron's MIL No. 15</bold></headtext></head>
+<section.body>
+<para><paratext ID="p40" level="1">MobileIron moves to preclude Good from offering settlement agreements with Excitor A/S and Little Red Wagon into evidence. While settlement agreements can form a basis for reasonable royalty opinions, the settlement agreement must have a similar scope to the hypothetical license agreement.<footnote.reference ID="fr17" refid="f17" style="percent_n">17</footnote.reference> In light of the court's order granting summary judgment of non-infringement and invalidity of the &#x2018;606 patent, the Excitor A/S and Little Red Wagon agreements no longer include any of the patents-in-suit. Absent a substantial connection to a licensing agreement involving a patent-in-suit or substantially similar circumstances,<footnote.reference ID="fr18" refid="f18" style="percent_n">18</footnote.reference> which Good can no longer show, the Excitor A/S and Little Red Wagon agreements are irrelevant. The motion is GRANTED.</paratext></para>
+<footnote ID="f17"><footnote.body><para><label.designator>FN17.</label.designator><paratext ID="p41">&#8195;<ital>See Trell v. Marlee Electronics Corp.</ital>, 912 F.2d 1443, 1447 (Fed. Cir. 1990) (The district court's apparent failure to consider the fact that the Bewator license <charfill numchar="3">&#8228;</charfill> encompassed the right to other inventions compels reversal.&#x201D;).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f18"><footnote.body><para><label.designator>FN18.</label.designator><paratext ID="p42">&#8195;<ital>See Lucent Techs. Inc. v. Gateway, Inc.</ital>, 580 F.3d 1301, 1329-30 (Fed. Cir. 2009) (holding that comparable licenses must not arise from divergent circumstances or cover different technology); <ital>Sentius Int'l, LLC v. Microsoft Corp.</ital>, Case No. 13-cv-00825, 2015 U.S. Dist. LEXIS 10423 (N.D. Cal. Jan. 27, 2015); <ital>Golden Bridge Tech. v. Apple, Inc.</ital>, Case No. 12-cv-04882, 2014 U.S. Dist. LEXIS 76339 (N.D. Cal. Jun. 1, 2014).</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>W. Additional Disputes from Pre-Trial Conference</bold></headtext></head>
+<section.body>
+<para><paratext ID="p43" first-line="1" turnover="hanging">&#8226; Good seeks leave to file a motion for reconsideration of the court's summary judgment order<footnote.reference ID="fr19" refid="f19" style="percent_n">19</footnote.reference> on lost profits, in which the court granted the motion in full. Under Civ. L.R. 7-9, a party must be able to show &#x201C;[a] manifest failure by the Court to consider material facts or dispositive legal arguments which were presented to the Court before such interlocutory order.&#x201D;<footnote.reference ID="fr20" refid="f20" style="percent_n">20</footnote.reference> While Good argues that the court did not consider GMM in finding that Weinstein incorrectly applied the EMVR, the court did in fact consider both GMM and GFE in its analysis. And while Good argues that GMM is the smallest saleable patent practicing unit, Good failed to present any evidence suggesting the same. Finally, it is improper for Good to suggest swapping in the GMM price for the GFE price to alleviate the court's market elasticity concern. Nor will the court entertain other amendments to the expert reports such as substituting the average sales price of MobileIron's products for the GMM price. The time for such changes has long since passed. Good alternatively requests that MobileIron be precluded from introducing evidence to (1) characterize Good's own products as not functioning properly, (2) characterize Good's engineering team as having improper resources, (3) characterize Good's financial resources as insufficient (4) otherwise disparage Good's products or business units or (5) engage in discussion regarding the business relationships of Good's subsidiaries. To the extent that Good wishes to make individualized objections to any such evidence during trial, it is free to renew this request. The motion is DENIED.</paratext></para>
+<footnote ID="f19"><footnote.body><para><label.designator>FN19.</label.designator><paratext ID="p44">&#8195;Docket No. 399.</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f20"><footnote.body><para><label.designator>FN20.</label.designator><paratext ID="p45">&#8195;Civ. L.R. 7-9(b)(3).</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p46" first-line="1" turnover="hanging">&#8226; MobileIron's Emergency Motion to Preclude Good from Disputing Inventorship of MobileIron's &#x2018;016 Patent<footnote.reference ID="fr21" refid="f21" style="percent_n">21</footnote.reference> is DENIED. Good's request to sever the &#x2018;016 patent from the case pending a ruling on correction from the United States Patent Office also is DENIED. The parties may propose jury instructions as to inventorship to correct any potential for jury confusion.</paratext></para>
+<footnote ID="f21"><footnote.body><para><label.designator>FN21.</label.designator><paratext ID="p47">&#8195;Docket No. 405.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p48" first-line="1" turnover="hanging">&#8226; MobileIron seeks leave to file a motion for reconsideration of the court's denial of its motion for summary judgment of indefiniteness of Claim 18 of the &#x2018;219 patent.<footnote.reference ID="fr22" refid="f22" style="percent_n">22</footnote.reference> Civ. L.R. 7-9 permits a request for leave to file a motion for reconsideration if (1) at the time of the motion for leave, a material difference in fact or law exists from that which was presented to the court before entry of the interlocutory order for which reconsideration is sought; or (2) the emergence of new material facts or a change of law occurring after the time of such order.<footnote.reference ID="fr23" refid="f23" style="percent_n">23</footnote.reference> MobileIron points the court to the Federal Circuit's recent decision in <ital>Williamson v. Citrix Online, LLC</ital><footnote.reference ID="fr24" refid="f24" style="percent_n">24</footnote.reference> which overruled <ital>Lighting World Inc. v. Birchwood Lighting</ital><footnote.reference ID="fr25" refid="f25" style="percent_n">25</footnote.reference> and changed the presumptions that apply to means-plus-function claims. That is well and good. But the court denied the motion for summary judgment at-issue in light of its claim construction, where the court determined that the plain and ordinary meaning applies to the term &#x201C;data tracker.&#x201D;<footnote.reference ID="fr26" refid="f26" style="percent_n">26</footnote.reference> Because the court had already decided that the term &#x201C;data tracker&#x201D; was not indefinite, it denied the motion for summary judgment on that basis,<footnote.reference ID="fr27" refid="f27" style="percent_n">27</footnote.reference> rather than on the merits of <ital>Lighting World.</ital> The motion is DENIED.</paratext></para>
+<footnote ID="f22"><footnote.body><para><label.designator>FN22.</label.designator><paratext ID="p49">&#8195;Docket No. 431.</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f23"><footnote.body><para><label.designator>FN23.</label.designator><paratext ID="p50">&#8195;Civ. L.R. 7-9.</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f24"><footnote.body><para><label.designator>FN24.</label.designator><paratext ID="p51">&#8195;Case No. 2013-1130, 2015 U.S. App. LEXIS 10082 (Fed. Cir. June 16, 2015).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f25"><footnote.body><para><label.designator>FN25.</label.designator><paratext ID="p52">&#8195;382 F.3d 1354, 1358 (Fed. Cir. 2004).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f26"><footnote.body><para><label.designator>FN26.</label.designator><paratext ID="p53">&#8195;<ital>See</ital> Docket No. 135.</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f27"><footnote.body><para><label.designator>FN27.</label.designator><paratext ID="p54">&#8195;<ital>See</ital> Docket No. 169.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p55" first-line="1" turnover="hanging">&#8226; MobileIron's request for bifurcation of the Lanham Act claims is DENIED. To the extent the remedy on Good's Lanham Act claims is equitable in nature, the court will submit the issue to the jury for an advisory verdict.</paratext></para>
+<para><paratext ID="p56" first-line="1" turnover="hanging">&#8226; Either party may bring a Fed. R. Civ. P. 50(a) motion orally if it so chooses. In the event that a party or the court feels that further briefing is necessary, the party can request a briefing schedule. In the event either party wishes to bring a Fed. R. Civ. P. 50(b) motion following the close of trial, the parties shall follow the procedures laid out in the Civil Local Rules.<footnote.reference ID="fr28" refid="f28" style="percent_n">28</footnote.reference></paratext></para>
+<footnote ID="f28"><footnote.body><para><label.designator>FN28.</label.designator><paratext ID="p57">&#8195;<ital>See</ital> Civ. L.R. 7.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p58" level="1">&#8226; The parties shall present the FJC patent introduction video featuring Judge Fogel before jury selection.</paratext></para>
+<para><paratext ID="p59" first-line="1" turnover="hanging">&#8226; As to the DeAmbra trial subpoena, MobileIron is not required to accept service on his behalf in light of the fact that he is no longer a MobileIron employee. MobileIron was ordered to produce last-known contact information for DeAmbra so that Good can serve him individually.</paratext></para>
+<para><paratext ID="p60" first-line="1" turnover="hanging">&#8226; The parties shall meet and confer as to confidentiality designations. The courtroom will remain open to the public over the course of trial, subject to any narrow and exceptional request of the parties.</paratext></para>
+<para><paratext ID="p61" first-line="1" turnover="hanging">&#8226; During voir dire, each party will have 45 minutes to ask questions of the jury. The scope of such questions will be limited to jurors' responses to the court's line of questioning and jurors' responses to the juror questionnaire.</paratext></para>
+<para><paratext ID="p62" first-line="1" turnover="hanging">&#8226; The parties shall consult with the clerk's office to arrange the use of the juror questionnaire as proposed at Docket No. 389.</paratext></para>
+<para><paratext ID="p63" first-line="1" turnover="hanging">&#8226; Each party will have one hour for opening statements and one hour for closing arguments. Each party will have 25 hours to conduct direct examinations, cross examinations and any rebuttal.</paratext></para>
+<para><paratext ID="p64" first-line="1" turnover="hanging">&#8226; Each trial day will begin at 9:00 AM and end at 4:30 PM, with a one-hour lunch break. Counsel shall appear at 8:00 AM each day to address any preliminary evidentiary issues.</paratext></para>
+<para><paratext ID="p65" first-line="1" turnover="hanging">&#8226; Voir dire will commence at 9:00 AM on Thursday, July 16, 2015. Opening statements will follow immediately thereafter.</paratext></para>
+<para><paratext ID="p66" first-line="1" turnover="hanging">&#8226; Jury instructions and verdict form will be addressed at the jury charge conference, which will be held at the end of the trial day toward the end of the first full week of trial. No later than July 9, 2015, the parties may file amended proposed jury instructions and verdict forms to the extent that their scope has changed in light of this court's rulings on summary judgment.</paratext></para>
+<para><paratext ID="p67" first-line="1" turnover="hanging">&#8226; The parties may briefly introduce each witness at the beginning of each direct examination.</paratext></para>
+<para><paratext ID="p68" first-line="1" turnover="hanging">&#8226; One party representative may attend the entirety of the trial. In-house counsel may attend the entirety of the trial only if counsel will not be called as a witness.</paratext></para>
+<para><paratext ID="p69" first-line="1" turnover="hanging">&#8226; Each witness may be questioned by only one attorney per side.</paratext></para>
+<para><paratext ID="p70" first-line="1" turnover="hanging">&#8226; All demonstratives that are to be used in opening shall be disclosed by 7:00 PM, July 15, 2015. Any objections to those demonstratives shall be raised by 10:00 PM, July 15, 2015.</paratext></para>
+<para><paratext ID="p71" first-line="1" turnover="hanging">&#8226; All demonstratives (other than opening and closing) shall be disclosed by 5:00 PM the day before they aie used; any objections shall be raised by 10:00 PM the day before they are used.</paratext></para>
+<para><paratext ID="p72" first-line="1" turnover="hanging">&#8226; The parties shall identify witnesses to be called live (in the order of call) and by deposition by 7:00 PM two nights before the day of trial during which the witness will testify.</paratext></para>
+<para><paratext ID="p73" first-line="1" turnover="hanging">&#8226; By 5:00 PM the evening before a witness is to testify, the party identifying the witness shall provide the court and the opposing party a witness binder disclosing all exhibits that will be used in questioning the witness.</paratext></para>
+<para><paratext ID="p74" first-line="1" turnover="hanging">&#8226; The parties shall meet and confer regarding demonstratives, exhibits and deposition objections, as well as any confidentiality designations, by 10:00 PM the night before the objected materials are to be used in court.</paratext></para>
+<para><paratext ID="p75" first-line="1" turnover="hanging">&#8226; All disputes about exhibit admissibility will be teed up the nioming of the witness's examination. Each party shall move to admit exhibits as they are presented to the witness, during a break or at the end of the trial day.</paratext></para>
+<para><paratext ID="p76" level="1">SO ORDERED.</paratext></para>
+<para><paratext ID="p77" level="1">Dated: July 6, 2015</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

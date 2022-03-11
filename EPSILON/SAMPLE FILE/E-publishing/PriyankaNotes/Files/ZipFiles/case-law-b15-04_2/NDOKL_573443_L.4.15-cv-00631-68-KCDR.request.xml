@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>FIFTH THIRD BANK, an Ohio banking corporation, Plaintiff</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>LEES SPECIALTY COMPOUNDING, LLC, a Delaware limited liability company, company; THE APOTHECARY SHOPPE, LLC, a Delaware limited liability company; THE APOTHECARY SHOPPE OF B.A., LLC, a Delaware limited liability company; GETMAN-APOTHECARY SHOPPE, LLC, a Delaware limited liability company; and LEES SPECIALTY COMPOUNDING, INC., a Delaware corporation, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No. 15-CV-631-TCK-FHM</bold></docket.line>
+<docket.number><bold>15-CV-631-TCK-FHM</bold></docket.number>
+<docket.line suppress-flag="y">4:15-cv-00631-TCK-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/22/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold><underscore>ORDER</underscore></bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>TERENCE C. KERN United States District Judge</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is the Report and Recommendation of United States Magistrate Judge Frank H. McCarthy (Doc. 66), wherein Judge McCarthy recommends that the Court enter the attached Order Granting Receiver's Motion for Authority to Sell Assets at Public Sale Auction. Plaintiff filed a response to the Report and Recommendation, waiving any right to assert an objection or further respond to the Report and Recommendation (Doc. 67). Defendants did not file a response to the Receiver's Motion and have not otherwise appeared in this action.</paratext></para>
+<para><paratext ID="p2" level="1">Accordingly, the Report and Recommendation (Doc. 66) is AFFIRMED and ADOPTED as the Order of the Court. The Order Granting Receivers Motion for Authority to Sell Assets at Public Auction Sale shall be entered.</paratext></para>
+<para><paratext ID="p3" level="1"><bold>SO ORDERED this 22nd day of April, 2016.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

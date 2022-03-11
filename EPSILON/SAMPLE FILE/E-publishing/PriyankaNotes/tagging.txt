@@ -1,0 +1,413 @@
+
+Important:
+----------
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "BITS-book-oasis2.dtd(May be change aagalam)">
+         ----- 
+<?xml-stylesheet type="text/xsl" href="filepath\validate(foldername).xsl"?> 
+<book>- based on DTD(2nd line)
+
+Tags:
+-----
+<book></book>
+<body></body>
+<book-part-meta></book-part-meta>
+<abstract></abstract>
+<back></back>
+<fpage></fpage>
+<lpage></lpage>
+
+<sec id="sec1_1">
+<sec1 id="ch1-sec1">
+<label>1.</label>
+<title></title>
+</sec1>
+
+<break/>
+<p></p>
+<p content-type="no-indent"></p>
+<target target-type="page" id="page_"/>
+<attrib></attrib>
+<disp-quote></disp-quote> idhu la attrib varum.
+<boxed-text>
+
+
+Author:
+-------
+<contrib>
+<name name-style="western">
+<surname></surname>
+<given-names></given-names>
+
+For example:
+------------
+<surname initials="J">Jones</surname>
+<given-names initials="RS">Ronald S.</given-names>
+</name>
+</contrib>
+
+Numeric, Bullet, Order, Simple, Roman & Alpha(Upper case, Lower case):
+Eg:
+<list list-type="order">
+<list-item><p></p></list-item>
+<list list-type="alpha-lower">
+
+
+<list id="q2_1" list-type="simple" list-content="example">
+<list-item><p></p></list-item>
+</list>
+
+<table-wrap id="tbl1_2">
+<label>1.2</label>
+<caption><title>=====</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1"></table>
+</table-wrap>
+
+<fig id="fig1_1">
+<label>1.1</label>
+<caption><title>========</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig1_1.png" mime-subtype="png"/>
+<p>
+<fn><p>=========</p></fn>
+</p>
+</fig>
+
+<back>
+<ref-list>
+<title>References and further reading</title>
+<ref></ref>
+</ref-list>
+</back>
+
+Whatever numbers or letters:
+----------------------------
+<italic>n</italic>
+<bold>l</bold>
+<sup>1</sup>
+<sub>2</sub>
+
+<sub></sub>
+<sub><sc>np</sc></sub>
+<sup></sup>
+<sup><sc>np</sc></sup>
+
+
+Fn inside the Figure tag:
+------------------------
+
+<fig id="fig1_1">
+<label>1.1</label>
+<caption><title>he scavenging system.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig1_1.png" mime-subtype="png"/>
+<p>
+<fn><p>(Courtesy of Marieke de Vries, Davies Veterinary Specialists, Higham Gobion, UK)</p>
+</fn>
+</p>
+</fig>
+
+Fig Inside list:
+---------------
+
+<list id="q2_14" list-type="simple" list-content="example">
+<list-item><label>(14)</label><p>
+
+<fig>
+<graphic orientation="portrait" xlink:href="figures/la.244.01mis_figp58_1.svg"/>
+</fig></p></list-item>
+</list>
+
+Table:
+------
+
+<table-wrap id="tbl1_2">
+<label>1.2</label>
+<caption><title>ppm = parts per million.</title></caption>
+
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="80%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Agent</p></entry>
+<entry align="left"><p>Concentration</p></entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry align="left"><p>Halothane</p></entry>
+<entry align="left"><p>10 ppm </p></entry>
+</row>
+<row>
+<entry align="left"><p>Isoflurane</p></entry>
+<entry align="left"><p>50 ppm</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+
+Indent Para Inside the list:
+-----------------------------
+<list id="q2_1" list-type="simple" list-content="example">
+<list-item><label>(1)</label><p content-type="no-indent">
+
+<list list-type="simple">
+<list-item id="q2_2a"><label>a.</label><p content-type="no-indent">============</p></list-item>
+<list-item id="q2_2b"><label>b.</label><p content-type="no-indent">============</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><label>(2)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_3a"><label>a.</label><p content-type="no-indent">============</p></list-item>
+</list>
+</p></list-item>
+
+</list>
+
+
+Table inside the list with attrib:
+----------------------
+
+<list id="q2_6" list-type="simple" list-content="example">
+<list-item><label>(6)</label><p content-type="no-indent">
+
+<list list-type="simple">
+<list-item id="q2_6a"><label>a.</label><p content-type="no-indent">
+
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>pali</td>
+<td>papierosy.</td>
+</tr>
+<tr>
+<td>Jan</td>
+<td>smokes</td>
+<td>cigarettes</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Jan smokes cigarettes&#x2019;</p></list-item>
+
+<list-item id="q2_6b"><label>b.</label><p content-type="no-indent">
+
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>pali</td>
+<td>papierosa.</td>
+</tr>
+<tr>
+<td>Jan</td>
+<td>smokes</td>
+<td>cigarette</td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;Jan is smoking a cigarette.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><label>(7)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>pali</td>
+<td>&#x00F8;.</td>
+</tr>
+<tr>
+<td>Jan</td>
+<td>smokes</td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;Jan smokes cigarettes./Jan is smoking a cigarette.&#x2019;</p></list-item>
+</list>
+
+
+Tr,Td, Th tables"
+-----------------
+<table-wrap>
+<label>Table 2.1:</label>
+<caption><title>Examples of nominal gender/number/Case suffixes in Polish</title></caption>
+
+<table rules="none">
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left"></th>
+<th align="left"><sc>SG.NOM</sc></th>
+<th align="left"><sc>SG.ACC</sc></th>
+<th align="left"><sc>PL.NOM</sc></th>
+<th align="left"><sc>PL.ACC</sc></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<th align="left">M1,</th>
+<th align="left">&#x2018;son&#x2019;:</th>
+<th align="left">syn-&#x00F8;</th>
+<th align="left">syn-a</th>
+<th align="left">syn-owie</th>
+<th align="left">syn-&#x00F3;w</th>
+</tr>
+<tr>
+<th align="left"><sc><bold>f</bold>,</sc></th>
+<th align="left">&#x2018;wife&#x2019;:</th>
+<th align="left">&#x017C;on-a</th>
+<th align="left">&#x017C;on-&#x0119;</th>
+<th align="left">&#x017C;on-y</th>
+<th align="left">&#x017C;on-y</th>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+
+
+
+Front Matter:
+-------------
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "BITS-book-oasis2.dtd">
+<?xml-stylesheet type="text/xsl" href="filepath\validate.xsl"?> 
+<book>
+
+
+
+<book-body>
+
+<book-part book-part-type="chapter" id="chap1">
+<book-part-meta>====</book-part-meta>
+<book-part-id book-part-id-type="doi">10.22233/9781905319619.1</book-part-id>
+
+<title-group>
+<label>Chapter 2</label>
+<title>Indefinite missing objects</title>
+</title-group>
+
+<subj-group subj-group-type="topic-type">
+<subject>Clinical pathology and cytology</subject>
+</subj-group>
+
+<subj-group subj-group-type="animal-type">
+<subject>Dog</subject>
+<subject>Cat</subject>
+</subj-group>
+
+<subj-group subj-group-type="product-type">
+<subject>Manual</subject>
+</subj-group>
+
+<subj-group subj-group-type="animal-type">
+<subject>Dog</subject>
+<subject>Cat</subject>
+</subj-group>
+
+
+<book-title-group>
+<book-title>The Chronicle of a People&#x2019;s War</book-title>
+<subtitle>The Military and Strategic History of the Cambodian Civil War, 1979&#x2013;1991</subtitle>
+</book-title-group>
+
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Allen</surname>
+<given-names>Diane Jones</given-names>
+</name>
+</contrib>
+
+<contrib contrib-type="author">
+<name name-style="western">
+<surname initials="J">Jones</surname>
+<given-names initials="RS">Ronald S.</given-names>
+</name>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Hardy</surname>
+<given-names>Kenneth V.</given-names>
+</name>
+<degrees>PhD</degrees>
+</contrib>
+</contrib-group>
+
+<fpage></fpage>
+<lpage></lpage>
+
+<permissions>
+<copyright-statement>&#x00A9; 2017 British Small Animal Veterinary Association</copyright-statement>
+<copyright-year>2017</copyright-year>
+<copyright-holder>British Small Animal Veterinary Association</copyright-holder>
+</permissions>
+
+<self-uri content-type="pdf" xlink:href="9781905319619.1.pdf"/>
+
+<abstract></abstract>
+
+</book-part-meta>
+
+<body>
+<sec1 id="ch1-sec1">
+<label>1.</label>
+<title>Algemeen kader</title>
+
+<sec2 id="ch1-sec2">
+<label>1.1.</label>
+<title>Klimaatverdrag</title>
+
+</sec2>
+</sec1>
+</body>
+
+<back>
+<fn-group>
+<title>Notes</title>
+<fn id="fn8_1"><label>1</label><p></p></fn>
+</fn-group>
+
+
+<ref-list>
+<title>References and further reading</title>
+<ref id="ref8_1"></ref>
+</ref-list>
+</back>
+</book-part>
+</book-body>
+</book>
+
+
+Link:
+-----
+
+<xref ref-type="fn" rid="fn2_1"><sup>1</sup></xref>
+
+<boxed-text id="box1_1">
+<label><target target-type="page" id="page_18">18</target>Box 1.1</label>
+<caption><title>Persuasion Versus Propaganda and Indoctrination</title></caption>
+
+<fn-group>
+<title>Notes</title>
+<fn id="fn1_1"><label>1</label><p>
+
+<ref-list>
+<title>References</title>
+<ref id="ref1_1"></ref>
+

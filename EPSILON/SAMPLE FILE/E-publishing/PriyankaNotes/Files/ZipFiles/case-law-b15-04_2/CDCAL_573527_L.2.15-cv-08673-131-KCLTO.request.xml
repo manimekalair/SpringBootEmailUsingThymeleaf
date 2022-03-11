@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8212; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold><ital>Wendy Chowning and Lourdes Casas</ital></bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold><ital>Kohl's Department Stores, Inc. et al.</ital></bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No. CV 15-8673 RGK (SPx)</bold></docket.line>
+<docket.number><bold>CV 15-8673 RGK (SPx)</bold></docket.number>
+<docket.line suppress-flag="y">2:15-cv-08673-RGK-SP</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/26/2016</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Sharon L. Williams, Deputy Clerk, Attorneys Present For Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Reported, Court Reporter / Recorder, Attorneys Present For Defendants: Not Present</attorney.line>
+<attorney.line first-line="1">N/A, Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: (IN CHAMBERS) Order re: Plaintiff's Motion for Reconsideration (DE 115)</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>The Honorable R. GARY KLAUSNER, UNITED STATES DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. <underscore>INTRODUCTION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On July 21, 2015, Wendy Chowning and Lourdes Casas, individually and on behalf of all others similarly situated (&#x201C;Class Members&#x201D;), filed a Complaint against Kohl's Department Stores, Inc. (&#x201C;Defendant&#x201D;). On January 20, 2016, the plaintiffs filed a First Amended Complaint (&#x201C;FAC&#x201D;) in which Lourdes Cases was removed, leaving Wendy Chowning as the only named plaintiff (&#x201C;Plaintiff&#x201D;). The FAC alleges violations of the following California statutes: (1) False Advertising Law (&#x201C;FAL&#x201D;), (2) Unfair Competition Law (&#x201C;UCL&#x201D;), and (3) Consumer Legal Remedies Act (&#x201C;CLRA&#x201D;).</paratext></para>
+<para><paratext ID="p2" level="1">On March 15, 2016, this Court granted Summary Judgment in favor of Defendant. Presently before the Court is Plaintiff's Motion for Reconsideration. For the following reasons, the Court <bold>DENIES</bold> Plaintiff's motion.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. <underscore>FACTUAL BACKGROUND</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Defendant is a large national retailer that owns and operates approximately 100 retail stores within California. The majority of Defendant's sales have historically derived from exclusive and private label brands. These products are sold exclusively at stores owned, operated, and licensed by Defendant. As such, Defendant defines, sets, and controls all prices for these products.</paratext></para>
+<para><paratext ID="p4" level="1">Each exclusive and private label brand that Defendant offers for sale in its stores displays two prices: (1) the selling price and (2) a significantly higher price that is represented to be the item's &#x201C;regular&#x201D; or &#x201C;original&#x201D; price (&#x201C;Actual Retail Price&#x201D; or &#x201C;ARP&#x201D;). By simultaneously displaying these two prices, Defendant leads consumers to believe that they are receiving a certain discount. Plaintiff and putative class members reasonably believed that the ARPs represented the price at which Defendant regularly sold each respective item, and that they were receiving a significant discount. The price-comparison-advertising scheme induced Plaintiff and putative class members to purchase Defendant's private label items.</paratext></para>
+<para><paratext ID="p5" level="1">Plaintiff alleges that the ARPs affixed to each item in Defendant's California stores were false prices. Plaintiff also claims that the advertised ARPs were not the prevailing market retail prices within the three months immediately preceding the publication of the advertised ARPs, as required by California law. Therefore, Plaintiff asserts, Defendant falsely claims that each of its products has previously sold at a far higher ARP in order to induce Plaintiff and putative class members to purchase merchandise at a purportedly marked down &#x201C;sale&#x201D; price.</paratext></para>
+<para><paratext ID="p6" level="1">For instance, on September 13, 2014, Plaintiff purchased a private label dress (&#x201C;Dress&#x201D;) from Defendant's store. The Dress featured an original price of $70.00 but was purportedly marked down to $21.00&#8212;a 70% discount. Plaintiff relied on this price-comparison-advertising scheme in purchasing the Dress. She claims, however, that the alleged markdown was untrue, misleading, and false. According to the FAC, the prevailing retail price for the Dress during the three months immediately prior to the advertisement was materially lower than $70.00 as advertised. Plaintiff also alleges that she purchased a private label robe (&#x201C;Robe&#x201D;) advertised at an original price of $46.00 and a sale price of $26.99, private label activewear (&#x201C;Activewear&#x201D;) at an original price of $30.00 and a sale price of $9.99. She claims that the Robe and Activewear also bore false sale prices to ensnare shoppers looking for a deal. (FAC &#182;30-33, ECF No. 44.)</paratext></para>
+<para><paratext ID="p7" level="1">Plaintiff claims that she and thousands of putative class members were deceived and misled into buying products from Defendant that they would not have purchased if not for Defendant's false advertising. Plaintiff and putative class members lost money and/or property as a result of the fraudulent price-comparison-advertising scheme.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. <underscore>JUDICIAL STANDARD</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">&#x201C;A district court may reconsider its grant of summary judgment under either Federal Rule of Civil Procedure 59(e) (motion to alter or amend a judgment) or Rule 60(b) (relief from judgment).&#x201D; <ital>Sch. Dist. No. 1J, Multnomah Cty., Or. v. ACandS, Inc.</ital>, 5 F.3d 1255, 1262 (9th Cir. 1993). &#x201C;Reconsideration is appropriate if the district court (1) is presented with newly discovered evidence, (2) committed clear error or the initial decision was manifestly unjust, or (3) if there is an intervening change in controlling law.&#x201D; <ital>Id.</ital> at 1263. A motion for reconsideration should not be used to reargue or present evidence that should have been presented previously. <ital>Marlyn Nautraceuticals, Inc. v. Mucos Pharma GmbH &#38; Co.</ital>, 571 F.3d 873, 880 (9th Cir. 2009) (citing <ital>Kona Enters, Inc. v. Estate of Bishop</ital>, 229 F.3d 887, 890 (9th Cir. 2000)). A court should grant a motion for reconsideration only in highly unusual circumstances. <ital>Id.</ital></paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. <underscore>DISCUSSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">In opposing the motion for summary judgment, Plaintiff raised four models of restitution: Full Refund, Disgorgement of Profits, Actual Discount, and Price/Value Differential. The Court rejected each of these models and held that Plaintiff had failed to present a viable measure of restitution. In her present motion, Plaintiff asks the Court to reconsider its ruling on these measures of restitution.</paratext></para>
+<para><paratext ID="p10" level="1">Before analyzing each of the proposed restitution measures, the Court addresses an initial argument advanced by Plaintiff. She points to this Court's prior ruling in a related action, <ital>Russell v. Kohl's</ital> Case No. CV 15-1143, holding that alternative forms of restitution beyond the price/value differential are available under California's consumer protection laws. As examples of such measures, the Court mentioned &#x201C;rescission and refund,&#x201D; &#x201C;transaction value,&#x201D; or &#x201C;restitutionary disgorgement.&#x201D; (Order Den. Mot. To Dismiss 6, Case No. CV 15-1143, ECF No. 32.) Plaintiff argues that because this Court approved alternative forms of restitution in the prior <ital>Russell</ital> order, its ruling on summary judgment in this case is contradictory. Not so. In its prior order, the Court simply held that alternative measures of restitution <ital>may be appropriate</ital> without placing its imprimatur on any specific measure in the <ital>Russell</ital> case. In fact, the Court specifically reserved any judgment as to the propriety of restitution in that case, &#x201C;While it remains to be seen whether Plaintiffs can adduce sufficient evidence of a measurable amount of restitution, such an inquiry is premature at this early pleading stage. Plaintiffs need only plead sufficient facts to support a legally cognizable theory.&#x201D; (Order Den. Mot. To Dismiss 5, Case No. CV 15-1143, ECF No. 32.)</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. <underscore>Full Refund Model</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">In rejecting the Full Refund Model, this Court explained that the model failed to account for the value Plaintiff received and, therefore, contravened a limiting principle of restitution. <ital>In re Tobacco Cases II</ital>, 192 Cal. Rptr. 3d at 895 (&#x201C;A full refund <ital>may</ital> be available in a UCL case when the plaintiffs prove the product had <ital>no</ital> value to them.&#x201D;) (emphasis in the original).</paratext></para>
+<para><paratext ID="p12" level="1">Plaintiff argues that this Court may have &#x201C;overlooked the fact that this proposed remedy is one of rescission and contingent on class members <ital>returning</ital> products purchased prior to obtaining a refund.&#x201D; (Pl.s' Mot. For Reconsideration 1:10-12, ECF No. 115.) The Court did not overlook this fact. In its prior order granting summary judgment, the Court described the Full Refund Model as a measure &#x201C;designed to return [Plaintiff's] full purchase price, <ital>conditioned on a return of the product</ital>.&#x201D; (Order Granting Def.'s Mot. Summ. J. 7, ECF No. 112.) The Court proceeded to analyze&#8212;and reject&#8212;the Full Refund Model fully aware of Plaintiff's request for a refund accompanied by a return of the items.</paratext></para>
+<para><paratext ID="p13" level="1">Accordingly, the Court rejects this argument.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. <underscore>Actual Discount Model</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">The Court also rejected the Actual Discount Model because instead of focusing on returning Plaintiff's lost money, this model seeks to award Plaintiff the full benefit of the transaction she thought she was entering into&#8212;a measure more akin to expectation damages than restitution. Rather than looking to what Plaintiff gave up and what she received, this model erroneously emphasizes the value of the transaction Plaintiff had anticipated. To determine Plaintiff's loss for purposes of restitution, the focus should be on what Plaintiff <ital>actually received</ital> given the price she paid, not on the bargain Plaintiff <ital>thought she was receiving</ital>.</paratext></para>
+<para><paratext ID="p15" level="1">Plaintiff argues that this Court appears to have misinterpreted the underlying nature of and authority for this measure of restitution. She cites a recent Ninth Circuit opinion holding that where a &#x201C;defendant's misrepresentations induce the plaintiff to part with money for a service of good, &#x2018;the focus is on the difference between what was paid and what a reasonable consumer would have paid at the time of purchase without the fraudulent or omitted information.&#x2019;&#x201D; <ital>Pulaski &#38; Middleman, LLC v. Google, Inc.</ital>, 802 F. 3d 979, 989 (9th Cir. 2015). Based on this reasoning, Plaintiff contends that the Actual Discount Model represents the amount that consumers would have paid at the time of purchase without Defendant's deceptive price comparisons.</paratext></para>
+<para><paratext ID="p16" level="1">The Court disagrees. Assume a consumer was offered an item with an original price of $100 and a selling price of $40 (a 60% discount). Assume also that the retailer deceived the consumer, and the item never actually sold for more than $80. One measure of restitution in this case would be &#x201C;the difference between what was paid and what a reasonable consumer would have paid at the time of purchase without the fraudulent or omitted information.&#x201D; To determine that figure, the proper question is: how much would the consumer have paid if he knew that the item never sold for more than $80? The Actual Discount Model does not answer that question. Instead of determining what Plaintiff would have paid <ital>without the misrepresentation of the false original price</ital>, this model calculates what she would have paid had she received the full percentage discount represented by the false original price. The two measures are not synonymous.</paratext></para>
+<para><paratext ID="p17" level="1">Accordingly, the Court rejects this argument.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>C. <underscore>Price/Value Differential</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">In its prior summary judgment order, the Court also rejected the Price/Value Differential Model. To determine the actual retail value of the product under this model, Plaintiff's expert proposed using the mode price over the life span of each item. The Court rejected this measure of retail value for two reasons.</paratext></para>
+<para><paratext ID="p19" level="1">First, this model considers the retail value over the <ital>life span</ital> of the product as opposed to the <ital>90 days</ital> preceding purchase. Plaintiff's expert did not provide any evidence as to why the life span of the product represents a more accurate measure of retail value. In fact, the relevant provision of the FAL states, &#x201C;No price shall be advertised as a former price of any advertised thing, unless the alleged former price was the prevailing market price as above defined <ital>within three months next immediately preceding</ital> the publication of the advertisement.&#x201D; Cal. Bus. &#38; Prof. Code &#167; 17501 (emphasis added). Given the nature of Plaintiff's claim, the more suitable period would be the 90 days preceding purchase.</paratext></para>
+<para><paratext ID="p20" level="1">Second, Plaintiff's expert did not provide any reliable basis for concluding that the mode price, as opposed to the average price, is an accurate measure of retail value. In fact, in his deposition Plaintiff's expert admitted that he does not have any empirical basis for suggesting that mode price is a proper measure of retail value.</paratext></para>
+<para><paratext ID="p21" level="1">Plaintiff now argues that new evidence has come to light requiring a change in the Court's ruling on this issue. After the parties had submitted their briefs on summary judgment, Plaintiff's counsel deposed Defendant's expert who acknowledged that the phrase &#x201C;prevailing market price&#x201D; as used in the FAL is not a defined term of art in economics. According to Plaintiff, an open question remains as to whether mode or average should serve as the measure of an item's actual retail value, meaning that a triable issue of fact exists as to the proper measure. While it may be true that the definition of &#x201C;prevailing market price&#x201D; is an unsettled question among economists, this evidence does not change the Court's prior ruling. On summary judgment, it is the plaintiff's burden to proffer evidence creating a genuine issue of fact. Merely pointing out the opposing expert's ambivalence on an economic position does not satisfy that burden. Plaintiff did not, and has not now, introduced expert testimony as to why mode price is an appropriate proxy for an item's prevailing market price.</paratext></para>
+<para><paratext ID="p22" level="1">Accordingly, the Court rejects this final argument.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>V. <underscore>CONCLUSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p23" level="1">For the foregoing reasons, the Court <bold>DENIES</bold> Plaintiff's Motion for Reconsideration.</paratext></para>
+<para><paratext ID="p24" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p25" level="1">&#95;&#95;&#95;&#95; : &#95;&#95;&#95;&#95;</paratext></para>
+<para><paratext ID="p26" level="1"><underscore>Initials of Preparer &#95;&#95;&#95;&#95;</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

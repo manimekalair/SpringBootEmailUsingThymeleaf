@@ -1,0 +1,220 @@
+[
+sub GenerateCommand(byref $command)
+	$lParams = ""
+]
+	// [=$command.Kind] [=$command.Name]
+[
+	if $command.Kind = "Project"
+		$lParams = $lParams & ", " & $command.TabSize
+	endif
+
+	' ----------
+
+	if $command.Kind = "SplitSingle" or $command.Kind = "SplitMultiple"
+		$lParams = $lParams & ", splitter_" & $command.Name
+		if $command.IsDelimited
+			$classname = "SplitAtDelimiter"
+			if $command.IsLineBased
+				$classname = $classname & "LineBased"
+				if $command.Kind = "SplitMultiple"
+					$classname = $classname & "Multiple"
+				endif
+			endif
+		]		static private [=$classname] splitter_[=$command.Name] = new [=$classname]("[=$command.Separator.AsJavaStringConstant]"[
+			if $command.Kind = "SplitSingle"
+				if $command.SplitBase = 1], true[else], false[endif
+			endif
+			$lParams = $lParams & ", 0, 0"
+		]);
+[		else ' fixed (counted)
+			if $command.IsVertical
+				$classname = "SplitAtPosition"
+			else ' horizontal
+				$classname = "SplitLines"
+			endif
+			$lOffset = $command.Offset
+			if $command.Kind = "SplitSingle"
+				if $command.SplitBase = 1 ' from end
+					$lOffset = -$lOffset
+				endif
+			endif
+			$lParams = $lParams & ", " & $command.Orientation & ", " & $lOffset
+			]	static private [=$classname] splitter_[=$command.Name] = new [=$classname]([=$lOffset]);
+[		endif
+	endif
+
+	' ----------
+
+	if $command.Kind = "Store"
+		$lParams = $lParams & ", " & $command.TrimSide & ", \"" & $command.TrimCharSet.AsJavaStringConstant & "\""
+	endif
+
+	' ----------
+
+	if $command.Kind = "CSV" or $command.Kind = "FLF"
+		$lParams = $lParams & ", columns_" & $command.Name
+        if $command.UseFirstRowNames
+			$lParams = $lParams & ", true" 
+		else
+			$lParams = $lParams & ", false" 
+		endif
+		' generate store commands
+		foreach $column in $command.Columns
+			]	static private CommandStore store_[=$command.Name]_[=$column.Name] = new CommandStore("[=$column.OriginalName.AsJavaStringConstant]"[
+		 	if $command.Kind = "FLF"
+				], [=$column.Alignment], "[=$column.FillCharacter.AsJavaStringConstant]");
+[			else
+				], 0, "");
+[			endif
+		next
+	endif
+
+	' generate column list
+	if $command.Kind = "CSV"
+		]	static private ColumnDelimited\[\] columns_[=$command.Name] = {
+[
+		foreach $column in $command.Columns
+			]		new ColumnDelimited(store_[=$command.Name]_[=$column.Name], "[=$column.OriginalName.AsJavaStringConstant]"),
+[		next
+		]};
+[
+		$lParams = $lParams & ", \"" & $command.RecordSeparator.AsJavaStringConstant & "\"" & ", \"" & $command.FieldSeparator.AsJavaStringConstant & "\""
+		if $command.QuoteCharacter = ""
+			$lParams = $lParams & ", '\\0'" 
+		else
+			$lParams = $lParams & ", '" & $command.QuoteCharacter.AsJavaStringConstant & "'" 
+		endif
+		if $command.EscapeCharacter = ""
+			$lParams = $lParams & ", '\\0'" 
+		else
+			$lParams = $lParams & ", '" & $command.EscapeCharacter.AsJavaStringConstant & "'"
+		endif
+	endif
+
+	if $command.Kind = "FLF"
+		]	static private ColumnFixed\[\] columns_[=$command.Name] = {
+[
+		foreach $column in $command.Columns
+			]		new ColumnFixed(store_[=$command.Name]_[=$column.Name], [=$column.Size], '[=$column.FillCharacter.AsJavaStringConstant]', [=$column.Alignment], "[=$column.OriginalName.AsJavaStringConstant]"),
+[		next
+		]	};
+[
+		if $command.HasRecordDelimiter
+			]	static private SplitLines splitter_[=$command.Name] = new SplitLines(1, true);
+[		else
+			]	static private SplitAtPosition splitter_[=$command.Name] = new SplitAtPosition([=$command.RecordSize]);
+[		endif
+		$lParams = $lParams & ", splitter_" & $command.Name
+	endif
+
+	if $command.Kind = "Switch"
+		$lParams = $lParams & ", conditions_" & $command.Name & ", " & $command.Mode
+		' generate conditions
+		]		static private Condition\[\] conditions_[=$command.Name] = {
+[
+		foreach $condition in $command.Conditions
+			if $condition.Mode <> "Default"
+			]			new Condition("", Condition.[=$condition.Mode], "[=$condition.Value]"),
+[			endif
+		next
+		]		};
+[	endif
+	
+	]	static private Command[=$command.Kind] command_[=$command.Name] = new Command[=$command.Kind]("[=$command.OriginalName.AsJavaStringConstant]"[=$lParams]);
+[
+	foreach $connector in $command.Connectors
+		foreach $subcommand in $connector.Commands
+			call GenerateCommand($subcommand)
+		next ' command
+	next ' connector
+
+	if $command.Kind = "Switch"
+		foreach $condition in $command.Conditions
+			foreach $connector in $condition.Connectors
+				foreach $subcommand in $connector.Commands
+					call GenerateCommand($subcommand)
+				next ' command
+			next ' connector
+		next ' condition
+	endif
+endsub
+
+sub ConnectChildren(byref $functioncall, byref $connector)
+	foreach $subcommand in $connector.Commands
+		]		command_[=$functioncall](command_[=$subcommand.Name]);
+[			
+		call LinkCommandChildren($subcommand)
+	next ' command
+endsub
+
+
+sub LinkCommandChildren(byref $command)
+
+	if $command.Kind = "SplitSingle"
+		$functioncall = $command.Name & ".setFirst"
+		call ConnectChildren($functioncall, $command.Connector.0)
+		$functioncall = $command.Name & ".setNext"
+		call ConnectChildren($functioncall, $command.Connector.1)
+	else
+		if $command.Kind = "Switch"
+			foreach $condition in $command.Conditions
+				if $condition.Mode = "Default"
+					$functioncall = $command.Name & ".setNext"
+					foreach $connector in $condition.Connectors
+						if $connector.IsFirst
+							call ConnectChildren($functioncall, $connector)
+						endif
+					next
+				else
+					$functioncall = $command.Name & ".conditions\[" & $condition.Index & "\].setNext"
+					foreach $connector in $condition.Connectors
+						if $connector.IsFirst
+							call ConnectChildren($functioncall, $connector)
+						endif
+					next
+				endif
+			next
+		else
+			foreach $connector in $command.Connectors
+				if $connector.IsFirst
+					$functioncall = $command.Name & ".setNext"
+					call ConnectChildren($functioncall, $connector)
+				endif
+			next
+		endif
+	endif
+endsub
+
+]import java.io.IOException;
+
+import com.altova.AltovaException;
+import com.altova.text.TextNode;
+import com.altova.text.flex.*;
+import com.altova.text.TextNodeXMLSerializer;
+
+
+public class [=$module]Document extends TextDocument {
+[
+	call GenerateCommand($library.FlexProject)
+]
+	public [=$module]Document()	{
+[
+		call LinkCommandChildren($library.FlexProject)
+]
+		rootCommand = command_[=$library.FlexProject.Name];
+	}
+
+	public int get[=$library.RootName]Count() {
+		return 1; // always only one root
+	}
+	public [=$library.RootName]Type get[=$library.RootName]() {
+		return new [=$library.RootName]Type(super.getGenerator().getRootNode());
+	}
+	public [=$library.RootName]Type get[=$library.RootName]At(int nIndex) {
+		return get[=$library.RootName]();
+	}
+	public void add[=$library.RootName]([=$library.RootName]Type rhs) {
+		super.getGenerator().setRootNode(rhs.getNode());
+	}
+
+}

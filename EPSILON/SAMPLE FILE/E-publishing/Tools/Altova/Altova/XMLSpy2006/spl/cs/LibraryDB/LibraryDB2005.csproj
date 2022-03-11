@@ -1,0 +1,51 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{[=$ProjectLibGuid]}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AssemblyName>[=$module]</AssemblyName>
+		<RootNamespace>[=$module]</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+			<DebugSymbols>true</DebugSymbols>
+			<DebugType>full</DebugType>
+			<Optimize>false</Optimize>
+			<OutputPath>bin\\Debug\\</OutputPath>
+			<DefineConstants>DEBUG;TRACE</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\\Release\\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="System">
+			<Name>System</Name>
+		</Reference>
+		<Reference Include="System.Data">
+			<Name>System.Data</Name>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\\AltovaDB\\AltovaDB.csproj">
+			<Name>AltovaDB</Name>
+			<Project>{[=$AltovaDBLibGuid]}</Project>
+			<!-- <Package>{5D458EA4-4826-4648-A52F-CF3D0787600F}</Package> -->
+		</ProjectReference>
+		<ProjectReference Include="..\\Altova\\Altova.csproj">
+			<Name>Altova</Name>
+			<Project>{[=$AltovaLibGuid]}</Project>
+			<!-- <Package>{5D458EA4-4826-4648-A52F-CF3D0787600F}</Package> -->
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="[=$module]Database.cs"/>
+		<Compile Include="AssemblyInfo.cs"/>
+[	foreach $table in $library.Tables
+]		<Compile Include="[=$table.Name]Set.cs"/>
+[	next
+]	</ItemGroup>
+	<Import Project="$(MSBuildBinPath)\\Microsoft.CSharp.targets" />
+</Project>

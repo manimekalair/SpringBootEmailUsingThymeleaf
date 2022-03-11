@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>ALL CITIES REALTY, INC.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>HOLLYMAX REALTY, INC., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 08-00195-CJC(MLGx)</docket.line>
+<docket.number>SACV 08-00195-CJC(MLGx)</docket.number>
+<docket.line suppress-flag="y">8:08-cv-00195-AHS-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/11/2008</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Michelle Urie, Deputy Clerk, ATTORNEYS PRESENT FOR PLAINTIFF: None Present</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANT: None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS: (IN CHAMBERS) ORDER GRANTING WITH LEAVE TO AMEND DEFENDANTS' MOTION TO DISMISS</bold> [filed 11/17/08]</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold><underscore>HONORABLE CORMAC J. CARNEY, UNITED STATES DISTRICT JUDGE</underscore></bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Having read and considered the papers presented by the parties, the Court finds this matter appropriate for disposition without a hearing. <ital>See</ital> <csc>Fed. R. Civ. P.</csc> 78; <csc>Local Rule</csc> 7-15. Accordingly, the hearing set for December 15, 2008 at 1:30 p.m. is hereby vacated and off calendar.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This case arises out of Defendants Hollymax Realty, Inc. (&#x201C;Hollymax&#x201D;), Commbroker, Inc. (&#x201C;Commbroker&#x201D;), and others' allegedly wrongful use of Plaintiff All Cities Realty, Inc.'s (&#x201C;All Cities&#x201D;) trademarked name, &#x201C;All Cities Realty&#174;.&#x201D; All Cities is a California corporation offering real estate brokerage and real estate appraisal services. (Compl., &#182; 2.) Hollymax and Commbroker are competing California corporations that also offer real estate brokerage services. Defendants Dale Eleniak and Byron Rife, Jr., are real estate brokers who served as the brokers of record for Hollymax and Commbroker during the relevant time period. (<ital>Id.</ital> at &#182; 7.) All Cities alleges that it has been operating in California since 1997 and that it was one of the pioneers in Internet real estate marketing, relying heavily on its website entitled &#x201C;allcitiesrealty.com.&#x201D; (<ital>Id.</ital> at &#182;&#182; 11, 18.) All Cities alleges that a non-party entity, CF Real Estate Loans, Inc. (&#x201C;CF Real Estate&#x201D;), began infringing on All Cities' trademark in late 2002, when CF Real Estate began doing business as All Cities Real Estate. (<ital>Id.</ital> at &#182; 13.) All Cities asserts that CF Real Estate began extensive marketing campaigns in both print media and on the Internet using the names &#x201C;All Cities Real Estate&#x201D; and &#x201C;Re/Max All Cities Realty,&#x201D; and that CF Real Estate set up a competing website entitled &#x201C;allcitiesrealty.net.&#x201D; (<ital>Id.</ital> at &#182;&#182; 15, 18-19.) All Cities contends that this infringing activity caused actual confusion among real estate consumers who believed that Re/Max All Cities Realty and All Cities Realty&#174; were either affiliated or were the same company, and this had the effect of diluting All Cities Realty's&#174; trade name and web presence. (<ital>Id.</ital> at &#182;&#182; 15-16.)</paratext></para>
+<para><paratext ID="p3" level="1">All Cities asserts that beginning in 2005, Hollymax and Commbroker participated in this trademark infringement by appearing as &#x201C;offices&#x201D; on the Re/Max All Cities Realty website owned by CF Real Estate. (Compl. &#182; 26.) Specifically, All Cities contends that CF Real Estate's website contained a link entitled &#x201C;Commercial LA&#x201D; that brought consumers to websites owned by Hollymax and Commbroker. (<ital>Id.</ital> at &#182;&#182; 29-32.) All Cities argues that Mr. Eleniak and Mr. Rife are liable for the trademark infringement allegedly carried out by Hollymax and Commbroker because they served as brokers of record during the period of alleged misconduct. (<ital>Id.</ital> at &#182; 7.) Similarly, All Cities argues that agents listed on CF Real Estate's website are also liable for infringement. (<ital>Id.</ital> at &#182;&#182; 5-6.) While All Cities notes that Hollymax and CF Real Estate share mailing addresses on two state records, All Cities does not allege any relationship between Defendants and CF Real Estate, the alleged creator of the infringing website that is not a party to this action. (<ital>Id.</ital> at 29.)</paratext></para>
+<para><paratext ID="p4" level="1">Because of this alleged trademark infringement, All Cities filed three separate lawsuits against various defendants. In 2005, All Cities filed suit against CF Real Estate in the Central District of California, Case No. CV 05-00615 AHS, <ital>All Cities Realty&#174; v. Re/Max All Cities Realty</ital> (the &#x201C;First Federal Action&#x201D;). During the early stages of the First Federal Action, CF Real Estate disclaimed responsibility for the conduct of its real estate agents in the use and marketing of All Cities' trademark. In response to this position, All Cities filed a second lawsuit against CF Real Estate's agents in California state court, Case No. BC 355724 (the &#x201C;State Court Action&#x201D;). The State Court Action is currently stayed pending the outcome of the First Federal Action. (Compl., &#182; 23.) On February 21, 2008, All Cities filed the instant action against Hollymax, Commbroker, Dale Eleniak and various other individual defendants who are real estate agents or brokers. The complaint asserts claims for federal trademark infringement, California trademark infringement, California common law unfair competition, and California statutory unfair competition. Defendants filed a motion to dismiss this action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Standard of Review</bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">A motion to dismiss under Federal Rule of Civil Procedure 12(b)(6) tests the legal sufficiency of the claims asserted in the complaint. The issue on a motion to dismiss for failure to state a claim is not whether the claimant will ultimately prevail but whether the claimant is entitled to offer evidence to support the claims asserted. <ital>Gilligan v. Jamco Dev. Corp.</ital>, 108 F.3d 246, 249 (9th Cir. 1997). When evaluating a Rule 12(b)(6) motion, the district court must accept all material allegations in the complaint as true and construe them in the light most favorable to the non-moving party. <ital>Mayo v. Gomez</ital>, 32 F.3d 1382, 1384 (9th Cir. 1994). Rule 12(b)(6) is read in conjunction with Rule 8(a), which requires only a short and plain statement of the claim showing that the pleader is entitled to relief. <csc>Fed. R. Civ. P.</csc> 8(a)(2). Dismissal of a complaint for failure to state a claim is not proper where a plaintiff has alleged &#x201C;enough facts to state a claim to relief that is plausible on its face.&#x201D; <ital>Bell Atl. Corp. v. Twombly</ital>, 127 S.Ct. 1955, 1974 (2007). In keeping with this liberal pleading standard, the district court should grant the plaintiff leave to amend if the complaint can possibly be cured by additional factual allegations. <ital>Doe v. United States</ital>, 58 F.3d 494, 497 (9th Cir. 1995).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Analysis</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">All Cities' complaint focuses intensely on the alleged wrongdoing of a nonparty in this case, CF Real Estate. The complaint essentially alleges the Defendants in this action were listed as agents on the allegedly infringing CF Real Estate website and that CF Real Estate and Defendants shared a mailing address. (Compl., &#182;&#182; 29-32.) All Cities also provides a flow chart that purports to show, through the use of arrows and boxes, that Defendants conspired with CF Real Estate to violate All Cities' trademarks. (Compl. &#182; 33, Ex. 8.) Although All Cities' flow chart depicts Mr. Eleniak and Mr. Rife as the brokers of record for non-party CF Real Estate, the complaint only alleges that they were brokers of record for Hollymax and Commbroker. (<ital>Id.</ital> at 7.)</paratext></para>
+<para><paratext ID="p7" level="1">All Cities' complaint is more notable for what it does not allege than what it does allege. It does not allege any actual business relationship between Defendants and CF Real Estate, whether they are partners, affiliates, advertisers, or have no relationship at all. In fact, All Cities only states &#x201C;Hollymax is being marketed&#x201D; in a way that violates All Cities' trademark. (Compl., &#182; 29.) This allegation suggests that Hollymax might not be an active participant in the listing, but could have been listed on the allegedly infringing website without its knowledge or consent. All Cities fails to allege that Defendants had any role in creating the allegedly infringing website, nor does All Cities allege that Defendants aided or encouraged the creation of the website. Aside from conclusory allegations of lawbreaking, All Cities does not allege that Defendants <ital>did</ital> anything at all. All Cities does not even allege a cause of action for vicarious or contributory trademark infringement, alleging only direct infringement by Defendants.</paratext></para>
+<para><paratext ID="p8" level="1">The Lanham Act states that a person is liable for trademark infringement when he or she, without the consent of the registrant, makes:</paratext>
+<para><paratext ID="p9" first-line="1" turnover="hanging">(a) use in commerce any reproduction, counterfeit, copy, or colorable imitation of a registered mark in connection with the sale, offering for sale, distribution, or advertising of any goods or services on or in connection with which such use is likely to cause confusion, or to cause mistake, or to deceive;</paratext></para>
+<paratext ID="p10" contd-flag="y">15 U.S.C. &#167; 1114. Here, All Cities has not alleged that any of the Defendants used the trademark in question. All that has been alleged is that the real estate agents' names and contact information appeared on a website that allegedly contained the mark. All Cities has not alleged that Defendants had any role in either: (1) causing their names to appear on the CF Real Estate website; or (2) causing the allegedly infringing mark to appear near their names. All Cities has not alleged that Defendants used its mark, a required element of an action for trademark infringement. Therefore, All Cities' Complaint fails to state a claim for federal trademark infringement.</paratext></para>
+<para><paratext ID="p11" level="1">All Cities' other claims&#8212;for California trademark infringement, California common law unfair competition, and California statutory unfair competition&#8212;are not based upon any actions outside of those alleged for the federal trademark infringement claim. Because these state claims are based on that deficient federal claim, they also fail as a matter of law for the same reasons that the federal claim fails.</paratext></para>
+<para><paratext ID="p12" level="1">For the foregoing reasons, Defendants' motions to dismiss are GRANTED WITH LEAVE TO AMEND. All Cities has twenty days leave to amend its complaint consistent with this order. Defendants have twenty days thereafter to file a responsive pleading.</paratext></para>
+<para><paratext ID="p13" level="1">jls</paratext></para>
+<para><paratext ID="p14" level="1">MINUTES FORM 11 CIVIL-GEN</paratext></para>
+<para><paratext ID="p15" level="1">Initials of Deputy Clerk MU</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

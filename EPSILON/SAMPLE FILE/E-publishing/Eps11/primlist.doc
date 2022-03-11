@@ -1,0 +1,700 @@
+This file lists all EEL primitive functions and variables, and
+selected EEL subroutines.  A very brief summary of what the item does
+also appears.
+
+short abort_file_matching; /* What to do on abort key in dired, file_match */
+short abort_key;	/* Key which breaks out of commands. */
+short abort_searching;	/* What to do on abort key during search, sort. */
+about_box()		/* Show an "About" dialog box. */
+absolute(file, ?dir)	/* Convert pathname in file to absolute form. */
+	char *file, *dir;
+int active_callbacks()			/* Return # of Internet processes running. */
+add_final_slash(char *fname)	/* Make sure file name ends with path sep. */
+add_popup(col, row, width, height, border, buf)	/* Make new pop-up win. */
+add_region(from, to, color, flags, num)	/* Make new highlighted region. */
+after_loading()		/* Tell Epsilon startup phase is over. */
+spot alloc_spot(?leftins)	/* Allocate a new travelling position. */
+char all_must_build_mode;	/* When 1, each window rebuilds mode line. */
+alter_color(code, color)	/* Get or set screen color for an area. */
+another_process()	/* Is there a concurrent process running? */
+apply_defaults()	/* Set current buffer & window vars from default. */
+short argc;	/* The number of words on the command line. */
+char *argv[];	/* The words on the command line. */
+short *ask_key(pr, keyname)	/* EEL subr. to get a key sequence. */
+	char *pr, *keyname;
+ask_yn(title, question, yes_button, no_button, def_button)
+    char *title, *question, *yes_button, *no_button;	/* Ask yes/no ques. */
+int attr_to_rgb(attr)  /* Convert from 4-bit attribute to 24-bit RGB. */
+autoload(name, file, issubr)	/* Load function from this file. */
+        char *name, *file;
+autoload_commands(file)	/* Autoload all functions in file later. */
+	char *file;
+buffer int auto_indent;	/* EEL variable: if <Enter> indents new line */
+int availmem;	/* Total amount of memory for Epsilon or a process. */
+short avoid_bottom_lines; /* Tiled windows stop this many lines from bottom. */
+short avoid_top_lines; /* Tiled windows stop this many lines from top. */
+bprintf(format, ...)	/* Insert a formatted string into the buffer. */
+	char *format;
+char bufed_grouping;	/* Sort system buffers separately from normal ones? */
+char *buffer_list(start)	/* List all of the buffers, one by one. */
+buffer_printf(buf, fmt, ...)	/* Insert formatted string in another buf. */
+	char *buf, *fmt;
+buffer_sort(buf, ?col)	/* Sort a buffer. */
+	char *buf;
+int buffer_to_clipboard(buffer_number, strip_returns, clipboard_format)
+int buffer_unchanged()  /* Has the buffer changed since last refresh? */
+char *bufname;	/* The name of the current buffer. */
+int bufnum;	/* The number of the current buffer. */
+char *bufnum_to_name(buf)	/* Get name of a buffer, given number. */
+buf_delete(buf)	/* Remove a buffer. */
+buf_exist(buf)	/* Does a buffer exist? */
+buf_in_window(buf)	/* Which window is buffer in? */
+buf_list(offset, mode)	/* Go through all buffers. */
+char *buf_match(prefix, start)	/* List matching buffers, one by one. */
+	char *prefix;
+buf_pipe_text(in, out, cmd, dir, flags)	/* Pass text through a process. */
+	char *cmd, *dir;
+buf_printf(buf, fmt, ...)	/* Insert formatted string in another buf. */
+	char *fmt;
+buf_xfer(buf, from, to)	/* EEL Subr. Copy characters to another buffer. */
+buf_zap(buf)	/* Empty a buffer. */
+char build_first;  /* Tells redisplay to assume everything is messed up. */
+build_mode()	/* EEL subr.  Build text for modeline. */
+build_window()	/* See what a window would show, without refresh. */
+short button_dialog(title, question, yes, no, cancel, def_button)
+   char *title, *question;	/* Display a dialog with buttons. */
+   char *yes, *no, *cancel;
+   int def_button;
+char *byte_extension;	/* .b, .b2, or .bu depending on operating system */
+call_dll(dll_name, func_name, ftype, args, ...) /* Windows-only */
+    char *dll_name, *func_name, *ftype, *args;
+int call_on_modify;	/* Call EEL func before buffer's changed? */
+buffer char case_fold;	/* Ignore case differences in searches? */
+buffer char *case_map;	/* Change uppercase to lowercase or vice versa. */
+short catch_mouse;	/* Should we notice the mouse? */
+change_buffer_name(newname)	/* Rename a buffer. */
+	char *newname;
+character(pos)	/* Return the character at position pos. */
+charfcmp(first, second)	/* Return -1, 0, or 1 if first < second, =, or > */
+char_avail()	/* Is there a key available? */
+buffer char *char_class;	/* Tell if char's uppercase or lowercase. */
+chdir(dir)	/* Change the current directory and/or drive. */
+	char *dir;
+check_abort()	/* Exit to main loop if the user aborted. */
+check_file(file, ?f_info)	/* Get time and date info on a file on disk */
+	char *file;
+	struct file_info *f_info;
+check_modify(buf)	/* About to modify this buffer, maybe give err. */
+buffer char *class;	/* The display translation array. */
+int clipboard_available()	/* Can Epsilon access the clipboard? */
+int clipboard_to_buffer(buffer_number, strip_returns, clipboard_format)
+short cmd_len;	/* Number of keys used so far in current command. */
+short column_in_window;	/* Column point's in, in current window. */
+short common_file_dlg(fname, title, flags, save, ?filt_str, cust_filter, filt_index)
+    char *fname, *title, *filt_str, *cust_filter;	/* Display a GUI dialog. */
+    int *flags, *filt_index;
+char *common_open_curdir;	/* Cur dir of Windows File Open common dlg box. */
+int comm_dlg_color(int oldcolor, char *title)	/* Prompt user for a color. */
+int compare_buffer_text(buf1, pos1, buf2, pos2, fold)	/* Compare 2 bufs. */
+concur_shell(program, cline, ?curdir, buf)	/* Start a concurrent process. */
+	char *program, *cline, *curdir, *buf;
+convert_to_8_3_filename(fname)	/* Get 8.3 alias for long file name. */
+   char *fname;
+copy_buffer_variables(int tobuf, int frombuf) /* Set all buf-spec vars. */
+int copyfile(old, new)	/* Copy a file. */
+	char *old, *new;
+create(buf)	/* Create a new buffer. */
+	char *buf;
+int create_invisible_window(width, height, buf)	/* Make "window" for printing. */
+curchar()	/* Return the character after point. */
+current_column()	/* Gets column of point. */
+int cursor_shape;	/* Want block cursor, underline cursor, or other? */
+int cursor_to_column;	/* Force cursor to this column if not -1. */
+int dde_close(h)						/* Stop Windows IPC. */
+int dde_execute(h, msg, timeout)			/* Tell a Windows program to do something. */
+    char *msg;
+int dde_open(server, topic)				/* Begin Windows IPC messaging. */
+    char *server, *topic;
+char *default_state_file_name;	/* Name to use for state files on this platform. */
+delay(hundredths, condition)	/* Pause, returning early on certain conds. */
+delete(pos1, pos2)	/* Delete characters between pos1 and pos2. */
+delete_buffer(buf)	/* Delete the indicated buffer. */
+	char *buf;
+delete_file(file)	/* Delete the indicated file. */
+	char *file;
+ding()	/* Beep the bell. */
+short directory_flags; /* Contents of -w flag. */
+dired_standardize(dir)	/* Convert a pattern to its standard form. */
+	char *dir;
+disk_space(disk, d_info)	/* Get information about a disk. */
+	struct disk_info *d_info;
+display_dialog_box(dialogname, title, win1, win2, win3, button1, button2, button3)
+    char *dialogname, *title;	/* Display dialog box with screens & buttons. */
+    char *button1, *button2, *button3;
+window short display_scroll_bar; /* Show a scroll bar in this window? */
+display_width(ch, col)	/* Width of character ch, if at column col. */
+int double_click_time;	/* Max # of .01 secs. between clicks for dbl-click. */
+do_again()	/* Do a key using the same key table as last time. */
+do_command(index)	/* Do the command at this index. */
+do_dired(files)		/* Fill up the buffer with file information. */
+	char *files;
+do_interrupt(intnumber, regs)		/* Do a software interrupt. */
+	M_REGS *regs;
+do_recursion()	/* Enter new recursive edit level. */
+do_set_mark(pos) /* EEL subr.  Set mark to pos, recording current column. */
+do_topkey()	/* Interpret a key as in the main loop. */
+int drag_drop_result(filename)
+   char *filename;		/* Get name of file dropped on Epsilon window. */
+drop_final_slash(char *fname)	/* Make sure file name doesn't end with path sep. */
+drop_name(name)		/* Delete cmd, variable, or macro */
+	char *name;
+drop_pending_says()	/* Cancel pending messages, show latest one in echo. */
+short echo_line;	/* Screen line # of echo area. */
+int eel_compile(char *file, int use_fsys, char *flags,
+                char *errors, int just_check) /* Win32: Compile/load .e file. */
+short end_print_job()	/* Stop printing. */
+short errno;		/* Error number of the last error. */
+error(format, ...)	/* Abort to top level with a message. */
+	char *format;
+exist(buf)		/* Does a buffer named buf exist? */
+	char *buf;
+expand_display(to, from) /* Convert characters as displaying them would. */
+	char *to, *from;
+user short expire_message;		/* Set nonzero to clear a message after a key. */
+buffer char *filename;	/* The file associated with the current buffer. */
+file_error(code, file, unknown)		/* Display error message. */
+	char *file, *unknown;
+char *file_match(prefix, start) /* List matching files, one at a time. */
+	char *prefix;
+file_read(file, transl)	/* Read a file into the buffer. */
+	char *file;
+file_write(file, transl)		/* Write the buffer to a file. */
+	char *file;
+final_index()		/* Return last valid index to name table. */
+find_dialog(show)	/* Display a find/replace dialog (or remove it). */
+find_dialog_say(text)	/* Show error text in a find/replace dialog. */
+   char *text;
+find_group(n, open)	/* Return positions for last RE match. */
+find_index(name)	/* Return the index of an item in the name table. */
+	char *name;
+find_it(name, strip)	/* Read file into its own buffer. */
+	char *name;
+int finger_user(request, host, buf)		/* Use the net's Finger protocol. */
+    char *request, *host, *buf;
+fix_cursor()	/* EEL subr. called during redisplay */
+fix_window_start() /* EEL subr.  Move window_start to beginning of line. */
+char *font_dialog;	/* Sets font for dialogs in Windows version. */
+char *font_fixed;	/* Sets screen font in Windows version. */
+char *font_printer;	/* Sets printer font in Windows version. */
+short fpatmatch(s, pat, prefix, fold)	/* Does s match the pattern pat? */
+    char *s, *pat;
+free(ptr)		/* Release allocated memory to the free pool. */
+	char *ptr;
+free_spot(sp)		/* Deallocate a travelling position. */
+	spot sp;
+int ftp_op(buf, log, host, user, pwd, file, code)
+    char *buf, *log, *host, *user, *pwd, *file; /* Send/get a file using FTP. */
+char full_redraw;	/* Force complete screen refresh. */
+getcd(dir)	/* Return (current drive and) current directory. */
+	char *dir;
+char *getenv(name)	/* Return the indicated environment string. */
+	char *name;
+short gethostname(name, ?method)		/* Fill in name of this computer. */
+    char *name;
+getkey()	/* EEL subr. to get a key, save in macro if defining. */
+get_any(res, pr)	/* EEL subr.  Prompts for a name in name table. */
+	char *res, *pr;
+int get_background_color(colorclass, ?raw)  /* Get a color class's bg color. */
+get_buf(res, pr)	/* EEL subr.  Prompts for a buffer name. */
+	char *res, *pr;
+get_character_color(pos, ?startp, ?endp) /* Give color (& range) for char. */
+	int *startp, endp;
+get_cmd(res, pr)	/* EEL subr.  Prompts for a string. */
+	char *res, *pr;
+get_column(pos)		/* EEL subr.  Return column of position pos. */
+get_executable_directory(dir)	/* Give dir containing Epsilon executable. */
+   char *dir;
+char *get_extension(file)  /* Return the extension of the file name file. */
+	char *file;
+get_file(res, pr)	/* EEL subr.  Prompts for a file name. */
+	char *res, *pr;
+int get_file_read_only(file)			/* Is this file non-writable? */
+    char *file;
+int get_foreground_color(colorclass, ?raw)  /* Get a color class's fg color. */
+get_func(res, pr)	/* EEL subr.  Prompts for a function name. */
+	char *res, *pr;
+get_indentation(pos)	/* EEL subr.  Return indentation pos's line. */
+short *get_keycode()	/* Translate key names like C-A-f to codes. */
+get_macname(res, pr)	/* Prompts for a keyboard macro name. */
+	char *res, *pr;
+short *get_macro(index)		/* Get the keys defining a keyboard macro. */
+int get_num_var(ind)	/* Get value of numeric variable with name tab index.*/
+char *get_profile()	/* Get a line of profiling information. (not UNIX) */
+spot get_spot(wantmark)	/* Retrieve a built-in spot. */
+get_string(res, pr)	/* EEL subr.  Prompts for a string. */
+	char *res, *pr;
+char *get_str_var(ind)	/* Get value of numeric variable with name tab index.*/
+short get_tagged_region(tag, pos, ?from, to) /* Get attribute for a buffer range. */
+    char *tag;
+    int *from, *to;
+char *get_tail(file, ?dirok)	/* Get the name after the last directory. */
+	char *file;
+get_var(res, pr)	/* EEL subr.  Prompts for a variable name. */
+	char *res, *pr;
+get_wattrib(win, code)	/* Get an attribute of a window. */
+get_window_info(win, p)	/* Put position, color, etc. for a window in struct. */
+	struct window_info *p;
+get_window_pos(pos, rowptr, colptr)	/* Buffer position to window coords. */
+	int *rowptr, *colptr;
+give_position(cmd)	/* Run movement cmd, return where it goes to. */
+	int (*cmd)();
+int give_window_space(dir) /* Delete this window, giving space in direction. */
+go_line(num)	/* EEL subr.  Positions point at line num. */
+grab(pos1, pos2, to)	/* Copy part of the buffer to a string. */
+	char *to;
+int gui_cursor_shape;	/* Cursor size, shape for GUI version. */
+halt_process(?hard_kill, buf)	/* Stop a running a concurrent process. */
+short has_arg;	/* Does the current command have a numeric argument? */
+int has_feature;		/* Bits here tell what features are available. */
+help_on_current()	/* EEL sub. provides help on the current command. */
+horizontal(pos)		/* How many columns from point to pos? */
+int http_retrieve(file, host, port, auth, buf, flags)
+    char *file, *host, *auth, *buf;			/* Get a file via Http protocol. */
+short ignore_kbd_macro; /* Suspend running keyboard macro? */
+buffer int (*indenter)();	/* Return language-specific indentation. */
+char *index(s, ch)	/* Find first occurrence of ch in s. */
+	char *s;
+short *index_table(index)	/* Retrieve the key table with this index. */
+insert(ch)	/* Insert ch after point in the current buffer. */
+invisible_cmd()	/* Don't count this command when checking consecutive cmds. */
+int invisible_window;	/* Text doesn't show, only borders. */
+invoke_menu(letter)		/* Pull down system or other menu. */
+in_bufed()	/* EEL subr.  Is this buffer a buffer list? */
+short in_echo_area;	/* Is the cursor in the echo area? */
+in_macro()	/* Is a keyboard macro running? */
+isalpha(ch)	/* Is ch a letter? */
+isdigit(ch)	/* Is ch a digit? */
+islower(ch)	/* Is ch a lowercase letter? */
+isspace(ch)	/* Is ch a whitespace character? */
+isupper(ch)	/* Is ch an uppercase letter? */
+is_directory(file)	/* Does file name a directory? */
+	char *file;
+is_gui()		/* Is this a graphical version of Epsilon? */
+int is_key_repeating()				/* Is user holding down a key? */
+is_path_separator(ch)	/* Does ch separate directories in file names? */
+is_pattern(file)	/* Does file have wildcards? */
+	char *file;
+int is_process_buffer(buf)	/* Does this buffer have an active concur proc? */
+int is_remote_file(char *fname)	/* Is this a URL file name? */
+short is_unix;					/* Is this the Unix version of Epsilon? */
+short is_win32;	/* Is this a GUI or console version for NT,95,98,W2K?  */
+is_window(win)		/* Is this a valid window handle? */
+int iter;		/* The numeric argument of the current command. */
+char kbd_extended;	/* Does user want distinct cursor & num keypad keys? */
+short key;		/* The current keystroke. */
+int key_from_macro;		/* Did the current key come from a macro? */
+short *keytran;		/* Points to low level keyboard remapping array. */
+short key_code;		/* BIOS encoding of last key (not under UNIX) */
+char key_type;		/* Was last key foreign or special? */
+short last_index;	/* The last valid name table index. */
+leave(?code)		/* Exit Epsilon if no process is running. */
+char leave_blank;	/* Do final screen update when Epsilon exits? */
+leave_recursion(val)	/* Exit from recursive edit level. */
+lines_between(from, to, ?abort_ok)	/* Give count of lines in region. */
+short line_in_window;	/* Line point's in, in current window. */
+list_bindings(start, table, alttable, find)	/* Find keys bound to find. */
+	short *table, *alttable;
+load_commands(file)	/* Load in a bytecode file. */
+	char *file;
+char load_fail_ok;	/* Ignore failure to autoload a function? */
+char load_from_state;	/* From state file or only bytecodes? */
+longjmp(location, value)	/* Non-local goto. */
+	jmpbuf *location;
+char *lookpath(file, ?curdir)	/* Look for a file along the epspath. */
+	char *file;
+char *look_on_path(file, flags, path, ?skip) /* Look in each dir for file. */
+    char *file, *path;
+lowclose(handle)	/* Finished using the file. */
+lowopen(file, mode)	/* Start using a file directly. */
+	char *file;
+lowread(handle, buffer, count)	/* Low-level read into char array. */
+	char *buffer;
+lowseek(handle, offset, mode)	/* Move around in file. */
+lowwrite(handle, buffer, count)	/* Low-level write from char array. */
+	char *buffer;
+low_window_create(first, p)	/* Reconstruct a tiled window configuration. */
+	struct window_info *p;
+low_window_info(win, p)	/* Put misc. information on window win in structure. */
+        struct window_info *p;
+buffer char *major_mode;	/* Name of current mode, for make_mode(). */
+make_backup(orig, backup)	/* Create backup file. */
+	char *orig, *backup;
+char *make_pointer(int value)	/* Convert machine address to ptr. */
+make_temp_file(file, freespace)	/* Find room for a file of specified length. */
+	char *file;
+make_title(res, title, room)	/* Expand window title meta-chars. */
+	char *res, *title;
+char *malloc(size)	/* Allocate some memory. */
+buffer int mark;	/* The Mark.  Used with point for defining regions. */
+int mark_to_column;	/* Force mark to this column if not -1. */
+int matchend;		/* Return far end of last search text, like point. */
+int matchstart;		/* Return opposite end of last search text found. */
+int maxmem;		/* The maximum amount of memory Epsilon's allowed. */
+maybe_ding()		/* EEL subr.  Calls ding() only if want_bell is on. */
+maybe_refresh()		/* Redisplay screen if no keys available. */
+memcmp(s, t, len)	/* Compare len chars of s to t. */
+	char *s, *t;
+memcpy(s, t, len)	/* Copy len chars of t to s. */
+	char *s, *t;
+memfcmp(s, t, len)	/* Compare len chars of s to t, folding case. */
+	char *s, *t;
+memset(s, val, len)	/* Set len chars at s to val. */
+	char *s;
+int mem_in_use;		/* How much space is Epsilon currently using? */
+mention(format, ...)	/* Message in echo area, after pause. */
+	char *format;
+int mention_delay;	/* Time in 1/10 seconds before a mention appears. */
+int minmem;		/* Amount of memory Epsilon will keep from process. */
+mkdir(dir)		/* Create a new directory. */
+	char *dir;
+buffer char mode[60];	/* Text in modeline. */
+buffer short *mode_keys;	/* The bindings local to this buffer. */
+buffer short modified;	/* Buffer modified since last read/write? */
+int modified_buffer_region(from, to, ?tag) /* What part of buffer has changed? */
+    int *from, *to;
+    char *tag;
+modify_region(num, code, val)	/* Change attribute of highlighted region. */
+char monochrome;	/* Is this display monochrome? */
+char mouse_auto_off;	/* Hide mouse cursor when user presses a key? */
+char mouse_auto_on;	/* Show mouse cursor when mouse moves? */
+mouse_buttons()		/* # of buttons on mouse, or 0 if no mouse. */
+MOUSE_CURSOR *mouse_cursor;	/* Current mouse cursor image. */
+short mouse_cursor_attr; /* For text mouse cursor, toggle these attr bits. */
+short mouse_cursor_char; /* For text mouse cursor, show this char if nonzero.*/
+short mouse_display;	/* Display mouse cursor? */
+short mouse_graphic_cursor; /* Show graphic vers. of mouse cursor, not text. */
+short mouse_mask;	/* Bit mask: only notice these mouse events. */
+int mouse_panning;	/* Is the user panning with the third mouse button? */
+int mouse_panning_rate(int percent, int slow, int fast) /* Compute scroll speed. */
+short mouse_pixel_x;	/* Position of mouse on screen in pixels. */
+short mouse_pixel_y;	/* Position of mouse on screen in pixels. */
+mouse_pressed()		/* Is any mouse button now depressed? */
+short mouse_shift;	/* Which shift keys were pressed at mouse event? */
+short mouse_x;		/* Position of mouse on screen in characters. */
+short mouse_y;		/* Position of mouse on screen in characters. */
+move_to_column(col)	/* Go to specified column. */
+int muldiv(a, b, c)						/* Compute a*b/c using 64-bit math. */
+char must_build_mode;	/* Need to rebuild this mode line? */
+char *name_color_class(col_class)	/* Get name of a color class. */
+name_debug(index)	/* Is debugging set for the indicated function? */
+name_help(index)	/* Get the help offset of the indicated command. */
+name_macro(name, keys)	/* Enter a macro in the name table. */
+	char *name;
+	short *keys;
+name_match(prefix, start)	/* Get matching command names. */
+	char *prefix;
+char *name_name(index)	/* Get the name of the name table entry. */
+name_to_bufnum(str)	/* Give buffer number, from name. */
+name_type(index)	/* Get the type a the name table entry. */
+name_user(i)		/* Is variable with name table index i a user var? */
+int narrow_end;		/* Restrict buffer operations to before this. */
+int narrow_start;	/* Restrict buffer operations to after this. */
+new_file_read(file, strip, f_info, start, max)	/* Read a file.*/
+	char *file;
+	struct file_info *f_info;
+new_file_write(file, strip, f_info, start, max)	/* Write a file.*/
+	char *file;
+	struct file_info *f_info;
+new_table(name)		/* Define a new key table. */
+	char *name;
+new_variable(name, type, vtype, ?length)	/* Create a variable. */
+	char *name;
+next_dialog_item()	/* Move within a dialog to next item. */
+next_screen_line(n)	/* Go down by screen lines. */
+nl_forward()		/* Move point past the next newline. */
+nl_reverse()		/* Move point before the previous newline. */
+note(format, ...)	/* Message in echo area, without cursor, no waiting. */
+	char *format;
+noteput(format, ...)	/* Message in echo area, with cursor, no waiting. */
+	char *format;
+number_of_color_classes()	/* How many color classes there are. */
+number_of_popups()	/* How many windows are pop-ups? */
+number_of_windows()	/* How many windows are on the screen? */
+one_window_to_dialog(title, win1, button1, button2, button3) /* Disp dialog. */
+short opsys;		/* Code for operating system version of Epsilon. */
+orig_screen_color()	/* DOS only: give screen attribute before clearing. */
+page_setup_dialog()			/* Display Windows dlg for setting margins. */
+parse_string(dir, str, ?dest)	/* Copy match at point to dest. */
+	char *str, *dest;
+char path_list_char;	/* Character to separate directories in path list. */
+char path_sep;		/* Your preferred path separator character. */
+peek(segment, offset)	/* DOS: Look at a byte anywhere in memory. */
+buffer int point;	/* The Point.  Insertions happen here. */
+poke(segment, offset, value)	/* DOS: Set a byte anywhere in memory. */
+popup_near_window(new, old)	/* Move new window to overlap old. */
+short prev_cmd;		/* The last command executed. */
+prev_dialog_item()	/* Move within a dialog to previous item. */
+prev_screen_line(n)	/* Go up by screen lines. */
+short print_eject()		/* Go to next page on printer. */
+char print_in_color;	/* Want color printing from printing prims? */
+short print_line(str)	/* Send line to printer. */
+    char *str;
+short print_window(win)		/* Print special invisible window. */
+char *process_current_directory;	/* Concur proc's current directory. */
+process_input(?buf)		/* Is the concurrent process waiting for input? */
+process_kill(?buf)		/* Discard a concurrent process */
+prompt_box(title, win1, win2) /* Display a simple dialog. */
+char prompt_with_buffer_directory; /* How to prompt for files? */
+int ptrlen(ptr)		/* What's the size of this object? */
+	char *ptr;
+putenv(name)	/* Add something to the environment other programs inherit. */
+	char *name;
+quick_abort()		/* Like error(), but no message. */
+quit_bufed()		/* EEL subr.  Remove bufed's pop-up window. */
+raw_xfer(buf, from, to)	/* Copy characters to another buffer. */
+	char *buf;
+char *realloc(optr, newsize)	/* Make a bigger array from optr. */
+	char *optr;
+short recursion_level;	/* How many recursive edits there are. */
+recursive_edit()	/* EEL Subr. Start a new command loop. */
+refresh()		/* Update the screen. */
+relative(abs, rel)	/* Make the file name abs into a relative name. */
+	char *abs, *rel;
+remove_region(num)	/* Delete a highlighted region. */
+remove_window(num)	/* Delete a window. */
+rename_file(oldfile, newfile)	/* Rename files. */
+	char *oldfile, *newfile;
+replace(pos, ch)	/* Replace the indicated character. */
+replace_name(old, new)	/* Rename cmd, variable, or macro. */
+	char *old, *new;
+reset_modified_buffer_region(tag)		/* Track buffer changes. */
+    char *tag;
+resize_screen(lines, cols) /* Tell Epsilon to use diff. # of lines or cols. */
+restore_vars()		/* Set all save_var'd variables back to saved value. */
+re_compile(dir, str)	/* Check a regular expression for proper syntax. */
+	char *str;
+re_match()		/* Search for the last compiled string. */
+re_search(dir, str)	/* Search for the indicated regular expression. */
+	char *str;
+int rgb_to_attr(rgb)  /* Convert from 24-bit RGB to 4-bit attribute. */
+char *rindex(s, ch)	/* Find last occurrence of ch in s. */
+	char *s;
+rmdir(dir)		/* Remove a directory. */
+	char *dir;
+short *root_keys;	/* Bindings not specific to any buffer. */
+int run_viewer(filename, action, dir) /* Run a program by file association. */
+   char *filename, *action, *dir;
+save_state(file)	/* Save away the state in a startup file. */
+	char *file;
+say(format, ...)	/* Message in echo area, without cursor. */
+	char *format;
+sayput(format, ...)	/* Message in echo area, with cursor after. */
+	char *format;
+short screen_cols;	/* Number of columns that fit on the screen. */
+short screen_lines;	/* Number of rows on the screen. */
+short screen_messed();	/* Causes next refresh to redraw everything. */
+short screen_mode;	/* The mode of the display device. */
+int screen_to_window(screen)	/* Which window uses this dialog screen? */
+scroll_bar_line()	/* Position of scroll box diamond on the scroll bar. */
+search(dir, str)	/* Do a conventional search. */
+	char *str;
+short selected_color_scheme;	/* Name table index of current set of colors. */
+select_low_window(wnum, top, bot, lines, cols)	/* Help restore win config. */
+short select_printer(p)		/* Display printing dialog. */
+    struct print_options *p;
+setjmp(location)	/* Set location for non-local goto. */
+	jmpbuf *location;
+set_buffer_filename(file)	/* Set file name for this buffer. */
+	char *file;
+set_character_color(pos1, pos2, color) /* Set color of these chars. */
+set_color_pair(colorclass, foreground, background) /* Set a color. */
+int set_file_opsys_attribute(file, attr)	/* Set a file's permission bits. */
+    char *file;
+int set_file_read_only(file, write)	/* Make file writable or not. */
+    char *file;
+set_name_debug(index, flag)	/* Set debugging for a function. */
+set_name_help(index, offset)	/* Set help offset for a command. */
+set_name_user(index, is_user) /* Set if var with name table index is user. */
+set_num_var(inded, val)	/* Set numeric variable with name table index i. */
+set_shrinkname(pathname)	/* Set where DOS temp files will go. */
+	char *pathname;
+set_str_var(i, val)	/* Set string variable with name table index i. */
+	char *val;
+set_swapname(pathname)	/* Set directories where swap file will go. */
+	char *pathname;
+set_tagged_region(tag, from, to, code)	/* Put attribute on a buffer range. */
+    char *tag;
+set_wattrib(win, code, val)	/* Set an attribute of a window. */
+set_window_caption(win, title)	/* Change a dialog's caption. */
+   char *title;
+shell(program, cline, buf)	/* Run another program. */
+	char *program, *cline, *buf;
+shift_pressed()		/* Which shift keys are depressed right now? */
+show_char(str, key, ?style)	/* Convert key code to its printed form. */
+	char *str;
+show_text(column, time, fmt, ...) /* Display in echo area with many options. */
+	char *fmt;
+int signal_suspend() /* Unix: Suspend Epsilon's process with job control. */
+size()	/* The number of characters in the current buffer. */
+char sort_status;	/* Show progress messages during sorting? */
+spot_to_buffer(sp)	/* Give buffer # of a spot. */
+	spot sp;
+sprintf(dest, format, ...)	/* Format a string. */
+	char *dest, *format;
+char start_make_in_buffer_directory; /* Switch dirs for make cmd? */
+short start_print_job(jobname)	/* Start printing. */
+    char *jobname;
+char start_process_in_buffer_directory; /* Switch dirs when running proc? */
+start_profiling()	/* Turn profiling on. (DOS only) */
+char *state_extension;	/* .sta, .st2 or .stu depending on operating system */
+char state_file[];	/* The file name of the state file in use, if any. */
+cursor std_pointer;	/* Default mouse cursor image. */
+stop_profiling()	/* Turn profiling off. (DOS only) */
+strcat(tostr, fromstr)	/* Append strings. */
+	char *tostr, *fromstr;
+strcmp(a, b)		/* Compare strings. */
+	char *a, *b;
+strcpy(tostr, fromstr)	/* Copy a string. */
+	char *tostr, *fromstr;
+strfcmp(a, b)		/* Compare strings, converting lowercase to upper. */
+	char *a, *b;
+strlen(s)		/* Length of a string. */
+	char *s;
+strncat(tostr, fromstr, count)	/* Append at most count characters. */
+	char *tostr, *fromstr;
+strncmp(a, b, n)	/* Compare at most n characters. */
+	char *a, *b;
+strncpy(tostr, fromstr, count)	/* Copy at most count characters. */
+	char *tostr, *fromstr;
+strnfcmp(a, b, n)	/* Compare folding case, at most n chars. */
+	char *a, *b;
+char *strsave(s)	/* Copy a string into allocated memory. */
+	char *s;
+char *strstr(text, pat)	/* Look for copy of pattern in text. */
+	char *text, *pat;
+stuff(str)	/* Insert a string into the buffer after point. */
+	char *str;
+int system_window;	/* Don't let user switch to this one. */
+int table_count;	/* The number of prefix keys entered so far. */
+char table_keys[];	/* The prefix keys entered so far. */
+table_prompt()	/* EEL subr. to display prompt when using key table. */
+buffer int tab_size;	/* The size of tabs in the current buffer. */
+int telnet_host(host, port, buf)
+    char *host, *buf;			/* Start cmd-line session on another computer. */
+int telnet_send(id, text)	/* Send some text to host computer. */
+    char *text;
+char *temp_buf()	/* EEL subr. to create an empty temporary buffer. */
+term_clear()	/* Low level primitive to clear the screen. */
+term_position(col, row)	/* Low level primitive for cursor positioning. */
+term_write(col, row, str, count, color, clear)	/* Write string on screen */
+	char *str;
+term_write_attr(x, y, chartowrite, attrtowrite) /* Write directly to scr. */
+window short text_color; /* Color code of normal text in window. */
+short text_height()	/* Height of text in current window. */
+short text_width()	/* Width of text in current window. */
+short this_cmd;		/* Special code for the command currently executing */
+tiled_only()		/* EEL subr.  Remove pop-up windows or abort. */
+time_and_day(t_info)	/* Put time and day information in the structure. */
+	struct time_info *t_info;
+time_begin(t, len)	/* Start a timer counting down from .01 secs. */
+        TIMER *t;
+int time_done(t)	/* Has timer expired yet? */
+        TIMER *t;
+time_ms()		/* Time in millisecs. since boot (or similar). */
+int time_remaining(t)	/* How long until timer expires, in .01 seconds? */
+        TIMER *t;
+tolower(ch)		/* Convert ch to lowercase. */
+toolbar_add_button(icon, help, cmd)	/* Add a button to the toolbar. */
+    char *icon, *help, *cmd;
+toolbar_add_separator()	/* Put a space between buttons. */
+toolbar_create()	/* Start defining a new toolbar. */
+toolbar_destroy()	/* Get rid of the toolbar. */
+jmp_buf *top_level;	/* Where to abort to. */
+toupper(ch)		/* Convert ch to uppercase. */
+to_begin_line()		/* EEL subr.  Goes to the start of the current line */
+to_buffer(buf)		/* EEL subr.  Make current window use new buffer. */
+	char *buf;
+to_column(col)		/* EEL subr. Extends or contracts whitespace to col. */
+to_end_line()		/* EEL subr.  Goes to the end of the current line. */
+buffer short translation_type; /* Is this buffer's file Unix or Mac format? */
+try_calling(name)	/* Call function name, if it exists. */
+	char *name;
+two_scroll_box(title, win1, win2, button1, button2, button3)
+    char *title, *button1, *button2, *button3; /* Display a dialog. */
+buffer int type_point;	/* The spot where I/O occurs in a process buffer. */
+undo_count(is_undo)	/* How much more could be undone or redone? */
+buffer int undo_flag;	/* Put extra info in undo. */
+undo_mainloop()		/* Turn on undo, mark a new cmd's beginning. */
+undo_op(is_undo)	/* Undo or redo another operation. */
+undo_redisplay()	/* Mark a redisplay in undo list. */
+buffer int undo_size;	/* Max # of characters of undo info to remember. */
+short ungot_key;	/* Pushed back key. */
+unseen_msgs()		/* Any messages waiting to be displayed? */
+short user_abort;	/* Has the user tried to abort? */
+short use_default;	/* Get/Set buffer-specific variable's default value */
+char use_process_current_directory; /* Share a common current directory? */
+char using_new_font;	/* Font's changed since last screen refresh. */
+int using_oem_font(screen) /* Does this screen use trad. char set, not Windows? */
+char *varptr(i);	/* Points to variable, given name table entry. */
+vartype(i);		/* Returns info on type of global variable. */
+char *verenv(name)	/* Like getenv(), but tack version number onto name. */
+	char *name;
+char *version;		/* The version of the running Epsilon. */
+user char *versioned_file_string;	/* Current version, in format for a file name. */
+view_buf(bnum, last)	/* EEL Subr. Display buffer in pop-up win. */
+view_buffer(buf, last)	/* EEL Subr. Display buffer in pop-up win. */
+	char *buf;
+wait_for_key()		/* Get a key, or wait until one is pressed. */
+int want_bell;		/* EEL variable.  Whether to ring the bell or not. */
+short want_cols;	/* Screen columns specified on cmd line. */
+char want_common_file_dialog; /* Use GUI dialog for file prompting? */
+short want_lines;	/* Screen lines specified on cmd line. */
+char want_toolbar;	/* Does user want a toolbar? */
+buffer int (*when_displaying)(); /* called during redisplay */
+int when_idle()	/* EEL subr. that's called when Epsilon's waiting for a key. */
+when_loading()	/* EEL subr. that's executed as bytecode file is loaded. */
+when_repeating() /* EEL subr. that's called while a key's repeating. */
+when_restoring()	/* EEL subr. that's executed after state file loads */
+windows_maximize()	/* Maximize Epsilon's window. */
+windows_minimize()	/* Minimize Epsilon's window. */
+windows_restore()	/* Restore Epsilon's window. */
+windows_set_font(char *title, b16 fnt_code)	/* Let user select a font. */
+window_at_coords(row, col, ?screen) /* Which window is at these screen coords? */
+short window_bufnum;	/* Buffer displayed in this window. */
+window_edge(dir, corner) /* Get screen coord of a window corner. */
+int window_end;		/* Position of the last character in the window. */
+window_extra_lines()	/* # of blank lines past end of buffer. */
+int window_handle;	/* Code identifying this window. */
+short window_height;	/* Height of current window. */
+window_kill()		/* Get rid of the current window. */
+int window_left;	/* Screen column of left edge of window. */
+short window_lines_visible(int)	/* Can we see orig window behind dialog? */
+window_line_to_position(line)	/* Where's first char of this window line? */
+short window_number;	/* How many windows above the current one? */
+window_one()		/* Make the current window the only window. */
+window_scroll(lines)	/* Scroll the current window. */
+window_split(dir)	/* Split the current window in two. */
+int window_start;	/* Position of the first character in window. */
+window_title(win, edge, pos, title)	/* Add title to a window. */
+	char *title;
+int window_top;		/* Screen row with top of window. */
+int window_to_screen(win)	/* Which screen holds this window? */
+short window_width;	/* Width of current window. */
+winexec(prog, cmdline, show, wait)	/* Run a Windows program. */
+   char *prog, *cmdline;
+win_display_menu(show)	/* Display a menu bar? */
+int win_help_contents(filename)	/* Display a help file's contents page. */
+   char *filename;
+int win_help_string(filename, key)	/* Look up a keyword in help file. */
+   char *filename;
+   char *key;
+int win_load_menu(filename)		/* Load a menu file (GUI only). */
+    char *filename;
+int win_menu_popup(menu_name)	/* Pop up a context menu by the mouse. */
+    char *menu_name;
+xfer(buf, from, to)	/* EEL Subr. Copy characters to another buffer. */
+	char *buf;
+x_pixels_per_char()	/* # of mouse pixels in a character. */
+y_pixels_per_char()	/* # of mouse pixels in a character. */
+zap(buf)		/* Create new buffer, or empty an existing buffer. */
+	char *buf;

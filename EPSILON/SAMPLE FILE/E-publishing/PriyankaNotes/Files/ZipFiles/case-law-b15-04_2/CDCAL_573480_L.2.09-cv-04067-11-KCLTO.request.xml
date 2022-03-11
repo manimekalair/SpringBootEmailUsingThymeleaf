@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><ital>Eric Foster &#38; Vickie Foster</ital></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><ital>United States, et al.</ital></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-4067-GHK (VBKx)</docket.line>
+<docket.number>CV 09-4067-GHK (VBKx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-04067-GHK-VBK</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 07/20/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Beatrice Herrera, Deputy Clerk, Attorneys Present for Plaintiffs: None</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter / Recorder, Attorneys Present for Defendants: None</attorney.line>
+<attorney.line first-line="1">N/A, Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: (In Chambers) Order re: Motion to Dismiss Complaint Pursuant to Rule 12(b)(6) &#38; 12(b)(1)</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>The Honorable GEORGE H. KING, U. S. DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">This matter is before the Court on Defendants' Motion to Dismiss Complaint Pursuant to Rule 12(b)(6) &#38; 12(b)(1) (&#x201C;Motion&#x201D;). We have considered the papers filed in support of and opposition to this Motion, and deem this matter appropriate for resolution without oral argument. L.R. 7-15. As the Parties are familiar with the facts in this case, they will be repeated only as necessary. Accordingly, we rule as follows:</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>I. Discussion</bold></underscore></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging">A. Constitutional Tort Claims Filed Against United States and Individual Defendants in Official Capacity</headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">&#x201C;In a suit against the United States, there cannot be a right to money damages without a waiver of sovereign immunity<charfill numchar="4">&#8228;</charfill>&#x201D; <ital>United States v. Testan</ital>, 424 U.S. 392, 400 (1976). The Federal Tort Claims Act provides a waiver of sovereign immunity for tortious acts of an agency's employees only if such torts committed in the employ of a private person would have given rise to liability under state law. 28 U.S.C. &#167; 1346(b). Constitutional torts are, by definition, founded on federal, not state law. Therefore, federal district courts have no jurisdiction over the United States where claims allege constitutional torts. <ital>Pereira v. U.S. Postal Service</ital>, 964 F.2d 873, 876 (9th Cir. 1992); <ital>Ramos v. United States</ital>, 229 Fed. Appx. 456, 457 (9th Cir. 2007) (&#x201C;To the extent Ramos sought damages from the United States for allegedly violating his constitutional rights, his claim was barred by sovereign immunity.&#x201D;)</paratext></para>
+<para><paratext ID="p3" level="1">Additionally, &#x201C;a suit against a federal employee in his/her official capacity is a suit against the United States, and the doctrine of sovereign immunity bars claims for monetary damages against federal actors sued in their official capacities.&#x201D; <ital>Colen v. United States</ital>, 2008 WL 2051697, at *8 (C.D. Cal. May 12, 2008); <ital>see also Larson v. Domestic &#38; Foreign Commerce Corp.</ital>, 337 U.S. 682, 688-89 (1949); <ital>Gilbert v. DaGrossa</ital>, 756 F.2d 1455, 1458 (9th Cir.1985) (barring suit against federal officials sued in their official capacities).</paratext></para>
+<para><paratext ID="p4" level="1">Here, because Defendant United States and United States Department of Justice (collectively &#x201C;United States&#x201D;) and the Defendants Mark Sonnendecker, Special Agent Whitmore, Special Agent Black, Special Agent Van Bennekurn, Special Agent Goerkle, Special Agent Arko, Special Agent Fallon, Special Agent Webb and GS Harden (&#x201C;Individual Defendants&#x201D;) sued in their official capacities are immune from suit for all Constitutional torts alleged in the Complaint, Plaintiffs' First Claim for Excessive Force and Willful Denial of Medical Care and Treatment under &#167; 1983 (&#x201C;First Claim&#x201D;), Second Claim for Unlawful Custom and Practice Under &#167; 1983 (&#x201C;Second Claim&#x201D;), and Third Claim for Conspiracy to Interfere with Civil Rights (&#x201C;Third Claim&#x201D;) are all <bold>DISMISSED with prejudice</bold> against the United States and the Individual Defendants in their official capacities.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">B. Section 1983 Claims Against Individual Defendants in Personal Capacities</headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Plaintiffs' First and Second Claims against the Individual Defendants in their personal capacities are filed under &#167; 1983. However, &#167; 1983 &#x201C;only provides a remedy against persons acting under color of state law.&#x201D; <ital>Ibrahim v. Dep' of Homeland Sec.</ital>, 538 F.3d 1250, 1257 (9th Cir. 2008); <ital>see also Cabrera v. Martin</ital>, 973 F.2d 735, 742 (9th Cir. 1992). Here, the Individual Defendants are federal defendants acting pursuant to federal laws. Therefore, because the Individual Defendants were not acting under color of state law when they arrested Plaintiff Eric Foster, Plaintiffs' First and Second Claim are <bold>DISMISSED</bold> against all Individual Defendants acting in their personal capacities.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p6">&#8195;Plaintiffs may be able to bring <ital>Bivens</ital> related claims, instead of &#167; 1983 claims, based on the allegations made in the Complaint. <ital>See Bivens v. Six Unknown Named Agents of Fed. Bureau of Narcotics</ital>, 403 U.S. 388, 389 (1971) (creating cause of action against federal agent acting under color of his authority). To the extent that Plaintiffs wish to amend their complaint to allege <ital>Bivens</ital> claims, they may do so.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">C. Plaintiffs' Third Claim</headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">In <ital>Heck v. Humphrey</ital>, 512 U.S. 477, 486-87 (1994) the Court held that when a complaint alleges that a defendant engaged in conduct &#x201C;whose unlawfulness would render a conviction or sentence invalid,&#x201D; and a judgment in such an action &#x201C;would necessarily imply the invalidity of his conviction or sentence&#x201D; the action must be dismissed. <ital>Id.</ital> (&#x201C;[I]n order to recover damages for allegedly unconstitutional conviction or imprisonment, or for other harm caused by actions whose unlawfulness would render a conviction or sentence invalid, a &#167; 1983 plaintiff must prove that the conviction or sentence has been reversed on direct appeal<charfill numchar="4">&#8228;</charfill>&#x201D;). <ital>Heck</ital> applies equally to claims brought under &#167; 1983 and &#167; 1985. <ital>See McQuillion v. Schwarzenegger</ital>, 369 F.3d 1091, 1098 n.4 (9th Cir. 2004) (&#x201C;We agree with our sister circuits that <ital>Heck</ital> applies equally to claims brought under &#167;&#167; 1983, 1985 and 1986.&#x201D;).</paratext></para>
+<para><paratext ID="p8" level="1">Here, Plaintiffs seem to concede that their Third Claim is barred by <ital>Heck.</ital> However, although cited by neither party, the Supreme Court has recently held that <ital>Heck</ital> does not apply unless there has been a conviction in the relevant criminal action. <ital>See Wallace v. Kato</ital>, 549 U.S. 384, 393&#8211;94 (2007) (&#x201C;If the plaintiff is ultimately convicted, and if the stayed civil suit would impugn that conviction, <ital>Heck</ital> will require dismissal; otherwise, the civil action will proceed, absent some other bar to suit.&#x201D;) Therefore, <ital>Heck</ital> does not warrant dismissal of Plaintiffs' &#167; 1985 claim.</paratext></para>
+<para><paratext ID="p9" level="1">Although <ital>Heck</ital> does not bar Plaintiffs' &#167; 1985 claim, Plaintiffs have failed to allege any type of racial or class based discriminatory animus behind the alleged conspirators' actions, which alone warrants dismissal of a &#167; 1985(3) claim. <ital>See Gibson v. United States</ital>, 781 F.2d 1334, 1341 (9th Cir. 1986) (dismissing &#167; 1985(3) claim because plaintiffs failed to allege that the law enforcement abuses they suffered were on account of their race). Because Plaintiffs have failed to allege discriminatory animus, and rely solely on legal conclusions in alleging their &#167; 1985 claim, Plaintiffs' Third Claim is hereby <bold>DISMISSED with leave to amend.</bold></paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">D. Plaintiffs' State Common Law Claims</headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Upon certification by the Attorney General that a defendant employee was acting within the course and scope of employment at the time of the incident, the United States is automatically substituted for such individual defendants. 28 U.S.C. &#167; 2679(d)(2). Here, the Attorney General has so certified that the Individual Defendants were acting within the course and scope of employment during the events in question. (Docket # 2)</paratext></para>
+<para><paratext ID="p11" level="1">Plaintiffs' Sixth Claim for negligence per se relates to Plaintiff Eric Foster's purportedly illegal arrest through violations of the California Penal Code prohibiting falsification of evidence and perjury, subordination of perjury, and conspiracy to obstruct justice. (Compl. &#182; 45.) Although <ital>Heck</ital> would bar Plaintiffs' claim if Plaintiff Eric Foster is convicted in the underlying criminal case, as explained above, <ital>Heck</ital> does not warrant dismissal until a there is a criminal conviction.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">E. Service</headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">Insofar as the Individual Defendants, other than Special Agent Whitmore, argue that service of the Complaint was improper, such Motion is hereby <bold>DENIED</bold>.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>II. Conclusion</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">For the foregoing reasons, we hereby <bold>GRANT</bold> Defendants' Motion to dismiss, except as it relates to allegedly improper service and dismissal under <ital>Heck</ital>. Plaintiffs' First Claim is hereby <bold>DISMISSED</bold> with leave to amend to bring a <ital>Bivens</ital> claim if Plaintiffs so desire. Plaintiffs' Second Claim is hereby <bold>DISMISSED with prejudice</bold> because the United States is immune from suit. Plaintiffs' Third Claim is <bold>DISMISSED</bold> with leave to amend if Plaintiffs can properly allege a &#167; 1985 claim, although it is <bold>DISMISSED with prejudice</bold> against United States and the Individual Defendants in their official capacities. Lastly, the Individual Defendants are hereby <bold>DISMISSED</bold> from claims Four through Ten because the United States has certified that the Individual Defendants were acting within the course and scope of employment during the events in question.</paratext></para>
+<para><paratext ID="p14" level="1">Although <ital>Heck</ital> does not warrant dismissal of Plaintiffs' Third and Sixth Claims because Plaintiff has not been convicted, the Supreme Court has indicated that &#x201C;it is within the power of the district court, and in accord with common practice, to stay the civil action until the criminal case, or the likelihood of a criminal case is ended.&#x201D; <ital>Wallace</ital>, 549 U.S. at 393&#8211;94. Here, because Plaintiffs' Third and Sixth Claims may become barred if Plaintiff Eric Foster is convicted, and because the trial date in the criminal action is currently set for September 2009, we hereby exercise our discretion and <bold>STAY</bold> the entire case, pending resolution of the criminal charges. The Parties <bold>SHALL</bold> filed a joint status report within <bold>TEN (10) DAYS</bold> after the resolution of the criminal case. If Plaintiffs wish to file an amended complaint in compliance with this Order, they <bold>SHALL</bold> do so within <bold>TEN (10) DAYS</bold> after filing the joint status report. If Plaintiff Eric Foster is ultimately convicted, he would be precluded from alleging his Third and Sixth Claims under <ital>Heck</ital>.</paratext></para>
+<para><paratext ID="p15" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p16" level="1"><underscore>-- : --</underscore></paratext></para>
+<para><paratext ID="p17" level="1">Initials of Deputy Clerk <underscore>Bea</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>NORTHERN DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>ALHARETH ALOUDI, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>INTRAMEDIC RESEARCH GROUP, LLC, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 15-cv-00882-HSG</docket.line>
+<docket.number>15-cv-00882-HSG</docket.number>
+<docket.line suppress-flag="y">4:15-cv-00882-HSG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 02/11/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>ORDER GRANTING IN PART AND DENYING IN PART PLAINTIFF'S RENEWED ADMINISTRATIVE MOTION TO FILE UNDER SEAL</bold> Re: Dkt. Nos. 74, 76</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HAYWOOD S. GILLIAM, JR. United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On February 2, 2016, Plaintiff Alhareth Aloudi filed an administrative motion to file under seal the unredacted version of the Declaration of David Elliot in Support of Plaintiff's Opposition to Motion to Dismiss the Second Amended Complaint (&#x201C;Elliot Declaration&#x201D;) and Exhibits A and B to the Elliot Declaration. Dkt. No. 70. Defendant Intramedic Research Group failed to comply with Civil Local Rule 79-5(e)(1) by filing a declaration within four days of Plaintiff's administrative motion, and accordingly, the Court denied Plaintiff's motion. Dkt. No. 72. On February 9, 2016, Plaintiff filed a renewed administrative motion to seal the Elliot Declaration and Exhibits A and B thereto. Dkt. No. 74. On February 10, 2016, Defendant filed a supporting declaration only as to Exhibit A to the Elliot Declaration. Dkt. No. 76. Accordingly, the Court GRANTS Plaintiff's administrative motion as to Exhibit A and DENIES Plaintiff's administrative motion as to the Elliot Declaration and Exhibit B.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. LEGAL STANDARD</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Courts apply a &#x201C;compelling reasons&#x201D; standard when considering motions to seal documents like the ones at issue here. <ital>Pintos v. Pac. Creditors Ass'n</ital>, 605 F.3d 665, 678 (9th Cir. 2010). &#x201C;This standard derives from the common law right &#x2018;to inspect and copy public records and documents, including judicial records and documents.&#x2019;&#x201D; <ital>Id.</ital> &#x201C;[A] &#x2018;strong presumption in favor of access&#x2019; is the starting point.&#x201D; <ital>Kamakana v. City &#38; Cnty. of Honolulu</ital>, 447 F.3d 1172, 1178 (9th Cir. 2006). To overcome this strong presumption, the moving party must &#x201C;articulate compelling reasons supported by specific factual findings that outweigh the general history of access and the public policies favoring disclosure, such as the public interest in understanding the judicial process.&#x201D; <ital>Id.</ital> at 1178-79 (citations, internal quotation marks, and alterations omitted). &#x201C;In general, &#x2018;compelling reasons&#x2019; sufficient to outweigh the public's interest in disclosure and justify sealing court records exist when such &#x2018;court files might have become a vehicle for improper purposes,&#x2019; such as the use of records to gratify private spite, promote public scandal, circulate libelous statements, or release trade secrets.&#x201D; <ital>Id.</ital> at 1179 (citing <ital>Nixon</ital>, 435 U.S. at 598). The Court must &#x201C;balance the competing interests of the public and the party who seeks to keep certain judicial records secret. After considering these interests, if the court decides to seal certain judicial records, it must base its decision on a compelling reason and articulate the factual basis for its ruling, without relying on hypothesis or conjecture.&#x201D; <ital>Id.</ital> (internal quotation marks omitted).</paratext></para>
+<para><paratext ID="p3" level="1">Civil Local Rule 79-5 further supplements the compelling reasons standard. The party seeking to file a document or portions of it under seal must &#x201C;establish[ ] that the document, or portions thereof, are privileged, protectable as a trade secret or otherwise entitled to protection under the law. <charfill numchar="3">&#8228;</charfill> The request must be narrowly tailored to seek sealing only of sealable material.&#x201D; Civil L.R. 79-5(b).</paratext></para>
+<para><paratext ID="p4" level="1">Records attached to motions that are only &#x201C;tangentially related to the merits of a case&#x201D; are not subject to the strong presumption of access. <ital>Ctr. for Auto Safety v. Chrysler Grp.</ital>, LLC, 809 F.3d 1092, 1101 (9th Cir. 2016). Accordingly, parties moving to seal such records must meet the lower &#x201C;good cause&#x201D; standard of Rule 26(c) of the Federal Rules of Civil Procedure. <ital>Id.</ital> at 8-9. The &#x201C;good cause&#x201D; standard requires a &#x201C;particularized showing&#x201D; that &#x201C;specific prejudice or harm will result&#x201D; if the information is disclosed. <ital>Phillips ex rel. Estates of Byrd v. Gen. Motors Corp.</ital>, 307 F.3d 1206, 1210&#8211;11 (9th Cir. 2002) (internal quotation marks omitted); <ital>see</ital> Fed. R. Civ. P. 26(c).</paratext></para>
+<para><paratext ID="p5" level="1">Because a motion to dismiss is not &#x201C;tangentially related to the merits of a case,&#x201D; the Court applies the &#x201C;compelling reasons&#x201D; standard to Plaintiff's motion to seal.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Plaintiff's renewed motion seeks to file under seal three documents: (1) the unredacted version of the Elliot Declaration, (2) Exhibit A to the Elliot Declaration, and (3) Exhibit B to the Elliot Declaration. Dkt. No. 74.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. Elliot Declaration and Exhibit B Thereto</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">As an initial matter, Defendant's Declaration of Steven W. Garff in support of Plaintiff's renewed administrative motion (&#x201C;Garff Declaration&#x201D;) only addresses the justification for sealing Exhibit A to the Elliot Declaration; it does not address sealing the Elliot Declaration itself or Exhibit B. <ital>See</ital> Dkt. No. 76. Accordingly, the Court finds no reason to seal the Elliot Declaration or Exhibit B and DENIES Plaintiff's renewed administrative motion to the extent it seeks to file the Elliot Declaration and Exhibit B thereto under seal.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. Exhibit A to the Elliot Declaration</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">The Garff Declaration argues that there exist both good cause and compelling reasons to seal Exhibit A, which contains &#x201C;confidential and proprietary business information&#x201D; and trade secrets belonging to Defendant. <ital>Id.</ital> &#182;&#182; 4-5.</paratext></para>
+<para><paratext ID="p9" level="1">In California, a trade secret is &#x201C;information, including a formula, pattern, compilation, program, device, method, technique, or process, that: (1) [d]erives independent economic value, actual or potential, from not being generally known to the public or to other persons who can obtain economic value from its disclosure or use; and (2) [i]s the subject of efforts that are reasonable under the circumstances to maintain its secrecy.&#x201D; Cal. Civ.Code 3426.1.</paratext></para>
+<para><paratext ID="p10" level="1">The Garff Declaration contends that Exhibit A contains a comprehensive analysis of the substantiation claims for the JavaSLIM product. <ital>See</ital> Dkt. No. 76 &#182;&#182; 3, 5. According to the Garff Declaration, proper substantiation of product claims &#x201C;is crucial to the supplement business&#x201D; and requires a significant investment of time, money, and expertise. <ital>Id.</ital> &#182; 5. Defendant argues that therefore, public disclosure of Exhibit A would place Defendant at a competitive disadvantage by allowing competitors to benefit from Defendant's analysis without investing any of their own time and money. <ital>Id.</ital> Finally, the Garff Declaration establishes that Defendant takes reasonable efforts to maintain the secrecy of Exhibit A by never disclosing Exhibit A, its contents, or similar analysis without strict non-disclosure agreements. <ital>Id.</ital> &#182; 5.</paratext></para>
+<para><paratext ID="p11" level="1">The Court agrees that Defendant has articulated compelling reasons to seal Exhibit A. The Court therefore GRANTS IN PART Plaintiff's renewed administrative motion to file under seal as it relates to Exhibit A to the Elliot Declaration.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">Accordingly, the Court GRANTS IN PART and DENIES IN PART Plaintiff's administrative motion to file under seal.</paratext></para>
+<para><paratext ID="p13" level="1">Pursuant to Civil Local Rule 79-5(f)(3), Plaintiff may file a revised redacted version of the Elliot Declaration and Exhibits A and B thereto in the public record within 7 days of this Order. In the revised redacted version, only Exhibit A shall be redacted. The Court will be unable to consider the document unless Plaintiff timely files a revised redacted version.</paratext></para>
+<para><paratext ID="p14" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p15" level="1">Dated: February 11, 2016</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,31 @@
+XML:
+============
+Input- PDF(Editable/Image)
+Output-XML
+
+Steps:
+------
+1. OCR-Optical character recoganation(Abbyfinereader 8.0) - Text,Table,Image: RTF/Doc
+2. Word la-
+ a) Manual cleanup: Soft hyphen, line break(ctrl+h=Find and replace la ^p:</p>^p<p>, ^-:None, ^|:single space )
+ b) Entity - Unicode
+	(i) &#x201C;		-Hexa
+	(ii)&#28;		-Decimal
+ c) Formatting: Bold/Italic/Sub/Sup: Short tage
+ d) Word style to short tag
+	(i)Entity conversion
+	(ii)Formatting conversion
+	(iii)short tag convert pannanum.
+	(iv)Tables covert pannalam.
+
+3. Epsilon: XML coding/Table
+
+4. Artwork process (photoshop): jpg, gif: Resolution(72, 150, 300) and image type(change pandrom)
+
+5. Validation-Altova XML SPY: Parsing - XML/DTD valid
+
+6. VIEW: Broswer view
+
+7. PDF compare: XML content-PDF, source PDF
+ 
+ 

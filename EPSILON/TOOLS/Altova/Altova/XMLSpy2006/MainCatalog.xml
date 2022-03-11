@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v5 beta 3 U (http://www.xmlspy.com) by John D Judy (Altova, Inc.) -->
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" xmlns:spy="http://www.altova.com/catalog_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:entity:xmlns:xml:catalog
+Catalog.xsd">
+	<public publicId="-//W3C//DTD XMLSCHEMA 19991216//EN" uri="schemas/schema/W3C_1999/XMLSchemaApr7.dtd"/>
+	<public publicId="-//W3C//DTD XMLSCHEMA 200010//EN" uri="schemas/schema/W3C_2000_10/XMLSchemaCR.dtd"/>
+	<public publicId="-//W3C//DTD XMLSCHEMA 200102//EN" uri="schemas/schema/W3C_2001/XMLSchema.xsd"/>
+	<public publicId="-//W3C//DTD XHTML 1.0 Transitional//EN" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<public publicId="-//W3C//DTD XHTML 1.0 Strict//EN" uri="schemas/xhtml/xhtml1-strict.dtd"/>
+	<uri name="http://www.w3.org/1999/XMLSchema" uri="schemas/schema/W3C_1999/XMLSchemaApr7.dtd"/>
+	<uri name="http://www.w3.org/2000/10/XMLSchema" uri="schemas/schema/W3C_2000_10/XMLSchemaCR.dtd"/>
+	<uri name="http://www.w3.org/2001/XMLSchema" uri="schemas/schema/W3C_2001/XMLSchema.xsd"/>
+	<uri name="urn:schemas-microsoft-com:xml-data" uri="schemas/schema/XDR/xml-data.dtd"/>
+	<uri name="http://www.w3.org/Schemas/DCD" uri="schemas/schema/DCD/dcd.dtd"/>
+	<!--Remapping of folders-->
+	<rewriteURI uriIdStartString="http://www.altova.com/schemas/" rewritePrefix="schemas/"/>
+	<!--File Extension specific schemas-->
+	<spy:fileExtHelper ext="xsl" uri="schemas/xsl/def_xsl.dtd"/>
+	<spy:fileExtHelper ext="xslt" uri="schemas/xsl/def_xslt.dtd"/>
+	<spy:fileExtHelper ext="fo" uri="schemas/xsl/def_fo.dtd"/>
+	<spy:fileExtHelper ext="htm" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<spy:fileExtHelper ext="html" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<spy:fileExtHelper ext="xhtml" uri="schemas/xhtml/xhtml1-transitional.dtd"/>
+	<spy:fileExtHelper ext="jsp" uri="schemas/java/jsp.dtd"/>
+</catalog>

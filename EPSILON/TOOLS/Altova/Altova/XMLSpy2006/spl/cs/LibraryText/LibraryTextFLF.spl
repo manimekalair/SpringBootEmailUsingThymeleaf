@@ -1,0 +1,38 @@
+[$format= $library.FormatFLF]
+
+	public class [=$module]Document : Table
+	{
+		#region Implementing Table:
+		protected override ISerializer CreateSerializer()
+		{
+			FLFSerializer result= new FLFSerializer(this);
+			result.Format.AssumeRecordDelimitersPresent= [=$format.AssumeRecordDelimitersPresent];
+			result.Format.FillCharacter= '[=$format.FillCharacter]';
+			return result;
+		}
+		protected override void InitHeader(Header header)
+		{
+			[foreach $field in $format.FieldDescriptions]
+			header.Add(new ColumnSpecification("[=$field.Name]", [=$field.Length]));
+			[next]
+		}
+		#endregion
+		#region Public Interface:
+		public [=$module]Document()	{}
+		#endregion
+		#region Code needed by generated MappingMain:
+		public int Get[=$library.RootName]Count()
+		{
+			return base.Count;
+		}
+		public [=$library.RootName]Type Get[=$library.RootName]At (int index) 
+		{
+		 	return new [=$library.RootName]Type(base\[index\]);
+		}
+		public void Add[=$library.RootName]([=$library.RootName]Type rhs)
+		{
+			base.Add(rhs);
+		}
+		#endregion
+	}
+

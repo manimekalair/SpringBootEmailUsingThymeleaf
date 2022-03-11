@@ -1,0 +1,170 @@
+See the release notes (via the Alt-x release-notes command) for
+changes after Epsilon 9.02.
+
+Changes from 9.01 to 9.02
+======= ==== ==== == ====
+
+In LaTeX mode when LaTeX 2e/3 style has been selected, Epsilon
+inserts more sensible commands; for instance it uses \textit{some
+text} instead of {\textit some text\/}.
+
+Syntax highlighting for TeX/LaTeX mode is faster on certain files
+with unusual formatting.
+
+In TeX/LaTeX mode, the & column separator is now colored specially.
+
+Certain successful Internet operations no longer cause Epsilon to
+write a debug log.
+
+A buffer that's being saved asynchronously via ftp now counts as a
+modified buffer.
+
+The new variable ftp-passive-transfers controls how Epsilon's ftp
+client transfers files.  Epsilon knows two methods, called "passive"
+and "active", and normally tries them in that order.  Firewalls or
+broken ftp server software can cause one or the other method to fail.
+Set ftp-passive-transfers to zero to disable passive transfers.  Set
+it to two to make Epsilon try active transfers first, then passive.
+The default of one makes Epsilon try passive, then active.
+
+When Epsilon uses active ftp transfers, it no longers displays a
+spurious error message.
+
+Retrieving a binary file via http now removes headers properly.
+
+Remote dired works for more VMS systems.
+
+Retrieving ftp:// file names that contained the % character could
+cause Epsilon to crash.
+
+Some minor bugs in C-mode syntax highlighting were fixed.
+
+If file backups were enabled and set to only back up a file the first
+time it was saved, the write-file and copy-to-file commands would
+sometimes fail to write the file.
+
+The keys Shift-<Insert> and Shift-<Delete> are now bindable in all
+environments.
+
+An EEL when_process_input() function is now permitted to modify the
+process buffer and change user input before it's sent to the process.
+
+Column-based sorting of lines over 100 characters didn't work right.
+
+If Epsilon tried to write a debug log, a debug log already existed,
+and it was read-only, Epsilon would crash.
+
+Epsilon's detection of endless recursion for EEL functions now works correctly.
+
+The EEL compiler now diagnoses erroneous use of case or default
+statements outside a switch statement.
+
+
+Changes from 9.0 to 9.01
+======= ==== === == ====
+
+LaTeX mode now inserts appropriate commands for LaTeX 2e/LaTeX 3,
+instead of the commands for LaTeX 2.09, if you set the new variable
+latex-2e-or-3 nonzero.  TeX highlighting is now much faster in
+certain cases.
+
+The new -dde: flag modifies the DDE server name Epsilon uses.  A flag
+like -dde:myserver tells Epsilon to register itself using the DDE
+server name myserver.  Combined with the -add flag, it tells Epsilon
+to talk only to a prior copy of Epsilon using that same server name.
+This lets you run multiple instances of Epsilon and direct files to
+each one.
+
+File names containing the characters , ; [ ] passed to Epsilon via
+file associations or the command line are no longer incorrectly
+interpreted as extended wildcard patterns and passed to dired.  Use a
+native wildcard character like * or ? to force Epsilon to run dired
+on a file pattern sent from outside Epsilon.
+
+The argument command no longer misinterprets keys like Shift-F7 as
+digits.
+
+Retrieving an HTML document by typing an http:// URL to find-file now
+puts the document header in a separate "HTML Headers" buffer.
+
+Reading or writing a file via an ftp:// URL now tries both passive
+and active connection methods, to prevent problems with certain
+gateways.
+
+A dired file pattern like *. now matches files without extensions in
+Epsilon for Windows 95/NT, just as in other versions.
+
+The goto-tag command will now turn off narrowing in a buffer, if
+necessary, to reach a tag.
+
+Confirmations and other Epsilon dialogs that contain only buttons (no
+editing windows) now correctly handle the default action.
+Previously, pressing <Enter> at these dialogs wouldn't necessarily be
+the same as pressing the button marked as the default.
+
+In Epsilon for Windows, holding down the Ctrl or Shift keys while
+selecting a menu item now provides the command with a prefix
+argument, as documented.
+
+The Windows-style file dialogs now include a filter for .java files.
+
+The find_group() primitive misinterpreted its second parameter when
+searching in reverse and when its first parameter was nonzero.  It
+now works as documented.
+
+The new EEL textual macro IS_EXT_ASCII_KEY() tells if a key
+represents an actual character or a character combined with the Alt
+modifier.  It excludes non-character keys like function keys or arrow
+keys.
+
+A change in the make_backup() primitive makes file backups more
+reliable in certain network environments.
+
+In the Find dialog, clicking the Case Fold button with the mouse now
+works.
+
+Commands like bufed that list buffers no longer omit buffers after
+32k buffers have been created in one session.
+
+Narrowing a buffer no longer causes some syntax highlighting code to
+consume excess CPU time in certain cases.
+
+The view-process command no longer leaves temporary buffers around
+when aborted in certain ways.
+
+Certain text inserted in the process buffer is no longer miscolored
+as input when it is not.
+
+Bufed's sort by access time is now more reliable.
+
+Under NT, certain programs running in a process buffer could make
+Epsilon consume excess CPU time.  This has been corrected.
+
+Under NT, Epsilon didn't correctly sort environment variable names
+containing the characters [, ], \, or _.
+
+Under NT, setting the clipboard-format variable for a registered
+clipboard format like RTF didn't work correctly.
+
+Epsilon for 95/NT crashed if it ever started using its own internal
+swapping mechanism.  (This could happen if Windows ran out of swap
+space itself, or if the -m flag was used to explicitly limit
+Epsilon's memory usage.)
+
+The message displayed when you try to abort file reading or writing
+is now truncated sensibly.
+
+Macros and some other functions in Epsilon for 95/NT are now
+considerably faster, due to some changes in message loop logic.
+
+Typing Ctrl-L Ctrl-L now does a more thorough job of repainting the
+entire window.
+
+If a file is in a buffer but a more recent version is on disk, grep
+will now prompt to read the new version.
+
+Subprocesses running in Epsilon for Windows under Windows 95 no
+longer have restrictions on their use of EMS/XMS memory.
+
+When Epsilon for Windows exits and a subprocess is running, Epsilon
+tries harder to abort the subprocess.

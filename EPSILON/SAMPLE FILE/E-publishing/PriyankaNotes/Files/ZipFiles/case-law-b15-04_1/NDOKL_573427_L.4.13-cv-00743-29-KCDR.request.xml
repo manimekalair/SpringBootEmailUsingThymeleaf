@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>JANSEN FINE, AND JESSICA FINE, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>CHLOETA FIRE, LLC, an Oklahoma limited liability company, and MARK MASTERS, Defendant</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 13-CV-743-JHP-FHM</docket.line>
+<docket.number>13-CV-743-JHP-FHM</docket.number>
+<docket.line suppress-flag="y">4:13-cv-00743-JHP-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 09/12/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER AFFIRMING AND ADOPTING THE REPORT AND RECOMMENDATION OF THE UNITED STATES MAGISTRATE JUDGE</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">James H. Payne United States District Judge Northern District of Oklahoma</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On August 26, 2014, the United States Magistrate Judge entered a Report and Recommendation (Dkt.# 25), granting in part and denying in part the Defendants' Motion to Dismiss (Dkt.# 7). There have been no objections to the Magistrate Judge's Order filed within the time prescribed by law. 28 U.S.C. &#167;636(b)(1); Fed. R. Civ. P. 72(a).</paratext></para>
+<para><paratext ID="p2" level="1">This Court finds that the Report and Recommendation of the Magistrate Judge is supported by the record. Therefore, upon full consideration of the entire record and the issues presented herein, this Court finds and orders that the Report and Recommendation entered by the United States Magistrate Judge on August 26, 2014, be <bold>AFFIRMED</bold> and <bold>ADOPTED</bold> by this Court as its Findings and Order.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

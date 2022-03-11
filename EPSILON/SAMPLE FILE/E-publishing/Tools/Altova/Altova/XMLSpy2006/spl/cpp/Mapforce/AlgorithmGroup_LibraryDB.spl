@@ -1,0 +1,72 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // Database Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryDB:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryDB( byref $rSourceLibrary, byref $rArgs )
+	$lRootName	= $rSourceLibrary.UniqueName
+	$lQRootType	= $rSourceLibrary.Name & "::" & $rSourceLibrary.Type
+]	//WriteTrace(" Connecting to [=$rSourceLibrary.Name] database...\\n ");
+	[=$lQRootType] [=$lRootName]SourceObject( [=$lRootName]SourceConnectionString );
+	m_[=$lRootName]Instance = [=$lRootName]SourceObject;
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryDB:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryDB( byref $rRootName, byref $rIndent )
+	$rRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$lQRootType	= $AlgorithmGroup.TargetParentContext.LibraryName & "::" & $AlgorithmGroup.TargetParentContext.Library.Type
+]	[=$lQRootType] [=$rRootName]TargetObject( [=$rRootName]TargetConnectionString );
+	try
+	{
+[	$Indent = "		"
+endsub
+
+
+' ------------------------------------------------------------------------
+' FinalizeSourceLibraryDB:
+' ------------------------------------------------------------------------
+sub FinalizeSourceLibraryDB()
+	$lRootName	= $rSourceLibrary.UniqueName
+	$lQRootType	= $rSourceLibrary.Name & "::" & $rSourceLibrary.Type
+]	[=$lRootName]SourceObject.Close();
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryDB:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryDB()
+	$lRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$lQRootType	= $AlgorithmGroup.TargetParentContext.LibraryName & "::" & $AlgorithmGroup.TargetParentContext.Library.Type
+]	}
+	catch( CAltovaDBTransactionException& e )
+	{
+		if( e.GetActionKind() == k_AltovaDBTransactionAction_RollbackAll )
+			[=$lRootName]TargetObject.SetRollbackTransaction();
+	}
+	catch( CAltovaDBException& e )
+	{
+		[=$lRootName]TargetObject.SetRollbackTransaction();
+		throw CAltovaDBException( e );	// pass exception to main application
+	}
+[
+endsub
+
+' EOF
+]
+

@@ -1,0 +1,8 @@
+[$lAppName= $application.Name
+if $application.IsWebService
+    $lAppName= $application.Name & "_webservice.csproj"
+endif
+]<VisualStudioUNCWeb>
+    <Web URLPath = "http://[=$application.WSDLPort.AddressServerAndPort]/[=$application.WSDLPort.AddressPath]/[=$lAppName]" />
+</VisualStudioUNCWeb>
+

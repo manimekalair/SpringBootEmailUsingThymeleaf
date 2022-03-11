@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y">CIVIL MINUTES&#8212;GENERAL</court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold><ital>Steven D. Irvin</ital></bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold><ital>Rebecca M. Madrid, et al.</ital></bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. <bold>CV 16-1198-DMG (JEMx)</bold></docket.line>
+<docket.number><bold>CV 16-1198-DMG (JEMx)</bold></docket.number>
+<docket.line suppress-flag="y">2:16-cv-01198-DMG-JEM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/08/2016</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">KANE TIEN, Deputy Clerk, Attorneys Present For Plaintiff(s): None Present</attorney.line>
+<attorney.line first-line="1">NOT REPORTED, Court Reporter, Attorneys Present For Defendant(s): None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: IN CHAMBERS &#8212; ORDER RE DEFENDANTS' MOTIONS TO DISMISS [10, 36]</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>The Honorable DOLLY M. GEE, UNITED STATES DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="center"><bold>I. PROCEDURAL BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On February 22, 2016, Plaintiff Steven D. Irvin filed a complaint against a group of Defendants employed by state and county entities, including, among others, four deputy district attorneys with the Los Angeles County District Attorney's Office&#8212;Carol Burke, Kathleen O. Diesman, Rebecca M. Madrid, Bradle L. McCartt&#8212;and Maurice R. Jolliff, a Los Angeles County Sheriff's Deputy (collectively, &#x201C;Defendants&#x201D;). (&#x201C;Compl.&#x201D;) [Doc. # 1.] Irvin alleges various civil rights violations under 42 U.S.C &#167;&#167; 1983, 1985, and 1986, including that Defendants wrongfully initiated civil commitment proceedings against him under the California Sexually Violent Predator Act (&#x201C;SVPA&#x201D;), <ital>see</ital> Cal. Welf. &#38; Inst. Code &#167; 6600 <ital>et seq.</ital>, which resulted in his unlawful detainment shortly after he was supposed to be released from serving a 15-year prison sentence.</paratext></para>
+<para><paratext ID="p2" level="1">Defendants Burke, Diesman, Madrid, McCartt and Jolliff now move to dismiss Irvin's complaint as to them (&#x201C;Defendants' motion to dismiss&#x201D;). [Doc. # 10.] Defendant Rodney Justice subsequently filed a separate motion to dismiss (&#x201C;Justice's motion to dismiss&#x201D;). [Doc. # 36.] While Irvin opposes Defendants' motion to dismiss, he failed to file an opposition to Justice's motion. <ital>See</ital> Doc. # 21 (&#x201C;Opp.&#x201D;).</paratext></para>
+<para><paratext ID="p3" level="1">For the reasons set forth below, Defendants' motion to dismiss is <bold>GRANTED</bold>, and Justice's motion to dismiss is <bold>GRANTED</bold> for lack of opposition.</paratext></para>
+<para><paratext ID="p4" level="0">//</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. JUDICIAL NOTICE</bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Federal Rule of Evidence 201 permits a court to take judicial notice of facts not subject to reasonable dispute and &#x201C;capable of accurate and ready determination by resort to sources whose accuracy cannot reasonably be questioned.&#x201D; <ital>Campbell v. PricewaterhouseCoopers, LLP</ital>, 642 F.3d 820, 824, n.3 (9th Cir. 2011) (citing Fed. R. Evid. 201(b)). &#x201C;A court may take judicial notice of &#x2018;matters of public record.&#x2019;&#x201D; <ital>Lee v. City of Los Angeles</ital>, 250 F.3d 668, 689 (9th Cir. 2001) (internal citation omitted). Defendants have submitted a request for judicial notice of the following documents in support of their motion:</paratext>
+<para><paratext ID="p6" first-line="1" turnover="hanging">1. Civil docket of the United States District Court, Southern District, in <ital>Irvin v. Delgado, et al.</ital>, No. 3:04-CV-00916;</paratext></para>
+<para><paratext ID="p7" first-line="1" turnover="hanging">2. Complaint [Doc. # 1] in <ital>Irvin v. Delgado, et al.</ital>, No. 3:04-CV-00916;</paratext></para>
+<para><paratext ID="p8" first-line="1" turnover="hanging">3. District Court's June 1, 2005 Order [Doc. # 3] in <ital>Irvin v. Delgado, et al.</ital>, No. 3:04-CV-00916;</paratext></para>
+<para><paratext ID="p9" first-line="1" turnover="hanging">4. First Amended Complaint [Doc. # 8] in <ital>Irvin v. Delgado, et al.</ital>, No. 3:04-CV-00916; and</paratext></para>
+<para><paratext ID="p10" first-line="1" turnover="hanging">5. District Court's January 5, 2006 Order [Doc. # 30] in <ital>Irvin v. Delgado, et al.</ital>, No. 3:04-CV-00916.</paratext></para>
+<paratext ID="p11" contd-flag="y">RJN, Exs. A, B, C, D, E [Doc. # 11]. Because they are public records, the Court <bold>GRANTS</bold> Defendants' request and takes judicial notice of Exhibits A through E.`</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. FACTUAL BACKGROUND<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></bold></headtext></head>
+<section.body>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p12">&#8195;The Court accepts all material facts alleged in the Complaint as true solely for the purpose of deciding the motion to dismiss.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p13" level="1">Irvin's Complaint stems from conduct by various state and county employees dating back to March 2000. The allegations largely concern whether or not these individuals, including district attorneys and county deputies, took improper actions that put Irvin in the &#x201C;unlawful custody of the Los Angeles County Jail for over 15 years,&#x201D; despite have already served 15 years in state prison. Comp. &#182;&#182; 11, 26&#8211;27. Irvin filed this Complaint after his release on April 15, 2015. <ital>Id.</ital> &#182; 95. The Court will incorporate any additional factual allegations from the Complaint as necessary in the discussion below.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>IV. LEGAL STANDARD</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">Under Federal Rule of Civil Procedure 12(b)(6), a defendant may seek to dismiss a complaint for failure to state a claim upon which relief can be granted. Fed. R. Civ. P. 12(b)(6). To survive a Rule 12(b)(6) motion, a complaint must articulate &#x201C;enough facts to state a claim to relief that is plausible on its face.&#x201D; <ital>Bell Atl. Corp. v. Twombly</ital>, 550 U.S. 544, 570 (2007). Although a pleading need not contain &#x201C;detailed factual allegations,&#x201D; it must contain &#x201C;more than labels and conclusions&#x201D; or &#x201C;a formulaic recitation of the elements of a cause of action.&#x201D; <ital>Id.</ital> at 555 (citing <ital>Papasan v. Allain</ital>, 478 U.S. 265, 286 (1986)). &#x201C;A claim has facial plausibility when the plaintiff pleads factual content that allows the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.&#x201D; <ital>Ashcroft v. Iqbal</ital>, 556 U.S. 662, 678 (2009). In evaluating the sufficiency of a complaint, courts must accept all factual allegations as true. <ital>Id.</ital> (citing <ital>Twombly</ital>, 550 U.S. at 555). Legal conclusions, in contrast, are not entitled to the assumption of truth. <ital>Id.</ital></paratext></para>
+<para><paratext ID="p15" level="1">Should a court dismiss certain claims, &#x201C;[l]eave to amend should be granted unless the district court &#x2018;determines that the pleading could not possibly be cured by the allegation of other facts.&#x2019;&#x201D; <ital>Knappenberger v. City of Phoenix</ital>, 566 F.3d 936, 942 (9th Cir. 2009) (quoting <ital>Lopez v. Smith</ital>, 203 F.3d 1122, 1127 (9th Cir. 2000) (<ital>en banc</ital>)).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>V. DISCUSSION</bold></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. Defendants Madrid, Diesman, and Burke</bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>1. Section 1983 and 1985 Claims</bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">Section 1983 does not have its own limitations period. Courts must therefore apply the forum state's statute of limitations for personal injury torts, including its rules regarding tolling. <ital>Jones v. Blanas</ital>, 393 F.3d 918, 927 (9th Cir. 2004). In California, the statute of limitations for personal injury claims is two years. Cal. Civ. Proc. Code &#167; 335.1. Under California law, the limitations period may be equitably tolled for an additional two years based on the disability of imprisonment. <ital>See id.</ital> &#167; 352.1(a).<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> The &#x201C;application of the doctrine of equitable tolling requires timely notice, and lack of prejudice, to the defendant, and <ital>reasonable and good faith conduct</ital> on the part of the plaintiff.&#x201D; <ital>Addison v. State</ital>, 21 Cal. 3d 313, 319 (1978) (emphasis added).</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p17">&#8195;Because the touchstone rationale for equitable tolling is &#x201C;actual, uninterrupted incarceration,&#x201D; California's tolling provision applies to both criminal and civil detainees. <ital>Jones</ital>, 393 F.3d at 928, 930 (quoting <ital>Bianchi v. Bellingham Police Department</ital>, 909 F.2d 1316, 1318 (9th Cir.1990)).</paratext></para></footnote.body></footnote>
+<para><paratext ID="p18" level="1">The upshot is that a plaintiff inmate has four years to bring a section 1983 claim for damages in California&#8212;the usual two-year period under section 335.1 plus two years during which accrual was postponed due to disability of imprisonment. The same limitations period also applies to section 1985 conspiracy actions. <ital>See Wilson v. Garcia</ital>, 471 U.S. 261, 276 (1985).</paratext></para>
+<para><paratext ID="p19" level="1">Here, Irvin filed the instant Complaint on February 22, 2016. Because of the four-year total limitations period, each claim arising from facts that occurred before February 2012 is time barred. All of the wrongful acts that Irvin alleges Defendants Madrid, Diesman, and Burke committed took place before February 2012. <ital>See, e.g.</ital>, Compl. &#182;&#182; 18 (Madrid instructing Department of Corrections employee on March 16, 2000 not to release Irvin to parole and instead transferring him to a state hospital), 35&#8211;36 (Diesman setting in motion an &#x201C;illegal investigation&#x201D; in September 2005 to obtain Irvin's confidential files pertaining to the SVPA proceedings), 57 (Burke ordering other district attorney to &#x201C;re-open&#x201D; the case against Irvin on December 6, 2011).</paratext></para>
+<para><paratext ID="p20" level="1">Thus, to the extent Irvin brings section 1983 and 1985 claims against Madrid, Diesman, and Burke, they are time-barred.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>2. Section 1986 Claim</bold></headtext></head>
+<section.body>
+<para><paratext ID="p21" level="1">In contrast to claims under sections 1983 and 1985, a plaintiff's section 1986 claim is subject to federal equitable tolling principles since section 1986 expressly contains its own one-year statute of limitations. <ital>See</ital> 42 U.S.C. 1986; <ital>Ellis v. City of San Diego</ital>, 176 F.3d 1183, 1188, 1189 n.3 (9th Cir. 1999) (section 1986 claims are subject to the federal equitable tolling doctrine). Under federal law, &#x201C;[g]enerally, a litigant seeking equitable tolling bears the burden of establishing two elements: (1) that he has been pursuing his rights diligently, and (2) that some extraordinary circumstance stood in his way.&#x201D; <ital>Pace v. DiGuglielmo</ital>, 544 U.S. 408, 418 (2005).</paratext></para>
+<para><paratext ID="p22" level="1">Here, to the extent Irvin brings section 1986 claims against Madrid, Diesman, and Burke, he brought his Complaint against them more than four years after the causes of action accrued. Even if equitable tolling may apply to a section 1986 claim, Irvin has not pleaded sufficient facts to support the doctrine's application. He pleads no facts that Madrid, Diesman, or Burke prevented him from timely filing a claim or that any other extraordinary circumstance existed that can excuse his four to fifteen-year delay in filing suit. If anything, the record shows that Irvin, while in prison, has had the wherewithal to take action against certain Defendants, including filing a lawsuit against Madrid as early as 2004. <ital>See</ital> RJN, Exs. A&#8211;E. Accordingly, Irvin has not met his burden of establishing that he pursued his claim diligently and that some extraordinary circumstance stood in the way.</paratext></para>
+<para><paratext ID="p23" level="1">The Court therefore <bold>GRANTS</bold> Defendants' motion to dismiss Irvin's Section 1983, 1985, and 1986 claims against Madrid, Diesman, and Burke.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>B. Defendant McCartt</bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>1. 2013 Misconduct</bold></headtext></head>
+<section.body>
+<para><paratext ID="p24" level="1">Irvin has not shown that any equitable tolling doctrine applies to his allegations against McCartt for his alleged 2013 and 2014 misconduct.</paratext></para>
+<para><paratext ID="p25" level="1">Irvin alleges that on August 27, 2013, McCartt filed in Los Angeles County Superior Court a &#x201C;fabricated&#x201D; motion for reconsideration of that court's prior 2010 orders in favor of Irvin. Compl. &#182; 62. Irvin alleges McCartt submitted a sworn affidavit that contained perjured statements and removed court records in an effort to advance illegal proceedings against him. <ital>Id.</ital> &#182;&#182; 60&#8211;62.</paratext></para>
+<para><paratext ID="p26" level="1">Yet, Irvin also alleges that in May 2014, he filed a motion for sanctions against McCartt and requested that the state court initiate disciplinary proceedings. <ital>Id.</ital> &#182; 63. Irvin also filed a County Grand Jury Complaint on June 19, 2014 against McCartt. <ital>Id.</ital> &#182; 64. On June 26, 2014, Irvin filed a complaint against McCartt with the State Bar of California. <ital>Id.</ital> &#182; 65. Having taken legal actions against McCartt for both the alleged 2013 and 2014 behaviors, Irvin can hardly claim that he filed his current February 22, 2016 claims against McCartt in a reasonably prompt manner or that some extraordinary circumstance stood in the way of his being able to file federal claims against McCartt sooner. <ital>See Kolani v. Gluska</ital>, 64 Cal. App. 4th 402, 410 (1998) (under California's good-faith prong of equitable tolling, &#x201C;plaintiffs' reasonable promptness in refiling is necessary for relief&#x201D;).</paratext></para>
+<para><paratext ID="p27" level="1">Thus, to the extent Irvin brings 1983, 1985, or 1986 claims against McCartt for his 2013 conduct, they are time-barred. <ital>See supra</ital>, section V.A.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>2. 2014 Misconduct</bold></headtext></head>
+<head><headtext align="center"><bold>a. Section 1986 Claim</bold></headtext></head>
+<section.body>
+<para><paratext ID="p28" level="1">Irvin does allege that on June 20, 2014, McCartt filed another &#x201C;fabricated document&#x201D; with the court concerning the identity of the doctors who evaluated Irvin in 2000 for the purposes of the SVPA petition Defendants sought. Compl. &#182; 65. According to Irvin, McCartt stated that a Dr. Clark Clipson was one of the evaluators whose opinions formed the basis for filing the SVPA petition against Irvin in 2000. <ital>Id.</ital> Irvin alleges McCartt knew that Clipson was actually not one of the evaluators. <ital>Id.</ital></paratext></para>
+<para><paratext ID="p29" level="1">As discussed above, equitable tolling does not apply to this claim against McCartt. Thus, to the extent Irvin brings a section 1986 claim against McCartt based on the 2014 conduct, the Court <bold>GRANTS</bold> Defendants' motion to dismiss for failure to file within the one-year limitations period.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>b. Sections 1983 and 1985 Claims</bold></headtext></head>
+<section.body>
+<para><paratext ID="p30" level="1">Even though equitable tolling does not apply, McCartt's alleged 2014 misconduct falls within the two-year statute of limitations for section 1983 and 1985 actions. The issue then is whether or not the alleged 2014 conduct is protected by prosecutorial immunity as Defendants argue in their motion to dismiss.</paratext></para>
+<para><paratext ID="p31" level="1">&#x201C;A prosecutor enjoys absolute immunity when he acts within the scope of his authority and in a quasi-judicial capacity.&#x201D; <ital>Gobel v. Maricopa Cnty.</ital>, 867 F.2d 1201, 1203 (9th Cir. 1989). This includes acts taken in &#x201C;preparing for the initiation of judicial proceedings or for trial which occur in his role&#x201D; as a State advocate. <ital>Buckley v. Fitzsimmons</ital>, 509 U.S. 259, 273 (1993). &#x201C;Prosecutors are absolutely immune from liability in &#167; 1983 suits brought against prosecutorial actions that are intimately associated with the judicial phase of the criminal process.&#x201D; <ital>Van de Kamp v. Goldstein</ital>, 555 U.S. 335, 335 (2009) (internal citation and quotation marks omitted). &#x201C;[A]bsolute immunity may not apply when a prosecutor is not acting as an &#x2018;officer of the court,&#x2019; but is instead engaged in, say, investigative or administrative tasks.&#x201D; <ital>Kamp v. Goldstein</ital>, 555 U.S. 335, 335 (2009).</paratext></para>
+<para><paratext ID="p32" level="1">&#x201C;[T]he proper test for determining scope of authority is whether the prosecutor performed a kind of act not manifestly or palpably beyond his authority, but rather having more or less connection with the general matters committed to his control or supervision.&#x201D; <ital>Ybarra v. Reno Thunderbird Mobile Home Vill.</ital>, 723 F.2d 675, 678 (9th Cir. 1984) (internal citation and quotation mark omitted). Prosecutorial actions intimately associated with judicial proceedings, and for which immunity will apply, include making statements alleged to be misrepresentations or mischaracterizations during hearings, during discovery, and in court papers. <ital>Fry v. Melaragno</ital>, 939 F.2d 832, 837&#8211;38 (9th Cir. 1991).</paratext></para>
+<para><paratext ID="p33" level="1">Here, Irvin alleges that McCartt filed with the state a court a &#x201C;fabricated motion&#x201D; on June 20, 2014 related to Irvin's SVPA civil commitment proceedings. Compl. &#182;&#182; 65&#8211;66; <ital>see supra</ital>, V.B.2.a. Because McCartt made the alleged misrepresentation concerning the doctors who examined Irvin in &#x201C;court papers&#x201D; (i.e., a state court motion), his action is protected and he is entitled to prosecutorial immunity. <ital>See Fry</ital>, 939 F.2d at 838 (absolute immunity applies to alleged misrepresentations and mischaracterizations by government attorneys in &#x201C;briefs and other court filings&#x201D; because they are intimately associated with the judicial phases of litigation).<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference></paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p34">&#8195;Irvin apparently concedes the existence of absolute immunity, because he devotes nearly his entire opposition to actions by Madrid and fails to oppose Defendants' position that McCartt's specific actions fall within the scope of prosecutorial immunity.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p35" level="1">Accordingly, to the extent Irvin brings sections 1983 and 1985 claims against McCartt for the alleged 2014 conduct, the Court <bold>GRANTS</bold> Defendants' motion to dismiss.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>C. Defendant Jolliff</bold></headtext></head>
+<section.body>
+<para><paratext ID="p36" level="1">Irvin alleges that Defendant Jolliff, a deputy at the Twin Towers Correctional Facility that housed Irvin, ignored an inmate complaint that he filed on October 2, 2014 requesting identifying information for County personnel. Compl. &#182; 79. Irvin then alleges that after his attorney served Jolliff with a subpoena for copies of a DVD and camera footage involving a search of Irvin's confidential files, Jolliff told the attorney that the DVD had been mistakenly deleted and the camera footage misplaced. <ital>Id.</ital> &#182; 80.</paratext></para>
+<para><paratext ID="p37" level="1">Defendants argue that Irvin has not adequately alleged how Jolliff's actions amount to a violation of Irvin's constitutional rights. Irvin fails to address this issue in his opposition.</paratext></para>
+<para><paratext ID="p38" level="1">Because Irvin has not adequately stated a claim against Jolliff, the Court <bold>GRANTS</bold> Defendants' motion to dismiss as to Defendant Jolliff.</paratext></para>
+<para><paratext ID="p39" level="0">//</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>V. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p40" level="1">In light of the foregoing, Defendants motion to dismiss Irvin's Complaint is <bold>GRANTED</bold> with leave to amend, except as to the claims against Defendant McCartt. Defendant Justice's motion to dismiss is <bold>GRANTED</bold> for lack of opposition. Plaintiff shall file any First Amended Complaint, or notify the Court and opposing counsel that he does not intend to amend, within 21 days from the date of this Order. Defendants shall file their response within 21 days after the service and filing of a First Amended Complaint. <bold>Failure to timely file a First Amended Complaint will result in this action's dismissal.</bold></paratext></para>
+<para><paratext ID="p41" level="1">The December 9, 2016 hearing is <bold>VACATED</bold>.</paratext></para>
+<para><paratext ID="p42" level="0"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

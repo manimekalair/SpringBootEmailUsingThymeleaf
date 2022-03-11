@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE DISTRICT OF OREGON</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>ECLECTIC PRODUCTS, INC., an Oregon domestic business corporation, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>PAINTERS PRODUCTS, INC., a California domestic business corporation, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>No. 6:13-cv-2181-AA ORDER</docket.line>
+<docket.number>6:13-cv-2181-AA ORDER</docket.number>
+<docket.line suppress-flag="y">6:13-cv-02181-AA</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 05/19/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Ann Aiken United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">AIKEN, Chief Judge:</paratext></para>
+<para><paratext ID="p2" level="1">Defendant moves to Set Aside Entry of Default; plaintiff moves for Default Judgment. Defendant's motion is granted; plaintiff's motion is denied as moot.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>STANDARDS</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Federal Rule of Civil Procedure 55(c) provides that an entry of default may be set aside upon a showing of good cause. <underscore>Id.</underscore> The court considers three factors when deciding whether to set aside default: (1) whether defendant's culpable conduct led to the default; (2) whether defendant has &#8211; a meritorious defense; and (3) whether setting aside default would prejudice plaintiff. <underscore>Franchise Holding II, LLC v. Hunqtinton Rests. Group, Inc.</underscore>, 37 5 F.3d 922, 925-26 (9<super style="percent_r">th</super> Cir. 2004), <underscore>cert, den.</underscore>, 544 U.S. 949 (2005). Further, &#x201C;[t]he law does not favor defaults,&#x201D; and &#x201C;therefore, any doubts as to whether a party is in default should be decided in favor of the defaulting party.&#x201D; <underscore>Bonita Packing Co. v. Q'Sullivan</underscore>, 165 F.R.D. 610, 614 (C.D. Cal. 1995).</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>DISCUSSION</underscore></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging">1. Defendant's Culpable Conduct</headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">The defendant acknowledges that it failed to file a timely response but argues that its conduct was excusable (and not culpable) for three reasons: first, from February 6 to March 5, 2014, Kurtis Koptis (President of defendant company) and defendant's attorneys did not have notice that service had been made. Second, after the parties became aware of service, defendant's attorneys &#x201C;grossly mishandled this action.&#x201D; Finally, Mr. Koptis was experiencing exigent personal matters.</paratext></para>
+<para><paratext ID="p5" level="1">In brief, attorneys Wass and Ecoff were retained by Mr. Koptis to handle this matter. Mr. Koptis also notified his accountant, Karl Anderson that he should expect to be served with a summons and complaint. Mr. Anderson owns the business located at the real property of 700 E. Tahzuitz Canyon Way, Suite H, Palm Springs, CA 92262, which is defendant's registered principal place of business. According to the Affidavit of Service on file with the court, defendant was served on February 6, 2014. Service was made upon Murray Savage, a CPA employed by Mr. Anderson. Wass states that on February 14, 2014, Mr. Anderson attempted to reach Mr. Koptis by telephone and then email, both unsuccessfully. Mr. Anderson failed to notify either of defendant's lawyers, Ecoff or Wass of the service. Although Ecoff states he was periodically monitoring PACER to see whether service was effectuated on defendant, he never contacted Mr. Anderson's office to check on whether service was effectuated on defendant's registered agent. Although service on Mr. Savage occurred February 6, 2014, the Affidavit of Service was not filed with the court until February 28, 2014. Mr. Ecoff was eventually aware of the service on March 5, 2014.</paratext></para>
+<para><paratext ID="p6" level="1">On March 5, 2014, Mr. Ecoff was contacted by Ms. Lusk, an attorney for plaintiff, to schedule the initial case management conference. Ms. Lusk provided proof of service to Mr. Ecoff. Mr. Ecoff believed he was accepting service on behalf of defendant as of March 5, 2014, and had 21 days to respond from the date of March 5, 2014. On March 6, 2014, Mr. Koptis's wife, Suzanne, called Mr. Anderson and Mr. Anderson then learned that his February 14, 2014 email did not reach Mr. Koptis.</paratext></para>
+<para><paratext ID="p7" level="1">Mr. Ecoff then participated in an initial conference call with plaintiff's counsel on March 7, 2014. Mr. Ecoff told plaintiff's attorneys that defendant needed to find local counsel to assist with this lawsuit and rescheduled the conference call. Mr. Ecoff then informed Wass and Mr. Koptis that defendant needed to find local counsel. Mr. Koptis was experiencing a family medical crisis at that time and so reguested his attorneys to retain local counsel. Mr. Koptis states that he was never advised by either of his attorneys (Ecoff or Wass) that defendant had to respond.</paratext></para>
+<para><paratext ID="p8" level="1">On March 11, 2014, Mr. Ecoff withdrew as attorney for defendant. Mr. Ecoff notified plaintiff of his withdrawal at 11:30 p.m. on March 13, 2014. On March 13, 2014, plaintiff moved for an entry of default. On March 17, 2014, plaintiff delivered a letter to Mr. Wass notifying him that the court granted plaintiff's motion for entry of default and advised him that if no action was taken within the next ten days, plaintiff would file the judgment. Wass believed he had ten days to take action before a default would be entered. Mr. Koptis states he never received a copy of this letter from Mr. Wass, and was not advised of the default until March 20, 2014, when he retained new counsel. Wass admits that he did not know a default had been entered until March 20, 2014. Mr. Koptis states that he relied on Wass and Ecoff to properly handle this matter, particularly in light of his recent family emergencies. <underscore>See</underscore> Decl. of Koptis, &#182;&#182;12, 18, attached to Memo in Support of Mot to Set Aside Entry of Default.</paratext></para>
+<para><paratext ID="p9" level="1">Negligent failure to respond is excusable if the defaulting party offers a credible, good faith explanation for the delay that negates &#x201C;any intention to take advantage of the opposing party, interfere with judicial decision-making, or otherwise manipulate the legal process.&#x201D; <underscore>TCI Group Life Ins. Plan v. Knoebber</underscore>, 244 F.3d 691, 697-98 (9<super style="percent_r">th</super> Cir. 2001). Further, the court may consider the defendant's exigent personal situation, his mental state, and his lack of familiarity with legal matters. <underscore>Id.</underscore> at 699. Defendant's failure to timely respond meets this criteria and is therefore excusable. From February 6 to March 5, Mr. Koptis and defendant's attorneys did not have notice that service had been made. Then, after the parties became aware of service, defendant's attorneys mishandled this action. Finally, Mr. Koptis was experiencing exigent personal and family matters. Even if the court considers service proper and timely upon Mr. Savage and his employer, Mr. Anderson, they mishandled communicating the fact of service to defendant. The record shows that the fact of service was not communicated to Mr. Koptis or either of his attorneys until March 5, 2014. The Ninth Circuit has found excusable neglect for delays caused by the &#x201C;negligence and carelessness of experienced <charfill numchar="3">&#8228;</charfill> attorneys.&#x201D; <underscore>Newcomb v. Cambridge Home Loans, Inc.</underscore>, 2011 WL 2518706 (D. Haw. 2011) (internal citations omitted). Where a defendant demonstrates &#x201C;gross negligence on the part of his counsel,&#x201D; the Ninth Circuit will consider setting aside a default judgment under Fed. R. Civ. P. 60(b)(6); <underscore>see also. Community Dental Services v. Tani</underscore>, 282 F.3d 1164, 1169 (9<super style="percent_r">th</super> Cir. 2002). I find that the same rule can apply when setting aside a default pursuant to Fed. R. Civ. P. 55(c) because &#x201C;the same test applies for motions seeking relief <charfill numchar="3">&#8228;</charfill> under both Rule 55(c) and Rule 60(b), [and] the test is more liberally applied in the Rule 55 (c) context <charfill numchar="3">&#8228;</charfill> because <charfill numchar="3">&#8228;</charfill> there is no interest in the finality of a judgment with which to contend.&#x201D; <underscore>Hawaii Carpenters' Trust Funds v. Stone</underscore>, 794 F.2d 508, 513 (9<super style="percent_r">th</super> Cir. 1986). Here, defendant's attorneys mishandled this action when defendant's attorneys learned service had been effectuated, and neither attorney responded. Mr. Ecoff wrongly believed service was effectuated on March 5, 2014. Although he states he withdrew on March 11, 2014, he failed to notify plaintiff's attorney until after a default was entered. Regarding Mr. Wass, the record demonstrates that he received notice on March 5, 2014, that service was made on defendant. Mr. Wass alleges he did not realize that service had been effectuated on his client until March 14, 2014. Mr. Wass also received an email from plaintiff's attorney on March 6, 2014, regarding service but alleges he did not know of the email until &#x201C;later.&#x201D; (Decl. of Wass, &#182; 31). Wass stated that he did not see the email because he &#x201C;do[es] too many trials to waste all day removing e-mails.&#x201D; (Decl. of Wass, &#182;&#182; 31-32). Moreover, Mr. Wass failed to inform his client that a default had been granted even after he obtained a letter stating such from plaintiff's attorney. (Decl. of Koptis, &#182; 24); (Ex. 4). Wass justifies this by stating that he did not understand the letter, and then assured defendant that the proper response was to file a Motion to Change Venue by March 27, 2014. (Decl. of Wass, &#182;&#182; 33-34).</paratext></para>
+<para><paratext ID="p10" level="1">I find nothing in the record alleging that defendant's intent was to gain an advantage over plaintiff or to delay the legal proceedings. Mr. Wass's mishandling of the situation will not be imputed to defendant. In essence, defendant received ineffective legal advice, which deprived him of the opportunity to respond in this action. I find that defendant's delay was excusable neglect and therefore his conduct is not culpable. 2. Meritorious Defense</paratext></para>
+<para><paratext ID="p11" level="1">A defense is considered meritorious if &#x201C;there is some possibility that the outcome of the suit after a full trial will be contrary to the result achieved by the default.&#x201D; <underscore>Hawaii Carpenters' Trust Fund</underscore>, 794 F.2d at 513. Defendant's Answer denied many of plaintiff's allegations and asserted several defenses including lack of personal jurisdiction, improper venue, insufficient service of process and arbitration. (Answer,&#x201D; &#182;&#182; 4-10). Upon review, this court finds potential merit in the defenses and therefore, if the defendant prevails on any of these defenses, the outcome will be contrary to the result achieved by default. Therefore, defendant has set forth a meritorious defense and satisfies the second good cause factor.</paratext></para>
+</section.body>
+<head><headtext align="center">3. Prejudice</headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">I find no prejudice to plaintiff's ability to litigate its case by allowing this case to move forward on the merits after only a short delay. The fact that a party may be denied a quick victory is not sufficient to deny relief from default judgment. <underscore>Bateman v. United States Postal Service</underscore>, 231 F.3d 1220, 1225 (9<super style="percent_r">th</super> Cir. 2000).</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>CONCLUSION</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Defendant's motion to set aside entry of default (doc. 10) is granted. Plaintiff's motion for default judgment (doc. 16) is denied as moot. The parties' request for oral argument is denied as unnecessary.</paratext></para>
+<para><paratext ID="p14" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p15" level="1">Dated this <underscore>19</underscore> day of May 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

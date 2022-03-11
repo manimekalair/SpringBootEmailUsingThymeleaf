@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Client Details</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <h1>Client Details</h1>
+                <h3>Enter the details of all incoming clients.</h3>
+                <p>
+                    <label for="client">Cilent Name<sup>*</sup></label>
+                    <input type="text" name="client" id="client">
+                </p>
+                <p>
+                    <label for="company">Company<sup>*</sup></label>
+                    <input type="text" name="company" id="company">
+                </p>
+                <p>
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title">
+                </p>
+                <p>
+                    <label for="department">Department<sup>*</sup></label>
+                    <select name="department" id="department">
+                        <option value="">-Select-</option>
+                        <option value="cs">CS</option>
+                        <option value="it">IT</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="contact">Preferred Contact Method<sup>*</sup></label>
+                    <input type="radio" name="contact" id="email">
+                    <label for="email">Email</label>
+                    <input type="radio" name="contact" id="phone">
+                    <label for="phone">Phone</label>
+                </p>
+                <p>
+                    <label for="address">Company Address<sup>*</sup></label>
+                    <input type="text" name="address" id="address" placeholder="Street Address">
+                </p>
+                <p>    
+                    <input type="text" name="address" id="address" placeholder="Address Line2">
+                </p>
+                <p>
+                    <input type="text" name="address" id="address" placeholder="City">
+                    <input type="text" name="address" id="address" placeholder="State/Region/Province">
+                </p>
+                <p>
+                    <input type="text" name="address" id="address" placeholder="Postal/Zip Code">
+                    <select name="address" id="address">
+                        <option value="">-Select Country-</option>
+                        <option value="india">India</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="africa">Africa</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="company_website">Company Website<sup>*</sup></label>
+                    <input type="url" name="company_website" id="company_website" required>
+                </p>
+                <p>
+                    <label for="company_logo">Company Logo</label>
+                    <input type="file" name="company_logo" id="company_logo">
+                </p>
+                <p>
+                    <label for="hours">Working Hours<sup>*</sup></label>
+                    <input type="text" name="hours" id="hours">
+                </p>
+                <p>
+                    <label for="days">Working Days<sup>*</sup></label>
+                    <input type="text" name="days" id="days">
+                </p>
+                <p>
+                    <label for="billing">Billing Cycle<sup>*</sup></label>
+                    <input type="date" name="billing" id="billing">
+                </p>
+                <p>
+                    <label for="information">Additional Information</label>
+                    <textarea name="information" id="information" cols="35" rows="5"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" id="Submit">
+                </p>
+            </fieldset>
+    </form>
+    </body>
+</html>

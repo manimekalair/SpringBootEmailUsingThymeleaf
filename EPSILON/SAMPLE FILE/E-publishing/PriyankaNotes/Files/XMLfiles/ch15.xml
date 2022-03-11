@@ -1,0 +1,513 @@
+
+<book-part book-part-type="chapter" id="chap15">
+<book-part-meta>
+<book-part-id book-part-id-type="doi">10.22233/9781905319619.15</book-part-id>
+<subj-group subj-group-type="topic-type">
+<subject></subject>
+</subj-group>
+<title-group>
+<label>15</label>
+<title><xref ref-type="page" id="page_"/>Inhalant anaesthetic agents</title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname initials="P">Pang</surname>
+<given-names initials="">Daniel S.J.</given-names>
+</name>
+</contrib>
+</contrib-group>
+<fpage>207</fpage>
+<lpage>213</lpage>
+<permissions>
+<copyright-statement>&#x00A9; 2017 British Small Animal Veterinary Association</copyright-statement>
+<copyright-year>2017</copyright-year>
+<copyright-holder>British Small Animal Veterinary Association</copyright-holder>
+</permissions>
+<self-uri content-type="pdf" xlink:href="9781905319619.15.pdf"/>
+<abstract>
+</abstract>
+</book-part-meta>
+<body>
+<p>The simplest definition of general anaesthesia, which applies to all anaesthetic agents in current use, is a state of chemically induced, reversible loss of consciousness. Per&#x00AD;haps surprisingly, our understanding of the mech&#x00AD;anisms of action of inhalant anaesthetic agents is incomplete. This is in contrast to the majority of injectable anaesthetic agents, for which the gamma-aminobutyric acid A (GABA<sub>A</sub>) receptor has been identified as a major site of action (see Chapter 14). Current evidence for the mechanisms of action of inhalant anaesthetics has moved away from the once-ubiquitous lipid bilayer theory and instead suggests that interactions with cell membrane proteins play a predominant role, with involvement of a range of receptors and ion channels.</p>
+<p>This chapter focuses on the two volatile anaesthetics most commonly used in veterinary practice, isoflurane and sevoflurane. A relatively recent addition to clinical practice, the volatile agent desflurane, is included to highlight rel&#x00AD;e&#x00AD;vant differences from isoflurane and sevoflurane. The gaseous general anaesthetic nitrous oxide is described in a separate section. The older inhalational anaesthetic, halothane, is not discussed further in this edition except for comparison with isoflurane and sevoflurane to illustrate pharmacological principles.</p>
+
+<sec1 id="ch-ss">
+<title>The ideal inhalant anaesthetic agent</title>
+<p>A list of ideal properties of inhalant anaesthetic agents is useful for assessing current and potential future agents, and to aid in identification of their specific strengths and weaknesses (Figure 15.1). While modern agents have advantages over the older inhalant agents formerly in common use, modern agents continue to cause significant unwanted side effects.</p>
+
+<boxed-text id="box15_1">
+<label>15.1</label>
+<caption><title>Properties of an ideal inhalant anaesthetic agent. </title></caption>
+
+<list list-type="bullet">
+<list-item><p>Chemically stable
+
+<list list-type="bullet">
+<list-item><p>Unchanged by temperature, ultraviolet light and oxygen</p></list-item>
+<list-item><p>Does not react with components of an anaesthetic system,</p>
+<p>e.g. rubber, metal, plastic</p></list-item>
+<list-item><p>Compatible with carbon dioxide absorbent</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Non-flammable</p></list-item>
+<list-item><p>Favourable physical characteristics
+
+<list list-type="bullet">
+<list-item><p>Boiling point above room temperature enables simple storage and use in vaporizers</p></list-item>
+<list-item><p>Low latent heat of vaporization simplifies vaporizer design</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>No environmental hazard
+
+<list list-type="bullet">
+<list-item><p>To theatre staff in trace concentrations</p></list-item>
+<list-item><p>When vented into the atmosphere</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Inexpensive</p></list-item>
+<list-item><p>High potency
+
+<list list-type="bullet">
+<list-item><p>Allows agent to be given with a high inspired concentration of oxygen</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Low blood solubility
+
+<list list-type="bullet">
+<list-item><p>Rapid onset of action</p></list-item>
+<list-item><p>Rapid offset</p></list-item>
+<list-item><p>Depth of anaesthesia altered readily</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Minimal metabolism
+<list list-type="bullet">
+<list-item><p>Recovery is entirely dependent on exhalation</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Minimal toxicity</p></list-item>
+<list-item><p>No cardiorespiratory side effects</p></list-item>
+<list-item><p>Analgesic</p></list-item>
+<list-item><p>Easily administered
+
+<list list-type="bullet">
+<list-item><p>Non-noxious odour; non-irritant to airways</p></list-item>
+<list-item><p>High therapeutic index</p></list-item>
+<list-item><p>Simple apparatus required</p></list-item>
+</list>
+</p></list-item>
+</list>
+</boxed-text>
+
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Induction and recovery</title>
+<sec2 id="ch-ss">
+<title>Factors determining uptake of inhalant anaesthetic agents and induction time</title>
+<p>A range of factors determines the speed with which inhalant anaesthetics are taken up by the body; these affect the speed of both induction and changes in anaesthetic depth during maintenance of anaesthesia. These factors can be broadly divided into those affecting the inspired concentration of agent and those affecting its alveolar concentration.</p>
+
+<sec3 id="ch-ss">
+<title>Factors affecting the inspired concentration of agent</title>
+<p>The inspired gas concentration is determined by the vaporizer setting, the fresh gas flow (FGF) and the way in which the breathing system functions. A high FGF promotes a rapid increase in the concentration of anaesthetic agent in the breathing system at the beginning of the anaesthetic period and allows rapid changes in agent concentration in the system during the maintenance phase. This has a greater effect in circle systems, due to rebreathing of gases previously exhaled by the patient. Uptake of inhaled agent into the body causes the exhaled gases to have a lower agent concentration than that in the FGF and thus dilutes the agent concentration within the system. For this reason, an initially high FGF following connection of a patient to a circle system is recommended (see Chapter 5). By comparison, agent concentrations in non-rebreathing systems such as the Bain or T-piece are minimally affected by FGF provided the flow is appropriate for a given patient. This is because each breath the patient takes should be entirely composed of fresh gas and therefore the inhaled agent concentration reflects the vaporizer setting.</p>
+
+<p><xref ref-type="page" id="page_"/>In addition, at the beginning of use, circle systems contain a relatively large volume of room air compared to non-rebreathing systems. This air will slow the rate of increase of agent concentration within the system. Fresh gas must displace the room air present in the system; the rate at which this occurs is a function of both the system volume and the FGF. As the volume of a circle system includes the hoses, the space within the absorb&#x00AD;ent canister and the reservoir bag, it can take several minutes for agent concentration to increase. In contrast, non-rebreathing systems have a much smaller volume and the inspired concentration of volatile agent almost immediately reflects the vaporizer setting.</p>
+</sec3>
+
+<sec3 id="ch-ss">
+<title>Factors affecting alveolar concentration of agent</title>
+<p>The alveolar inhalant concentration is important because induction, maintenance and recovery from general anaesthesia depend on an adequate agent effect in the brain and spinal cord; the key sites of action. Alveolar concentration (or, to use the correct terminology, partial pressure) of agent is an approximate reflection of concentration (partial pressure) in the central nervous system (CNS).</p>
+<p>As the concentration of inhalant agent in the breathing system increases, the alveolar concentration of agent will also rise. For a given vaporizer setting, the rate of increase of alveolar concentration is determined by the rate of agent uptake into the body and by alveolar ventilation. The rate of agent uptake into the body (the speed at which the agent is removed from the alveoli by the pulmonary circulation) is a function of agent solubility in the blood (and tissues) and alveolar blood flow. The blood solubility of sevoflurane, which has a blood:gas partition coefficient (B:G) of 0.69 at body temperature, is approximately half that of isoflurane (B:G = 1.4). For agents with greater solubility, the rate of increase in alveolar agent concentration is slower because the circulation effectively acts as a sink, rapidly removing the agent as it is added to the alveolar gas from the breathing system by lung ventilation. Therefore, facemask induction of anaesthesia with isoflurane is slower than with sevoflurane (provided other determining factors are equal), as the alveolar concentration of isoflurane will rise more slowly. This principle applies equally to the speed of changes in anaesthetic depth with changes in the vaporizer setting, and to the speed of recovery.</p>
+<p>Of the modern inhalant agents, desflurane has the lowest B:G (0.42). This, combined with its potency (relative to nitrous oxide, see below), confers advantages for induction and recovery speed and the ability to alter anaesthetic depth rapidly during surgery (Figure 15.2).</p>
+<p>Alveolar blood flow depends on cardiac output, and therefore factors that affect cardiac output will have an effect on agent uptake. In a low cardiac output state (e.g. congestive heart failure) the uptake of agent from the alveoli is lower, which means that alveolar con&#x00AD;centration of the agent rises more rapidly. The alveolar concentration of agent, parallels agent concentration in the brain, and therefore, changes in depth of anaesthesia occur more rapidly in this state. Conversely, high cardiac output states (e.g. sinus tachycardia) have the opposite effect, and changes in depth of anaesthesia occur more slowly. However, the effect of cardiac output on the uptake of relatively insoluble agents such as isoflurane and sevoflurane is less pronounced compared with the effect on uptake of a more soluble agent such as halothane.</p>
+
+<table-wrap id="tbl15_2">
+<label>15.2</label>
+<caption><title>Comparison of physical properties of inhalant anaesthetic agents.<sup>a</sup> The lower the value, the faster are induction and recovery.<sup>b</sup> The higher the value, the more potent the agent and the lower the minimum alveolar concentration (MAC).</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="20%"/>
+<col content-type="4" width="20%"/>
+<col content-type="5" width="20%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Agent</p></entry>
+<entry align="left"><p>Blood:gas partition coefficient<sup>a</sup></p></entry>
+<entry align="left"><p>Oil:gas partition coefficient<sup>b</sup></p></entry>
+<entry align="left"><p>Saturated vapour pressure at 20&#x00B0;C (mmHg)</p></entry>
+<entry align="left"><p>Boiling point (&#x00B0;C)</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Isoflurane</p></entry>
+<entry align="left"><p>1.40</p></entry>
+<entry align="left"><p>98</p></entry>
+<entry align="left"><p>239</p></entry>
+<entry align="left"><p>48.5</p></entry>
+</row>
+<row>
+<entry align="left"><p>Sevoflurane</p></entry>
+<entry align="left"><p>0.69</p></entry>
+<entry align="left"><p>47</p></entry>
+<entry align="left"><p>160</p></entry>
+<entry align="left"><p>58.6 </p></entry>
+</row>
+<row>
+<entry align="left"><p>Desflurane</p></entry>
+<entry align="left"><p>0.42</p></entry>
+<entry align="left"><p>19</p></entry>
+<entry align="left"><p>664</p></entry>
+<entry align="left"><p>23.5</p></entry>
+</row>
+<row>
+<entry align="left"><p>Nitrous oxide</p></entry>
+<entry align="left"><p>0.47</p></entry>
+<entry align="left"><p>1.4</p></entry>
+<entry align="left"><p>3900</p></entry>
+<entry align="left"><p>&#x2013;89</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<p>Finally, ventilation determines the speed of anaesthetic induction by controlling the supply of inhalant agent to the alveoli and replacing agent removed by uptake into the body. An increase in ventilation promotes maintenance of alveolar concentration during the period of rapid uptake that occurs at induction, thus ensuring that a large gradient between alveolar and blood concentration is maintained.</p>
+</sec3>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Factors determining elimination of inhalant anaesthetic agents and recovery from anaesthesia</title>
+<p>Recovery from general anaesthesia occurs when the concentration of inhalant agent in the CNS is sufficiently low to allow consciousness to return. Possible routes of elimin&#x00AD;ation of inhalant agents are through biotransformation (i.e. metabolism) or exhalation. For modern volatile agents such as isoflurane and sevoflurane, recovery is almost entirely mediated through the respiratory system and there is minimal biotransformation. In contrast, for halothane, biotransformation accounts for approximately 25% of elimination. Biotransformation of isoflurane (&#x003C;1%), sevo&#x00AD;flurane (3%) and desflurane (0.02%) occurs in the liver (cytochrome P450 system). In the case of sevoflurane, biotransformation produces measurable amounts of fluoride ions. While fluoride ions could potentially result in nephrotoxicity, the quantities produced do not appear to be clinically relevant. The low level of biotransformation does not preclude the use of sevoflurane or isoflurane in patients with hepatic disease.</p>
+<p>The removal of anaesthetic agent by exhalation is driven by the same factors as those determining the rate of induction: the agent concentration in the breathing system and in the blood (and tissues), which in turn is determined by ventilation and agent solubility. Each of these factors contributes to the rate of reduction in anaesthetic agent concentration in the CNS by altering the concentration gradient between the pulmonary circulation and alveoli.</p>
+<p>Practical techniques for speeding recovery when using a circle breathing system act by promoting a rapid decrease in agent concentration in both alveoli and breathing system after the vaporizer has been turned off. These include:
+<list list-type="bullet">
+<list-item><p><xref ref-type="page" id="page_"/>Increasing the FGF to allow rapid replacement of gas in the breathing system with oxygen</p></list-item>
+<list-item><p>Increasing minute volume to replace alveolar gas with oxygen</p></list-item>
+<list-item><p>Emptying the reservoir bag into the scavenging system, which removes the reservoir of inhalational agent that feeds into the circle system to sustain agent concentration.</p></list-item>
+</list>
+</p>
+
+<p>With non-rebreathing systems, when the vaporizer is turned off, oxygen is delivered directly from the anaesthetic machine; the primary determinant of recovery in these circumstances is ventilation.</p>
+<p>The low blood solubility of desflurane means that recovery from general anaesthesia with this agent is rapid. In addition to smaller clinical trials in dogs, large-scale human studies (meta-analyses) have shown faster short-term (time to extubation) and long-term (return to normal function within 24 hours postoperatively) recovery periods compared with sevoflurane and isoflurane. This makes desflurane a popular choice for fast-track outpatient pro&#x00AD;cedures in human medicine.</p>
+<p>Anaesthetic periods longer than several hours in dur&#x00AD;ation may result in a slower recovery because the agent is retained in the body. The amount retained depends on both blood and tissue solubility. More soluble agents such as halothane (with a B:G value approximately three times that of sevoflurane) accumulate in body tissues during a long anaesthetic period. At the end of anaesthesia, accumulated agent re-enters the circulation and maintains a small concentration gradient between the cerebral circulation and brain, slowing the reduction of agent concentration in the CNS. However, the relatively lower blood and tissue solubilities of sevoflurane and desflurane, and, to a lesser extent, isoflurane, mean that longer anaesthetic periods with these agents are less likely to be associated with slow recovery.</p>
+</sec2>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Potency</title>
+<p>The potency of an inhalant anaesthetic agent is expressed as the minimum alveolar concentration (MAC), which is defined as the alveolar concentration of an agent that prevents purposeful movements in 50% of animals when they are exposed to a standardized noxious stimulus at sea level. The concept of MAC allows a standard compar&#x00AD;ison of the potency of different inhalant anaesthetics. A description of how MAC is measured in a laboratory setting is beyond the scope of this chapter; however, the practical implications are discussed here.</p>
+<p>It is apparent from the above definition of MAC that an inhalant agent concentration of 1 MAC will still allow 50% of animals to move in response to a noxious stimulus. To decrease the risk of an animal moving in response to noxious stimulation (e.g. surgical stimulation), a MAC multiple can be used (Figure 15.3). Typically, 1.3 times a given MAC value will prevent movement in approximately 95% of anaesthetized animals. For example, for isoflurane-anaesthetized dogs (MAC 1.3%), an alveolar concen&#x00AD;tration of 1.7% (1.3 x 1.3%) would prevent movement in approx&#x00AD;imately 95% of dogs. However, MAC is determined in the absence of other agents. A balanced anaesthetic protocol using sedatives and analgesics will decrease the requirement for inhalant agents (anaesthetic-sparing effect; Figure 15.4). Therefore, when using inhalant anaesthetic agents, close and regular monitoring of anaesthetic depth is an essential part of safe patient management.</p>
+
+
+<table-wrap id="tbl15_3">
+<label>15.3</label>
+<caption><title>Values of minimum alveolar concentration (MAC) for different inhalant anaesthetic agents, and MAC multiples typically used in the clinical setting, in cats and dogs. Note that the values for MAC are the average values reported in published data and individual variation exists.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="50%"/>
+<col content-type="2" width="25%"/>
+<col content-type="3" width="25%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Agent</p></entry>
+<entry align="left"><p>Cat</p></entry>
+<entry align="left"><p>Dog</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>MAC isoflurane (%)</p></entry>
+<entry align="left"><p>1.7</p></entry>
+<entry align="left"><p>1.3</p></entry>
+</row>
+<row>
+<entry align="left"><p>MAC sevoflurane (%)</p></entry>
+<entry align="left"><p>3.0</p></entry>
+<entry align="left"><p>2.3</p></entry>
+</row>
+<row>
+<entry align="left"><p>MAC desflurane (%)</p></entry>
+<entry align="left"><p>9.8</p></entry>
+<entry align="left"><p>7.6</p></entry>
+</row>
+<row>
+<entry align="left"><p>MAC nitrous oxide (%)</p></entry>
+<entry align="left"><p>255</p></entry>
+<entry align="left"><p>188&#x2013;222</p></entry>
+</row>
+<row>
+<entry align="left"><p>1.3 x MAC isoflurane (%)</p></entry>
+<entry align="left"><p>2.2</p></entry>
+<entry align="left"><p>1.7</p></entry>
+</row>
+<row>
+<entry align="left"><p>1.3 x MAC sevoflurane (%)</p></entry>
+<entry align="left"><p>3.9</p></entry>
+<entry align="left"><p>3</p></entry>
+</row>
+<row>
+<entry align="left"><p>1.3 x MAC desflurane (%)</p></entry>
+<entry align="left"><p>12.7</p></entry>
+<entry align="left"><p>9.9</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+
+<table-wrap id="tbl15_4">
+<label>15.4</label>
+<caption><title>Factors associated with an increase or decrease in minimum alveolar concentration (MAC), which result in an increase or decrease in concentration of inhalant agent needed to maintain anaesthesia. <sup>a</sup> Potent sedatives and analgesics can result in a profound decrease in MAC, and anaesthetic depth should be closely monitored and adjusted accordingly. Examples include medetomidine, dexmedetomidine, morphine, methadone, fentanyl, epidural bupivacaine. <sup>b</sup> Some analgesic agents also cause CNS depression (sedation), e.g. medetomidine, dexmedetomidine, morphine, methadone. CNS = central nervous system; <italic>P</italic><sub>a</sub>CO<sub>2</sub> = arterial carbon dioxide tension.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="%"/>
+</colgroup>
+<tbody>
+<row>
+<entry align="left"><p>Increase in minimum alveolar concentration (MAC)</p></entry>
+</row>
+<row>
+<entry align="left"><p>
+<list list-type="bullet">
+<list-item><p>Hyperthermia</p></list-item>
+<list-item><p>Catecholamines/sympathomimetics, e.g. ephedrine</p></list-item>
+<list-item><p>Hyperthyroidism</p></list-item>
+<list-item><p>Hypernatraemia</p></list-item>
+</list>
+</p></entry>
+</row>
+
+<row>
+<entry align="left"><p>Decrease in minimum alveolar concentration (MAC)</p></entry>
+</row>
+<row>
+<entry align="left"><p>
+<list list-type="bullet">
+<list-item><p>Hypothermia</p></list-item>
+<list-item><p>Hypoxaemia</p></list-item>
+<list-item><p>Hypercapnia (when <italic>P</italic><sup>a</sup>CO<sub>2</sub> exceeds approximately 95 mmHg)</p></list-item>
+<list-item><p>Drugs causing CNS depression
+
+<list list-type="bullet">
+<list-item><p>Sedatives<sup>a</sup></p></list-item>
+<list-item><p>Injectable anaesthetic agents</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Analgesic agents <sup>ab</sup></p></list-item>
+<list-item><p>Pregnancy</p></list-item>
+<list-item><p>Old age</p></list-item>
+<list-item><p>Hypotension</p></list-item>
+<list-item><p>Hypothyroidism</p></list-item>
+</list>
+</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Effects of inhalants on the body</title>
+<p>Volatile anaesthetic agents share common adverse effects. They have profound depressant effects on the cardio&#x00AD;- &#x00AD;vas&#x00AD;cular and respiratory systems. The following section describes the effects of volatile agents when administered alone, to allow direct comparisons between them, al&#x00AD;though this is seldom the approach used in clinical practice. Additional variables, including systemic disease, the patient&#x2019;s age, surgical stimulation and concurrent use of other drugs, may alter the described effects.</p>
+
+<sec2 id="ch-ss">
+<title>Cerebral effects</title>
+<p>Isoflurane and sevoflurane decrease cerebral metabolic rate, which results in a decrease in cerebral oxygen consumption and a subsequent decrease in cerebral blood flow. However, volatile anaesthetics also cause cerebral vasodilation. The overall effect on cerebral blood flow is a balance between the reduced oxygen demand and the cerebral vasodilation, and generally blood flow increases. Both isoflurane and sevoflurane increase intracranial blood volume (as a result of the increased flow); this is an important consideration when anaesthetizing patients with head trauma or intracranial pathology (see Chapter 28). There is some evidence that sevoflurane may preserve cerebral perfusion better than isoflurane at equip&#x00AD;otent values of MAC in healthy dogs. At the same depth of anaesthesia, desflurane is associated with a greater degree of cerebral vasodilation, and therefore it should be used cautiously in patients with increased intracranial pressure.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Cardiovascular effects</title>
+<p>Cardiovascular depression is a major side effect of the volatile agents. Isoflurane and sevoflurane cause dose-dependent changes in many of the variables that maintain arterial blood pressure, with resultant hypotension. Both cardiac output and systemic vascular resistance (vascular tone) are reduced as a consequence of decreased myocardial contractility and vasodilation, respectively. As a result, hypotension is one of the most common side effects of volatile agents. In contrast to isoflurane and sevoflurane, desflurane may result in hypotension primarily through reduced myocardial contractility.</p>
+<p>The effect of the volatile agents on heart rate is less predictable. Heart rate is influenced by many factors, including vagal tone, concurrent medication, ventilation (hypercapnia and hypoxaemia) and noxious stimulation. In the absence of other agents, heart rate tends to increase, but not to a degree that is sufficient to offset the hypo&#x00AD;tensive effects of volatile agents resulting from reduced contractility and vasodilation. Desflurane in particular can cause tachycardia when the inspired concentration is rapidly increased, although this response is blunted when potent opioids are also administered.</p>
+<p>Monitoring and haemodynamic support are fun&#x00AD;da&#x00AD;mental to ensure adequate organ perfusion and main&#x00AD;tenance of normal physiology. In general, mean arterial blood pressure should be maintained at a value between 60 and 150 mmHg for adequate perfusion of vital organs such as the kidneys, heart and brain. The degree of hypotension can be mitigated by reducing the inspired concentration of volatile agent, providing supportive drug and fluid therapy (see Chapters 17 and 18) and limiting the use of intermittent positive pressure ventilation (IPPV), which can reduce venous return. However, the judicious use of IPPV may be necessary to offset respir&#x00AD;atory depression and ensuing hypercapnia and respiratory acidosis (see Chapter 6). Lower volatile agent requirements can easily be achieved with the use of systemic opioids and alpha-2 adrenoceptor agonists as part of a balanced anaesthesia protocol, and/or locoregional analgesia (see Chapter 11 and Figure 15.4), or both. Reductions of 30&#x2013;70% in volatile agent requirements have been reported with the use of powerful opioids such as morphine and fentanyl (see Chapter 10), especially in dogs. Similarly, use of a locoregional anaesthetic technique allows marked decreases in volatile agent requirements because transmission of noxious signals is blocked; in such cases, the required concen&#x00AD;&#x2013;trations to maintain general anaesthesia are close to, or slightly below, the MAC of the agent.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Respiratory effects</title>
+<p>In general, administration of volatile agents results in dose-dependent respiratory depression, with consequent hypercapnia. Respiratory depression is caused by a decrease in minute volume (resulting from decreased respiratory rate and/or tidal volume). Hypoventilation  may not be obvious if only the respiratory rate is being monitored, because tidal volume is subjectively evaluated by observation of thoracic excursions or movements of the reservoir bag in the breathing system. The tidal volume tends to decrease initially at lower volatile agent concentrations, before a decrease in respiratory rate occurs. Causes of hypercapnia are multifactorial and include a reduction in respiratory drive (blunted response to carbon dioxide), relaxation of the respiratory muscles, particularly the diaphragm, and a mismatch of ventilated to perfused areas of lung tissue. Hypoxaemia is uncommon because high levels of oxygen are frequently used in the carrier gas for volatile agents. Additional variables can make the effects of volatile agents on ventilation unpredictable; these include obesity, body position, co-existing disease and concurrent medication. Sevoflurane and desflurane tend to have a less depressant effect on minute volume because respiratory rate is better maintained with these agents compared with isoflurane. Given the likelihood of additional factors contributing to respir&#x00AD;atory depression, as described above, use of sevoflurane does not, however, guarantee adequate ventilation. In the absence of other agents, respiratory arrest will occur at approximately 2.5 x MAC for isoflurane (end-tidal concentration of 3%) and a little over 3 x MAC for sevoflurane (end-tidal concentration of 7%).</p>
+<p>Sevoflurane and isoflurane cause bronchodilation. This can be particularly useful in managing patients at risk of bronchospasm, such as asthmatic cats. When broncho&#x00AD;spasm occurs, an increase in the volatile agent concen&#x00AD;tration can help reverse the problem (see Chapter 22). However, increasing the agent concentration is likely to lead to undesirable cardiopulmonary depression, which can be detrimental.</p>
+<p>The odour of sevoflurane is generally better tolerated than that of isoflurane or desflurane. This can be bene&#x00AD;ficial when attempting induction of anaesthesia by facemask or induction chamber. However, these techniques are asso&#x00AD;ciated with several important disadvantages, including workplace pollution and personnel exposure to volatile agent, lack of rapid airway control and potentially in-creased stress for the patient (and personnel). As soon as the facemask (and anaesthetic) is removed, or the patient removed from the chamber to allow endotracheal intu&#x00AD;bation, the patient&#x2019;s depth of anaesthesia will invari&#x00AD;ably lighten, provided they are still breathing. This rapid lightening results in a shorter time available to perform intubation before airway reflexes and jaw tone return, compared to that provided by intravenous anaesthetic agents.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Renal and hepatic effects</title>
+<p>Renal and hepatic perfusion is commonly reduced as a result of the hypotension caused by volatile agents. Reduced renal perfusion may manifest as a temporary reduction in urine output postoperatively. In addition, the kidneys may be at increased risk of adverse effects from use of non-steroidal anti-inflammatory drugs (see Chapter 10). Degradation of sevoflurane by carbon dioxide absorbents results in the production of Compound A, which has been associated with renal toxicity in rats; however, there is no evidence that this compound accumulates in a circle system when appropriate fresh gas flows are used (see Chapter 5).</p>
+<p>Hepatic dysfunction associated with volatile agents is a combination of direct and indirect effects on the liver. Direct effects result from hepatocellular dysfunction and a potential reduction in the capacity for drug metabolism. Direct effects are minimal with isoflurane and sevoflurane. Indirect effects result from cardiovascular depression reducing hepatic perfusion and can be corrected with management and support of arterial blood pressure (see Chapters 17 and 24). There is little evidence to support a preference for either isoflurane or sevoflurane in patients with, or at risk of, hepatic dysfunction.</p>
+</sec2>
+<sec2 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Analgesic effects</title>
+<p>Volatile anaesthetic agents are not considered to have analgesic properties. They are &#x2018;analgesic&#x2019; only in the sense that by producing loss of consciousness, they block pain perception, although they do not prevent noxious signals reaching the spinal cord and brain. Following recovery from anaesthesia, a patient is able to perceive the pain resulting from tissue damage that occurred during surgery and adequate analgesia should be part of the anaesthetic protocol (see Chapter 10).</p>
+</sec2>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Nitrous oxide</title>
+<p>Nitrous oxide differs markedly from other inhaled anaesthetic agents in that it is a gaseous agent that is stored under pressure as a liquid at room temperature (see Chapter 4). It has relatively low potency in comparison to the volatile agents (high MAC value; see Figure 15.3) but is commonly administered for its analgesic properties, thus reducing the requirement for other inhaled agents (anaesthetic-sparing effect). The mechanism of action of nitrous oxide is unclear but its effects appear to be mediated through multiple receptors, including <italic>N</italic>-methyl-D-aspartate, opioid and alpha-2 adrenoceptors.</p>
+
+<sec2 id="ch-ss">
+<title>Administration</title>
+<p>Nitrous oxide has a low B:G partition coefficient (0.47), similar to that of desflurane, which promotes a rapid onset and offset of action. As a result of its low potency, it is usually delivered at a relatively high concentration (approximately 50&#x2013;70%), which necessitates a decrease in the fraction of inspired oxygen. This mode of use and the physical properties of nitrous oxide favour a rapid increase in anaesthetic depth through two phenomena: the <italic>concentration effect</italic> and the <italic>second gas effect</italic>. The concentration effect is the maintenance of a high concentration of nitrous oxide in the alveoli following uptake. The rapid uptake of nitrous oxide from the alveoli into the pulmonary circu&#x00AD;lation (nitrous oxide is more soluble than oxygen) leads to a decrease in alveolar volume; as a result, the remaining gases in the alveolus (such as oxygen and a volatile anaesthetic agent) are concentrated in the reduced volume. As ventilation continues, and alveolar volume is refilled, a relatively high concentration of nitrous oxide is maintained while the concentration of volatile anaesthetic agent is augmented (second gas effect). Thus, the second gas effect describes the concentration effect on a second gas, the volatile anaesthetic agent. Together, the concentration effect and second gas effect support high alve&#x00AD;olar anaesthetic concentrations, increasing the speed of anaesthetic induction.</p>
+<p>These phenomena are also relevant to recovery from anaesthesia, when nitrous oxide is being removed from the body through ventilation. If, at the end of an anaesthetic, the inspired gas is switched from an oxygen&#x2013;nitrous oxide&#x2013;volatile agent mixture to air (as happens when an animal is disconnected from the breathing system), there is a risk of diffusion hypoxia. This occurs as a result of a high concentration of nitrous oxide developing in the alveoli at the end of the anaesthetic, which displaces oxygen and dilutes carbon dioxide (which in turn reduces ventilatory drive). It is therefore good practice to deliver a high concentration of oxygen to the patient for 5&#x2013;10 minutes after nitrous oxide is turned off.</p>
+<p>Nitrous oxide is typically administered at a concentration of 50&#x2013;70%, resulting in an inspired oxygen concentration of 30&#x2013;50%. Concurrent use of an oxygen analyser and pulse oximeter is recommended when using such gas mixtures.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Clinical use</title>
+<p>The anaesthetic-sparing effect of 70% nitrous oxide ranges from 20&#x2013;40%. This represents a significant reduction in volatile agent requirement, which is beneficial in terms of reducing cardiovascular and respiratory depression.</p>
+<p>Nitrous oxide causes mild stimulation of the cardio&#x00AD;vascular system, mediated via the sympathetic nervous system. Minute volume is unchanged, with an increased respiratory rate balanced by a decrease in tidal volume. However, hypoxic drive is depressed and therefore close monitoring during the recovery period (when inspired oxygen returns to atmospheric concentration) is essential. Nitrous oxide may predispose to an increase in intracranial pressure in patients with intracranial pathology due to an increase in cerebral metabolic rate and blood flow.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Adverse effects</title>
+<p>Nitrous oxide is approximately 20 times more soluble in blood than oxygen and nitrogen. As a result, its use should be avoided where there is the presence of, or potential for, an enclosed gas space, as it will diffuse into that space more rapidly than oxygen and nitrogen can diffuse out (as gases equilibrate). Examples include gastric dilatation&#x2013;volvulus, air embolism, closed pneumo&#x00AD;thorax, intestinal obstruction and ophthalmic procedures with a risk of intraocular bubbles.</p>
+<p>The use (and abuse) of nitrous oxide has been asso&#x00AD;ciated with haemopoietic and neurological abnormalities in both laboratory animals and humans who chronically inhale nitrous oxide. However, the risks of these effects in oper&#x00AD;ating department personnel have largely been removed with the implementation of effective waste gas scavenging systems. It would, however, be prudent to avoid administering nitrous oxide by facemask or chamber to avoid workspace pollution with the gas. Nitrous oxide is not adsorbed by charcoal canisters and scavenging via a scavenging system should be employed.</p>
+</sec2>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Cost and use comparison of volatile anaesthetic agents</title>
+<p>As the costs of volatile agents change over time and new agents are introduced, it is useful to be able to estimate the cost of using a given agent. Although financial considerations should not be the primary determining factor in drug selection, a cost calculation provides a useful comparison of agents when clinical differences are minimal.</p>
+<p><xref ref-type="page" id="page_"/>Dion&#x2019;s formula (Dion, 1992) provides an estimate of cost of volatile agent use. It takes into account the molecular weight (<italic>M</italic>, in grams), cost (<italic>C</italic>, &#x00A3;/ml) and density (<italic>d</italic>, g/ml) of the agent. These are combined with the user vari&#x00AD;ables of vaporizer concentration (<italic>P</italic>, %), fresh gas flow (<italic>F</italic>, l/min) and duration of anaesthesia (<italic>T</italic>, minutes) in the following formula:
+<disp-quote>
+<p>Cost (&#x00A3;) = <italic>PFTMC</italic>/2412<italic>d</italic></p>
+</disp-quote>
+</p>
+
+<p>The constant 2412 represents the molar volume of a gas at room temperature (21&#x00B0;C). Figure 15.5 provides a comparison of isoflurane, sevoflurane and desflurane at current (2015) costs when delivered in a fresh gas flow of 50 ml/kg/min to a 10 kg dog at vaporizer settings of 1.3 x MAC for 1 hour.</p>
+
+<table-wrap id="tbl15_5">
+<label>15.5</label>
+<caption><title>Cost comparison of isoflurane, sevoflurane and desflurane. <italic>C</italic> = cost; <italic>d</italic> = density; <italic>F</italic> = fresh gas flow; <italic>M</italic> = molecular weight; <italic>P</italic> = vaporizer concentration; <italic>T</italic> = anaesthetic duration.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="25%"/>
+<col content-type="2" width="25%"/>
+<col content-type="3" width="25%"/>
+<col content-type="4" width="25%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Variable (units)</p></entry>
+<entry align="left"><p>Isoflurane</p></entry>
+<entry align="left"><p>Sevoflurane</p></entry>
+<entry align="left"><p>Desflurane</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p><italic>P</italic> (%)</p></entry>
+<entry align="left"><p>1.7</p></entry>
+<entry align="left"><p>3</p></entry>
+<entry align="left"><p>9.9</p></entry>
+</row>
+<row>
+<entry align="left"><p><italic>F</italic>(l/min)</p></entry>
+<entry align="left"><p>0.5</p></entry>
+<entry align="left"><p>0.5</p></entry>
+<entry align="left"><p>0.5</p></entry>
+</row>
+<row>
+<entry align="left"><p><italic>T</italic>(min)</p></entry>
+<entry align="left"><p>60</p></entry>
+<entry align="left"><p>60</p></entry>
+<entry align="left"><p>60</p></entry>
+</row>
+<row>
+<entry align="left"><p><italic>M</italic> (g)</p></entry>
+<entry align="left"><p>184.5</p></entry>
+<entry align="left"><p>200.1</p></entry>
+<entry align="left"><p>168</p></entry>
+</row>
+<row>
+<entry align="left"><p><italic>C</italic> (&#x00A3;/ml)</p></entry>
+<entry align="left"><p>0.10</p></entry>
+<entry align="left"><p>0.69</p></entry>
+<entry align="left"><p>0.68</p></entry>
+</row>
+<row>
+<entry align="left"><p><italic>d</italic> (g/ml)</p></entry>
+<entry align="left"><p>1.5</p></entry>
+<entry align="left"><p>1.5</p></entry>
+<entry align="left"><p>1.5</p></entry>
+</row>
+<row>
+<entry align="left"><p>Cost (&#x00A3;)</p></entry>
+<entry align="left"><p>0.26</p></entry>
+<entry align="left"><p>3.43</p></entry>
+<entry align="left"><p>9.38</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+</sec1>
+<sec1 id="ch-ss">
+<title>Workplace exposure</title>
+<p>Nitrous oxide can also enter endotracheal tubes cuffs and increase the volume, although the cuffs are relatively compliant. Waste anaesthetic gas is defined as gas that is leaked from the anaesthetic delivery system into the surrounding environment. This includes gas exhaled by patients during recovery. Short-term exposure to high concentrations of volatile agents is associated with headache, irritability, fatigue, nausea, drowsiness, and impaired judgment and coordination.</p>
+
+<sec2 id="ch-ss">
+<title>Engineering controls</title>
+<p>These include an appropriate and functional waste anaesthetic gas scavenging system and room ventilation (see Chapter 5), regular maintenance and inspection of anaesthetic equipment and the use of key-indexed vaporizer filling systems (see Chapter 4).</p>
+</sec2>
+<sec2 id="ch-ss">
+<title>Proper work practice</title>
+<p>The lowest suitable fresh gas flow should be used to meet equipment and patient requirements. Induction by facemask or chamber and maintenance of anaesthesia by facemask should be avoided. Anaesthetic machines and breathing systems should be leak-tested daily and the vaporizer and nitrous oxide should be turned off when a patient is not connected to the breathing system. The reservoir bag should be emptied into the scavenging system before disconnection of the patient, and gases sampled for sidestream capnography should also be scavenged.</p>
+<p>Small spills of volatile agent evaporate rapidly at room temperature, and often dissipate before they can be cleaned up. In the case of a large spill, such as a broken bottle of agent, the material safety data sheet recommendations should be followed. These typically include: wearing personal protective equipment (PPE: impermeable gloves, laboratory coat, safety glasses), ventilating the spill site if possible, evacuating personnel not wearing PPE from the area, and applying absorbent material suitable for organic chemicals. If absorbent is used, it should be collected and placed in an airtight container, and disposed of according to local regulations.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Monitoring</title>
+<p>Volatile agents cannot be detected by smell until a high concentration is present; at the point that they become detectable, unnecessary exposure has already occurred. Monitoring for trace concentrations of agents can be performed periodically to assess personnel exposure. Mon&#x00AD;itors can sample room air, or personnel can wear badges at shoulder level to indicate respiratory exposure. Badges are sent for analysis and an 8-hour time-weighted average exposure is calculated.</p>
+<p>The National Institute for Occupational Safety and Health in the USA goes as far as recommending that hepatic and renal function of personnel should be monitored regularly and medical records monitored for indi&#x00AD;- c&#x00AD;ations of adverse effects that may be associated with exposure to anaesthetic gases.</p>
+</sec2>
+
+<sec2 id="ch-ss">
+<title>Training of personnel</title>
+<p>All personnel at risk of exposure to anaesthetic gases should receive appropriate training. This includes both information and practical training relating to engineering controls and proper work practice, as well as communicating the health hazards associated with anaesthetic gas exposure.</p>
+</sec2>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Environmental considerations</title>
+<p>Sevoflurane, isoflurane, desflurane and nitrous oxide are all classed as greenhouse gases. This is due to the significant length of time they remain in the atmosphere and also because their infrared absorption spectra overlap with infrared radiation leaving the earth, thereby reducing its emission into space. The effect on infrared radiation, combined with predicted atmospheric lifetime, is used to calculate a Global Warming Potential (GWP) Index, a widely accepted method of assessing an agent&#x2019;s contribution to climate change. For the volatile agents, the highest to lowest GWP values are desflurane &#x003E; sevo&#x00AD;flurane &#x003E; isoflurane. Nitrous oxide has a lesser short-term impact but has the potential to contribute for a longer time period as a result of its atmospheric lifetime. Predicted atmospheric lifetimes can be long (isoflurane, 3.2 years; sevo&#x00AD;flurane, 1.1 years; desflurane, 14 years; nitrous oxide, 114 years).</p>
+<p>While levels of inhalant agents in the atmosphere are low relative to those of carbon dioxide, they can still make a significant contribution to the retention of heat and thus climate change. It has been recommended that potential contributions to climate change be taken into account when selecting anaesthetic agents and introducing new agents to clinical use (Ryan and Nielsen, 2010). A simple and effective way of reducing the use (and therefore emission) of inhalational anaesthetic agents is to use the lowest safe fresh gas flows.</p>
+</sec1>
+
+<sec1 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Summary</title>
+<p>Inhalant anaesthetic agents are a popular choice for general anaesthesia, but they do have a range of significant adverse effects. The judicious use of balanced anaes&#x00AD;thesia techniques and appropriate management can limit the occurrence and impact of adverse effects. Detrimental effects on the health of personnel resulting from chronic exposure to low concentrations of inhalant agents remain unclear, but good working practices and engineering controls can substantially reduce these risks.</p>
+</sec1>
+</body>
+
+<back>
+<ack>
+<title>Acknowledgements</title>
+<p>Thank you to the following people for constructive input: Jessica Paterson, Melanie Prebble.</p>
+</ack>
+
+<ref-list>
+<title>References and further reading</title>
+<p>Burm AGL (2003) Occupational hazards of inhalational anaesthetics. <italic>Best Practice and Research Clinical Anaesthesiology</italic> <bold>17</bold>, 147&#x2013;161</p>
+<p>Dion P (1992) The cost of anaesthetic vapours. <italic>Canadian Journal of Anaesthesia</italic> <bold>39</bold>, 633</p>
+<p>Franks NP (2008) General anaesthesia: from molecular targets to neuronal pathways of sleep and arousal. <italic>Nature Reviews Neuroscience</italic> <bold>9</bold>, 370&#x2013;386</p>
+<p>Health and Safety Executive (2014) Workplace exposure limits. www.hse.gov.uk/coshh/basics/exposurelimits.htm</p>
+<p>Occupational Safety and Health Administration (2014) Waste anesthetic gases. www.osha.gov/SLTC/wasteanestheticgases/index.html</p>
+<p>Ryan SM and Nielsen CJ (2010) Global warming potential of inhaled anesthetics: application to clinical use. <italic>Anesthesia and Analgesia</italic> <bold>111</bold>, 92&#x2013;98</p>
+<p>Sulbaek Andersen MP, Nielsen OJ, Wallington TJ, Karpichev B and Sander SP (2012) Assessing the impact on global climate from general anesthetic gases. <italic>Anesthesia and Analgesia</italic> <bold>114</bold>, 1081&#x2013;108<a id="x.21398" />5</p>
+</ref-list>
+</back>
+</book-part>

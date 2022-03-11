@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>PETER NGUYEN</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>JP MORGAN CHASE BANK, N.A. ET AL.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 09-00560-CJC(ANx)</docket.line>
+<docket.number>SACV 09-00560-CJC(ANx)</docket.number>
+<docket.line suppress-flag="y">8:09-cv-00560-CJC-AN</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/09/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1"><underscore>Michelle Urie</underscore>, Deputy Clerk, ATTORNEYS PRESENT FOR PLAINTIFF: None Present</attorney.line>
+<attorney.line first-line="1"><underscore>N/A</underscore>, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANT: None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS: (IN CHAMBERS) ORDER DENYING PLAINTIFF'S MOTION TO REMAND</bold> [filed 5/21/09]</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><underscore><bold>HONORABLE CORMAC J. CARNEY, UNITED STATES DISTRICT JUDGE</bold></underscore></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Having read and considered the papers presented by the parties, the Court finds this matter appropriate for disposition without a hearing. <ital>See</ital> <csc>Fed. R. Civ. P.</csc> 78; <csc>Local Rule</csc> 7-15. Accordingly, the hearing set for June 15, 2009 at 1:30 p.m. is hereby vacated and off calendar.</paratext></para>
+<para><paratext ID="p2" level="1">Plaintiff Peter Nguyen moves the Court to remand this action to Orange County Superior Court. Mr. Nguyen argues that Defendants JP Morgan Chase Bank, N.A. (&#x201C;JP Morgan&#x201D;) and California Reconveyance Company (&#x201C;CRC&#x201D;) (collectively &#x201C;Defendants&#x201D;) did not file their notice of removal in a timely manner, not all defendants have consented to removal, and this Court does not have subject matter jurisdiction. For the following reasons, Mr. Nguyen's motion to remand is DENIED.</paratext></para>
+<para><paratext ID="p3" level="1">Mr. Nguyen argues that Defendants' notice of removal, which was filed on May 8, 2009, was not timely. Mr. Nguyen is mistaken because neither JP Morgan nor CRC was properly served prior to filing the notice of removal. CRC<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> was first named as a defendant in Mr. Nguyen's Second Amended Complaint. CRC had thirty days from the time it was served to remove. 28 U.S.C. &#167; 1446(b). Although Mr. Nguyen filed his Second Amended Complaint on April 2, 2009, the period for removal is triggered by service of a summons, and receipt of the complaint alone is not sufficient. <ital>Murphy Bros., Inc. v. Michetti Pipe Stringing, Inc.</ital>, 526 U.S. 344, 354 (1999). Mr. Nguyen attempted to serve CRC by mail under California Code of Civil Procedure &#167; 415.30. Under &#167; 415.30, service is not deemed complete until each defendant executes &#x201C;written acknowledgement of receipt of summons.&#x201D; <csc>Cal. Civ. Pro. Code</csc> &#167; 415.30(c). Mr. Nguyen has produced some evidence that he mailed the summons and complaint to CRC on April 2, 2009. (Mot. to Remand Ex. A.) Mr. Nguyen has provided no evidence that any acknowledgement was executed and that service was actually complete on April 2, 2009. In fact, on May 22, 2009, the superior court notified Mr. Nguyen that service was incomplete. (Pl.'s Reply Ex. B.)</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p4">&#8195;JP Morgan was first named as defendant in Mr. Nguyen's original complaint, which was filed and served on JP Morgan in October 2008. Although the original complaint did not assert claims under federal law, Mr. Nguyen identified several alleged violations of federal law as the basis for his state law claims, arguably providing a basis for removal jurisdiction. JP Morgan did not attempt to remove at that time, and filed a demurrer. (Pl.'s Reply Ex. F.) There is a split among the Circuit Courts of Appeals regarding whether the 30-day removal period runs for all defendants from the date that the first of them is served with the original complaint. This issue has yet to be resolved by the Ninth Circuit. <ital>United Steel v. Shell Oil Co.</ital>, 549 F.3d 1204, 1208 (9th Cir. 2008). Here, it is not clear that Mr. Nguyen's initial complaint was actually removable, and that JP Morgan has waived its right to remove by not removing Mr. Nguyen's initial complaint within 30 days. 28 U.S.C. 1446(b). Moreover, Mr. Nguyen has not shown that he will be prejudiced by removal, nor has there been extraordinary delay. <ital>See Glacier Water Co.LLC v. Earl</ital>, No. C08-1705RSL, 2009 WL 586128, at *4 (W.D. Wash. Mar. 5, 2009). Accordingly, the Court applies the &#x201C;last-served&#x201D; rule, and calculates the time for removal based on service of the last-served party.</paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p5" level="1">Next, Mr. Nguyen argues that not all defendants have consented to removal. Again, Mr. Nguyen is mistaken. Under 28 U.S.C. &#167; 1446, all named defendants must join in the removal petition. Defendants, through their counsel, have consented to removal. (Notice of Removal.)</paratext></para>
+<para><paratext ID="p6" level="1">A civil action brought in a state court but over which a federal court may exercise original jurisdiction may be removed by the defendant to a federal district court. 28 U.S.C. &#167; 1441(a). However, &#x201C;[a] suit may be removed to federal court under 28 U.S.C. &#167; 1441(a) only if it could have been brought there originally.&#x201D; <ital>Sullivan v. First Affiliated Sec., Inc.</ital>, 813 F.2d 1368, 1371 (9th Cir. 1987). The burden of establishing subject matter jurisdiction falls on the party seeking removal, and the removal statute is strictly construed against removal jurisdiction. <ital>Gaus v. Miles, Inc.</ital>, 980 F.2d 564, 566 (9th Cir. 1992). Under the well-pleaded complaint rule, a cause of action arises under federal law only when a question arising under federal law appears on the face of the plaintiff's well-pleaded complaint. <ital>Metro. Life Ins. Co. v. Taylor</ital>, 481 U.S. 58, 63 (1987). A cause of action arises under federal law if &#x201C;federal law creates the cause of action&#x201D; or if vindication of a right under state law necessarily turns on a construction of federal law. <ital>Merrell Dow Pharmaceuticals Inc. v. Thompson</ital>, 478 U.S. 804, 808 (1986).</paratext></para>
+<para><paratext ID="p7" level="1">Mr. Nguyen's complaint specifically alleges causes of action under federal law, including the Truth in Lending Act, Real Estate Settlement Procedures Act, Regulation Z, the Fair Credit Reporting Act, and Racketeer Influenced and Corrupt Organizations Act. Mr. Nguyen seeks relief based on violations of these federal statutes. Accordingly, his complaint undoubtedly arises under federal law, and this Court has subject matter jurisdiction. The Court may also exercise supplemental jurisdiction over Mr. Nguyen's state law claims as they arise from a common nucleus of operative facts. 28 U.S.C. &#167; 1367.</paratext></para>
+<para><paratext ID="p8" level="1">Finally, Mr. Nguyen urges that abstention may be appropriate in this case. However, Mr. Nguyen offers no authority to support the position that the Court should abstain from entertaining numerous federal questions. The Court believes that it may properly exercise jurisdiction.</paratext></para>
+<para><paratext ID="p9" level="1">For the foregoing reasons, Mr. Nguyen's motion to remand is DENIED.</paratext></para>
+<para><paratext ID="p10" level="1">law</paratext></para>
+<para><paratext ID="p11" level="1">MINUTES FORM 11</paratext></para>
+<para><paratext ID="p12" level="1">CIVIL-GEN</paratext></para>
+<para><paratext ID="p13" level="1">Initials of Deputy Clerk MU</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

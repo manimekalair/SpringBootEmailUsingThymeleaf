@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task1</title>
+    </head>
+    <body>
+        <h1>Billing Information</h1>
+        <form action="#">
+           <fieldset>
+               <p>
+                    <label for="f_name">FirstName:</label>
+                    <input type="text" name="f_name" id="f_name">
+                </p>
+                <p>    
+                    <label for="l_name">LastName:</label>
+                    <input type="text" name="l_name" id="l_name">
+                </p>
+                <p>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" id="gender" value="female">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="gender" value="male">
+                    <label for="gender">Male</label>
+                </p>
+                <p>
+                    <label for="language">Languages:</label>
+                    <input type="checkbox" name="languages[]" id="language" value="tamil">
+                    <label for="language">Tamil</label>
+                    <input type="checkbox" name="languages[]" id="language" value="english">
+                    <label for="language">English</label>
+                    <input type="checkbox" name="languages[]" id="language" value="hindi">
+                    <label for="language">Hindi</label>
+                </p>
+                <p>
+                    <label for="email_id">Email:</label>
+                    <input type="email" name="email_id" id="email_id" required>
+                </p>
+                <p>
+                    <label for="address">Address:</label>
+                    <textarea name="address" id="address" cols="20" rows="5" placeholder="Enter Your Addresss"></textarea>
+                </p>
+                <p>
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value"">Choose State</option>
+                        <option value="tamilnadu">TamilNadu</option>
+                        <option value="kerela">Kerela</option>
+                        <option value="karnataka">Karnataka</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="zip">Zip:</label>
+                    <input type="text" name="zip" id="zip">
+                </p>
+                <p>
+                    <label for="card">State:</label>
+                    <select name="card" id="card">
+                        <option value"">Choose Credit Card</option>
+                        <option value="sbi">SBI</option>
+                        <option value="iob">IOB</option>
+                        <option value="hdfc">HDFC</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="SUBMIT">
+                </p>
+                </fieldset>
+        </form>
+    </body>
+</html>

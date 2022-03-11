@@ -1,0 +1,172 @@
+  File  Edit  Search  Process  Utility  Window  Help  
+
+# This file contains data for the Epsilon menu system.  The first line
+# holds the main menu bar.  Each entry must have spaces on both sides.
+# The submenus below each begin with a line that has the submenu title
+# from the main menu (again, with spaces on both sides), then the width
+# of the submenu to create, not including command bindings.  Then the
+# submenu entries, each line containing the item name, one or more tab
+# characters, and the definition (normally the name of a function to
+# execute).  A line starting with a tab puts a blank line in the menu.
+# An actual blank line ends the submenu.  A line starting with # is a 
+# comment.
+
+# If an entry contains a binding (that is, if text before the tab
+# character extends past the column width indicated for that submenu),
+# Epsilon uses the binding text as-is.  Otherwise, Epsilon adds
+# bindings when it first displays a submenu.
+
+# Instead of a command name, you can put the name of a Windows help 
+# file with a $ character before it.  Epsilon for Windows will then
+# display that help file.
+
+# Copyright 1992, 1997 Lugaru Software Ltd.  Pittsburgh, PA.
+# All Rights Reserved.  (412) 421-5911.
+
+ File 20
+&New									new-file
+&Open...								find-file
+&Save									save-file
+Save &As...								write-file
+&Revert to Saved						revert-file
+&Close									kill-current-buffer
+										####
+Copy to &File...						copy-to-file
+&Insert File...							insert-file
+&Write Region...						write-region
+										####
+Print Set&up...							print-setup
+&Print...								print-buffer
+										####
+S&how Connections						show-connections
+Change &Directory...					cd
+Edi&t Directory...						dired
+&Exit									exit
+
+ Edit 17
+&Undo            F9						undo
+&Redo            F10					redo
+										####
+Cut &Region								kill-region
+C&opy Region							copy-region
+&Paste									yank
+Paste &Next								yank-pop
+										####
+&Capitalize Word						capitalize-word
+Uppercase &Word							uppercase-word
+&Lowercase Word							lowercase-word
+&Transpose Words						transpose-words
+										####
+&Fill Paragraph							fill-paragraph
+C&enter Line							center-line
+&Indent Region							indent-region
+Indent Ri&gidly							indent-rigidly
+Fill &Mode								auto-fill-mode
+Insert &ASCII...						insert-ascii
+
+ Search 26
+&Search Forward...        Ctrl-F		dialog-search
+Search &Backward...       Ctrl-R		dialog-reverse-search
+Search F&orward Again					forward-search-again
+Search B&ackward Again					reverse-search-again
+										###
+&Grep...									grep
+Show &Next Match          Ctrl-W Ctrl-N	next-match
+Show &Previous Match      Ctrl-W Ctrl-P	previous-match
+										###
+&Query Replace...         Alt-r			dialog-replace
+&File Query Replace...					file-query-replace
+R&eplace String...						replace-string
+Rege&x Search Forward...				regex-search
+Regex Search Ba&ckward...				reverse-regex-search
+&Regex Replace...         Alt-*			dialog-regex-replace
+										###
+&Delete Matching Lines...				delete-matching-lines
+&Keep Matching Lines...					keep-matching-lines
+
+ Process 21
+&Make									make
+&Compile Buffer							compile-buffer
+										#####
+&View Process							view-process
+Show &Next Error     Ctrl-W Ctrl-N		next-error
+Show &Previous Error Ctrl-W Ctrl-P		previous-error
+										#####
+Start C&oncurrent						start-process
+Stop Conc&urrent						stop-process
+&Exit Concurrent						exit-process
+Push to &Shell							push
+
+ Utility 23
+&Pluck Tag								pluck-tag
+&Go to Tag...							goto-tag
+&Tag Files...							tag-files
+Select Tag &File...						select-tag-file
+										#####
+Set &Bookmark							set-bookmark
+Set &Named Bookmark...					set-named-bookmark
+&Jump to Bookmark...					jump-to-named-bookmark
+Go to &Line...							goto-line
+										#####
+&Compare               Ctrl-W c			compare-windows
+&Diff...								diff
+&Visual Diff							visual-diff
+										#####
+Sort Buffer								sort-buffer
+Sort Region								sort-region
+										#####
+Run Last &Macro        Ctrl-W e			last-kbd-macro
+&Repeat Command...     Ctrl-U			argument
+&Set Variable...						set-variable
+Bind Command to &Key...					bind-to-key
+Load B&ytecode File...					load-bytes
+Run &Another Command...					named-command
+
+ Window 23
+Select &Buffer...						bufed
+&One Window								one-window
+&Kill Window           Ctrl-W Ctrl-D	kill-window
+&Zoom Window							zoom-window
+										####
+&Horizontal Split						split-window
+&Vertical Split							split-window-vertically
+										####
+Set &Font...							set-font
+Set &Dialog Font...						set-dialog-font
+Set &Printer Font...					set-printer-font
+Set &Colors...							set-color
+&Show Spaces							change-show-spaces
+Change Line &Wrapping					change-line-wrapping
+Toggle &Toolbar							toggle-toolbar
+Toggle &Menu Bar						toggle-menu-bar
+
+ Help 40
+&Help Topics                            F1	help
+Epsilon &Manual							epsilon-manual
+Epsilon &Tutorial						tutorial
+&Select Help Files...					select-help-files
+										####
+Search All Help &Files...				search-all-help-files
+										#### Put help files before here
+Show &Bindings...						show-bindings
+&What Is Key...							what-is
+Show &Last Keys							show-last-keys
+Show &Point								show-point
+&Count Lines							count-lines
+										####
+&Release Notes							release-notes
+L&ugaru Web Site						view-lugaru-web-site
+&About Epsilon...						about-epsilon
+
+ _popup 40
+Cut										kill-region
+Copy									copy-region
+Paste									yank
+										####
+Go to Definition						pluck-tag
+Set Bookmark							set-bookmark
+Previous Bookmark						jump-to-last-bookmark
+										####
+Search All Help Files...				search-all-help-files
+
+There must be a blank line after the last item.

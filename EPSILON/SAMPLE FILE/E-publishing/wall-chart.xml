@@ -1,0 +1,39 @@
+Ctrl-X k		kill-buffer
+Ctrl-X 1		one-window
+Ctrl-X 2		split-window
+Ctrl-X 5		split-window-vertically
+Ctrl-X (		start-kbd-macro
+Ctrl-X )		end-kbd-macro
+Ctrl-X Ctrl-K		kill-current-buffer
+Ctrl-X Ctrl-D		kill-window
+Ctrl-X Ctrl-C		exit
+Ctrl-C Ctrl-C		stop-process
+Alt-F7			grep
+Alt-F4			exit
+Alt-F2			show-menu
+Ctrl-F4			last-kbd-macro
+Ctrl-F2			compare-windows
+Shift-F3		view-process
+Shift-F4		pause-macro
+Shift-F6		change-show-spaces
+<PgUp>			previous-page
+<PgDn>			next-page
+F2			named-command
+Alt-x			named-command
+Alt-z			scroll-down
+Alt-t			transpose-words
+Alt-u			uppercase-word
+Alt-k			kill-sentence
+Alt-l			lowercase-word
+Alt-d			kill-word
+Alt-c			capitalize-word
+Ctrl-Z			scroll-up
+Ctrl-T			transpose-characters
+Ctrl-K			kill-line
+Ctrl-G			abort
+
+Find and Replace	Alt+shift+8
+Enter mark		Ctrl+Q+J
+Line wrap		Alt+shift+]
+Line normal		Alt+shift+[
+grouping		([a-z]+)

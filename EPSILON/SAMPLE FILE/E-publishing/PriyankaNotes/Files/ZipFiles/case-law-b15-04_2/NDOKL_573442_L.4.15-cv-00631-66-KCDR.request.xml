@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>FIFTH THIRD BANK, an Ohio banking corporation, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>LEES SPECIALTY COMPOUNDING, et al, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 15-CV-631-TCK-FHM</docket.line>
+<docket.number>15-CV-631-TCK-FHM</docket.number>
+<docket.line suppress-flag="y">4:15-cv-00631-TCK-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/19/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><underscore><bold>REPORT AND RECOMMENDATION</bold></underscore></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">FRANK H. McCARTHY <csc><bold>United States Magistrate Judge</bold></csc></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">The Joint Motion for Authority To Sell Assets to Stalking Horse Bidder [Dkt. 27] was referred to the undersigned United States Magistrate Judge for report and recommendation. The attached Order Granting Receiver's Motion for Authority to Sell Assets at Public Auction Sale (Sale Order) accurately sets out the procedural background, findings of fact, and conclusions of law.</paratext></para>
+<para><paratext ID="p2" level="1">The undersigned United States Magistrate Judge RECOMMENDS that the Court enter the attached Sale Order.</paratext></para>
+<para><paratext ID="p3" level="1">In accordance with 28 U.S.C. &#167;636(b) and Fed. R. Civ. P. 72(b)(2), a party may file specific written objections to this report and recommendation. Such specific written objections must be filed with the Clerk of the District Court for the Northern District of Oklahoma on or before May 3, 2016.</paratext></para>
+<para><paratext ID="p4" level="1">If specific written objections are timely filed, Fed.R.Civ.P. 72(b)(3) directs the district judge to:</paratext>
+<para><paratext ID="p5" first-line="2" turnover="2">determine de novo any part of the magistrate judge's disposition that has been properly objected to. The district judge may accept, reject, or modify the recommended disposition; receive further evidence; or return the mattertothe magistrate judge with instructions.</paratext></para>
+<paratext ID="p6" contd-flag="y">See also 28 U.S.C. &#167; 636(b)(1).</paratext></para>
+<para><paratext ID="p7" level="1">The Tenth Circuit has adopted a &#x201C;firm waiver rule&#x201D; which &#x201C;provides that the failure to make timely objections to the magistrate's findings or recommendations waives appellate review of factual and legal questions.&#x201D; <ital>United States v. One Parcel of Real Property</ital>, 73 F.3d 1057, 1059 (10th Cir. 1996) (quoting <ital>Moore v. United States</ital>, 950 F.2d 656, 659 (10th Cir. 1991)). Only a timely specific objection will preserve an issue for de novo review by the district court or for appellate review.</paratext></para>
+<para><paratext ID="p8" level="1">DATED this 19th day of April, 2016.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>(1) FIFTH THIRD BANK, an Ohio banking corporation, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>(1) LEES SPECIALTY COMPOUNDING, LLC, a Delaware limited liability company, (2) THE APOTHECARY SHOPPE, LLC, a Delaware limited liability company, (3) THE APOTHECARY SHOPPE OF B.A., LLC, a Delaware limited liability company, (4) GETMAN-APOTHECARY SHOPPE LLC, a Delaware limited liability company, and (5) LEES SPECIALTY COMPOUNDING, INC., Delaware corporation, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 15-cv-00631-TCK-FHM</docket.line>
+<docket.number>15-cv-00631-TCK-FHM</docket.number>
+<docket.line suppress-flag="y">4:15-cv-00631-TCK-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/19/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>ORDER GRANTING RECEIVER'S MOTION FOR AUTHORITY TO <underscore>SELL ASSETS AT PUBLIC AUCTION SALE</underscore> (&#x201C;Sale Order&#x201D;)</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Terence C. Kern United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p9" level="1">On the 19th day of April, 2016, there came before the Court for hearing (the &#x201C;<ital>Sale Hearing</ital>&#x201D;) the Motion filed on February 29, 2016 (the &#x201C;<ital>Sale Motion</ital>&#x201D;) by Receiver<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference>, C. David Rhoades, of Lees pursuant to <ital>&#167; 1554, Tit. 12, <underscore>Okla.Stat.1910</underscore></ital>, wherein Receiver sought entry of an order by this Court (this &#x201C;<ital>Sale Order</ital>&#x201D;) granting Receiver authority to sell the Assets to Buyer pursuant to the Asset Purchase Agreement. Appearances were made as they appear of record. The Court having heard the presentation of the witnesses, considered the exhibits admitted into evidence and the argument of counsel in open Court finds that the relief requested in the Sale Motion is in the best interests of the Receiver's estate and creditors and the Court being fully advised in the premises makes the following findings of fact and conclusions of law:</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p10">&#8195;All capitalized terms used herein and not otherwise defined shall have the meaning given to them in the Sale Motion.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="center"><underscore><bold>Introduction</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">1. The Sale Motion was filed in conjunction with and as an integral part of the Bid Procedures Motion. The Court entered an order granting the Bid Procedures Motion on the 21 st day of March, 2016 (the &#x201C;<ital>Bid Procedures Order</ital>&#x201D;) and established procedures governing sale of the Assets as contemplated herein.</paratext></para>
+<para><paratext ID="p12" level="1">2. Notice of the Sale Motion and the Sale Hearing (i) is sufficient and proper and complies with all applicable provisions and requirements of applicable Oklahoma Law and in compliance with the Bid Procedures Order, (ii) such notice was good and sufficient, and appropriate under the particular circumstances and (iii) no other or further notice of the Sale Motion or the Sale Hearing is or shall be required. A reasonable opportunity to object or be heard with respect to the Sale Motion and the relief requested therein has been afforded to all interested persons and entities.</paratext></para>
+<para><paratext ID="p13" level="1">3. As demonstrated by the testimony and other evidence offered at the Sale Hearing and the representations of counsel made on the record at the Sale Hearing, Receiver marketed the Assets and conducted the sale process in compliance with the Bid Procedures Order.</paratext></para>
+<para><paratext ID="p14" level="1">4. No consents or approvals, other than those expressly provided for in the Asset Purchase Agreement, are required for Receiver to consummate the transactions described therein.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>Jurisdiction</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p15" level="1">5. This Court has jurisdiction to hear the Sale Motion and enter this Sale Order. Venue is proper before this Court.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>Findings of Fact</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">6. Based upon the matters presented to the Court at the Sale Hearing, the Court makes the following findings of fact:</paratext></para>
+<para><paratext ID="p17" level="1">A. On November 3, 2015, Plaintiff commenced the above captioned action following Lees breach of its credit and guaranty agreements with Plaintiff. Plaintiff sought and obtained the Receiver Order from this Court on November 16, 2015. Receiver was appointed over the Estate.</paratext></para>
+<para><paratext ID="p18" level="1">B. Since his appointment, Receiver has operated Lees' business, including the Stores.</paratext></para>
+<para><paratext ID="p19" level="1">C. Receiver has marketed Lees' business and property for sale for the benefit of the Estate.</paratext></para>
+<para><paratext ID="p20" level="1">D. Pursuant to the Bid Procedures Order, Receiver provided notice of the Auction and Sale Hearing to all required parties.</paratext></para>
+<para><paratext ID="p21" level="1">E. Receiver conducted the Auction on April 13, 2016, at 401 South Boston, Suite 2200, Tulsa, Oklahoma 74103. In addition to the Stalking Horse Bidder, four other interested parties attended the Auction.</paratext></para>
+<para><paratext ID="p22" level="1">F. At the Auction, Receiver afforded a fair opportunity for all such parties to submit additional bids pursuant to the Bid Procedures Order. However, no such party submitted an over bid.</paratext></para>
+<para><paratext ID="p23" level="1">G. Accordingly, Receiver concluded the Auction and found the Stalking Horse Bidder to be the Prevailing Bidder.</paratext></para>
+<para><paratext ID="p24" level="1">H. On March 11, 2016, the following parties filed a Motion for Limited Intervention [Doc. No. 35]: the (1) LJS Properties, LLC, (2) Alyssa M. Sanders, (3) Kasey D. Jackson, (4) Deril J. Lees, Jr., (5) Deril J. Lees, (6) Robbin G. Lees, (7) the Robbin G. Lees Amended and Restated Revocable Living Trust, (8) the Deril J. Lees Amended and Restated Revocable Living Trust, (9) the KDJ Family Trust for Parents, (10) the Kasey Diane Jackson Grantor Retained Annuity Trust, (11) the Kasey Diane Jackson Family Trust, (12) the Deril James Lees, Jr. Grantor Retained Annuity Trust, (13) the DJL Family Trust for Parents, (14) The Deril James Lees, Jr. Family Trust, (15) the AMS Family Trust for Parents, and (16) the Alyssa Marie Sanders Grantor Retained Annuity Trust (collectively, the &#x201C;<ital>Lees Parties</ital>&#x201D;).</paratext></para>
+<para><paratext ID="p25" level="1">I. At the hearing on the Motion for Intervention, Receiver and Plaintiff acknowledged that the Lees Parties had standing to intervene in this proceeding for the purpose of filing an objection to the sale.</paratext></para>
+<para><paratext ID="p26" level="1">J. On April 5, 2016, the Lees Parties filed an objection to the Sale Motion on two grounds: (i) the assignment of the Restrictive Covenants, as defined in the Asset Purchase Agreement, and (ii) the sale of the following Assets (collectively, the &#x201C;<ital>Lees Assets</ital>&#x201D;): (a) lockers at both properties which are physically attached; (b) with respect to &#x201C;Rx Workstations&#x201D; at both properties, the cabinets with attached acrylic hoods which are attached (Lees Parties do not object to the sale of computers); (c) with respect to 6136 East 51st Street property, the flooring in sterile area; (d) with respect to line item 88 on the 6136 East 51st Street property, items listed as &#x201C;Leasehold Improvements &#8212; Cabinets, Divider wall, HVAC, labor, lights, shelving&#x201D; all items which are physical attached; and (e) while not specifically listed in Exhibit B to the Sale Motion, the generator at 6236 East 51st Street.</paratext></para>
+<para><paratext ID="p27" level="1">K. At the Sale Hearing, Receiver represented to the Court it has agreed with the Lees Parties and the Buyer that: (i) the Lees Assets shall be excluded from the definition of Assets under the Asset Purchase Agreement and the Lees Assets shall not be sold to the Buyer thereunder and (ii) the Restrictive Covenants shall not be assigned to the Buyer under the Asset Purchase Agreement or otherwise.</paratext></para>
+<para><paratext ID="p28" level="1">L. At the Sale Hearing, in consideration of the representations made by Receiver set forth in the foregoing paragraph, the Lees Parties withdrew their objection to the Sale.</paratext></para>
+<para><paratext ID="p29" level="1">M. At the Sale Hearing, Receiver requested the Court to authorize it to enter into the Asset Purchase Agreement, as modified herein, with the Prevailing Bidder.</paratext></para>
+<para><paratext ID="p30" level="1">N. The Assets are subject to Plaintiff's first priority security interest granted in the credit agreements and are otherwise unencumbered. Plaintiff consented to the Sale on the terms stated in the Bid Procedures Order, the Asset Purchase Agreement and herein to Prevailing Bidder.</paratext></para>
+<para><paratext ID="p31" level="1">O. The offer made by the Prevailing Bidder was negotiated at arms' length between Receiver and each respective party. Terms of the Asset Purchase Agreement and the sale contemplated thereby are fair, reasonable and in the best interest of the Estate, the creditors and equity holders. Upon consummation of the sale transaction, the Prevailing Bidder shall be deemed a good faith purchaser for value.</paratext></para>
+<para><paratext ID="p32" level="1">K. The Prevailing Bidder is the highest and best bidder and the consideration provided in the Asset Purchase Agreement is the highest and best price for the Assets.</paratext></para>
+<para><paratext ID="p33" level="1">L. The Prevailing Bidder is not an insider or creditor of Lees, its affiliates or any party hereto, including Receiver, Plaintiff, any party or affiliate of Lees.</paratext></para>
+<para><paratext ID="p34" level="1">M. Receiver is authorized to sell the Assets to the Prevailing Bidder as the Buyer. Notwithstanding anything to the contrary herein, (i) the Lees Assets shall be excluded from the definition of Assets under the Asset Purchase Agreement and herein and the Lees Assets shall not be sold to the Buyer thereunder or herein and (ii) the Restrictive Covenants shall not be assigned to the Buyer under the Asset Purchase Agreement, herein or otherwise.</paratext></para>
+<para><paratext ID="p35" level="1">N. Receiver is authorized to sell the Assets to the Buyer without warranty of title. The Assets are to be sold pursuant to the Asset Purchase Agreement and thereby vest Buyer with all right, title and interest of Lees to the Assets free and clear of all remaining liens, claims, interests and encumbrances of any kind or nature thereof, if any. Upon closing of the sale of the Assets, all of the liens, claims and encumbrances of all creditors and parties in interest of Lees shall attach to the Proceeds with the same priority, nature, extent and validity as were present against the Assets had such not been sold without any prejudice to any party's right to assert such claims.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>Conclusions of Law</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p36" level="1">7. Based upon the findings of fact set forth above, the Court makes the following conclusions of law.</paratext></para>
+<para><paratext ID="p37" level="1">A. The Sale to Buyer is a reasonable business decision of Receiver in light of the circumstances and is in the best interest of the Estate and its creditors. The Sale to Buyer presents the best opportunity to realize the maximum value for the Assets and is necessary to preserve the value thereof.</paratext></para>
+<para><paratext ID="p38" level="1">B. The Receiver Order appointed Mr. Rhoades as Receiver over all of the Assets. When the Receiver Order was entered, this Court took possession of all of the Assets through Receiver.</paratext></para>
+<para><paratext ID="p39" level="1">C. When the Court acquired possession of the Assets upon entry of the Receiver Order, it obtained exclusive jurisdiction over the Assets and any claims against them.</paratext></para>
+<para><paratext ID="p40" level="1">D. To facilitate this Court's jurisdiction and to protect Lees' assets in its possession, other parties should be prohibited from interfering with a receiver's administration of the assets held <ital>In Custodia Legis.</ital></paratext></para>
+<para><paratext ID="p41" level="1">E. This Sale Order shall provide a permanent injunction in favor of Buyer and against all parties to this proceeding as well as non-parties with notice hereof enjoining any party hereto from asserting any lien, claim, encumbrance or any other form of legal or equitable right, remedy or claim against Buyer and all of the interest in the Assets acquired at the Sale. The entry of such an injunctive order is reasonable and necessary to protect Buyer from the assertion of any claim by any of Lee's creditors or other parties in interest. This injunction shall not prevent LJS Properties, LLC from asserting any alleged defaults with respect to the two Lease Agreements covering real property located at 510 N. Elm Place, Broken Arrow, Oklahoma, and 6136 E. 51<super style="percent_r">st</super> Street, Tulsa, Oklahoma.</paratext></para>
+<para><paratext ID="p42" level="1">F. The Sale has been conducted pursuant to the Bid Procedures Order and will be consummated pursuant to this Sale Order. The Sale constitutes a decretal sale and is subject to the &#x201C;policy of the law to sustain judicial sales.&#x201D; Any reversal of the Bid Procedures Order or the Sale Order on appeal will not vitiate the Sale nor divest Buyer of the title acquired pursuant to the this Sale Order and the Asset Purchase Agreement.</paratext></para>
+<para><paratext ID="p43" level="1">G. The Court has the authority to approve the Sale at this point in this case.</paratext></para>
+<para><paratext ID="p44" level="1">H. The Court has the jurisdiction and authority to authorize and empower the Receiver to sell the Assets free and clear of liens, claims and encumbrances.</paratext></para>
+<para><paratext ID="p45" level="1">I. The terms of the Sale pursuant to the Bid Procedures Order, the Asset Purchase Agreement and herein adequately protect all interests of all parties and are sufficient to justify this Court's approval of the sale free and clear thereby enabling the Receiver to convey to the Buyer good title to the Assets to maximize the value recovered from the sale for the benefit of all parties. This Court orders the Sale of the Assets be free and clear of all liens, claims and encumbrances with such claims to attach to the Proceeds with the same priority and validity as such claims presently have against the Assets so that there is no prejudice to the legal position of any creditor or claimant.</paratext></para>
+<para><paratext ID="p46" level="1">J. Lees was given the right to redeem the Assets by paying the total amount due on the Plaintiff's claims in cash at any time prior to the entry of this Sale Order. Lees has declined to do so and entry of this Sale Order shall extinguish Lee's equity of redemption in the Assets.</paratext></para>
+<para><paratext ID="p47" level="1"><bold>IT IS THEREFORE ORDERED, ADJUDGED AND DECREED by the Court as follows</bold>:</paratext></para>
+<para><paratext ID="p48" level="1">1. The Sale of the Assets to Buyer pursuant to the Asset Purchase Agreement and as set forth hereinabove is approved. Receiver is hereby authorized to close the Sale pursuant to the Asset Purchase Agreement and execute such documents as necessary to convey and assign the Assets (including the Assigned Contracts) to Buyer free and clear of liens, claims and encumbrances as requested herein.</paratext></para>
+<para><paratext ID="p49" level="1">2. In the event hazardous substances or hazardous waste, as defined by any federal, state or local statute, law, ordinance, or regulation, are discovered on the Assets, whether installed, placed or disposed of by Receiver or a previous owner, Receiver shall have no obligation to perform or take any remedial measures related to the removal of such, hazardous substances or hazardous waste, including any required remediation in compliance with any federal, state or local environmental regulations.</paratext></para>
+<para><paratext ID="p50" level="1">3. A permanent injunction is hereby entered in favor of Buyer and against all parties to this proceeding as well as non-parties with notice hereof enjoining any party hereto from asserting any lien, claim, encumbrance or any other form of legal or equitable right, remedy or claim against Buyer and all of the interest in the Assets acquired at the sale.</paratext></para>
+<para><paratext ID="p51" level="1">4. The Receiver will distribute the proceeds of the Sale to Fifth Third Bank at closing or as otherwise agreed between Fifth Third Bank and the Receiver. However, since there will be other duties of the Receiver that have not been completed, the Receivership will remain in full force and effect.</paratext></para>
+<para><paratext ID="p52" level="1">5. The findings of fact and conclusions of law stated above are incorporated as part of this Court's order granted hereby.</paratext></para>
+<para><paratext ID="p53" level="1"><bold>IT IS SO ORDERED</bold> this &#95;&#95; day of April, 2016.</paratext></para>
+<para><paratext ID="p54" level="0">Submitted by:</paratext></para>
+<para><paratext ID="p55" level="0"><underscore><ital>/s/Mark A. Craige</ital></underscore> Mark A. Craige, OBA No. 1992</paratext></para>
+<para><paratext ID="p56" level="0">-Of the Firm-</paratext></para>
+<para><paratext ID="p57" level="0">CROWE &#38; DUNLEVY, P.C., 500 Kennedy Building, 321 South Boston Avenue, Tulsa, OK 74103-3313, 918.592.9800 Telephone Number, 918.592.9801 Facsimile Number</paratext></para>
+<para><paratext ID="p58" level="0"><ital><bold>ATTORNEY FOR RECEIVER, C. DAVID RHOADES (&#x201C;Receiver&#x201D;)</bold></ital></paratext></para>
+<para><paratext ID="p59" level="0"><ital><underscore>/s/ C. David Rhoades</underscore></ital> C. David Rhoades, Receiver</paratext></para>
+<para><paratext ID="p60" level="0">APPROVED AS TO FORM</paratext></para>
+<para><paratext ID="p61" level="0">Respectfully submitted,</paratext></para>
+<para><paratext ID="p62" level="0"><underscore><ital>/s/ Charles Greenowh</ital></underscore>, Charles Greenough, OBA #12311, McAfee &#38; Taft A Professional Corporation, 1717 S. Boulder Ave., Suite 900, Tulsa, OK 74119, (918)587-0000, (918) 574-3105 fax, charles.greenough@mcafeetaft.com</paratext></para>
+<para><paratext ID="p63" level="1"><ital><bold>ATTORNEY FOR LEES PARTIES</bold></ital></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

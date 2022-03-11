@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="Expense Report">
+		<Folder FolderName="XML Files" XSL_XMLUseSet="Yes" XSL_XMLUseFile=".\ExpReport.xslt" XSL_DestFolderSet="Yes" XSL_DestFolder=".\">
+			<File FilePath=".\ExpReport.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="XSL Files">
+			<File FilePath=".\ExpReport.xslt" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="DTD/Schemas">
+			<File FilePath=".\ExpReport.xsd" HomeFolder="Yes"/>
+		</Folder>
+	</Folder>
+	<Folder FolderName="International">
+		<Folder FolderName="XML Files" ExtStr="xml;cml;math;mtx;rdf;smil;svg;wml" XSL_XMLUseFile=".\OrgChart.xsl" XSL_DestFolderSet="Yes" XSL_DestFolder=".\">
+			<File FilePath=".\Japanese Shift_JIS.xml" HomeFolder="Yes"/>
+			<File FilePath=".\Japanese UCS-4.xml" HomeFolder="Yes"/>
+			<File FilePath=".\Japanese UTF-16.xml" HomeFolder="Yes"/>
+			<File FilePath=".\Russian.xml" HomeFolder="Yes"/>
+		</Folder>
+		<Folder FolderName="HTML Files">
+			<File FilePath=".\Unicode UTF-8.html" HomeFolder="Yes"/>
+		</Folder>
+	</Folder>
+</Project>

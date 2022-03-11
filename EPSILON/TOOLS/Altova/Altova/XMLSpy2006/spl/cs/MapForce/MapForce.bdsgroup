@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>[$TestProjectGroupGuid = createguid]
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">Default.Personality</Option>
+			<Option Name="ProjectType" Type="String"></Option>
+			<Option Name="Version" Type="String">1.0</Option>
+			<Option Name="GUID" Type="String">{[=$TestProjectGroupGuid]}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="[=$application.Name].exe" Type="String">[=$application.Name].bdsproj</Projects>
+[foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+]      <Projects Name="[=$module].dll" Type="String">..\\[=$module]\\[=$module].bdsproj</Projects>
+[next]
+      <Projects Name="AltovaFunctions.dll" Type="String">..\\AltovaFunctions\\AltovaFunctions.bdsproj</Projects>
+[if $DBLibraryCount > 0
+]      <Projects Name="AltovaDB.dll" Type="String">..\\AltovaDB\\AltovaDB.bdsproj</Projects>
+[endif
+][if $EDILibraryCount > 0
+]      <Projects Name="AltovaText.dll" Type="String">..\\AltovaText\\AltovaText.bdsproj</Projects>
+[endif
+]      <Projects Name="AltovaXML.dll" Type="String">..\\AltovaXML\\AltovaXML.bdsproj</Projects>
+      <Projects Name="Altova.dll" Type="String">..\\Altova\\Altova.bdsproj</Projects>
+      <Projects Name="Targets" Type="String">[=$application.Name].exe [
+foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+	if $library.Kind <> 4
+		$ProjectLibGuid	= $library.Guid
+		] [=$module].dll [
+	endif
+next
+	]AltovaFunctions.dll [if $DBLibraryCount > 0]AltovaDB.dll [endif][if $EDILibraryCount > 0]AltovaText.dll [endif]AltovaXML.dll Altova.dll</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{[=$TestProjectGuid]}">
+[foreach $library in $application.Libraries
+	if $library.Kind <> 4 :
+		$ProjectLibGuid	= $library.Guid
+]        <Dependency GUID="{[=$ProjectLibGuid]}"/>
+[	endif
+next
+]		<Dependency GUID="{[=$AltovaFunctionsGuid]}"/>
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+[foreach $library in $application.Libraries
+	if $library.Kind <> 4
+		$ProjectLibGuid	= $library.Guid
+]      <Dependency GUID="{[=$ProjectLibGuid]}">
+[		if $DBLibraryCount > 0
+]        <Dependency GUID="{[=$AltovaDBLibGuid]}"/>
+[		endif
+][		if $EDILibraryCount > 0
+]        <Dependency GUID="{[=$AltovaTextLibGuid]}"/>
+[		endif
+]        <Dependency GUID="{[=$AltovaXMLLibGuid]}"/>
+      </Dependency>
+[	endif
+next
+]      <Dependency GUID="{[=$AltovaFunctionsGuid]}">
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+[if $DBLibraryCount > 0]
+      <Dependency GUID="{[=$AltovaDBLibGuid]}">
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+[endif]
+[if $EDILibraryCount > 0]
+      <Dependency GUID="{[=$AltovaTextLibGuid]}">
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+[endif]
+      <Dependency GUID="{[=$AltovaXMLLibGuid]}">
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>

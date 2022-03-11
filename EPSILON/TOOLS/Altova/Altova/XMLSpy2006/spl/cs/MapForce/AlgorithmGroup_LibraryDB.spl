@@ -1,0 +1,73 @@
+[
+' // Subroutines for AlgorithmGroup.cs
+' // Language = C#
+' ////////////////////////////////////////////////////////////////////////
+
+' // Database Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryDB:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryDB( byref $rSourceLibrary, byref $rArgs )
+	$lRootName	= $rSourceLibrary.UniqueName
+	$lQRootType	= $rSourceLibrary.Name & "." & $rSourceLibrary.Type
+]			WriteTrace("Connecting to [=$rSourceLibrary.Name] database...\\n");
+			[=$lQRootType] [=$lRootName]SourceObject = new [=$lQRootType]([=$lRootName]SourceConnection );
+			m_[=$lRootName]Instance = [=$lRootName]SourceObject;
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' FinalizeSourceLibraryDB:
+' ------------------------------------------------------------------------
+sub FinalizeSourceLibraryDB( byref $rSourceLibrary, byref $rArgs )
+	$lRootName	= $rSourceLibrary.UniqueName
+	$lQRootType	= $rSourceLibrary.Name & "." & $rSourceLibrary.Type
+]			[=$lRootName]SourceObject.Close();
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryDB:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryDB( byref $rRootName, byref $rIndent )
+	$rRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$lQRootType	= $AlgorithmGroup.TargetParentContext.LibraryName & "." & $AlgorithmGroup.TargetParentContext.Library.Type
+]			WriteTrace("Connecting to [=$AlgorithmGroup.TargetContext.Name] database...\\n");
+			[=$lQRootType] [=$rRootName]TargetObject = new [=$lQRootType]([=$rRootName]TargetConnection );
+			try
+			{
+[	$Indent = "			"
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryDB:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryDB()
+	$lRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+]			}
+			catch( DBTransactionException e )
+			{
+				if( e.Kind == DBTransactionException.EErrorKind.RollbackAll )
+					[=$lRootName]TargetObject.RollbackTransactionOnClose = true;
+			}
+			catch( DBException e )
+			{
+				[=$lRootName]TargetObject.RollbackTransactionOnClose = true;
+				[=$lRootName]TargetObject.Close();
+				throw e;
+			}
+			[=$lRootName]TargetObject.Close();
+[
+endsub
+
+' EOF
+]
+

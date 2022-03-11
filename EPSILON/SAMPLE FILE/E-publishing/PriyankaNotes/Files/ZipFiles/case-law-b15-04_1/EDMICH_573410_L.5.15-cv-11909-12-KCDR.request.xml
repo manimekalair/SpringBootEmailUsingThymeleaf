@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>EASTERN DISTRICT OF MICHIGAN</venue.name>
+<venue.name>SOUTHERN DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>BRUSH CONTROLS, INC., Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>EXECUTIVE AUTOMATION SYSTEMS, INC., Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 15-11909</docket.line>
+<docket.number>15-11909</docket.number>
+<docket.line suppress-flag="y">5:15-cv-11909-JCO-MJH</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/19/2015</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER GRANTING DEFENDANT'S MOTION TO DISMISS</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Honorable John Corbett O'Meara United States District Judge, William Barkholz Case Manager</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">This matter came before the court on defendant Executive Automation Systems' July 25, 2015 motion to dismiss. Plaintiff Brush Controls filed a response August 20, 2015; and Defendant filed a reply September 8, 2015. Oral argument was heard October 15, 2015.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>BACKGROUND FACTS</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Plaintiff Brush Controls and defendant Executive Automation Systems (&#x201C;EAS&#x201D;) entered into an agreement in which EAS appointed Brush Controls as its exclusive sales representative in Michigan, sixteen counties in Indiana, and twelve counties in Ontario, Canada. Paragraph 14 of the agreement sets forth the parties' selected forum for resolution of any disputes as follows:</paratext>
+<para><paratext ID="p3" first-line="1" turnover="1">This Agreement shall in all respects be interpreted and construed in accordance with and governed by the laws of the State of Indiana. Jurisdiction of any claim in connection with this agreement shall be with the Marion County Superior Court in Marion County, Indiana.</paratext></para>
+</para>
+<para><paratext ID="p4" level="1">Plaintiff Brush Controls filed its complaint against EAS in this court May 28, 2015, alleging claims for breach of contract in Count I and violation of the Michigan Sales Representatives Commission Act in Count II.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>LAW AND ANALYSIS</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">&#x201C;[T]he appropriate way to enforce a forum-selection clause pointing to a state or foreign forum is through the doctrine of <ital>forum non conveniens.</ital>&#x201D; <underscore>Atlantic Marine Constr. Co. v. United States Dist. Court for the W. Dist. Of Texas</underscore>, 134 S.Ct. 568, 580 (2013). The United States Court of Appeals has since indicated that a Rule 12(b)(6) motion to dismiss is an appropriate vehicle for relief. <underscore>Smith v. Aegon Cos. Pension Plan</underscore>, 769 F.3d 922, 933 (6<super style="percent_r">th</super> Cir. 2014).</paratext></para>
+<para><paratext ID="p6" level="1">&#x201C;When the parties have agreed to a valid forum-selection clause, a district court should ordinarily transfer the case to the forum specified in that clause&#x201D; and &#x201C;not necessarily disrupt the parties' settled expectations.&#x201D; <underscore>Atlantic Marine</underscore>, 134 S. Ct. at 581, 583. The plaintiff's choice of forum &#x201C;merits no weight,&#x201D; and &#x201C;the plaintiff bears the burden of establishing that transfer to the forum for which the parties bargained is unwarranted.&#x201D; <underscore>Id</underscore>. at 581. Ultimately, &#x201C;forum-selection clauses should control except in unusual cases.&#x201D; <underscore>Id</underscore>. at 582.</paratext></para>
+<para><paratext ID="p7" level="1">In this case the forum-selection clause is unambiguous and mandatory: &#x201C;Jurisdiction <charfill numchar="3">&#8228;</charfill> <ital>shall be</ital> with the Marion County Superior Court in Marion County, Indiana.&#x201D; Both of the claims alleged in the complaint arise &#x201C;in connection&#x201D; with the agreement, including a claim for commission payments under the terms of the agreement. Therefore, the entire complaint is subject to dismissal under the forum selection clause. <underscore>See Interamerican Trade Corp. v. Companhia Fabricadora De Pecas</underscore>, 973 F.2d 487, 490 (6<super style="percent_r">th</super> Cir. 1992).</paratext></para>
+<para><paratext ID="p8" level="1">Plaintiff Brush Controls has failed to show there is anything unusual about this case that would warrant this court's refusal to apply the unambiguous terms of the forum selection clause.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">It is hereby <bold>ORDERED</bold> that Defendant's motion to dismiss is <bold>GRANTED.</bold></paratext></para>
+<para><paratext ID="p10" level="1">Date: October 19, 2015</paratext></para>
+<para><paratext ID="p11" level="1">I hereby certify that a copy of the foregoing document was served upon counsel of record on this date, October 19, 2015, using the ECF system.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

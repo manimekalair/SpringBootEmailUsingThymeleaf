@@ -1,0 +1,3519 @@
+&blue-on-cyan color class for after-exiting: white on black
+&blue-on-cyan color class for c-charconst: magenta on brightcyan
+&blue-on-cyan color class for c-comment: green on brightcyan
+&blue-on-cyan color class for c-function: brightblue on brightcyan
+&blue-on-cyan color class for c-identifier: brightblue on brightcyan
+&blue-on-cyan color class for c-keyword: black on brightcyan
+&blue-on-cyan color class for c-number: green on brightcyan
+&blue-on-cyan color class for c-preprocessor: magenta on brightcyan
+&blue-on-cyan color class for c-punctuation: brightblack on brightcyan
+&blue-on-cyan color class for c-string: magenta on brightcyan
+&blue-on-cyan color class for debug-highlight: brightwhite on blue
+&blue-on-cyan color class for debug-text: blue on brightwhite
+&blue-on-cyan color class for default: red on brightwhite
+&blue-on-cyan color class for echo-area: blue on brightcyan
+&blue-on-cyan color class for highlight: brightwhite on brightblue
+&blue-on-cyan color class for horiz-border: black on brightcyan
+&blue-on-cyan color class for menu-bar-highlight: blue on brightwhite
+&blue-on-cyan color class for menu-bar: black on brightgreen
+&blue-on-cyan color class for menu-highlight: blue on yellow
+&blue-on-cyan color class for menu: blue on brightwhite
+&blue-on-cyan color class for mode-line: black on brightcyan
+&blue-on-cyan color class for overlap-even: brightcyan on brightblue
+&blue-on-cyan color class for overlap-odd: yellow on brightblue
+&blue-on-cyan color class for popup-border: red on brightwhite
+&blue-on-cyan color class for popup-title: red on brightwhite
+&blue-on-cyan color class for screen-border: brightblack on brightcyan
+&blue-on-cyan color class for selected-link: brightred on brightwhite
+&blue-on-cyan color class for submenu-highlight: blue on brightwhite
+&blue-on-cyan color class for submenu: black on brightgreen
+&blue-on-cyan color class for text: brightblack on brightcyan
+&blue-on-cyan color class for vert-border: black on brightcyan
+&blue-on-cyan color class for viewed-border: red on brightwhite
+&blue-on-cyan color class for viewed-link: brightgreen on brightwhite
+&blue-on-cyan color class for viewed-text: blue on brightwhite
+&borlandc color class for after-exiting: white on black
+&borlandc color class for c-charconst: brightcyan on blue
+&borlandc color class for c-comment: white on blue
+&borlandc color class for c-function: yellow on blue
+&borlandc color class for c-identifier: yellow on blue
+&borlandc color class for c-keyword: brightwhite on blue
+&borlandc color class for c-number: brightcyan on blue
+&borlandc color class for c-preprocessor: brightgreen on blue
+&borlandc color class for c-punctuation: brightwhite on blue
+&borlandc color class for c-string: brightcyan on blue
+&borlandc color class for debug-highlight: brightwhite on blue
+&borlandc color class for debug-text: blue on brightwhite
+&borlandc color class for default: red on brightwhite
+&borlandc color class for echo-area: black on white
+&borlandc color class for highlight: blue on white
+&borlandc color class for horiz-border: brightwhite on blue
+&borlandc color class for menu-bar-highlight: black on green
+&borlandc color class for menu-bar: black on white
+&borlandc color class for menu-highlight: black on green
+&borlandc color class for menu: black on white
+&borlandc color class for mode-line: brightwhite on blue
+&borlandc color class for overlap-even: brightcyan on brightblue
+&borlandc color class for overlap-odd: yellow on brightblue
+&borlandc color class for popup-border: brightwhite on white
+&borlandc color class for popup-title: brightwhite on white
+&borlandc color class for screen-border: brightwhite on black
+&borlandc color class for selected-link: brightred on white
+&borlandc color class for submenu-highlight: black on green
+&borlandc color class for submenu: black on white
+&borlandc color class for text: yellow on blue
+&borlandc color class for vert-border: brightwhite on blue
+&borlandc color class for viewed-border: black on white
+&borlandc color class for viewed-link: brightgreen on white
+&borlandc color class for viewed-text: black on white
+&dos-edit color class for after-exiting: white on black
+&dos-edit color class for c-charconst: brightcyan on blue
+&dos-edit color class for c-comment: white on blue
+&dos-edit color class for c-function: yellow on blue
+&dos-edit color class for c-identifier: yellow on blue
+&dos-edit color class for c-keyword: brightwhite on blue
+&dos-edit color class for c-number: brightcyan on blue
+&dos-edit color class for c-preprocessor: brightgreen on blue
+&dos-edit color class for c-punctuation: white on blue
+&dos-edit color class for c-string: brightcyan on blue
+&dos-edit color class for debug-highlight: brightwhite on blue
+&dos-edit color class for debug-text: blue on brightwhite
+&dos-edit color class for default: red on brightwhite
+&dos-edit color class for echo-area: brightwhite on cyan
+&dos-edit color class for highlight: blue on white
+&dos-edit color class for horiz-border: white on blue
+&dos-edit color class for menu-bar-highlight: white on black
+&dos-edit color class for menu-bar: black on white
+&dos-edit color class for menu-highlight: white on black
+&dos-edit color class for menu: black on white
+&dos-edit color class for mode-line: blue on white
+&dos-edit color class for overlap-even: brightcyan on brightblue
+&dos-edit color class for overlap-odd: yellow on brightblue
+&dos-edit color class for popup-border: black on white
+&dos-edit color class for popup-title: black on white
+&dos-edit color class for screen-border: white on black
+&dos-edit color class for selected-link: brightred on black
+&dos-edit color class for submenu-highlight: white on black
+&dos-edit color class for submenu: black on white
+&dos-edit color class for text: white on blue
+&dos-edit color class for vert-border: white on blue
+&dos-edit color class for viewed-border: white on black
+&dos-edit color class for viewed-link: brightgreen on black
+&dos-edit color class for viewed-text: white on black
+&grey-background color class for after-exiting: brightwhite on white
+&grey-background color class for c-charconst: red on white
+&grey-background color class for c-comment: cyan on white
+&grey-background color class for c-function: brightblue on white
+&grey-background color class for c-identifier: black on white
+&grey-background color class for c-keyword: black on white
+&grey-background color class for c-number: black on white
+&grey-background color class for c-preprocessor: red on white
+&grey-background color class for c-punctuation: black on white
+&grey-background color class for c-string: red on white
+&grey-background color class for debug-highlight: brightwhite on blue
+&grey-background color class for debug-text: brightblue on yellow
+&grey-background color class for default: red on yellow
+&grey-background color class for echo-area: brightblue on white
+&grey-background color class for highlight: black on yellow
+&grey-background color class for horiz-border: red on white
+&grey-background color class for menu-bar-highlight: brightblue on yellow
+&grey-background color class for menu-bar: black on brightcyan
+&grey-background color class for menu-highlight: brightblue on brightcyan
+&grey-background color class for menu: brightblue on yellow
+&grey-background color class for mode-line: red on white
+&grey-background color class for overlap-even: red on blue
+&grey-background color class for overlap-odd: brightblue on cyan
+&grey-background color class for popup-border: red on yellow
+&grey-background color class for popup-title: red on yellow
+&grey-background color class for screen-border: black on white
+&grey-background color class for selected-link: brightred on yellow
+&grey-background color class for submenu-highlight: brightblue on yellow
+&grey-background color class for submenu: black on brightcyan
+&grey-background color class for text: black on white
+&grey-background color class for vert-border: red on white
+&grey-background color class for viewed-border: red on yellow
+&grey-background color class for viewed-link: brightgreen on yellow
+&grey-background color class for viewed-text: brightblue on yellow
+&night-light color class for after-exiting: white on black
+&night-light color class for c-charconst: brightblue on black
+&night-light color class for c-comment: white on black
+&night-light color class for c-function: brightwhite on black
+&night-light color class for c-identifier: brightwhite on black
+&night-light color class for c-keyword: brightcyan on black
+&night-light color class for c-number: white on black
+&night-light color class for c-preprocessor: green on black
+&night-light color class for c-punctuation: cyan on black
+&night-light color class for c-string: brightblue on black
+&night-light color class for debug-highlight: white on blue
+&night-light color class for debug-text: blue on white
+&night-light color class for default: red on white
+&night-light color class for echo-area: yellow on black
+&night-light color class for highlight: black on brightwhite
+&night-light color class for horiz-border: brightcyan on black
+&night-light color class for menu-bar-highlight: blue on white
+&night-light color class for menu-bar: black on cyan
+&night-light color class for menu-highlight: blue on cyan
+&night-light color class for menu: blue on white
+&night-light color class for mode-line: brightcyan on black
+&night-light color class for overlap-even: cyan on blue
+&night-light color class for overlap-odd: yellow on cyan
+&night-light color class for popup-border: red on white
+&night-light color class for popup-title: red on white
+&night-light color class for screen-border: brightwhite on black
+&night-light color class for selected-link: brightred on white
+&night-light color class for submenu-highlight: blue on white
+&night-light color class for submenu: black on cyan
+&night-light color class for text: brightwhite on black
+&night-light color class for vert-border: brightcyan on black
+&night-light color class for viewed-border: red on white
+&night-light color class for viewed-link: brightgreen on white
+&night-light color class for viewed-text: blue on white
+&other-grey color class for after-exiting: brightwhite on black
+&other-grey color class for c-charconst: red on white
+&other-grey color class for c-comment: cyan on white
+&other-grey color class for c-function: brightblue on white
+&other-grey color class for c-identifier: black on white
+&other-grey color class for c-keyword: black on white
+&other-grey color class for c-number: black on white
+&other-grey color class for c-preprocessor: red on white
+&other-grey color class for c-punctuation: black on white
+&other-grey color class for c-string: red on white
+&other-grey color class for debug-highlight: brightwhite on blue
+&other-grey color class for debug-text: brightblue on yellow
+&other-grey color class for default: red on yellow
+&other-grey color class for echo-area: brightblue on black
+&other-grey color class for highlight: brightwhite on blue
+&other-grey color class for horiz-border: red on black
+&other-grey color class for menu-bar-highlight: brightblue on yellow
+&other-grey color class for menu-bar: black on brightcyan
+&other-grey color class for menu-highlight: brightwhite on blue
+&other-grey color class for menu: black on black
+&other-grey color class for mode-line: red on black
+&other-grey color class for overlap-even: red on blue
+&other-grey color class for overlap-odd: brightblue on cyan
+&other-grey color class for popup-border: red on yellow
+&other-grey color class for popup-title: red on yellow
+&other-grey color class for screen-border: black on black
+&other-grey color class for selected-link: brightmagenta on black
+&other-grey color class for submenu-highlight: brightblue on yellow
+&other-grey color class for submenu: black on brightcyan
+&other-grey color class for text: black on white
+&other-grey color class for vert-border: red on black
+&other-grey color class for viewed-border: red on black
+&other-grey color class for viewed-link: green on black
+&other-grey color class for viewed-text: brightblue on black
+&standard-color color class for after-exiting: white on black
+&standard-color color class for c-charconst: brightcyan on black
+&standard-color color class for c-comment: brightwhite on black
+&standard-color color class for c-function: yellow on black
+&standard-color color class for c-identifier: brightgreen on black
+&standard-color color class for c-keyword: brightgreen on black
+&standard-color color class for c-number: brightgreen on black
+&standard-color color class for c-preprocessor: cyan on black
+&standard-color color class for c-punctuation: brightgreen on black
+&standard-color color class for c-string: brightcyan on black
+&standard-color color class for debug-highlight: white on blue
+&standard-color color class for debug-text: blue on white
+&standard-color color class for default: red on white
+&standard-color color class for echo-area: yellow on black
+&standard-color color class for highlight: brightwhite on green
+&standard-color color class for horiz-border: brightcyan on black
+&standard-color color class for menu-bar-highlight: blue on white
+&standard-color color class for menu-bar: black on cyan
+&standard-color color class for menu-highlight: blue on cyan
+&standard-color color class for menu: blue on white
+&standard-color color class for mode-line: brightcyan on black
+&standard-color color class for overlap-even: cyan on blue
+&standard-color color class for overlap-odd: yellow on cyan
+&standard-color color class for popup-border: red on white
+&standard-color color class for popup-title: red on white
+&standard-color color class for screen-border: brightgreen on black
+&standard-color color class for selected-link: brightred on white
+&standard-color color class for submenu-highlight: blue on white
+&standard-color color class for submenu: black on cyan
+&standard-color color class for text: brightgreen on black
+&standard-color color class for vert-border: brightcyan on black
+&standard-color color class for viewed-border: red on white
+&standard-color color class for viewed-link: brightgreen on white
+&standard-color color class for viewed-text: blue on white
+&standard-gui color class for after-exiting: black on black
+&standard-gui color class for c-charconst: red on black
+&standard-gui color class for c-comment: green on black
+&standard-gui color class for c-function: brightblue on black
+&standard-gui color class for c-identifier: black on black
+&standard-gui color class for c-keyword: black on black
+&standard-gui color class for c-number: black on black
+&standard-gui color class for c-preprocessor: brightblack on black
+&standard-gui color class for c-punctuation: black on black
+&standard-gui color class for c-string: red on black
+&standard-gui color class for debug-highlight: brightwhite on brightblue
+&standard-gui color class for debug-text: brightblue on yellow
+&standard-gui color class for default: red on yellow
+&standard-gui color class for echo-area: brightred on black
+&standard-gui color class for highlight: brightwhite on blue
+&standard-gui color class for horiz-border: brightblack on black
+&standard-gui color class for menu-bar-highlight: brightblue on yellow
+&standard-gui color class for menu-bar: black on brightcyan
+&standard-gui color class for menu-highlight: black on brightcyan
+&standard-gui color class for menu: black on black
+&standard-gui color class for mode-line: blue on black
+&standard-gui color class for overlap-even: black on yellow
+&standard-gui color class for overlap-odd: brightblue on brightcyan
+&standard-gui color class for popup-border: red on yellow
+&standard-gui color class for popup-title: red on yellow
+&standard-gui color class for screen-border: black on black
+&standard-gui color class for selected-link: brightmagenta on black
+&standard-gui color class for submenu-highlight: brightblue on yellow
+&standard-gui color class for submenu: black on brightcyan
+&standard-gui color class for text: black on brightwhite
+&standard-gui color class for vert-border: brightblack on black
+&standard-gui color class for viewed-border: red on yellow
+&standard-gui color class for viewed-link: green on black
+&standard-gui color class for viewed-text: brightblue on black
+&standard-mono color class for after-exiting: white on black
+&standard-mono color class for c-charconst: white on black
+&standard-mono color class for c-comment: white on black
+&standard-mono color class for c-function: white on black
+&standard-mono color class for c-identifier: white on black
+&standard-mono color class for c-keyword: white on black
+&standard-mono color class for c-number: white on black
+&standard-mono color class for c-preprocessor: white on black
+&standard-mono color class for c-punctuation: white on black
+&standard-mono color class for c-string: white on black
+&standard-mono color class for debug-highlight: black on white
+&standard-mono color class for debug-text: white on black
+&standard-mono color class for default: brightblue on black
+&standard-mono color class for echo-area: white on black
+&standard-mono color class for highlight: black on white
+&standard-mono color class for horiz-border: brightwhite on black
+&standard-mono color class for menu-bar-highlight: white on black
+&standard-mono color class for menu-bar: black on white
+&standard-mono color class for menu-highlight: black on white
+&standard-mono color class for menu: white on black
+&standard-mono color class for mode-line: brightwhite on black
+&standard-mono color class for overlap-even: brightblue on black
+&standard-mono color class for overlap-odd: blue on black
+&standard-mono color class for popup-border: brightwhite on black
+&standard-mono color class for popup-title: brightwhite on black
+&standard-mono color class for screen-border: white on black
+&standard-mono color class for selected-link: brightred on black
+&standard-mono color class for submenu-highlight: white on black
+&standard-mono color class for submenu: black on white
+&standard-mono color class for text: white on black
+&standard-mono color class for vert-border: brightwhite on black
+&standard-mono color class for viewed-border: brightwhite on black
+&standard-mono color class for viewed-link: brightgreen on black
+&standard-mono color class for viewed-text: white on black
+&visual-c color class for after-exiting: black on black
+&visual-c color class for c-charconst: black on black
+&visual-c color class for c-comment: green on black
+&visual-c color class for c-function: black on black
+&visual-c color class for c-identifier: black on black
+&visual-c color class for c-keyword: brightblue on black
+&visual-c color class for c-number: black on black
+&visual-c color class for c-preprocessor: brightblue on black
+&visual-c color class for c-punctuation: black on black
+&visual-c color class for c-string: black on black
+&visual-c color class for debug-highlight: brightwhite on brightblue
+&visual-c color class for debug-text: brightblue on yellow
+&visual-c color class for default: red on yellow
+&visual-c color class for echo-area: brightred on black
+&visual-c color class for highlight: brightwhite on black
+&visual-c color class for horiz-border: brightblack on black
+&visual-c color class for menu-bar-highlight: brightblue on yellow
+&visual-c color class for menu-bar: black on brightcyan
+&visual-c color class for menu-highlight: black on brightcyan
+&visual-c color class for menu: black on brightwhite
+&visual-c color class for mode-line: blue on black
+&visual-c color class for overlap-even: black on yellow
+&visual-c color class for overlap-odd: brightblue on brightcyan
+&visual-c color class for popup-border: red on yellow
+&visual-c color class for popup-title: red on yellow
+&visual-c color class for screen-border: black on black
+&visual-c color class for selected-link: brightmagenta on black
+&visual-c color class for submenu-highlight: brightblue on yellow
+&visual-c color class for submenu: black on brightcyan
+&visual-c color class for text: black on brightwhite
+&visual-c color class for vert-border: brightblack on black
+&visual-c color class for viewed-border: red on yellow
+&visual-c color class for viewed-link: green on brightwhite
+&visual-c color class for viewed-text: brightblue on brightwhite
+&white-background color class for after-exiting: white on black
+&white-background color class for c-charconst: brightblue on brightwhite
+&white-background color class for c-comment: blue on brightwhite
+&white-background color class for c-function: black on brightwhite
+&white-background color class for c-identifier: black on brightwhite
+&white-background color class for c-keyword: magenta on brightwhite
+&white-background color class for c-number: brightblue on brightwhite
+&white-background color class for c-preprocessor: green on brightwhite
+&white-background color class for c-punctuation: brightblack on brightwhite
+&white-background color class for c-string: brightblue on brightwhite
+&white-background color class for debug-highlight: yellow on blue
+&white-background color class for debug-text: blue on yellow
+&white-background color class for default: red on brightwhite
+&white-background color class for echo-area: brightblue on brightwhite
+&white-background color class for highlight: brightwhite on blue
+&white-background color class for horiz-border: cyan on brightwhite
+&white-background color class for menu-bar-highlight: brightgreen on brightblue
+&white-background color class for menu-bar: yellow on brightblue
+&white-background color class for menu-highlight: blue on yellow
+&white-background color class for menu: blue on brightcyan
+&white-background color class for mode-line: cyan on brightwhite
+&white-background color class for overlap-even: cyan on blue
+&white-background color class for overlap-odd: yellow on cyan
+&white-background color class for popup-border: brightblue on brightcyan
+&white-background color class for popup-title: brightblue on brightcyan
+&white-background color class for screen-border: brightblack on brightwhite
+&white-background color class for selected-link: brightred on brightcyan
+&white-background color class for submenu-highlight: brightgreen on brightblue
+&white-background color class for submenu: yellow on brightblue
+&white-background color class for text: brightblack on brightwhite
+&white-background color class for vert-border: cyan on brightwhite
+&white-background color class for viewed-border: brightblue on brightcyan
+&white-background color class for viewed-link: brightgreen on brightcyan
+&white-background color class for viewed-text: brown on brightcyan
+&white-on-blue color class for after-exiting: white on black
+&white-on-blue color class for c-charconst: brightcyan on blue
+&white-on-blue color class for c-comment: white on blue
+&white-on-blue color class for c-function: brightwhite on blue
+&white-on-blue color class for c-identifier: brightwhite on blue
+&white-on-blue color class for c-keyword: yellow on blue
+&white-on-blue color class for c-number: brightcyan on blue
+&white-on-blue color class for c-preprocessor: brightgreen on blue
+&white-on-blue color class for c-punctuation: white on blue
+&white-on-blue color class for c-string: brightcyan on blue
+&white-on-blue color class for debug-highlight: brightwhite on blue
+&white-on-blue color class for debug-text: blue on brightwhite
+&white-on-blue color class for default: red on brightwhite
+&white-on-blue color class for echo-area: yellow on blue
+&white-on-blue color class for highlight: blue on white
+&white-on-blue color class for horiz-border: brightcyan on blue
+&white-on-blue color class for menu-bar-highlight: blue on brightwhite
+&white-on-blue color class for menu-bar: black on brightcyan
+&white-on-blue color class for menu-highlight: blue on brightcyan
+&white-on-blue color class for menu: blue on brightwhite
+&white-on-blue color class for mode-line: brightcyan on blue
+&white-on-blue color class for overlap-even: brightcyan on brightblue
+&white-on-blue color class for overlap-odd: yellow on brightblue
+&white-on-blue color class for popup-border: red on brightwhite
+&white-on-blue color class for popup-title: red on brightwhite
+&white-on-blue color class for screen-border: white on blue
+&white-on-blue color class for selected-link: brightred on brightwhite
+&white-on-blue color class for submenu-highlight: blue on brightwhite
+&white-on-blue color class for submenu: black on brightcyan
+&white-on-blue color class for text: brightwhite on blue
+&white-on-blue color class for vert-border: brightcyan on blue
+&white-on-blue color class for viewed-border: red on brightwhite
+&white-on-blue color class for viewed-link: brightgreen on brightwhite
+&white-on-blue color class for viewed-text: blue on brightwhite
+&window-black color class for after-exiting: white on black
+&window-black color class for c-charconst: brightcyan on black
+&window-black color class for c-comment: brightwhite on black
+&window-black color class for c-function: yellow on black
+&window-black color class for c-identifier: brightgreen on black
+&window-black color class for c-keyword: brightgreen on black
+&window-black color class for c-number: brightgreen on black
+&window-black color class for c-preprocessor: cyan on black
+&window-black color class for c-punctuation: brightgreen on black
+&window-black color class for c-string: brightcyan on black
+&window-black color class for debug-highlight: white on blue
+&window-black color class for debug-text: blue on white
+&window-black color class for default: red on white
+&window-black color class for echo-area: yellow on black
+&window-black color class for highlight: brightwhite on green
+&window-black color class for horiz-border: brightcyan on black
+&window-black color class for menu-bar-highlight: blue on white
+&window-black color class for menu-bar: black on cyan
+&window-black color class for menu-highlight: blue on cyan
+&window-black color class for menu: blue on white
+&window-black color class for mode-line: brightcyan on black
+&window-black color class for overlap-even: cyan on blue
+&window-black color class for overlap-odd: yellow on cyan
+&window-black color class for popup-border: red on white
+&window-black color class for popup-title: red on white
+&window-black color class for screen-border: brightgreen on black
+&window-black color class for selected-link: brightred on white
+&window-black color class for submenu-highlight: blue on white
+&window-black color class for submenu: black on cyan
+&window-black color class for text: brightgreen on black
+&window-black color class for vert-border: brightcyan on black
+&window-black color class for viewed-border: red on white
+&window-black color class for viewed-link: brightgreen on white
+&window-black color class for viewed-text: blue on white
+&window-blue color class for after-exiting: white on black
+&window-blue color class for c-charconst: brightcyan on blue
+&window-blue color class for c-comment: brightwhite on blue
+&window-blue color class for c-function: yellow on blue
+&window-blue color class for c-identifier: brightgreen on blue
+&window-blue color class for c-keyword: brightgreen on blue
+&window-blue color class for c-number: brightgreen on blue
+&window-blue color class for c-preprocessor: cyan on blue
+&window-blue color class for c-punctuation: brightgreen on blue
+&window-blue color class for c-string: brightcyan on blue
+&window-blue color class for debug-highlight: white on blue
+&window-blue color class for debug-text: blue on white
+&window-blue color class for default: red on white
+&window-blue color class for echo-area: yellow on black
+&window-blue color class for highlight: brightwhite on green
+&window-blue color class for horiz-border: brightcyan on blue
+&window-blue color class for menu-bar-highlight: blue on white
+&window-blue color class for menu-bar: black on cyan
+&window-blue color class for menu-highlight: blue on cyan
+&window-blue color class for menu: blue on white
+&window-blue color class for mode-line: brightcyan on blue
+&window-blue color class for overlap-even: cyan on blue
+&window-blue color class for overlap-odd: yellow on cyan
+&window-blue color class for popup-border: red on white
+&window-blue color class for popup-title: red on white
+&window-blue color class for screen-border: brightgreen on black
+&window-blue color class for selected-link: brightred on white
+&window-blue color class for submenu-highlight: blue on white
+&window-blue color class for submenu: black on cyan
+&window-blue color class for text: brightgreen on blue
+&window-blue color class for vert-border: brightcyan on blue
+&window-blue color class for viewed-border: red on white
+&window-blue color class for viewed-link: brightgreen on white
+&window-blue color class for viewed-text: blue on white
+&window-brown color class for after-exiting: white on black
+&window-brown color class for c-charconst: brightcyan on brown
+&window-brown color class for c-comment: brightwhite on brown
+&window-brown color class for c-function: brightgreen on brown
+&window-brown color class for c-identifier: yellow on brown
+&window-brown color class for c-keyword: yellow on brown
+&window-brown color class for c-number: yellow on brown
+&window-brown color class for c-preprocessor: black on brown
+&window-brown color class for c-punctuation: yellow on brown
+&window-brown color class for c-string: brightcyan on brown
+&window-brown color class for debug-highlight: white on blue
+&window-brown color class for debug-text: blue on white
+&window-brown color class for default: red on white
+&window-brown color class for echo-area: yellow on black
+&window-brown color class for highlight: brightwhite on green
+&window-brown color class for horiz-border: brightcyan on brown
+&window-brown color class for menu-bar-highlight: blue on white
+&window-brown color class for menu-bar: black on cyan
+&window-brown color class for menu-highlight: blue on cyan
+&window-brown color class for menu: blue on white
+&window-brown color class for mode-line: brightcyan on brown
+&window-brown color class for overlap-even: cyan on blue
+&window-brown color class for overlap-odd: yellow on cyan
+&window-brown color class for popup-border: red on white
+&window-brown color class for popup-title: red on white
+&window-brown color class for screen-border: brightgreen on black
+&window-brown color class for selected-link: brightred on white
+&window-brown color class for submenu-highlight: blue on white
+&window-brown color class for submenu: black on cyan
+&window-brown color class for text: yellow on brown
+&window-brown color class for vert-border: brightcyan on brown
+&window-brown color class for viewed-border: red on white
+&window-brown color class for viewed-link: brightgreen on white
+&window-brown color class for viewed-text: blue on white
+&window-cyan color class for after-exiting: white on black
+&window-cyan color class for c-charconst: brightcyan on cyan
+&window-cyan color class for c-comment: brightwhite on cyan
+&window-cyan color class for c-function: yellow on cyan
+&window-cyan color class for c-identifier: brightgreen on cyan
+&window-cyan color class for c-keyword: brightgreen on cyan
+&window-cyan color class for c-number: brightgreen on cyan
+&window-cyan color class for c-preprocessor: black on cyan
+&window-cyan color class for c-punctuation: brightgreen on cyan
+&window-cyan color class for c-string: brightcyan on cyan
+&window-cyan color class for debug-highlight: white on blue
+&window-cyan color class for debug-text: blue on white
+&window-cyan color class for default: red on white
+&window-cyan color class for echo-area: yellow on black
+&window-cyan color class for highlight: brightwhite on green
+&window-cyan color class for horiz-border: brightcyan on cyan
+&window-cyan color class for menu-bar-highlight: blue on white
+&window-cyan color class for menu-bar: black on cyan
+&window-cyan color class for menu-highlight: blue on cyan
+&window-cyan color class for menu: blue on white
+&window-cyan color class for mode-line: brightcyan on cyan
+&window-cyan color class for overlap-even: cyan on blue
+&window-cyan color class for overlap-odd: yellow on cyan
+&window-cyan color class for popup-border: red on white
+&window-cyan color class for popup-title: red on white
+&window-cyan color class for screen-border: brightgreen on black
+&window-cyan color class for selected-link: brightred on white
+&window-cyan color class for submenu-highlight: blue on white
+&window-cyan color class for submenu: black on cyan
+&window-cyan color class for text: brightgreen on cyan
+&window-cyan color class for vert-border: brightcyan on cyan
+&window-cyan color class for viewed-border: red on white
+&window-cyan color class for viewed-link: brightgreen on white
+&window-cyan color class for viewed-text: blue on white
+&window-green color class for after-exiting: white on black
+&window-green color class for c-charconst: brightcyan on green
+&window-green color class for c-comment: brightwhite on green
+&window-green color class for c-function: yellow on green
+&window-green color class for c-identifier: brightgreen on green
+&window-green color class for c-keyword: brightgreen on green
+&window-green color class for c-number: brightgreen on green
+&window-green color class for c-preprocessor: blue on green
+&window-green color class for c-punctuation: brightgreen on green
+&window-green color class for c-string: brightcyan on green
+&window-green color class for debug-highlight: white on blue
+&window-green color class for debug-text: blue on white
+&window-green color class for default: red on white
+&window-green color class for echo-area: yellow on black
+&window-green color class for highlight: brightwhite on green
+&window-green color class for horiz-border: brightcyan on green
+&window-green color class for menu-bar-highlight: blue on white
+&window-green color class for menu-bar: black on cyan
+&window-green color class for menu-highlight: blue on cyan
+&window-green color class for menu: blue on white
+&window-green color class for mode-line: brightcyan on green
+&window-green color class for overlap-even: cyan on blue
+&window-green color class for overlap-odd: yellow on cyan
+&window-green color class for popup-border: red on white
+&window-green color class for popup-title: red on white
+&window-green color class for screen-border: brightgreen on black
+&window-green color class for selected-link: brightred on white
+&window-green color class for submenu-highlight: blue on white
+&window-green color class for submenu: black on cyan
+&window-green color class for text: brightgreen on green
+&window-green color class for vert-border: brightcyan on green
+&window-green color class for viewed-border: red on white
+&window-green color class for viewed-link: brightgreen on white
+&window-green color class for viewed-text: blue on white
+&window-magenta color class for after-exiting: white on black
+&window-magenta color class for c-charconst: brightcyan on magenta
+&window-magenta color class for c-comment: brightwhite on magenta
+&window-magenta color class for c-function: yellow on magenta
+&window-magenta color class for c-identifier: brightred on magenta
+&window-magenta color class for c-keyword: brightred on magenta
+&window-magenta color class for c-number: brightred on magenta
+&window-magenta color class for c-preprocessor: white on magenta
+&window-magenta color class for c-punctuation: brightred on magenta
+&window-magenta color class for c-string: brightcyan on magenta
+&window-magenta color class for debug-highlight: white on blue
+&window-magenta color class for debug-text: blue on white
+&window-magenta color class for default: red on white
+&window-magenta color class for echo-area: yellow on black
+&window-magenta color class for highlight: brightwhite on green
+&window-magenta color class for horiz-border: brightcyan on magenta
+&window-magenta color class for menu-bar-highlight: blue on white
+&window-magenta color class for menu-bar: black on cyan
+&window-magenta color class for menu-highlight: blue on cyan
+&window-magenta color class for menu: blue on white
+&window-magenta color class for mode-line: brightcyan on magenta
+&window-magenta color class for overlap-even: cyan on blue
+&window-magenta color class for overlap-odd: yellow on cyan
+&window-magenta color class for popup-border: red on white
+&window-magenta color class for popup-title: red on white
+&window-magenta color class for screen-border: brightgreen on black
+&window-magenta color class for selected-link: brightred on white
+&window-magenta color class for submenu-highlight: blue on white
+&window-magenta color class for submenu: black on cyan
+&window-magenta color class for text: brightgreen on magenta
+&window-magenta color class for vert-border: brightcyan on magenta
+&window-magenta color class for viewed-border: red on white
+&window-magenta color class for viewed-link: brightgreen on white
+&window-magenta color class for viewed-text: blue on white
+&window-red color class for after-exiting: white on black
+&window-red color class for c-charconst: brightcyan on red
+&window-red color class for c-comment: brightwhite on red
+&window-red color class for c-function: yellow on red
+&window-red color class for c-identifier: brightgreen on red
+&window-red color class for c-keyword: brightgreen on red
+&window-red color class for c-number: brightgreen on red
+&window-red color class for c-preprocessor: white on red
+&window-red color class for c-punctuation: brightgreen on red
+&window-red color class for c-string: brightcyan on red
+&window-red color class for debug-highlight: white on blue
+&window-red color class for debug-text: blue on white
+&window-red color class for default: red on white
+&window-red color class for echo-area: yellow on black
+&window-red color class for highlight: brightwhite on green
+&window-red color class for horiz-border: brightcyan on red
+&window-red color class for menu-bar-highlight: blue on white
+&window-red color class for menu-bar: black on cyan
+&window-red color class for menu-highlight: blue on cyan
+&window-red color class for menu: blue on white
+&window-red color class for mode-line: brightcyan on red
+&window-red color class for overlap-even: cyan on blue
+&window-red color class for overlap-odd: yellow on cyan
+&window-red color class for popup-border: red on white
+&window-red color class for popup-title: red on white
+&window-red color class for screen-border: brightgreen on black
+&window-red color class for selected-link: brightred on white
+&window-red color class for submenu-highlight: blue on white
+&window-red color class for submenu: black on cyan
+&window-red color class for text: brightgreen on red
+&window-red color class for vert-border: brightcyan on red
+&window-red color class for viewed-border: red on white
+&window-red color class for viewed-link: brightgreen on white
+&window-red color class for viewed-text: blue on white
+&window-white color class for after-exiting: white on black
+&window-white color class for c-charconst: black on white
+&window-white color class for c-comment: brightwhite on white
+&window-white color class for c-function: blue on white
+&window-white color class for c-identifier: black on white
+&window-white color class for c-keyword: black on white
+&window-white color class for c-number: black on white
+&window-white color class for c-preprocessor: red on white
+&window-white color class for c-punctuation: black on white
+&window-white color class for c-string: brightcyan on white
+&window-white color class for debug-highlight: white on blue
+&window-white color class for debug-text: blue on white
+&window-white color class for default: red on white
+&window-white color class for echo-area: yellow on black
+&window-white color class for highlight: brightwhite on green
+&window-white color class for horiz-border: brightcyan on white
+&window-white color class for menu-bar-highlight: blue on white
+&window-white color class for menu-bar: black on cyan
+&window-white color class for menu-highlight: blue on cyan
+&window-white color class for menu: blue on white
+&window-white color class for mode-line: brightcyan on white
+&window-white color class for overlap-even: cyan on blue
+&window-white color class for overlap-odd: yellow on cyan
+&window-white color class for popup-border: red on white
+&window-white color class for popup-title: red on white
+&window-white color class for screen-border: brightgreen on black
+&window-white color class for selected-link: brightred on white
+&window-white color class for submenu-highlight: blue on white
+&window-white color class for submenu: black on cyan
+&window-white color class for text: black on white
+&window-white color class for vert-border: brightcyan on white
+&window-white color class for viewed-border: red on white
+&window-white color class for viewed-link: brightgreen on white
+&window-white color class for viewed-text: blue on white
+&yellow-on-blue color class for after-exiting: white on black
+&yellow-on-blue color class for c-charconst: brightcyan on blue
+&yellow-on-blue color class for c-comment: white on blue
+&yellow-on-blue color class for c-function: brightwhite on blue
+&yellow-on-blue color class for c-identifier: yellow on blue
+&yellow-on-blue color class for c-keyword: yellow on blue
+&yellow-on-blue color class for c-number: brightcyan on blue
+&yellow-on-blue color class for c-preprocessor: brightgreen on blue
+&yellow-on-blue color class for c-punctuation: white on blue
+&yellow-on-blue color class for c-string: brightcyan on blue
+&yellow-on-blue color class for debug-highlight: brightwhite on blue
+&yellow-on-blue color class for debug-text: blue on brightwhite
+&yellow-on-blue color class for default: red on brightwhite
+&yellow-on-blue color class for echo-area: yellow on blue
+&yellow-on-blue color class for highlight: blue on white
+&yellow-on-blue color class for horiz-border: brightcyan on blue
+&yellow-on-blue color class for menu-bar-highlight: blue on brightwhite
+&yellow-on-blue color class for menu-bar: black on brightcyan
+&yellow-on-blue color class for menu-highlight: blue on brightcyan
+&yellow-on-blue color class for menu: blue on brightwhite
+&yellow-on-blue color class for mode-line: brightcyan on blue
+&yellow-on-blue color class for overlap-even: brightcyan on brightblue
+&yellow-on-blue color class for overlap-odd: yellow on brightblue
+&yellow-on-blue color class for popup-border: red on brightwhite
+&yellow-on-blue color class for popup-title: red on brightwhite
+&yellow-on-blue color class for screen-border: white on blue
+&yellow-on-blue color class for selected-link: brightred on brightwhite
+&yellow-on-blue color class for submenu-highlight: blue on brightwhite
+&yellow-on-blue color class for submenu: black on brightcyan
+&yellow-on-blue color class for text: yellow on blue
+&yellow-on-blue color class for vert-border: brightcyan on blue
+&yellow-on-blue color class for viewed-border: red on brightwhite
+&yellow-on-blue color class for viewed-link: brightgreen on brightwhite
+&yellow-on-blue color class for viewed-text: blue on brightwhite
++-abort-load-on-error char variable: 1
++-admit-all-extensions char variable: 0
++-auto-save-counter short variable: 0
++-blist-cmd variable: <complex>
++-blist-mode-name char array variable: 14 "Bookmark-List"
++-blist-orig-window int variable: 0
++-blist-window int variable: 0
++-bookmark-next int variable: 0
++-bookmark-slot int variable: 0
++-bookmark-spots variable: <complex>
++-buf-readonly buffer char variable: 0
++-bufed-caption-window int variable: 0
++-bufed-mode-name char array variable: 6 "Bufed"
++-bufed-orig-buffer int variable: 0
++-bufed-orig-highlight int variable: 0
++-bufed-orig-window int variable: 0
++-bufed-sort char variable: 97
++-bufed-window int variable: 0
++-c-mode-name char array variable: 2 "C"
++-case-map buffer char ptr variable: <complex>
++-char-class buffer char ptr variable: <complex>
++-cur-kill-buf char array variable: 30 "-kill-buffer-0"
++-def-case-map char array variable: 256 " \t\n\r !\"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~áöêÉéÖèÄàâäãåçÑÜÇíëìôïñóòîÅõúùûü†°¢£•§¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ"
++-def-char-class char array variable: 256 "                                                                                 "
++-def-srch-case-map char array variable: 256 " \t\n\r !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~ÄöêÉéÖèÄàâäãåçéèêííìôïñóòôöõúùûü†°¢£••¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ"
++-default-flags int variable: 1
++-default-regex-flags int variable: 1
++-default-regex-replace char array variable: 256 ""
++-default-regex-search char array variable: 256 ""
++-default-replace char array variable: 256 ""
++-default-search char array variable: 256 ""
++-diff-buffer char array variable: 80 "diff"
++-diff-data variable: <complex>
++-diff-line1 int variable: 0
++-diff-line2 int variable: 0
++-dired-mode-name char array variable: 6 "Dired"
++-display-characters char array variable: 75 "ƒÕ≥∫⁄¬ø√≈¥¿¡Ÿ÷“∑«◊∂”–Ω’—∏∆ÿµ‘œæ…ÀªÃŒπ» ºø    ^^^M-M-^xÿ€‹›ﬁﬂ˚¸˝"
++-display-class buffer char ptr variable: <complex>
++-docname char array variable: 256 "edoc"
++-doing-completion char variable: 0
++-doing-input char variable: 0
++-dragging-control window char variable: 0
++-echo-disp-class char array variable: 256 "                                                                                                                                                                                                                              "
++-echo-display-class char ptr variable: <complex>
++-errors-in-cmd-file char variable: 0
++-fundamental-mode-name char array variable: 12 "Fundamental"
++-grab-word-loc int variable: 0
++-grep-files char array variable: 256 ""
++-grep-mode-name char array variable: 5 "Grep"
++-had-errors char variable: 0
++-help-on-cmd short variable: 0
++-highlight-control window char variable: 0
++-inside-size int variable: 250080
++-kill-width variable: <complex>
++-last-bookmark int variable: 0
++-last-tag char array variable: 256 ""
++-last-tag-file char array variable: 256 ""
++-last-video-mode short variable: 3
++-last-was-grep char variable: 0
++-last-was-regex char variable: 0
++-len-def-mac short variable: 0
++-line-highlight buffer int variable: 0
++-now-quoting char variable: 0
++-nt-filter int variable: 0
++-num-kill int variable: 0
++-oldfrom int variable: -1
++-oldto int variable: -1
++-orig-pos int variable: 0
++-orig-thumb int variable: -1
++-our-color-scheme short variable: 0
++-our-gui-scheme short variable: 0
++-our-mono-scheme short variable: 0
++-outside-size int variable: 250080
++-preserve-column int variable: 0
++-prev-buffer window short variable: 0
++-prev-byte-name char array variable: 80 ""
++-prev-kbd-extended char variable: 0
++-prev-kill-buffers short variable: 0
++-prev-num short variable: 1
++-prev-old-buffers variable: <complex>
++-process-mode-name char array variable: 8 "Process"
++-pushed-special-key short variable: -1
++-read-aborted buffer char variable: 0
++-recent-keys variable: <complex>
++-recent-place short variable: 10
++-recursion-level char variable: 0
++-region-file char array variable: 256 ""
++-show-disp-chars char ptr variable: <complex>
++-show-disp-class char ptr variable: <complex>
++-show-help-on char ptr variable: <complex>
++-srch-case-map buffer char ptr variable: <complex>
++-std-disp-class char array variable: 256 "                                                                                                                                                                                                                              "
++-tag-mat char array variable: 256 ""
++-tags-buffer short variable: 0
++-vga-expanded-font char ptr variable: <complex>
++-video-adapter short variable: 2
++-video-mode-data variable: <complex>
++-videx-match char array variable: 30 ""
++-videx-match-pos short variable: 0
++-view-border short variable: 238
++-view-bottom short variable: 6
++-view-left short variable: 2
++-view-prev-input char variable: 0
++-view-prev-mode window variable: <complex>
++-view-prev-window window int variable: 0
++-view-right short variable: 2
++-view-title char ptr variable: <complex>
++-view-top short variable: 2
++-window-flags window char variable: 0
++alt-invokes-menu char variable: 0
++ati-blank-cnt char variable: 0
++auto-fill-indents buffer char variable: 1
++auto-indent buffer char variable: 0
++auto-menu-bar char variable: 1
++auto-quote-allowed buffer char variable: 1
++auto-save-count short variable: 500
++auto-save-name char array variable: 256 "%p%b.asv"
++backup-name char array variable: 256 "%p%b.bak"
++beep-duration short variable: 5
++beep-frequency short variable: 370
++bell-on-abort char variable: 0
++bell-on-autosave-error char variable: 1
++bell-on-bad-key char variable: 1
++bell-on-completion char variable: 1
++bell-on-date-warning char variable: 1
++bell-on-read-error char variable: 1
++bell-on-search char variable: 1
++bell-on-write-error char variable: 1
++border-bottom char variable: 0
++border-inside char variable: 1
++border-left char variable: 0
++border-right char variable: 0
++border-top char variable: 0
++buf-accessed buffer int variable: 0
++buf-accessed-clock int variable: 2
++bufed-grouping char variable: 0
++bufed-width short variable: 50
++c-align-contin-lines char variable: 48
++c-brace-offset short variable: 0
++c-case-offset short variable: 0
++c-contin-offset short variable: 0
++c-extra-keywords buffer char variable: 3
++c-indent buffer short variable: 0
++c-indent-giveup variable: <complex>
++c-label-indent short variable: 0
++c-look-back int variable: 10000
++c-mode-mouse-to-tag char variable: 1
++c-param-decl int variable: 0
++c-tab-always-indents char variable: 0
++c-top-braces int variable: 0
++c-top-contin int variable: 3
++c-top-struct int variable: 8
++capture-output char variable: 0
++case-fold buffer char variable: 1
++change-video-extra variable: <complex>
++clear-process-buffer char variable: 0
++clipboard-access char variable: 1
++clipboard-format short variable: 0
++closeback char variable: 1
++cmd-line-session-file char ptr variable: <complex>
++cmd-result char variable: 11
++color-look-back int variable: 0
++color-names char array variable: 137 "|black|blue|green|cyan|red|magenta|brown|white|brightblack|brightblue|brightgreen|brightcyan|brightred|brightmagenta|yellow|brightwhite|"
++color-whole-buffer int variable: 0
++comment-begin buffer char array variable: 10 "; "
++comment-column buffer int variable: 40
++comment-end buffer char array variable: 10 ""
++comment-pattern buffer char array variable: 50 ";.*$"
++comment-start buffer char array variable: 30 ";[ \t]*"
++compile-buffer-cmd buffer char ptr variable: <complex>
++compile-c-cmd char array variable: 128 "cl \"%r\""
++compile-cpp-cmd char array variable: 128 "cl \"%r\""
++compile-eel-cmd char array variable: 128 "%Xeel \"%r\""
++compile-java-cmd char array variable: 128 "javac \"%r\""
++completion-lister variable: <complex>
++completion-pops-up char variable: 1
++concurrent-compile buffer char variable: 3
++concurrent-make char variable: 1
++current-video-mode char array variable: 30 ""
++custom-filter char array variable: 256 ""
++def-text variable: <complex>
++default-word char array variable: 60 "[a-zA-Z0-9_Ä-ö†-•·]+"
++delete-hacking-tabs buffer char variable: 0
++diff-match-lines short variable: 3
++diff-mismatch-lines short variable: 30
++dired-groups-dirs char variable: 1
++dired-sorts-files char variable: 110
++display-column window int variable: 0
++dllcall variable: <complex>
++doc-length int variable: 0
++drag-and-drop-pointer variable: <complex>
++error-spot variable: <complex>
++expand-wildcards char variable: 0
++explicit-session-file char ptr variable: <complex>
++extra-video-modes char variable: 3
++far-pause short variable: 100
++file-info buffer variable: <complex>
++fill-mode buffer char variable: 0
++filter-index int variable: 2
++filter-str char array variable: 203 "All Files *.* *.* C Files *.c;*.cpp;*.h;*.e *.c;*.cpp;*.h;*.e Batch Files *.bat;*.cmd *.bat;*.cmd Text Files *.txt *.txt HTML Files *.html;*.htm *.html;*.htm TeX Files *.tex *.tex INI Files *.ini *.ini"
++final-macro-pause char variable: 0
++find-data variable: <complex>
++find-lines-visible short variable: 8
++force-save-as buffer char variable: 0
++fwd-search-key short variable: -1
++go-to-link buffer variable: <complex>
++goal-column buffer short variable: -1
++got-bad-number char variable: 0
++grep-empties-buffer char variable: 0
++grep-keeps-files char variable: 0
++gui-menu-file char array variable: 80 "gui.mnu"
++horiz-arrows variable: <complex>
++idle-color-time variable: <complex>
++idle-coloring-delay int variable: 100
++idle-display-time variable: <complex>
++ignore-error char array variable: 70 ""
++ignore-file-extensions char array variable: 256 "|.obj|.exe|.b|.b2|.bu|"
++ignoring-file-change buffer char variable: 0
++indent-with-tabs buffer char variable: 1
++indenter buffer variable: <complex>
++indents-separate-paragraphs buffer char variable: 0
++initial-tag-file char array variable: 256 "default.tag"
++insert-default-response char variable: 1
++insert-newlines-in-dialog buffer char variable: 0
++jbuf variable: <complex>
++key-binding variable: <complex>
++key-repeat-rate short variable: 40
++keyseq variable: <complex>
++kill-buffers short variable: 10
++last-show-spaces buffer char variable: 0
++last-window-color-scheme short variable: 0
++left-pointer variable: <complex>
++list-finder variable: <complex>
++load-fail-ok char variable: 0
++m-regs variable: <complex>
++major-mode buffer char ptr variable: <complex>
++margin-right buffer int variable: 70
++mark-unhighlights char variable: 0
++matchdelim char variable: 1
++max-initial-windows char variable: 3
++mention-delay char variable: 0
++menu-bar-flashes short variable: 2
++menu-bindings char variable: 1
++menu-file char array variable: 80 "epsilon.mnu"
++menu-line-spot variable: <complex>
++menu-stays-after-click char variable: 1
++menu-width short variable: 35
++menu-window int variable: 0
++minimal-coloring char variable: 0
++mode-end char array variable: 60 " %d%p %s"
++mode-keys buffer variable: <complex>
++mode-line-at-top char variable: 0
++mode-line-position short variable: 3
++mode-line-shows-mode char variable: 1
++mode-start char array variable: 30 " "
++mouse-dbl-selects buffer char variable: 0
++mouse-goes-to-tag buffer char variable: 0
++mouse-handler window variable: <complex>
++move-arrows variable: <complex>
++near-pause short variable: 50
++need-rebuild-menu char variable: 0
++new-c-comments char variable: 0
++new-file-ext char array variable: 30 ".c"
++new-file-mode char array variable: 30 "c-mode"
++new-search-delay short variable: 250
++normal-cursor int variable: 98099
++normal-gui-cursor int variable: 100002
++only-file-extensions char ptr variable: <complex>
++our-matchstart int variable: 0
++over-mode buffer char variable: 0
++overwrite-cursor int variable: 99
++overwrite-gui-cursor int variable: 100100
++paging-centers-window char variable: 1
++permanent-menu char variable: 0
++post-compile-hook buffer variable: <complex>
++pre-compile-hook buffer variable: <complex>
++precol buffer variable: <complex>
++preserve-session char variable: 1
++prev-screen-cols short variable: 80
++prev-screen-lines short variable: 25
++print-destination char array variable: 256 "lpt1"
++print-heading char variable: 7
++print-in-color char variable: 1
++print-options variable: <complex>
++print-tabs char variable: 0
++process-tab-size short variable: 8
++prompt-with-buffer-directory char variable: 2
++push-cmd char array variable: 256 "make"
++push-info variable: <complex>
++rbuf char array variable: 256 ""
++readonly-warning char variable: 3
++recall-id char ptr variable: <complex>
++recall-maximum-session int variable: 4000
++recall-maximum-size int variable: 20000
++recolor-from-here buffer variable: <complex>
++recolor-range buffer variable: <complex>
++recording-suspended char variable: 0
++regex-first-end char variable: 0
++regex-shortest char variable: 0
++replace-num-changed int variable: 0
++replace-num-found int variable: 0
++response-tracks-list char variable: 0
++restart-concurrent char variable: 1
++restore-blinking-on-exit char variable: 0
++restore-color-on-exit char variable: 1
++resynch-match-chars short variable: 15
++rev-search-key short variable: -1
++right-pointer variable: <complex>
++run-by-mouse char variable: 0
++save-when-making char variable: 2
++sbuf char array variable: 256 ""
++scroll-at-end char variable: 1
++scroll-init-delay int variable: 35
++scroll-rate int variable: 45
++search-in-menu char variable: 0
++see-delay int variable: 100
++selectable-colors int variable: 256
++session-always-restore char variable: 0
++session-default-directory char array variable: 80 ""
++session-tree-root char array variable: 80 ""
++shell-shrinks char variable: 1
++shift-selecting char variable: 2
++shift-selects char variable: 1
++show-all-variables char variable: 0
++show-mouse-choices char variable: 0
++show-spaces buffer char variable: 0
++show-tag-line short variable: 0
++show-when-idle char array variable: 120 ""
++show-when-idle-column short variable: 48
++sort-case-fold buffer char variable: 2
++start-here int variable: 0
++start-make-in-buffer-directory char variable: 0
++start-process-in-buffer-directory char variable: 2
++state-file-backup-name char array variable: 256 "%pebackup%e"
++strip-returns buffer char variable: 1
++tab-size buffer short variable: 4
++tag-by-text char variable: 1
++tag-declarations char variable: 0
++tag-extern-decl char variable: 0
++tag-relative char variable: 1
++tex-paragraphs buffer char variable: 0
++tiled-border char variable: 170
++tiled-scroll-bar char variable: 0
++topindent char variable: 1
++typing-deletes-highlight char variable: 1
++undo-size buffer int variable: 500000
++use-alternate-dialog variable: <complex>
++use-process-current-directory char variable: 1
++using-extra-video-modes char variable: 0
++vert-arrows variable: <complex>
++vga43 char variable: 0
++vid-match-extra variable: <complex>
++videx-info variable: <complex>
++virtual-insert-cursor int variable: 93099
++virtual-insert-gui-cursor int variable: 50002
++virtual-overwrite-cursor int variable: 5
++virtual-overwrite-gui-cursor int variable: 50100
++virtual-space buffer char variable: 0
++w-bottom int variable: 0
++w-left int variable: 0
++w-right int variable: 0
++w-top int variable: 0
++want-auto-save char variable: 0
++want-backups buffer char variable: 0
++want-bell char variable: 1
++want-code-coloring buffer char variable: 1
++want-common-file-dialog char variable: 1
++want-gui-menu char variable: 1
++want-sorted-tags char variable: 1
++want-state-file-backups char variable: 1
++want-warn buffer char variable: 1
++want-window-borders char variable: 1
++warn-before-overwrite char variable: 1
++when-displaying buffer variable: <complex>
++window-caption char array variable: 128 "Epsilon"
++window-caption-file char array variable: 128 "Epsilon - %s"
++window-overlap short variable: 2
++word-pattern buffer char ptr variable: <complex>
++zoom-info variable: <complex>
+-basic-search: subroutine
+-find-outside: subroutine
+-find: subroutine
+abort: command
+about-epsilon: command
+add-colored-region: subroutine
+add-help-line: subroutine
+add-help-lines: subroutine
+add-tag: subroutine
+add-to-keyword-search: subroutine
+add-to-menu: subroutine
+add-variable-info: subroutine
+after-mouse-pressed: subroutine
+after-push: subroutine
+all-blanks: subroutine
+allow-mouse-switching: subroutine
+alt-prefix: command
+alter-window-size: subroutine
+append-next-kill: command
+apropos: command
+are-tags-sorted: subroutine
+argument: command
+ask-continue-replace: subroutine
+ask-default: subroutine
+ask-key: subroutine
+ask-save-buffer: subroutine
+ask-session-file: subroutine
+ask-which-buffer: subroutine
+ask-yn: subroutine
+assemble-mode-line: subroutine
+at-c-comment: subroutine
+ati-blank: subroutine
+auto-fill-mode: command
+auto-save-buffers: subroutine
+auto-save-one: subroutine
+await-menu-click: subroutine
+b-match: subroutine
+back-to-tab-stop: command
+backward-character: command
+backward-delete-character: command
+backward-kill-level: command
+backward-kill-word: command
+backward-level: command
+backward-paragraph: command
+backward-sentence: command
+backward-word: command
+bad-flag: subroutine
+bar-on-border: subroutine
+bar-on-edge: subroutine
+before-push: subroutine
+beginning-of-line: command
+beginning-of-window: command
+bind-to-key: command
+blist-abort: subroutine
+blist-backtab-key: subroutine
+blist-delete: subroutine
+blist-help: subroutine
+blist-pick: subroutine
+blist-tab-key: subroutine
+blist-tab: table
+bookmark-to-key: subroutine
+break-line-here: subroutine
+brief-copy-region: command
+brief-cut-region: command
+brief-delete-region: command
+brief-delete-window: command
+brief-drop-bookmark: command
+brief-end-key: command
+brief-home-key: command
+brief-jump-to-bookmark: command
+brief-keyboard: command
+brief-open-line: command
+brief-resize-window: command
+brief-split-window: command
+buf-delete-final-newlines: subroutine
+buf-tab: table
+buf-xfer: subroutine
+bufed-abort: subroutine
+bufed-ask-exit: subroutine
+bufed-ask-save: subroutine
+bufed-backtab-key: subroutine
+bufed-examine-in-window: subroutine
+bufed-examine: subroutine
+bufed-getname: subroutine
+bufed-help: subroutine
+bufed-kill: subroutine
+bufed-mode: subroutine
+bufed-msg: subroutine
+bufed-pick: subroutine
+bufed-restore-orig: subroutine
+bufed-save: subroutine
+bufed-set-sort: subroutine
+bufed-tab-key: subroutine
+bufed-tab: table
+bufed-when-displaying: subroutine
+bufed: command
+buffers-identical: subroutine
+build-filename: subroutine
+build-mode: subroutine
+by-matches: subroutine
+c-close: command
+c-colon: command
+c-compute-indent: subroutine
+c-default-indent: subroutine
+c-fwd-space: subroutine
+c-hash-mark: command
+c-indenter: subroutine
+c-init-color: subroutine
+c-keyword-color: subroutine
+c-line-before: subroutine
+c-mode-hook: subroutine
+c-mode: command
+c-number-color: subroutine
+c-open: command
+c-preproc-color: subroutine
+c-rev-skip-level: subroutine
+c-skip-item: subroutine
+c-skip-level: subroutine
+c-statement-start: subroutine
+c-tab: table
+call-by-suffix: subroutine
+call-mode: subroutine
+capitalize-word: command
+case-indirect: command
+cd: command
+center-line: command
+center-window: command
+cf-bind: subroutine
+cf-macro: subroutine
+cf-prefix: subroutine
+change-code-coloring: command
+change-line-wrapping: command
+change-modified: command
+change-name: command
+change-read-only: command
+change-show-spaces: command
+change-video-names: subroutine
+change-video: subroutine
+chart-table: subroutine
+check-buffer-word: subroutine
+check-command: subroutine
+check-dates: subroutine
+check-drop-buffer: subroutine
+check-num-kill-buffers: subroutine
+check-rebuild-menu: subroutine
+choose-expander: subroutine
+cind-close: subroutine
+cind-search: subroutine
+cind-skip-new-comment: subroutine
+cind-skip-preproc-line: subroutine
+cind-space: subroutine
+cind-try-space: subroutine
+clear-tags: command
+click-in-echo: subroutine
+click-menu: subroutine
+clip-mouse: subroutine
+col-search: subroutine
+color-c-from-here: subroutine
+color-c-range: subroutine
+color-for-area: subroutine
+column-chars: subroutine
+column-to-pos: subroutine
+comp-read: subroutine
+comp-tab: table
+compare-dates: subroutine
+compare-sorted-windows: command
+compare-windows: command
+compile-buffer: command
+complete: subroutine
+conv-search: subroutine
+copy-abort-bindings: subroutine
+copy-bindings: subroutine
+copy-help-bindings: subroutine
+copy-matches: subroutine
+copy-rectangle: command
+copy-region: command
+copy-to-clipboard: command
+copy-to-file: command
+copy-to-scratch: command
+count-instances: subroutine
+count-lines: command
+count-links: subroutine
+count-matches: subroutine
+count-printed-pages: subroutine
+count-submenus: subroutine
+create-concur: subroutine
+create-links: subroutine
+create-prefix-command: command
+create-variable: command
+ctrl-prefix: command
+cx-tab: table
+default-fold: subroutine
+default-search-string: subroutine
+delay-scroll-bar: subroutine
+delete-blank-lines: command
+delete-character: command
+delete-dull-buffer: subroutine
+delete-final-newlines: subroutine
+delete-horizontal-space: command
+delete-if-highlighted: subroutine
+delete-matching-lines: command
+delete-name: command
+delete-rectangle: command
+delete-tags: subroutine
+delete-user-buffer: subroutine
+descr-bindings: subroutine
+describe-command: command
+describe-key: command
+describe-variable: command
+diff-check-malloc: subroutine
+diff-range: subroutine
+diff-same: subroutine
+diff: command
+dired-ask: subroutine
+dired-del-line: subroutine
+dired-do-copy: subroutine
+dired-do-delete: subroutine
+dired-do-move: subroutine
+dired-do-no-param: subroutine
+dired-do-param: subroutine
+dired-do: subroutine
+dired-down-line: subroutine
+dired-examine-in-next-window: subroutine
+dired-examine-in-window: subroutine
+dired-examine: subroutine
+dired-execute: subroutine
+dired-getdir: subroutine
+dired-getindex: subroutine
+dired-getname: subroutine
+dired-goto-dir: subroutine
+dired-group-sorter: subroutine
+dired-help: subroutine
+dired-isdir: subroutine
+dired-mark-for-copy: subroutine
+dired-mark-for-delete: subroutine
+dired-mark-for-move: subroutine
+dired-mode: subroutine
+dired-one: subroutine
+dired-parent: subroutine
+dired-refresh: subroutine
+dired-repl: subroutine
+dired-run-viewer: subroutine
+dired-sort-by-date: subroutine
+dired-sort-by-exten: subroutine
+dired-sort: subroutine
+dired-sorter: subroutine
+dired-tab: table
+dired-try-getdir: subroutine
+dired-unmark: subroutine
+dired-up-line: subroutine
+dired: command
+disk-space: subroutine
+display-buffer-info: command
+display-look-borlandc: subroutine
+display-look-brief: subroutine
+display-look-dos-editor: subroutine
+display-look-epsilon: subroutine
+display-more-msg: subroutine
+do-bufed: subroutine
+do-buffer-sort: subroutine
+do-c-indent: command
+do-capitalize-region: subroutine
+do-compare-sorted: subroutine
+do-compare-windows: subroutine
+do-compile: subroutine
+do-delete-characters: subroutine
+do-delete-tags: subroutine
+do-diff: subroutine
+do-dired-examine: subroutine
+do-display-dialog-box: subroutine
+do-drop-matching-lines: subroutine
+do-file-match: subroutine
+do-file-read: subroutine
+do-file-replace: subroutine
+do-fill-region: subroutine
+do-find: subroutine
+do-go-tag: subroutine
+do-grep: subroutine
+do-insert-file: subroutine
+do-jump-to-bookmark: subroutine
+do-load-bytes: subroutine
+do-load-file: subroutine
+do-lowercase-region: subroutine
+do-menu-search: subroutine
+do-next-error: subroutine
+do-print-region: subroutine
+do-push: subroutine
+do-readonly-warning: subroutine
+do-regex-searching: subroutine
+do-retag-file: subroutine
+do-save-file: subroutine
+do-save-kill: subroutine
+do-save-only: subroutine
+do-save-session: subroutine
+do-save-state: subroutine
+do-save-tags: subroutine
+do-search-again: subroutine
+do-searching: subroutine
+do-set-bookmark: subroutine
+do-set-mark: subroutine
+do-set-show-graphic: subroutine
+do-set-variable: subroutine
+do-set-video: subroutine
+do-shift-selects: subroutine
+do-show-menu: subroutine
+do-show-variable: subroutine
+do-sort-buffer: subroutine
+do-sort-region: subroutine
+do-tabify-region: subroutine
+do-uniq: subroutine
+do-uppercase-region: subroutine
+do-video-var: subroutine
+dodesc: subroutine
+dos-find-outside: subroutine
+dos-list-svga-modes: subroutine
+doscall: subroutine
+down-line: command
+down-or-up-lines: subroutine
+drag-and-drop: subroutine
+drag-drop-handler: subroutine
+drag-drop-xfer: subroutine
+drop-all-colored-regions: subroutine
+drop-bookmark: subroutine
+drop-buffer: subroutine
+drop-colored-region: subroutine
+drop-coloring: subroutine
+drop-matching-lines: subroutine
+drop-perm-menu: subroutine
+drop-smallest-region: subroutine
+early-init: subroutine
+edit-variables: command
+end-kbd-macro: command
+end-of-line: command
+end-of-window: command
+end-scroll: subroutine
+enlarge-window-horizontally: command
+enlarge-window-interactively: command
+enlarge-window: command
+enter-key: command
+epsilon-keyboard: command
+epsilon-manual: command
+err-file-read: subroutine
+error-if-input: subroutine
+exchange-point-and-mark: command
+exit-incr: subroutine
+exit-level: command
+exit-menu-cancel: subroutine
+exit-menu-doit: subroutine
+exit-process: command
+exit: command
+extent-end: subroutine
+extract-file-lines: subroutine
+extract-rectangle: subroutine
+f-all-match: subroutine
+f-match: subroutine
+file-match-flags: subroutine
+file-query-replace: command
+fill-paragraph: command
+fill-rectangle: subroutine
+fill-region: command
+find-bindings: subroutine
+find-color-code: subroutine
+find-delimiter: command
+find-error: subroutine
+find-file: command
+find-from: subroutine
+find-in-other-buf: subroutine
+find-it: subroutine
+find: command
+finish-menu-selection: subroutine
+finish-up: subroutine
+fix-c-indentation: subroutine
+fix-cursor: subroutine
+fix-key-table: subroutine
+fix-narrowing: subroutine
+fix-region: subroutine
+fix-window-start: subroutine
+flash-menu-item: subroutine
+floating-menu: subroutine
+fnamecmp: subroutine
+for-unclosed: subroutine
+force-to-column: subroutine
+format-date: subroutine
+forward-character: command
+forward-level: command
+forward-paragraph: command
+forward-search-again: command
+forward-sentence: command
+forward-word: command
+fromorig: subroutine
+full-comp-read: subroutine
+full-getkey: subroutine
+func-start-block: subroutine
+fundamental-mode: command
+gen-replace: subroutine
+general-help: subroutine
+get-alnum: subroutine
+get-any: subroutine
+get-bmark-code: subroutine
+get-buf-accessed: subroutine
+get-buf: subroutine
+get-buffer-directory: subroutine
+get-c-indent: subroutine
+get-choice: subroutine
+get-clipboard: subroutine
+get-cmd: subroutine
+get-cmdline: subroutine
+get-column: subroutine
+get-command-index: subroutine
+get-direction: subroutine
+get-doc: subroutine
+get-file-date: subroutine
+get-file-dir: subroutine
+get-file: subroutine
+get-focus: subroutine
+get-func: subroutine
+get-grep-file: subroutine
+get-indentation: subroutine
+get-int-buf: subroutine
+get-keyseq: subroutine
+get-macname: subroutine
+get-menu-cmd: subroutine
+get-menu-line: subroutine
+get-menu-width: subroutine
+get-movement-or-release: subroutine
+get-number: subroutine
+get-pointer: subroutine
+get-ptr-helper: subroutine
+get-replace-key: subroutine
+get-replace-text: subroutine
+get-search-string: subroutine
+get-show-graphic: subroutine
+get-str: subroutine
+get-strdef: subroutine
+get-string: subroutine
+get-strnone: subroutine
+get-strpopup: subroutine
+get-tag: subroutine
+get-text-area: subroutine
+get-uvision-info: subroutine
+get-var-val: subroutine
+get-var: subroutine
+get-vesa-info: subroutine
+get-videx-info: subroutine
+get-window-area: subroutine
+get-window-info: subroutine
+getkey: subroutine
+give-begin-line: subroutine
+give-binding: subroutine
+give-buffer-name: subroutine
+give-color-combo: subroutine
+give-color-name: subroutine
+give-end-line: subroutine
+give-grep-finder: subroutine
+give-next-color-scheme: subroutine
+give-position: subroutine
+give-prev-buf: subroutine
+give-session-file: subroutine
+go-line: subroutine
+go-tag: subroutine
+good-c-tag: subroutine
+goto-beginning: command
+goto-end: command
+goto-line: command
+goto-tag: command
+grab-buffer-word: subroutine
+grab-buffer: subroutine
+grab-full-line: subroutine
+grab-line: subroutine
+grab-numbers: subroutine
+grab-search-word: subroutine
+grab-string: subroutine
+grep-examine: subroutine
+grep-help: subroutine
+grep-make-names: subroutine
+grep-mode: subroutine
+grep-prompt: subroutine
+grep-tab: table
+grep: command
+gripe: subroutine
+gui-print: subroutine
+hack-tabs: subroutine
+handle-scroll-bar: subroutine
+handle-scroll: subroutine
+has-elapsed: subroutine
+have-char: subroutine
+have-colon: subroutine
+have-label: subroutine
+have-uvision: subroutine
+have-vesa: subroutine
+help-from-path: subroutine
+help-linker: subroutine
+help-on-command: subroutine
+help-on-current: subroutine
+help-on-mode: subroutine
+help-on-search: subroutine
+help: command
+highlight-off: subroutine
+highlight-on: subroutine
+highlight-region: command
+import-colors: command
+in-blist: subroutine
+in-bufed: subroutine
+in-c-comment: subroutine
+in-link: subroutine
+in-sub-menu: subroutine
+in-text-area: subroutine
+in-top-menu: subroutine
+incremental-search: command
+indent-after-backslash: subroutine
+indent-after-block: subroutine
+indent-after-statement: subroutine
+indent-c-comment: subroutine
+indent-c-contin: subroutine
+indent-case: subroutine
+indent-else: subroutine
+indent-for-comment: command
+indent-like-tab: subroutine
+indent-previous: command
+indent-region: command
+indent-rigidly: command
+indent-to-column: subroutine
+indent-under: command
+init-abort: subroutine
+init-error: subroutine
+init-help-abort: subroutine
+init-menu: subroutine
+init-tags: subroutine
+init-uvision: subroutine
+init-vesa: subroutine
+inp-abort: subroutine
+inp-add-search: subroutine
+inp-always-get: subroutine
+inp-backtab: subroutine
+inp-complete: subroutine
+inp-exit: subroutine
+inp-get-and-exit: subroutine
+inp-get-default: subroutine
+inp-get-focus: subroutine
+inp-get: subroutine
+inp-grab-line: subroutine
+inp-grab-word: subroutine
+inp-lose-focus: subroutine
+inp-next-link: subroutine
+inp-next-page: subroutine
+inp-pgup: subroutine
+inp-previous-link: subroutine
+inp-previous-page: subroutine
+inp-recall: subroutine
+inp-remove-file-path: subroutine
+inp-select-link: subroutine
+inp-show-matches: subroutine
+inp-tab-key: subroutine
+inp-try: subroutine
+insert-ascii: command
+insert-binding: command
+insert-clipboard: command
+insert-file: command
+insert-macro: command
+insert-scratch: command
+insert-to-column: subroutine
+invoke-windows-menu: command
+is-c-keyword: subroutine
+is-case: subroutine
+is-contin-statement: subroutine
+is-dired-buf: subroutine
+is-else: subroutine
+is-good-bookmark: subroutine
+is-help-exe: subroutine
+is-highlight-on: subroutine
+is-in-tree: subroutine
+is-label: subroutine
+is-menu-here: subroutine
+is-search-dir: subroutine
+is-switch: subroutine
+is-word-char: subroutine
+isega: subroutine
+jump-to-last-bookmark: command
+jump-to-named-bookmark: command
+just-open: subroutine
+keep-duplicate-lines: command
+keep-matching-lines: command
+keep-unique-lines: command
+key-to-bookmark: subroutine
+kill-after-cmd: subroutine
+kill-buffer: command
+kill-comment: command
+kill-current-buffer: command
+kill-current-line: command
+kill-level: command
+kill-line: command
+kill-process: command
+kill-rectangle: command
+kill-region: command
+kill-sentence: command
+kill-to-end-of-line: command
+kill-window: command
+kill-word: command
+known-flags: subroutine
+last-kbd-macro: command
+limit-c-contin-indent: subroutine
+line-gets-highlight: subroutine
+line-matches: subroutine
+line-on-border-text: subroutine
+line-search: subroutine
+line-to-bottom: command
+line-to-top: command
+list-a-bookmark: subroutine
+list-all: command
+list-bookmarks: command
+list-changes: command
+list-color-scheme: subroutine
+list-file-matches: subroutine
+list-files: command
+list-line: subroutine
+list-matches: subroutine
+list-recalls: subroutine
+list-svga-modes: command
+list-undefined: command
+load-binding: subroutine
+load-buffer: command
+load-bytes: command
+load-changes: command
+load-cmd-file-from-path: subroutine
+load-cmd-line-files: subroutine
+load-color: subroutine
+load-file: command
+load-from-path: subroutine
+load-matches: subroutine
+load-menu: subroutine
+load-other: subroutine
+load-session: subroutine
+load-tags: subroutine
+load-this-bytecode-file: subroutine
+load-this-session: subroutine
+load-var: subroutine
+locate-window: subroutine
+look-file: subroutine
+look-match: subroutine
+look-up-tree: subroutine
+lose-focus: subroutine
+lowercase-word: command
+mac-unsave: subroutine
+make-alt: subroutine
+make-anon-keytable: subroutine
+make-bname: subroutine
+make-bookmark-list: subroutine
+make-buffer-list: subroutine
+make-copy-name: subroutine
+make-ctrl: subroutine
+make-dired: subroutine
+make-line-highlight: subroutine
+make-menu: subroutine
+make-mode: subroutine
+make-newfile-buf: subroutine
+make-perm-menu: subroutine
+make-prompt-box: subroutine
+make-prompt: subroutine
+make-search-prompt: subroutine
+make-session-hook: subroutine
+make-session: subroutine
+make-show-spaces: subroutine
+make-submenu: subroutine
+make-var-help: subroutine
+make: command
+mark-inclusive-region: command
+mark-line-region: command
+mark-link: subroutine
+mark-normal-region: command
+mark-paragraph: command
+mark-rectangle: command
+mark-tags: subroutine
+mark-whole-buffer: command
+max-submenus: subroutine
+maybe-break-line: command
+maybe-ding: subroutine
+maybe-restart-concurrent: subroutine
+maybe-save-all: subroutine
+menu-bar: command
+menu-invoked: subroutine
+menu-tab: table
+middle-init: subroutine
+mouse-call-hook: subroutine
+mouse-center-hook: subroutine
+mouse-get-another: subroutine
+mouse-left-hook: subroutine
+mouse-move-border: subroutine
+mouse-move-edge: subroutine
+mouse-move-popup: subroutine
+mouse-move-scroll-box: subroutine
+mouse-move: command
+mouse-other-handler: subroutine
+mouse-right-hook: subroutine
+mouse-scroll-bar: subroutine
+mouse-select: command
+mouse-selecting: subroutine
+mouse-to-tag: command
+mouse-y-in-range: subroutine
+move-by-pages: subroutine
+move-by-screen-lines: subroutine
+move-level: subroutine
+move-to-window: command
+must-char: subroutine
+must-go-tag: subroutine
+must-match: subroutine
+n-or-p-buf: subroutine
+name-kbd-macro: command
+named-command: command
+narrow-position: subroutine
+narrow-to-region: command
+new-file: command
+new-menu: subroutine
+newest-before: subroutine
+next-buffer: command
+next-error: command
+next-formfeed: subroutine
+next-match: command
+next-page: command
+next-position: command
+next-printed-page: subroutine
+next-sentence: subroutine
+next-user-window: subroutine
+next-video: command
+next-window: command
+no-running: subroutine
+non-gui-about-box: subroutine
+norm-binding: subroutine
+normal-character: command
+note-change: subroutine
+note-chars: subroutine
+note-error: subroutine
+note-msg: subroutine
+nt-match: subroutine
+number-of-user-windows: subroutine
+numtoi: subroutine
+ok-file-match: subroutine
+on-modify: subroutine
+on-scroll-bar: subroutine
+one-file-replace: subroutine
+one-help-line: subroutine
+one-menu-binding: subroutine
+one-window-to-dialog: subroutine
+one-window: command
+open-line: command
+os2-find-outside: subroutine
+os2-list-svga-modes: subroutine
+os2call: subroutine
+over-scroll-bar: subroutine
+overwrite-mode: command
+paren-cmds: subroutine
+paren-follows: subroutine
+parse-cmds: subroutine
+parse-label: subroutine
+pass-back: subroutine
+pass-if-complete: subroutine
+past-labels: subroutine
+pause-macro: command
+perform-replace: subroutine
+pick-break: subroutine
+pick-prev-search: subroutine
+pick-rectangle: subroutine
+pluck-tag: command
+point-in-region: subroutine
+point-to-pos: subroutine
+pop-kill: subroutine
+pop-retrieve: subroutine
+popup-near-window: subroutine
+prep-menu-bar: subroutine
+prep-menu-window: subroutine
+prepare-windows: subroutine
+prev-forget: subroutine
+prev-indenter: subroutine
+previous-buffer: command
+previous-error: command
+previous-match: command
+previous-page: command
+previous-position: command
+previous-sentence: subroutine
+previous-window: command
+print-buffer: command
+print-headings: subroutine
+print-region: command
+print-setup: command
+print-this-page: subroutine
+process-captured: subroutine
+process-enter: subroutine
+process-mode: command
+process-tab: table
+profile: command
+program-keys: command
+prompt-box: subroutine
+prompt-comp-read: subroutine
+prompt-file-replace: subroutine
+prox-line-search: subroutine
+push-kill: subroutine
+push: command
+put-directory: subroutine
+put-on-key: subroutine
+put-tag-directory: subroutine
+query-replace: command
+quiet-set-bookmark: subroutine
+quit-blist: subroutine
+quit-bufed: subroutine
+quote-bufname: subroutine
+quoted-insert: command
+read-file: subroutine
+read-session: command
+read-vesa-info: subroutine
+rebuild-menu: command
+recall-search-flag: subroutine
+recolor-partial-code: subroutine
+record-kbd-macro: command
+record-search: subroutine
+recursive-edit: subroutine
+redisplay-in: subroutine
+redisplay: command
+redo-changes: command
+redo: command
+reg-tab: table
+regex-replace-box: command
+regex-replace: command
+regex-search: command
+region-by-words: subroutine
+region-fill: subroutine
+region-type: subroutine
+release-notes: command
+remember-this-buffer: subroutine
+remove-blist: subroutine
+remove-bufed: subroutine
+remove-final-view: subroutine
+remove-line-highlight: subroutine
+remove-links: subroutine
+repeat-search: subroutine
+replace-again: command
+replace-box: command
+replace-in-existing-hook: subroutine
+replace-in-readonly-hook: subroutine
+replace-string: command
+resize-window-interactively: subroutine
+rest-sess-wins: subroutine
+restart-file-paths: subroutine
+restore-bookmark-session: subroutine
+restore-menu: subroutine
+restore-recall: subroutine
+restore-screen: subroutine
+restore-session-hook: subroutine
+restore-session: subroutine
+resync-lines: subroutine
+resynch-by-chars: subroutine
+retrieve: subroutine
+reverse-find: command
+reverse-incremental-search: command
+reverse-regex-search: command
+reverse-replace: command
+reverse-search-again: command
+reverse-sort-buffer: command
+reverse-sort-region: command
+reverse-string-search: command
+revert-file: command
+run-by-pattern: subroutine
+run-enter-key: subroutine
+run-menu-selection: subroutine
+run-topkey: subroutine
+save-all-buffers: command
+save-bookmark-session: subroutine
+save-completion: subroutine
+save-file: command
+save-recall-session: subroutine
+save-recall: subroutine
+save-screen: subroutine
+save-search-recall: subroutine
+save-session: subroutine
+save-to-clipboard: subroutine
+say-set-bookmark: subroutine
+scale: subroutine
+scan-for-string: subroutine
+scroll-bar-code: subroutine
+scroll-bar: command
+scroll-down: command
+scroll-left: command
+scroll-right: command
+scroll-thumb-track: subroutine
+scroll-up: command
+scrollbar-handler: subroutine
+search-again: command
+search-all-help-files: command
+search-and-show: subroutine
+search-flags-with-direction: subroutine
+search-grab-number: subroutine
+search-read: subroutine
+select-buffer: command
+select-help-dialog-1: subroutine
+select-help-files: command
+select-loop: subroutine
+select-menu-item: subroutine
+select-tag-file: command
+semi-before: subroutine
+send-printed-pages: subroutine
+send-to-file-or-cmd: subroutine
+set-abort-key: command
+set-any-variable: command
+set-bookmark: command
+set-buffer-filename: subroutine
+set-case-indirect: subroutine
+set-color: command
+set-comment-column: command
+set-debug: command
+set-display-characters: command
+set-display-look: command
+set-error-spot: subroutine
+set-file-name: command
+set-fill-column: command
+set-flag-modes: subroutine
+set-font: command
+set-gui-menu: subroutine
+set-line-translate: command
+set-list-keys: subroutine
+set-mark-cmd: subroutine
+set-mark: command
+set-menu-bar: subroutine
+set-mode: subroutine
+set-named-bookmark: command
+set-points: subroutine
+set-read-only: subroutine
+set-readonly-from-file: subroutine
+set-region-type: subroutine
+set-show-graphic: command
+set-tab-size: command
+set-toolbar: subroutine
+set-var-val: subroutine
+set-variable: command
+set-video: command
+set-videx-mode: subroutine
+set-want-backup-file: command
+set-window-color-scheme: subroutine
+setup-find-struct: subroutine
+show-abort-key: subroutine
+show-binding: subroutine
+show-bindings: command
+show-cmd-help: subroutine
+show-date-warning: subroutine
+show-help-for: subroutine
+show-idle-text: subroutine
+show-last-keys: command
+show-line: subroutine
+show-macro-suspend: subroutine
+show-matching-delimiter: command
+show-menu-loop: subroutine
+show-menu-while-over: subroutine
+show-menu: command
+show-point: command
+show-printed-page: subroutine
+show-replace: subroutine
+show-screen-size: subroutine
+show-scroll-bar: subroutine
+show-search-prompt: subroutine
+show-standard-bitmaps: command
+show-submenu: subroutine
+show-var-help: subroutine
+show-variable: command
+show-version: command
+show-view-bitmaps: command
+show-window-caption: subroutine
+shrink-colored-area: subroutine
+shrink-window-horizontally: command
+shrink-window-interactively: command
+shrink-window: command
+skip-c-braces: subroutine
+skip-cpp-init: subroutine
+skip-initializer: subroutine
+skip-param-decls: subroutine
+sort-another: subroutine
+sort-buffer-list: subroutine
+sort-buffer: command
+sort-for-dired: subroutine
+sort-region-cmd: subroutine
+sort-region-with-settings: subroutine
+sort-region: command
+sort-tags: command
+spaces-to-tabs: subroutine
+split-window-vertically: command
+split-window: command
+standard-toolbar: command
+start-kbd-macro: command
+start-process: command
+start-up: subroutine
+still-on-menu-bar: subroutine
+stop-process: command
+string-replace: subroutine
+string-search: command
+strip-columns: subroutine
+strip-final-slash: subroutine
+strtoi: subroutine
+stuff-file-date: subroutine
+stuff-macro: subroutine
+sub-menu-binding: subroutine
+submenu-highlight: subroutine
+submenu-is-highlighted: subroutine
+suffix-c: subroutine
+suffix-cpp: subroutine
+suffix-cxx: subroutine
+suffix-e: subroutine
+suffix-h: subroutine
+suffix-hpp: subroutine
+suffix-hxx: subroutine
+suffix-java: subroutine
+suffix-y: subroutine
+switch-link: subroutine
+switch-to-buffer: subroutine
+switching-to-buffer: subroutine
+tab-convert: subroutine
+tabify-buffer: command
+tabify-region: command
+table-prompt: subroutine
+tabs-to-spaces: subroutine
+tag-a-file: subroutine
+tag-c-define: subroutine
+tag-c-func: subroutine
+tag-c-struct: subroutine
+tag-c-variable: subroutine
+tag-files: command
+tag-lister: subroutine
+tag-match: subroutine
+tag-suffix-asm: subroutine
+tag-suffix-c: subroutine
+tag-suffix-cpp: subroutine
+tag-suffix-cxx: subroutine
+tag-suffix-e: subroutine
+tag-suffix-h: subroutine
+tag-suffix-hpp: subroutine
+tag-suffix-hxx: subroutine
+tag-suffix-y: subroutine
+tags-header: subroutine
+tell-key: subroutine
+temp-buf: subroutine
+term-cmd-line: subroutine
+term-init: subroutine
+term-mode: subroutine
+tiled-only: subroutine
+tiled-window-border: subroutine
+tiled-window-colors: subroutine
+tmp-buf: subroutine
+to-bufed-column: subroutine
+to-buffer-num: subroutine
+to-buffer: subroutine
+to-c-indentation: subroutine
+to-column: subroutine
+to-comment-column: subroutine
+to-indentation: command
+to-left-edge: command
+to-line-comment: subroutine
+to-matching-if: subroutine
+to-mouse-position: subroutine
+to-mouse-window: subroutine
+to-next-user-window: subroutine
+to-right-edge: command
+to-statement-start: subroutine
+to-sub-line: subroutine
+to-submenu-name: subroutine
+to-virtual-column: subroutine
+toggle-borders: command
+toggle-toolbar: command
+top-indent: subroutine
+top-popup: subroutine
+transpose-areas: subroutine
+transpose-characters: command
+transpose-lines: command
+transpose-words: command
+try-exit-concurrent: subroutine
+try-move-border: subroutine
+try-set-screen-size: subroutine
+tutorial: command
+two-scroll-box: subroutine
+unbind-key: command
+undo-changes: command
+undo-it: subroutine
+undo: command
+uniq-count-dups: subroutine
+uniq-lines-match: subroutine
+uniq: command
+unmatched-rparen: subroutine
+unsaved-buffers: subroutine
+untabify-buffer: command
+untabify-region: command
+up-line: command
+update-readonly-warning: subroutine
+uppercase-word: command
+usage: subroutine
+use-common-file-dialog: subroutine
+use-common-open-file-dlg: subroutine
+var-match: subroutine
+var-settable: subroutine
+variable-type-name: subroutine
+vid-bright-back: subroutine
+vid-clear-screen: subroutine
+vid-get-mode: subroutine
+vid-int: subroutine
+vid-match-names: subroutine
+vid-match: subroutine
+vid-os2-bright-back: subroutine
+vid-prefix: subroutine
+vid-romset: subroutine
+vid-select-expanded-font: subroutine
+vid-set-80x25: subroutine
+vid-set-mode: subroutine
+vid-set-scan-lines: subroutine
+vid-xxx-call: subroutine
+video-load-expanded-font: subroutine
+video-make-expanded-font: subroutine
+video-mode-80x25: subroutine
+video-mode-80x28: subroutine
+video-mode-80x35: subroutine
+video-mode-80x40: subroutine
+video-mode-80x43: subroutine
+video-mode-80x50: subroutine
+video-mode-os2-80x25: subroutine
+video-mode-os2-80x30: subroutine
+video-mode-os2-80x43: subroutine
+video-mode-os2-80x50: subroutine
+video-mode-os2-80x60: subroutine
+video-normal-mode: subroutine
+video-vga-mode: subroutine
+videx-byte: subroutine
+videx-match: subroutine
+videx-only-match: subroutine
+videx-set: subroutine
+videx-table-word: subroutine
+view-buf: subroutine
+view-buffer: subroutine
+view-help: subroutine
+view-linked-buf: subroutine
+view-loop: subroutine
+view-process: command
+view-tab: table
+virtual-column: subroutine
+virtual-move-back: subroutine
+virtual-to-real-column: subroutine
+visit-file: command
+wall-chart: command
+warn-existing-file: subroutine
+what-is: command
+when-aborting: subroutine
+when-exiting: subroutine
+when-idle-coloring: subroutine
+when-idle: subroutine
+when-repeating: subroutine
+when-resizing: subroutine
+when-restoring: subroutine
+when-setting-show-spaces: subroutine
+when-setting-want-code-coloring: subroutine
+which-link: subroutine
+while-mouse-pressed: subroutine
+widen-buffer: command
+wild-pattern: subroutine
+win-resize: subroutine
+window-bottom: subroutine
+window-create: subroutine
+window-mouse-handler: subroutine
+window-right: subroutine
+window-text-left: subroutine
+window-text-top: subroutine
+window-to-fit: subroutine
+window-to-scroll: subroutine
+windows-help-from: subroutine
+windows-only-help: subroutine
+word-or-region: subroutine
+word-search: subroutine
+write-file: command
+write-files-and-exit: command
+write-part: subroutine
+write-region: command
+write-session: command
+write-state: command
+xfer-rectangle: subroutine
+xfer: subroutine
+yank-pop: command
+yank: command
+zoom-window: command
+~blist-tab " ": blist-pick
+~blist-tab "?": blist-help
+~blist-tab "A": case-indirect
+~blist-tab "A-?": blist-help
+~blist-tab "B": case-indirect
+~blist-tab "C": case-indirect
+~blist-tab "C-G": blist-abort
+~blist-tab "C-I": blist-tab-key
+~blist-tab "C-J": blist-pick
+~blist-tab "C-M": blist-pick
+~blist-tab "C-_": blist-help
+~blist-tab "d": blist-delete
+~blist-tab "D": case-indirect
+~blist-tab "e": blist-pick
+~blist-tab "E": case-indirect
+~blist-tab "F": case-indirect
+~blist-tab "F-1": blist-help
+~blist-tab "G": case-indirect
+~blist-tab "h": blist-help
+~blist-tab "H": case-indirect
+~blist-tab "I": case-indirect
+~blist-tab "J": case-indirect
+~blist-tab "k": blist-delete
+~blist-tab "K": case-indirect
+~blist-tab "L": case-indirect
+~blist-tab "M": case-indirect
+~blist-tab "N": case-indirect
+~blist-tab "n": down-line
+~blist-tab "N-n": blist-pick
+~blist-tab "O": case-indirect
+~blist-tab "P": case-indirect
+~blist-tab "p": up-line
+~blist-tab "Q": case-indirect
+~blist-tab "R": case-indirect
+~blist-tab "S": case-indirect
+~blist-tab "S-N-t": blist-backtab-key
+~blist-tab "T": case-indirect
+~blist-tab "U": case-indirect
+~blist-tab "V": case-indirect
+~blist-tab "W": case-indirect
+~blist-tab "X": case-indirect
+~blist-tab "Y": case-indirect
+~blist-tab "Z": case-indirect
+~bufed-tab " ": bufed-pick
+~bufed-tab "1": bufed-examine-in-window
+~bufed-tab "2": bufed-examine-in-window
+~bufed-tab "5": bufed-examine-in-window
+~bufed-tab "?": bufed-help
+~bufed-tab "A": bufed-set-sort
+~bufed-tab "a": bufed-set-sort
+~bufed-tab "A-?": bufed-help
+~bufed-tab "B": bufed-set-sort
+~bufed-tab "b": bufed-set-sort
+~bufed-tab "C": case-indirect
+~bufed-tab "C-G": bufed-abort
+~bufed-tab "C-I": bufed-tab-key
+~bufed-tab "C-J": bufed-pick
+~bufed-tab "C-M": bufed-pick
+~bufed-tab "C-_": bufed-help
+~bufed-tab "d": bufed-kill
+~bufed-tab "D": case-indirect
+~bufed-tab "e": bufed-pick
+~bufed-tab "E": case-indirect
+~bufed-tab "F": bufed-set-sort
+~bufed-tab "f": bufed-set-sort
+~bufed-tab "F-1": bufed-help
+~bufed-tab "G": case-indirect
+~bufed-tab "h": bufed-help
+~bufed-tab "H": case-indirect
+~bufed-tab "I": bufed-set-sort
+~bufed-tab "i": bufed-set-sort
+~bufed-tab "J": case-indirect
+~bufed-tab "k": bufed-kill
+~bufed-tab "K": case-indirect
+~bufed-tab "L": case-indirect
+~bufed-tab "M": case-indirect
+~bufed-tab "N": case-indirect
+~bufed-tab "n": down-line
+~bufed-tab "N-n": bufed-pick
+~bufed-tab "O": case-indirect
+~bufed-tab "P": case-indirect
+~bufed-tab "p": up-line
+~bufed-tab "Q": case-indirect
+~bufed-tab "R": case-indirect
+~bufed-tab "s": bufed-save
+~bufed-tab "S": case-indirect
+~bufed-tab "S-N-t": bufed-backtab-key
+~bufed-tab "T": case-indirect
+~bufed-tab "U": bufed-set-sort
+~bufed-tab "u": bufed-set-sort
+~bufed-tab "V": case-indirect
+~bufed-tab "W": case-indirect
+~bufed-tab "X": case-indirect
+~bufed-tab "Y": case-indirect
+~bufed-tab "z": bufed-examine-in-window
+~bufed-tab "Z": case-indirect
+~c-tab "#": c-hash-mark
+~c-tab ")": c-close
+~c-tab ":": c-colon
+~c-tab "C-I": do-c-indent
+~c-tab "{": c-open
+~c-tab "}": c-close
+~comp-tab " ": inp-try
+~comp-tab "/": inp-remove-file-path
+~comp-tab ":": inp-remove-file-path
+~comp-tab "<Down>": inp-grab-word
+~comp-tab "<PgDn>": inp-grab-line
+~comp-tab "<PgUp>": inp-pgup
+~comp-tab "<Up>": inp-recall
+~comp-tab "?": inp-show-matches
+~comp-tab "A-<Down>": inp-grab-word
+~comp-tab "A-<PgDn>": inp-grab-line
+~comp-tab "A-<Up>": inp-recall
+~comp-tab "A-v": inp-pgup
+~comp-tab "C-A-N": inp-grab-word
+~comp-tab "C-A-P": inp-recall
+~comp-tab "C-A-V": inp-grab-line
+~comp-tab "C-G": inp-abort
+~comp-tab "C-I": inp-tab-key
+~comp-tab "C-J": inp-exit
+~comp-tab "C-M": inp-exit
+~comp-tab "C-N": inp-grab-word
+~comp-tab "C-P": inp-recall
+~comp-tab "C-R": inp-get-default
+~comp-tab "C-S": inp-get-default
+~comp-tab "C-V": inp-grab-line
+~comp-tab "C-[": inp-complete
+~comp-tab "M-<GetFocus>": inp-get-focus
+~comp-tab "M-<LoseFocus>": inp-lose-focus
+~comp-tab "N-n": inp-exit
+~comp-tab "S-N-t": inp-backtab
+~comp-tab "\\": inp-remove-file-path
+~cx-tab "#": mark-rectangle
+~cx-tab "(": start-kbd-macro
+~cx-tab ")": end-kbd-macro
+~cx-tab "+": enlarge-window-interactively
+~cx-tab ",": pluck-tag
+~cx-tab "-": shrink-window-interactively
+~cx-tab ".": goto-tag
+~cx-tab "/": set-named-bookmark
+~cx-tab "0": kill-window
+~cx-tab "1": one-window
+~cx-tab "2": split-window
+~cx-tab "5": split-window-vertically
+~cx-tab ";": set-comment-column
+~cx-tab "<Down>": move-to-window
+~cx-tab "<Left>": move-to-window
+~cx-tab "<Right>": move-to-window
+~cx-tab "<Up>": move-to-window
+~cx-tab "=": show-point
+~cx-tab ">": next-buffer
+~cx-tab "@": enlarge-window-horizontally
+~cx-tab "A": case-indirect
+~cx-tab "A-,": select-tag-file
+~cx-tab "A-.": tag-files
+~cx-tab "A-A": case-indirect
+~cx-tab "A-B": case-indirect
+~cx-tab "A-C": case-indirect
+~cx-tab "A-D": case-indirect
+~cx-tab "A-E": case-indirect
+~cx-tab "A-F": case-indirect
+~cx-tab "A-G": case-indirect
+~cx-tab "A-H": case-indirect
+~cx-tab "A-I": case-indirect
+~cx-tab "A-i": untabify-region
+~cx-tab "A-J": case-indirect
+~cx-tab "A-K": case-indirect
+~cx-tab "A-L": case-indirect
+~cx-tab "A-M": case-indirect
+~cx-tab "A-N": case-indirect
+~cx-tab "A-n": name-kbd-macro
+~cx-tab "A-O": case-indirect
+~cx-tab "A-P": case-indirect
+~cx-tab "A-Q": case-indirect
+~cx-tab "A-R": case-indirect
+~cx-tab "A-S": case-indirect
+~cx-tab "A-T": case-indirect
+~cx-tab "A-U": case-indirect
+~cx-tab "A-V": case-indirect
+~cx-tab "A-W": case-indirect
+~cx-tab "A-X": case-indirect
+~cx-tab "A-Y": case-indirect
+~cx-tab "A-Z": case-indirect
+~cx-tab "B": case-indirect
+~cx-tab "b": select-buffer
+~cx-tab "C": case-indirect
+~cx-tab "c": compare-windows
+~cx-tab "C-A-I": tabify-region
+~cx-tab "C-A-^": ctrl-prefix
+~cx-tab "C-B": bufed
+~cx-tab "C-C": exit
+~cx-tab "C-D": kill-window
+~cx-tab "C-E": push
+~cx-tab "C-F": find-file
+~cx-tab "C-H": highlight-region
+~cx-tab "C-I": indent-rigidly
+~cx-tab "C-M": start-process
+~cx-tab "C-N": next-position
+~cx-tab "C-O": delete-blank-lines
+~cx-tab "C-P": previous-position
+~cx-tab "C-Q": change-read-only
+~cx-tab "C-R": redo-changes
+~cx-tab "C-S": save-file
+~cx-tab "C-T": transpose-lines
+~cx-tab "C-U": undo-changes
+~cx-tab "C-V": visit-file
+~cx-tab "C-W": write-file
+~cx-tab "C-X": exchange-point-and-mark
+~cx-tab "C-Z": exit-level
+~cx-tab "C-[": alt-prefix
+~cx-tab "C-^": ctrl-prefix
+~cx-tab "D": case-indirect
+~cx-tab "d": dired
+~cx-tab "E": case-indirect
+~cx-tab "e": last-kbd-macro
+~cx-tab "F": case-indirect
+~cx-tab "f": set-fill-column
+~cx-tab "G": case-indirect
+~cx-tab "g": goto-line
+~cx-tab "H": case-indirect
+~cx-tab "h": mark-whole-buffer
+~cx-tab "I": case-indirect
+~cx-tab "i": insert-file
+~cx-tab "J": case-indirect
+~cx-tab "j": jump-to-named-bookmark
+~cx-tab "K": case-indirect
+~cx-tab "k": kill-buffer
+~cx-tab "L": case-indirect
+~cx-tab "l": count-lines
+~cx-tab "M": case-indirect
+~cx-tab "m": make
+~cx-tab "M-<Move>": mouse-get-another
+~cx-tab "N": case-indirect
+~cx-tab "n": next-window
+~cx-tab "N-+": enlarge-window-interactively
+~cx-tab "N--": shrink-window-interactively
+~cx-tab "O": case-indirect
+~cx-tab "o": next-window
+~cx-tab "P": case-indirect
+~cx-tab "p": previous-window
+~cx-tab "Q": case-indirect
+~cx-tab "R": case-indirect
+~cx-tab "r": redo
+~cx-tab "S": case-indirect
+~cx-tab "s": save-all-buffers
+~cx-tab "T": case-indirect
+~cx-tab "U": case-indirect
+~cx-tab "u": undo
+~cx-tab "V": case-indirect
+~cx-tab "W": case-indirect
+~cx-tab "w": write-region
+~cx-tab "X": case-indirect
+~cx-tab "x": copy-to-scratch
+~cx-tab "Y": case-indirect
+~cx-tab "y": insert-scratch
+~cx-tab "Z": case-indirect
+~cx-tab "z": zoom-window
+~cx-tab "\<": previous-buffer
+~cx-tab "^": enlarge-window
+~dired-tab " ": dired-examine
+~dired-tab ".": dired-parent
+~dired-tab "1": dired-examine-in-window
+~dired-tab "2": dired-examine-in-window
+~dired-tab "5": dired-examine-in-window
+~dired-tab "?": dired-help
+~dired-tab "A": case-indirect
+~dired-tab "B": case-indirect
+~dired-tab "C": case-indirect
+~dired-tab "c": dired-mark-for-copy
+~dired-tab "C-J": dired-examine
+~dired-tab "C-M": dired-examine
+~dired-tab "D": case-indirect
+~dired-tab "d": dired-mark-for-delete
+~dired-tab "E": case-indirect
+~dired-tab "e": dired-examine
+~dired-tab "F": case-indirect
+~dired-tab "G": case-indirect
+~dired-tab "g": dired-goto-dir
+~dired-tab "H": case-indirect
+~dired-tab "h": dired-help
+~dired-tab "I": case-indirect
+~dired-tab "J": case-indirect
+~dired-tab "K": case-indirect
+~dired-tab "L": case-indirect
+~dired-tab "M": case-indirect
+~dired-tab "m": dired-mark-for-move
+~dired-tab "N": case-indirect
+~dired-tab "n": dired-down-line
+~dired-tab "N-n": dired-examine
+~dired-tab "O": case-indirect
+~dired-tab "o": dired-examine-in-next-window
+~dired-tab "P": case-indirect
+~dired-tab "p": dired-up-line
+~dired-tab "Q": case-indirect
+~dired-tab "q": dired-execute
+~dired-tab "R": case-indirect
+~dired-tab "r": dired-refresh
+~dired-tab "S": case-indirect
+~dired-tab "s": dired-sort
+~dired-tab "T": case-indirect
+~dired-tab "U": case-indirect
+~dired-tab "u": dired-unmark
+~dired-tab "V": case-indirect
+~dired-tab "v": dired-run-viewer
+~dired-tab "W": case-indirect
+~dired-tab "X": case-indirect
+~dired-tab "x": dired-execute
+~dired-tab "Y": case-indirect
+~dired-tab "Z": case-indirect
+~dired-tab "z": dired-examine-in-window
+~dired-tab "^": dired-parent
+~grep-tab " ": grep-examine
+~grep-tab "1": dired-examine-in-window
+~grep-tab "2": dired-examine-in-window
+~grep-tab "5": dired-examine-in-window
+~grep-tab "?": grep-help
+~grep-tab "A": case-indirect
+~grep-tab "B": case-indirect
+~grep-tab "C": case-indirect
+~grep-tab "C-J": grep-examine
+~grep-tab "C-M": grep-examine
+~grep-tab "D": case-indirect
+~grep-tab "E": case-indirect
+~grep-tab "e": grep-examine
+~grep-tab "F": case-indirect
+~grep-tab "G": case-indirect
+~grep-tab "H": case-indirect
+~grep-tab "h": grep-help
+~grep-tab "I": case-indirect
+~grep-tab "J": case-indirect
+~grep-tab "K": case-indirect
+~grep-tab "L": case-indirect
+~grep-tab "M": case-indirect
+~grep-tab "N": case-indirect
+~grep-tab "n": down-line
+~grep-tab "N-n": grep-examine
+~grep-tab "O": case-indirect
+~grep-tab "P": case-indirect
+~grep-tab "p": up-line
+~grep-tab "Q": case-indirect
+~grep-tab "R": case-indirect
+~grep-tab "S": case-indirect
+~grep-tab "T": case-indirect
+~grep-tab "U": case-indirect
+~grep-tab "V": case-indirect
+~grep-tab "W": case-indirect
+~grep-tab "X": case-indirect
+~grep-tab "Y": case-indirect
+~grep-tab "Z": case-indirect
+~grep-tab "z": dired-examine-in-window
+~menu-tab " ": inp-next-page
+~menu-tab "!": inp-add-search
+~menu-tab "#": inp-add-search
+~menu-tab "$": inp-add-search
+~menu-tab "%": inp-add-search
+~menu-tab "&": inp-add-search
+~menu-tab "'": inp-add-search
+~menu-tab "(": inp-add-search
+~menu-tab ")": inp-add-search
+~menu-tab "*": inp-add-search
+~menu-tab "+": inp-add-search
+~menu-tab ",": inp-add-search
+~menu-tab "-": inp-add-search
+~menu-tab ".": inp-add-search
+~menu-tab "/": inp-add-search
+~menu-tab "0": inp-add-search
+~menu-tab "1": inp-add-search
+~menu-tab "2": inp-add-search
+~menu-tab "3": inp-add-search
+~menu-tab "4": inp-add-search
+~menu-tab "5": inp-add-search
+~menu-tab "6": inp-add-search
+~menu-tab "7": inp-add-search
+~menu-tab "8": inp-add-search
+~menu-tab "9": inp-add-search
+~menu-tab ":": inp-add-search
+~menu-tab ";": inp-add-search
+~menu-tab "=": inp-add-search
+~menu-tab ">": inp-add-search
+~menu-tab "?": inp-show-matches
+~menu-tab "@": inp-add-search
+~menu-tab "A": inp-add-search
+~menu-tab "a": inp-add-search
+~menu-tab "A-e": inp-always-get
+~menu-tab "B": inp-add-search
+~menu-tab "b": inp-add-search
+~menu-tab "C": inp-add-search
+~menu-tab "c": inp-add-search
+~menu-tab "C-?": inp-add-search
+~menu-tab "C-G": inp-abort
+~menu-tab "C-H": inp-previous-page
+~menu-tab "C-I": inp-get
+~menu-tab "C-J": inp-get-and-exit
+~menu-tab "C-M": inp-get-and-exit
+~menu-tab "C-ø": inp-add-search
+~menu-tab "C-¿": inp-add-search
+~menu-tab "C-¡": inp-add-search
+~menu-tab "C-¬": inp-add-search
+~menu-tab "C-√": inp-add-search
+~menu-tab "C-ƒ": inp-add-search
+~menu-tab "C-≈": inp-add-search
+~menu-tab "C-∆": inp-add-search
+~menu-tab "C-«": inp-add-search
+~menu-tab "C-»": inp-add-search
+~menu-tab "C-…": inp-add-search
+~menu-tab "C- ": inp-add-search
+~menu-tab "C-À": inp-add-search
+~menu-tab "C-Ã": inp-add-search
+~menu-tab "C-Õ": inp-add-search
+~menu-tab "C-Œ": inp-add-search
+~menu-tab "C-œ": inp-add-search
+~menu-tab "C-–": inp-add-search
+~menu-tab "C-—": inp-add-search
+~menu-tab "C-“": inp-add-search
+~menu-tab "C-”": inp-add-search
+~menu-tab "C-‘": inp-add-search
+~menu-tab "C-’": inp-add-search
+~menu-tab "C-÷": inp-add-search
+~menu-tab "C-◊": inp-add-search
+~menu-tab "C-ÿ": inp-add-search
+~menu-tab "C-Ÿ": inp-add-search
+~menu-tab "C-⁄": inp-add-search
+~menu-tab "C-€": inp-add-search
+~menu-tab "C-‹": inp-add-search
+~menu-tab "C-›": inp-add-search
+~menu-tab "C-ﬁ": inp-add-search
+~menu-tab "C-ﬂ": inp-add-search
+~menu-tab "D": inp-add-search
+~menu-tab "d": inp-add-search
+~menu-tab "E": inp-add-search
+~menu-tab "e": inp-add-search
+~menu-tab "F": inp-add-search
+~menu-tab "f": inp-add-search
+~menu-tab "G": inp-add-search
+~menu-tab "g": inp-add-search
+~menu-tab "H": inp-add-search
+~menu-tab "h": inp-add-search
+~menu-tab "I": inp-add-search
+~menu-tab "i": inp-add-search
+~menu-tab "J": inp-add-search
+~menu-tab "j": inp-add-search
+~menu-tab "K": inp-add-search
+~menu-tab "k": inp-add-search
+~menu-tab "L": inp-add-search
+~menu-tab "l": inp-add-search
+~menu-tab "M": inp-add-search
+~menu-tab "m": inp-add-search
+~menu-tab "M-<GetFocus>": inp-get-focus
+~menu-tab "M-<LoseFocus>": inp-lose-focus
+~menu-tab "N": inp-add-search
+~menu-tab "n": inp-add-search
+~menu-tab "N-n": inp-get-and-exit
+~menu-tab "O": inp-add-search
+~menu-tab "o": inp-add-search
+~menu-tab "P": inp-add-search
+~menu-tab "p": inp-add-search
+~menu-tab "Q": inp-add-search
+~menu-tab "q": inp-add-search
+~menu-tab "R": inp-add-search
+~menu-tab "r": inp-add-search
+~menu-tab "S": inp-add-search
+~menu-tab "s": inp-add-search
+~menu-tab "S-N-b": inp-add-search
+~menu-tab "S-N-t": inp-backtab
+~menu-tab "T": inp-add-search
+~menu-tab "t": inp-add-search
+~menu-tab "U": inp-add-search
+~menu-tab "u": inp-add-search
+~menu-tab "V": inp-add-search
+~menu-tab "v": inp-add-search
+~menu-tab "W": inp-add-search
+~menu-tab "w": inp-add-search
+~menu-tab "X": inp-add-search
+~menu-tab "x": inp-add-search
+~menu-tab "Y": inp-add-search
+~menu-tab "y": inp-add-search
+~menu-tab "Z": inp-add-search
+~menu-tab "z": inp-add-search
+~menu-tab "[": inp-add-search
+~menu-tab "\"": inp-add-search
+~menu-tab "\<": inp-add-search
+~menu-tab "\\": inp-add-search
+~menu-tab "]": inp-add-search
+~menu-tab "^": inp-add-search
+~menu-tab "_": inp-add-search
+~menu-tab "`": inp-add-search
+~menu-tab "{": inp-add-search
+~menu-tab "|": inp-add-search
+~menu-tab "}": inp-add-search
+~menu-tab "~": inp-add-search
+~menu-tab "†": inp-add-search
+~menu-tab "°": inp-add-search
+~menu-tab "¢": inp-add-search
+~menu-tab "£": inp-add-search
+~menu-tab "§": inp-add-search
+~menu-tab "•": inp-add-search
+~menu-tab "¶": inp-add-search
+~menu-tab "ß": inp-add-search
+~menu-tab "®": inp-add-search
+~menu-tab "©": inp-add-search
+~menu-tab "™": inp-add-search
+~menu-tab "´": inp-add-search
+~menu-tab "¨": inp-add-search
+~menu-tab "≠": inp-add-search
+~menu-tab "Æ": inp-add-search
+~menu-tab "Ø": inp-add-search
+~menu-tab "∞": inp-add-search
+~menu-tab "±": inp-add-search
+~menu-tab "≤": inp-add-search
+~menu-tab "≥": inp-add-search
+~menu-tab "¥": inp-add-search
+~menu-tab "µ": inp-add-search
+~menu-tab "∂": inp-add-search
+~menu-tab "∑": inp-add-search
+~menu-tab "∏": inp-add-search
+~menu-tab "π": inp-add-search
+~menu-tab "∫": inp-add-search
+~menu-tab "ª": inp-add-search
+~menu-tab "º": inp-add-search
+~menu-tab "Ω": inp-add-search
+~menu-tab "æ": inp-add-search
+~menu-tab "ø": inp-add-search
+~menu-tab "¿": inp-add-search
+~menu-tab "¡": inp-add-search
+~menu-tab "¬": inp-add-search
+~menu-tab "√": inp-add-search
+~menu-tab "ƒ": inp-add-search
+~menu-tab "≈": inp-add-search
+~menu-tab "∆": inp-add-search
+~menu-tab "«": inp-add-search
+~menu-tab "»": inp-add-search
+~menu-tab "…": inp-add-search
+~menu-tab " ": inp-add-search
+~menu-tab "À": inp-add-search
+~menu-tab "Ã": inp-add-search
+~menu-tab "Õ": inp-add-search
+~menu-tab "Œ": inp-add-search
+~menu-tab "œ": inp-add-search
+~menu-tab "–": inp-add-search
+~menu-tab "—": inp-add-search
+~menu-tab "“": inp-add-search
+~menu-tab "”": inp-add-search
+~menu-tab "‘": inp-add-search
+~menu-tab "’": inp-add-search
+~menu-tab "÷": inp-add-search
+~menu-tab "◊": inp-add-search
+~menu-tab "ÿ": inp-add-search
+~menu-tab "Ÿ": inp-add-search
+~menu-tab "⁄": inp-add-search
+~menu-tab "€": inp-add-search
+~menu-tab "‹": inp-add-search
+~menu-tab "›": inp-add-search
+~menu-tab "ﬁ": inp-add-search
+~menu-tab "ﬂ": inp-add-search
+~menu-tab "‡": inp-add-search
+~menu-tab "·": inp-add-search
+~menu-tab "‚": inp-add-search
+~menu-tab "„": inp-add-search
+~menu-tab "‰": inp-add-search
+~menu-tab "Â": inp-add-search
+~menu-tab "Ê": inp-add-search
+~menu-tab "Á": inp-add-search
+~menu-tab "Ë": inp-add-search
+~menu-tab "È": inp-add-search
+~menu-tab "Í": inp-add-search
+~menu-tab "Î": inp-add-search
+~menu-tab "Ï": inp-add-search
+~menu-tab "Ì": inp-add-search
+~menu-tab "Ó": inp-add-search
+~menu-tab "Ô": inp-add-search
+~menu-tab "": inp-add-search
+~menu-tab "Ò": inp-add-search
+~menu-tab "Ú": inp-add-search
+~menu-tab "Û": inp-add-search
+~menu-tab "Ù": inp-add-search
+~menu-tab "ı": inp-add-search
+~menu-tab "ˆ": inp-add-search
+~menu-tab "˜": inp-add-search
+~menu-tab "¯": inp-add-search
+~menu-tab "˘": inp-add-search
+~menu-tab "˙": inp-add-search
+~menu-tab "˚": inp-add-search
+~menu-tab "¸": inp-add-search
+~menu-tab "˝": inp-add-search
+~menu-tab "˛": inp-add-search
+~process-tab "C-M": process-enter
+~process-tab "N-n": process-enter
+~reg-tab " ": maybe-break-line
+~reg-tab "!": normal-character
+~reg-tab "#": normal-character
+~reg-tab "$": normal-character
+~reg-tab "%": normal-character
+~reg-tab "&": normal-character
+~reg-tab "'": normal-character
+~reg-tab "(": normal-character
+~reg-tab ")": normal-character
+~reg-tab "*": normal-character
+~reg-tab "+": normal-character
+~reg-tab ",": normal-character
+~reg-tab "-": normal-character
+~reg-tab ".": normal-character
+~reg-tab "/": normal-character
+~reg-tab "0": normal-character
+~reg-tab "1": normal-character
+~reg-tab "2": normal-character
+~reg-tab "3": normal-character
+~reg-tab "4": normal-character
+~reg-tab "5": normal-character
+~reg-tab "6": normal-character
+~reg-tab "7": normal-character
+~reg-tab "8": normal-character
+~reg-tab "9": normal-character
+~reg-tab ":": normal-character
+~reg-tab ";": normal-character
+~reg-tab "<Del>": delete-character
+~reg-tab "<Down>": down-line
+~reg-tab "<End>": end-of-window
+~reg-tab "<Home>": beginning-of-window
+~reg-tab "<Ins>": overwrite-mode
+~reg-tab "<Left>": backward-character
+~reg-tab "<PgDn>": next-page
+~reg-tab "<PgUp>": previous-page
+~reg-tab "<Right>": forward-character
+~reg-tab "<Up>": up-line
+~reg-tab "=": normal-character
+~reg-tab ">": normal-character
+~reg-tab "?": normal-character
+~reg-tab "@": normal-character
+~reg-tab "A": normal-character
+~reg-tab "a": normal-character
+~reg-tab "A- ": invoke-windows-menu
+~reg-tab "A-#": insert-ascii
+~reg-tab "A-%": query-replace
+~reg-tab "A-&": replace-string
+~reg-tab "A-)": find-delimiter
+~reg-tab "A-*": regex-replace
+~reg-tab "A-,": beginning-of-window
+~reg-tab "A--": argument
+~reg-tab "A-.": end-of-window
+~reg-tab "A-/": set-bookmark
+~reg-tab "A-0": argument
+~reg-tab "A-1": argument
+~reg-tab "A-2": argument
+~reg-tab "A-3": argument
+~reg-tab "A-4": argument
+~reg-tab "A-5": argument
+~reg-tab "A-6": argument
+~reg-tab "A-7": argument
+~reg-tab "A-8": argument
+~reg-tab "A-9": argument
+~reg-tab "A-;": indent-for-comment
+~reg-tab "A-<Del>": backward-kill-level
+~reg-tab "A-<Down>": forward-paragraph
+~reg-tab "A-<End>": next-window
+~reg-tab "A-<Home>": previous-window
+~reg-tab "A-<Left>": beginning-of-line
+~reg-tab "A-<PgDn>": shrink-window-horizontally
+~reg-tab "A-<PgUp>": enlarge-window-horizontally
+~reg-tab "A-<Right>": end-of-line
+~reg-tab "A-<Up>": backward-paragraph
+~reg-tab "A->": goto-end
+~reg-tab "A-?": help
+~reg-tab "A-@": set-mark
+~reg-tab "A-a": backward-sentence
+~reg-tab "A-A": case-indirect
+~reg-tab "A-b": backward-word
+~reg-tab "A-B": case-indirect
+~reg-tab "A-c": capitalize-word
+~reg-tab "A-C": case-indirect
+~reg-tab "A-D": case-indirect
+~reg-tab "A-d": kill-word
+~reg-tab "A-E": case-indirect
+~reg-tab "A-e": forward-sentence
+~reg-tab "A-F": case-indirect
+~reg-tab "A-f": forward-word
+~reg-tab "A-F-2": show-menu
+~reg-tab "A-F-3": compile-buffer
+~reg-tab "A-F-4": exit
+~reg-tab "A-F-5": set-video
+~reg-tab "A-F-7": grep
+~reg-tab "A-F-8": edit-variables
+~reg-tab "A-F-9": print-buffer
+~reg-tab "A-G": case-indirect
+~reg-tab "A-H": case-indirect
+~reg-tab "A-h": mark-paragraph
+~reg-tab "A-I": case-indirect
+~reg-tab "A-J": case-indirect
+~reg-tab "A-j": jump-to-last-bookmark
+~reg-tab "A-K": case-indirect
+~reg-tab "A-k": kill-sentence
+~reg-tab "A-L": case-indirect
+~reg-tab "A-l": lowercase-word
+~reg-tab "A-M": case-indirect
+~reg-tab "A-m": to-indentation
+~reg-tab "A-N": case-indirect
+~reg-tab "A-N-*": regex-replace
+~reg-tab "A-N--": argument
+~reg-tab "A-N-b": backward-kill-word
+~reg-tab "A-O": case-indirect
+~reg-tab "A-P": case-indirect
+~reg-tab "A-Q": case-indirect
+~reg-tab "A-q": fill-paragraph
+~reg-tab "A-R": case-indirect
+~reg-tab "A-r": query-replace
+~reg-tab "A-S": case-indirect
+~reg-tab "A-s": center-line
+~reg-tab "A-T": case-indirect
+~reg-tab "A-t": transpose-words
+~reg-tab "A-U": case-indirect
+~reg-tab "A-u": uppercase-word
+~reg-tab "A-V": case-indirect
+~reg-tab "A-v": previous-page
+~reg-tab "A-W": case-indirect
+~reg-tab "A-w": copy-region
+~reg-tab "A-X": case-indirect
+~reg-tab "A-x": named-command
+~reg-tab "A-Y": case-indirect
+~reg-tab "A-y": yank-pop
+~reg-tab "A-Z": case-indirect
+~reg-tab "A-z": scroll-down
+~reg-tab "A-[": backward-paragraph
+~reg-tab "A-\<": goto-beginning
+~reg-tab "A-\\": delete-horizontal-space
+~reg-tab "A-]": forward-paragraph
+~reg-tab "A-{": scroll-left
+~reg-tab "A-}": scroll-right
+~reg-tab "A-~": change-modified
+~reg-tab "B": normal-character
+~reg-tab "b": normal-character
+~reg-tab "C": normal-character
+~reg-tab "c": normal-character
+~reg-tab "C-<Down>": forward-sentence
+~reg-tab "C-<End>": goto-end
+~reg-tab "C-<Home>": goto-beginning
+~reg-tab "C-<Left>": backward-word
+~reg-tab "C-<PgDn>": shrink-window
+~reg-tab "C-<PgUp>": enlarge-window
+~reg-tab "C-<Right>": forward-word
+~reg-tab "C-<Up>": backward-sentence
+~reg-tab "C-?": backward-delete-character
+~reg-tab "C-@": set-mark
+~reg-tab "C-A": beginning-of-line
+~reg-tab "C-A-B": backward-level
+~reg-tab "C-A-F": forward-level
+~reg-tab "C-A-H": backward-kill-word
+~reg-tab "C-A-I": indent-under
+~reg-tab "C-A-K": kill-level
+~reg-tab "C-A-R": reverse-regex-search
+~reg-tab "C-A-S": regex-search
+~reg-tab "C-A-W": append-next-kill
+~reg-tab "C-A-\\": indent-region
+~reg-tab "C-A-^": ctrl-prefix
+~reg-tab "C-B": backward-character
+~reg-tab "C-C": stop-process
+~reg-tab "C-D": delete-character
+~reg-tab "C-E": end-of-line
+~reg-tab "C-F": forward-character
+~reg-tab "C-F-10": redo-changes
+~reg-tab "C-F-2": compare-windows
+~reg-tab "C-F-3": write-state
+~reg-tab "C-F-4": last-kbd-macro
+~reg-tab "C-F-5": next-video
+~reg-tab "C-F-6": set-show-graphic
+~reg-tab "C-F-7": copy-to-file
+~reg-tab "C-F-8": show-variable
+~reg-tab "C-F-9": undo-changes
+~reg-tab "C-G": abort
+~reg-tab "C-H": backward-delete-character
+~reg-tab "C-I": indent-previous
+~reg-tab "C-J": maybe-break-line
+~reg-tab "C-K": kill-line
+~reg-tab "C-L": center-window
+~reg-tab "C-M": enter-key
+~reg-tab "C-N": down-line
+~reg-tab "C-O": open-line
+~reg-tab "C-P": up-line
+~reg-tab "C-Q": quoted-insert
+~reg-tab "C-R": reverse-incremental-search
+~reg-tab "C-S": incremental-search
+~reg-tab "C-T": transpose-characters
+~reg-tab "C-U": argument
+~reg-tab "C-V": next-page
+~reg-tab "C-W": kill-region
+~reg-tab "C-X": cx-tab
+~reg-tab "C-Y": yank
+~reg-tab "C-Z": scroll-up
+~reg-tab "C-[": alt-prefix
+~reg-tab "C-^": ctrl-prefix
+~reg-tab "C-_": help
+~reg-tab "C-ø": normal-character
+~reg-tab "C-¿": normal-character
+~reg-tab "C-¡": normal-character
+~reg-tab "C-¬": normal-character
+~reg-tab "C-√": normal-character
+~reg-tab "C-ƒ": normal-character
+~reg-tab "C-≈": normal-character
+~reg-tab "C-∆": normal-character
+~reg-tab "C-«": normal-character
+~reg-tab "C-»": normal-character
+~reg-tab "C-…": normal-character
+~reg-tab "C- ": normal-character
+~reg-tab "C-À": normal-character
+~reg-tab "C-Ã": normal-character
+~reg-tab "C-Õ": normal-character
+~reg-tab "C-Œ": normal-character
+~reg-tab "C-œ": normal-character
+~reg-tab "C-–": normal-character
+~reg-tab "C-—": normal-character
+~reg-tab "C-“": normal-character
+~reg-tab "C-”": normal-character
+~reg-tab "C-‘": normal-character
+~reg-tab "C-’": normal-character
+~reg-tab "C-÷": normal-character
+~reg-tab "C-◊": normal-character
+~reg-tab "C-ÿ": normal-character
+~reg-tab "C-Ÿ": normal-character
+~reg-tab "C-⁄": normal-character
+~reg-tab "C-€": normal-character
+~reg-tab "C-‹": normal-character
+~reg-tab "C-›": normal-character
+~reg-tab "C-ﬁ": normal-character
+~reg-tab "C-ﬂ": normal-character
+~reg-tab "D": normal-character
+~reg-tab "d": normal-character
+~reg-tab "E": normal-character
+~reg-tab "e": normal-character
+~reg-tab "F": normal-character
+~reg-tab "f": normal-character
+~reg-tab "F-1": help
+~reg-tab "F-10": redo
+~reg-tab "F-11": previous-buffer
+~reg-tab "F-12": next-buffer
+~reg-tab "F-2": named-command
+~reg-tab "F-3": load-bytes
+~reg-tab "F-4": bind-to-key
+~reg-tab "F-5": show-bindings
+~reg-tab "F-6": what-is
+~reg-tab "F-7": cd
+~reg-tab "F-8": set-variable
+~reg-tab "F-9": undo
+~reg-tab "G": normal-character
+~reg-tab "g": normal-character
+~reg-tab "H": normal-character
+~reg-tab "h": normal-character
+~reg-tab "I": normal-character
+~reg-tab "i": normal-character
+~reg-tab "J": normal-character
+~reg-tab "j": normal-character
+~reg-tab "K": normal-character
+~reg-tab "k": normal-character
+~reg-tab "L": normal-character
+~reg-tab "l": normal-character
+~reg-tab "M": normal-character
+~reg-tab "m": normal-character
+~reg-tab "M-<Center>": mouse-select
+~reg-tab "M-<DCenter>": mouse-select
+~reg-tab "M-<DLeft>": mouse-select
+~reg-tab "M-<DragDrop>": drag-drop-handler
+~reg-tab "M-<DRight>": mouse-to-tag
+~reg-tab "M-<GetFocus>": get-focus
+~reg-tab "M-<Left>": mouse-select
+~reg-tab "M-<LoseFocus>": lose-focus
+~reg-tab "M-<MenuSel>": menu-invoked
+~reg-tab "M-<Move>": mouse-move
+~reg-tab "M-<Resize>": win-resize
+~reg-tab "M-<Right>": mouse-to-tag
+~reg-tab "M-<WinExit>": exit
+~reg-tab "M-<WinHelpReq>": menu-invoked
+~reg-tab "N": normal-character
+~reg-tab "n": normal-character
+~reg-tab "N-5": center-window
+~reg-tab "N-n": enter-key
+~reg-tab "O": normal-character
+~reg-tab "o": normal-character
+~reg-tab "P": normal-character
+~reg-tab "p": normal-character
+~reg-tab "Q": normal-character
+~reg-tab "q": normal-character
+~reg-tab "R": normal-character
+~reg-tab "r": normal-character
+~reg-tab "S": normal-character
+~reg-tab "s": normal-character
+~reg-tab "S-F-3": view-process
+~reg-tab "S-F-4": pause-macro
+~reg-tab "S-F-6": change-show-spaces
+~reg-tab "S-F-7": file-query-replace
+~reg-tab "S-F-9": print-region
+~reg-tab "S-N-b": backward-delete-character
+~reg-tab "S-N-n": enter-key
+~reg-tab "S-N-t": back-to-tab-stop
+~reg-tab "T": normal-character
+~reg-tab "t": normal-character
+~reg-tab "U": normal-character
+~reg-tab "u": normal-character
+~reg-tab "V": normal-character
+~reg-tab "v": normal-character
+~reg-tab "W": normal-character
+~reg-tab "w": normal-character
+~reg-tab "X": normal-character
+~reg-tab "x": normal-character
+~reg-tab "Y": normal-character
+~reg-tab "y": normal-character
+~reg-tab "Z": normal-character
+~reg-tab "z": normal-character
+~reg-tab "[": normal-character
+~reg-tab "\"": normal-character
+~reg-tab "\<": normal-character
+~reg-tab "\\": normal-character
+~reg-tab "]": normal-character
+~reg-tab "^": normal-character
+~reg-tab "_": normal-character
+~reg-tab "`": normal-character
+~reg-tab "{": normal-character
+~reg-tab "|": normal-character
+~reg-tab "}": normal-character
+~reg-tab "~": normal-character
+~reg-tab "†": normal-character
+~reg-tab "°": normal-character
+~reg-tab "¢": normal-character
+~reg-tab "£": normal-character
+~reg-tab "§": normal-character
+~reg-tab "•": normal-character
+~reg-tab "¶": normal-character
+~reg-tab "ß": normal-character
+~reg-tab "®": normal-character
+~reg-tab "©": normal-character
+~reg-tab "™": normal-character
+~reg-tab "´": normal-character
+~reg-tab "¨": normal-character
+~reg-tab "≠": normal-character
+~reg-tab "Æ": normal-character
+~reg-tab "Ø": normal-character
+~reg-tab "∞": normal-character
+~reg-tab "±": normal-character
+~reg-tab "≤": normal-character
+~reg-tab "≥": normal-character
+~reg-tab "¥": normal-character
+~reg-tab "µ": normal-character
+~reg-tab "∂": normal-character
+~reg-tab "∑": normal-character
+~reg-tab "∏": normal-character
+~reg-tab "π": normal-character
+~reg-tab "∫": normal-character
+~reg-tab "ª": normal-character
+~reg-tab "º": normal-character
+~reg-tab "Ω": normal-character
+~reg-tab "æ": normal-character
+~reg-tab "ø": normal-character
+~reg-tab "¿": normal-character
+~reg-tab "¡": normal-character
+~reg-tab "¬": normal-character
+~reg-tab "√": normal-character
+~reg-tab "ƒ": normal-character
+~reg-tab "≈": normal-character
+~reg-tab "∆": normal-character
+~reg-tab "«": normal-character
+~reg-tab "»": normal-character
+~reg-tab "…": normal-character
+~reg-tab " ": normal-character
+~reg-tab "À": normal-character
+~reg-tab "Ã": normal-character
+~reg-tab "Õ": normal-character
+~reg-tab "Œ": normal-character
+~reg-tab "œ": normal-character
+~reg-tab "–": normal-character
+~reg-tab "—": normal-character
+~reg-tab "“": normal-character
+~reg-tab "”": normal-character
+~reg-tab "‘": normal-character
+~reg-tab "’": normal-character
+~reg-tab "÷": normal-character
+~reg-tab "◊": normal-character
+~reg-tab "ÿ": normal-character
+~reg-tab "Ÿ": normal-character
+~reg-tab "⁄": normal-character
+~reg-tab "€": normal-character
+~reg-tab "‹": normal-character
+~reg-tab "›": normal-character
+~reg-tab "ﬁ": normal-character
+~reg-tab "ﬂ": normal-character
+~reg-tab "‡": normal-character
+~reg-tab "·": normal-character
+~reg-tab "‚": normal-character
+~reg-tab "„": normal-character
+~reg-tab "‰": normal-character
+~reg-tab "Â": normal-character
+~reg-tab "Ê": normal-character
+~reg-tab "Á": normal-character
+~reg-tab "Ë": normal-character
+~reg-tab "È": normal-character
+~reg-tab "Í": normal-character
+~reg-tab "Î": normal-character
+~reg-tab "Ï": normal-character
+~reg-tab "Ì": normal-character
+~reg-tab "Ó": normal-character
+~reg-tab "Ô": normal-character
+~reg-tab "": normal-character
+~reg-tab "Ò": normal-character
+~reg-tab "Ú": normal-character
+~reg-tab "Û": normal-character
+~reg-tab "Ù": normal-character
+~reg-tab "ı": normal-character
+~reg-tab "ˆ": normal-character
+~reg-tab "˜": normal-character
+~reg-tab "¯": normal-character
+~reg-tab "˘": normal-character
+~reg-tab "˙": normal-character
+~reg-tab "˚": normal-character
+~reg-tab "¸": normal-character
+~reg-tab "˝": normal-character
+~reg-tab "˛": normal-character
+~view-tab " ": inp-next-page
+~view-tab "!": inp-exit
+~view-tab "#": inp-exit
+~view-tab "$": inp-exit
+~view-tab "%": inp-exit
+~view-tab "&": inp-exit
+~view-tab "'": inp-exit
+~view-tab "(": inp-exit
+~view-tab ")": inp-exit
+~view-tab "*": inp-exit
+~view-tab "+": inp-exit
+~view-tab ",": inp-exit
+~view-tab "-": inp-exit
+~view-tab ".": inp-exit
+~view-tab "/": inp-exit
+~view-tab "0": inp-exit
+~view-tab "1": inp-exit
+~view-tab "2": inp-exit
+~view-tab "3": inp-exit
+~view-tab "4": inp-exit
+~view-tab "5": inp-exit
+~view-tab "6": inp-exit
+~view-tab "7": inp-exit
+~view-tab "8": inp-exit
+~view-tab "9": inp-exit
+~view-tab ":": inp-exit
+~view-tab ";": inp-exit
+~view-tab "<PgDn>": inp-next-page
+~view-tab "<PgUp>": inp-previous-page
+~view-tab "=": inp-exit
+~view-tab ">": inp-exit
+~view-tab "?": inp-exit
+~view-tab "@": inp-exit
+~view-tab "A": inp-exit
+~view-tab "a": inp-exit
+~view-tab "A-v": inp-previous-page
+~view-tab "B": inp-exit
+~view-tab "b": inp-exit
+~view-tab "C": inp-exit
+~view-tab "c": inp-exit
+~view-tab "C-G": inp-abort
+~view-tab "C-H": inp-previous-page
+~view-tab "C-I": inp-next-link
+~view-tab "C-J": inp-select-link
+~view-tab "C-M": inp-select-link
+~view-tab "C-V": inp-next-page
+~view-tab "C-ø": inp-exit
+~view-tab "C-¿": inp-exit
+~view-tab "C-¡": inp-exit
+~view-tab "C-¬": inp-exit
+~view-tab "C-√": inp-exit
+~view-tab "C-ƒ": inp-exit
+~view-tab "C-≈": inp-exit
+~view-tab "C-∆": inp-exit
+~view-tab "C-«": inp-exit
+~view-tab "C-»": inp-exit
+~view-tab "C-…": inp-exit
+~view-tab "C- ": inp-exit
+~view-tab "C-À": inp-exit
+~view-tab "C-Ã": inp-exit
+~view-tab "C-Õ": inp-exit
+~view-tab "C-Œ": inp-exit
+~view-tab "C-œ": inp-exit
+~view-tab "C-–": inp-exit
+~view-tab "C-—": inp-exit
+~view-tab "C-“": inp-exit
+~view-tab "C-”": inp-exit
+~view-tab "C-‘": inp-exit
+~view-tab "C-’": inp-exit
+~view-tab "C-÷": inp-exit
+~view-tab "C-◊": inp-exit
+~view-tab "C-ÿ": inp-exit
+~view-tab "C-Ÿ": inp-exit
+~view-tab "C-⁄": inp-exit
+~view-tab "C-€": inp-exit
+~view-tab "C-‹": inp-exit
+~view-tab "C-›": inp-exit
+~view-tab "C-ﬁ": inp-exit
+~view-tab "C-ﬂ": inp-exit
+~view-tab "D": inp-exit
+~view-tab "d": inp-exit
+~view-tab "E": inp-exit
+~view-tab "e": inp-exit
+~view-tab "F": inp-exit
+~view-tab "f": inp-exit
+~view-tab "G": inp-exit
+~view-tab "g": inp-exit
+~view-tab "H": inp-exit
+~view-tab "h": inp-exit
+~view-tab "I": inp-exit
+~view-tab "i": inp-exit
+~view-tab "J": inp-exit
+~view-tab "j": inp-exit
+~view-tab "K": inp-exit
+~view-tab "k": inp-exit
+~view-tab "L": inp-exit
+~view-tab "l": inp-exit
+~view-tab "M": inp-exit
+~view-tab "m": inp-exit
+~view-tab "M-<Button>": inp-exit
+~view-tab "M-<GetFocus>": inp-get-focus
+~view-tab "M-<LoseFocus>": inp-lose-focus
+~view-tab "N": inp-exit
+~view-tab "n": inp-exit
+~view-tab "N-n": inp-select-link
+~view-tab "O": inp-exit
+~view-tab "o": inp-exit
+~view-tab "P": inp-exit
+~view-tab "p": inp-exit
+~view-tab "Q": inp-exit
+~view-tab "q": inp-exit
+~view-tab "R": inp-exit
+~view-tab "r": inp-exit
+~view-tab "S": inp-exit
+~view-tab "s": inp-exit
+~view-tab "S-N-t": inp-previous-link
+~view-tab "T": inp-exit
+~view-tab "t": inp-exit
+~view-tab "U": inp-exit
+~view-tab "u": inp-exit
+~view-tab "V": inp-exit
+~view-tab "v": inp-exit
+~view-tab "W": inp-exit
+~view-tab "w": inp-exit
+~view-tab "X": inp-exit
+~view-tab "x": inp-exit
+~view-tab "Y": inp-exit
+~view-tab "y": inp-exit
+~view-tab "Z": inp-exit
+~view-tab "z": inp-exit
+~view-tab "[": inp-exit
+~view-tab "\"": inp-exit
+~view-tab "\<": inp-exit
+~view-tab "\\": inp-exit
+~view-tab "]": inp-exit
+~view-tab "^": inp-exit
+~view-tab "_": inp-exit
+~view-tab "`": inp-exit
+~view-tab "{": inp-exit
+~view-tab "|": inp-exit
+~view-tab "}": inp-exit
+~view-tab "~": inp-exit
+~view-tab "†": inp-exit
+~view-tab "°": inp-exit
+~view-tab "¢": inp-exit
+~view-tab "£": inp-exit
+~view-tab "§": inp-exit
+~view-tab "•": inp-exit
+~view-tab "¶": inp-exit
+~view-tab "ß": inp-exit
+~view-tab "®": inp-exit
+~view-tab "©": inp-exit
+~view-tab "™": inp-exit
+~view-tab "´": inp-exit
+~view-tab "¨": inp-exit
+~view-tab "≠": inp-exit
+~view-tab "Æ": inp-exit
+~view-tab "Ø": inp-exit
+~view-tab "∞": inp-exit
+~view-tab "±": inp-exit
+~view-tab "≤": inp-exit
+~view-tab "≥": inp-exit
+~view-tab "¥": inp-exit
+~view-tab "µ": inp-exit
+~view-tab "∂": inp-exit
+~view-tab "∑": inp-exit
+~view-tab "∏": inp-exit
+~view-tab "π": inp-exit
+~view-tab "∫": inp-exit
+~view-tab "ª": inp-exit
+~view-tab "º": inp-exit
+~view-tab "Ω": inp-exit
+~view-tab "æ": inp-exit
+~view-tab "ø": inp-exit
+~view-tab "¿": inp-exit
+~view-tab "¡": inp-exit
+~view-tab "¬": inp-exit
+~view-tab "√": inp-exit
+~view-tab "ƒ": inp-exit
+~view-tab "≈": inp-exit
+~view-tab "∆": inp-exit
+~view-tab "«": inp-exit
+~view-tab "»": inp-exit
+~view-tab "…": inp-exit
+~view-tab " ": inp-exit
+~view-tab "À": inp-exit
+~view-tab "Ã": inp-exit
+~view-tab "Õ": inp-exit
+~view-tab "Œ": inp-exit
+~view-tab "œ": inp-exit
+~view-tab "–": inp-exit
+~view-tab "—": inp-exit
+~view-tab "“": inp-exit
+~view-tab "”": inp-exit
+~view-tab "‘": inp-exit
+~view-tab "’": inp-exit
+~view-tab "÷": inp-exit
+~view-tab "◊": inp-exit
+~view-tab "ÿ": inp-exit
+~view-tab "Ÿ": inp-exit
+~view-tab "⁄": inp-exit
+~view-tab "€": inp-exit
+~view-tab "‹": inp-exit
+~view-tab "›": inp-exit
+~view-tab "ﬁ": inp-exit
+~view-tab "ﬂ": inp-exit
+~view-tab "‡": inp-exit
+~view-tab "·": inp-exit
+~view-tab "‚": inp-exit
+~view-tab "„": inp-exit
+~view-tab "‰": inp-exit
+~view-tab "Â": inp-exit
+~view-tab "Ê": inp-exit
+~view-tab "Á": inp-exit
+~view-tab "Ë": inp-exit
+~view-tab "È": inp-exit
+~view-tab "Í": inp-exit
+~view-tab "Î": inp-exit
+~view-tab "Ï": inp-exit
+~view-tab "Ì": inp-exit
+~view-tab "Ó": inp-exit
+~view-tab "Ô": inp-exit
+~view-tab "": inp-exit
+~view-tab "Ò": inp-exit
+~view-tab "Ú": inp-exit
+~view-tab "Û": inp-exit
+~view-tab "Ù": inp-exit
+~view-tab "ı": inp-exit
+~view-tab "ˆ": inp-exit
+~view-tab "˜": inp-exit
+~view-tab "¯": inp-exit
+~view-tab "˘": inp-exit
+~view-tab "˙": inp-exit
+~view-tab "˚": inp-exit
+~view-tab "¸": inp-exit
+~view-tab "˝": inp-exit
+~view-tab "˛": inp-exit

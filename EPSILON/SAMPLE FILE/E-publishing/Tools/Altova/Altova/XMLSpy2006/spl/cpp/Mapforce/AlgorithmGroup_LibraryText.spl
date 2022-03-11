@@ -1,0 +1,56 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // Text Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryText:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryText( byref $rSourceLibrary, byref $rArgs )
+	$lInstance	= $rSourceLibrary.UniqueName & "SourceFilename"
+	$lRootType	= $rSourceLibrary.Name & "::" & "C" & $rSourceLibrary.RootName & "Type"
+	$lRootName	= $rSourceLibrary.RootName
+]
+	// WriteTrace("Parsing Text File ...\\n");
+	m_[=$rSourceLibrary.UniqueName]Instance.SetEncoding([=$rSourceLibrary.Encoding.CodePage]);
+	m_[=$rSourceLibrary.UniqueName]Instance.SetByteOrder([=$rSourceLibrary.Encoding.IsLittleEndian]);
+	m_[=$rSourceLibrary.UniqueName]Instance.Parse([=$lInstance]);
+	[=$rSourceLibrary.Name]::[=$rSourceLibrary.Type]& [=$rSourceLibrary.UniqueName]SourceObject = m_[=$rSourceLibrary.UniqueName]Instance;
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryText:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryText( byref $rRootName, byref $rIndent )
+	$rRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$QlRootType	= $AlgorithmGroup.TargetParentContext.LibraryName & "::" & $AlgorithmGroup.TargetParentContext.Library.Type
+]	[=$QlRootType]	[=$rRootName]TargetObject;
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryText:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryText()
+	$lRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+]	[=$lRootName]TargetObject.SetEncoding([=$AlgorithmGroup.TargetContext.Encoding.CodePage]);
+	[=$lRootName]TargetObject.SetByteOrder([=$AlgorithmGroup.TargetContext.Encoding.IsLittleEndian]);
+	[=$lRootName]TargetObject.Save( [=$lRootName]TargetFilename );
+[
+endsub
+
+
+' EOF
+]

@@ -1,0 +1,84 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{[=$AltovaTextLibGuid]}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>AltovaText</AssemblyName>
+    <RootNamespace>AltovaText</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\\Debug\\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\\Release\\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\\Altova\\Altova.csproj">
+      <Name>Altova</Name>
+      <Project>{[=$AltovaLibGuid]}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlwaysEmptyTextNodeCollection.cs"/>
+    <Compile Include="AssemblyInfo.cs"/>
+    <Compile Include="BaseType.cs"/>
+    <Compile Include="EDIFACT\\BaseFunction.cs"/>
+    <Compile Include="EDIFACT\\Commands.cs"/>
+    <Compile Include="EDIFACT\\Conditions.cs"/>
+    <Compile Include="EDIFACT\\DataCompletion.cs"/>
+    <Compile Include="EDIFACT\\EDIFactDataCompletion.cs"/>
+    <Compile Include="EDIFACT\\EDIFactSettings.cs"/>
+    <Compile Include="EDIFACT\\EDISettings.cs"/>
+    <Compile Include="EDIFACT\\EDIX12DataCompletion.cs"/>
+    <Compile Include="EDIFACT\\EDIX12Settings.cs"/>
+    <Compile Include="EDIFACT\\ElementSerializer.cs"/>
+    <Compile Include="EDIFACT\\MakeSureHasChild.cs"/>
+    <Compile Include="EDIFACT\\Scanner.cs"/>
+    <Compile Include="EDIFACT\\ServiceStringAdvice.cs"/>
+    <Compile Include="EDIFACT\\StringToFunctionMap.cs"/>
+    <Compile Include="EDIFACT\\TextDocument.cs"/>
+    <Compile Include="Exceptions.cs"/>
+    <Compile Include="Flex\\Command.cs"/>
+    <Compile Include="Flex\\DocumentFragment.cs"/>
+    <Compile Include="Flex\\Splitter.cs"/>
+    <Compile Include="Flex\\TextDocument.cs"/>
+    <Compile Include="Generator.cs"/>
+    <Compile Include="IDataElement.cs"/>
+    <Compile Include="Interfaces.cs"/>
+    <Compile Include="NullTextNode.cs"/>
+    <Compile Include="RootTextNode.cs"/>
+    <Compile Include="TableLike\\ColumnSpecification.cs"/>
+    <Compile Include="TableLike\\CSV\\CSVFormat.cs"/>
+    <Compile Include="TableLike\\CSV\\CSVParser.cs"/>
+    <Compile Include="TableLike\\CSV\\CSVParserException.cs"/>
+    <Compile Include="TableLike\\CSV\\CSVParserStates.cs"/>
+    <Compile Include="TableLike\\CSV\\CSVSerializer.cs"/>
+    <Compile Include="TableLike\\FLF\\FLFFormat.cs"/>
+    <Compile Include="TableLike\\FLF\\FLFParser.cs"/>
+    <Compile Include="TableLike\\FLF\\FLFParserException.cs"/>
+    <Compile Include="TableLike\\FLF\\FLFSerializer.cs"/>
+    <Compile Include="TableLike\\Header.cs"/>
+    <Compile Include="TableLike\\Record.cs"/>
+    <Compile Include="TableLike\\RecordBasedParser.cs"/>
+    <Compile Include="TableLike\\Serializer.cs"/>
+    <Compile Include="TableLike\\Table.cs"/>
+    <Compile Include="TextNode.cs"/>
+    <Compile Include="TextNodeCollection.cs"/>
+    <Compile Include="TextNodeVisitorXML.cs"/>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\\Microsoft.CSharp.targets" />
+</Project>

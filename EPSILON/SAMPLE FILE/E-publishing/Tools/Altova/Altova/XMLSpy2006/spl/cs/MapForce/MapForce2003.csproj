@@ -1,0 +1,233 @@
+[$appName= $application.Name
+if $application.IsWebService
+    $appName= $application.Name & "_webservice"
+endif
+]<VisualStudioProject>
+    <CSHARP
+        ProjectType = "[if $application.IsWebService]Web[else]Local[endif]"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{[=$TestProjectGuid]}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "[=$appName]"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "[if $application.IsWebService]Library[else]Exe[endif]"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "[=$appName]"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "[if $application.IsWebService]false[else]true[endif]"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\\[if $application.IsWebService][else]Debug\\[endif]"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\\[if $application.IsWebService][else]Release\\[endif]"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "\\WINDOWS\\Microsoft.NET\\Framework\\v1.1.4322\\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "\\WINDOWS\\Microsoft.NET\\Framework\\v1.1.4322\\System.Data.dll"
+                />
+[if $application.IsWebService
+]                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "\\WINDOWS\\Microsoft.NET\\Framework\\v1.1.4322\\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "\\WINDOWS\\Microsoft.NET\\Framework\\v1.1.4322\\System.Web.Services.dll"
+                />
+[endif
+]                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "\\WINDOWS\\Microsoft.NET\\Framework\\v1.1.4322\\System.XML.dll"
+                />
+[
+foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+	if $library.Kind <> 4 : $ProjectLibGuid	= $library.Guid
+]                <Reference
+                    Name = "[=$module]"
+                    Project = "{[=$ProjectLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[endif : next
+]                <Reference
+                    Name = "Altova.Functions"
+                    Project = "{[=$AltovaFunctionsGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[if $DBLibraryCount > 0
+]                <Reference
+                    Name = "Altova.DB"
+                    Project = "{[=$AltovaDBLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[endif
+][if $EDILibraryCount > 0
+]                <Reference
+                    Name = "Altova.Text"
+                    Project = "{[=$AltovaTextLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[endif
+]                <Reference
+                    Name = "Altova.XML"
+                    Project = "{[=$AltovaXMLLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Altova"
+                    Project = "{[=$AltovaLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[
+foreach $FuncLib in $application.FunctionLibraries
+	foreach $Setting in $FuncLib.Settings
+		if $Setting.Name = "namespace" 
+			if $Setting.Value <> "Altova.Functions"
+]                <Reference
+                    Name = "[=$Setting.Value]"
+                    AssemblyName = "[=$Setting.Value]"
+[				foreach $Setting2 in $FuncLib.Settings
+					if $Setting2.Name = "reference"
+]                    HintPath = "[=$Setting2.Value]"
+[					endif
+				next
+]                />
+[			endif
+		endif
+	next
+next
+]
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[if not $application.IsWebService
+]                <File
+                    RelPath = "[=$application.Name]Console.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[endif
+
+foreach $Mapping in $application.Mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+]                <File
+                    RelPath = "[=$application.Name][=$AlgorithmGroup.Name].cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[	next
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+]                <File
+                    RelPath = "[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[	next
+next
+
+if $application.IsWebService
+]                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "[=$application.WSDLService.Name].asmx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "[=$application.WSDLService.Name].asmx.cs"
+                    DependentUpon = "[=$application.WSDLService.Name].asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "[=$application.WSDLService.Name].asmx.resx"
+                    DependentUpon = "[=$application.WSDLService.Name].asmx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+[
+endif
+]            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

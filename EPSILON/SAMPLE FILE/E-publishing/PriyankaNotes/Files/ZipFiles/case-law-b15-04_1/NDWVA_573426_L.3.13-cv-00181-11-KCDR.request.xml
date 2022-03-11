@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+<venue.name><bold>MARTINSBURG</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY, an Illinois corporation, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>DEBORAH K. NELSON, Personal Representative of the Estate of Randy Lawrence Nelson, Jr., R.M. STAUBS ENTERPRISES, INC. d/b/a STONEWALLS AT TONY'S PIZZA</bold>, a <bold>West Virginia corporation, KELLY GREUBER HEIDENREICH, and JAMES LEROY GREUBER, IV, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CIVIL ACTION NO: 3:13-CV-181 (JUDGE GROH)</bold></docket.line>
+<docket.number><bold>3:13-CV-181 (JUDGE GROH)</bold></docket.number>
+<docket.line suppress-flag="y">3:13-cv-00181-GMG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 02/28/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER DENYING WITHOUT PREJUDICE MOTION FOR DEFAULT JUDGMENT</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GINA M. GROH UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On this day, the above-styled matter came before this Court for consideration of Plaintiff State Farm Mutual Insurance Company's Motion for Default Judgment against Defendants R. M. Staubs Enterprises, Inc. d/b/a Stonewalls at Tony's Pizza, Kelly Greuber Heidenreich, and James Leroy Greuber, IV [Doc. 9], filed February 18, 2014. For the reason that follows, the Court <bold>DENIES</bold> this motion <bold>WITHOUT PREJUDICE.</bold></paratext></para>
+<para><paratext ID="p2" level="1">After a defendant fails to plead or defend, Federal Rule of Civil Procedure 55 provides for a two-step default judgment process. <underscore>Rodriguez v. Irwin</underscore>, No. 7:10-CV-102-FL, 2011 WL 737316, at *5 (E.D.N.C. Feb. 23, 2011); <underscore>see also Meehan v. Snow</underscore>, 652 F.2d 274, 276 (2d Cir. 1981). First, under Rule 55(a), &#x201C;the clerk must enter the party's default&#x201D; upon the plaintiffs request. <underscore>Meehan</underscore>, 652 F.2d at 276; <underscore>see also Hayhurst v. Liberty Int'l Underwriters. Inc.</underscore>, No. 5:08CV107, 2009 U.S. Dist. LEXIS 5347, at *2 (N.D. W. Va. Jan. 26, 2009) (&#x201C;To obtain a default judgment, a party <ital>must first seek an entry of default</ital> under Federal Rule of Civil Procedure 55(a).&#x201D; (emphasis added)). Only after the clerk enters a default may the plaintiff seek a default judgment under Rule 55(b)(1) or (2). <csc>Fed.</csc> R. <csc>Civ.</csc> P. 55(b); <underscore>see also Rodriguez</underscore>, 2011 WL 737316, at *5. If the defendant has failed to appear and &#x201C;the plaintiff's claim is for a sum certain or a sum that can be made certain by computation,&#x201D; the plaintiff can request a default judgment from the clerk under Rule 55(b)(1). <csc>Fed.</csc> R. <csc>Civ.</csc> P. 55(b)(1): <underscore>see also Rodriguez</underscore>, 2011 WL 737316, at *5. If that is not the case, &#x201C;the party must apply to the court for a default judgment.&#x201D; <csc>Fed.</csc> R. <csc>Civ.</csc> P. 55(b)(2).</paratext></para>
+<para><paratext ID="p3" level="1">Here, the Plaintiff did not seek an entry of default under Rule 55(a) before filing the instant motion for default judgment. Because compliance with Rule 55(a) is a prerequisite for an entry of judgment under Rule 55(b)(1) or (2), this motion is &#x201C;not on the proper procedural footing.&#x201D; See <underscore>Dahl v. Kanawha Inv. Holding Co.</underscore>, 161 F.R.D. 673, 683 (N.D. Iowa 1995); <underscore>see also Christenson Media Group, Inc. v. Lang Indus., Inc.</underscore>, 782 F. Supp. 2d 1213, 1222 (D. Kan. 2011) (stating that &#x201C;Fed. R. Civ. P. 55 contemplates a two-step process in which a plaintiff must first apply to the clerk for entry of default under subsection (a)&#x201D;); <underscore>L &#38; M Companies. Inc. v. Biggers III Produce. Inc.</underscore>, No. 3:08cv309-RJC-DCK, 2010 WL 1439411, at *5 (W.D.N.C. Apr. 9, 2010) (noting that the clerk's entry of default is a prerequisite to the entry of a default judgment). For this reason, the Court <bold>DENIES WITHOUT PREJUDICE</bold> the Plaintiff's Motion for Default Judgment. If the Plaintiff seeks default judgment, it must first apply to the clerk for entry of default.</paratext></para>
+<para><paratext ID="p4" level="1">It is so ORDERED.</paratext></para>
+<para><paratext ID="p5" level="1">The Clerk is directed to transmit copies of this Order to counsel of record herein and/or <ital>pro se</ital> parties.</paratext></para>
+<para><paratext ID="p6" level="1">DATED: February 28, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

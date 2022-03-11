@@ -1,0 +1,274 @@
+# Makefile for Epsilon's EEL source files.
+# This makefile is designed to work with all Make programs, 
+# including those that don't understand $* in dependency lists.
+
+# Copyright (C) 1985, 2001 Lugaru Software Ltd.  All rights reserved.
+# "Epsilon" is a registered trademark licensed to Lugaru Software, Ltd.
+# "EEL" and "Lugaru" are trademarks of Lugaru Software, Ltd.
+
+# You may need to change the following definitions, depending on your
+# installation options.
+BINDIR=..\bin
+EELCMD=$(BINDIR)\eel
+EPSILONCMD=$(BINDIR)\epsilon
+# Replace EPSILONCMD with epsilon, e16, epsilonc, or epsdos depending upon
+# which Epsilon version you're using: "e16" for Windows 3.1,
+# "epsilonc" for the Win32 Console version, "epsdos" for DOS, or "epsilon"
+# for Windows 95/98/NT, Unix or OS/2.
+COPYCMD=copy
+# A command to copy files.  Set to "cp" for Unix, "copy" elsewhere.
+DELCMD=del
+# A command to delete files.  Set to "rm" for Unix, "del" elsewhere.
+
+
+# If you don't use the default directory structure,
+# alter the following lines:
+IDIR=..\include
+MAIN_DIR=..
+# The MAIN_DIR should match your EPSPATH configuration variable.
+
+FORSTATE = epsilon.b basic.b bookmark.b bufed.b buffer.b c.b \
+cmdline.b colcode.b compare.b complete.b control.b debug.b \
+dired.b disp.b epsnet.b filedate.b files.b format.b grep.b help.b html.b \
+indent.b kill.b load.b lowlevel.b menu.b mouse.b proc.b prog.b search.b \
+session.b set.b sort.b store.b tags.b tex.b undo.b uniq.b video.b \
+window.b zoom.b clipboar.b stdcolor.b browse.b \
+makemode.b inimode.b fillcomm.b gams.b misclang.b \
+pull.b unicode.b
+
+OTHEREEL = diff.b vidextra.b brief.b displook.b color.b dispchar.b \
+editvars.b keyprogs.b asm.b info.b perl.b hex.b vbasic.b python.b
+
+EELFLAGS=-s -n -i$(IDIR)
+STD=$(IDIR)\eel.h $(IDIR)\codes.h
+
+all : epsilon.sta
+
+install: epsilon.sta
+	$(COPYCMD) epsilon.sta $(MAIN_DIR)
+
+clean:
+	$(DELCMD) epsilon.sta
+	$(DELCMD) *.b
+
+epsilon.sta : $(FORSTATE) $(OTHEREEL)
+	$(EPSILONCMD) -b -dquiet-write-state=1 -rwrite-state -rexit
+
+epsilon.b : epsilon.e $(STD) $(IDIR)\keyext.h $(IDIR)\keydef.h
+	$(EELCMD) $(EELFLAGS) epsilon
+
+basic.b : basic.e $(STD)
+	$(EELCMD) $(EELFLAGS) basic
+
+bookmark.b : bookmark.e $(STD)
+	$(EELCMD) $(EELFLAGS) bookmark
+
+browse.b : browse.e $(STD) $(IDIR)\colcode.h $(IDIR)\browse.h
+	$(EELCMD) $(EELFLAGS) browse
+
+bufed.b : bufed.e $(STD) $(IDIR)\bufed.h $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) bufed
+
+buffer.b : buffer.e $(STD) $(IDIR)\proc.h $(IDIR)\epsnet.h
+	$(EELCMD) $(EELFLAGS) buffer
+
+c.b : c.e $(STD) $(IDIR)\c.h $(IDIR)\kill.h $(IDIR)\colcode.h $(IDIR)\proc.h \
+ $(IDIR)\tags.h
+	$(EELCMD) $(EELFLAGS) c
+
+clipboar.b : clipboar.e $(STD) $(IDIR)\lowlevel.h $(IDIR)\kill.h
+	$(EELCMD) $(EELFLAGS) clipboar
+
+cmdline.b : cmdline.e $(STD) $(IDIR)\menu.h $(IDIR)\keyext.h
+	$(EELCMD) $(EELFLAGS) cmdline
+
+colcode.b : colcode.e $(STD) $(IDIR)\c.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) colcode
+
+compare.b : compare.e $(STD) $(IDIR)\diff.h
+	$(EELCMD) $(EELFLAGS) compare
+
+complete.b : complete.e $(STD)
+	$(EELCMD) $(EELFLAGS) complete
+
+control.b : control.e $(STD) $(IDIR)\colcode.h $(IDIR)\proc.h $(IDIR)\kill.h
+	$(EELCMD) $(EELFLAGS) control
+
+debug.b : debug.e $(STD)
+	$(EELCMD) $(EELFLAGS) debug
+
+dired.b : dired.e $(STD) $(IDIR)\dired.h $(IDIR)\colcode.h $(IDIR)\epsnet.h
+	$(EELCMD) $(EELFLAGS) dired
+
+disp.b : disp.e $(STD) $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) disp
+
+epsnet.b : epsnet.e $(STD) $(IDIR)\epsnet.h $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) epsnet
+
+filedate.b : filedate.e $(STD)
+	$(EELCMD) $(EELFLAGS) filedate
+
+files.b : files.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\epsnet.h \
+ $(IDIR)\filter.h $(IDIR)\info.h
+	$(EELCMD) $(EELFLAGS) files
+
+fillcomm.b : fillcomm.e $(STD) $(IDIR)\c.h $(IDIR)\colcode.h $(IDIR)\kill.h
+	$(EELCMD) $(EELFLAGS) fillcomm
+
+format.b : format.e $(STD)
+	$(EELCMD) $(EELFLAGS) format
+
+gams.b : gams.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\gams.h
+	$(EELCMD) $(EELFLAGS) gams
+
+grep.b : grep.e $(STD) $(IDIR)\grep.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) grep
+
+help.b : help.e $(STD) $(IDIR)\menu.h
+	$(EELCMD) $(EELFLAGS) help
+
+html.b : html.e $(STD) $(IDIR)\html.h $(IDIR)\colcode.h $(IDIR)\proc.h $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) html
+
+indent.b : indent.e $(STD)
+	$(EELCMD) $(EELFLAGS) indent
+
+inimode.b : inimode.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\inimode.h
+	$(EELCMD) $(EELFLAGS) inimode
+
+kill.b : kill.e $(STD) $(IDIR)\kill.h $(IDIR)\colcode.h $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) kill
+
+load.b : load.e $(STD)
+	$(EELCMD) $(EELFLAGS) load
+
+lowlevel.b : lowlevel.e $(STD) $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) lowlevel
+
+makemode.b : makemode.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\makemode.h
+	$(EELCMD) $(EELFLAGS) makemode
+
+menu.b : menu.e $(STD) $(IDIR)\menu.h $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) menu
+
+misclang.b : misclang.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\misclang.h
+	$(EELCMD) $(EELFLAGS) misclang
+
+mouse.b : mouse.e $(STD)
+	$(EELCMD) $(EELFLAGS) mouse
+
+proc.b : proc.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) proc
+
+prog.b : prog.e $(STD) $(IDIR)\colcode.h $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) prog
+
+pull.b : pull.e $(STD)
+	$(EELCMD) $(EELFLAGS) pull
+
+search.b : search.e $(STD) $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) search
+
+session.b : session.e $(STD) $(IDIR)\proc.h $(IDIR)\bufed.h
+	$(EELCMD) $(EELFLAGS) session
+
+set.b : set.e $(STD) $(IDIR)\lowlevel.h
+	$(EELCMD) $(EELFLAGS) set
+
+sort.b : sort.e $(STD)
+	$(EELCMD) $(EELFLAGS) sort
+
+stdcolor.b : stdcolor.e $(STD)
+	$(EELCMD) $(EELFLAGS) stdcolor
+
+store.b : store.e $(STD)
+	$(EELCMD) $(EELFLAGS) store
+
+tags.b : tags.e $(STD) $(IDIR)\tags.h $(IDIR)\c.h $(IDIR)\bufed.h \
+ $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) tags
+
+tex.b : tex.e $(STD) $(IDIR)\tex.h $(IDIR)\colcode.h $(IDIR)\proc.h $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) tex
+
+undo.b : undo.e $(STD)
+	$(EELCMD) $(EELFLAGS) undo
+
+unicode.b : unicode.e $(STD)
+	$(EELCMD) $(EELFLAGS) unicode
+
+uniq.b : uniq.e $(STD)
+	$(EELCMD) $(EELFLAGS) uniq
+
+video.b : video.e $(STD) $(IDIR)\lowlevel.h $(IDIR)\video.h
+	$(EELCMD) $(EELFLAGS) video
+
+window.b : window.e $(STD)
+	$(EELCMD) $(EELFLAGS) window
+
+zoom.b : zoom.e $(STD)
+	$(EELCMD) $(EELFLAGS) zoom
+
+
+
+brief.b : brief.e $(STD) $(IDIR)\kill.h $(IDIR)\menu.h
+	$(EELCMD) $(EELFLAGS) -e brief
+	$(COPYCMD) brief.b $(MAIN_DIR)
+
+color.b : color.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e color
+	$(COPYCMD) color.b $(MAIN_DIR)
+
+diff.b : diff.e $(STD) $(IDIR)\diff.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) -e diff
+	$(COPYCMD) diff.b $(MAIN_DIR)
+
+dispchar.b : dispchar.e $(STD) $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) -e dispchar
+	$(COPYCMD) dispchar.b $(MAIN_DIR)
+
+displook.b : displook.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e displook
+	$(COPYCMD) displook.b $(MAIN_DIR)
+
+editvars.b : editvars.e $(STD)
+	$(EELCMD) $(EELFLAGS) -e editvars
+	$(COPYCMD) editvars.b $(MAIN_DIR)
+
+keyprogs.b : keyprogs.e $(STD) $(IDIR)\keyext.h $(IDIR)\keydef.h
+	$(EELCMD) $(EELFLAGS) -e keyprogs
+	$(COPYCMD) keyprogs.b $(MAIN_DIR)
+
+vidextra.b : vidextra.e $(STD) $(IDIR)\lowlevel.h $(IDIR)\video.h
+	$(EELCMD) $(EELFLAGS) -e vidextra
+	$(COPYCMD) vidextra.b $(MAIN_DIR)
+
+asm.b : asm.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h
+	$(EELCMD) $(EELFLAGS) -e asm
+	$(COPYCMD) asm.b $(MAIN_DIR)
+
+info.b : info.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\grep.h $(IDIR)\info.h
+	$(EELCMD) $(EELFLAGS) -e info
+	$(COPYCMD) info.b $(MAIN_DIR)
+
+# Omit -e so variables get defined.
+perl.b : perl.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\perl.h \
+ $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) perl
+	$(COPYCMD) perl.b $(MAIN_DIR)
+
+hex.b : hex.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\hex.h \
+ $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) hex
+	$(COPYCMD) hex.b $(MAIN_DIR)
+
+vbasic.b : vbasic.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\vbasic.h \
+ $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) vbasic
+	$(COPYCMD) vbasic.b $(MAIN_DIR)
+
+python.b : python.e $(STD) $(IDIR)\proc.h $(IDIR)\colcode.h $(IDIR)\python.h \
+ $(IDIR)\c.h
+	$(EELCMD) $(EELFLAGS) python
+	$(COPYCMD) python.b $(MAIN_DIR)

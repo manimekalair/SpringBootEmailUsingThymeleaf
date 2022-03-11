@@ -1,0 +1,420 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // Mapping execution implementation subroutines
+' ////////////////////////
+
+include "cpp/Mapforce/AlgorithmGroup_ExecXML.spl"
+include "cpp/Mapforce/AlgorithmGroup_ExecDB.spl"
+include "cpp/Mapforce/AlgorithmGroup_ExecText.spl"
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteMapping:
+'
+'	Executes the mapping ( to be called in Run(..) )
+' ------------------------------------------------------------------------
+sub ExecuteMapping( byval $lArgs, byval $lIndent, byval $lFirstSourceInstance, byval $lTargetInstance )
+	foreach $lAlgorithm in $AlgorithmGroup.SubAlgorithms
+		if $lAlgorithm.Type = 11 ' assignment
+			call ExecuteAssignment( $lIndent, $lAlgorithm, $lFirstSourceInstance, $lTargetInstance )
+		else : if $lAlgorithm.Type = 9 ' filter
+			call ExecuteFilter ($lIndent, $lAlgorithm, $lFirstSourceInstance, $lTargetInstance )
+		else : if $lAlgorithm.Type <> 1	' main, is a local-functions
+][=$lIndent][=$lAlgorithm.Name]( [=$lArgs] );
+[		endif : endif : endif
+	next
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBlock:
+' ------------------------------------------------------------------------
+sub ExecuteBlock( byval $lIndent, byref $rSubAlgorithms, byval $lSourceParameter, byval $lTargetParameter, byref $rAlgorithm )
+	foreach $lAlgorithm in $rSubAlgorithms
+		if $lAlgorithm.Type = 11 ' assignment
+			call ExecuteAssignment( $lIndent, $lAlgorithm, $lSourceParameter, $lTargetParameter )
+		else : if $lAlgorithm.Type = 16	' exists-return
+			call ExecuteIfExistsReturn( $lIndent, $lAlgorithm )
+		else : if $lAlgorithm.Type = 5	' variable
+][=$lIndent]m_[=$rAlgorithm.VarID] = m_[=$lAlgorithm.VarID];	// return result
+[		else : if $lAlgorithm.Type <> 1	' main, is a local-functions
+][=$lIndent][=$lAlgorithm.Name]( [if $lSourceParameter <> ""][=$lSourceParameter], [endif][=$lTargetParameter] );
+[		endif : endif : endif : endif
+	next
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteCondition:
+' ------------------------------------------------------------------------
+' Note: all parameters are byref, because it is a recursive functioncall where byval is currently not supported
+sub ExecuteCondition( byval $lIndent, byref $rAlgorithm, byval $lSourceParameter, byval $lTargetParameter )
+	$lTargetVariable = "m_" & $rAlgorithm.VarID
+][=$lIndent]// execute condition
+[=$lIndent][=$lTargetVariable] = [=$rAlgorithm.DataType]();	// set result-variable to null value
+[=$lIndent][=$lTargetVariable].SetIsNull(true);
+[	if $rAlgorithm.Expression.IsTestExists
+][=$lIndent]if( !m_[=$rAlgorithm.Expression.VarID].IsEmpty() )
+[	else
+][=$lIndent]if( m_[=$rAlgorithm.Expression.VarID].ToBool() )
+[	endif
+	$lIndent2 = $lIndent & "	"
+][=$lIndent]{
+[	if $rAlgorithm.Expression.HasTrueAlgorithm
+		call ExecuteBlock( $lIndent2, $rAlgorithm.Expression.TrueAlgorithm.SubAlgorithms, $lSourceParameter, $lTargetParameter, $rAlgorithm )
+	endif
+][=$lIndent]}
+[=$lIndent]else
+[=$lIndent]{
+[	if $rAlgorithm.Expression.HasFalseAlgorithm
+		call ExecuteBlock( $lIndent2, $rAlgorithm.Expression.FalseAlgorithm.SubAlgorithms, $lSourceParameter, $lTargetParameter, $rAlgorithm )
+	endif
+][=$lIndent]}
+[endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteAssignment:
+' ------------------------------------------------------------------------
+sub ExecuteAssignment( byval $lIndent, byref $rAlgorithm, byval $lSourceParameter, byval $lTargetParameter )
+	if $rAlgorithm.Expression.Type = 12	' condition
+		call ExecuteCondition( $Indent, $rAlgorithm, $lSourceParameter, $lTargetParameter)
+	else : if $rAlgorithm.Expression.Type = 15	' exists
+		call ExecuteIfExists( $Indent, $rAlgorithm, $lSourceParameter, $lTargetParameter)
+	else
+
+][=$lIndent]m_[=$rAlgorithm.VarID] = [
+	if $rAlgorithm.Expression.Type = 3 ' functioncall
+		][=$rAlgorithm.Expression.FunctionNamespace]::[=$rAlgorithm.Expression.FunctionName]( [
+		$lIsFirst = true
+		if $rAlgorithm.Expression.FunctionInstanceId > 0
+			$lIsFirst = false
+			][=$rAlgorithm.Expression.FunctionInstanceId] /* Instance ID */ [
+		endif
+		foreach $lArgument in $rAlgorithm.Expression.ArgumentList
+			' Separator
+			if not $lIsFirst
+				], [
+			else
+				$lIsFirst = false
+			endif
+			' Cast if called function is a user-defined-function
+			if $rAlgorithm.Expression.IsLocalFunction
+				][=$lArgument.DataType]( [
+			endif
+			' serialize argument
+			if $lArgument.Type = 5 ' variable
+				]m_[=$lArgument.VarID][
+			else if $lArgument.Type = 4 ' const
+				if $lArgument.DataTypeNr = 0 ' string
+					]_T( "[=$lArgument.Value]" )[
+				else
+					if not $rAlgorithm.Expression.IsLocalFunction
+						][=$lArgument.DataType]( [
+					endif
+					]_T("[=$lArgument.Value]")[
+					if not $rAlgorithm.Expression.IsLocalFunction
+						] )[
+				endif : endif
+			endif : endif
+			' Finish cast if called function is a user-defined-function
+			if $rAlgorithm.Expression.IsLocalFunction
+				] )[
+			endif
+		next
+		] )[
+	else : if $rAlgorithm.Expression.Type = 4 ' const
+		if $rAlgorithm.Expression.DataTypeNr = 0 ' string
+			]_T( "[=$rAlgorithm.Expression.Value]" )[
+		else	
+			][=$rAlgorithm.Expression.DataType]( _T( "[=$rAlgorithm.Expression.Value]" ) )[
+		endif
+	else : if $rAlgorithm.Expression.Type = 5 ' variable
+		]m_[=$rAlgorithm.Expression.Nr][
+	else : if $rAlgorithm.Expression.Type = 6 ' sourcedata
+		if $rAlgorithm.Expression.IsCurrentNode
+			][=$lSourceParameter][
+		else
+			][=$lSourceParameter].Get[=$rAlgorithm.Expression.SourceContext.Name]()[
+		endif
+	endif : endif : endif : endif
+'	if $rAlgorithm.DataType <> "" and $rAlgorithm.SourceContext.IsSimpleType
+'		)
+'	endif
+	];
+[
+	endif : endif
+
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteVariable:
+' ------------------------------------------------------------------------
+sub ExecuteVariable( byval $lIndent, byref $rAlgorithm, byref $rTargetParameter )
+	if $rAlgorithm.TargetVarID <> ""
+][=$lIndent]m_[=$rAlgorithm.TargetVarID] = [	'target-variables will always be of simple-type
+	else 
+][=$lIndent][=$rTargetParameter] = [
+	endif
+
+	if $rAlgorithm.DataType = ""
+		]m_[=$rAlgorithm.VarID];
+[	else
+		][=$rAlgorithm.DataType]( m_[=$rAlgorithm.VarID] );
+[	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteSourceData:
+' ------------------------------------------------------------------------
+sub ExecuteSourceData( byval $lIndent, byref $rAlgorithm, byval $lSourceParameter )
+	if $rAlgorithm.TargetContext.HasTextValue
+][=$lIndent][=$rAlgorithm.TargetContext.UniqueName]TargetObject = [if $rAlgorithm.SourceContext.IsMixed]( CSchemaString )[endif][=$lSourceParameter][
+	else
+][=$lIndent][=$rAlgorithm.TargetContext.UniqueName]TargetObject.Assign( [=$lSourceParameter][
+	endif
+
+	if not $rAlgorithm.SourceContext.IsBuiltinType
+		if not $rAlgorithm.IsCurrentNode
+			].Get[=$rAlgorithm.SourceContext.Name]()[
+		endif
+	endif
+
+	if not $rAlgorithm.TargetContext.HasTextValue
+			] )[
+	endif
+	];
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoop:
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoop( byref $rIndent, byref $rAlgorithm, byref $rDBLoop, byref $rSourceParameter )
+	$rDBLoop = false
+
+	' check type of source-context
+	$lQType = QualifiedTypeName($rAlgorithm.SourceContext)
+
+	' General handling
+	if $rAlgorithm.IsParentLoop
+		$rSourceParameter = "m_" & $rAlgorithm.VarID
+	endif
+	if $rAlgorithm.IsLoopVariableStored
+][=$Indent]m_[=$rAlgorithm.Name] = [=$rSourceParameter];
+[	endif
+
+	' Library specific handling
+	if $rAlgorithm.IsDatabaseLoop
+		call ExecuteBeginLoopDB( $lQType, $rIndent, $rAlgorithm, $rSourceParameter, $rDBLoop )
+	else ' XML/TEXT loop
+		if $rAlgorithm.SourceContext.Library.Kind = 3 ' TXT-loop
+			call ExecuteBeginLoopText( $lQType, $rIndent, $rAlgorithm, $rSourceParameter )
+		else
+			call ExecuteBeginLoopXML( $lQType, $rIndent, $rAlgorithm, $rSourceParameter, "XML" )
+		endif
+	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginCreate:
+' ------------------------------------------------------------------------
+sub ExecuteBeginCreate( byref $rIndent, byref $rAlgorithm )
+
+	' check type
+	$lQType = QualifiedTypeName($rAlgorithm.TargetContext)
+
+	if $rAlgorithm.TargetContext.Library.Kind = 1	' XML Library
+][=$rIndent][=$lQType] New[=$rAlgorithm.TargetContext.UniqueName]TargetObject;
+[	endif
+	if $rAlgorithm.TargetContext.Library.Kind = 2 	' DB Library
+		call ExecuteBeginCreateDB( $lQType, $rIndent, $rAlgorithm )
+	endif
+	if $rAlgorithm.TargetContext.Library.Kind = 3 	' Text Library
+][=$rIndent][=$lQType] [=$rAlgorithm.TargetContext.UniqueName]TargetObject;
+[	endif
+	'Note: When Paremter Library as target is used (output) the return value is written directly
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteFilter:
+' ------------------------------------------------------------------------
+sub ExecuteFilter( byval $lIndent, byref $rAlgorithm, byval $lSourceParameter, byval $lTargetParameter )
+=$lIndent]if ( m_[=$rAlgorithm.VarID].ToBool() [if $rAlgorithm.TestUnmatched]== false [endif])
+[=$lIndent]{
+[=$lIndent]	[=$rAlgorithm.Name]( [if $lSourceParameter <> ""][=$lSourceParameter], [endif][=$lTargetParameter] );
+[=$lIndent]}
+[
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteIfExists:
+' ------------------------------------------------------------------------
+sub ExecuteIfExists( byval $lIndent, byref $rAlgorithm, byval $lSourceParameter, byval $lTargetParameter )
+]
+[=$lIndent]//EXISTS-BLOCK
+[=$lIndent]m_[=$rAlgorithm.VarID] = 0;
+[
+call ExecuteBlock( $lIndent, $rAlgorithm.Expression.SubAlgorithms, $lSourceParameter, $lTargetParameter, $rAlgorithm )
+if $rAlgorithm.Expression.ReturnValueIfExisting = 0
+]
+[=$lIndent]m_[=$rAlgorithm.VarID] = !m_[=$rAlgorithm.VarID];
+[endif]
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteIfExistsReturn:
+' ------------------------------------------------------------------------
+sub ExecuteIfExistsReturn( byval $lIndent, byref $rAlgorithm )
+]
+[=$lIndent]//EXISTS-RETURN
+[=$lIndent]m_[=$rAlgorithm.VarID] = 1;
+[
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteSubLoop:
+' ------------------------------------------------------------------------
+sub ExecuteSubLoop( byref $rIndent, byref $rAlgorithm, byref $rSubAlgorithm, byval $lSourceParameter, byval $lTargetParameter, byref $rIsFirstListLoop )
+	$rIsFirstListLoop = false
+	if $rAlgorithm.Type = 10 and $rAlgorithm.TargetParentContext.Library.Kind = 2 and $rAlgorithm.TargetContext.IsTable ' create, DB Library
+		call PrepareCreateDBBeforeChildren( $rIndent, $rAlgorithm, $lTargetParameter )
+	endif
+][=$rIndent][=$rSubAlgorithm.Name]( [if $lSourceParameter <> ""][=$lSourceParameter], [endif][=$lTargetParameter] ); // loop inside a list
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteSubCreate:
+' ------------------------------------------------------------------------
+sub ExecuteSubCreate( byref $rIndent, byref $rAlgorithm, byref $rSubAlgorithm, byval $lSourceParameter, byval $lTargetParameter, byref $rIsFirstListLoop )
+	$rIsFirstListLoop = false
+	if $rAlgorithm.Type = 10 and $rAlgorithm.TargetParentContext.Library.Kind = 2 and $rAlgorithm.TargetContext.IsTable ' create, DB Library
+		call PrepareCreateDBBeforeChildren( $rIndent, $rAlgorithm, $lTargetParameter )
+	endif
+][=$rIndent][=$rSubAlgorithm.Name]( [if $lSourceParameter <> ""][=$lSourceParameter], [endif][=$lTargetParameter] ); // create child-table entries
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndLoop:
+' ------------------------------------------------------------------------
+sub ExecuteEndLoop( byref $rIndent, byref $rAlgorithm, byval $lDBLoop, byval $lSourceParameter )
+	if $lDBLoop
+		call ExecuteEndLoopDB( $rIndent, $lSourceParameter)
+	endif
+	$rIndent = "	"
+][=$rIndent]}
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreate:
+' ------------------------------------------------------------------------
+sub ExecuteEndCreate( byref $rIndent, byref $rAlgorithm, byval $lTargetParameter, byval $lIsFirstListLoop )
+	if $Algorithm.TargetParentContext.Library.Kind = 1 ' XML Library
+		call ExecuteEndCreateXML( $rIndent, $rAlgorithm )
+	endif
+	if $Algorithm.TargetParentContext.Library.Kind = 2 ' DB Library
+		call ExecuteEndCreateDB( $rIndent, $rAlgorithm, $lTargetParameter, $lIsFirstListLoop )
+	endif
+	if $Algorithm.TargetParentContext.Library.Kind = 3 ' Text Library
+		call ExecuteEndCreateText( $rIndent, $rAlgorithm )
+	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginDistribute:
+' ------------------------------------------------------------------------
+sub ExecuteBeginDistribute( byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+	if $Algorithm.SourceContext.Library.Kind = 1 or $Algorithm.SourceContext.Library.Kind = 5 ' XML Library
+		call ExecuteBeginDistributeXML( $rIndent, $rAlgorithm, $rSourceParameter )
+	endif
+	if $Algorithm.SourceContext.Library.Kind = 3 ' Text Library
+		call ExecuteBeginDistributeTXT( $rIndent, $rAlgorithm, $rSourceParameter )
+	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteDistLoop:
+' ------------------------------------------------------------------------
+sub ExecuteDistLoop( byref $rIndent, byref $rAlgorithm, byref $rSubAlgorithm, byref $rSourceParameter, byref $rTargetParameter )
+	if $Algorithm.SourceContext.Library.Kind = 1 or $Algorithm.SourceContext.Library.Kind = 5 ' XML Library
+		call ExecuteDistLoopXML( $rIndent, $rAlgorithm, $rSubAlgorithm, $rSourceParameter, $rTargetParameter )
+	endif
+	if $Algorithm.SourceContext.Library.Kind = 3 ' Text Library
+		call ExecuteDistLoopTXT( $rIndent, $rAlgorithm, $rSubAlgorithm, $rSourceParameter, $rTargetParameter )
+	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndDistribute:
+' ------------------------------------------------------------------------
+sub ExecuteEndDistribute( byref $rIndent, byref $rAlgorithm, byref $rTargetParameter )
+	if $Algorithm.SourceContext.Library.Kind = 1 or $Algorithm.SourceContext.Library.Kind = 5 ' XML Library
+		call ExecuteEndDistributeXML( $rIndent, $rAlgorithm, $rTargetParameter )
+	endif
+	if $Algorithm.SourceContext.Library.Kind = 3 ' Text Library
+		call ExecuteEndDistributeTXT( $rIndent, $rAlgorithm, $rTargetParameter )
+	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteInstantiateNewTarget:
+' ------------------------------------------------------------------------
+sub ExecuteInstantiateNewTarget( byref $rIndent, byref $rAlgorithm, byref $rExceptionTarget, byref $rExceptionTargetType ) 
+
+foreach $lSubAlg in $rAlgorithm.SubAlgorithms
+	$haveFirst=0
+	if $lSubAlg.Type <> 11 and not $haveFirst
+		$haveFirst = true
+		
+		if $lSubAlg.TargetParentContext.Library.Kind = 4 and $lSubAlg.TargetParentContext.Library.IsException
+			$rExceptionTargetType ="CSchemaString"
+			$rExceptionTarget = $lSubAlg.TargetParentContext.Name & "TargetObject"
+			][=$rIndent][=$rExceptionTargetType] [=$rExceptionTarget];
+[		else
+			$lDocName =  $AlgorithmGroup.TargetParentContext.LibraryName & "Doc"
+			$lQDocType = $AlgorithmGroup.TargetParentContext.LibraryName & "." & $lDocName
+			$rRootName	= $lSubAlg.TargetParentContext.UniqueName
+			$lXmlName = $lSubAlg.TargetParentContext.XmlName
+			$lQRootType	= $lSubAlg.TargetParentContext.NamespacePrefix & "." & $lSubAlg.TargetParentContext.Type
+]			[=$lQDocType] [=$lDocName]TargetObject;
+			[=$lQRootType] [=$rRootName]TargetObject([=$lDocName]TargetObject, "http://schemas.xmlsoap.org/soap/envelope/", "soap", "soap:Fault");
+			// This was error target
+[			$rExceptionTarget = $rRootName & "TargetObject"
+			$rExceptionTargetType = $rRootName
+		endif
+	endif
+next
+endsub
+' EOF
+]

@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Altova", "..\\Altova\\Altova.vcproj", "{[=$AltovaLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AltovaText", "..\\AltovaText\\AltovaText.vcproj", "{[=$AltovaTextLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[=$module]", "..\\[=$module]\\[=$module].vcproj", "{[=$ProjectLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+[if $libtype = 2]
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+[endif]
+		{[=$AltovaTextLibGuid]} = {[=$AltovaTextLibGuid]}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unicode Debug = Unicode Debug
+		Unicode Release = Unicode Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{[=$AltovaLibGuid]}.Debug.ActiveCfg = Debug|Win32
+		{[=$AltovaLibGuid]}.Debug.Build.0 = Debug|Win32
+		{[=$AltovaLibGuid]}.Release.ActiveCfg = Release|Win32
+		{[=$AltovaLibGuid]}.Release.Build.0 = Release|Win32
+		{[=$AltovaLibGuid]}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{[=$AltovaLibGuid]}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{[=$AltovaLibGuid]}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{[=$AltovaLibGuid]}.Unicode Release.Build.0 = Unicode Release|Win32
+		{[=$AltovaTextLibGuid]}.Debug.ActiveCfg = Debug|Win32
+		{[=$AltovaTextLibGuid]}.Debug.Build.0 = Debug|Win32
+		{[=$AltovaTextLibGuid]}.Release.ActiveCfg = Release|Win32
+		{[=$AltovaTextLibGuid]}.Release.Build.0 = Release|Win32
+		{[=$AltovaTextLibGuid]}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{[=$AltovaTextLibGuid]}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{[=$AltovaTextLibGuid]}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{[=$AltovaTextLibGuid]}.Unicode Release.Build.0 = Unicode Release|Win32
+		{[=$ProjectLibGuid]}.Debug.ActiveCfg = Debug|Win32
+		{[=$ProjectLibGuid]}.Debug.Build.0 = Debug|Win32
+		{[=$ProjectLibGuid]}.Release.ActiveCfg = Release|Win32
+		{[=$ProjectLibGuid]}.Release.Build.0 = Release|Win32
+		{[=$ProjectLibGuid]}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{[=$ProjectLibGuid]}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{[=$ProjectLibGuid]}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{[=$ProjectLibGuid]}.Unicode Release.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

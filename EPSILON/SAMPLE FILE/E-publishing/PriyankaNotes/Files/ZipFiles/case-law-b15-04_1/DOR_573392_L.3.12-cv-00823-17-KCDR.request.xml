@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE DISTRICT OF OREGON</venue.name>
+<venue.name>PORTLAND DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>GREAT AMERICAN INSURANCE COMPANY, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>KENNETH M. SPENCER, et al., Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>No. 03:12-cv-00823-HZ</docket.line>
+<docket.number>03:12-cv-00823-HZ</docket.number>
+<docket.line suppress-flag="y">3:12-cv-00823-HZ</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/13/2012</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">H. Lee Cook, H. LEE COOK LAW, LLC., 4207 SE Woodstock Blvd., Suite 43, Portland, OR 97206, Attorney for Plaintiff</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">OPINION &#38; ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">MARCO A. HERNANDEZ United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">HERNANDEZ, District Judge:</paratext></para>
+<para><paratext ID="p2" level="1">Plaintiff Great American Insurance Company (&#x201C;Plaintiff&#x201D;) brings this Interpleader action seeking indemnity pursuant to 28 U.S.C. &#167; 1335 against the following defendants: (1) Kenneth M. Spencer; (2) Marlene L. Spencer; (3) Cheetah Transportation Systems, Inc.; (4) Access Transport &#38; Logistics, Inc.; (5) Fuentes &#38; Sons Service, Inc.; (6) Reliable Express, Inc.; (7) C &#38; J Trucking, Inc.; (8) J.W. Stenger Trucking, Inc.; (9) Sun Valley Trucking, LLC; (10) Skidmore Transportation Services, Inc.; and (11) Does 1-30. On July 2, 2012, Plaintiff filed a Motion for Order Allowing Alternative Service&#8211;Publication and Mail (doc. #8). Because Plaintiff's motion did not meet the requirements of Rule 4(e) of the Federal Rules of Civil Procedure (&#x201C;Rule&#x201D;) and Oregon Rules of Civil Procedure (&#x201C;ORCP&#x201D;) 7(D)(6), it was denied.</paratext></para>
+<para><paratext ID="p3" level="1">Now before me is Plaintiff's Amended Motion for Order Allowing Alternative Service&#8211; Publication (doc. #12) and a Motion for Extension of Time to Perfect Service on Defendants (&#x201C;Motion for Extension of Time&#x201D;) (doc. # 16). For the reasons that follow, Plaintiff's motions are GRANTED.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">&#x201C;Unless federal law provides otherwise, an individual <charfill numchar="3">&#8228;</charfill> may be served in a judicial district of the United States by: (1) following state law for serving a summons in an action brought in courts of general jurisdiction in the state where the district court is located or where service is made. <charfill numchar="3">&#8228;</charfill>&#x201D; Fed. R. Civ. P. 4(e)(1). Oregon law provides that:</paratext>
+<para><paratext ID="p5" first-line="1" turnover="1">[o]n motion upon a showing by affidavit or declaration that service cannot be made by any method otherwise specified in these rules or other rule or statute, the court, at its discretion, may order service by any method or combination of methods which under the circumstances is most reasonably calculated to apprise the defendant of the existence and pendency of the action, including <charfill numchar="3">&#8228;</charfill> publication of summons. <charfill numchar="3">&#8228;</charfill></paratext></para>
+<paratext ID="p6" contd-flag="y">Or. R. Civ. P. 7(D)(6)(a).</paratext></para>
+<para><paratext ID="p7" level="1">&#x201C;An order for publication shall direct publication to be made in a newspaper of general circulation in the county where the action is commenced or, if there is no such newspaper, then in a newspaper to be designated as most likely to give notice to the person to be served.&#x201D;<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Or. R. Civ. P. 7(D)(6)(c).</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p8">&#8195;The county where this action is commenced is Multnomah County, Oregon.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p9" level="1">Noted above, Plaintiff seeks to serve Does 1-30 by publication. Specifically, Plaintiff requests that it be allowed to publish the Summons and Notice in the <underscore>Oregon Daily Journal of Commerce</underscore>, a journal which is published in Oregon and which is presumably the location of Does 1-30. In my discretion, I conclude that service by publication of the Summons and Notice in the <underscore>Oregon Daily Journal of Commerce</underscore> is proper under ORCP 7(D). That being said, Plaintiff is required to follow the service requirements of the ORCP, including ORCP 7(D)(6)(c) and 7(D)(6)(b), which require, among other things, publication of the Summons and Notice &#x201C;four times in successive calendar weeks&#x201D; and the published summons to contain a summary statement of the object of the complaint and the demand and for relief, respectively.</paratext></para>
+<para><paratext ID="p10" level="1">Lastly, Plaintiff moves this court for an &#x201C;order allowing an extension of time for service on defendants under Fed. R. Civ. P. 4(m) for sixty (60) days to allow service upon the Does by publication and to allow the period for appearance or answer for those defendants that have been served, to run.&#x201D;<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> Mot. for Extension of Time, p. 2. The record demonstrates that Plaintiff has diligently sought to serve Does 1-30 and accordingly, Plaintiff's Motion for Extension of Time is granted.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p11">&#8195;Rule 4(m) provides as follows:</paratext>
+<paratext ID="p12" first-line="2" turnover="2" contd-flag="y">If a defendant is not served within 120 days after the complaint is filed, the court&#8211; on motion or on its own after notice to the plaintiff&#8211;must dismiss the action without prejudice against that defendant or order that service be made within a specified time. But if the plaintiff shows good cause for the failure, the court must extend the time for service for an appropriate period.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="center"><bold>CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">For the reasons stated above, Plaintiff's motions (doc. #12 and #16) are GRANTED.</paratext></para>
+<para><paratext ID="p14" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p15" level="1">Dated this <underscore><bold>13</bold></underscore> day of <underscore>sep</underscore>, 2012.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

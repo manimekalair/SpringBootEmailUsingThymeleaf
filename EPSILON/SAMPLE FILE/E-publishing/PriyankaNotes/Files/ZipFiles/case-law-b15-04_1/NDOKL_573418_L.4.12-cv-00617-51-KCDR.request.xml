@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>STUART C. IRBY COMPANY, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>WIRE NUTS ELECTRIC, INC., CHRISTY MCGILL, WILLIAM SMITH, and JANET SMITH, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No. 12-CV-0617-CVE-FHM</bold></docket.line>
+<docket.number><bold>12-CV-0617-CVE-FHM</bold></docket.number>
+<docket.line suppress-flag="y">4:12-cv-00617-CVE-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 08/06/2013</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">CLAIRE V. EAGAN UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On July 19, 2013, Magistrate Judge Frank H. McCarthy entered a Report and Recommendation (Dkt. # 48) recommending that Stuart C. Irby Company's Motion for Attorneys' Fees and Costs (Dkt. # 42) be granted. On June 6, 2013, the Court entered default judgment in favor of plaintiff and against defendants William Smith and Janet Smith in the amount of $179,682.36. Plaintiff requests attorney fees under the personal guaranty executed by William Smith and Janet Smith that provides:</paratext>
+<para><paratext ID="p2" first-line="1" turnover="1">If the Applicant's account is placed in the hands of an attorney for collection, the undersigned Guarantor agrees to pay twenty percent (20%) of the account balance as attorney's fees and costs of collection.</paratext></para>
+<paratext ID="p3" contd-flag="y">Dkt. # 2-1, at 2. Plaintiff requests attorney fees in the amount of $35,936.47 and the magistrate judge states that plaintiff is authorized to recover attorney fees in this amount under the personal guaranty. Dkt. # 48, at 1. The Court has independently reviewed the report and recommendation, and finds no reason to modify or reject it. Plaintiff has served its motion for attorney fees and costs on William Smith and Janet Smith, and defendants have not filed a response. In addition, William Smith and Janet Smith have not filed an objection to the magistrate judge's report and recommendation.</paratext>
+</para>
+<para><paratext ID="p4" level="1"><bold>IT IS THEREFORE ORDERED</bold> that the Report and Recommendation (Dkt. # 48) is <bold>accepted</bold>, and Stuart C. Irby Company's Motion for Attorneys' Fees and Costs (Dkt. # 42) is <bold>granted</bold>. A separate judgment awarding attorney fees and costs to plaintiff in the amount of $35,936.47 is entered herewith.</paratext></para>
+<para><paratext ID="p5" level="1"><bold>DATED</bold> this 6th day of August, 2013.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

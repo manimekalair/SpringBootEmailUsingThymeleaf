@@ -1,0 +1,211 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Altova"="..\\Altova\\Altova.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+[if $XMLLibraryCount > 0
+]###############################################################################
+
+Project: "AltovaXML"="..\\AltovaXML\\AltovaXML.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+}}}
+
+[endif
+if $DBLibraryCount > 0
+]###############################################################################
+
+Project: "AltovaDB"="..\\AltovaDB\\AltovaDB.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+}}}
+
+[endif
+if $EDILibraryCount > 0
+]###############################################################################
+
+Project: "AltovaText"="..\\AltovaText\\AltovaText.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+}}}
+
+[endif
+]###############################################################################
+
+Project: "AltovaFunctions"="..\\AltovaFunctions\\AltovaFunctions.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+}}}
+
+[' userdefined-function-libraries
+foreach $FuncLib in $application.FunctionLibraries
+	if $FuncLib.Name <> "core" and $FuncLib.Name <> "db" and $FuncLib.Name <> "lang" and $FuncLib.Name <> "edifact" and not $FuncLib.HasOnlyLocalFunctions
+]###############################################################################
+
+Project: "[=$FuncLib.Name]"="..\\[=$FuncLib.Name]\\[=$FuncLib.Name].dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+}}}
+
+[	endif 
+next
+
+' wrapper-libraries
+foreach $library in $application.Libraries
+	if not $library.IsDuplicate
+		if $library.Kind <> 4	' Parameter Library
+]###############################################################################
+
+Project: "[=$library.Name]"="..\\[=$library.Name]\\[=$library.Name].dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+[			if $library.Kind = 1 ' XML Library
+]    Begin Project Dependency
+    Project_Dep_Name AltovaXML
+    End Project Dependency
+[			endif
+]
+[			if $library.Kind = 2 ' Database Library
+]    Begin Project Dependency
+    Project_Dep_Name AltovaDB
+    End Project Dependency
+[			endif
+]
+[			if $library.Kind = 3 ' Text Parser Library
+]    Begin Project Dependency
+    Project_Dep_Name AltovaText
+    End Project Dependency
+[			endif
+
+			if $libtype <> 1 'Static lib
+]    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+[			endif
+]}}}
+
+[		endif
+	endif 
+next
+]###############################################################################
+
+Project: "[=$application.Name]"=".\\[=$application.Name].dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AltovaFunctions
+    End Project Dependency
+[' userdefined-function-libraries
+foreach $FuncLib in $application.FunctionLibraries
+	if $FuncLib.Name <> "core" and $FuncLib.Name <> "db" and $FuncLib.Name <> "lang" and $FuncLib.Name <> "edifact" and not $FuncLib.HasOnlyLocalFunctions
+]    Begin Project Dependency
+    Project_Dep_Name [=$FuncLib.Name]
+    End Project Dependency
+[	endif 
+next
+
+' wrapper libraries
+foreach $library in $application.Libraries
+	if not $library.IsDuplicate
+		if $library.Kind <> 4	' Parameter Library
+]    Begin Project Dependency
+    Project_Dep_Name [=$library.Name]
+    End Project Dependency
+[		endif
+	endif
+next
+
+if $libtype <> 1 'Static lib
+]    Begin Project Dependency
+    Project_Dep_Name AltovaXML
+    End Project Dependency
+[	if $DBLibraryCount > 0
+]    Begin Project Dependency
+    Project_Dep_Name AltovaDB
+    End Project Dependency
+[	endif
+	if $EDILibraryCount > 0
+]    Begin Project Dependency
+    Project_Dep_Name AltovaText
+    End Project Dependency
+[	endif
+]    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+[endif
+]}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

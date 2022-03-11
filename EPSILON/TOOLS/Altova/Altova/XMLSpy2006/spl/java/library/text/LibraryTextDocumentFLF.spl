@@ -1,0 +1,39 @@
+[$format= $library.FormatFLF]
+
+import com.altova.text.tablelike.ColumnSpecification;
+import com.altova.text.tablelike.Header;
+// import com.altova.text.tablelike.IRecordNodeCompleteObserver;
+import com.altova.text.tablelike.ISerializer;
+import com.altova.text.tablelike.MappingException;
+import com.altova.text.tablelike.Table;
+import com.altova.text.tablelike.flf.Serializer;
+import [=$FullPackageName].[=$library.RootName]Type;
+
+public class [=$module]Document extends Table
+{
+	protected ISerializer createSerializer()
+	{
+		Serializer result= new Serializer(this);
+		result.getFormat().setAssumeRecordDelimitersPresent([=$format.AssumeRecordDelimitersPresent]);
+		result.getFormat().setFillCharacter('[=$format.FillCharacter]');
+		return result;
+	}
+	protected void initHeader(Header header)
+	{
+		[foreach $field in $format.FieldDescriptions]
+		header.add(new ColumnSpecification("[=$field.Name]", [=$field.Length]));[next]
+	}
+	public [=$module]Document() {}
+	public int get[=$library.RootName]Count()
+	{
+		return super.size();
+	}
+	public [=$library.RootName]Type get[=$library.RootName]At(int index)
+	{
+		return new [=$library.RootName]Type(super.getAt(index));
+	}
+	public void add[=$library.RootName]([=$library.RootName]Type rhs)
+	{
+		super.add(rhs);
+	}
+}

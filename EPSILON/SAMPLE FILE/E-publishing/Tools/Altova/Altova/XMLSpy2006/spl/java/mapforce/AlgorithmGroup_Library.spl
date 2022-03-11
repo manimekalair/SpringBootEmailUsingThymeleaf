@@ -1,0 +1,137 @@
+[
+' // Subroutines for AlgorithmGroup.java
+' // Language = Java
+' ////////////////////////////////////////////////////////////////////////
+
+' // Library subroutines
+' ////////////////////////
+
+include "java/mapforce/AlgorithmGroup_LibraryXML.spl"
+include "java/mapforce/AlgorithmGroup_LibraryDB.spl"
+include "java/mapforce/AlgorithmGroup_LibraryText.spl"
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraries:
+'
+'	Opens all source-libraries
+' ------------------------------------------------------------------------
+sub OpenSourceLibraries( byref $rArgs, byref $rFirstSourceInstance )
+	if $AlgorithmGroup.SourceLibraryCount = 0  or $AlgorithmGroup.FirstSourceLibrary.Kind = 4	' Parameter Library
+		$rFirstSourceInstance = ""
+		$rArgs = ""
+	else
+		if $AlgorithmGroup.FirstSourceLibrary.Kind = 5
+			$rFirstSourceInstance = $AlgorithmGroup.FirstSourceLibrary.Message.UniqueName & "SourceObject"
+		else
+			$rFirstSourceInstance = $AlgorithmGroup.FirstSourceLibrary.UniqueName & "SourceObject"
+		endif
+		$rArgs = $rFirstSourceInstance & ", "
+	endif
+
+	$lIsFirst = true
+	foreach $lSourceLibrary in $AlgorithmGroup.SourceLibraryList
+		if $lSourceLibrary.Kind = 1 ' XML Library
+			call OpenSourceLibraryXML( $lSourceLibrary, $rArgs )
+		endif
+		if $lSourceLibrary.Kind = 2 ' Database Library
+			call OpenSourceLibraryDB( $lSourceLibrary, $rArgs )
+		endif
+		if $lSourceLibrary.Kind = 3 ' Parser Library
+			call OpenSourceLibraryText( $lSourceLibrary, $rArgs )
+		endif
+		if $lSourceLibrary.Kind = 4	' Parameter Library
+]		[=$lSourceLibrary.DataType]	[=$lSourceLibrary.UniqueName]SourceObject = new [=$lSourceLibrary.DataType]( [=$lSourceLibrary.UniqueName]SourceParameter );
+		var[=$lSourceLibrary.Name] = [=$lSourceLibrary.UniqueName]SourceObject;
+
+[		endif
+	next
+endsub
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibrary:
+'
+'	Creates/opens the target-library
+' ------------------------------------------------------------------------
+sub OpenTargetLibrary( byref $rArgs, byref $rIndent, byref $rTargetInstance )
+	$lRootName = ""
+	if $AlgorithmGroup.TargetContext.Library.Kind = 1 	' XML Library
+		call OpenTargetLibraryXML( $lRootName, $rIndent )
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 2 	' Database Library
+		call OpenTargetLibraryDB( $lRootName, $rIndent )
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 3 	' Text Library
+		call OpenTargetLibraryText( $lRootName, $rIndent )
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 4	' Parameter Library
+		$lRootName = $AlgorithmGroup.TargetContext.Library.UniqueName
+]		[=$AlgorithmGroup.TargetContext.Library.DataType] [=$lRootName]TargetObject = [=$lRootName]TargetParameter;
+[	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 5 	' WS Library
+		$lRootName = $AlgorithmGroup.TargetContext.UniqueName
+	endif
+
+	$rTargetInstance = $lRootName & "TargetObject"
+	$rArgs		= $rArgs & $rTargetInstance
+endsub
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibrary:
+'
+'	Saves/closes the target-library
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibrary()
+	if $AlgorithmGroup.TargetContext.Library.Kind = 1 ' XML Library
+		call FinalizeTargetLibraryXML()
+	endif
+	if	$AlgorithmGroup.TargetContext.Library.Kind = 2	' Database Library
+		call FinalizeTargetLibraryDB()
+	endif
+	if	$AlgorithmGroup.TargetContext.Library.Kind = 3	' Text Library
+		call FinalizeTargetLibraryText()
+	endif
+	if	$AlgorithmGroup.TargetContext.Library.Kind = 4	' Parameter Library
+]		[=$AlgorithmGroup.TargetContext.Library.UniqueName]TargetParameter.assign( var[=$AlgorithmGroup.TargetContext.Library.Name]TargetParameter );
+[	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' jbInit:
+'
+'	Initializes AWT-component is the frame-application
+' ------------------------------------------------------------------------
+sub jbInit( byref $rLibrary, byval $lNr )
+	if $rLibrary.Kind = 1 ' XML Library
+		call jbInitXML( $rLibrary, $lNr )
+	endif
+	if $rLibrary.Kind = 2 ' DB Library
+		call jbInitDB( $rLibrary, $lNr )
+	endif
+	if $rLibrary.Kind = 3 ' Text Library
+		call jbInitText( $rLibrary, $lNr )
+	endif
+	if $rLibrary.Kind = 4 ' Parameter Library
+]
+		j[=$rLibrary.Name]Label[=$lNr].setText("[if $rLibrary.SourceOnly]Input Parameter[else]Parameter[endif] : [=$rLibrary.Name]");
+		j[=$rLibrary.Name]Label[=$lNr].setBounds(new Rectangle(15, [=$y1], 438, 23));
+		jPanelStructures.add(j[=$rLibrary.Name]Label[=$lNr], null);
+
+[		if $rLibrary.DefaultValue <> ""
+]		mapArguments.put( "[=$rLibrary.Name]", "[=$rLibrary.DefaultValue]" );
+[		endif
+]		j[=$rLibrary.Name]TextField[=$lNr].setText("[=$rLibrary.DefaultValue]" );
+		j[=$rLibrary.Name]TextField[=$lNr].setBounds(new Rectangle(15, [=$y2], 438, 23));
+		j[=$rLibrary.Name]TextField[=$lNr].setEditable(true);
+		j[=$rLibrary.Name]TextField[=$lNr].addKeyListener(new [=$application.Name]Frame_j[=$rLibrary.Name]TextField[=$lNr]_keyAdapter( this ) );
+		jPanelStructures.add(j[=$rLibrary.Name]TextField[=$lNr], null);
+[
+	endif
+endsub
+
+' EOF
+]

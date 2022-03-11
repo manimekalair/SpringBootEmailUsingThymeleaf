@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8211; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>STELLA STEPHENS, as an individual and on behalf of all others similarly situated; and TIMOTHY YOUNG, as an individual and on behalf of all others similarly situated</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>LENNAR CORPORATION; LENNAR HOMES OF CALIFORNIA INC.; UNIVERSAL MORTGAGE COMPANY; EAGLE HOME MORTGAGE, INC.; and DOES 1 through 10</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. EDCV 09-1668-VAP (DTBx)</docket.line>
+<docket.number>EDCV 09-1668-VAP (DTBx)</docket.number>
+<docket.line suppress-flag="y">5:09-cv-01668-VAP-DTB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/25/2010</date.line>
+</content.date>
+<procedural.history xml:lang="en">
+<appeal>
+<appeal.text>
+<para><paratext ID="p1" level="1"><bold>PRIORITY SEND</bold></paratext></para>
+</appeal.text>
+</appeal>
+</procedural.history>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Marva Dillard Courtroom Deputy, ATTORNEYS PRESENT FOR PLAINTIFFS:, None</attorney.line>
+<attorney.line first-line="1">None Present, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS:, None
+</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center">PROCEEDINGS: MINUTE ORDER DENYING DEFENDANTS' MOTION FOR RULE 11 SANCTIONS (IN CHAMBERS)</headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HONORABLE VIRGINIA A. PHILLIPS, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p2" level="1">Defendants' Motion for Rule 11 Sanctions came before the Court for hearing on January 11, 2009. After reviewing and considering all papers filed in support of, and in opposition to, the Motion, as well as the arguments advanced by counsel at the hearing, the Court DENIES the Motion.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I. PROCEDURAL HISTORY</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">On September 3, 2009, Plaintiff Stella Stephens filed a putative class action against Defendants Lennar Corporation, Lennar Homes of California Inc., Universal Mortgage Company, Eagle Home Mortgage, Inc., and does 1 through 10 (collectively, &#x201C;Lennar Defendants&#x201D;). On the same day, Plaintiff's counsel filed seven other similar class actions (&#x201C;Homebuilder Actions&#x201D;) alleging that the homebuilder defendants and their mortgage affiliates engaged in conduct that reduced the value of the plaintiffs' residences.</paratext></para>
+<para><paratext ID="p4" level="1">On October 23, 2009, the Lennar Defendants joined in a &#x201C;Motion to Consolidate,&#x201D; which sought to consolidate the eight Homebuilder Actions. On November 11, 2009, the Lennar Defendants filed a Motion to Dismiss and a Motion to Strike Portions of Plaintiff's Complaint. During the November 16, 2009 hearing on the Motion to Consolidate, the Court denied the Motion, but accepted transfer of the Homebuilder Actions, which were transferred on November 18, 2009. The Court also set a deadline of December 21, 2009, by which all plaintiffs were required to file any amended complaints, and set a status conference for January 11, 2010 at 1:30 p.m. The Court continued all pending Motions to January 11, 2010 at 1:30 p.m. and stated that in the event the plaintiffs timely filed an amended complaint, any motions directed at the original complaint would be deemed moot.</paratext></para>
+<para><paratext ID="p5" level="1">On December 11, 2009, the Lennar Defendants filed a Motion for Rule 11 Sanctions (&#x201C;Motion&#x201D;), the Declaration of Richard S. Ruben (&#x201C;Ruben Decl.&#x201D;), and Request for Judicial Notice. On December 21, 2009, Plaintiffs Stella Stephens and Timothy Young, a newly added plaintiff, filed a First Amended Complaint (&#x201C;FAC&#x201D;). On December 28, 2009, Plaintiffs filed Opposition, with Exhibits A-D, and the Declaration of Richard D. McCune (&#x201C;McCune Decl.&#x201D;). In the Opposition, Plaintiffs request &#x201C;reasonable expenses of responding to this motion, including attorneys' fees.&#x201D; (Opp'n at 10.) On January 4, 2009, Defendants filed a Reply.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. LEGAL STANDARD FOR RULE 11 SANCTIONS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Rule 11 imposes a duty on attorneys to certify that (1) they have read the pleadings or the motions they file, and (2) the pleading or motion is well-grounded in fact, has a colorable basis in law, and is not filed for an improper purpose. <underscore>Sec. Farms v. Int'l Bhd. of Teamsters</underscore>, 124 F.3d 999, 1016 (9th Cir. 1997), citing Fed. R. Civ. P. 11(b). When a complaint is the &#x201C;primary focus of Rule 11 proceedings, a district court must conduct a two-prong inquiry to determine whether (1) the complaint is legally or factually baseless from an objective perspective, and (2) if the attorney has conducted a reasonable and competent inquiry before signing and filing it.&#x201D; <underscore>Hogate v. Baldwin</underscore>, 425 F.3d 671, 676 (9th Cir. 2005), citing Fed. R. Civ. P. 11(b)(2). An attorney is subject to Rule 11 sanctions when he presents to the court &#x201C;claims, defenses, and other legal contentions <charfill numchar="3">&#8228;</charfill> [not] warranted by existing law or by a nonfrivilous argument for the extension, modification, or reversal of existing law or the establishment of new law[.]&#x201D; <underscore>Id.</underscore> at 676-77. A frivolous complaint violates Rule 11, regardless of whether it was filed in good faith. <underscore>See Zaldivar v. City of Los Angeles</underscore>, 780 F.2d 823, 831 (9th Cir. 1986).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">The Lennar Defendants move for Rule 11 sanctions against Plaintiffs for the costs they incurred in preparing a Motion to Dismiss and this Motion &#8212; a total of $19,682.50. (Mot. at 11.) Plaintiffs argue that Defendants should not have filed the Motion for Rule 11 Sanctions because during the November 16, 2009 hearing, the Court allowed Plaintiffs to submit an amended complaint by December 21, 2009 and stated that motions directed at the original Complaint would be deemed moot upon filing of the FAC.</paratext></para>
+<para><paratext ID="p8" level="1">The Lennar Defendants argue that Plaintiffs' intent to file, as expressed at the hearing, was &#x201C;an unenforceable pledge[,]&#x201D; insufficient to moot a Rule 11 motion. (Reply at 11.) After the hearing, however, the Lennar Defendants were aware that (1) Plaintiffs' counsel intended to amend the Complaint by December 21, 2009, and (2) any Motions directed at the original Complaint would be deemed moot upon the filing of the FAC. Nevertheless, the Lennar Defendants served upon Plaintiffs' counsel the Motion for Rule 11 sanctions against the original complaint on November 18, 2009. Then, on December 11, 2009, the Lennar Defendants filed the Motion. On December 14, 2009, Plaintiffs' counsel sent a letter to Defendants stating they believed the Rule 11 Motion was improper in light of the November 16 hearing, and reiterating that Plaintiffs' counsel &#x201C;agreed to withdraw [the Complaint] and replace it with an amended complaint. <charfill numchar="3">&#8228;</charfill>&#x201D; (McCune Decl., Ex. A). A scheduling order on December 16, 2009 clarified the Court's intent, as stated in the hearing, that any Motions directed at the original complaint would be deemed moot upon filing of the FAC. (Doc. No. 17.) Thus, Defendants should have been aware that Plaintiffs intended to timely withdraw any offending contentions. <underscore>See</underscore> Fed. R. Civ. P. 11, Advisory Committee Notes (1993) (&#x201C;the timely withdrawal of a contention will protect a party against a motion for sanctions&#x201D;). Furthermore, Defendants should have been aware that its motion, directed at a superseded pleading, would be moot.</paratext></para>
+<para><paratext ID="p9" level="1">Defendants argue that the Court's ruling that all motions directed at the Complaint would be deemed moot upon filing of an amended complaint has no effect on its Motion because the Court was required to, but did not, specify that it was extending the 21-day safe harbor provision. (Reply at 8-9.)</paratext></para>
+<para><paratext ID="p10" level="1">Defendants had notice that (1) Plaintiffs intended to amend the Complaint; (2) the Court extended the time period for Plaintiffs to do so; and (3) motions directed to superseded versions of the Complaint would be mooted upon the filing of the amended complaint. Under these circumstances, Defendants' unsupported contention regarding the need for an explicit extension of the &#x201C;safe harbor&#x201D; provision lacks merit. Accordingly, the Court DENIES Defendants' Motion for Rule 11 Sanctions.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p11">&#8195;Plaintiffs move for sanctions against Defendants for their costs in preparing Opposition to this Motion. Though the Court did not grant Defendants' Motion, it does not deem it frivolous. Thus, the Court DENIES Plaintiffs' Motion for Sanctions against Defendants.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="center"><bold>IV. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">For the foregoing reasons, the Court DENIES Defendants' Motion for Rule 11 Sanctions against Plaintiffs.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

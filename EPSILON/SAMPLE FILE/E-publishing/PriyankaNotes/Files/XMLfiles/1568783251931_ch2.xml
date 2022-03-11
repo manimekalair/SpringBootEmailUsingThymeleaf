@@ -1,0 +1,2740 @@
+<!DOCTYPE book SYSTEM "BITS-book2.dtd">
+<?xml-stylesheet href="jpub3-html.xsl" type="text/xsl"?>
+<book xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<book-body>
+<book-part book-part-type="chapter" id="c2">
+<book-part-meta>
+<book-part-id book-part-id-type="publisher-id">la.244.02ind</book-part-id>
+<title-group>
+<label>Chapter 2</label>
+<title>Indefinite missing objects</title>
+</title-group>
+</book-part-meta>
+
+<body>
+<p content-type="no-indent">In this chapter, I explore the approach to deriving structures with indefinite missing objects which takes these structures to involve a projection of the object in the syntactic component. The main hypothesis that I put forward here in the light of the discussion in the previous chapter is that the object is represented as the nominal categorising head <italic>n</italic> which is not merged with a lexical root. This solution ensures the satisfaction of c-selectional requirements of the verb without additional assumptions and is corroborated by some observations made with respect to the potential of indefinite missing arguments to license sluicing.</p>
+<p>Following some remarks concerning the relevance of sluicing data to the issue of transitivity of structures with indefinite object drop in section 2.1, I discuss the analysis in detail in section 2.2. In section 2.2.1, I focus on the problem of the lack of phonemic realisation of the object represented syntactically and I discuss the semantic interpretation of the object in section 2.2.2. I suggest here that the lack of realisation of the object at the level of the sound system follows from the feature content of the <italic>n</italic> head and its association with phonemic material in a language. I propose that the <italic>n</italic> head is an <italic>&#x27E8;</italic>e,t<italic>&#x27E9;</italic>-type element and that its interpretation in the contexts with indefinite missing objects parallels the interpretation of mass nouns. I point to the operation Restrict (Chung &#x0026; Ladusaw 2004) as one possible option to employ. In section 2.2.3, I briefly discuss the relation between indefinite missing objects and incorporated structures, suggesting that equating the two does not seem to be a viable option. In section 2.2.4, I consider the issue of the syntactic activity of the object. I show that English and Hungarian arbitrary missing objects cannot participate in control, unlike arbitrary missing objects in Polish.</p>
+<p>In section 2.3, the discussion shifts to the relation between indefinite object drop and the manner and result components of verb meaning. I argue here that the hypotheses that unspecified object drop is licensed with manner verbs and that it is blocked with result verbs are both empirically inadequate.</p>
+<p>Based on data from Brazilian Portuguese, Czech, Hungarian, Italian, Korean, Mandarin, and Polish, in section 2.4.1 I briefly show that the availability of control in structures with arbitrary missing objects presents a more complex problem than what could be expected on the assumption of a simple correlation between the presence of the object in the syntax and its ability to control.</p>
+<p>In section 2.4.2,I illustrate some further aspects of language variation in the domain of indefinite object drop. In particular, rather than dropping an unspecified object with verbs such as <italic>read</italic> (i.e. <italic>read&#x00F8;),</italic> languages such as Mandarin use a (semi-)pleonastic nominal object (e.g. <italic>kan-shu</italic> &#x2018;read-book&#x2019;). I discuss some initial data from Japanese, Korean, and Mandarin, showing that the empirical picture of the contrast between missing objects and (semi-)pleonastic nominals is not as clear-cut as some previous literature suggests. This indicates a need for a finer-grained investigation taking into account the dimension of variation between verbs in a single language.</p>
+<sec id="s2_1">
+<label>2.1</label>
+<title>A transitive analysis of indefinite object drop</title>
+<p content-type="no-indent">As (1) from AnderBois (2012:45) shows, indefinite missing objects license sluicing.<xref ref-type="fn" rid="fn2_1"><sup>1</sup></xref></p>
+<list id="q2_1" list-type="simple" list-content="example">
+<list-item><label>(1)</label><p content-type="no-indent">Fred baked &#x00F8;, and Lucinda&#x2019;s going to find out what.</p></list-item>
+</list>
+<p content-type="no-indent">The fact that clauses with missing objects can license sluicing raises questions about the parallelism conditions required for this type of ellipsis to be acceptable. On the assumption that the missing object is represented syntactically the sluicing data pose no additional difficulties, as the antecedent and the sluiced clause are parallel both in the syntax and in the semantics.<xref ref-type="fn" rid="fn2_2"><sup>2</sup></xref> On the approach taking the missing object not to be represented syntactically or not to be represented syntactically and semantically, analyses of sluicing need to account for the lack of syntactic (and semantic) parallelism in these structures. This type of analysis might of course be required regardless of the treatment of data with missing objects (see Merchant 1999), but some effects observed with missing arguments in double object structures seem to speak against this view. As noticed in Gillon (2012:321&#x2013;322), in structures with implicit arguments the choice of the antecedent in sluicing determines the choice of the interrogative expression:</p>
+<list id="q2_2" list-type="simple" list-content="example">
+<list-item><label>(2)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_2a"><label>a.</label><p content-type="no-indent">Alvin served [<sub><sc>np</sc></sub> the sandwich] (to someone).</p></list-item>
+<list-item id="q2_2b"><label>b.</label><p content-type="no-indent">Alvin served [<sub><sc>np</sc></sub> Bill] (something).</p></list-item>
+</list>
+</p></list-item>
+<list-item><label>(3)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_3a"><label>a.</label><p content-type="no-indent">Bill served the sandwich to someone, but no one knows [<sub><sc>s</sc></sub> [<sub><sc>pp</sc></sub> to whom]].</p></list-item>
+<list-item id="q2_3b"><label>b.</label><p content-type="no-indent">Bill served the sandwich, but no one knows [<sub><sc>s</sc></sub> [<sub><sc>pp</sc></sub> to whom]].</p></list-item>
+<list-item id="q2_3c"><label>c.</label><p content-type="no-indent">*Bill served the sandwich, but no one knows [<sub><sc>s</sc></sub> [<sub><sc>np</sc></sub> whom]].</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The data in (3) suggest that some type of structural parallelism between the antecedent and the sluiced clause is required for sluicing to be acceptable even with unrealised arguments, as, semantically, all variants in (3) involve structures with three arguments. This supports the treatment of clauses with indefinite missing objects as transitive, unless a theory of sluicing which can incorporate the data in (3) and the ability of intransitive clauses to license sluicing in a transitive structure can be developed. Accordingly, in this chapter I offer an analysis of structures with indefinite missing objects which takes the objects to be represented in the syntax.</p>
+</sec>
+<sec id="s2_2">
+<label>2.2</label>
+<title>Indefinite missing objects as <italic>n</italic></title>
+<p content-type="no-indent">To provide a maximally uniform syntax for transitive verbs and for different types of structures with missing objects, I suggest that internal arguments are represented both semantically and syntactically regardless whether they are overt or null. In the syntax, indefinite missing objects have the most minimal representation possible, that is they are represented by the nominalising head <italic>n</italic>. Since the object does not impose numerosity restrictions on its interpretation and can be interpreted similarly to mass nouns such as <italic>stuff</italic>, as illustrated in (4) from Fillmore (1986:106), the proposed representation which does not include the Num(ber) head seems sufficient to account for its interpretation.<xref ref-type="fn" rid="fn2_3"><sup>3</sup></xref> This minimal representation is therefore preferable to less economical representations involving additional applications of Merge.</p>
+<list id="q2_4" list-type="simple" list-content="example">
+<list-item><label>(4)</label><p content-type="no-indent">I spent three days cooking &#x00F8;.</p></list-item>
+</list>
+<p content-type="no-indent">The sentence in (4) is thus represented as shown in (5).</p>
+<list id="q2_5" list-type="simple" list-content="example">
+<list-item><label>(5)</label><p content-type="no-indent">I spent three days [<sub><sc>vp</sc></sub> V-cooking [<italic>n-</italic>&#x00F8;]].</p></list-item>
+</list>
+<p content-type="no-indent">Admittedly, the problem of the number feature of the object is a complex one.<xref ref-type="fn" rid="fn2_4"><sup>4</sup></xref> As discussed in section 1.1.1 of chapter 1, indefinite missing objects share scopal properties with both mass nouns and bare plurals. Bare singulars do not seem to be a plausible option, as they are unavailable in English and they impose restrictions on the numerosity of the referent of the noun phrase in Polish (see (6b)), differing from missing objects.</p>
+<p content-type="no-indent">There are at least three arguments in favour of treating indefinite missing objects as unspecified for number rather than as plural. The first one, already mentioned, is that assimilating missing objects with mass nouns allows for a more minimal structural representation of the objects, whereas the plural specification of the object would require the Merge of the Num head. The former option is compatible also with the observation that, cross-linguistically, mass nouns are a more basic option, as they seem to be available in all languages (Chierchia 1994).</p>
+<p>The second argument relates to the interpretive properties of these structures. In particular, as illustrated in (6) from Grochowski (1972:166) for Polish, the number feature of the object can constrain interpretation of the sentence either to only habitual reading (see (6a)) or only episodic reading (see (6b)). The missing object is compatible with both readings, as demonstrated in (7), suggesting that no condition on the numerosity of the referent of the object is imposed by the structure.</p>
+
+<list id="q2_6" list-type="simple" list-content="example">
+<list-item><label>(6)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_6a"><label>a.</label><p content-type="no-indent">
+
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>pali</td>
+<td>papierosy.</td>
+</tr>
+<tr>
+<td>Jan</td>
+<td>smokes</td>
+<td>cigarettes</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Jan smokes cigarettes&#x2019;</p></list-item>
+<list-item id="q2_6b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>pali</td>
+<td>papierosa.</td>
+</tr>
+<tr>
+<td>Jan</td>
+<td>smokes</td>
+<td>cigarette</td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;Jan is smoking a cigarette.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+<list-item><label>(7)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jan</td>
+<td>pali</td>
+<td>&#x00F8;.</td>
+</tr>
+<tr>
+<td>Jan</td>
+<td>smokes</td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;Jan smokes cigarettes./Jan is smoking a cigarette.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Additionally, introducing the plural-number feature in the representation would raise questions about what licenses the lack of its morphophonological realisation, an issue to which I turn in the following section. I thus conclude that no number projection or feature is present in the structure of indefinite missing ob-jects.</p>
+<sec id="s2_2_1">
+<label>2.2.1</label>
+<title><italic>Silence of</italic> n</title>
+<p content-type="no-indent">The discussion of the silence of the object represented as <italic>n</italic> is related to the hypotheses about the feature content <italic>ofn</italic> and the way in which it is realised by the morphophonological component in different languages. The morphological composition of lexical nouns in English and Hungarian suggests that in these languages the <italic>n</italic> head in general need not be overt:</p>
+<list id="q2_8" list-type="simple" list-content="example">
+<list-item><label>(8)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_8a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>[<sub><sc>numP</sc></sub> Num<sub><sc>sg</sc></sub>-&#x00F8; [<sub><italic>n</italic><sc>p</sc></sub> <italic>n</italic>-&#x00F8; [&#x221A;<sc>horse</sc>]]] &#x25BA; horse</td>
+</tr>
+</tbody>
+<attrib>[English]</attrib>
+</array>
+</p></list-item>
+<list-item id="q2_8b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>[<sub><sc>NumP</sc></sub> Num<sc>sg</sc>-&#x00F8; [<sub><italic>n</italic><sc>p</sc></sub><italic>n</italic>-&#x00F8; [&#x221A;<sc>l&#x00d3;</sc>]]] &#x25BA; l&#x00F3;</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The lack of morphophonological realisation of an object represented as <italic>n</italic> in these languages thus follows from the lexical specification <italic>of n,</italic> which need not be associated with phonemic features. The same <italic>n</italic> head which composes the nouns in (8) can be merged as an object on its own, that is without first being merged with a lexical root. When this happens, a structure with a missing object results.</p>
+<p>An important question pertains to the case feature of the missing object, especially that in Hungarian accusative case is realised with an overt marker (e.g. <italic>l&#x00F3;-t</italic> &#x2018;horse-Ace&#x2019;), which does not surface in contexts with missing objects. Some empirical observations suggest that case is not included in the representation of missing objects of the type considered here.<xref ref-type="fn" rid="fn2_5"><sup>5</sup></xref> Firstly, structures with missing objects cannot participate in the passive formation:</p>
+<list id="q2_9" list-type="simple" list-content="example">
+<list-item><label>(9)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_9a"><label>a.</label><p content-type="no-indent">Wendy drinks &#x00F8;.</p></list-item>
+<list-item id="q2_9b"><label>b.</label><p content-type="no-indent">*&#x00F8; is drunk by Wendy.</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">If becoming the subject in a passive clause is conditioned by the availability of a noun phrase to have its case feature valued as nominative (at least in the languages which are the focus here, cf., e.g., <italic>Did she give you a book?</italic>/<italic>Were you given a book?</italic> and <italic>Did she give a book to you?</italic>/<italic>*Were/was to you given a book?</italic>), data such as (9) are explained if the missing object lacks the case feature.</p>
+<p>The pattern in (10), quoted here from Alexiadou, Sch&#x00E4;fer &#x0026; Spathas (2013:5&#x2013; 9), can also be analysed as a consequence of the lack of case in the projection of the missing object.</p>
+<list id="q2_10" list-type="simple" list-content="example">
+<list-item><label>(10)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_10a"><label>a.</label><p content-type="no-indent">John out-ate (*pizza) Mary (*pizza).</p></list-item>
+<list-item id="q2_10b"><label>b.</label><p content-type="no-indent">Mary drank (*the water) the teapot dry.</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent"><italic>Out</italic>-prefixation and resultative structures are unacceptable with two overt objects, but when the selected object is null, the non-selected one becomes acceptable. On the assumption that structural accusative case can be assigned only to one noun phrase in a clause and that the missing object lacks the case feature, the non-selected object can have its case feature valued instead. This is true also when such structures are passivised, as shown in (11) from a random internet search.</p>
+<list id="q2_11" list-type="simple" list-content="example">
+<list-item><label>(11)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_11a"><label>a.</label><p content-type="no-indent">But, she was outeaten by Joey &#x2018;Jaws&#x2019; Chestnut, who ate 68 hot-dogs in the same 10 minutes [...]</p></list-item>
+<list-item id="q2_11b"><label>b.</label><p content-type="no-indent">[...] the bar was drunk dry on opening night [...]</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">In both (10) and (11) the semantics includes the selected object (e.g. John ate something edible in (10a)), a fact which is accounted for on the analysis which postulates the presence of this object in the structure, as illustrated in (12).<xref ref-type="fn" rid="fn2_6"><sup>6</sup></xref></p>
+<list id="q2_12" list-type="simple" list-content="example">
+<list-item><label>(12)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_12a"><label>a.</label><p content-type="no-indent">John [<sub><sc>vp</sc></sub> out-ate <italic>n</italic>-&#x00F8; Mary].</p></list-item>
+<list-item id="q2_12b"><label>b.</label><p content-type="no-indent">Mary [<sub><sc>vp</sc></sub> drank <italic>n</italic>-&#x00F8; [<sub><sc>small clause</sc></sub> the teapot dry]].</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The hypothesis that the object lacks case also explains why the object can be null in Hungarian without additional assumptions. In particular, even though in English the morphological shape of the noun does not change with varying case environments (e.g. <italic>The horse is wild vs. I&#x2019;ve seen the horse),</italic> as an agglutinative language, Hungarian marks varying case features with transparent agglutinative suffixes attached to the noun (e.g. <italic>l&#x00F3;-t</italic> &#x2018;horse-Ace&#x2019; vs. <italic>l&#x00F3;-nak</italic> &#x2018;horse-DAx&#x2019;). If the missing object had its case feature valued as accusative, an additional mech-anisms resulting in the lack of realisation of the accusative morpheme <italic>-t</italic> would need to be introduced.<xref ref-type="fn" rid="fn2_7"><sup>7</sup></xref> However, this is not necessary if the object lacks case.</p>
+<p>For the purpose of the discussion in this work, I assume that the case feature is introduced on a K(ase) head (see Lamontagne &#x0026; Travis 1987).<xref ref-type="fn" rid="fn2_8"><sup>8</sup></xref> The lack of the case feature in the structure of the object can now be modelled as the absence of the K head in the representation of this argument, which also follows as a consequence of the hypothesis that the missing argument has a minimal structural representation (i.e. it is represented only as <italic>n</italic>).</p>
+<p>The lack of K and Num also derives the silence of an object represented as <italic>n</italic> in Polish. Polish differs from English and Hungarian in that its gender system is grammatical. Nominal roots and stems are followed by portmanteaux suffixes encoding gender, number, and case. I illustrate this in Table 1 and in the examples in (13).</p>
+<table-wrap>
+<label>Table 2.1:</label>
+<caption><title>Examples of nominal gender/number/Case suffixes in Polish</title></caption>
+<table rules="none">
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left"></th>
+<th align="left"><sc>SG.NOM</sc></th>
+<th align="left"><sc>SG.ACC</sc></th>
+<th align="left"><sc>PL.NOM</sc></th>
+<th align="left"><sc>PL.ACC</sc></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th align="left">M1,</th>
+<th align="left">&#x2018;son&#x2019;:</th>
+<th align="left">syn-&#x00F8;</th>
+<th align="left">syn-a</th>
+<th align="left">syn-owie</th>
+<th align="left">syn-&#x00F3;w</th>
+</tr>
+<tr>
+<th align="left"><sc><bold>f</bold>,</sc></th>
+<th align="left">&#x2018;wife&#x2019;:</th>
+<th align="left">&#x017C;on-a</th>
+<th align="left">&#x017C;on-&#x0119;</th>
+<th align="left">&#x017C;on-y</th>
+<th align="left">&#x017C;on-y</th>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<list id="q2_13" list-type="simple" list-content="example">
+<list-item><label>(13)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_13a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Tw&#x00F3;j</td>
+<td>syn-&#x00F8;/</td>
+<td>twoja</td>
+<td>&#x017C;on-a</td>
+<td>dzwoni.</td>
+</tr>
+<tr>
+<td>your-<sc>m.sg.nom</sc></td>
+<td>son-<sc>m1.sg.nom</sc></td>
+<td>your-<sc>f.sg.nom</sc></td>
+<td>wife-<sc>f.sg.nom</sc></td>
+<td>calls</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Your son/wife is calling.&#x2019;</p></list-item>
+<list-item id="q2_13b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Spotka&#x0142;amtwojego</td>
+<td>syn-a/</td>
+<td>twoj&#x0105;</td>
+<td>&#x017C;on-&#x0119;.</td>
+</tr>
+<tr>
+<td>met-1<sc>sg.f</sc></td>
+<td>your-<sc>msg.acc</sc></td>
+<td>son-<sc>m1.sg.acc</sc></td>
+<td>your-F.<sc>sg.acc</sc></td>
+<td>wife-<sc>f.sg.acc</sc></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;I&#x2019;ve met your son/wife.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Apart from nominative singular nouns, for example, in the masculine personal class (M1), nominal suffixes are overt in Polish. From the theoretical point of view, the suffixes could be taken to be morphological realisations of a complex <italic>n</italic>-Num-K head, resulting from head movement within the noun phrase. This approach, developed for Polish in Willim (2012) and building on the analysis of French in Lowenstamm (2008), takes the <italic>n</italic> head to contain gender, a feature implicated in noun classification in systems with grammatical gender. The suggestion that the gender/number/case suffixes realise the <italic>n</italic>-Num-K complex (or only <italic>n,</italic> if all three features are encoded on <italic>n)</italic> follows naturally from the association <italic>ofn</italic> with gender (see Willim 2012 for further discussion).<xref ref-type="fn" rid="fn2_9"><sup>9</sup></xref></p>
+<p content-type="no-indent">As the forms in the nominal paradigm are defined for gender/number/case combinations, a question arises what happens when <italic>n</italic> reaches the morphophono-logical system caseless and numberless. If the present hypothesis about the representation of missing objects is correct, the morphophonological system of Polish has to contain a rule interpreting <italic>n</italic> as null in this context (rather than treating the structure as illegitimate). I take this to be the case here, as it makes it possible to provide a uniform treatment of indefinite missing objects in languages with different morphological systems, such as English ((mostly) analytic), Hungarian (agglutinative), and Polish (inflectional).<xref ref-type="fn" rid="fn2_10"><sup>10</sup></xref></p>
+</sec>
+<sec id="s2_2_2">
+<label>2.2.2</label>
+<title>Meaning of n</title>
+<p content-type="no-indent">A detailed investigation of the semantics of nominal categorising heads is beyond the scope of this work. However, the present proposal concerning the representation of missing objects requires that the denotation of <italic>n</italic> be such that it can combine with the denotation of a lexical root and that it can be interpretable in the absence of the root. I therefore suggest that the most basic denotation <italic>ofn</italic> is as shown in (14), where the self-identity condition is trivially satisfied.<xref ref-type="fn" rid="fn2_11"><sup>11</sup></xref></p>
+<list id="q2_14" list-type="simple" list-content="example">
+<list-item><label>(14)</label><p>
+<fig>
+<graphic orientation="portrait" xlink:href="figures/la.244.01mis_figp58_1.svg"/>
+</fig></p></list-item>
+</list>
+<p content-type="no-indent">Lexical roots can plausibly be taken to have denotations of the type as in (15), which on the current proposal means that the <italic>n</italic> head combines with the root by predicate modification (Heim &#x0026; Kratzer 1998), resulting in <italic>n</italic>Ps with denotations such as Ay.T <sc>ee</sc> y = y &#x0026; ROOT(y), as shown in (16).</p>
+<list id="q2_15" list-type="simple" list-content="example">
+<list-item><label>(15)</label><p>
+<fig>
+<graphic orientation="portrait" xlink:href="figures/la.244.01mis_figp58_2.svg"/>
+</fig>
+</p></list-item>
+<list-item><label>(16)</label><p>
+<fig>
+<graphic orientation="portrait" xlink:href="figures/la.244.01mis_figp58_3.svg"/>
+</fig>
+</p></list-item>
+</list>
+<p content-type="no-indent">Furthermore, as discussed in the previous section, the <italic>n</italic> head can in some cases contain the gender feature, which can also contribute to interpretation (e.g. in nouns such as <italic>lioness</italic> in English (see footnote 9) and nouns denoting humans and certain animals in Polish). In such a case, the basic denotation of the <italic>n</italic> head is enriched by the denotation of the gender feature:</p>
+<list id="q2_17" list-type="simple" list-content="example">
+<list-item><label>(17)</label><p>
+<fig>
+<graphic orientation="portrait" xlink:href="figures/la.244.01mis_figp58_4.svg"/>
+</fig>
+</p></list-item>
+</list>
+<p content-type="no-indent">A null object represented as <italic>n</italic> thus has the denotation Ay.T <sc>ee</sc> y = y, or, if it includes an interpretable gender feature, the denotation of this feature is also included in the denotation of the object. Being of type (e,t), such an object is of course not of the right type to saturate the internal argument position of the verb. The choice of a solution depends on one&#x2019;s broader approach to the semantics of nominal expressions and should ideally parallel the mechanism which is used to interpret mass nouns and bare plurals, as these three types of expressions behave in parallel in terms of scope, that is they can only take narrow scope, as shown in section 1.1.1 of chapter 1. Committing the analysis to one particular semantic approach seems unnecessary for the present purpose, since whatever possible analysis is adopted for the interpretation of mass nouns should be applicable to missing objects on the current proposal.</p>
+<p content-type="no-indent">For illustration, within the system of interpretation of indefinites proposed in Chung &#x0026; Ladusaw (2004), the missing argument can combine with the verb by Restrict, that is a mode of composition which does not saturate the predicate, but which makes it possible for objects of type (e,t) to restrict the predicate with the property introduced by the object without saturating it.<xref ref-type="fn" rid="fn2_12"><sup>12</sup></xref> I illustrate this for the sentence <italic>Anna is reading</italic> in (18)&#x2013;(20), modelled on Chung and Ladusaw&#x2019;s representations.</p>
+<p content-type="no-indent">Even though Restrict does not result in the saturation of the predicate, it has the effect of demoting the affected argument from the top of the lambda prefix to a position right above the event argument. This is needed to ensure that the next higher argument in the syntax can saturate the external argument, in accordance with the view that the order in which arguments provided by syntax are composed with the predicate is determined by the lambda prefix.</p>
+<list id="q2_18" list-type="simple" list-content="example">
+<list-item><label>(18)</label><p content-type="no-indent">Restrict(<italic>&#x03BB;</italic>y<italic>&#x03BB;</italic>x<italic>&#x03BB;</italic>e[read&#x2019;(y)(x)(e)], [y = y])</p>
+<p>&#x2003;= <italic>&#x03BB;</italic>x<italic>&#x03BB;</italic>y<italic>&#x03BB;</italic>e[read&#x2019;(y)(x)(e) <italic>&#x2227;</italic> [y = y](y)]</p></list-item>
+</list>
+<p content-type="no-indent">The eater argument variable is saturated by combining with the subject <italic>Anna</italic> (a) by function application (FA):</p>
+<list id="q2_19" list-type="simple" list-content="example">
+<list-item><label>(19)</label><p content-type="no-indent">FA(<italic>&#x03BB;</italic>x<italic>&#x03BB;</italic>y<italic>&#x03BB;</italic>e[read&#x2019;(y)(x)(e) <italic>&#x2227;</italic> [y = y](y)], a)</p>
+<p>&#x2003;= <italic>&#x03BB;</italic>y<italic>&#x03BB;</italic>e[read&#x2019;(y)(a)(e) <italic>&#x2227;</italic> [y = y](y)]</p></list-item>
+</list>
+<p content-type="no-indent">In the final step, two applications of existential closure (EC) bind the remaining internal argument and event variables:<xref ref-type="fn" rid="fn2_13"><sup>13</sup></xref></p>
+<list id="q2_20" list-type="simple" list-content="example">
+<list-item><label>(20)</label><p content-type="no-indent">EC(EC(AyAe[read &#x2018; (y)(a)(e) <bold>A</bold> [y = y](y)]))</p>
+<p>&#x2003;= 3e3y[read&#x2019;(y)(a)(e)A[y = y](y)]</p></list-item>
+</list>
+<p content-type="no-indent">The existential closure of the internal argument variable is enforced by the principle in (21), where the event level is understood as the stage in the derivation where the event argument is reached (Chung &#x0026; Ladusaw 2004:11):</p>
+<list id="q2_21" list-type="simple" list-content="example">
+<list-item><label>(21)</label><p content-type="no-indent">Predicates must have their participant arguments (semantically) sat urated at the event level.</p></list-item>
+</list>
+<p content-type="no-indent">Since the internal argument is existentially closed at the event level, employing this system accounts for the obligatory narrow scope of the argument with respect to all elements which scope above this level, such as operators binding the event variable, negation, and quantified nominals.<xref ref-type="fn" rid="fn2_14"><sup>14</sup></xref></p>
+<p content-type="no-indent">I suggest that the interpretation of an existentially-closed object is further guided by pragmatic considerations, so that the object in the corpus example in (22a) is most plausibly interpreted as alcohol, the object in (22b) as water, and the object in (22c) as the wine relevant in the given context (see, e.g., Wilson 2004 and Scott 2006 for relevant proposals).<xref ref-type="fn" rid="fn2_15"><sup>15</sup></xref></p>
+<list id="q2_22" list-type="simple" list-content="example">
+<list-item><label>(22)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_22a"><label>a.</label><p content-type="no-indent">He claimed to be visiting the waterfront saloon at the crossroads to play cards and drink &#x00F8; with his cronies, but Kate had not smelled brandy on him since Mrs. Lattimer&#x2019;s funeral.</p></list-item>
+<list-item id="q2_22b"><label>b.</label><p content-type="no-indent">A few months ago it was a fairly typical landlord who in the dead of night lugged me up a mountainside to drink &#x00F8; from a spring famous in the neighborhood for its clarity and flavor.</p></list-item>
+<list-item id="q2_22c"><label>c.</label><p content-type="no-indent">Lord Byron poured himself another glass of wine and held it up to the candle flame admiring the rich color. He drank &#x00F8; slowly with due appreciation. It was an excellent vintage. [Brown]</p></list-item>
+</list>
+</p></list-item>
+</list>
+</sec>
+<sec id="s2_2_3">
+<label>2.2.3</label>
+<title>Indefinite missing objects and incorporation</title>
+<p content-type="no-indent">Some discussions suggest that structures with indefinite missing objects should be analysed as incorporation structures (see, e.g., Croft 2012; P&#x00E9;rez-Leroux et al. 2013; Mart&#x00ED; 2015). The interpretive similarities between incorporated nominals and missing objects include their indefiniteness and number neutrality, as well as their obligatory narrow scope. The example in (23) from Mart&#x00ED; (2015:456), where the incorporated noun <italic>snoek</italic> &#x2018;pike&#x2019; can only take narrow scope, demonstrates this.</p>
+<list id="q2_23" list-type="simple" list-content="example">
+<list-item><label>(23)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Hja</td>
+<td>sille</td>
+<td>net</td>
+<td>te</td>
+<td>snoek-fangen</td>
+</tr>
+<tr>
+<td>they</td>
+<td>will</td>
+<td>not</td>
+<td>to</td>
+<td>pike-catch</td>
+</tr>
+</tbody>
+<attrib>[Frisian]</attrib>
+</array>
+</p>
+<p>&#x2018;They are not going to catch any pikes.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">On the current proposal these structures are similar in that they can both be treated as interpreted via Restrict and, if (at least some) incorporated nominals can be taken to lack number specification and hence be represented as <italic>n</italic>Ps, they share the syntactic representation, including the lack of the number projection. However, as the scopal property is shared also with bare plurals and mass nouns in English and can be accounted for by principles which are not directly related to incorporation (see (21)), it seems that assuming that an additional process of incorporation is at play in structures with missing objects is superfluous. What is more, if incorporation were involved in the formation of structures with indefinite missing objects in English (see esp. Mart&#x00ED; 2015 for an analysis of this type), accounting for the acquisition of these structures in a language where overt nouns do not incorporate would posit a serious challenge, as there seems to be no evidence which could lead the child to postulate this process.</p>
+<p>Furthermore, some empirical evidence suggesting that the two types of structures should not be equated and that indefinite missing objects are not simply incorporated null nouns is provided by Hungarian. In particular, Hungarian has (a type of) incorporation, in which a number-unmarked accusative bare noun precedes the verb, as illustrated in (24) from Kiefer (1994:444).<xref ref-type="fn" rid="fn2_16"><sup>16</sup></xref></p>
+<list id="q2_24" list-type="simple" list-content="example">
+<list-item><label>(24)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Pisti</td>
+<td>levelet</td>
+<td>&#x00ED;r.</td>
+</tr>
+<tr>
+<td>Pisti</td>
+<td>letter-Acc</td>
+<td>writes</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;Pisti is writing a letter.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">If the argument that indefinite missing objects do not have the case feature is on the right track (see section 2.2.1), incorporated nominals differ from missing objects in being case-marked.</p>
+<p content-type="no-indent">Secondly, indefinite missing objects are available in the presence of preverbs with at least some verbs in Hungarian (see (25); see section 5.3.2 of chapter 5 for some more discussion).</p>
+<list id="q2_25" list-type="simple" list-content="example">
+<list-item><label>(25)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Az</td>
+<td>apa</td>
+<td>megf&#x0151;z&#x00F6;tt</td>
+<td>&#x00F8;</td>
+<td>(&#x00E9;s</td>
+<td>ut&#x00E1;na</td>
+<td>focizni</td>
+<td>ment).</td>
+</tr>
+<tr>
+<td>the</td>
+<td>father</td>
+<td>PV-cooked-3sG.iNDEF</td>
+<td></td>
+<td>and</td>
+<td>then</td>
+<td>play.football</td>
+<td>went-3<sc>sg.indef</sc></td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;Dad has finished cooking and then went to play football.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">On the other hand, Kiefer (1990, 1994) shows that incorporated nouns and pre-verbs are in complementary distribution (see (26) from Kiefer 1994:450) and takes it to imply that the bare noun and the preverb <italic>meg</italic> belong to the same class of elements.<xref ref-type="fn" rid="fn2_17"><sup>17</sup></xref></p>
+<list id="q2_26" list-type="simple" list-content="example">
+<list-item><label>(26)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>*levelet</td>
+<td>meg&#x00ED;rtam</td>
+<td>/levelet</td>
+<td>&#x00ED;rtam</td>
+<td>meg/</td>
+<td>meg&#x00ED;rtam</td>
+<td>levelet</td>
+</tr>
+<tr>
+<td>letter-<sc>acc</sc></td>
+<td><sc>pv</sc>-wrote</td>
+<td>letter-<sc>acc</sc></td>
+<td>wrote</td>
+<td><sc>pv</sc></td>
+<td><sc>pv</sc>-wrote</td>
+<td>letter</td>
+</tr>
+</tbody>
+</array>
+</p></list-item>
+</list>
+</sec>
+<sec id="s2_2_4">
+<label>2.2.4</label>
+<title>Syntactic activity of the missing object</title>
+<p content-type="no-indent">As discussed in Rizzi (1986:503-507), Italian and English differ in whether arbitrary missing objects can participate in control and anaphoric binding and whether they are compatible with small clauses (the translational equivalents in (27)-(29) are unacceptable):</p>
+<list id="q2_27" list-type="simple" list-content="example">
+<list-item><label>(27)</label><p content-type="no-indent"><italic>Control</italic>
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Questo</td>
+<td>conduce</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>[PRO</td>
+<td>concludere</td>
+<td>quanto</td>
+<td>segue].</td>
+</tr>
+</tbody>
+<attrib>[Italian]</attrib>
+</array>
+</p>
+<p>&#x2018;*This leads to conclude what follows.&#x2019;</p></list-item>
+<list-item><label>(28)</label><p content-type="no-indent"><italic>Anaphoric binding</italic>
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>La</td>
+<td>buona</td>
+<td>musica</td>
+<td>riconcilia</td>
+<td>&#x00F8;</td>
+<td>con</td>
+<td>se</td>
+<td>stessi.</td>
+</tr>
+</tbody>
+<attrib>[Italian]</attrib>
+</array>
+</p>
+<p>&#x2018;*Good music reconciles with oneself.&#x2019;</p></list-item>
+<list-item><label>(29)</label><p content-type="no-indent"><italic>Adjunct small clause</italic>
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Un</td>
+<td>dottore</td>
+<td>serio</td>
+<td>visita</td>
+<td>&#x00F8;</td>
+<td>nudi.</td>
+</tr>
+</tbody>
+<attrib>[Italian]</attrib>
+</array>
+</p>
+<p>&#x2018;*A serious doctor visits nude-<sc>PL</sc>.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Missing objects of this type can participate in control in Polish (see (30)), but not in Hungarian (see (31)).<xref ref-type="fn" rid="fn2_18"><sup>18</sup></xref></p>
+<list id="q2_30" list-type="simple" list-content="example">
+<list-item><label>(30)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Niska</td>
+<td>temperatura</td>
+<td>nie</td>
+<td>zach&#x0119;ca</td>
+<td>&#x00F8;</td>
+<td>do</td>
+<td>[PRO</td>
+<td>odwiedzania</td>
+<td>park&#x00F3;w</td>
+<td>zim&#x0105;].</td>
+</tr>
+<tr>
+<td>low</td>
+<td>temperature</td>
+<td>not</td>
+<td>encourages</td>
+<td></td>
+<td>to</td>
+<td></td>
+<td>visiting</td>
+<td>parks</td>
+<td>winter-<sc>instr</sc></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;Lowtemperature doesn&#x2019;t encourage people to visit parks in winter.&#x2019;</p></list-item>
+<list-item><label>(31)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Az</td>
+<td>alacsony</td>
+<td>h&#x0151;m&#x00E9;rs&#x00E9;klet</td>
+<td>nem</td>
+<td>vonz</td>
+<td>&#x00F8;</td>
+<td>[PRO</td>
+<td>a</td>
+<td>parkba</td>
+<td>t&#x00E9;len].</td>
+</tr>
+<tr>
+<td>the</td>
+<td>low</td>
+<td>temperature</td>
+<td>not</td>
+<td>attract</td>
+<td></td>
+<td></td>
+<td>the</td>
+<td>park.into</td>
+<td>winter.on</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p content-type="no-indent">&#x2018;Low temperature doesn&#x2019;t encourage me/you/us/you<sub><sc>pl</sc></sub> to visit parks in winter.&#x2019;</p>
+<p><sc>not:</sc> &#x2018;<sc>l</sc>ow temperature doesn&#x2019;t encourage people to visit parks in winter.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Since anaphors in Polish are strictly subject/external-argument-bound, the next of Rizzi&#x2019;s tests, that is the ability of the missing object to bind an anaphor, is inapplicable to Polish. In Hungarian an anaphor can be bound by an overt generic object (see (32a)). A third-person anaphor is incompatible with a generic missing object. The acceptable example in (32b), where the verb bears definite conjugation marking, enforces reference to a specific person. Indefinite conjugation marking on the verb results in an unacceptable sentence (see (32c)). When the anaphor is marked for second person, the generic reading seems available (see (32d)). This is an instance of a generic reading of the second-person pronoun.<xref ref-type="fn" rid="fn2_19"><sup>19</sup></xref> Within the present analysis, the examples in (32) show that an object represented as <italic>n</italic> cannot participate in anaphoric binding in Hungarian.</p>
+<list id="q2_32" list-type="simple" list-content="example">
+<list-item><label>(32)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_32a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>A</td>
+<td>j&#x00F3;</td>
+<td>zene</td>
+<td>kib&#x00E9;k&#x00ED;ti</td>
+<td>az</td>
+<td>embert</td>
+<td>&#x00F6;n&#x00F6;n-mag-&#x00E1;-val.-mag-&#x00E1;-val.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>good</td>
+<td>music</td>
+<td>reconclie-3<sc>sg.def</sc></td>
+<td>the</td>
+<td>man-<sc>acc</sc></td>
+<td>one-self-3<sc>sg</sc>-with</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Good music reconciles one with oneself.&#x2019;</p></list-item>
+<list-item id="q2_32b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>A</td>
+<td>j&#x00F3;</td>
+<td>zene</td>
+<td>kib&#x00E9;k&#x00ED;ti</td>
+<td>&#x00F8;</td>
+<td>&#x00F6;n-mag-&#x00E1;-val.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>good</td>
+<td>music</td>
+<td>reconclie-3<sc>sg.def</sc></td>
+<td></td>
+<td>one-self-3<sc>sg</sc>-with</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Good music reconciles her/him with herself/himself.&#x2019;</p></list-item>
+<list-item id="q2_32c"><label>c.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>*A</td>
+<td>j&#x00F3;</td>
+<td>zene</td>
+<td>kib&#x00E9;k&#x00ED;t</td>
+<td>&#x00F8;</td>
+<td>&#x00F6;n-mag-&#x00E1;-val.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>good</td>
+<td>music</td>
+<td>reconclie-3<sc>sg.indef</sc></td>
+<td></td>
+<td>one-self-3<sc>sg</sc>-with</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Good music reconciles with oneself.&#x2019;</p></list-item>
+<list-item id="q2_32d"><label>d.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>A</td>
+<td>j&#x00F3;</td>
+<td>zene</td>
+<td>kib&#x00E9;k&#x00ED;t</td>
+<td>&#x00F8;</td>
+</tr>
+<tr>
+<td>&#x00F6;n-mag-ad-dal.</td>
+<td>the</td>
+<td>good</td>
+<td>music</td>
+<td>reconclie-3<sc>sg.indef</sc></td>
+<td></td>
+<td>one-self-2<sc>sg</sc>-with</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;Good music reconciles you with yourself.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Adjunct small clauses do not yield clear results for Polish. Sentences modelled on Rizzi&#x2019;s (1986) examples make the relevant interpretation difficult to ac-cess:<xref ref-type="fn" rid="fn2_20"><sup>20</sup></xref></p>
+<list id="q2_33" list-type="simple" list-content="example">
+<list-item><label>(33)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_33a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Dobry</td>
+<td>lekarz</td>
+<td>bada</td>
+<td>pacjent&#x00F3;w</td>
+<td>nago.</td>
+</tr>
+<tr>
+<td>good</td>
+<td>doctor</td>
+<td>examines</td>
+<td>patients</td>
+<td>nude-<sc>adv</sc></td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;A good doctor examines patients while he is nude/?while they are nude.&#x2019;</p></list-item>
+<list-item id="q2_33b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Dobry</td>
+<td>lekarz</td>
+<td>bada</td>
+<td>&#x00F8;</td>
+<td>nago.</td>
+</tr>
+<tr>
+<td>good</td>
+<td>doctor</td>
+<td>examines</td>
+<td></td>
+<td>nude-<sc>adv</sc></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;A good doctor examines patients while he is nude/?*while they are nude.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The same holds in Hungarian, where the subject-oriented interpretation of the adjunct is prominent, but the object-oriented reading cannot be accessed:<xref ref-type="fn" rid="fn2_21"><sup>21</sup></xref></p>
+<list id="q2_34" list-type="simple" list-content="example">
+<list-item><label>(34)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_34a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Komoly</td>
+<td>orvos-k&#x00E9;nt</td>
+<td>meztelen</td>
+<td>vizsg&#x00E1;lom</td>
+<td>a</td>
+<td>betegeket.</td>
+</tr>
+<tr>
+<td>serious</td>
+<td>doctor-as</td>
+<td>nude</td>
+<td>examine-1<sc>sg.def</sc></td>
+<td>the</td>
+<td>patient-<sc>pl.acc</sc></td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;As a serious doctor, I examine patients nude.&#x2019;</p></list-item>
+<list-item id="q2_34b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Komoly</td>
+<td>orvos-k&#x00E9;nt</td>
+<td>meztelen</td>
+<td>vizsg&#x00E1;lok</td>
+<td>&#x00F8;</td>
+</tr>
+<tr>
+<td>serious</td>
+<td>doctor-as</td>
+<td>nude</td>
+<td>examine-1<sc>sg.indef</sc></td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+******************
+<p>&#x2018;As a serious doctor, I examine nude.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Within the present proposal, there is exactly one representational difference between the missing object in Polish, where control is available, and in English and Hungarian, where it is not. Namely, <italic>n</italic> contains gender in Polish. If establishing the relation of control can be taken to depend on a nominal being specified for at least one &#x03C6; feature, the data can be accommodated within the current system.<xref ref-type="fn" rid="fn2_22"><sup>22</sup></xref> This does not seem implausible, for example, within the approach to binding developed in Kratzer (2009), where the &#x03C6;-feature sets of PRO and the missing object would need to unify (via mediation of verbal functional heads). As the &#x03C6;-feature set of the object <italic>n</italic> is null in English and Hungarian, unification cannot affect the content of the &#x03C6;-feature set of PRO, resulting in the failure of control.</p>
+<p content-type="no-indent">Considering the unavailability of anaphoric binding and modification by a small clause, control structures seem to be the only candidate for diagnosing the value of the gender feature of missing objects in Polish. As masculine is the unmarked option on nouns denoting humans, it is the first choice, as shown in (35a). The masculine value of the gender feature as well as the value of the number feature is reflected in the adjectival morphology of the intensifier <italic>samego</italic> &#x2018;alone-M.SG.AcC&#x2019;/ <italic>sam&#x0105;</italic> &#x2018;alone-F.SG.Acc&#x2019;, which modifies the anaphor bound by PRO.<xref ref-type="fn" rid="fn2_23"><sup>23</sup></xref> The value of feminine gender is reflected in contexts where reference is to female individuals, as shown in (35b).</p>
+<list id="q2_35" list-type="simple" list-content="example">
+<list-item><label>(35)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_35a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Ta</td>
+<td>ulotka</td>
+<td>zach&#x0119;ca</td>
+<td>&#x00F8;</td>
+<td>do</td>
+<td>[PRO</td>
+<td>dbania</td>
+<td>o</td>
+<td>siebie</td>
+<td>samego].</td>
+</tr>
+<tr>
+<td>this</td>
+<td>flyer</td>
+<td>encourages</td>
+<td></td>
+<td>to</td>
+<td></td>
+<td>taking.care</td>
+<td>about</td>
+<td>self</td>
+<td>alone-<sc>m.sg.acc</sc></td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;This flyer encourages people to take care of themselves.&#x2019;</p></list-item>
+<list-item id="q2_35b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Ta</td>
+<td>ulotka</td>
+<td>o</td>
+<td>mammografii</td>
+<td>zach&#x0119;ca</td>
+<td>&#x00F8;</td>
+<td>do</td>
+<td>[PRO</td>
+<td>dbania</td>
+<td>o</td>
+<td>siebie</td>
+<td>sam&#x0105;].</td>
+</tr>
+<tr>
+<td>this</td>
+<td>flyer</td>
+<td>about</td>
+<td>mammography</td>
+<td>encourages</td>
+<td></td>
+<td>to</td>
+<td></td>
+<td>taking.care</td>
+<td>about</td>
+<td>self</td>
+<td>alone-<sc>f.sg.acc</sc></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;This flyer about mammography encourages women to take care of themselves.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Out of context, the number feature is singular. Plural number is possible when the missing object refers to a contextually salient group of people, in which case the structure involves definite object drop (see chapter 3 for an analysis):</p>
+<list id="q2_36" list-type="simple" list-content="example">
+<list-item><label>(36)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>?Ta</td>
+<td>ulotka</td>
+<td>zach&#x0119;ca</td>
+<td>(nas)</td>
+<td>do</td>
+<td>[PRO</td>
+<td>dbania</td>
+<td>o</td>
+<td>siebie</td>
+<td>samych].</td>
+</tr>
+<tr>
+<td>this</td>
+<td>flyer</td>
+<td>encourages</td>
+<td>us</td>
+<td>to</td>
+<td></td>
+<td>taking.care</td>
+<td>about</td>
+<td>self</td>
+<td>alone-<sc>m.pl.acc</sc></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;This flyer encourages us to take care of ourselves.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Mass nouns also trigger singular agreement (e.g. <italic>ry&#x017C;jest gotowy</italic> &#x2018;rice is ready-M.SG&#x2019;), which can be taken to arise by default.</p>
+<p content-type="no-indent">Wrapping up, the tests available in the respective languages show that the arbitrary object, taken here to be represented as <italic>n,</italic> can participate in control in Polish, but not in English and Hungarian. It is not a possible binder either in English or in Hungarian. Data involving small clauses are unclear, with the object-oriented reading either being grammatically unavailable or being overwritten by a much more prominent subject-oriented reading. Rather than attributing the facts observed in English and Hungarian to the lack of the projection of the object in the syntactic component (see Rizzi 1986), I suggest that the data result from the lack of the specification of the object <italic>n</italic> for &#x03C6; features in these languages. The specification of <italic>n</italic> in Polish for gender makes it available for participation in control.</p>
+</sec>
+</sec>
+<sec id="s2_3">
+<label>2.3</label>
+<title>The manner and result components of verb meaning</title>
+<p content-type="no-indent">An influential approach to the ontological categories of roots distinguishes between the manner and result components of verb meaning (see also section 5.2.2 of chapter 5). According to this approach, unspecified object drop is a characteristic feature of manner roots and it is blocked with result roots (see Rappa-port Hovav &#x0026; Levin 1998; Levin 1999; Rappaport Hovav &#x0026; Levin 2010; Beavers &#x0026; Koontz-Garboden 2012). However, the part of this approach related to object drop faces some serious challenges. For example, even though the verb <italic>write</italic>, which is a manner verb, makes object drop possible, verbs expressing the manner of writing do not, as illustrated in (37) from Rice (1988:203). Similar patterns are observed with verbs of manner of reading, eating, and drinking. This is unexpected on the analysis predicting that manner verbs should make object drop possible.</p>
+<list id="q2_37" list-type="simple" list-content="example">
+<list-item><label>(37)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_37a"><label>a.</label><p content-type="no-indent">Samuel Pepys wrote &#x00F8; daily.</p></list-item>
+<list-item id="q2_37b"><label>b.</label><p content-type="no-indent">*Samuel Pepys penned &#x00F8;/inscribed &#x00F8;/drafted &#x00F8; daily.</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Furthermore, closer inspection reveals that the problem is actually reverse with the verbs <italic>eat</italic> and <italic>drink</italic>. In particular, these verbs cannot be considered as manner verbs. Unspecified object drop aside, some other diagnostics for detecting the manner and result components of verb meaning indicate that manner verbs require animate subjects, as shown in (38) and (39) from Beavers &#x0026; Koontz-Garboden (2012:344), and that result verbs are incompatible with the denial of result, as illustrated in (40) and (41) from Beavers &#x0026; Koontz-Garboden (2012:337) and discussed also in Beavers (2011).</p>
+<list id="q2_38" list-type="simple" list-content="example">
+<list-item><label>(38)</label><p content-type="no-indent">The hammer broke/shattered the vase. <named-content content-type="source-label">[<italic>break/shatter</italic> are not manner Vs]</named-content></p></list-item>
+<list-item><label>(39)</label><p content-type="no-indent">&#x0023;The stiff brush scrubbed/wiped the floor. <named-content content-type="source-label">[<italic>scrub/wipe</italic> are manner Vs]</named-content></p></list-item>
+<list-item><label>(40)</label><p content-type="no-indent">&#x0023;Shane just broke the vase, but nothing is different about it. <named-content content-type="source-label">[<italic>break</italic> is a result V]</named-content></p></list-item>
+<list-item><label>(41)</label><p content-type="no-indent">Tracy just swept the floor, but nothing is different about it. <named-content content-type="source-label">[<italic>sweep</italic> is not a result V]</named-content></p></list-item>
+</list>
+<p content-type="no-indent">As indicated in (42)&#x2013;(43), the verb <italic>eat</italic> passes both kinds of tests, similarly to the verb <italic>drink</italic>.</p>
+<list id="q2_42" list-type="simple" list-content="example">
+<list-item><label>(42)</label><p content-type="no-indent"><italic>Manner: animate subject</italic></p>
+<p>&#x0023;The spoon ate the cake.</p></list-item>
+<list-item><label>(43)</label><p content-type="no-indent"><italic>Result: the denial of result</italic></p>
+<p>&#x0023;Celia ate the cake, but nothing is different about it.</p></list-item>
+</list>
+<p content-type="no-indent">Even though the manner component is clearly present in the manner-of-eating and manner-of-drinking verbs, the verbs <italic>eat</italic> and <italic>drink</italic> seem neutral with respect to manner. That manner is indeed underspecified with <italic>eat</italic> is indicated by examples such as (44), gathered in a random internet search and concerning providing nutrition through a feeding tube, a process which can be done through the nose or by inserting the tube directly into the stomach.</p>
+<list id="q2_44" list-type="simple" list-content="example">
+<list-item><label>(44)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_44a"><label>a.</label><p content-type="no-indent">When you eat through plastic tube, when you are paralyzed from neck down, then your family will gather around your hospital bed, to see the new you.</p></list-item>
+<list-item id="q2_44b"><label>b.</label><p content-type="no-indent">What can you eat with a feeding tube?</p></list-item>
+<list-item id="q2_44c"><label>c.</label><p content-type="no-indent">Brides-to-be are jumping on a new diet train that is seeing women eat through nose tubes to shed weight.</p></list-item>
+<list-item id="q2_44d"><label>d.</label><p content-type="no-indent">Jessica Schnaider, a 41-year-old Floridian bride-to-be, spent eight days eating through a tube in her nose in order to drop those pesky last few pounds before going gown shopping in March.</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The diagnostics for detecting the meaning components certainly need to be interpreted with caution. The reason why the verbs <italic>eat</italic> and <italic>drink</italic> pass the Agent-related manner test might not be that they lexically encode the manner component, but rather that, in line with the analysis in Jackendoff (1990), the Agent also provides the Path/Goal for movement of the thing eaten (Theme). The (slightly simplified) conceptual structure of <italic>drink</italic> and <italic>eat</italic> from Jackendoff (1990:53, 253) is shown in (45).<xref ref-type="fn" rid="fn2_24"><sup>24</sup></xref></p>
+<list id="q2_45" list-type="simple" list-content="example">
+<list-item><label>(45)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_45a"><label>a.</label><p content-type="no-indent">[<sub>Event</sub> CAUSE ([<sub>Thing</sub> ] [<sub>Event</sub> GO ([<sub>Thing</sub> LIQUID] [<sub>Path</sub> TO (<sub>Place</sub> IN ([<sub>Thing</sub> MOUTH OF ([<sub>Thing</sub> ])]))])])]</p></list-item>
+<list-item id="q2_45b"><label>b.</label><p content-type="no-indent">[CAUSE ([<sub>Thing</sub> ] [GO ([<sub>Thing</sub> [TO [IN [MOUTH-OF[<italic>&#x03B1;</italic>]]]]])])]</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The incompatibility of these verbs with instrument subjects, as shown in (42), receives an explanation, in that, for example, a spoon cannot provide a Path/Goal, as at the end of the eating event, the thing eaten is not inside the spoon. This means that the intuition that <italic>eat</italic> and <italic>drink</italic> do not encode manner is not challenged by the data.<xref ref-type="fn" rid="fn2_25"><sup>25</sup></xref> This is in line with Jackendoff&#x2019;s analysis, on which <italic>eat</italic> and <italic>drink</italic> are causative, change of location, result verbs. As result verbs, <italic>eat</italic> and <italic>drink</italic> are thus problematic for the analysis offered in Rappaport Hovav &#x0026; Levin (1998, 2010), because result verbs, whose event structure template consist of two subevents ([[x ACT] CAUSE [y BECOME &#x003C;RESULT-STATE&#x003E;]]), should not make object drop possible (see section 5.2.2 of chapter 5).</p>
+<p content-type="no-indent">Summing up, the behaviour of verbs of manner of writing, among others, and the behaviour of the verbs <italic>eat</italic> and <italic>drink</italic> suggest that the division of verbs into ones which encode manner and ones which encode result is insufficient for capturing the patterns of object drop. If the claims about the correlations between the meaning components and object drop made in the literature were right, verbs of manner of writing should make object drop freely available, whereas the verbs <italic>eat</italic> and <italic>drink</italic> should block object drop, contrary to fact. The regularities which emerge from the data seem to indicate instead that rich specification of manner blocks unspecified object drop, or at least decreases its acceptability in cases where the more basic verb makes object drop possible (see section 1.2 of chapter 1 for a formulation of this observation in terms of a <italic>Manner specification generalisation</italic>). Rich manner specification has a role to play in object drop when the neutral verb is a manner verb (e.g. <italic>write</italic> vs. <italic>inscribe</italic>) and when it is a result verb (e.g. <italic>eat</italic> vs. <italic>munch</italic>). In addition, when there does not seem to be any more neutral equivalent of a verb, rich manner does not block object drop, at least for manner verbs (e.g. <italic>i ro n</italic>).</p>
+<p content-type="no-indent">One other interesting distinction uncovered by the data presented above relates to verbs encoding only result. More specifically, if the verbs <italic>eat</italic> and <italic>drink</italic> are result verbs, there is also a distinction within the result class in that some result verbs make unspecified object drop generally available (<italic>eat/drink</italic>), whereas others make object drop available only in special licensing contexts (e.g. <italic>I&#x2019;ve never killed &#x00F8; before</italic>; see chapter 5). The difference between <italic>eat</italic> and <italic>drink</italic> on the one hand and <italic>kill</italic> on the other can be hypothesised to be due to the fact that in the former case, the Agent provides the Path/Goal for movement of the Theme/Patient at the same time, triggering result construal.<xref ref-type="fn" rid="fn2_26"><sup>26</sup></xref> As the result relates not only to the object argument in this case, but also to the subject (e.g. the eating event can be over either when the food is gone or when the Agent&#x2019;s stomach is full), the specification of the Agent is enough for the event to be conceptualised as potentially delimited.</p>
+</sec>
+<sec id="s2_4">
+<label>2.4</label>
+<title>Summary and extensions</title>
+<p content-type="no-indent">The empirical observations which have been the focus of the second part of this chapter (section 2.3) concern the blocking of object drop by the addition of manner specification to a more neutral verb meaning and to the suggestion that result verbs do not make object drop possible unless the Agent provides the Path/Goal at the same time, triggering result construal. I have taken these effects to be rooted in the semantic and pragmatic components of human cognition. Developing a detailed account of why the relevant contexts do not license a null <italic>n</italic> object needs to be addressed in future research.</p>
+<p>The main hypothesis put forward in this chapter is that indefinite missing objects can be represented in the syntactic component as the nominalising head <italic>n</italic>, whose basic denotation is <italic>&#x03BB;</italic>y.<italic>&#x22A4;&#x2261;</italic> y = y. Such an object is interpreted in parallel with bare mass nouns, possibly by the application of the operation Restrict (Chung &#x0026; Ladusaw 2004). Missing objects of this type do not bear the case feature, but the <italic>n</italic> head can bear the gender feature, which can have an effect on the distribution and interpretation of missing objects, as the examples in (35) above demonstrate. I have hypothesised that the presence of gender in the projection of a missing object is responsible for the object being syntactically active (e.g. for its ability to participate in control).</p>
+<sec id="s2_4_1">
+<label>2.4.1</label>
+<title>Extensions: arbitrary missing objects and control</title>
+<p content-type="no-indent">It is worth noting that the issue of the availability of control in sentences with arbitrary missing objects is even more intriguing than the previous literature suggests (see, e.g, Rizzi 1986; Landau 2010).<xref ref-type="fn" rid="fn2_27"><sup>27</sup></xref> For example, as noted above, Hungarian patterns with English in that it clearly makes arbitrary missing objects available (see (46)&#x2013;(47)), but such objects are unavailable as controllers, regardless whether they appear in generic or in episodic contexts (see (48) and (49) respectively).</p>
+<list id="q2_46" list-type="simple" list-content="example">
+<list-item><label>(46)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>A</td>
+<td>jelz&#x00E9;s</td>
+<td>lavina-vesz&#x00E9;ly-re</td>
+<td>figyelmeztet</td>
+<td>&#x00F8;.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>sign</td>
+<td>avalanche-danger-onto</td>
+<td>warns</td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;This sign warns against avalanches.&#x2019;</p></list-item>
+<list-item><label>(47)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Tegnap</td>
+<td>a</td>
+<td>meteorol&#x00F3;gusok</td>
+<td>er&#x0151;s</td>
+<td>sz&#x00E9;lre</td>
+<td>figyelmeztettek</td>
+<td>&#x00F8;.</td>
+</tr>
+<tr>
+<td>yesterday</td>
+<td>the</td>
+<td>meteorologists</td>
+<td>strong</td>
+<td>wind</td>
+<td>warned-3PL</td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;Yesterday, meteorologists cautioned against strong winds.&#x2019;</p></list-item>
+<list-item><label>(48)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Az</td>
+<td>alacsony</td>
+<td>h&#x0151;m&#x00E9;rs&#x00E9;klet</td>
+<td>nem</td>
+<td>vonz</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>parkba</td>
+<td>t&#x00E9;len.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>low</td>
+<td>temperature</td>
+<td>not</td>
+<td>attract</td>
+<td></td>
+<td>the</td>
+<td>park-into</td>
+<td>winter-on</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;Low temperature doesn&#x2019;t encourage me/you/us/you<sub><sc>pl</sc></sub> to visit parks in winter.&#x2019;</p>
+<p><sc>not</sc>: &#x2018;Low temperature doesn&#x2019;t encourage people to visit parks in winter.&#x2019;</p></list-item>
+<list-item><label>(49)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Sajnos</td>
+<td>a</td>
+<td>h&#x0151;m&#x00E9;rs&#x00E9;klet</td>
+<td>h&#x00E9;tv&#x00E9;gi</td>
+<td>es&#x00E9;s-e</td>
+<td>nem</td>
+<td>vonzott</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>parkba.</td>
+</tr>
+<tr>
+<td>unfortunately</td>
+<td>the</td>
+<td>temperature</td>
+<td>weekend</td>
+<td>falling-<sc>poss</sc></td>
+<td>not</td>
+<td>attracted-3<sc>sg</sc></td>
+<td></td>
+<td>the</td>
+<td>park-into</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p content-type="no-indent">&#x2018;The temperature drop at the weekend didn&#x2019;t attract me/you/us/you<sub>pl</sub> to the park.&#x2019;</p>
+<p content-type="no-indent"><sc>not:</sc> &#x2018;The temperature drop at the weekend didn&#x2019;t attract people to the park.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Similar situation holds in Brazilian Portuguese. Even though my informants judge the examples in (50)-(51) as acceptable, control seems incompatible with arbitrary missing objects regardless whether the context is generic (see (52)) or episodic (see (53)).<xref ref-type="fn" rid="fn2_28"><sup>28</sup></xref></p>
+<list id="q2_50" list-type="simple" list-content="example">
+<list-item><label>(50)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Essa</td>
+<td>placa</td>
+<td>alerta</td>
+<td>&#x00F8;</td>
+<td>sobre</td>
+<td>avalanches.</td>
+</tr>
+<tr>
+<td>this</td>
+<td>sign</td>
+<td>cautions</td>
+<td></td>
+<td>regarding</td>
+<td>avalanches</td>
+</tr>
+</tbody>
+<attrib>[Brazilian Portuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;This sing cautions against avalanches.&#x2019;</p></list-item>
+<list-item><label>(51)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Ontem,</td>
+<td>os</td>
+<td>metereologistas</td>
+<td>alertaram</td>
+<td>&#x00F8;</td>
+<td>sobre</td>
+<td>fortes</td>
+<td>ventos.</td>
+</tr>
+<tr>
+<td>yesterday</td>
+<td>the</td>
+<td>meteorologists</td>
+<td>cautioned</td>
+<td></td>
+<td>regarding</td>
+<td>strong</td>
+<td>winds.</td>
+</tr>
+</tbody>
+<attrib>[Brazilian Portuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;Yesterday meteorologists cautioned against strong winds.&#x2019;</p></list-item>
+<list-item><label>(52)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>??*Chuva</td>
+<td>normalmente</td>
+<td>n&#x00E3;o</td>
+<td>encoraja</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>visitar</td>
+<td>amigos.</td>
+</tr>
+<tr>
+<td>rain</td>
+<td>usually</td>
+<td>not</td>
+<td>encourages</td>
+<td></td>
+<td>to</td>
+<td>visit</td>
+<td>friends</td>
+</tr>
+</tbody>
+<attrib>[Brazilian Portuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;Rain usually doesn&#x2019;t encourage people to visit friends.&#x2019;</p></list-item>
+<list-item><label>(53)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>??*A</td>
+<td>queda</td>
+<td>na</td>
+<td>temperatura</td>
+<td>no</td>
+<td>fim</td>
+<td>de</td>
+<td>semana</td>
+<td>n&#x00E3;o</td>
+<td>encorajou</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>visitar</td>
+<td>amigos</td>
+</tr>
+<tr>
+<td>the</td>
+<td>drop</td>
+<td>in.the</td>
+<td>temperature</td>
+<td>in.the</td>
+<td>end</td>
+<td>of</td>
+<td>week</td>
+<td>not</td>
+<td>encouraged</td>
+<td></td>
+<td>to</td>
+<td>visit</td>
+<td>friends</td>
+</tr>
+</tbody>
+<attrib>[BrazilianPortuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;The temperature drop at the weekend didn&#x2019;t encourage people to visit friends.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Korean likewise does not make control possible despite making arbitrary missing objects of this type available:</p>
+<list id="q2_54" list-type="simple" list-content="example">
+<list-item><label>(54)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>i</td>
+<td>pyosi-nun</td>
+<td>[tayphwung-ul</td>
+<td>kyeongko-ha-nun]</td>
+<td>kes-i-ta.</td>
+</tr>
+<tr>
+<td>this</td>
+<td>sign-<sc>top</sc></td>
+<td>typhoon-<sc>acc</sc></td>
+<td>caution-<sc>lv-adn</sc></td>
+<td>thing-<sc>cop-decl</sc></td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;This sing cautions against typhoons.&#x2019;</p></list-item>
+<list-item><label>(55)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>ecey</td>
+<td>ku</td>
+<td>hakca-nun</td>
+<td>khun</td>
+<td>tayphwung-ul</td>
+<td>kyeongko-ha-ess-ta.</td>
+</tr>
+<tr>
+<td>yesterday</td>
+<td>the</td>
+<td>scholar-<sc>top</sc></td>
+<td>big</td>
+<td>typoon-<sc>acc</sc></td>
+<td>caution-<sc>lv-past-decl</sc></td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;Yesterday, the scholars cautioned against a big typhoon.&#x2019;</p></list-item>
+<list-item><label>(56)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>ku</td>
+<td>hakca-nun</td>
+<td>*(salamtul-eykey)</td>
+<td>cip-ey</td>
+<td>iss-eyahan-da-ko</td>
+<td>kyeongko-ha-ess-ta.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>scholar-<sc>top</sc></td>
+<td>people-<sc>dat</sc></td>
+<td>house-at</td>
+<td>stay-must-<sc>decl-c</sc></td>
+<td>caution-<sc>lv-past-decl</sc></td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;The scholars cautioned people to stay at home.&#x2019;</p></list-item>
+<list-item><label>(57)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>ku</td>
+<td>hakca-nun</td>
+<td>*(salamtul-eykey)</td>
+<td>cip-ey</td>
+<td>iss-eyahan-da-ko</td>
+<td>hangsang</td>
+<td>kyeongko-ha-ess-ta.</td>
+<td>the</td>
+<td>solar-<sc>top</sc></td>
+<td>people-<sc>dat</sc></td>
+<td>house-at</td>
+<td>stay-must-<sc>decl-c</sc></td>
+<td>always</td>
+<td>caution-<sc>lv-pasx-decl</sc></td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p content-type="no-indent">&#x2018;Scholars always cautioned people to stay at home.&#x2019;</p></list-item>
+<list-item><label>(58)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>kyewul-uy</td>
+<td>nacun</td>
+<td>onto-nun</td>
+<td>*(salamtul-ul)</td>
+<td>cip</td>
+<td>pakk-ulo</td>
+<td>naka-ci</td>
+<td>mot-ha-key</td>
+<td>ha-n-ta.</td>
+</tr>
+<tr>
+<td>winter-GEN</td>
+<td>low</td>
+<td>temperature-xoP</td>
+<td>people-Ace</td>
+<td>house</td>
+<td>outside-to</td>
+<td>go-out</td>
+<td>NEG-LV-CAUSE</td>
+<td>LV-PRES-DECL</td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;Low temperatures in winter causes people not to go outside.&#x2019;</p></list-item>
+<list-item><label>(59)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>cwumal-uy</td>
+<td>chwuwun</td>
+<td>nalssi-nun</td>
+<td>*(salamtul-ul)</td>
+<td>cip</td>
+<td>pakk-ulo</td>
+<td>naka-ci</td>
+<td>mot-ha-key</td>
+<td>ha-ess-ta.</td>
+</tr>
+<tr>
+<td>weekend-GEN</td>
+<td>cold</td>
+<td>weather-xoP</td>
+<td>people-Ace</td>
+<td>house</td>
+<td>outside-to</td>
+<td>go-out</td>
+<td>NEG-LV-CAUSE</td>
+<td>LV-PAST-DECL</td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;Cold weather at weekend caused people not to go outside.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Furthermore, even though Italian makes control available in generic contexts (see (60)), based on examples such as (61), Rizzi (1986:504) makes the general claim that Italian makes arbitrary object drop available only in generic contexts.</p>
+<list id="q2_60" list-type="simple" list-content="example">
+<list-item><label>(60)</label><p content-type="no-indent">Questo conduce &#x00F8; a concludere quanto segue.</p>
+<p>&#x2018;*This leads to conclude what follows.&#x2019; <named-content content-type="source-label">[Italian]</named-content></p></list-item>
+<list-item><label>(61)</label><p content-type="no-indent">*?Alla fine della vacanza il bel tempo ha invogliato &#x00F8; a restare.</p>
+<p>&#x2018;At the end of the vacation the nice weather has induced to stay.&#x2019; <named-content content-type="source-label">[Italian]</named-content></p></list-item>
+</list>
+<p content-type="no-indent">However, my informants find (62) completely acceptable.</p>
+<list id="q2_62" list-type="simple" list-content="example">
+<list-item><label>(62)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Ieri</td>
+<td>i</td>
+<td>metereologi</td>
+<td>hanno</td>
+<td>avvisato</td>
+<td>&#x00F8;</td>
+<td>del</td>
+<td>pericolo</td>
+<td>di</td>
+<td>valanghe.</td>
+</tr>
+<tr>
+<td>yesterday</td>
+<td>the</td>
+<td>meteorologistis</td>
+<td>have</td>
+<td>cautioned</td>
+<td>of.the</td>
+<td>danger</td>
+<td>of</td>
+<td>avalanche</td>
+</tr>
+</tbody>
+<attrib>[Italian]</attrib>
+</array>
+</p>
+<p>&#x2018;Yesterday meteorologists cautioned against the danger of an avalanche.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">What seems to be the case is that arbitrary objects can in general be dropped in Italian. It is only their ability to appear in control structures which is restricted. The contrast between the generic context in (63a) and the episodic context in (63b) illustrates this.</p>
+<list id="q2_63" list-type="simple" list-content="example">
+<list-item><label>(63)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_63a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Il</td>
+<td>calo</td>
+<td>delle</td>
+<td>temperature</td>
+<td>non</td>
+<td>incoraggia</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>passare</td>
+<td>del</td>
+<td>tempo</td>
+<td>fuori</td>
+<td>casa.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>drop</td>
+<td>of.the</td>
+<td>temperature</td>
+<td>not</td>
+<td>encourages</td>
+<td>to</td>
+<td>spend</td>
+<td>the</td>
+<td>time</td>
+<td>outside</td>
+<td>house</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;The drop in temperature doesn&#x2019;t encourage people to spend time outside.&#x2019;</p></list-item>
+<list-item id="q2_63b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>*Il</td>
+<td>calo</td>
+<td>delle</td>
+<td>temperature</td>
+<td>nel</td>
+<td>weekend</td>
+<td>non</td>
+<td>ha</td>
+<td>incoraggiato</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>passare</td>
+<td>tempo</td>
+<td>fuori</td>
+<td>casa.</td>
+</tr>
+<tr>
+<td>the</td>
+<td>drop</td>
+<td>of.the</td>
+<td>temperature</td>
+<td>in.the</td>
+<td>weekend</td>
+<td>not</td>
+<td>has</td>
+<td>encourage</td>
+<td></td>
+<td>to</td>
+<td>spend</td>
+<td>time</td>
+<td>outside</td>
+<td>house</td>
+</tr>
+</tbody>
+<attrib>[Italian]</attrib>
+</array>
+</p>
+<p>&#x2018;The drop in temperature at weekend didn&#x2019;t encourage people to spend time outside.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Interestingly, the specific context in (64) makes control available.</p>
+<list id="q2_64" list-type="simple" list-content="example">
+<list-item><label>(64)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Da</td>
+<td>stanotte</td>
+<td>le</td>
+<td>temperature</td>
+<td>sono</td>
+<td>scese</td>
+<td>drasticamente,</td>
+<td>e</td>
+<td>non</td>
+<td>c&#x2019;&#x00E8;</td>
+<td>molta</td>
+<td>gente</td>
+<td>ai</td>
+<td>mercatini</td>
+<td>oggi.</td>
+<td>Il</td>
+<td>brusco</td>
+<td>calo</td>
+<td>delle</td>
+<td>temperature</td>
+<td>di</td>
+<td>stanotte</td>
+<td>non</td>
+<td>incoraggia</td>
+<td>&#x00F8;</td>
+<td>a</td>
+<td>rimanere</td>
+<td>all&#x2019;aperto.</td>
+</tr>
+<tr>
+<td>from</td>
+<td>tonight</td>
+<td>the</td>
+<td>temperature</td>
+<td>are</td>
+<td>dropped</td>
+<td>dramatically</td>
+<td>and</td>
+<td>not</td>
+<td>there.is</td>
+<td>many</td>
+<td>people</td>
+<td>at.the</td>
+<td>markets</td>
+<td>today</td>
+<td>the</td>
+<td>sharp</td>
+<td>drop</td>
+<td>of.the</td>
+<td>temperature</td>
+<td>at</td>
+<td>tonight</td>
+<td>not</td>
+<td>encourage</td>
+<td></td>
+<td>to</td>
+<td>stay</td>
+<td>outdoors</td>
+</tr>
+</tbody>
+<attrib>[Italian]</attrib>
+</array>
+</p>
+<p>&#x2018;Temperature dropped dramatically tonight and there&#x2019;s not a lot of people at the markets today. The sharp drop in temperature tonight does not encourage people to stay outdoors.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">A different type of constraint is observed in Mandarin, where the initial examples in (65)&#x2013;(67) suggest that arbitrary object drop is completely blocked, even with structures without control.<xref ref-type="fn" rid="fn2_29"><sup>29</sup></xref></p>
+<list id="q2_65" list-type="simple" list-content="example">
+<list-item><label>(65)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>zhe</td>
+<td>shi</td>
+<td>tixing</td>
+<td>*(renmen)</td>
+<td>xiaoxin</td>
+<td>xuebeng</td>
+<td>de</td>
+<td>gaoshipai.</td>
+</tr>
+<tr>
+<td>this</td>
+<td>be</td>
+<td>remind</td>
+<td>people</td>
+<td>be.careful</td>
+<td>avalanche</td>
+<td><sc>mod</sc></td>
+<td>sign</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;This is a sign that cautions against avalanches.&#x2019;</p></list-item>
+<list-item><label>(66)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>shang</td>
+<td>zhoumo</td>
+<td>tianqi</td>
+<td>zhuan</td>
+<td>liang,</td>
+<td>kexi</td>
+<td>mei</td>
+<td>xiying</td>
+<td>*(renmen)</td>
+<td>dao</td>
+<td>gongyuan</td>
+<td>youwan.</td>
+</tr>
+<tr>
+<td>last</td>
+<td>weekend</td>
+<td>weather</td>
+<td>became</td>
+<td>cool</td>
+<td>but</td>
+<td><sc>neg.pere</sc></td>
+<td>attract</td>
+<td>people</td>
+<td>to</td>
+<td>park</td>
+<td>visit</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;The weather became cool last weekend but that didn&#x2019;t attract people to visit the park.&#x2019;</p></list-item>
+<list-item><label>(67)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>jiangling</td>
+<td>neng</td>
+<td>poshi</td>
+<td>*(buxia)</td>
+<td>fanxia</td>
+<td>zhanzheng</td>
+<td>zui.</td>
+</tr>
+<tr>
+<td>general</td>
+<td>can</td>
+<td>force</td>
+<td>subordinate</td>
+<td>commit</td>
+<td>war</td>
+<td>crime</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;A general can force his subordinates to commit war crimes.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">However, as illustrated in (68), at least the verb <italic>xialing</italic> &#x2018;order&#x2019; makes arbitrary objects available in a context similar to (67).</p>
+<list id="q2_68" list-type="simple" list-content="example">
+<list-item><label>(68)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>?jiangling</td>
+<td>you</td>
+<td>quan</td>
+<td>xialing</td>
+<td>&#x00F8;</td>
+<td>fanxia</td>
+<td>zhanzheng</td>
+<td>zui.</td>
+</tr>
+<tr>
+<td>general</td>
+<td>have</td>
+<td>power</td>
+<td>order</td>
+<td></td>
+<td>commit</td>
+<td>war</td>
+<td>crime</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;A general has the authority to order his subordinates to commit war crimes.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">In the more specific context in (69), the sentence is completely acceptable.</p>
+<list id="q2_69" list-type="simple" list-content="example">
+<list-item><label>(69)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>jiangling</td>
+<td>xialing</td>
+<td>&#x00F8;</td>
+<td>qiangbi</td>
+<td>youjiduiyuan.</td>
+</tr>
+<tr>
+<td>general</td>
+<td>order</td>
+<td></td>
+<td>execute-by-shooting</td>
+<td>guerrilla</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;The generals ordered to shoot the guerrillas.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">All the patterns above contrast further with Polish, where control is easily available with arbitrary missing objects, even in episodic contexts (see (70b)).</p>
+<list id="q2_70" list-type="simple" list-content="example">
+<list-item><label>(70)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_70a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Meteorolodzy</td>
+<td>ostrzegali</td>
+<td>&#x00F8;</td>
+<td>wczoraj</td>
+<td>przed</td>
+<td>silnym</td>
+<td>wiatrem.</td>
+</tr>
+<tr>
+<td>meteorologists</td>
+<td>warned</td>
+<td></td>
+<td>yesterday</td>
+<td>before</td>
+<td>strong</td>
+<td>wind</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Yesterday, meteorologists cautioned against strong wind.&#x2019;</p></list-item>
+<list-item id="q2_70b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Spadek</td>
+<td>temperatury</td>
+<td>w</td>
+<td>weekend</td>
+<td>nie</td>
+<td>zach&#x0119;ca&#x0142;</td>
+<td>&#x00F8;,</td>
+<td>&#x017C;eby</td>
+<td>sp&#x0119;dza&#x0107;</td>
+<td>czas</td>
+<td>na</td>
+<td>zewn&#x0105;trz.</td>
+</tr>
+<tr>
+<td>drop</td>
+<td>temperature-GEN</td>
+<td>in</td>
+<td>weekend</td>
+<td>not</td>
+<td>encouraged</td>
+<td></td>
+<td>that-suBju</td>
+<td>spend</td>
+<td>time</td>
+<td>on</td>
+<td>outside</td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;The drop in temperature at weekend didn&#x2019;t encourage people to spend time outside.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Furthermore, even though, providing the example in (71), Dvo&#x0159;&#x00E1;k (2015:79) suggests that Czech makes arbitrary missing objects unavailable in episodic contexts, the judgments presented there seem to be an artefact of the specific interpretation of the object favoured by this particular example. My informant finds the episodic sentences in (72) completely acceptable. The sentence in (72b) shows that, just like in Polish, control is also available in Czech in episodic contexts with missing objects.</p>
+<list id="q2_71" list-type="simple" list-content="example">
+<list-item><label>(71)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_71a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Dobr&#x00FD;</td>
+<td>policajt</td>
+<td>chr&#x00E1;n&#x00ED;</td>
+<td>&#x00F8;/</td>
+<td>lidi</td>
+<td>p&#x0159;ed</td>
+<td>fyzick&#x00FD;m</td>
+<td>i</td>
+<td>psychick&#x00FD;m</td>
+<td>terorem.</td>
+</tr>
+<tr>
+<td>good</td>
+<td>policeman</td>
+<td>protects-iMPERF</td>
+<td></td>
+<td>people</td>
+<td>from</td>
+<td>physical</td>
+<td>and</td>
+<td>psychological</td>
+<td>terror</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;A good policeman protects one/people from both physical and psychological terror.&#x2019;</p></list-item>
+<list-item id="q2_71b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Pr&#x00E1;v&#x011B;</td>
+<td>ted&#x2019;</td>
+<td>tam</td>
+<td>jeden</td>
+<td>policajt</td>
+<td>chr&#x00E1;n&#x00ED;</td>
+<td>*&#x00F8;/</td>
+<td>lidi</td>
+<td>p&#x0159;ed</td>
+<td>partou</td>
+<td>terorist&#x016F;.</td>
+</tr>
+<tr>
+<td>right</td>
+<td>now</td>
+<td>there</td>
+<td>one</td>
+<td>policeman</td>
+<td>protects</td>
+<td></td>
+<td>people</td>
+<td>from</td>
+<td>group</td>
+<td>terrorists</td>
+</tr>
+</tbody>
+<attrib>[Czech]</attrib>
+</array>
+</p>
+<p>&#x2018;There is a policeman protecting *one/some people from a group of terrorists right now.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+<list-item><label>(72)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_72a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Meteorologov&#x00E9;</td>
+<td>v&#x010D;era</td>
+<td>varovali</td>
+<td>&#x00F8;</td>
+<td>p&#x0159;ed</td>
+<td>siln&#x00FD;mi</td>
+<td>v&#x011B;try.</td>
+</tr>
+<tr>
+<td>meteorologists</td>
+<td>yesterday</td>
+<td>warned</td>
+<td></td>
+<td>before</td>
+<td>strong</td>
+<td>winds</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Yesterday, meteorologists cautioned against strong winds.&#x2019;</p></list-item>
+<list-item id="q2_72b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>V&#x00ED;kendov&#x00FD;</td>
+<td>pokles</td>
+<td>teplot</td>
+<td>k</td>
+<td>n&#x00E1;v&#x0161;t&#x011B;v&#x011B;</td>
+<td>parku</td>
+<td>bohu&#x017E;el</td>
+<td>nenal&#x00E1;kal</td>
+<td>&#x00F8;.</td>
+</tr>
+<tr>
+<td>weekend-ADj</td>
+<td>drop</td>
+<td>temperatures</td>
+<td>to</td>
+<td>visiting</td>
+<td>park</td>
+<td>unfortunately</td>
+<td>not.attracted</td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Czech]</attrib>
+</array>
+</p>
+<p>&#x2018;The temperature drop at the weekend didn&#x2019;t attract people to visit the park, unfortunately.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The patterns presented above show that, when considered from the cross-linguistic perspective, the availability of control in structures with arbitrary missing objects is a complex issue, ranging from completely unacceptable (English, Hungarian, Brazilian Portuguese, Korean) to being influenced by factors such as genericity and the availability of a specific context (Italian) or by lexical variation (Mandarin), to being generally available (Polish, Czech). Determining which elements of the grammar are responsible for the observed patterns is an interesting research question which needs to be answered not only for the sake of research on missing objects, but also for the sake of the development of theoretical analyses of control. This is a research project which cannot be undertaken here, but the complexity of the data in its own right suggests that caution is advisable when interpreting the lack of availability of control as evidence against the syntactic projection of an argument. This contrasts with the success of diagnosing a syntactically projected missing object that is syntactically alive and can control into an infinitival complement.</p>
+</sec>
+<sec id="s2_4_2">
+<label>2.4.2</label>
+<title><italic>Extensions:</italic> read &#x00F8; <italic>versus</italic> kan-shu <italic>&#x2018;read-book&#x2019;</italic></title>
+<p content-type="no-indent">Expressing unspecified objects as null is one of two cross-linguistically attested patterns.<xref ref-type="fn" rid="fn2_30"><sup>30</sup></xref> The other pattern, observed in languages such as Mandarin, requires an overt (semi-)pleonastic object to express this meaning. To illustrate, even though <italic>shu</italic> &#x2018;book&#x2019; and <italic>fan</italic> &#x2018;rice&#x2019; have descriptive content when used in other structures, when an unspecified object is intended, they do not constrain the interpretation of the theme argument with their regular denotation. The object in (73) from Lee (2014:17) need not necessarily be interpreted as books. It can also be interpreted, for example, as magazines. Similarly, the object in (74) from Cheng &#x0026; Sybesma (1998:81) refers to any kind of food.<xref ref-type="fn" rid="fn2_31"><sup>31</sup></xref></p>
+<list id="q2_73" list-type="simple" list-content="example">
+<list-item><label>(73)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>John</td>
+<td>zai</td>
+<td>jia</td>
+<td>kan-shu</td>
+</tr>
+<tr>
+<td>John</td>
+<td>at</td>
+<td>home</td>
+<td>read-book</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;John reads at home.&#x2019;</p></list-item>
+<list-item><label>(74)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>wo</td>
+<td>bu</td>
+<td>ai</td>
+<td>chi-*(fan)</td>
+</tr>
+<tr>
+<td>I</td>
+<td>not</td>
+<td>like</td>
+<td>eat-rice</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;I don&#x2019;t like to eat.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">When nothing appears in the object position, the object has to be construed as anaphoric (Cheng &#x0026; Sybesma 1998:83):</p>
+<list id="q2_75" list-type="simple" list-content="example">
+<list-item><label>(75)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Zhang</td>
+<td>San</td>
+<td>chi-le</td>
+</tr>
+<tr>
+<td>Zhang</td>
+<td>San</td>
+<td>ate-PERF</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;Zhang San ate it.&#x2019;</p></list-item>
+</list>
+<p content-type="no-indent">Based on data of this type, Cheng &#x0026; Sybesma (1998:89) suggest the condition in (76) below, where <italic>pro</italic> stands for a definite argument.</p>
+<list id="q2_76" list-type="simple" list-content="example">
+<list-item><label>(76)</label><p content-type="no-indent">If an object position allows for <italic>pro</italic>, then that position cannot be occupied by non-referential empty objects. Such non-referential objects are expressed by an overt dummy nominal.</p></list-item>
+</list>
+<p content-type="no-indent">This condition relates the appearance of the overt (semi-)pleonastic nominal in contexts where an unspecified object is intended in languages such as Mandarin to the presence of definite object drop. However, data from Polish and Hungarian discussed throughout this work show that this generalisation does not hold, as these languages make available both definite and unspecified object drop with the same verb.<xref ref-type="fn" rid="fn2_32"><sup>32</sup></xref></p>
+<p>Moreover, the lack of parallelism between languages such as English and Mandarin does not affect all (notional) arguments. As revealed by (77)&#x2013;(78), taken from Lu, Zhang &#x0026; Bisang (2015:748&#x2013;749), the constituent <italic>100-yuan</italic> &#x2018;100 dollars&#x2019; can be omitted with the verb <italic>qiang</italic> &#x2018;rob&#x2019;, but not with the verb <italic>tou</italic> &#x2018;steal&#x2019;. These data pattern with English.</p>
+<list id="q2_77" list-type="simple" list-content="example">
+<list-item><label>(77)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_77a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Lisi</td>
+<td>qiang-le</td>
+<td>Zhangsan</td>
+<td>100-yuan</td>
+<td>qian.</td>
+</tr>
+<tr>
+<td>Lisi</td>
+<td>rob-PERF</td>
+<td>Zhangsan</td>
+<td>100-dollar</td>
+<td>money</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Lisi robbed Zhangsan of 100 dollars.&#x2019;</p></list-item>
+<list-item id="q2_77b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Lisi</td>
+<td>qiang-le</td>
+<td>Zhangsan.</td>
+</tr>
+<tr>
+<td>Lisi</td>
+<td>rob-PERF</td>
+<td>Zhangsan</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;Lisi robbed Zhangsan.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+<list-item><label>(78)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_78a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Lisitou-le</td>
+<td>Zhangsan</td>
+<td>100-yuan</td>
+<td>qian.</td>
+</tr>
+<tr>
+<td>Lisi</td>
+<td>steal-PERF</td>
+<td>Zhangsan</td>
+<td>100-dollar</td>
+<td>money</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Lisi stole 100 dollars from Zhangsan.&#x2019;</p></list-item>
+<list-item id="q2_78b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>*Lisitou-le</td>
+<td>Zhangsan.</td>
+</tr>
+<tr>
+<td>Lisi</td>
+<td>steal&#x2122;</td>
+<td>Zhangsan</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;Lisi stole from Zhangsan.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Furthermore, even though according to Cheng &#x0026; Sybesma (1998) and Lee (2014) Cantonese, Korean, Thai, and Mundang, among others, pattern with Mandarin in blocking unspecified object drop, the situation does not seem to be as clear-cut, at least in Korean. According to my informant, there is a clear difference in judgment of the verbs <italic>ssu</italic> &#x2018;write&#x2019; and <italic>mek</italic> &#x2018;eat&#x2019; in (79).</p>
+<list id="q2_79" list-type="simple" list-content="example">
+<list-item><label>(79)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_79a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>*nay-kaku-lul</td>
+<td>pol-ttaymata,</td>
+<td>ku-nun</td>
+<td>ssu-ko</td>
+<td>iss-ess-e.</td>
+</tr>
+<tr>
+<td>I-NOM</td>
+<td>he-Acc</td>
+<td>see-whenever</td>
+<td>he-xoP</td>
+<td>write-c</td>
+<td><sc>prog-past-decl</sc></td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Whenever I saw him, he was writing.&#x2019;</p></list-item>
+<list-item id="q2_79b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>??nay-kaku-lul</td>
+<td>pol-ttaymata,</td>
+<td>ku-nun</td>
+<td>mek-ko</td>
+<td>iss-ess-e.</td>
+</tr>
+<tr>
+<td>I-NOM</td>
+<td>he-Acc</td>
+<td>see-whenever,</td>
+<td>he-xoP</td>
+<td>eat-c</td>
+<td><sc>prog-past-decl</sc></td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;Whenever I saw him, he was eating.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The availability of object drop with <italic>mek</italic> &#x2018;eat&#x2019; is further influenced by context:</p>
+<list id="q2_80" list-type="simple" list-content="example">
+<list-item><label>(80)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_80a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>na-nun</td>
+<td>mek-nun</td>
+<td>kes-ul</td>
+<td>cohaha-n-da.</td>
+</tr>
+<tr>
+<td>I-TOP</td>
+<td>eat-ADN</td>
+<td>NOMINLIZER-ACC</td>
+<td>like-PRES-DECL</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;I like to eat.&#x2019;</p></list-item>
+<list-item id="q2_80b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>na-nun</td>
+<td>*(mwue-lul)</td>
+<td>mek-ess-ta.</td>
+</tr>
+<tr>
+<td><sc>i-top</sc></td>
+<td>something-Acc</td>
+<td>eat-PASx-DECL</td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;I ate (something).&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">In addition, the verb <italic>chengso</italic> &#x2018;clean&#x2019;, which is a borrowing from Mandarin, behaves differently from the native Korean verb <italic>chiwu</italic> &#x2018;clean&#x2019;:</p>
+<list id="q2_81" list-type="simple" list-content="example">
+<list-item><label>(81)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_81a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Bill-un</td>
+<td>(pang-ul)</td>
+<td>chengso-ha-ess-ta.</td>
+</tr>
+<tr>
+<td>Bill-TOP</td>
+<td>room-Ace</td>
+<td>clean-LV-PAST-DECL</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Bill cleaned (his room).&#x2019;</p></list-item>
+<list-item id="q2_81b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Bill-un</td>
+<td>*(pang-ul)</td>
+<td>chiwu-ess-ta.</td>
+</tr>
+<tr>
+<td>Bill-xoP</td>
+<td>room-Ace</td>
+<td>clean-PAST-DECL</td>
+</tr>
+</tbody>
+<attrib>[Korean]</attrib>
+</array>
+</p>
+<p>&#x2018;Bill cleaned the room.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">Japanese seems to behave similarly to Korean. According to my informant, the acceptability of sentences with unspecified object drop depends on the choice of the verb. In (82), the missing object of the verb <italic>tabetaku</italic> &#x2018;eat&#x2019; is unspecified and the sentence is perfectly acceptable. On the other hand, unspecified object drop is only marginally acceptable with the <italic>verbyomu</italic> &#x2018;read&#x2019; and it is completely unavailable with the <italic>verb yaku</italic> &#x2018;bake&#x2019;, as demonstrated in (83) and (84). Substituting the <italic>verbsyomu</italic> &#x2018;read&#x2019; an<italic>dyaku</italic> &#x2018;bake&#x2019; in (83)-(84) with <italic>tabetaku</italic> &#x2018;eat&#x2019; makes the sentences acceptable. These sentences also become acceptable when the context establishes that the domain of possible referents of the objects is restricted, for example, to books or cakes, even if they remain unspecified.</p>
+<list id="q2_82" list-type="simple" list-content="example">
+<list-item><label>(82)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>watashi-wa</td>
+<td>tabetaku</td>
+<td>arimasen.</td>
+</tr>
+<tr>
+<td><sc>i-top</sc></td>
+<td>eat</td>
+<td>like-<sc>neg</sc></td>
+</tr>
+</tbody>
+<attrib>[Japanese]</attrib>
+</array>
+</p>
+<p>&#x2018;I don&#x2019;t like to eat.&#x2019;</p></list-item>
+<list-item><label>(83)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>??*</td>
+<td>John-wa</td>
+<td>itsumo</td>
+<td>ie-de</td>
+<td>yomu.</td>
+</tr>
+<tr>
+<td></td>
+<td>John-xoP</td>
+<td>always</td>
+<td>at-home</td>
+<td>read</td>
+</tr>
+</tbody>
+<attrib>[Japanese]</attrib>
+</array>
+</p>
+<p>&#x2018;John always reads at home.&#x2019;</p></list-item>
+<list-item><label>(84)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_84a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>??*watashi-wa</td>
+<td>gogo-jyu</td>
+<td>yonde</td>
+<td>sugoshimasita.</td>
+</tr>
+<tr>
+<td><sc>i-top</sc></td>
+<td>afternoon.entire-Acc</td>
+<td>read</td>
+<td>spent</td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;I spent the entire afternoon reading.&#x2019;</p></list-item>
+<list-item id="q2_84b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>*watashi-wa</td>
+<td>gogo-jyu</td>
+<td>yaite</td>
+<td>sugoshimasita.</td>
+</tr>
+<tr>
+<td><sc>i-top</sc></td>
+<td>afternoon.entire-Acc</td>
+<td>bake</td>
+<td>spent</td>
+</tr>
+</tbody>
+<attrib>[Japanese]</attrib>
+</array>
+</p>
+<p>&#x2018;I spent the entire afternoon baking.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list>
+<p content-type="no-indent">The data presented here clearly provide some evidence that the suggested complementarity between definite and unspecified object drop (see (76)) is not a general property of natural language grammar. The core factors regulating the (un)availability of unspecified object drop in the relevant languages and its relation to definite object drop, if any, need to be reconsidered. For this to be possible, more fine-grained distinctions need to be taken into account in empirical research to determine the exact conditions under which unspecified objects can remain unpronounced in languages such as Mandarin, Korean, and Japanese. In the light of the discussion in this work, one factor to consider in the empirical research is the influence of the specificity of verbal meaning, including the richness of the manner component, on the availability of unspecified object drop. This is especially important in the light of the fact that unspecified object drop is not unconstrained in English either, as expressed in the manner-related generalisation in section 1.2 of chapter 1, repeated here in (85).</p>
+<list id="q2_85" list-type="simple" list-content="example">
+<list-item><label>(85)</label><p content-type="no-indent"><italic>Manner specification generalisation</italic> <named-content content-type="source-label">[parametrisable]</named-content></p>
+<p content-type="no-indent">If a verb makes object drop available, its near synonym with a more specific manner component tends to block it.</p></list-item>
+</list>
+<p content-type="no-indent">Detailed research providing a deeper understanding of the empirical situation in the relevant languages is thus necessary if theories of object drop are to be complete.</p>
+<p>In the present chapter, I have suggested that indefinite object drop can be accounted for by taking the object to be represented syntactically as the nominal-ising head <italic>n</italic>, interpreted, for example, via the application of Restrict. Together with the analysis of definite object drop which I develop in the following chapter, this account forms a coherent approach to the derivation of object drop in natural language grammar.</p>
+</sec>
+</sec>
+</body>
+<back>
+<fn-group>
+<fn id="fn2_1"><label>1</label><p>The ability to license sluicing has been used as a test to determine whether the missing object is definite or indefinite. See section 4.1 of chapter 4 for some more discussion.</p></fn>
+<fn id="fn2_2"><label>2</label><p>The sluicing data discussed here are relevant on the assumption that they cannot be considered cases of sprouting, where the antecedent clause plausibly does not contain a syntactic position correlated with the fronted <italic>wh-</italic>phrase in the elliptical clause, as illustrated with the adjunction structure in (i) from Ross (1969:252).
+<list id="q2_fn2i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">He is writing something, but you can&#x2019;t imagine where/why/how (fast).</p></list-item>
+</list></p>
+<p content-type="no-indent">That structures involving adjuncts might differ from structures with implicit arguments in relevant respects is indicated by the data in (2)&#x2013;(3) in the main text. I thank Jeffrey Lidz and Alexander Williams for drawing my attention to this issue.</p></fn>
+<fn id="fn2_3"><label>3</label><p>I come back to this issue in more detail in section 2.2.2.</p></fn>
+<fn id="fn2_4"><label>4</label><p>See Williams (2012) for a treatment of null complement anaphora as a number-neutral argument and Mart&#x00ED; (2015), who analyses indefinite null objects as incorporated null bare number-unmarked nouns. In contrast, Mittwoch (2005) suggests that objects of this type can be represented as null bare plurals and, similarly, Erteschik-Shir (2007) suggests that the object is plural.</p></fn>
+<fn id="fn2_5"><label>5</label><p>Dvo&#x0159;&#x00E1;k (2015:87) provides the example in (i), modelled on Rizzi&#x2019;s (1986) examples, to support an analysis on which generic missing objects in Czech do not have case:
+<list id="q2_fn5i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_ia"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Na</td>
+<td>tyhle</td>
+<td>pr&#x00E1;&#x0161;ky</td>
+<td>pozor,</td>
+<td>d&#x011B;laj&#x00ED;</td>
+<td>&#x010D;lov&#x011B;ka</td>
+<td>otup&#x011B;l&#x00FD;m/</td>
+<td>&#x0025;otup&#x011B;l&#x00E9;ho.</td>
+</tr>
+<tr>
+<td>of</td>
+<td>these</td>
+<td>pills</td>
+<td>beware</td>
+<td>make</td>
+<td>human-<sc>sg.m.acc</sc></td>
+<td>dull-<sc>sg.m.instr</sc></td>
+<td>dull-<sc>sg.m.acc</sc></td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;Beware of these pills, they make one dull.&#x2019;</p></list-item>
+<list-item id="q2_ib"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Na</td>
+<td>tyhle</td>
+<td>pr&#x00E1;&#x0161;ky</td>
+<td>pozor,</td>
+<td>d&#x011B;laj&#x00ED;</td>
+<td>&#x00F8;</td>
+<td>otup&#x011B;l&#x00FD;m/</td>
+<td>*otup&#x011B;l&#x00E9;ho.</td>
+</tr>
+<tr>
+<td>of</td>
+<td>these</td>
+<td>pills</td>
+<td>beware</td>
+<td>make</td>
+<td></td>
+<td>dull-<sc>sg.m.instr</sc></td>
+<td>dull-<sc>sg.m.acc</sc></td>
+</tr>
+</tbody>
+<attrib>[Czech]</attrib>
+</array></p>
+<p>&#x2018;Beware of these pills, they make one dull.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list></p>
+<p content-type="no-indent">In contrast to the structure with the noun <italic>&#x010D;lov&#x011B;ka</italic> &#x2018;human-SG.M.ACc&#x2019;, where most speakers accept agreement in case between the predicative adjective and the noun, when the subject of this predication is null, only instrumental case is available. Unfortunately, as is also clear in Rizzi&#x2019;s discussion of similar contexts, this structure does not in fact contain a null object, but rather a null subject of the small clause (verbs such as <italic>make</italic> take the small clause as their sole object, rather than taking both a nominal object and a small clause (the meaning of the sentences is not that pills make one and one becomes dull; the only element related to pills by the verb <italic>make</italic> is the predication that one is dull)). This example thus provides information about the case feature of the subject of the small clause and can be taken to be relevant to studies of null objects only on the assumption that the position of the subject of small clauses and the position of the null object must be occupied by the same element. Equivalent sentences in Polish are compatible only with instrumental case on the adjective, regardless whether the subject of the small clause is null or overt.</p></fn>
+<fn id="fn2_6"><label>6</label><p>The exact syntactic structure of sentences of this type remains to be analysed, among others, as far as the position of the non-subcategorised object and the position at which the element <italic>out</italic> originates in the <italic>out-</italic>prefixation construction are concerned.</p></fn>
+<fn id="fn2_7"><label>7</label><p>This could be stated as a last-resort deletion operation removing the suffix in the absence of an appropriate host which it could attach to, or as a morphological realisation rule dictating zero-realisation of case in this environment.</p></fn>
+<fn id="fn2_8"><label>8</label><p>Nothing in the analysis to be offered here hinges on this and the case feature might equally well be taken here to be introduced as a feature on one of the other nominal heads.</p></fn>
+<fn id="fn2_9"><label>9</label><p>In some instances, gender can be encoded on <italic>n</italic> also in English, if nouns such as <italic>lioness</italic> can be analysed as composed with the root &#x221A;<sc>lion</sc> and <italic>n</italic> <sub>[g</sub>:<sub>f]</sub>, realised as <italic>-ess</italic> in morphology and, similarly, compounds such as <italic>she-goat</italic> can be analysed as involving <italic>n</italic><sub>[g</sub>:<sub>f]</sub> realised as <italic>she.</italic> In the discussion of pronouns in section 3.2 of chapter 3, I take the pronoun <italic>she</italic> to realise <italic>n</italic><sub>[g</sub>:<sub>f]</sub> embedded in a DP structure.</p></fn>
+<fn id="fn2_10"><label>10</label><p>As discussed in &#x00C9;. Kiss (2002:29), non-referential bare noun arguments in Hungarian obligatorily move out of VP to a pre-verbal A-bar position in focusless sentences. In the relevant contexts, missing objects represented as <italic>n</italic> could also undergo this type of movement in Hungarian.</p></fn>
+<fn id="fn2_11"><label>11</label><p>Possible alternatives to the self-identity condition require further detailed consideration. The denotation proposed here has been inspired by the analysis of the semantics of null complement anaphora in Williams (2012) (e.g. <italic>Ron won &#x00F8;: Won(Ron,[iy(y</italic> = y)])), where the complement is interpreted as definite via the application of <italic><bold>v</bold>.</italic></p></fn>
+<fn id="fn2_12"><label>12</label><p>The empirical domainofChung and Ladusaw&#x2019;s (2004) study focuses on indefinites in Maori and incorporation in Chamorro, but they suggest that Restrict could also be used for interpretation of bare plurals in English (p. 70-71).</p>
+<p>That indefinite missing objects can be interpreted by tools developed in Chung &#x0026; Ladusaw (2004) has been suggested independently in Mart&#x00ED; (2015), who analyses this construction as involving incorporation of a null noun to the verb.</p>
+<p>I thank Alexander Williams for drawing my attention to Chung and Ladusaw&#x2019;s work and for a discussion of the aspects of my proposal related to semantics and pragmatics.</p></fn>
+<fn id="fn2_13"><label>13</label><p>Amissing object represented as<italic>n</italic>, like the impersonal subject in the <sc><bold>se</bold></sc> construction (see Chierchia 1995), is an indefinite that is existentially closed in an episodic context, but can be bound by a generic operator or by adverbs of quantification in a generic context, acquiring a quasi-universal interpretation after existential disclosure (see section 4.2.4 of chapter 4 for some relevant examples).</p></fn>
+<fn id="fn2_14"><label>14</label><p>In fact, obligatory narrow scope is treated by Chung &#x0026; Ladusaw (2004) as a diagnostic for the interpretation of an indefinite via Restrict.</p></fn>
+<fn id="fn2_15"><label>15</label><p>That contexts such as (22c) are best analysed as involving pragmatic inference rather than definite argument omission is suggested by the fact that verbs which drop definite objects do not require such strong contextual support (e.g. <italic>Anna has just called (us)</italic>; see also Mart&#x00ED; 2015; Williams 2015).</p>
+<p>The data from the million-word Brown University Standard Corpus of Present-Day American English (Francis &#x0026; Ku&#x010D;era 1979) were extracted for the purpose of this study with the tools available within the Natural Language Toolkit (NLTK) platform (http://nltk.org/; see Bird, Klein &#x0026; Loper 2009).</p></fn>
+<fn id="fn2_16"><label>16</label><p>The translation provided follows that in Kiefer (1994:444), even though in text he suggests that a more accurate translation of the example is &#x2018;be engaged in letter writing&#x2019;. The text in this structure is number-neutral semantically.</p>
+<p>As noted in Bende-Farkas (2001), this is not the full incorporation of the West-Greenlandic type and the incorporated nominal can be separated from the verb, for example, when in the contrastive topic or quantifier position (see (i) from Bende-Farkas 2001:69).
+<list id="q2_fn16i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>[F&#x00E1;t]<sup><sc>contrastive topic</sc></sup></td>
+<td>tegnap</td>
+<td>nem</td>
+<td>v&#x00E1;gott</td>
+<td>J&#x00E1;nos.</td>
+</tr>
+<tr>
+<td>wood-<sc>acc</sc></td>
+<td>yesterday</td>
+<td>not</td>
+<td>chopped</td>
+<td>J&#x00E1;nos</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;J&#x00E1;nos chopped up no wood yesterday.&#x2019;</p>
+<p>(but he may have done or chopped up something else)</p></list-item>
+</list></p>
+<p content-type="no-indent">For more discussion, see Kiefer (1990, 1994); Bende-Farkas (2001); Farkas &#x0026; de Swart (2003).</p></fn>
+<fn id="fn2_17"><label>17</label><p>Farkas &#x0026; de Swart (2003:93) suggest that bare nominals and preverbs are not mutually exclusive, but when they appear together, the preverb has to follow the verb (see (i)). Indefinite missing objects do not have this effect.
+<list id="q2_fn17i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Mari</td>
+<td>l&#x00E1;mp&#x00E1;(ka)t</td>
+<td>szerelt</td>
+<td>fel</td>
+<td>a</td>
+<td>plafonra.</td>
+</tr>
+<tr>
+<td>Mari</td>
+<td>lamp-<sc>(pl.)acc</sc></td>
+<td>set</td>
+<td>up-<sc>pv</sc></td>
+<td>the</td>
+<td>ceiling.on</td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;Mari set up a lamp/lamps on the ceiling.&#x2019;</p></list-item>
+</list></p>
+<p content-type="no-indent">The difference in judgments provided by Kiefer (1994) and Farkas &#x0026; de Swart (2003) might be due to the use of different preverbs, but this requires further investigation.</p></fn>
+<fn id="fn2_18"><label>18</label><p>As Hungarian makes definite (singular) object drop widely available, sentences such as (31) are acceptable on the reading where a definite object is dropped, but not on the generic/arbitrary reading.</p>
+<p>Special thanks to &#x00C9;va D&#x00E9;k&#x00E1;ny and Veronika Heged&#x0171;s for their help with the translation and judgments of the Hungarian examples presented in this section.</p></fn>
+<fn id="fn2_19"><label>19</label><p>The conditions under which a second-person object can be interpreted as arbitrary in Hungarian require further investigation. According to my informants, this reading is unavailable in (ia), where the object has to be interpreted as the hearer. The arbitrary reading requires an overt object (see (ib)).
+<list id="q2_fn19i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">
+<list list-type="simple">
+<list-item id="q2_fn19a"><label>a.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>T&#x00E1;bornok-k&#x00E9;nt</td>
+<td>sosem</td>
+<td>k&#x00E9;nyszer&#x00ED;telek</td>
+<td>&#x00F8;<sub>[2]</sub></td>
+<td>h&#x00E1;bor&#x00FA;s</td>
+<td>b&#x0171;n&#x00F6;k</td>
+<td>elk&#x00F6;vet&#x00E9;s-&#x00E9;-re.</td>
+</tr>
+<tr>
+<td>general-as</td>
+<td>never</td>
+<td>force-1s.<sc>sg</sc>.2o</td>
+<td></td>
+<td>war</td>
+<td>crimes</td>
+<td>away.committing-<sc>poss-onto</sc></td>
+</tr>
+</tbody>
+</array>
+</p>
+<p>&#x2018;As a general, I never force you to commit war crimes.&#x2019;</p></list-item>
+<list-item id="q2_fn19b"><label>b.</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>T&#x00E1;bornok-k&#x00E9;nt</td>
+<td>sosem</td>
+<td>k&#x00E9;nyszer&#x00ED;tek</td>
+<td>senkit</td>
+<td>h&#x00E1;bor&#x00FA;s</td>
+<td>b&#x0171;n&#x00F6;k</td>
+<td>elk&#x00F6;vet&#x00E9;s-&#x00E9;-re.</td>
+</tr>
+<tr>
+<td>general-as</td>
+<td>never</td>
+<td>force-1<sc>sg</sc></td>
+<td>nobody-<sc>acc</sc></td>
+<td>war</td>
+<td>crimes</td>
+<td>away.committing-<sc>poss-onto</sc></td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;As a general, I never force anyone to commit war crimes.&#x2019;</p></list-item>
+</list>
+</p></list-item>
+</list></p>
+<p content-type="no-indent">For comparison, Polish can drop the object in this context:
+<list id="q2_19ii" list-type="simple" list-content="example">
+<list-item><label>(ii)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Jako</td>
+<td>genera&#x0142;</td>
+<td>nigdy</td>
+<td>nie</td>
+<td>zmuszam</td>
+<td>&#x00F8;</td>
+<td>do</td>
+<td>pope&#x0142;niania</td>
+<td>zbrodni</td>
+<td>wojennych.</td>
+</tr>
+<tr>
+<td>as</td>
+<td>general</td>
+<td>never</td>
+<td>not</td>
+<td>force-1<sc>sg</sc></td>
+<td></td>
+<td>to</td>
+<td>committing</td>
+<td>crimes-<sc>gen</sc></td>
+<td>war-<sc>adj</sc></td>
+</tr>
+</tbody>
+<attrib>[Polish]</attrib>
+</array>
+</p>
+<p>&#x2018;As a general, I never force anyone to commit war crimes.&#x2019;</p></list-item>
+</list></p>
+</fn>
+<fn id="fn2_20"><label>20</label><p>Substituting the adverb <italic>nago</italic> &#x2018;nude&#x2019; with a corresponding adjective results in degraded acceptability in structures with overt objects such as (33a) and is interpreted as an elliptical NP or substantivisation in structures such as (33b) (i.e. &#x2018;...examines (the) naked (ones)&#x2019;). See Dvo&#x0159;&#x00E1;k (2015) for a similar observation with respect to Czech, where the generic missing object can participate in anaphoric binding and control.</p></fn>
+<fn id="fn2_21"><label>21</label><p>The object-oriented reading is accessible in (i), but, according to my informants, this sentence seems to involve the generic reading of a null second-person pronoun.
+<list id="q2_fn21i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Egy</td>
+<td>komoly</td>
+<td>orvos</td>
+<td>meztelen</td>
+<td>vizsg&#x00E1;l</td>
+<td>&#x00F8;.</td>
+</tr>
+<tr>
+<td>a</td>
+<td>serious</td>
+<td>doctor</td>
+<td>naked</td>
+<td>examines</td>
+<td></td>
+</tr>
+</tbody>
+<attrib>[Hungarian]</attrib>
+</array>
+</p>
+<p>&#x2018;A serious doctor examines you while he is nude/while you are nude.&#x2019;</p></list-item>
+</list></p>
+</fn>
+<fn id="fn2_22"><label>22</label><p>Interestingly, Italian, French, and Czech, in which arbitrary missing objects can participate in control (see Rizzi 1986; Authier 1989; Dvo&#x0159;&#x00E1;k 2015 respectively), are also systems with grammatical gender. See section 2.4 below for some more discussion of control-related variation.</p></fn>
+<fn id="fn2_23"><label>23</label><p> A similar observation is provided in Dvo&#x0159;&#x00E1;k (2015) for Czech.</p>
+<p>These data can be used as a test for &#x03C6;-feature values of the missing object on the assumption that PRO includes only the features which are borne by the object, rather than contributing features/values of its own.</p></fn>
+<fn id="fn2_24"><label>24</label><p>These representations might require modification, as indicated by (44), where the food does not pass through the mouth and by the fact that taking something into the mouth does not necessarily result in it being eaten. What is important for the present purpose is that <italic>eat</italic> and <italic>drink</italic> are treated as causative/result verbs. The Goal is conceptually the Agent, which implies that a change in the object necessarily triggers a change in the Agent.</p></fn>
+<fn id="fn2_25"><label>25</label><p>As noted above, Levin (2013) categorises <italic>eat</italic> as a manner verb. However, she suggests that result verbs are most convincingly distinguished from manner verbs if the argument which undergoes the change must be interpreted as being different at the end of the event. As the thing eaten is necessarily different at the end of the eating event (as well as the agent of eating), I take this characterisation of result verbs to support the conclusion reached here.</p>
+<p>In addition to the two-way distinction between manner and result roots, Beavers &#x0026; Koontz-Garboden (2012) argue for the existence of another ontological category, namely manner+result roots, encoding both components simultaneously, based mostly on the behaviour of manner-of-killing verbs (e.g. <italic>crucify, guillotine</italic>). Rappaport Hovav &#x0026; Levin (1998) also note (fn. 4) that verbs such as <italic>cut</italic> specify both manner and result, even though they assume complementarity between the two components. Verbs of manner of eating and drinking seem also to encode both manner and result. See Husband (2011) for some additional discussion of manner+result verbs.</p></fn>
+<fn id="fn2_26"><label>26</label><p>A similar pattern holds of reflexives. For example, in sentences such as (i), Tom is not only the Agent, but he (his skin) also provides a Path/Goal.
+<list id="q2_fn26i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">Tom shaved.</p></list-item>
+</list></p>
+<p content-type="no-indent">Alexiadou et al. (2013) likewise note a link between verbs such as <italic>eat</italic> and reflexives, but their analysis relies on the correctness of Levin and Rappaport Hovav&#x2019;s approach.</p></fn>
+<fn id="fn2_27"><label>27</label><p>Special thanks to Jan Casalicchio, Federica Cognola, &#x00C9;va D&#x00E9;k&#x00E1;ny, Veronika Heged&#x0171;s, Nick Huang, Gesoel Mendes, Dongwoo Park, and Radek &#x0160;im&#x00ED;k for providing me with the data discussed in this section and for sharing their observations about them.</p></fn>
+<fn id="fn2_28"><label>28</label><p>In section 2.2.4I have suggested that the unavailability of control in structures with arbitrary missing objects in English and Hungarian could result from the lack of grammatical gender in these languages. The unavailability of control in Brazilian Portuguese in the relevant contexts suggests that additional factors are involved. The relevant factor in this case can be related to the availability of a bare noun to be interpreted as arbitrary. This seems to be a complex problem in Brazilian Portuguese, as suggested by the contrasts in judgments of the following examples.
+<list id="q2_fn28i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Essa</td>
+<td>placa</td>
+<td>alerta</td>
+<td>(as)</td>
+<td>pessoas</td>
+<td>sobre</td>
+<td>avalanches.</td>
+</tr>
+<tr>
+<td>this</td>
+<td>sign</td>
+<td>cautions</td>
+<td>the</td>
+<td>people</td>
+<td>regarding</td>
+<td>avalanches</td>
+</tr>
+</tbody>
+<attrib>[Brazilian Portuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;This sing cautions people against avalanches.&#x2019;</p></list-item>
+<list-item><label>(ii)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Um</td>
+<td>general</td>
+<td>pode</td>
+<td>obrigar</td>
+<td>??(as)</td>
+<td>pessoas/</td>
+<td>algu&#x00E9;m</td>
+<td>a</td>
+<td>cometer(em)</td>
+<td>um</td>
+<td>crime</td>
+<td>de</td>
+<td>guerra</td>
+</tr>
+<tr>
+<td>a</td>
+<td>general</td>
+<td>can</td>
+<td>force</td>
+<td>the</td>
+<td>people</td>
+<td>someone</td>
+<td>to</td>
+<td>commit-<sc>pl</sc></td>
+<td>a</td>
+<td>crime</td>
+<td>of</td>
+<td>war</td>
+</tr>
+</tbody>
+<attrib>[Brazilian Portuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;A general can force people/one to commit a war crime.&#x2019;</p></list-item>
+<list-item><label>(iii)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Ontem,</td>
+<td>os</td>
+<td>metereologistas</td>
+<td>alertaram</td>
+<td>??*(as)</td>
+<td>pessoas</td>
+<td>sobre</td>
+<td>fortes</td>
+<td>ventos.</td>
+</tr>
+<tr>
+<td>yesterday</td>
+<td>the</td>
+<td>meteorologists</td>
+<td>cautioned</td>
+<td>the</td>
+<td>people</td>
+<td>regarding</td>
+<td>strong</td>
+<td>winds.</td>
+</tr>
+</tbody>
+<attrib>[Brazilian Portuguese]</attrib>
+</array>
+</p>
+<p>&#x2018;Yesterday meteorologists cautioned people against strong winds.&#x2019;</p></list-item>
+</list></p>
+</fn>
+<fn id="fn2_29"><label>29</label><p>This is consistent with data from other types of indefinite object drop in Mandarin, where object drop is also unavailable in structures such as <italic>Lisi ate</italic> (see section 2.4.2 below for some more discussion).</p></fn>
+<fn id="fn2_30"><label>30</label><p>Special thanks to Nick Huang, Shota Momma, and Dongwoo Park for their translations and judgments of the Mandarin, Japanese, and Korean data presented in this section.</p></fn>
+<fn id="fn2_31"><label>31</label><p>It seems that there might be some inter-speaker variation with respect to the extent to which <italic>fan</italic> &#x2018;rice&#x2019; in (74) can be bleached of its conceptual content. According to my informant, the noun <italic>dongxi</italic> &#x2018;thing&#x2019; would be more appropriate when the general meaning of food is intended, as shown in (i). The same does not seem to be true of <italic>kan</italic> &#x2018;read&#x2019;, where <italic>dongxi</italic> &#x2018;thing&#x2019; seems less natural. Following Cheng &#x0026; Sybesma (1998), I omit tone marking in the Mandarin examples here.
+<list id="q2_fn31i" list-type="simple" list-content="example">
+<list-item><label>(i)</label><p>
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>wo</td>
+<td>bu</td>
+<td>ai</td>
+<td>chi-dongxi.</td>
+</tr>
+<tr>
+<td>I</td>
+<td>not</td>
+<td>like</td>
+<td>eat-thing</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array></p>
+<p>&#x2018;I don&#x2019;t like to eat.&#x2019;</p>
+</list-item>
+</list></p>
+<p content-type="no-indent">Interestingly, structures of this type are not completely parallel to the English-type data at least in terms of the inferential processes guiding their interpretation. This is shown by the fact that, for example, the sentence in (ii) does not trigger the reading on which Hemingway drank alcohol, unlike its English equivalent. To express the meaning which is associated by convention with the missing object in English, reference to alcohol has to be made explicit, as in (iii).
+<list id="q2_ii" list-type="simple" list-content="example">
+<list-item><label>(ii)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Haimingwei</td>
+<td>(zuotian)</td>
+<td>he-le</td>
+<td>dongxi.</td>
+</tr>
+<tr>
+<td>Hemingway</td>
+<td>yesterday</td>
+<td>drink-PERF</td>
+<td>thing</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;Hemingway drank something (yesterday).&#x2019;</p></list-item>
+<list-item><label>(iii)</label><p content-type="no-indent">
+<array content-type="glossed-example">
+<tbody>
+<tr>
+<td>Haimingwei</td>
+<td>(zuotian)</td>
+<td>he-le</td>
+<td>jiu.</td>
+</tr>
+<tr>
+<td>Hemingway</td>
+<td>yesterday</td>
+<td>drink-PERF</td>
+<td>alcohol</td>
+</tr>
+</tbody>
+<attrib>[Mandarin]</attrib>
+</array>
+</p>
+<p>&#x2018;Hemingway drank (alcohol) yesterday.&#x2019;</p></list-item>
+</list></p>
+<p content-type="no-indent">As noted in Cheng &#x0026; Sybesma (1998), also translational equivalents of intransitive verbs such <italic>asyawn</italic> and <italic>walk</italic> in Mandarin are composed of a verb and an object <italic>(da-haqian</italic> &#x2018;hit/do-yawn&#x2019; (&#x2018;yawn&#x2019;),<italic>zou-lu</italic> &#x2018;walk-road&#x2019; (&#x2018;walk&#x2019;)).</p></fn>
+<fn id="fn2_32"><label>32</label><p>Lee (2014) notes that also Malayalam seems to contradict this generalisation.</p>
+<p>Generally speaking, Lee (2014) proposes an analysis on which the object in all cases is represented syntactically as a nominal element and attributes the difference between languages of the English and the Mandarin type to Spell-Out rules, according to which the object is zero-realised in English, but its pronunciation in Mandarin is conditioned by the verb. Even though more empirical research seems necessary before theoretical approaches can be developed, this treatment of the data is consistent with the proposal put forward here, where a bare <italic>n</italic> would be realised as <italic>shu</italic> &#x2018;book&#x2019; when in the complement of <italic>kan</italic> &#x2018;read&#x2019;.</p></fn>
+</fn-group>
+</back>
+</book-part>
+</book-body>
+</book>

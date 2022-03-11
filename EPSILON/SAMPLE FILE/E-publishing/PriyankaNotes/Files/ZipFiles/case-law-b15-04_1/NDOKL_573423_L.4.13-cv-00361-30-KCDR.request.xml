@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>RSF PARTNERS, LLC, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>SILVERMINE OPPORTUNITY FUNDING, LLC, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 13-CV-361-GKF-FHM</docket.line>
+<docket.number>13-CV-361-GKF-FHM</docket.number>
+<docket.line suppress-flag="y">4:13-cv-00361-GKF-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 07/31/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GREGORY K. FRIZZELL, CHIEF JUDGE UNITED STATES DISTRICT COURT</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is the Rule 59(e) Motion to Alter/Amend Judgment [Dkt. # 27] of plaintiff RSF Partners, LLC (&#x201C;RSF&#x201D;).</paratext></para>
+<para><paratext ID="p2" level="1">On February 3, 2014, this Court granted defendant's motion to dismiss for failure to state a claim upon which relief can be granted, dismissed the case without prejudice, and gave RSF leave to file an Amended Complaint within ten days. RSF subsequently sought and obtained an extension of time within which to amend. Then, instead of amending, RSF filed a Motion to Dismiss Without Prejudice pursuant to Fed. R. Civ. P. 41(a)(2). Reasoning that RSF had been given ample opportunity to amend but had failed to do so, the Court denied RSF's motion to dismiss without prejudice and entered a final Judgment dismissing the case with prejudice. <ital>See</ital> Dkt. # 25 (<ital>citing, inter alia, Campos v. Ocwen Loan Servicing, LLC</ital>, 2013 WL 5614317, at *1 (S.D. Tex. Oct. 14, 2013)).</paratext></para>
+<para><paratext ID="p3" level="1">Upon review of the applicable procedural rules and persuasive authority, the Court concludes for the following reasons that RSF's motion should be granted and the judgment should be corrected to prevent manifest injustice and to correct a misapprehension regarding federal procedure. Federal Rule of Civil Procedure 41(a)(1)(A)(i) states:</paratext>
+<para><paratext ID="p4" first-line="2" turnover="2"><ital>Without a Court Order.</ital> Subject to Rules 23(e), 23.1(c), 23.2, and 66 and any applicable federal statute, the plaintiff may dismiss an action without a court order by filing: (i) a notice of dismissal before the opposing party serves either an answer or a motion for summary judgment;</paratext></para>
+<paratext ID="p5" contd-flag="y">A plaintiff's right to file a notice of dismissal under Rule 41(a)(1)(A)(i) before the service of an answer or motion for summary judgment is absolute and unconditional. 8 Moore's Federal Practice &#167; 41.33 [2] (3d ed.). The plaintiff's motive for filing the notice is irrelevant. <ital>Id.</ital> If a motion for voluntary dismissal is made at a time when the plaintiff still has an absolute right to dismiss by notice, some courts have held that the motion should be treated as a notice of dismissal under Rule 41(a)(1)(A)(i). <ital>Id.</ital> at &#167; 41.33 [5][b]; <ital>Brackett v. State Highways &#38; Transp. Comm'n of Mo.</ital>, 163 F.R.D. 305, 306 (W.D. Mo. 1995).</paratext></para>
+<para><paratext ID="p6" level="1">At the time RSF filed its Motion to Dismiss Without Prejudice pursuant to Rule 41(a)(2), defendant Silvermine had not served an answer or a motion for summary judgment. RSF was therefore entitled to dismiss its action without prejudice, and without a court order, by filing a notice of dismissal pursuant to Rule 41(a)(1)(A)(i). Furthermore, the court had previously dismissed the case <ital>without prejudice</ital>, with leave to amend. Although RSF is represented by counsel who could have filed a notice of dismissal pursuant to Rule 41(a)(1)(A)(i) rather than a motion to dismiss pursuant to Rule 41(a)(2), counsel had no reason to believe the Court would not simply mirror what it had done previously, and enter a judgment dismissing the case without prejudice. This court therefore concludes it should have treated RSF's Rule 41(a)(2) motion to dismiss as a notice of dismissal.</paratext></para>
+<para><paratext ID="p7" level="1">Even if the Tenth Circuit were to hold that a Rule 41(a)(2) motion to dismiss may not be treated as a Rule 41(a)(1)(A)(i) notice of dismissal, this court would grant RSF's motion to alter or amend, as the Tenth Circuit has held that the potential for a second action does not amount to prejudice to the defendant. <ital>Brown v. Baeke</ital>, 413 F.3d 1121, 1124 (10th Cir. 2005); <ital>Am. Nat'l Bank &#38; Trust Co. v. Bic Corp.</ital>, 931 F.2d 1411, 1412 (10th Cir. 1991) (&#x201C;The possibility that plaintiffs may gain a tactical advantage by refiling in state court is insufficient to deny a voluntary motion to dismiss without prejudice, especially when state law is involved.&#x201D;); <ital>see also Gassaway v. Kan. Gas Serv., LLC</ital>, 2013 WL 593662, at *2 (D. Kan. Feb. 15, 2013) (&#x201C;Despite the potential for forum shopping, the Tenth Circuit has held that insufficient for the court to find prejudice to the defendants.&#x201D;); <ital>Cactus Petroleum Corp. v. Cont'l Res., Inc.</ital>, 2013 WL 5656107, at *2 (W.D. Okla. Oct. 16, 2013) (&#x201C;[T]he court has little doubt that the reason for the requested dismissal is pursuit of what plaintiff views as a more favorable forum&#8212;forum shopping. However, under the above cases, dismissals for &#x2018;tactical advantage&#x2019; or for the purpose of proceeding in state court do not, in and of themselves, without more, constitute &#x2018;legal prejudice.&#x2019;&#x201D;).</paratext></para>
+<para><paratext ID="p8" level="1">WHEREFORE, RSF's Rule 59(e) Motion to Alter/Amend Judgment [Dkt. # 27] is granted. An Amended Judgment shall be entered contemporaneously with this Order.</paratext></para>
+<para><paratext ID="p9" level="1">IT IS SO ORDERED this 31<super style="percent_r">st</super> day of July, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

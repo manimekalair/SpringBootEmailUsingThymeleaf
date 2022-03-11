@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>NORTHERN DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>STEPHENIE ROSE, on behalf herself and all others similarly situated, Plaintiff,</title.segment>
+<title.segment>CAROL DUKE AND JACK POSTER, on behalf of themselves and all others similarly situated, Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>BANK OF AMERICA CORPORATION, and FIA CARD SERVICES, N.A., Defendants.</title.segment>
+<title.segment>BANK OF AMERICA, N.A.; BANK OF AMERICA CORPORATION; AND FIA CARD SERVICES, N.A., Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 5:11-cv-02390-EJD (PSG)</docket.line>
+<docket.line>Case No. 5:12-cv-04009-EJD (PSG)</docket.line>
+<docket.number>5:11-cv-02390-EJD (PSG)</docket.number>
+<docket.number>5:12-cv-04009-EJD (PSG)</docket.number>
+<docket.line suppress-flag="y">5:12-cv-04009-EJD</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/06/2013</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>AMENDED [PROPOSED] ORDER CERTIFYING PROVISIONAL SETTLEMENT CLASS, PRELIMINARILY APPROVING CLASS ACTION SETTLEMENT AND PROVIDING FOR NOTICE TO THE SETTLEMENT CLASS</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable Edward J. Davila United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">WHEREAS, a putative class action entitled <ital>Rose v. Bank of Am. Corp.</ital> is pending in this Court, Case No. 11-cv-02390 (the &#x201C;<ital>Rose</ital> Action&#x201D;);</paratext></para>
+<para><paratext ID="p2" level="1">WHEREAS, a putative class action entitled <ital>Duke v. Bank of Am., N.A.</ital>, is pending in this Court, Case No. 12-cv-04009 (the &#x201C;<ital>Duke</ital> Action&#x201D;);</paratext></para>
+<para><paratext ID="p3" level="1">WHEREAS, a putative class action entitled <ital>Ramirez v. Bank of Am., N.A.</ital>, is pending in the Southern District of California, Case No. 11-cv-02008 (the &#x201C;<ital>Ramirez</ital> Action&#x201D;);</paratext></para>
+<para><paratext ID="p4" level="1">WHEREAS, a putative class action entitled <ital>Johnson v. Bank of Am., N.A.</ital>, is pending in the Southern District of California, Case No. 11-cv-03040 (the &#x201C;<ital>Johnson</ital> Action&#x201D;);</paratext></para>
+<para><paratext ID="p5" level="1">WHEREAS, a putative class action entitled <ital>Makin v. Bank of Am., N.A.</ital>, is pending in the Southern District of California, Case No. 12-cv-01662 (the &#x201C;<ital>Makin</ital> Action&#x201D;);</paratext></para>
+<para><paratext ID="p6" level="1">WHEREAS, a putative class action entitled <ital>Bradshaw v. Bank of Am. Corp.</ital>, is pending in the Southern District of California, Case No. 13-cv-0431 (the &#x201C;<ital>Bradshaw</ital> Action&#x201D; and, collectively, the &#x201C;Actions&#x201D;);</paratext></para>
+<para><paratext ID="p7" level="1">WHEREAS, Plaintiffs Stephenie Rose, Sandra Ramirez, Shannon Johnson, Amin Makin, Carol Duke, Jack Poster, and Freddericka Bradshaw (collectively, &#x201C;Plaintiffs&#x201D;), and Bank of America Corporation (&#x201C;BAC&#x201D;), Bank of America, N.A. (&#x201C;BANA&#x201D;), and FIA Card Services, N.A. (&#x201C;FIA&#x201D;) (together, &#x201C;Bank of America&#x201D;) have agreed, subject to Court approval following notice to the proposed Settlement Class (as described in Paragraph 2 below) and a hearing, to settle this Action upon the terms and conditions set forth in the Settlement Agreement lodged with this Court;</paratext></para>
+<para><paratext ID="p8" level="1">WHEREAS, this Court has reviewed the Settlement Agreement, as well as the files, records, and proceedings to date in this matter;</paratext></para>
+<para><paratext ID="p9" level="1">WHEREAS, for purposes of this Order, capitalized terms used below shall have the meaning ascribed to them in the settlement agreement, unless otherwise defined; and</paratext></para>
+<para><paratext ID="p10" level="1">WHEREAS, for purposes of the Actions, this Court has subject matter and personal jurisdiction over the parties, including all Settlement Class Members.</paratext></para>
+<para><paratext ID="p11" level="1">NOW, THEREFORE, based on this Court's review of the Settlement Agreement and all of the files, records, and proceedings herein, the Court concludes, upon preliminary examination, that the Settlement is fair, reasonable, and adequate, and within the range of reasonableness for preliminary settlement approval.</paratext></para>
+<para><paratext ID="p12" level="1">IT IS HEREBY ORDERED THAT:</paratext></para>
+</section.body>
+<head><headtext align="center">1. <underscore>Preliminary Approval of Proposed Settlement</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">The Settlement Agreement, including all exhibits thereto, is preliminarily approved as fair, reasonable, and adequate and within the range of reasonableness for preliminary settlement approval. The Court finds that: (a) the Settlement Agreement resulted from extensive arm's length negotiations; and (b) the Settlement Agreement is sufficient to warrant notice of the Settlement to persons in the Settlement Class and to warrant a full hearing on final approval of the Settlement.</paratext></para>
+</section.body>
+<head><headtext align="center">2. <underscore>Class Certification for Settlement Purposes Only</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">Pursuant to Federal Rule of Civil Procedure 23(c), the Court conditionally certifies, for settlement purposes only, the following Settlement Class: All persons within the United States who:</paratext>
+<para><paratext ID="p15" first-line="2" turnover="hanging">a. between August 30, 2007 and January 31, 2013, received a non-emergency, default servicing telephone call from Bank of America regarding a Bank of America Residential Mortgage Loan Account to a cellular telephone through the use of an automatic telephone dialing system and/or an artificial or prerecorded voice (&#x201C;Mortgage Calls&#x201D;);</paratext></para>
+<para><paratext ID="p16" first-line="2" turnover="hanging">b. between May 16, 2007 and January 31, 2013, received a non-emergency, default servicing telephone call from Bank of America regarding a Bank of America Credit Card Account to a cellular telephone through the use of an automatic telephone dialing system and/or an artificial or prerecorded voice (&#x201C;Credit Card Calls&#x201D;). This excludes those persons that received a text message between May 16, 2007 and January 31, 2013 that did not also receive a telephone call to their cellular phone through the use of an automatic telephone dialing system and/or an artificial or prerecorded voice; and</paratext></para>
+<para><paratext ID="p17" first-line="2" turnover="hanging">c. between February 22, 2009 and December 31, 2010, received a non- emergency, default servicing text message from Bank of America regarding a Bank of America Credit Card Account to a cellular telephone through the use of an automatic telephone dialing system and/or an artificial or prerecorded voice (&#x201C;Credit Card Texts&#x201D;). This excludes those identified individuals that are included in subparagraph (b), above.</paratext></para>
+<paratext ID="p18" contd-flag="y">Excluded from the Class are Bank of America; its parent companies, affiliates or subsidiaries, or any employees thereof, and any entities in which any of such companies has a controlling interest; the judge or magistrate judge to whom any of the Actions are assigned; and, any member of those judges' staffs and immediate families.</paratext></para>
+<para><paratext ID="p19" level="1">3. In connection with this conditional certification, the Court makes the following preliminary findings:</paratext>
+<para><paratext ID="p20" first-line="2" turnover="0">a. The Settlement Class appears to be so numerous that joinder of all members is impracticable;</paratext></para>
+<para><paratext ID="p21" first-line="2" turnover="0">b. There appear to be questions of law or fact common to the Settlement Class for purposes of determining whether this settlement should be approved;</paratext></para>
+<para><paratext ID="p22" first-line="2" turnover="0">c. Plaintiffs' claims appear to be typical of the claims being resolved through the proposed settlement;</paratext></para>
+<para><paratext ID="p23" first-line="2" turnover="0">d. Plaintiffs appear to be capable of fairly and adequately protecting the interests of all members of the Settlement Class in connection with the proposed settlement;</paratext></para>
+<para><paratext ID="p24" first-line="2" turnover="0">e. For purposes of determining whether the Settlement Agreement is fair, reasonable, and adequate, common questions of law and fact appear to predominate over questions affecting only individual persons in the Settlement Subclasses. Accordingly, the Settlement Class appears to be sufficiently cohesive to warrant settlement by representation; and</paratext></para>
+<para><paratext ID="p25" first-line="2" turnover="0">f. For purposes of settlement, certification of the Settlement Class appears to be superior to other available methods for the fair and efficient settlement of the claims of the Settlement Class.</paratext></para>
+</para>
+</section.body>
+<head><headtext align="center">4. <underscore>Class Representatives</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p26" level="1">Plaintiffs are designated as class representatives.</paratext></para>
+</section.body>
+<head><headtext align="center">5. <underscore>Class Counsel</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p27" level="1">The Court appoints Law Offices of Douglas J. Campion; Lieff Cabraser Heimann &#38; Bernstein, LLP; Meyer Wilson Co., LPA; Terrell Marshall Daudt &#38; Willie PLLC; Ankcorn Law Firm, PC; Hyde &#38; Swigart; Kazerounian Law Group, APC; Burke Law Offices, LLC; Saeed &#38; Little LLP; Law Offices of Daniel G. Shay; and Law Offices of Steven E. Kaftal as Class Counsel. The Court finds that counsel is competent and capable of exercising all responsibilities as Class Counsel for the Settlement Class.</paratext></para>
+</section.body>
+<head><headtext align="center">6. <underscore>Settlement Hearing</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p28" level="1">A final approval hearing (the &#x201C;Settlement Hearing&#x201D;) shall be held before the Honorable Edward J. Davila, Courtroom 4, 5<super style="percent_r">th</super> Floor, on April 4, 2014, at 9:00 a.m., as set forth in the notice to the Settlement Class (described in Paragraph 7 below), to determine whether the Settlement is fair, reasonable, and adequate and should be approved. Papers in support of final approval of the Settlement, the incentive award to Plaintiffs, and Class Counsel's application for an award of attorneys' fees, costs, and expenses (the &#x201C;Fee Application&#x201D;) shall be filed with the Court according to the schedule set forth in Paragraph 14 below. The Settlement Hearing may be postponed, adjourned, or continued by order of the Court without further notice to the Settlement Class. After the Settlement Hearing, the Court may enter a settlement order and final judgment in accordance with the Settlement Agreement that will adjudicate the rights of the Settlement Class Members with respect to the Released Claims being settled.</paratext></para>
+</section.body>
+<head><headtext align="center">7. <underscore>Class Notice</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p29" level="1">Class Notice shall be sent within fifteen (15) days following entry of this Order.</paratext></para>
+<para><paratext ID="p30" first-line="2" turnover="0">a. <underscore>E-mail or Mail Notice</underscore>. The Claims Administrator shall provide individual notice via either electronic mail or direct mail for all persons in the Settlement Class for which Bank of America has contact information. For class members whose email addresses are unavailable, the Claims Administrator shall use the Notice Database to obtain such Class Members' last known mailing address. The Claims Administrator shall use the National Change of Address Database and other industry-standard databases to update the mailing addresses in the Notice Database. Any Notices that are returned as non-deliverable with a forwarding address shall promptly be re-mailed by the Claims Administrator to such forwarding address. Skip tracing shall be performed for all returned electronic and direct mail. All costs of skip tracing will be deducted from the Settlement Fund.</paratext></para>
+<para><paratext ID="p31" first-line="2" turnover="0">b. <underscore>Publication Notice</underscore>. No later than the Settlement Notice Date, the Claims Administrator shall cause the Publication Notice to be published on a nationwide basis and to be published on the Settlement Website on the same date, and retained on the website thereafter.</paratext></para>
+<para><paratext ID="p32" first-line="2" turnover="0">c. <underscore>Question and Answer Form Notice</underscore>. The Claims Administrator shall also post on the website a formal Question and Answer Notice which shall set forth in a question and answer format the details of the settlement, and the rights of Class Members to participate in the Settlement, exclude themselves or object to the settlement.</paratext></para>
+<para><paratext ID="p33" first-line="2" turnover="0">d. <underscore>Website Notice</underscore>. By the Settlement Notice Date, the Claims Administrator shall maintain and administer a dedicated Settlement Website containing class information and related documents, along with information necessary to file a claim, and an electronic version of the Claim Form members can download, complete and submit electronically. At a minimum, such documents shall include the Settlement Agreement and Exhibits, the Settlement Notice, the Q &#38; A Form Notice, the Preliminary Approval Order, a downloadable Claim Form for anyone wanting to print a hard copy and mail in the Claim Form, the operative complaints in the Actions, and when filed, the Final Approval Order.</paratext></para>
+<para><paratext ID="p34" first-line="2" turnover="0">e. <underscore>Toll Free Telephone Number</underscore>. Within ten (10) days of Preliminary Approval, the Claims Administrator shall set up a toll-free telephone number for receiving toll-free calls related to the settlement. That telephone number shall be maintained until thirty (30) days after the Claims Deadline. After that time, and for a period of 90 days thereafter, a recording will advise any caller to the toll-free telephone number that the Claims Deadline has passed and the details regarding the settlement may be reviewed on the related Settlement Website.</paratext></para>
+</section.body>
+<head><headtext align="center">8. <underscore>Findings Concerning Class Notice</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p35" level="1">The Court finds that the foregoing program of Class Notice and the manner of its dissemination is the best practicable notice under the circumstances and is reasonably calculated to apprise the Settlement Class of the pendency of this Action and their right to object to or exclude themselves from the Settlement Class. The Court further finds that the Class Notice program is reasonable, that it constitutes due, adequate, and sufficient notice to all persons entitled to receive notice and that it meets the requirements of due process and Federal Rule of Civil Procedure 23.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">9. <underscore>Settlement Administration</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p36" level="1">The Claim Form, Detailed Notice, and the claims submission process described in the Declaration of Cameron Azari, filed November 18, 2013, are hereby approved. In addition, the Court confirms that it is appropriate for Bank of America to provide the information necessary to provide the notice contemplated herein and to administer the settlement, including names, addresses, and account information.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">10. <underscore>Exclusion from the Settlement Class</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p37" first-line="2" turnover="0">a. Settlement Class Members may opt out of the Settlement by sending a written request to the Settlement Administrator at the address designated in the Class Notice by the Opt-Out Deadline, which is ninety (90) days from the Settlement Notice Date.</paratext></para>
+<para><paratext ID="p38" first-line="2" turnover="0">b. Exclusion requests must state the Class Member's full name, address, and telephone number. Further, the Class Member must include a statement in the written request for exclusion that he or she wishes to be excluded from the settlement. Any Class Member who submits a valid and timely request for exclusion shall not be bound by the terms of the Settlement.</paratext></para>
+<para><paratext ID="p39" first-line="2" turnover="0">c. In the event that the number of valid opt-out requests exceeds 3,000 or more persons, Bank of America, in its sole discretion, may terminate the Settlement within ten (10) calendar days after the Opt-Out deadline. In the event that the Settlement is terminated pursuant to this provision, the Parties will be returned to the <ital>status quo ante</ital> as if no settlement had been negotiated or entered into.</paratext></para>
+<para><paratext ID="p40" level="1">All Settlement Class Members who do not opt out in accordance with the terms set forth herein will be bound by all determinations and judgments in the Actions.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">11. <underscore>Objections to the Settlement</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p41" first-line="2" turnover="0">a. <underscore>Right to Object</underscore>. Any Settlement Class Member who has not previously opted out in accordance with the terms of this Agreement may appear at the Final Approval Hearing to object to the proposed settlement and/or to the application of Class Counsel for an award of attorneys' fees and costs and/or the incentive awards, but only if the Settlement Class Member has first filed a written objection with the Clerk of Court, in accordance with the &#x201C;Objection Requirements&#x201D; set forth below, by the Objection Deadline, which is ninety (90) days from the Settlement Notice Date. Any Settlement Class Member who does not provide a written objection in the manner described below shall be deemed to have waived any objection and shall forever be foreclosed from making any objection to the fairness, reasonableness, or adequacy of the proposed Settlement, the plan of allocation, or the award of any attorney fees and/or service awards.</paratext></para>
+<para><paratext ID="p42" first-line="2" turnover="0">b. <underscore>Objection Requirements</underscore>. In the written objection, the Settlement Class Member must state his or her full name, address, and telephone number, the reasons for his or her objection, and whether he or she intends to appear at the fairness hearing on his or her own behalf or through counsel. Any documents supporting the objection must also be attached to the Objection.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">12. <underscore>No Admission of Liability</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p43" level="1">Neither the Settlement, nor any act performed or document executed pursuant to or in furtherance of the Settlement, is or may be deemed to be or may be used as an admission of the alleged claims in the operative complaints.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">13. <underscore>Stay/Bar of Other Proceedings</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p44" level="1">All proceedings in this Action are stayed until further order of the Court, except as may be necessary to implement the terms of the settlement. Pending final determination of whether the Settlement should be approved, Plaintiffs, all persons in the Settlement Class and persons purporting to act on their behalf are enjoined from commencing or prosecuting (either directly, representatively or in any other capacity) against any of the Released Parties any action, arbitration or proceeding in any court, arbitration forum or tribunal asserting any of the Released Claims.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">14. <underscore>Schedule of Future Events</underscore>.</headtext></head>
+<section.body>
+<para><paratext ID="p45" level="1">Further settlement proceedings in this matter shall proceed according to the following schedule:</paratext></para>
+<para><paratext ID="p46" first-line="2" turnover="hanging">a. Within 15 days of entry of this Order: Deadline to provide Class Notice;</paratext></para>
+<para><paratext ID="p47" first-line="2" turnover="hanging">b. 90 days after the Class Notice Date: Last day to Object or Opt-Out;</paratext></para>
+<para><paratext ID="p48" first-line="2" turnover="hanging">c. 90 days after the Class Notice Date: Last day to submit a Claim; and</paratext></para>
+<para><paratext ID="p49" first-line="2" turnover="hanging">d. April 4, 2014 at 9:00 a.m.: Final Approval Hearing.</paratext></para>
+<para><paratext ID="p50" level="1">IT IS SO ORDERED. Dated: December 6, 2013</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

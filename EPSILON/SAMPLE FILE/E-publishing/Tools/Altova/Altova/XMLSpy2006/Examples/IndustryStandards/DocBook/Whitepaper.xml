@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Alexander Falk (Altova, Inc.) -->
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+               "http://www.altova.com/schemas/docbook/docbookx.dtd" [
+	<!ENTITY xmlspy "<emphasis><trademark>xmlspy</trademark> 5</emphasis>">
+	<!ENTITY xmlspy_home "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Home Edition">
+	<!ENTITY xmlspy_pro "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Professional Edition">
+	<!ENTITY xmlspy_enterprise "<emphasis><trademark>xmlspy</trademark> 5</emphasis> Enterprise Edition">
+	<!ENTITY stylevision "<emphasis><trademark>stylevision</trademark> 5</emphasis>">
+	<!ENTITY authentic "<emphasis><trademark>authentic</trademark> 5</emphasis>">
+	<!ENTITY authentic_desktop "<emphasis><trademark>authentic</trademark> 5</emphasis> Desktop Edition">
+	<!ENTITY authentic_browser "<emphasis><trademark>authentic</trademark> 5</emphasis> Browser Edition">
+	<!ENTITY authentic_eforms "<emphasis><trademark>authentic</trademark> 5</emphasis> eForms Edition">
+]>
+<?altova_sps http://www.altova.com/sps/template/publishing/DocBook.sps?>
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/stylesheets/docbook/xhtml/docbook.xsl"?>
+<article>
+	<title/>
+	<articleinfo>
+		<graphic fileref="final-graphics\altova_right_300.bmp"/>
+		<title>Document Framework</title>
+		<subtitle>Unifying XML Content Management and Database Systems for the Internet</subtitle>
+		<author>
+			<firstname>Larry</firstname>
+			<surname>Kim</surname>
+			<affiliation>
+				<jobtitle>Marketing Director</jobtitle>
+				<orgname>Altova, Inc.</orgname>
+			</affiliation>
+		</author>
+		<address>
+			<affiliation>
+				<orgname>Altova, Inc.</orgname>
+			</affiliation>
+			<street>900 Cummings Center, Suite 314T</street>
+			<city>Beverly</city>
+			<state>MA</state>
+			<postcode>01915-6181</postcode>
+			<country>USA</country>
+			<phone>978-816-1600</phone>
+			<fax>978-816-1606</fax>
+			<email>us-office@altova.com</email>
+		</address>
+	</articleinfo>
+	<tocchap>
+		<tocentry>Table of Contents</tocentry>
+		<toclevel1>
+			<tocentry>Executive Summary	</tocentry>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>History of Content Management</tocentry>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>Requirements for Effectively Managing Content</tocentry>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>Document Frameworks</tocentry>
+			<toclevel2>
+				<tocentry>XML Schema</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>WebDAV</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>XSL/XSLT</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>Unicode</tocentry>
+			</toclevel2>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>Document Framework Design – Advanced XML Application Development</tocentry>
+			<toclevel2>
+				<tocentry>Schema Modeling</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>Data Flow &amp; Process Modeling</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>Transformation Modeling</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>Implementation</tocentry>
+			</toclevel2>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>&xmlspy_enterprise;</tocentry>
+			<toclevel2>
+				<tocentry>&xmlspy;</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>&authentic;</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>&stylevision;</tocentry>
+			</toclevel2>
+			<toclevel2>
+				<tocentry>Document Framework Deployments</tocentry>
+			</toclevel2>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>Online Demonstration of a Document Framework</tocentry>
+		</toclevel1>
+		<toclevel1>
+			<tocentry>About Altova</tocentry>
+		</toclevel1>
+	</tocchap>
+	<sect1>
+		<title>Executive Summary</title>
+		<para>Companies are spending millions of dollars each year to improve corporate IT software infrastructure with the hopes of gaining competitive advantages through enhanced customer service, reduced costs, and integrated business systems.  A recent focus of corporate IT spending has been in automating transaction processing capabilities and providing enhanced web-based user interfaces - regrettably, less focus has been placed on the more informal, but equally critical task of streamlining knowledge gathering &amp; content management processes.</para>
+		<para>Industry movement towards developing comprehensive enterprise information management systems is currently one of the most active technology trends in today’s economy, and XML has been clearly identified as the key technology to enable such systems.  This document discusses the challenges, benefits, and other important considerations to address when developing document frameworks, a concept referring to providing universal access to information stored in any underlying database or proprietary content management system throughout a corporation.  The &xmlspy_enterprise; is presented as a case-study on developing loosely-coupled, distributed XML content management systems based on open industry standards: XML Schema, XSLT, WebDAV and Unicode.</para>
+		<para>The benefits of implementing corporate-wide document frameworks include reduced costs in creating, maintaining, and distributing information to clients across a variety of different media, and superior retrieval and sharing of business-critical information. </para>
+		<para>Especially in today’s difficult economic climate, the success of corporations will be largely a function of their abilities to cost-effectively capture, manage, publish and exchange its information assets, internally as well as externally, with customers and partners. Document frameworks are ideally suited for this task, because they provide a unique combination of leveraging existing database systems, present developer know-how, and open standards to produce a content and knowledge management solution tailored to the very needs of the enterprise, which results in a very low TCO (total cost of ownership).</para>
+	</sect1>
+	<sect1>
+		<title>History of Content Management</title>
+		<para>The past decade has introduced a multitude of new media for delivering content to customers and partners.  The Web, wireless devices, web-services, e-books, DVD’s, print – and still new medias being developed every year – they each require a process for creating, updating and delivering information to the customer.</para>
+		<para>In most organizations, corporate knowledge is scattered across personal computers and a variety of server products including relational databases, XML repositories, and proprietary content management systems, all in their respective underlying file formats.  Corporations have a great deal of resources invested in existing database systems, and are only willing to adopt technologies which would be compatible with existing investments.</para>
+		<para>The above mentioned challenges can have potentially devastating effects on corporate productivity.  There is often no meaningful way of searching and retrieving information, resulting in loss of information, as well as duplicated efforts when creating new content.  Because multiple copies of similar data are located across the network, it is difficult to synchronize the maintenance of content, resulting in outdated or erroneous data.</para>
+		<para>In an attempt to develop solutions to address the problems of managing content, many companies have resorted to purchasing costly proprietary document management systems that are unable to access the vast majority of enterprise data currently stored in database records.</para>
+		<para>New standards-based technologies have emerged in recent years which can finally address the problems of creating and maintaining XML content while dramatically reducing costs; these technologies are collectively referred to as document frameworks.</para>
+	</sect1>
+	<sect1>
+		<title>
+		Requirements for Effectively Managing Content
+	</title>
+		<para>Any system seeking to address the challenges of managing information across a corporation must address four key requirements.</para>
+		<orderedlist>
+			<listitem>
+				<para>
+					<emphasis>Creating new content</emphasis>:  The system must provide the facilities for authors to create content.  The content authors must not be exposed to the underlying technical implementation of the system.</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Organizing &amp; Integrating content</emphasis>: The system must provide saving capabilities to any underlying storage facility – Relational Database, XML Repository or proprietary Content Management System.  The system must also support concurrent editing and updating of documents, including versioning and source control options.  Finally, the system must provide content access control functionality to insure that different users have different privileges when working with content.</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Intelligently retrieving content</emphasis>: Different database and content management systems are optimized for certain types of information retrieval.  Consider the differences between a keyword search-engine, versus a hierarchical yellow-pages directory listing – both searching methods have relative strengths and weaknesses, thus, the system must support all enhanced content retrieval mechanisms, preserving both the context and structure of the data.</para>
+			</listitem>
+			<listitem>
+				<para>
+					<emphasis>Transforming content</emphasis>: Must provide the visual tools required to easily design input-templates used to collect information, as well as the output stylesheets used to transform content to any output format (print, web, wireless, DVD’s, etc.)</para>
+			</listitem>
+		</orderedlist>
+		<para/>
+		<para/>
+		<para/>
+	</sect1>
+	<sect1>
+		<title>
+		Document Frameworks
+	</title>
+		<para>A document framework is a collection software products and components used for developing loosely-coupled systems which manage corporate content for over the Internet.  XML, XSLT, WebDAV and Unicode are the technological foundation of a document framework.</para>
+		<sect2>
+			<title>XML Schema</title>
+			<para>XML schema is the World Wide Web Consortium’s (W3C) official data definition language; it addresses many shortcomings associated with Document Type Definitions (DTD), and has industry support from all major software corporations (Microsoft, Oracle, Software AG, Altova, etc).</para>
+			<para>XML Schemas serve a critical role in the management of content because it can act as an intermediate translation bridge between databases and software objects.  Specifically, the XML Schema’s object-oriented features allows for mapping between XML documents and objects written in any object-oriented programming language.  XML Schema also preserves data-type information and parent/child relationships, which allows for mapping of XML documents to any underlying data store.  </para>
+			<figure>
+				<title>XML Schemas enable translations from Objects to XML Documents, and from XML Documents to databases (and vice-versa).</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_1_schema.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</sect2>
+		<sect2>
+			<title>WebDAV</title>
+			<para>WebDAV stands for Web-based Distributed Authoring and Versioning.  It is a standardized set of extensions to the HTTP protocol - the core of the World Wide Web - which allows users to collaboratively edit and manage files on remote web-servers.</para>
+			<para>WebDAV has been steadily gaining industry adoption from top software vendors (Microsoft, Oracle, Software AG, etc), with implementations making their way into popular browsers, editors and servers.  WebDAV is poised to transform how users interact with what is currently for the most-part a read-only World Wide Web.  Whereas the Internet historically has been limited to display and download capabilities, WebDAV embedded in software and systems promises to turn the Internet into a writeable medium capable of supporting collaboration and distributed file sharing.</para>
+			<para>The protocol, which was developed by the Internet Engineering Task Force (IETF) standards process, has features that include locking and unlocking capabilities to prevent the overwriting of changes, versioning control, and Secure Sockets Layer (SSL) support to ensure proper security.</para>
+			<para>The &xmlspy_enterprise; implements the WebDAV repository interface to ensure compatibility with a wide range of server products, including Oracle 9i, Microsoft SQL Server 2000, Software AG Tamino Server, Global XML’s GoXML Server, and many others.  WebDAV technologies effectively enable companies to break free of an age-old vendor-lock-in trap employed by many proprietary XML content management systems requiring that customers purchase both the content creation tools and back-end server products from the same vendor.  Using the &authentic_browser;, content authors can collaboratively create &amp; edit information stored in any WebDAV repository on the Internet, as illustrated below:</para>
+			<figure>
+				<title>Using WebDAV, content authors have distributed access to virtually any underlying database or content management system.</title>
+				<graphic/>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_2_webdav.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</sect2>
+		<sect2>
+			<title>XSL/XSLT</title>
+			<para>The eXtensible Stylesheet Language (XSL) and the eXtensible Stylesheet Language Transformations (XSLT) are standardized languages for transforming XML documents to a different output form. Using XSL, content saved in an XML format can be transformed into any output media, by applying an XSLT stylesheet.</para>
+			<para>The eXtensible Stylesheet Language also includes a sub-section known as XSL:FO, which stands for Formatting Objects.  XSL:FO is an XML-based language for expressing production-quality document layouts, employed by many popular formats including PDF and PostScript files.</para>
+			<figure>
+				<title>Transforming XML to a variety of output formats using XSLT.</title>
+				<graphic/>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_3_xslt.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</sect2>
+		<sect2>
+			<title>Unicode</title>
+			<para>Unicode is a character encoding which provides a unique number for every character, regardless of the platform, program or language you are using.  This is of critical importance in promoting interoperability in today’s global economy. The Unicode standard has been adopted by all major software companies, including Altova.  XML Spy has fully supported Unicode from day one, which includes complete character sets for over 170 languages in 39 different scripts (or writing systems) such as Arabic, Hebrew, Chinese, Japanese, and Korean.  Many content management systems or SGML-era legacy applications do not support Unicode, or, claim that they will support Unicode as a “new” feature; this has resulted in failed attempts to internationalize business systems.</para>
+		</sect2>
+	</sect1>
+	<sect1>
+		<title>Document Framework Design – Advanced XML Application Development</title>
+		<para>The document framework design process is referred to as <emphasis>Advanced XML Application Development</emphasis> (<acronym>AXAD</acronym>) – it is an XML-centric design methodology which can be used for building document framework applications across any industry.  It is a simple four-step process.</para>
+		<sect2>
+			<title>Schema Modeling</title>
+			<para>XML Documents require a content model, commonly expressed in the form of the W3C’s XML Schema.  Developing an XML Schema is an iterative process which involves initial requirements analysis, use-cases, as well as examination of existing data schemas.  Once the XML Schemas are designed, additional refinements are required to map all of the elements of your XML Schema to an underlying database (relational or XML-based) or content management system.</para>
+		</sect2>
+		<sect2>
+			<title>Data Flow &amp; Process Modeling</title>
+			<para>In every document framework deployment, there are always content authors and content consumers.  Content authors are non-technical domain experts whose primary task is to create content on any subject.  Content consumers are typically customers, partners or internal departments who make use of XML content.  The flow of information gathered by a document framework must be modeled – who is the content author? What is the underlying data store? How is the information being transported to the database? These issues must all be addressed in this stage.</para>
+			<para>Transformation Modeling </para>
+			<para>XSLT has a two-fold critical role in designing a document framework; it is required to design both the input templates that are used by content creators, and the output stylesheets that are required by the content consumers.  If the desired output is a printed document (e.g. PDF or PostScript file), then XSL:FO must be employed.  The developer must design the XSLT stylesheets to fit the data flow and process model determined earlier.</para>
+		</sect2>
+		<sect2>
+			<title>Implementation</title>
+			<para>The business logic and user-interface of a document framework application must be custom developed.  Since the components of a document framework consists of loosely coupled, lightweight components adhering to standard interfaces, a document framework can easily be implemented using any of the leading Internet application development platforms including Java 2 Enterprise Edition, Microsoft .NET, Web-Services, Oracle Application Server, or any other platform.  Free XML processing Application Programmer Interfaces (API’s) are available for all programming languages, thus, document frameworks can be implemented in Java, C#, C++, JavaScript, Perl, etc.</para>
+		</sect2>
+	</sect1>
+	<sect1>
+		<title>&xmlspy_enterprise;</title>
+		<para>The XML Spy Suite is the ultimate software development tools suite for Advanced XML Application Development!  The &xmlspy_enterprise; consists of the &xmlspy;, the &stylevision;, and the &authentic;.</para>
+		<figure>
+			<title>The ALTOVA product line.</title>
+			<graphic/>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="final-graphics\figure_4_suite.bmp"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+		<table>
+			<title>Product/Feature Matrix</title>
+			<tgroup cols="8">
+				<colspec colnum="1" colname="spycolgen1" colwidth="*"/>
+				<colspec colnum="2" colname="spycolgen2" colwidth="*"/>
+				<colspec colnum="3" colname="spycolgen3" colwidth="*"/>
+				<colspec colnum="4" colname="spycolgen4" colwidth="*"/>
+				<colspec colnum="5" colname="spycolgen5" colwidth="*"/>
+				<colspec colnum="6" colname="spycolgen6" colwidth="*"/>
+				<colspec colnum="7" colname="spycolgen7" colwidth="*"/>
+				<colspec colnum="8" colname="spycolgen8" colwidth="*"/>
+				<thead>
+					<row>
+						<entry>Feature</entry>
+						<entry>&xmlspy_enterprise;</entry>
+						<entry>&xmlspy_pro;</entry>
+						<entry>&xmlspy_home;</entry>
+						<entry>&stylevision;</entry>
+						<entry>&authentic_desktop;</entry>
+						<entry>&authentic_browser;</entry>
+						<entry>&authentic_eforms;</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>Well-formedness checking</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+					</row>
+					<row>
+						<entry>Validation (DTD &amp; schema-based)</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+					</row>
+					<row>
+						<entry>Intelligent Editing (DTD/Schema based entry-help)</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+					</row>
+					<row>
+						<entry>Text View with syntax-coloring</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>Code-completion &amp; syntax-help</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>Pretty-printing of XML files</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>Enhanced Grid &amp; Table View</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>Browser View (HTML/XHTML Preview)</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry/>
+						<entry/>
+					</row>
+					<row>
+						<entry>eForms Editing View*</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+					</row>
+					<row>
+						<entry>Authentic Document Editing View*</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+					</row>
+					<row>
+						<entry>CALS/HTML Table Support</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+					</row>
+					<row>
+						<entry>Spell-Checking</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry>&bull;</entry>
+						<entry/>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+		<sect2>
+			<title>&xmlspy;</title>
+			<para>The &xmlspy_pro; is the world's first and leading IDE for XML. In this section, we highlight several features which are used throughout the Advanced XML Application Development process to assist with implementing document frameworks: XML Schema editing, XSL/XSLT editing, and web-services testing &amp; debugging.</para>
+			<para>The &xmlspy; includes an XML Schema editor, which can be employed for schema modeling – the first step in designing a document framework.  The &xmlspy_pro; includes a full-featured graphical XML schema editor which supports many automatic XML Schema generation capabilities, which greatly accelerate the schema modeling process; some of the possibilities are listed below:</para>
+			<orderedlist>
+				<listitem>
+					<para>The &xmlspy; can inspect one or more XML instance documents – typically these will be use-cases – and automatically infer the underlying XML Schema.</para>
+				</listitem>
+				<listitem>
+					<para>The &xmlspy; can connect to any relational database (through ODBC or ADO) and automatically generate the corresponding XML Schema, preserving data-type information, relationships, and other data restrictions.</para>
+				</listitem>
+				<listitem>
+					<para>The &xmlspy; can convert older content models (DTD, DCD, or BizTalk Schema) to the most current official W3C XML Schema final recommendation.</para>
+				</listitem>
+			</orderedlist>
+			<para>Further refinements can easily be applied to an XML Schema, using &xmlspy_pro;’s schema editor, which supports graphical editing of XML schemas.   The &xmlspy;’s schema editor is the only tool to support XML schema-to-database mapping tools through the use of various 3rd party XML Schema extensions – including Oracle 9i XDB and Microsoft SQL Server 2000 XML Schema Extensions.</para>
+			<figure>
+				<title>The &xmlspy;’s schema editor allows for easy visual representation of complex elements.</title>
+				<graphic/>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_5_schema_element.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+			<para>The &xmlspy; contains many features to support <emphasis>transformation modeling</emphasis> – the third step in developing document frameworks.  To assist with the development of XSLT stylesheets, the &xmlspy; supports single-click transformations, graphical XPath query generation and visualization, syntax help &amp; code-completion for all XSL elements &amp; attributes, support for XSL:FO to generate and preview popular output file types (PDF, PostScript, etc), and much more.</para>
+			<para>The &xmlspy_pro; supports the development, testing &amp; debugging of web-services.  <emphasis>Data Flow &amp; Process Modeling</emphasis> of sophisticated document frameworks could potentially include web-services as a key mechanism to expose document frameworks to partners and customers.</para>
+		</sect2>
+		<sect2>
+			<title>&authentic;</title>
+			<para>The &authentic; is a light-weight editor used to create XML content in a document framework system.  It is an innovative new visual approach to writing XML documents, exposing the end user with a word-processor-like interface, and not the complicated underlying XML syntax.  Using the &authentic;, information gathered by employees across the company is immediately saved to an underlying XML format, ensuring that information is valid and does not become lost or un-usable. The XML content can be saved to an underlying database or content management system, to be reused and repurposed for any reason at a later time.</para>
+			<para>The &authentic; can be deployed in a document framework as a stand-alone desk-top application or browser plug-in. The decision concerning which product-variation to use is determined through Data Flow &amp; Process Modeling, which is the second step outlined in the Advanced XML Application Development process.  As a guideline, if content authors will always be located within the company network, then the &authentic; can be deployed as a desk-top application – however, in today’s global economy, it is often the case that content authors are located anywhere across the Internet, and as such, require easy Internet access to the document framework system.  In this case, The &authentic_browser; is a unique solution that allows live XML content editing from a web-browser.  The &authentic_browser; is self-installing (similar to a Macromedia Flash, or Apple QuickTime plug-in), which dramatically eases deployment and reduces total cost of ownership; it is the only browser-based solution for rich-content editing currently offered in the industry.</para>
+			<figure>
+				<title>The &authentic; is shown above; it supports word processor like free-flow WYSIWYG text editing, form-based data input, graphical elements, presentation and editing of arbitrary repeating XML elements as tables, real-time validation, and consistency checking using XML Schema. The document template in the above screenshot was created using the &stylevision;.</title>
+				<graphic/>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_6_editor.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+			<para>The &authentic; efficiently captures information as it is being created, preserving the context in which it was produced, and the relationships between it and other existing corporate data.  Through WebDAV, the &authentic; can integrate with any database or content management system.  The Document Editor provides integration with the leading XML databases, relational databases and content management systems.</para>
+		</sect2>
+		<sect2>
+			<title>&stylevision;</title>
+			<para>Writing even the most basic XSLT stylesheets by hand is a truly daunting task, requiring an understanding of XSL elements, the XPath query language, and complicated rules-based document processing models.  Yet, without the ability to transform and render your XML content to a desired output, the decision of adopting XML remains for the most part an academic exercise.</para>
+			<para>The &stylevision; automates writing of complex XSLT stylesheets through an intuitive, drag-and-drop user interface; it is ideal for use throughout the Transformation Modeling process, the third step outlined in the Advanced XML Application Development methodology.</para>
+			<para>Through a powerful GUI, a user can drag and drop XML data elements corresponding to an XML Schema or DTD (in the left window) into the main design window (the right window), adding descriptive text and presentation tags such as tables, hyperlinks and graphics. The resulting XSLT stylesheet is automatically generated and can be previewed by clicking on the browser-preview tab</para>
+			<figure>
+				<title>The &stylevision; main screen: Easy-to-use tool makes writing XSLT stylesheets simple.</title>
+				<graphic/>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_7_xslt_designer.004.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+			<para>The &stylevision; is a clear and easy to use tool.  Unlike complicated, proprietary content management systems, the intuitive user-interface allows any web-designer (even with little or no understanding of XSLT) to leverage existing skills and design advanced stylesheets. </para>
+		</sect2>
+		<sect2>
+			<title>Document Framework Deployments</title>
+			<para>The interactions between the &stylevision; and &authentic; in a document framework deployment are summarized below:</para>
+			<orderedlist>
+				<listitem>
+					<para>The &stylevision; is used to develop the rich dynamic forms and layouts which configure the &authentic;; it is also used to develop the presentation templates which transform XML into the desired output format. </para>
+				</listitem>
+				<listitem>
+					<para>The &authentic_browser; can be deployed to the web, enabling organizations employing teams of content authors, spanning multiple geographic locations to collaboratively create, retrieve and edit content over the Internet.</para>
+				</listitem>
+				<listitem>
+					<para>The XML data generated by the &authentic; is saved into a content management system or database as Microsoft SQL Server 2000, Oracle 9i, Global XML’s GoXML DB, or Software AG Tamino Server, where it can later be accessed by any web-browser, handheld device, web-service, or integrate directly with customers and suppliers. </para>
+				</listitem>
+			</orderedlist>
+			<para>The following figure illustrates the use of &xmlspy_enterprise; in implementing document frameworks throughout the enterprise.</para>
+			<figure>
+				<title>A document framework deployment based on the &xmlspy_enterprise;.  </title>
+				<graphic/>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="final-graphics\figure_8_enterprise.bmp"/>
+					</imageobject>
+				</mediaobject>
+			</figure>
+		</sect2>
+	</sect1>
+	<sect1>
+		<title>
+		Online Demonstration of a Document Framework
+	</title>
+		<para>Several sample document framework applications, complete with source code and documentation, are available online in our “NanoNull” example website at www.nanonull.com (requires Internet Explorer 5.5 or 6.0). The demonstration consists of content-rich electronic forms that were generated by the &stylevision;.  The forms are edited using the &authentic_browser; which will automatically install itself when you visit the website.  Notice that when editing a form, the tables will dynamically expand themselves, and a real-time XML Schema syntax checker will highlight any invalid data entries, and styles (such as italics or bold) will be preserved.  Upon completion, click on the save button, and the generated XML file will be e-mailed to you.  To start developing with XML Spy Suite, download a free evaluation copy at www.xmlspy.com !</para>
+		<figure>
+			<title>Sample Document Framework application implemented using &authentic_browser;.</title>
+			<graphic/>
+			<mediaobject>
+				<imageobject>
+					<imagedata fileref="final-graphics\figure_9_nanonull.003.bmp"/>
+				</imageobject>
+			</mediaobject>
+		</figure>
+	</sect1>
+	<sect1>
+		<title>
+		About Altova
+	</title>
+		<para>Altova produces and sells xmlspy 5 Enterprise Edition, the ultimate development tools suite for Advanced XML Application Development.  XML Spy is used by over 500,000 registered users, and is the leading choice of Fortune 500 and NASDAQ 100 companies.  Altova is a member of the W3C. </para>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="final-graphics\11th_productivity_winner.bmp"/>
+			</imageobject>
+		</mediaobject>
+		<para/>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="final-graphics\XML_Reader_Choice.bmp"/>
+			</imageobject>
+		</mediaobject>
+		<para/>
+		<mediaobject>
+			<imageobject>
+				<imagedata fileref="final-graphics\w3c_member.bmp"/>
+			</imageobject>
+		</mediaobject>
+	</sect1>
+</article>

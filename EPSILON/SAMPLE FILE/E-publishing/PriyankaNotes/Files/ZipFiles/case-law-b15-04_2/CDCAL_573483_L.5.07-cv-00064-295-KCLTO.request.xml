@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><ital>Hagan, et al.</ital></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><ital>Craigmyle Halter and Tack Mfg. Co., LLC, et al.</ital></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. EDCV 07-0064 ODW (OPx)</docket.line>
+<docket.number>EDCV 07-0064 ODW (OPx)</docket.number>
+<docket.line suppress-flag="y">5:07-cv-00064-ODW-OP</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/09/2010</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Raymond Neal, Deputy Clerk, Attorneys Present for Plaintiffs: Not present</attorney.line>
+<attorney.line first-line="1">Not Reported, Court Reporter / Recorder, Attorneys Present for Defendants: Not present</attorney.line>
+<attorney.line first-line="1">Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings (In Chambers): ORDER DENYING PLAINTIFF'S MOTION FOR AWARD OF ATTORNEYS' FEES AND COLLECTION COSTS WITHOUT PREJUDICE [275]</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable Otis D. Wright II, United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">The matter is before the Court on Plaintiffs Micheal H. Hagan and Craigmyle Halter Company, LLC's (collectively, &#x201C;Plaintiffs&#x201D;) Motion for Award of Attorneys' Fees and Collection Costs in the sum of <bold>$162,904.75</bold>. (Docket No. 275.) The Court deems the matter appropriate for decision without oral argument pursuant to Rule 78 of the Federal Rules of Civil Procedure (&#x201C;Rule ___&#x201D;) and Local Rule 7-15. After careful consideration of the parties' arguments and papers, the motion is denied.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I. <underscore>FACTUAL BACKGROUND</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">On January 17, 2007, Plaintiffs filed this action against Defendants Craigmyle Halters and Tack Manufacturing, Clyde Veltmann, and Diantha Veltmann (collectively, &#x201C;Defendants&#x201D;) for the collection of a promissory note dated August 3, 2006 in the principal sum of $100,000.00. (Hagan Decl., Exh. A at 26 [Promissory Note].)<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;<ital>See</ital> Docket No. 104.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p4" level="1">In May 2007, Plaintiff Hagan filed a motion for summary judgment against the Veltmanns on their personal guaranty of the promissory note. Hearing on the summary judgment motion was set for June 25, 2007. (Docket No. 44.) Prior to the Court's disposition of the summary judgment motion, on June 8, 2007, the Veltmanns filed for protection under Chapter 11 of the U.S. Bankruptcy Code, and the automatic stay under Section 362 went into effect. On June 27, 2007, the Court granted the motion. (Docket No. 56.)</paratext></para>
+<para><paratext ID="p5" level="1">On July 31, 2007, Plaintiff filed a motion for summary judgment against Defendant Craigmyle. Hearing for the motion was set for August 27, 2007. (Docket No. 62.) Prior to the Court's disposition of the motion, on August 26, 2007, Craigmyle filed for protection under Chapter 7 of the U.S. Bankruptcy Code, and Section 362 automatic stay went into effect. On September 4, 2007, the Court granted in part Plaintiffs' motion. (Docket No. 67.)</paratext></para>
+<para><paratext ID="p6" level="1">On October 29, 2007, judgment was entered in favor of Plaintiffs. (Docket No. 70.)</paratext></para>
+<para><paratext ID="p7" level="1">On February 11, 2008, the Court issued an amended judgment. (Docket No. 95.)</paratext></para>
+<para><paratext ID="p8" level="1">On February 14, 2008, Defendants filed a motion to set aside the summary judgments. (Docket No. 98.) In light of the July 7, 2008 ruling of the United States Bankruptcy Court for the District of New Mexico, the Court vacated its prior judgment in this matter on August 25, 2008. (Docket No. 144.)</paratext></para>
+<para><paratext ID="p9" level="1">The case proceeded to a two-phased trial beginning on July 7, 2009. (Docket Nos. 250, 251.) On October 14, 2009, the Court issued an order finding in favor of Plaintiffs on all counts. (Docket No. 272.)</paratext></para>
+<para><paratext ID="p10" level="1">Thereafter, on October 28, 2009, the Court issued a judgment finding Plaintiffs the prevailing parties in this matter. The Court also adjudged that Plaintiffs &#x201C;shall recover their costs and recoverable expenses and attorneys' fees upon application in accordance with Local Rule 54.&#x201D; (Docket No. 274.) Pursuant to this judgment, Plaintiffs filed the instant motion.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. <underscore>DISCUSSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">The contract at issue in this action entitles Plaintiffs to recover attorneys' fees and collection costs. Paragraph 23 provides as follows:</paratext>
+<para><paratext ID="p12" first-line="1" turnover="1">In the event of litigation involving this agreement, the prevailing party <ital>shall be entitled to an award of attorneys' fees and costs</ital> at trial and appellate levels.</paratext></para>
+<paratext ID="p13" contd-flag="y">(Hagan Decl., Exh. A [Asset Purchase Agreement at 7].)<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p14">&#8195;<underscore><ital>See</ital> Docket No. 104.</underscore></paratext></para></footnote.body></footnote>
+<para><paratext ID="p15" level="1">In the declaration of Plaintiff Hagan filed on February 25, 2008, he identified collection costs and attorneys' fees Plaintiffs had incurred through the filing of their first motion for attorneys' fees and collection costs, totaling $79,354.75 ($68,000 in attorneys' fees and $11,354.75 in other collection costs). (Hagan Decl. &#182; 6.)<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> Further, in the declaration of George Wallace, Plaintiffs' counsel, he identified additional attorneys' fees that have been incurred from February 2008 to the present totaling $83,550.00. (<ital>See</ital> Wallace Decl. &#182; 6.)<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference> Plaintiffs request an award of attorneys' fees and collection costs in the sum of $162,904.75. Having considered the matter, the Court denies the motion without prejudice for the reasons discussed below.</paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p16">&#8195;<ital>See</ital> id.</paratext></para></footnote.body></footnote>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p17">&#8195;Docket No. 277.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><ital><bold>A. Block Billing</bold></ital></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">Block billing is a billing method wherein the timekeeper enters the total daily time spent working on a case, rather than itemizing the time expended on specific tasks. <ital>Welch v. Metro. Life Ins. Co.</ital>, 480 F.3d 942, 945 n.2 (9th Cir. 2007). Because block billing makes it more difficult to determine how much time was spent on particular activities, it is common for courts to reduce hours billed in block format. <ital>See, e.g., Role Models Am., Inc. v. Brownlee</ital>, 353 F.3d 962, 973 (D.C. Cir. 2004) (reducing attorney hours by 50% due in part to counsel's practice of block billing); <ital>see also, Welch</ital>, 480 F.3d at 948 (permitting the district court to impose a 20% reduction for block billing).</paratext></para>
+<para><paratext ID="p19" level="1">Here, Plaintiffs' counsel engaged in block billing by entering the total <ital>monthly</ital> time expended on this action. (<ital>See</ital> Supp. Wallace Decl. &#182; 2.) This billing practice makes it difficult for the Court to evaluate whether the amount of fees requested is reasonable. Instead of reducing the fee award across the board due to block billing, Plaintiffs are ordered to submit more detailed billing entries that comport to the following guidelines: (1) All services rendered must be listed chronologically so that the Court can easily determine what services were rendered by all timekeepers on each day (counsel are not to submit separate billings by timekeeper or by firm); (2) Each entry must identify the timekeeper, the timekeeper's rate, the time spent for the particular services and the total amount billed for that entry (i.e., the rate multiplied by the time spent); and (3) The services rendered must be described in sufficient detail for the Court to evaluate the value of the services.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><ital><bold>B. Fees Incurred in Other Actions Related to this Case</bold></ital></headtext></head>
+<section.body>
+<para><paratext ID="p20" level="1">Defendants object to the total fee award requested by Plaintiffs on the basis that not all of the legal expenses described in the declarations were incurred in this action. Plaintiffs concede this point and admit that the fee request includes time expended in other actions pending before other jurisdictions, which Plaintiffs needed to pursue in order to collect on the promissory note and guaranties at issue in this action. (Reply at 3.) These related actions are: (1) the Veltmann's Chapter 11 case before the United States Bankruptcy Court for the District of New Mexico; (2) the Chapter 7 case filed by the Veltmann's Delaware limited liability company in the United States Bankruptcy Court for the District of New Mexico; and (3) the <ital>Stinebaugh v. Hagan, et al.</ital> case, Case No. CV 08-308, which is pending in the United States District Court for the District of New Mexico.</paratext></para>
+<para><paratext ID="p21" level="1">In their Reply, Plaintiffs argue that they are entitled to recover defense fees in <ital>Stinebaugh</ital> because that case is related to, and stems from, the instant action. (Reply at 4.) Plaintiffs explain that before their attempt to retrieve the collateral from Defendants pursuant to this Court's order, Defendants made an unauthorized bulk transfer of the collateral to Mr. John Stinebaugh and Frontera Embroidery. (<ital>Id.</ital>) Thereafter, Plaintiffs obtained a writ of possession from this Court to recover what could be found of that business inventory. (<ital>Id.</ital>) According to Plaintiff, Stinebaugh commenced a suit against Plaintiff Hagan alleging abuse of process with the assistance of the Veltmann's own attorney, Charles E. Hawthorne, in response to Plaintiffs' collection of the collateral. (<ital>Id.</ital>) Plaintiffs argue without any factual support that the <ital>Stinebaugh</ital> action was &#x201C;plainly instigated by the Veltmanns, for the purpose of interfering with and impeding [P]laintiffs'&#x201D; ability to pursue their claims, and therefore, the defense fees incurred in that action directly relate to Plaintiffs' collection on the debt. (<ital>Id.</ital>)</paratext></para>
+<para><paratext ID="p22" level="1">The Personal Guaranty executed by the Veltmanns unconditionally guaranty to Hagan &#x201C;all expenses of collection of the Note and enforcement of the Guaranty, including reasonable attorneys' fees.&#x201D; (Hagan Decl., Exh. A at 24 [Guaranty &#182; 1].) If the litigation expenses incurred by Plaintiffs in the other actions are related to the collection of the promissory note at issue in this action, Plaintiffs may recover fees incurred in these related actions. However, because Plaintiffs' attorney block billed his time entries, it is impossible for the Court to evaluate whether the time expended was reasonable. Further, because the description of the tasks is not sufficiently detailed, it is difficult to ascertain whether these tasks are related to the collection of the promissory note. Based on the foregoing, the Court orders Plaintiffs to cure the defects in the billing entries in accordance to the guidance discussed above.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><ital><bold>C. Other Issues</bold></ital></headtext></head>
+<section.body>
+<para><paratext ID="p23" level="1">Defendants assert that they should not be ordered to pay for fees incurred by Plaintiffs relating to the two summary judgment motions, both of which were ruled invalid because of the automatic bankruptcy stay. In Plaintiffs' Reply, they did not address Defendants' contention. The Court orders Plaintiffs to cure the defects in the billing entries and address the issue of whether it is entitled to recover fees relating to legal services rendered following the effectivity of the automatic stay.</paratext></para>
+<para><paratext ID="p24" level="1">Defendants object to the Plaintiffs' request to recover costs relating to the transportation of two horses in the sum of $2,540. (Hagan Decl. &#182; 6.) Defendants argue that there was no specific order allowing Plaintiffs to transport these horses for the purpose of executing the Court's judgment. (Opp'n at 4-5.) Moreover, Defendants note that Plaintiff Hagan and their attorney, Wallace, were charged with felony for the transportation of these horses from New Mexico. (<ital>Id.</ital> at 5.) Defendants conclude that they should not be required to pay for Plaintiffs' illegal actions.</paratext></para>
+<para><paratext ID="p25" level="1">In response, Plaintiffs argue that because the value of the two horses were applied in partial satisfaction of the judgment, collecting the horses was part and parcel of collecting Defendants' debt, and the costs incurred in connection with the horses must be considered &#x201C;collection costs.&#x201D; (Reply at 5.)</paratext></para>
+<para><paratext ID="p26" level="1">Upon Plaintiffs' refiling of the instant motion, the parties are ordered to further brief the issue of whether Plaintiffs are entitled to recover costs relating to the transportation of said horses. At this juncture, the Court reserves ruling on this matter until the parties have fully briefed the issue.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. <underscore>CONCLUSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p27" level="1">Based on the foregoing, the Court denies the motion without prejudice to refiling of the same within 30 days of the date of this Order in accordance to the guidance previously discussed. Further, the Court orders the parties to attend mediation within 30 days of the date of this Order to attempt to reach a mutually agreeable resolution of the fee issue.</paratext></para>
+<para><paratext ID="p28" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p29" level="1">&#95;&#95;&#95;&#95;: <underscore>00</underscore></paratext></para>
+<para><paratext ID="p30" level="1">Initials of Preparer <underscore>RGN</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

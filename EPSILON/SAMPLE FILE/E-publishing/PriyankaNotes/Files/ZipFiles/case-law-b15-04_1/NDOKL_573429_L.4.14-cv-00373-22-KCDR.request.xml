@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>DALTON A. STALEY, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>THE KANSAS CITY SOUTHERN RAILWAY COMPANY, INC. and UNITED TRANSPORTATION UNION, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 14-CV-373-GKF-PJC</docket.line>
+<docket.number>14-CV-373-GKF-PJC</docket.number>
+<docket.line suppress-flag="y">4:14-cv-00373-GKF-PJC</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 10/10/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GREGORY K. FRIZZELL, CHIEF JUDGE UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the court is the Motion of the Kansas City Southern Railway Company, Inc. (&#x201C;KCSR&#x201D;) for Judgment on the Pleadings pursuant to Fed. R. Civ. P. 12(c). [Dkt. #18]. For the reasons stated below, the motion is granted.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>I. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Staley is a former employee of KCSR, and was required to be a member of the United Transportation Union (the &#x201C;Union&#x201D;) as a KCSR employee. [Dkt. #2-1, p. 5]. After Staley worked for two years as a conductor, KCSR offered Staley a position as an Assistant Trainmaster, which he accepted. Staley nevertheless claims KCSR terminated him on his first day at his new position. [<ital>Id.</ital> at 6.]. Approximately two months earlier, Staley alleges, KCSR told him he had failed a color vision test and would have to travel to Shreveport, Louisiana at his own expense to take a field test. [<ital>Id.</ital>]. Staley claims he took the same test in Fort Smith, Arkansas, and was notified that he passed, but KCSR refused to accept the results from Staley's doctor. [<ital>Id.</ital>]. Notwithstanding the results of these tests, Staley claims that KCSR had reaffirmed his status only one week before he was to start working in his new position. [<ital>Id.</ital>].</paratext></para>
+<para><paratext ID="p3" level="1">Staley filed his petition against KCSR and the Union in Tulsa County District Court on March 7, 2014. [<ital>Id.</ital> at 5]. In his petition, Staley claims KCSR breached its contract with him when it terminated him, or, alternatively, that he relied to his detriment on KCSR's assurances and a contract should be equitably enforced through promissory estoppel. [<ital>Id.</ital> at 6]. Staley also claims the Union breached its duty to grieve for him, and that they failed to take action on his behalf on numerous occasions. [<ital>Id.</ital> at 6&#8211;7]. Staley further alleges both defendants breached an unspecified &#x201C;duty of care to [him] by inducing him into the contracts, causing [him] significant damages.&#x201D; [<ital>Id.</ital> at 7]. Staley seeks to recover from the defendants actual damages in excess of $75,000, in addition to punitive damages in an unspecified amount. [<ital>Id.</ital>].</paratext></para>
+<para><paratext ID="p4" level="1">KCSR was served with Staley's petition on June 9, 2014. [<ital>Id.</ital> at 2]. On June 27, 2014, KCSR submitted its answer to the petition, admitting it had offered Staley the position of Assistant Trainmaster, but claiming the offer was expressly conditioned on certain conditions, including vision requirements. [Dkt. #2-2, p. 3]. Two days later, KCSR removed the action to this court on the basis of its diversity jurisdiction. [Dkt. #2].<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> The Union submitted its consent to the removal [Dkt. #8] along with its own answer to the petition [Dkt. #7].</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;Though removal in this case followed KCSR's submission of its answer, mere entries of answers are generally insufficient to constitute the &#x201C;clear and unequivocal&#x201D; waiver of the right to removal. <ital>See Liebau v. Columbia Cas. Co.</ital>, 176 F.Supp.2d 1236, 1243&#8211;44 (D. Kan. 2001); <ital>Carpenter v. III. Cent. Gulf R. Co.</ital>, 524 F.Supp. 249, 251 (D. La. 1981).</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p6" level="1">KCSR then moved for judgment on the pleadings pursuant to Fed. R. Civ. P. 12(c). [Dkt. #18]. In its motion, KCSR argues Staley's claims are preempted by the Railway Labor Act, 45 U.S.C. &#167; 151 <ital>et seq.</ital> (the &#x201C;RLA&#x201D;), which it argues requires &#x201C;minor disputes,&#x201D; including breach of contract claims arising out of the interpretation of collective bargaining agreements, to be submitted to the Union's internal grievance procedure and mandatory arbitration board. [<ital>Id.</ital> at 12&#8211;16]. KCSR also asserts Staley fails to state a breach of contract claim because its offer for the position of Assistant Trainmaster was based on conditions Staley did not satisfy, and because Staley was, at all relevant times, an &#x201C;at-will&#x201D; employee. [<ital>Id.</ital> at 16&#8211;19]. KCSR also claims Staley cannot show he reasonably relied upon the alleged promise of employment to his detriment, as KCSR placed him on indefinite medical leave, thus preserving the seniority Staley had accrued as well as his substantive economic benefits. [<ital>Id.</ital> at 19&#8211;20]. KCSR further argues Staley fails to state a claim in his assertion that KCSR owed him a duty of care. [<ital>Id.</ital> at 20&#8211;21]. Finally, KCSR claims Staley fails to plausibly allege that it violated a contractual obligation owed to him intentionally, with reckless disregard, or with malice, and that his claim for punitive damages therefore fails as a matter of law. [<ital>Id.</ital> at 21].</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>II. Discussion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">A motion for judgment on the pleadings under Fed. R. Civ. P. 12(c) is subject to the same standard applicable to a motion under Fed. R. Civ. P. 12(b)(6). <ital>Corder v. Lewis Palmer Sch. Dist. No. 38</ital>, 566 F.3d 1219, 1223 (10th Cir. 2009). To survive a Rule 12(c) motion, the complaint &#x201C;must contain sufficient factual matter, accepted as true, to &#x2018;state a claim to relief that is plausible on its face.&#x2019;&#x201D; <ital>Ashcroft v. Iqbal</ital>, 556 U.S. 662, 678 (2009) (quoting <ital>Bell Atl. Corp. v. Twombly</ital>, 550 U.S. 544, 570 (2007)). &#x201C;[M]ere labels and conclusions, and a formulaic recitation of the elements of a cause of action will not suffice; a plaintiff must offer specific factual allegations to support each claim.&#x201D; <ital>Kan. Penn Gaming, LLC v. Collins</ital>, 656 F.3d 1210, 1214 (10th Cir. 2011) (internal quotation marks omitted).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">A. <underscore>Railway Labor Act</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">The court first addresses KCSR's claim that the RLA precludes Staley's breach of contract and promissory estoppel claims. The RLA requires carriers to establish a &#x201C;board of adjustment&#x201D; to handle disputes between them and their employees &#x201C;growing out of grievances, or out of the interpretation or application of agreements concerning rates of pay, rules, or working conditions. <charfill numchar="3">&#8228;</charfill>&#x201D; 45 U.S.C. &#167; 184. The Supreme Court interprets this language to require these so-called &#x201C;minor disputes&#x201D; to be submitted to the Adjustment Board if the parties cannot resolve them on their own. <ital>Bhd. of R.R. Trainmen v. Chicago R. &#38; I.R. Co.</ital>, 353 U.S. 30, 34 (1957). Indeed, &#x201C;[t]he right of one party to place the disputed issue before the Adjustment Board, with or without the consent of the other, has been firmly established. <charfill numchar="3">&#8228;</charfill> And the other party may not defeat this right by resorting to some other forum.&#x201D; <ital>Bhd. of Locomotive Engineers v. Louisville &#38; N. R. Co.</ital>, 373 U.S. 33, 38 (1963).</paratext></para>
+<para><paratext ID="p9" level="1">The court must therefore determine whether Staley's claims are &#x201C;minor disputes&#x201D; that must be submitted to the Adjustment Board. The &#x201C;threshold question&#x201D; in determining whether a state law claim is a &#x201C;minor dispute&#x201D; under the RLA is &#x201C;whether resolution of the claim requires interpretation or application of a [collective bargaining agreement].&#x201D; <ital>Ertle v. Continental Airlines, Inc.</ital>, 136 F.3d 690, 693 (10th Cir. 1998) (citing <ital>Fry v. Airline Pilots Ass'n. Int'l.</ital>, 88 F.3d 831, 836 (10th Cir. 1996)). A state law claim may also be preempted as a &#x201C;minor dispute&#x201D; if the claim is &#x201C;inextricably intertwined&#x201D; with a collective bargaining agreement, or &#x201C;arises from rights created by the terms of a labor contract.&#x201D; <ital>Id.</ital> If &#x201C;the dispute arises from rights created by the terms of a labor contract,&#x201D; for example, &#x201C;the claims are preempted.&#x201D; <ital>Id.</ital> If resolution of the claim &#x201C;requires only mere reference to a [collective bargaining agreement], however, the claim is not a &#x2018;minor dispute&#x2019; preempted under the RLA.&#x201D; <ital>Id.</ital></paratext></para>
+<para><paratext ID="p10" level="1">In his response to KCSR's motion, Staley identifies various cases that allegedly disprove the notion that the RLA precludes state law claims such as his. [Dkt. #20, pp. 5&#8211;6]. The cases Staley cites in support, however, are largely inapposite. In fact, only one of the cases he cites, <ital>Lingle v. Norge Div. of Magic Chef, Inc.</ital>, 486 U.S. 399, 412 (1988), even mentions the RLA, though only in a brief aside to the Court's underlying analysis of Labor Management Relations Act. [Dkt. #20, p. 6]. To the extent the cases Staley cites relate to this case, they stand for the same proposition on which KCSR stands: federal law precludes Staley's state law claims if they are dependent upon analysis of the collective bargaining agreement. [<ital>Id.</ital> at 6].</paratext></para>
+<para><paratext ID="p11" level="1">Here, the court agrees that resolution of Staley's claims requires interpretation of the collective bargaining agreement in effect when he was allegedly terminated. [Dkt. #18, p. 13&#8211; 14]. Staley acknowledges in his petition that he was required to join the Union as a KCSR employee, and asserts the Union was required to grieve for him upon request. [Dkt. #2-1, pp. 5&#8211; 6]. If Staley was wrongfully terminated, as he claims, then resolution of his claims will require interpreting Article 48 of the collective bargaining agreement, which addresses the dismissal of KCSR's Union-represented conductors. [Dkt. #2-2, pp. 14&#8211;15]. And if he was placed on medical leave, as KCSR claims, resolution of the case will require interpreting Article 51, which addresses employee leaves of absence. [<ital>Id.</ital> at 22, 24]. Staley, meanwhile, offers a single conclusory sentence asserting his claims do not arise out of a collective bargaining agreement, but provides no support for this contention. [Dkt. #20, p. 7].</paratext></para>
+<para><paratext ID="p12" level="1">The court therefore concludes that resolving Staley's claims will involve interpreting the applicable collective bargaining agreement. As such, Staley's claims are &#x201C;minor disputes&#x201D; over which the Adjustment Board has exclusive jurisdiction. It is therefore unnecessary for the court to consider whether Staley has stated a breach of contract or promissory estoppel claim. Even if he has, the RLA precludes such claims as plausible basis for relief in this court.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">B. <underscore>&#x201C;Breach of Duty&#x201D; Claim</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">In his petition, Staley also asserts the defendants &#x201C;breached their duty of care to Plaintiff by inducing him into the contracts, causing Plaintiff significant damage.&#x201D; [Dkt. #2-1, p. 7]. It is unclear whether this statement refers to a duty distinct from those described in his breach of contract or promissory estoppel claims. If this duty stems from Staley's alleged contractual rights, for the reasons given above, the RLA precludes any claim asserting a breach of this duty. If he does refer to a duty distinct from his contractual rights, however, he does not identify that duty, much less allege how the defendants breached it. As such, to the extent Staley attempts to raise a claim to relief distinct from his breach of contract or promissory estoppel claim, he fails to plead sufficient facts to show it is plausible on its face.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>III. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">For the foregoing reasons, KCSR's motion for judgment on the pleadings [Dkt. #18] is granted.</paratext></para>
+<para><paratext ID="p15" level="1">ENTERED this 10th day of October, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

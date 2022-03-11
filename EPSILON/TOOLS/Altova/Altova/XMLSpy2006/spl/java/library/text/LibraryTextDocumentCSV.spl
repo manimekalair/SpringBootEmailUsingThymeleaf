@@ -1,0 +1,41 @@
+[$format= $library.FormatCSV]
+
+import com.altova.text.tablelike.ColumnSpecification;
+import com.altova.text.tablelike.Header;
+import com.altova.text.tablelike.ISerializer;
+import com.altova.text.tablelike.MappingException;
+import com.altova.text.tablelike.Table;
+import com.altova.text.tablelike.csv.Serializer;
+import [=$FullPackageName].[=$library.RootName]Type;
+
+public class [=$module]Document extends Table
+{
+	protected ISerializer createSerializer()
+	{
+		Serializer result= new Serializer(this);
+		result.getFormat().setAssumeFirstRowAsHeaders([=$format.UseFirstRowNames]);
+		result.getFormat().setFieldDelimiter('[=$format.FieldSeparator]');
+		[if $format.QuoteCharacter <> ""]
+		result.getFormat().setQuoteCharacter('[=$format.QuoteCharacter]');
+		[endif]
+		return result;
+	}
+	protected void initHeader(Header header)
+	{
+		[foreach $field in $format.Fields]
+		header.add(new ColumnSpecification("[=$field.Name]"));[next]
+	}
+	public [=$module]Document() {}
+	public int get[=$library.RootName]Count()
+	{
+		return super.size();
+	}
+	public [=$library.RootName]Type get[=$library.RootName]At(int index)
+	{
+		return new [=$library.RootName]Type(super.getAt(index));
+	}
+	public void add[=$library.RootName]([=$library.RootName]Type rhs)
+	{
+		super.add(rhs);
+	}
+}

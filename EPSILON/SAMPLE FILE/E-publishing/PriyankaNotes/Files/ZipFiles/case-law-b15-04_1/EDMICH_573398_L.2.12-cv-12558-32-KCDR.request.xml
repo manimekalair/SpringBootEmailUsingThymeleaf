@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>EASTERN DISTRICT OF MICHIGAN</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>BEYDOUN FOODS, INC., Plaintiff/Counter-Defendant</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>7-ELEVEN, INC., Defendant/Counter-Plaintiff.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CIVIL ACTION NO. 12-CV-12558</bold></docket.line>
+<docket.number><bold>12-CV-12558</bold></docket.number>
+<docket.line suppress-flag="y">2:12-cv-12558-GCS-MKM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/29/2013</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><underscore><bold>REPORT AND RECOMMENDATION</bold></underscore></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>DISTRICT JUDGE GEORGE CARAM STEEH, MAGISTRATE JUDGE MONA K. MAJZOUB, MONA K. MAJZOUB UNITED STATES MAGISTRATE JUDGE, <underscore>s/ Lisa C. Bartlett</underscore> Case Manager</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging">I. <bold>RECOMMENDATION:</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">Defendant/Counter-Plaintiff's (&#x201C;Defendant&#x201D;) second bill of costs (docket no. 31) should be granted and Defendant be awarded $700 payable by Plaintiff/Counter-Defendant (&#x201C;Plaintiff&#x201D;) for costs incurred in filing Defendant's March 15, 2013 motion for sanctions.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">II. <bold>REPORT:</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This matter comes before the Court on Defendant's second bill of costs filed on October 7, 2013. (Docket no. 31). Plaintiff has not filed a response or objection to the bill of costs. Defendant's bill of costs was not separately referred to the undersigned but was filed at the direction of the Court in relation to a previously referred motion for sanctions. (Docket nos. 22, 29, 30). The Court dispenses with oral argument on the bill of costs pursuant to E.D. Mich. LR 7.1(f).</paratext></para>
+<para><paratext ID="p3" level="1">Defendant filed a motion for sanctions on March 15, 2013 claiming that Plaintiff had failed to comply with a court order compelling discovery. (Docket no. 22). The Court granted Defendant's motion for sanctions in part and ordered Defendant to submit a bill of costs itemizing the costs and fees associated with filing the motion. (Docket nos. 29, 30). Defendant shows in its bill of costs that its attorney, Irene Hathaway, spent 2.0 hours conferring with Plaintiff's counsel and preparing the motion for sanctions and brief. Ms. Hathaway submitted an affidavit stating that she has practiced law for thirty-two years and is a senior principal attorney at Miller, Canfield, Paddock and Stone, P.L.C. She states in her affidavit that her standard billable rate is $475 but the hourly rate she charged on this file is $350.</paratext></para>
+<para><paratext ID="p4" level="1">A professional biography for Ms. Hathaway displayed on Miller, Canfield, Paddock and Stone, P.L.C.'s website shows that Ms. Hathaway lectures, publishes articles, and conducts seminars on issues related to litigation and franchise law. She has also received numerous honors and awards for her work in litigation and franchise law and she is a Certified Franchise Executive with the International Franchise Association. <ital>See</ital> <underscore>http://www.millercanfield.com/IreneBruceHathaway</underscore>. In the instant motion, Defendant seeks costs in the amount of $700 associated with filing the motion for sanctions.</paratext></para>
+<para><paratext ID="p5" level="1">The Court must use the &#x201C;lodestar method&#x201D; to calculate the appropriate amount of attorney fees. <ital>Ellison v. Balinski</ital>, 625 F.3d 953, 960 (6th Cir. 2010). Under this method, the Court multiplies an attorney's reasonable hourly rate by the reasonable number of hours worked. <ital>Id.</ital> The Court &#x201C;has broad discretion to determine what constitutes a reasonable hourly rate for an attorney.&#x201D; <ital>Wayne v. Vill. of Sebring</ital>, 36 F.3d 517, 533 (6th Cir. 1994). In assessing the &#x201C;reasonable hourly rate&#x201D; under the lodestar method, the Court should assess the &#x201C;prevailing market rate in the relevant community.&#x201D; <ital>Blum v. Stenson</ital>, 465 U.S. 886, 895 (1984). The prevailing market rate is &#x201C;that which lawyers of comparable skill and experience can reasonably expect to command within the venue of the court of record <charfill numchar="4">&#8228;</charfill>&#x201D; <ital>Adcock&#8211;Ladd v. Sec'y of Treasury</ital>, 227 F.3d 343, 350 (6th Cir. 2000).</paratext></para>
+<para><paratext ID="p6" level="1">In light of Ms. Hathaway's experience in Franchise Law and litigation, and because Plaintiff has not objected to the bill of costs or provided any argument or evidence challenging the reasonableness of the hourly rate, the undersigned suggests that the hourly rate should be accepted as reasonable. <ital>See Crider v. Highmark Life Ins. Co.</ital>, No. 05-660, 2006 WL 6157958, at *5 (W.D. Mich. Nov. 21, 2006) (accepting a billable rate of $350 per hour as reasonable after noting that the defendant did not provide any argument or evidence to counter the reasonableness of the rate). In addition, the Court should find that the amount of time expended on the motion for sanctions was also reasonable. Accordingly, the undersigned recommends that Defendant's second bill of costs (docket no. 31) be granted and Plaintiff be ordered to pay Defendant $700 for costs incurred in filing Defendant's motion for sanctions.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>REVIEW OF REPORT AND RECOMMENDATION</bold></underscore>:</headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">The parties to this action may object to and seek review of this Report and Recommendation, but are required to file any objections within 14 days of service, as provided for in Federal Rule of Civil Procedure 72(b)(2) and Local Rule 72.1(d). Failure to file specific objections constitutes a waiver of any further right of appeal. <ital>Thomas v. Arn</ital>, 474 U.S. 140 (1985); <ital>Howard v. Sec'y of Health &#38; Human Servs.</ital>, 932 F.2d 505 (6th Cir. 1991). Filing objections that raise some issues but fail to raise others with specificity will not preserve all the objections a party might have to this Report and Recommendation. <ital>Willis v. Sec'y of Health &#38; Human Servs.</ital>, 931 F.2d 390, 401 (6th Cir. 1991); <ital>Smith v. Detroit Fed'n of Teachers Local 231</ital>, 829 F.2d 1370, 1373 (6th Cir. 1987). Pursuant to Local Rule 72.1(d)(2), any objections must be served on this Magistrate Judge.</paratext></para>
+<para><paratext ID="p8" level="1">Any objections must be labeled as &#x201C;Objection No. 1,&#x201D; &#x201C;Objection No. 2,&#x201D; etc. Any objection must recite precisely the provision of this Report and Recommendation to which it pertains. Not later than 14 days after service of an objection, the opposing party may file a concise response proportionate to the objections in length and complexity. Fed.R.Civ.P. 72(b)(2), Local Rule 72.1(d). The response must specifically address each issue raised in the objections, in the same order, and labeled as &#x201C;Response to Objection No. 1,&#x201D; &#x201C;Response to Objection No. 2,&#x201D; etc. If the Court determines that any objections are without merit, it may rule without awaiting the response.</paratext></para>
+<para><paratext ID="p9" level="1">Dated: October 29, 2013</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>PROOF OF SERVICE</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">I hereby certify that a copy of this Report and Recommendation was served upon Counsel of Record on this date.</paratext></para>
+<para><paratext ID="p11" level="1">Dated: October 29, 2013</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

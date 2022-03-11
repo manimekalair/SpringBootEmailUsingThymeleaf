@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?altova_sps AddressLast-home.sps?>
+<Company xmlns="http://my-company.com/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://my-company.com/namespace
+AddressLast-home.xsd">
+	<Address>
+		<Name>US dependency</Name>
+		<Street>Noble Ave.</Street>
+		<City>Dallas</City>
+		<State>Texas</State>
+		<Zip>04812</Zip>
+	</Address>
+	<Person Manager="true" Degree="BA" Programmer="false">
+		<First>Alfred</First>
+		<Last>Aldrich</Last>
+		<PhoneExt>33</PhoneExt>
+		<Email>Aldrich@work</Email>
+	</Person>
+	<Person Degree="MA" Programmer="true" Manager="false">
+		<First>Fred</First>
+		<Last>Smith</Last>
+		<PhoneExt>22</PhoneExt>
+		<Email>Smith@work</Email>
+	</Person>
+	<Person Degree="Ph.D" Programmer="true" Manager="false">
+		<First>Colin</First>
+		<Last>Colleti</Last>
+		<PhoneExt>44</PhoneExt>
+		<Email>Coletti@work</Email>
+	</Person>
+</Company>

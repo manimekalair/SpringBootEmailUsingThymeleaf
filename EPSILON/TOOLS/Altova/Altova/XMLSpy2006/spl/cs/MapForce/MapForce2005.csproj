@@ -1,0 +1,93 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{[=$TestProjectGuid]}</ProjectGuid>
+		<OutputType>Exe</OutputType>
+		<AssemblyName>[=$application.Name]</AssemblyName>
+		<RootNamespace>[=$application.Name]</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\\Debug\\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\\Release\\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>		
+		<Reference Include="System" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\\Altova\\Altova.csproj">
+			<Project>{[=$AltovaLibGuid]}</Project>
+			<Name>Altova</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\\AltovaXML\\AltovaXML.csproj">
+			<Project>{[=$AltovaXMLLibGuid]}</Project>
+			<Name>AltovaXML</Name>
+		</ProjectReference>
+		<ProjectReference Include="..\\AltovaFunctions\\AltovaFunctions.csproj">
+			<Project>{[=$AltovaFunctionsGuid]}</Project>
+			<Name>AltovaFunctions</Name>
+		</ProjectReference>
+[if $EDILibraryCount > 0
+]		<ProjectReference Include="..\\AltovaText\\AltovaText.csproj">
+			<Project>{[=$AltovaTextLibGuid]}</Project>
+			<Name>AltovaText</Name>
+		</ProjectReference>
+[endif
+if $DBLibraryCount > 0
+]		<ProjectReference Include="..\\AltovaDB\\AltovaDB.csproj">
+			<Project>{[=$AltovaDBLibGuid]}</Project>
+			<Name>AltovaDB</Name>
+		</ProjectReference>
+[endif
+foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+	if $library.Kind <> 4 : $ProjectLibGuid	= $library.Guid
+]		<ProjectReference Include="..\\[=$module]\\[=$module].csproj">
+			<Name>[=$module]</Name>
+			<Project>{[=$ProjectLibGuid]}</Project>
+		</ProjectReference>
+[endif : next
+]	</ItemGroup>
+	<ItemGroup>
+[foreach $FuncLib in $application.FunctionLibraries
+	foreach $Setting in $FuncLib.Settings
+		if $Setting.Name = "namespace" 
+			if $Setting.Value <> "Altova.Functions"
+		]		<Reference Include="[=$Setting.Value]">
+[				foreach $Setting2 in $FuncLib.Settings
+					if $Setting2.Name = "reference"
+				]		<HintPath>[=$Setting2.Value]</HintPath>
+[					endif
+				next
+		]		</Reference>
+[			endif
+		endif
+	next
+next
+]	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="AssemblyInfo.cs"/>
+		<Compile Include="[=$application.Name]Console.cs"/>
+[foreach $Mapping in $application.Mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+]		<Compile Include="[=$application.Name][=$AlgorithmGroup.Name].cs"/>
+[	next
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+]		<Compile Include="[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].cs"/>
+[	next
+next
+]	</ItemGroup>
+
+	<Import Project="$(MSBuildBinPath)\\Microsoft.CSharp.targets" />
+</Project>

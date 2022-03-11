@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaFunctions", "AltovaFunctions.csproj", "{[=$AltovaFunctionsGuid]}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altova", "..\\Altova\\Altova.csproj", "{[=$AltovaLibGuid]}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{[=$AltovaFunctionsGuid]}.0 = {[=$AltovaLibGuid]}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{[=$AltovaFunctionsGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaFunctionsGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaFunctionsGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaFunctionsGuid]}.Release.Build.0 = Release|.NET
+		{[=$AltovaLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaLibGuid]}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

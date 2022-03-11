@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>ALL CITIES REALTY, INC.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>HOLLYMAX REALTY, INC., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 08-00195-CJC(MLGx)</docket.line>
+<docket.number>SACV 08-00195-CJC(MLGx)</docket.number>
+<docket.line suppress-flag="y">8:08-cv-00195-AHS-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/27/2008</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Michelle Urie, Deputy Clerk, ATTORNEYS PRESENT FOR PLAINTIFF: None Present</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANT: None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS: (IN CHAMBERS) ORDER DENYING DEFENDANT'S <ital>EX PARTE</ital> APPLICATION FOR TEMPORARY RESTRAINING ORDER AND ORDER TO SHOW CAUSE</bold> [filed 10/21/08]</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold><underscore>HONORABLE CORMAC J. CARNEY, UNITED STATES DISTRICT JUDGE</underscore></bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Having read and considered the papers presented by the parties, the Court finds this matter appropriate for disposition without a hearing. <ital>See</ital> <csc>Fed. R. Civ. P.</csc> 78; <csc>Local Rule</csc> 7-15.</paratext></para>
+<para><paratext ID="p2" level="1">This case arises out of Defendants Hollymax Realty, Inc. (&#x201C;Hollymax&#x201D;), Commbroker, Inc. (&#x201C;Commbroker&#x201D;), and Dale Eleniak's (collectively &#x201C;Defendants&#x201D;) allegedly wrongful use of Plaintiff All Cities Realty, Inc.'s (&#x201C;All Cities&#x201D;) trademarked name, &#x201C;All Cities Realty&#174;.&#x201D; All Cities is a California corporation offering real estate brokerage and real estate appraisal services. (Compl. &#182; 2.) Defendants Hollymax Realty, Inc. and Commbroker, Inc. are competing California corporations that also offer real estate brokerage services. Defendant Dale Eleniak is a real estate broker who served as the broker of record for Hollymax and Commbroker. during the relevant time period. (<ital>Id.</ital> at &#182; 7.) All Cities alleges that it has been operating in California since 1997 and that it was one of the pioneers in Internet real estate marketing, relying heavily on its website entitled &#x201C;allcitiesrealty.com.&#x201D; (<ital>Id.</ital> at &#182;&#182; 11, 18.) All Cities alleges that a non-party entity, CF Real Estate Loans, Inc. (&#x201C;CF Real Estate&#x201D;), began infringing on All Cities' trademark in late 2002, when CF Real Estate began doing business as All Cities Real Estate. (<ital>Id.</ital> at &#182; 13.) All Cities asserts that CF Real Estate began extensive marketing campaigns in both print media and on the Internet using the names &#x201C;All Cities Real Estate&#x201D; and &#x201C;Re/Max All Cities Realty,&#x201D; and that CF Real Estate set up a competing Web site entitled &#x201C;allcitiesrealty.net.&#x201D; (<ital>Id.</ital> at &#182;&#182; 15, 18-19.) All Cities contends that this infringing activity caused actual confusion among real estate consumers who believed that Re/Max All Cities Realty and All Cities Realty&#174; were either affiliated or were the same company, and this had the effect of diluting All Cities Realty's&#174; trade name and web presence. (<ital>Id.</ital> at &#182;&#182; 15-16.)</paratext></para>
+<para><paratext ID="p3" level="1">All Cities asserts that beginning in 2005, Hollymax and Commbroker participated in this trademark infringement by appearing as &#x201C;offices&#x201D; on the Re/Max All Cities Realty Web site owned by CF Real Estate. Specifically, All Cities contends that CF Real Estate's Web site contained a link entitled &#x201C;Commercial LA&#x201D; that brought consumers to Web sites owned by Hollymax and Commbroker. (Compl. &#182;&#182; 29-32.) All Cities argues that Dale Eleniak is vicariously liable for the trademark infringement carried out by Hollymax and Commbroker because he served as the broker of record during the period of alleged misconduct. (<ital>Id.</ital> at &#182; 7.)</paratext></para>
+<para><paratext ID="p4" level="1">Since the filing of the lawsuit, Hollymax and Commbroker have ceased doing business. The old businesses are owned by Re/Max Marquee Partners (&#x201C;RMP&#x201D;), which continues in business. On Oct. 8, 2008, dozens of current and former RMP agents received an e-mail message (the &#x201C;E-mail&#x201D;) from a party identified as The All Cities Realty legal team. (Decl. of Kelli Todd (&#x201C;Todd Decl.&#x201D;) &#182; 4; Decl. of Holly Thomas &#182;&#182; 3, 5.) RMP has assured its agents that it will indemnify them in this action, and has obtained counsel to represent them. (Todd Decl. &#182; 3.) The E-mail was sent to at least 500 real estate agents, some of whom may be defendants in this matter. (Decl. of Joseph Miner (&#x201C;Miner Decl.&#x201D;) &#182; 16.) The owner of All-Cities Realty, Joseph Miner, claims authorship of the E-mail, and states that &#x201C;The All Cities Realty legal team&#x201D; consists of Mr. Miner and his wife. (Miner Decl. &#182;&#182; 3, 5.) Mr. Miner asserts that All Cities' attorney, Jeffrey Sax, did not approve, write, send, or bear any responsibility for the E-mail. (Miner Decl. &#182; 5.) Mr. Sax also denies responsibility for the E-mail. (Decl. of Jeffrey Sax &#182; 9.)</paratext></para>
+<para><paratext ID="p5" level="1">The E-mail contains several threatening or misleading statements or legal conclusions, including: a statement that &#x201C;the law is 100% on our side and our damage claims exceed $10,000,000&#x201D;; a statement that All Cities will obtain a judgment from federal court and then pursue a currently stayed lawsuit against the real estate agents in state court; several statements that claim RMP is not likely to honor its promise to indemnify its real estate agents in the suit; and a statement that RMP will wind up like recent financial firms that have gone bankrupt. (E-mail.) The E-mail further offers its recipients a chance to settle the lawsuit in exchange for a payment of between $1,000 and $5,000. (<ital>Id.</ital>) The E-mail is signed by &#x201C;The All Cities Realty legal team.&#x201D; (Email.)</paratext></para>
+<para><paratext ID="p6" level="1">In response to the E-mail, Defendants filed an ex parte application for a temporary restraining order forbidding Mr. Sax from ex parte communications with Defendants and an order to show cause why Mr. Sax should not be disqualified as All Cities' counsel.</paratext></para>
+<para><paratext ID="p7" level="1">The E-mail is both threatening and misleading, treading dangerously close to violating the duty to conduct litigation in good faith. The E-mail misleads its recipients into believing that it was authored by All Cities Realty's counsel when it apparently was not. The E-mail seeks to undermine the relationship between individual defendants in the case and the counsel that has been retained to represent them, drumming up fears that the agents' employer would abandon them despite promises to indemnify them in this matter. It contains statements of legal conclusions that have not been made by this or any court in this matter. It would be an understatement to say that the Court is disturbed by such tactics.</paratext></para>
+<para><paratext ID="p8" level="1">However, it would be inappropriate to grant the ex parte application. Defendants are seeking remedies against Mr. Sax, although Mr. Sax has disclaimed responsibility for the E-mail in a sworn declaration to the Court. Additionally, Mr. Miner has taken responsibility for the E-mail in a sworn declaration. Defendants have not shown that Mr. Sax and Mr. Miner are misrepresenting these facts to the Court. Defendants have not shown that Mr. Sax is responsible for the offending E-mail. Therefore, the Court will Defendants' deny ex parte application because it seeks to punish All Cities' counsel for the apparently independent acts of his client. Defendants are, however, reminded that the Court recently lifted the stay on discovery in this case. Defendants are free to conduct discovery on the issue of the E-mail as well as other issues in the case.</paratext></para>
+<para><paratext ID="p9" level="1">While the Court is denying the ex parte application, no party to this suit should interpret this decision as a tacit approval of the tactics exemplified by the E-mail. In <ital>Chambers v. NASCO, Inc.</ital> the United States Supreme Court held that courts have the inherent power to impose sanctions for bad-faith conduct; that power extends over a full range of litigation abuses. 501 U.S. 32, 47 (1991). If All Cities or any other party to this lawsuit conducts themselves in a misleading, threatening or untoward manner, they subject themselves to sanction by the Court. The Court cannot condone improper conduct.</paratext></para>
+<para><paratext ID="p10" level="1">For the foregoing reasons, Defendants' ex party application for a temporary restraining order and an order to show cause why Jeffrey Sax should not be disqualified as counsel for plaintiff is DENIED.</paratext></para>
+<para><paratext ID="p11" level="1">jls</paratext></para>
+<para><paratext ID="p12" level="1">MINUTES FORM 11 CIVIL-GEN</paratext></para>
+<para><paratext ID="p13" level="1">Initials of Deputy Clerk MU</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

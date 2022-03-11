@@ -1,0 +1,91 @@
+===== NDGA_532201_L.1.09-cv-00730-23-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE NORTHERN DISTRICT OF GEORGIA</venue.name>
+<venue.name>ATLANTA DIVISION</venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>CHASE BUILDING GROUP, LLC; RONALD HIGHTOWER; JANET HIGHTOWER; CHRISTOPHER D. GRAY; SARAH GRAY; JEFFERY M. GUERRERO; GENEDINE GUERRERO, Defendants</title.segment>
+</individual.title>
+
+<individual.title>
+<title.segment>CHRISTOPHER D. GRAY; SARAH GRAY Cross-claimants</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>RONALD HIGHTOWER; JANET HIGHTOWER; JEFFERY M. GUERRERO; GENEDINE GUERRERO Cross-defendants</title.segment>
+</individual.title>
+
+</content.long.title>
+
+<content.docket.number>
+<docket.line>CIVIL ACTION NO. l:09-cv-730-GET</docket.line>
+<docket.number>l:09-cv-730-GET</docket.number>
+<docket.line suppress-flag="y">1:09-cv-00730-GET</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/15/2010</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><u>ORDER</u></headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">G. ERNEST TIDWELL, JUDGE UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">The above-styled matter is presently before the court on: (1) plaintiff's motion for default judgment as to Chase Building Group, LLC, Ronald Hightower, Janet Hightower, Jeffrey M. Guerrero, and Genedine Guerrero [docket no. 19];</paratext></para>
+<para><paratext level="1">(2} plaintiff's motion for summary judgment as to the Gray defendants [docket no. 20].</paratext></para>
+<para><paratext level="1">On March 17, 2009, Plaintiff filed this complaint against Chase Building Group, LLC (&#x201C;Chase Building&#x201D;), Ronald Hightower, Janet Hightower, Christopher Gray, Sarah Gray, Jeffrey M. Guerrero, and Genedine Guerrero for breach of contract seeking damages in the principal amount of &#x0024;117, 496.30, plus prejudgment interest at the maximum rate provided by law, the expenses of litigation, including reasonable attorney's fees incurred in enforcing the agreement and all costs of the action.   Plaintiff filed Returns of Service indicating that all defendants were served with the Summons and Complaint no later than April 21, 2009.</paratext></para>
+<para><paratext level="1">On May 22, 2009, defendants Christopher Gray and Sarah Gray (the &#x201C;Gray defendants&#x201D;) filed an answer and cross claim against defendants Janet Hightower, Ronald Hightower, Jeffrey M. Guerrero and Genedine Guerrero for contribution and indemnity asserting that &#x201C;[a]11 payments made by Plaintiff to bond claimants and the losses sustained by Plaintiff were caused by the failure to perform obligations owed to Chase Building Group, LLC by Ronald Hightower and Janet Hightower and the improper misappropriation of funds by Ronald Hightower and Janet Hightower.&#x201D; On June 12, 2009, the Clerk of Court entered default against defendants Chase Building, Ronald Hightower,  Janet Hightower,  Jeffrey M.  Guerrero and Genedine Guerrero.</paratext></para>
+<para><paratext level="1">On November 9, 2009, plaintiff filed a motion for default judgment against Chase Building, Ronald Hightower, Janet Hightower, Jeffery M. Guerrero and Genedine Guerrero.   Plaintiff filed a motion for summary judgment against the Gray defendants the same day.  Both motions are now ripe for consideration.</paratext></para>
+<head-1><u>Mntion for Default Judgment</u></head-1>
+<para><paratext level="1">Plaintiff moves for default judgment against defendants Chase Building, Ronald Hightower, Janet Hightower, Jeffery M. Guerrero, and Genedine Guerrero.  The above-named defendants were properly served with process but have failed to answer or otherwise appear in the action.  Default was entered against these defendants on June 12, 2009.</paratext></para>
+<para><paratext level="1">Having considered plaintiff's motion for default judgment, as well as the record as a whole, the court hereby GRANTS plaintiff's motion for default judgment [docket no. 19]. The Clerk of Court is DIRECTED to enter judgment in favor of plaintiff and against defendants Chase Building Group, LLC, Ronald Hightower, Janet Hightower, Jeffrey M. Guerrero, and Genedine Guerrero in the principal sum of &#x0024;116,131.76, plus &#x0024;5,987.03 in prejudgment interest, and &#x0024;7,797.92 for litigation expenses and attorney's fees, together with the costs and disbursements incurred in this action.</paratext></para>
+<head-1><u>Motion for Summary Judgment</u></head-1>
+<para><paratext level="1">On November 9, 2009, plaintiff filed a motion for summary judgment against the Gray defendants. On December 4, 2009, the court granted an extension of time until January 4, 2010 for the Gray defendants to file a response to the motion for sugary judgment. As of the date of this order, the Gray defendants have not filed a response to plaintiff's motion for summary judgment.</paratext></para>
+<head-c><u>Standard</u></head-c>
+<para><paratext level="1">Courts should grant summary judgment when &#x201C;there is no genuine issue as to any material fact ... and the moving party is entitled to judgment as a matter of law.&#x00BB;  Fed. R. Civ. P. 56(c). The moving party must &#x00BB;always bear the initial responsibility of informing the district court of the basis of its motion, and identifying those portions of &#x2018;the pleadings, d&#x00E9;posions, answers to  interrogatories,  and  admissions  on  file,  together  with affidavits, if any&#x2019; which it believes demonstrate the absence of a genuine issue of material Fact." <u>Celotex Corp. v.Catrett</u>, 477 U.S. 317, 324 (1986). That burden is &#x2018;discharged by &#x2018;showing&#x2019; -that is, pointing out to the district court - that there is an absence of evidence to support the nonmoving party's case.&#x201D; I&#x00E7;L. at 325; see also <u>n.s. v. Four</u> P^rr.els of T^al Property, 941 F.2d 1428, 1437 (11th Cir. 1991) .</paratext></para>
+<para><paratext level="1">Once the movant has met this burden, the opposing party must then present evidence establishing that there is a genuine issue of material fact. <u>Celotex</u>, 477 U.S. at 325. The nonmoving party must go beyond the pleadings and submit evidence such as affidavits, depositions and admissions that are sufficient to demonstrate that if allowed to proceed to trial, a jury might return a verdict in his favor.  Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 257 (1986).  If he does so, there is a genuine issue of fact that requires a trial.   In making a determination of whether there is a material issue of fact, the evidence of the non-movant is to be believed and all justifiable inferences are to be drawn in his favor.  I&#x00E7;U at 255; Rollins v. TechSouth, Inc., 833 F.2d 1525, 1529 (11th Cir. 1987). However, an issue is not genuine if it is unsupported by evidence or if it is created by evidence that is &#x201C;merely colorable&#x201D; or is &#x201C;not significantly probative.&#x201D; <u>Anderson</u>, 477 U.S. at 249-50.  Similarly, a fact is not material unless it is identified by the controlling substantive law as an essential element of the nonmoving party's case.   io\_ at 248. Thus, to create a genuine issue of material fact for trial, the party opposing the summary judgment must come forward with specific evidence of every element essential to his case with respect to which (1) he has the burden of proof, and (2) the summary judgment movant has made a plausible showing of the absence of evidence of the necessary element.  <u>Celotex</u>, 477 U.S. at 323. Pursuant to LR 56.1B(2)(a), a movant's statement of material facts is deemed admitted unless directly refuted by the respondent with concise responses  supported  by  specific  citations  to  evidence.  LR 56.1B(2)(a), NDGa.</paratext></para>
+<head-c><u>Facts</u></head-c>
+<para><paratext level="1">Because the Gray defendants failed to respond to plaintiff's statement of material facts, those facts are deemed admitted. Therefore, the court finds the following facts for the purpose of resolving plaintiff's motion for summary judgment.</paratext></para>
+<para><paratext level="1">On April 18, 2003, Christopher D. Gray and Sarah Gray executed a General Agreement of Indemnity (&#x201C;Indemnity Agreement&#x201D;} with plaintiff to induce plaintiff to issue payment and performance bonds on behalf of Chase Building in connection with its business as a construction contractor.  Under the terms of the Indemnity Agreement, the defendants agreed to &#x00AB;exonerate, indemnify and save [plaintiff] harmless from and against every claim, loss, damage, demand, liability, cost, charge, Bond premium, suit, judgment, attorney's fee, and expense which [plaintiff] incurs in consequence of having obligations in connection with such Bonds.&#x201D;</paratext></para>
+<para><paratext level="1">The defendants also agreed that &#x201C;[plaintiff] shall have the right, in its sole discretion to determine for itself and the [defendants] whether any claim or suit brought against [plaintiff] or the [defendants] upon any such Bond shall be paid, compromised, settled, defended or appealed, and [plaintiff]'s determination shall be final, binding and conclusive upon the [defendants].&#x201D; Additionally, the defendants agreed that &#x201C;[a]n itemized, sworn, statement by an employee of [plaintiff] or a copy of the voucher of payment shall be prima facie evidence of the propriety of and existence of the [defendants]'s liability.&#x201D;</paratext></para>
+<para><paratext level="1">In reliance upon the Indemnity Agreement,  plaintiff,  as surety,  issued Subcontract Payment and Performance Bond No. 103914559 on behalf of Chase Building for the project known as &#x00AB;Utoy Creek WRC, Improvements Phase 2A, FC-7305-00.&#x201D;  Plaintiff received payment and performance bond demands from bond claimants. Upon receipt of each demand, plaintiff investigated and analyzed the merits of the claim and made a good faith determination whether to settle or to defend against the claim.</paratext></para>
+<para><paratext level="1">As a result of plaintiff's execution of said payment and performance bonds on behalf of Chase Building, plaintiff paid numerous payment and performance bond claimants and has sustained losses and expenses in the principal amount of &#x0024;116,131.76 in connection with its obligations under the bonds. On February 4, 2009, plaintiff made a demand on the defendants to immediately pay, indemnify, and reimburse plaintiff for the losses it sustained as a result of issuing the payment and performance bonds on Chase Building's behalf.</paratext></para>
+<para><paratext level="1">Despite plaintiff's demand, defendants failed to tender payment in full to plaintiff and have yet to reimburse and indemnify plaintiff for any portion of its losses, expenses, and attorney's fees. Plaintiff sustained losses and expense in the principal amount of &#x0024;116,131.76. In addition, plaintiff has incurred &#x0024;7,797.92 in attorney's fees and litigation expenses in bringing this action to enforce the agreement.</paratext></para>
+<head-c><u>Discussion</u></head-c>
+<para><paratext level="1">To recover on a claim for breach of contract under Georgia law,  plaintiff must prove:  1)  that it had a contract with defendants; 2)  that the defendants breached their contractual obligations; and 3) that it suffered damage as a result of the breach. See <u><italic>^&#x2122;t  </italic> R.nt-^-rar of</u> Atlanta, Tnc. v. Webb, 220 Ga. App. 278, 279 (1996).  Under Georgia law, a valid contract consists of three essential elements: 1) subject matter upon which the contract can operate; 2) consideration; and 3} assent of the parties to the terms of the contract. See O.C.G.A. &#x00A7; 13-3-1; see also Cline_^_Lee, 260 Ga. App. 164, 168 (2003).</paratext></para>
+<para><paratext level="1">The court finds that there is no question of fact as to whether the Indemnity Agreement is a valid and enforceable contract under Georgia law. Furthermore, the court finds that the Gray defendants&#x2019; failure to reimburse and indemnify plaintiff for the losses and expenses it sustained was a material breach of the obligations imposed upon them under the Indemnity Agreement. Finally, plaintiff has presented undisputed evidence that plaintiff has sustained damages in the principal amount of &#x0024;116,131.7 6 as a result of this breach.</paratext></para>
+<para><paratext level="1">Georgia law provides that a party may recover prejudgment interest for breach of contract. See O.C.G.A &#x00A7; 13-6-13. A liquidated demand for damages arising out of a breach of contract bears interest from the date of the demand. See O.C.G.A &#x00A7; 7-4-14. The legal rate of interest is 7&#x0025; per annum where an interest rate is not established by a written contract. See O.C.G.A. &#x00A7; 7-4-2. Because plaintiff made its demand of reimbursement and indemnification on February 4, 2009, plaintiff is entitled to prejudgment interest in the amount of &#x0024;5,987.03 through October 31, 2009 and interest continues to accrue on the past due amount at the rate of &#x0024;22.26 per day.</paratext></para>
+<para><paratext level="1">With regard to litigation expenses and attorney's fees, the Indemnity Agreement specifically provides that plaintiff may recover attorney's fees and expenses it &#x201C;incurs in consequence of having obligations in connection with such Bonds.&#x201D; The Indemnity Agreement defines &#x201C;expense&#x201D; to include &#x201C;the cost incurred in bringing suit to enforce [the Indemnity Agreement] against any of the [defendants].&#x201D; Plaintiff has submitted undisputed evidence that it has incurred &#x0024;7,797.92 in litigation expenses and attorney's fees through October 31, 2009 as a result of having to bring this action to enforce the agreement. The court finds these fees and expenses to be reasonable.</paratext></para>
+<para><paratext level="1">Accordingly, and for all the foregoing reasons, the court hereby GRANTS plaintiff's motion for summary judgment against defendants Christopher D. Gray and Sarah Gray [docket no. 20] . The Gray defendants&#x2019; cross-claims against Ronald Hightower, Janey Hightower, Jeffery M. Guerrero and Genedine Guerrero remain pending.</paratext></para>
+<head-c><u>Summary</u></head-c>
+<para><paratext level="1">(1) plaintiff's motion for default judgment as to Chase Building Group, LLC, Ronald Hightower, Janet Hightower, Jeffrey <SUB>M</SUB>. Guerrero, and Genedine Guerrero [docket no. 19] is <bold>GRATED.</bold> The Clerk of Court is <bold>DIRECTED</bold> to enter judgment xn favor of plaintiff and against defendants Chase Building Group, LLC, Ronald Hightower, <sub>Jan</sub>et Hightower. Jeffrey M. Guerrero, and Genedine Guerrero in the principal  sum of &#x0024;116,131.76,  plus  &#x0024;5,987.03  xn prejudgment interest, &#x0024;7,797.92 for litigation expenses and attorney's fees, together with the costs and disbursements incurred in this action.;</paratext></para>
+<para><paratext level="1">(2)	plaintiff's motion for summary judgment as to the Gray defendants [docket no. 20] is <bold>GRANTED;</bold></paratext></para>
+<para><paratext level="1">(3)	the Gray defendants&#x2019; cross-claims against Ronald Hightower, Janey Hightower, Jeffery M. Guerrero and Genedine Guerrero remain pending.</paratext></para>
+<para><paratext level="1"><bold>SO ORDERED,</bold> this <u>15<sup>th</sup></u> day of January, 2010.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

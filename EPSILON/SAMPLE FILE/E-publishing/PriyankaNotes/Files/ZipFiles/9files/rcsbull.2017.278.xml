@@ -1,0 +1,129 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "C:\Documents and Settings\riyaz.EXETERPM\Desktop\archiveJats-interchange-dtd-1.1\JATS-archivearticle1.dtd">
+<?release-delay 0|0?>
+<article article-type="research-article" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">bull</journal-id>
+<journal-title-group>
+<journal-title>The Bulletin of the Royal College of Surgeons of England</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1473-6357</issn>
+<issn pub-type="epub">1478-7075</issn>
+<publisher>
+<publisher-name>Royal College of Surgeons</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.278</article-id>
+<article-id pub-id-type="publisher-id">2017.278</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research</subject>
+</subj-group>
+<subj-group subj-group-type="rcs-spec">
+<compound-subject>
+<compound-subject-part content-type="code">adm</compound-subject-part>
+<compound-subject-part content-type="label">Hospital administration</compound-subject-part>
+</compound-subject>
+<compound-subject>
+<compound-subject-part content-type="code">emg</compound-subject-part>
+<compound-subject-part content-type="label">Emergency care</compound-subject-part>
+</compound-subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Emergency laparotomy, the ELC and quality improvement</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<surname>Aggarwal</surname>
+<given-names>G</given-names>
+</string-name>
+<role>Anaesthetic Clinical Research Fellow</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Quiney</surname>
+<given-names>N</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Consultant Anaesthetist</role>
+</contrib>
+<x>, </x>
+<aff id="AF0001"><sup>1</sup>Royal Surrey County Hospital NHS Foundation Trust</aff>
+</contrib-group>
+<pub-date pub-type="ppub"><month>07</month><year>2017</year></pub-date>
+<pub-date pub-type="epub"><month>07</month><year>2017</year></pub-date>
+<volume>99</volume>
+<issue>7</issue>
+<fpage>278</fpage>
+<lpage>280</lpage>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2017 Royal College of Surgeons</copyright-statement>
+<copyright-year>2017</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="rcsbull.2017.278.pdf" content-type="pdf"></self-uri>
+<abstract>
+<p>A look at what is being done to reduce morbidity and mortality in 29 hospitals in England.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+
+<p><bold>&#x2018;T</bold> here is no failure except in no longer trying.&#x2019;</p>
+<p>Elbert Green Hubbard (1856&#x2013;1915).</p>
+<p>Emergency laparotomy has historically been a little-studied area of anaesthetic or surgical practice. The results of recent UK and international audits<sup>1,2</sup> and the publication of a timely report commissioned by The Royal College of Surgeons of England<sup>3</sup> has concentrated attention on the standards of care delivered in our hospitals to patients admitted for emergency laparotomy.</p>
+<p>The overall results are startling. Mortality rates of between 14&#x0025; and 19&#x0025; have been reported from the UK, the US and Denmark.<sup>1,2,4</sup> Patients above the age of 80 years may have a mortality rate as high as 45&#x0025;.<sup>5</sup> Complications from sepsis remain the leading cause of death, followed by overwhelming malignancy. On top of the burdens arising from excess mortality rates, morbidity and prolonged hospital stay are not uncommon, adding to the financial demands such patients pose.</p>
+
+<p>The first report by the National Emergency Laparotomy Audit (NELA) was published in 2015.<sup>6</sup> Although seen by many as common basic care of patients, a significant proportion of patients with overt sepsis still do not receive timely antibiotics within one hour of identification of sepsis. Access to emergency theatres is patchy, especially for patients deemed to be category 2a (urgent: surgery within 2&#x2013;6 hours). Fluid resuscitation is carried out in an unscientific way and intensive care unit admission is inconsistent. Consultant (both anaesthetic and surgical) involvement at night and weekends remains poor.</p>
+
+<p>Evidence is now emerging about what strategies might be useful in addressing some of these issues. Two publications highlight the use of a care pathway to improve outcomes. A study from Denmark on patients undergoing emergency surgery for peptic ulcer perforation found a 30&#x0025; reduction in mortality<sup>7</sup> whereas the Emergency Laparotomy Pathway Quality Improvement Care bundle project (ELPQuIC)<sup>8</sup> showed a 25&#x0025; reduction in crude in-hospital mortality. The results of the EPOCH (Enhanced Peri-Operative Care for High-risk patients) trial are eagerly awaited, as are the results of a similar study in Sweden.</p>
+
+<p>However, further efforts are already being carried out to reduce mortality and morbidity in patients admitted for emergency lapa-rotomy in 29 hospitals in England (Figure 1). This &#x2018;Emergency Laparotomy Collaborative&#x2019; (ELC) is being run as a two-year quality improvement project funded by the Health Foundation. The project not only aims to reduce mortality rates in patients undergoing emergency laparotomy but also to equip participants with a basic understanding of quality improvement methodology and develop locally based Academic Health Science Networks (AHSNs) of quality improvement and collaboration.</p>
+
+<p>Much of the information for this project is available online (www.emergencylaparotomy. org.uk/). A care-bundle approach based on the original ELPQuIC publication<sup>8</sup> is being used with slight modifications. Excel&#x00AE; macros allowing clinicians to create run charts from their NELA data are available, together with publications, videos and other material. Participating hospitals will also shortly be able to compare their own performance of key metrics and outcomes across all 29 hospitals in the ELC.</p>
+
+<fig id="F1" position="float" fig-type="figure">
+<label>Figure 1</label>
+<caption><p>Poster for hospitals participating in the Emergency Laparotomy Collaborative</p></caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="rcsbull.2017.278-1.jpg"/>
+</fig>
+
+<p>The collaborative is being run using a tool known as the Model for Improvement. This was developed by the Associates in Process Improvement and derived from work by Shewhart and Deming.<sup>9</sup></p>
+<p>The consideration of an individual hospital&#x2019;s process mapping, the development of driver diagrams and the increasing use of run charts (Figure 2) has prompted participating trusts to understand the systems in which they work, and to try new ways to improve the standard of delivery of care and reduce mortality rates. The ELC launched in September 2015 with a plenary day-long meeting (120 delegates). At the meeting, the &#x2018;current state of play&#x2019; was reviewed, as was the evidence base for the proposed bundle intervention. Subsequent plenary meetings have addressed sepsis, leadership, care of the elderly laparotomy patient, variation and sustainability.</p>
+
+<fig id="F2" position="float" fig-type="figure">
+<label>Figure 2</label>
+<caption><p>Milestones for hospitals participating in the Emergency Laparotomy Collaborative</p></caption>
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="rcsbull.2017.278-2.jpg"/>
+</fig>
+
+<p>Interspersed between the cross-collaborative events are more local AHSN meetings of approximately 6&#x2013;14 hospitals. This is the real opportunity for trusts to present their own performance and share areas of success or ongoing difficulty. The local learning networks that are now being formed are crucial to the continuing success of the project and will hopefully continue once the collaborative has ended in July 2017.</p>
+
+<p>For more information, please contact the Emergency Laparotomy Network at rsc-tr.emergencylaparotomy&#x0040;nhs.net</p>
+
+</body>
+<back>
+
+<ref-list>
+<title>References</title>
+<p>1. Saunders DI, Murray D, Pichel AD <italic>et al</italic>. Variations in mortality after emergency laparotomy: the first report of the UK Emergency Laparotomy Network. <italic>Br J Anaesth </italic>2012; 109: 368&#x2013;375.</p>
+<p>2. Al-Temimi MH, Griffee M, Enniss TM <italic>et al</italic>. When is death inevitable after emergency laparotomy? Analysis of the American College of Surgeons National Surgical Quality Improvement Program database. <italic>J Am Coll Surg </italic>2012; 215: 503&#x2013;511.</p>
+<p>3. Nuffield Trust. <italic>Emergency General Surgery: Challenges and Opportunities. </italic>London: Nuffield Trust; 2016.</p>
+<p>4. Vester-Andersen M, Lundstr&#x00F8;m H, M&#x00F8;ller MH <italic>et al</italic>. Mortality and postoperative care pathways after emergency gastrointestinal surgery in 2904 patients: a population-based cohort study. <italic>Br J Anaesth </italic>2014; 112: 860&#x2013;870.</p>
+<p>5. Green G, Shaikh I, Fernandes R, Wegstapel H. Emergency laparotomy in octogenarians: a 5-year study of morbidity and mortality. <italic>World J Gastrointest Surg </italic>2013; 5: 216&#x2013;221.</p>
+<p>6. Royal College of Anaesthetists <italic>The First Patient Report of the National Emergency Laparotomy Audit</italic>. London: RCoA; 2015.</p>
+<p>7. M&#x00F8;ller MH, Adamsen S, Thomsen RW, M&#x00F8;ller AM.</p>
+<p>Multicentre trial of a perioperative protocol to reduce mortality in patients with peptic ulcer perforation. <italic>Br J Surg </italic>2011; 98: 802&#x2013;810.</p>
+<p>8. Huddart S, Peden CJ, Swart M. Use of a pathway quality improvement care bundle to reduce mortality after emergency laparotomy. <italic>Br J Surg </italic>2015; 102: 57&#x2013;66.</p>
+<p>9. Langley GJ, Moen RD, Nolan KM et al. <italic>The Improvement Guide. </italic>2nd edn. San Francisco: Jossey-Bass; 2009.</p>
+</ref-list>
+</back>
+</article>

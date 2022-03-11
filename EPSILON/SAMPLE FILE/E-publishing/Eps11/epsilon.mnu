@@ -1,0 +1,165 @@
+  File  Edit  Window  Search  Process  Utility  Help  
+
+# This file contains data for the Epsilon menu system.  The first line
+# holds the main menu bar.  Each entry must have spaces on both sides.
+# The submenus below each begin with a line that has the submenu title
+# from the main menu (again, with spaces on both sides), then the width
+# of the submenu to create, not including command bindings.  Then the
+# submenu entries, each line containing the item name, one or more tab
+# characters, and the definition (must be the name of a function to
+# execute).  A line starting with a tab puts a blank line in the menu.
+# An actual blank line ends the submenu.  A line starting with # is a 
+# comment.
+
+# If an entry contains a binding (that is, if text before the tab
+# character extends past the column width indicated for that submenu),
+# Epsilon uses the binding text as-is.  Otherwise, Epsilon adds
+# bindings when it first displays a submenu.
+
+# Copyright 1992, 1997 Lugaru Software Ltd.  Pittsburgh, PA.
+# All Rights Reserved.  (412) 421-5911.
+
+ File 20
+New			new-file
+Open...			find-file
+Save			save-file
+Save as...		write-file
+Revert to saved		revert-file
+Close			kill-current-buffer
+			####
+Copy to file...		copy-to-file
+Insert file...		insert-file
+Write region...		write-region
+			####
+Print buffer...		print-buffer
+Print region...		print-region
+			####
+Change directory...	cd
+Exit                C-X C-C		exit
+
+ Edit 17
+Undo             F-9	undo
+Redo             F-10	redo
+			####
+Cut region		kill-region
+Copy region		copy-region
+Yank			yank
+Yank pop		yank-pop
+			####
+Capitalize word		capitalize-word
+Uppercase word		uppercase-word
+Lowercase word		lowercase-word
+Transpose words		transpose-words
+			####
+Fill paragraph		fill-paragraph
+Indent region		indent-region
+Indent rigidly		indent-rigidly
+Fill mode		auto-fill-mode
+Insert ASCII...		insert-ascii
+
+ Window 23
+Select buffer...		bufed
+One window			one-window
+Kill window            C-X C-D	kill-window
+Zoom window			zoom-window
+				####
+Horizontal split		split-window
+Vertical split			split-window-vertically
+				####
+Select screen size...		set-video
+Set colors...			set-color
+Set display look...		set-display-look
+Toggle borders			toggle-borders
+Show spaces			change-show-spaces
+Change line wrapping		change-line-wrapping
+				####
+Toggle menu bar			toggle-menu-bar
+Toggle scroll bars		toggle-scroll-bar
+
+ Search 26
+Search forward...		incremental-search
+Search backward...		reverse-incremental-search
+Search forward again		forward-search-again
+Search backward again		reverse-search-again
+				###
+Grep...				grep
+Show next match           C-X C-N	next-match
+Show previous match       C-X C-P	previous-match
+				###
+Query replace...          A-r	query-replace
+File query replace...		file-query-replace
+Replace string...		replace-string
+Regex search forward...		regex-search
+Regex search backward...	reverse-regex-search
+Regex replace...          A-*	regex-replace
+				###
+Delete matching lines...	delete-matching-lines
+Keep matching lines...		keep-matching-lines
+
+ Process 20
+Make				make
+Compile buffer			compile-buffer
+				#####
+View process			view-process
+Show next error     C-X C-N	next-error
+Show previous error C-X C-P	previous-error
+				#####
+Start Concurrent		start-process
+Stop Concurrent			stop-process
+Exit Concurrent			exit-process
+Push to shell			push
+
+ Utility 23
+Pluck tag			pluck-tag
+Go to tag...			goto-tag
+Tag files...			tag-files
+Select tag file...		select-tag-file
+				#####
+Set bookmark			set-bookmark
+Set named bookmark...		set-named-bookmark
+Jump to bookmark...		jump-to-named-bookmark
+Go to line...			goto-line
+				#####
+Compare                C-X c	compare-windows
+Diff...				diff
+Visual Diff...			visual-diff
+				#####
+Sort Buffer			sort-buffer
+Sort Region			sort-region
+				#####
+Run last macro         C-X e	last-kbd-macro
+Repeat command...      C-U	argument
+Edit variables...		edit-variables
+Bind command to key...		bind-to-key
+Run another command...		named-command
+
+ Help 21
+Epsilon Manual via Info Mode	epsilon-manual-info
+Epsilon Tutorial		tutorial
+Describe key...			describe-key
+Describe command...		describe-command
+Describe variable...		describe-variable
+Apropos...			apropos
+				####
+Show bindings...		show-bindings
+What is key...			what-is
+Show last keys			show-last-keys
+Show point			show-point
+Count lines			count-lines
+				####
+Release notes			release-notes
+About Epsilon...		about-epsilon
+
+ _popup 21
+Cut				kill-region
+Copy				copy_region
+Paste				yank
+				####
+Go to Definition		pluck-tag
+Set Bookmark			set-bookmark
+Previous Bookmark		jump-to-last-bookmark
+				####
+WinHelp				windows-help
+
+
+There must be a blank line after the last item.

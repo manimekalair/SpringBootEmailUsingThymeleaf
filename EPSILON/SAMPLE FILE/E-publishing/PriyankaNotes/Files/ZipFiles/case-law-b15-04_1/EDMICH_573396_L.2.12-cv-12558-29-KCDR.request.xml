@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>EASTERN DISTRICT OF MICHIGAN</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>BEYDOUN FOODS, INC., Plaintiff/Counter-Defendant</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>7-ELEVEN, INC., Defendant/Counter-Plaintiff.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>CIVIL ACTION NO. 12-CV-12558</docket.line>
+<docket.number>12-CV-12558</docket.number>
+<docket.line suppress-flag="y">2:12-cv-12558-GCS-MKM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/11/2013</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><underscore><bold>REPORT AND RECOMMENDATION</bold></underscore></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold> DISTRICT JUDGE GEORGE CARAM STEEH MAGISTRATE JUDGE MONA K. MAJZOUB</bold>,</judge.line>
+<judge.line first-line="1">MONA K. MAJZOUB UNITED STATES MAGISTRATE JUDGE</judge.line>
+<judge.line first-line="1"><underscore>s/ Lisa C. Bartlett</underscore> Case Manager</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging">I. <bold>RECOMMENDATION:</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">Defendant/Counter-Plaintiff's motion for sanctions and/or to extend scheduling order dates (docket no. 22) should be <bold>GRANTED IN PART</bold> as discussed below. It is further recommended that Plaintiff/Counter-Defendant (&#x201C;Plaintiff&#x201D;) be ordered to pay Defendant/Counter-Plaintiff's (&#x201C;Defendant&#x201D;) attorney fees and costs in the amount of $455.00 to compensate Defendant for costs and fees it incurred in filing its January 4, 2013 motion to compel discovery. (Docket nos. 13, 21).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">II. <bold>REPORT:</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This matter comes before the Court on two matters. The first matter is Defendant's motion for sanctions and/or to extend scheduling order dates. (Docket no. 22). Plaintiff filed a response. (Docket no. 25). Defendant filed a reply. (Docket no. 26). The second matter is Defendant's bill of costs. (Docket no. 21). Plaintiff did not file an objection to the bill of costs. The motion for sanctions has been referred to the undersigned for determination pursuant to 28 U.S.C. &#167; 636(b)(1)(A). (Docket no. 23). However, because Defendant asks the Court to dismiss Plaintiff's complaint, the undersigned will proceed by Report and Recommendation pursuant to 28 U.S.C. &#167; 636(b)(1)(B). Defendant's bill of costs (docket no. 21) was not separately referred to the undersigned but was filed in compliance with an order the undersigned entered on March 6, 2013 resolving Defendant's previously referred motion to compel discovery. (Docket nos. 13, 14). The Court dispenses with oral argument on these matters pursuant to E.D. Mich. LR 7.1(f).</paratext></para>
+<para><paratext ID="p3" level="1">Defendant served Interrogatories and Requests for Production of Documents to Plaintiff on October 30, 2012, seeking responses to twelve Interrogatories and sixteen document requests. (Docket no. 13, ex. C). On January 4, 2013, after Plaintiff failed to respond to the discovery requests, Defendant file a motion to compel discovery. (Docket no. 13). Plaintiff failed to file a response to the motion. On March 6, 2013, the Court granted Defendant's motion and ordered Plaintiff to serve full and complete responses to Defendant's Interrogatories and Requests for Production of Documents without objections by March 14, 2013. In addition, the Court directed Defendant to present a bill of costs incurred in filing the motion and warned Plaintiff that it may be subject to further sanctions if it failed to comply with the order.</paratext></para>
+<para><paratext ID="p4" level="1">On March 15, 2013 Defendant filed the instant motion for sanctions. (Docket no. 22). Defendant also filed a bill of costs in compliance with the March 2013 Court order. (Docket no. 21). In its motion for sanctions Defendant contends that Plaintiff failed to comply with the March 2013 order. Defendant also states that Plaintiff has failed to file a witness list. Defendant asks the Court to order all sanctions possible under Fed.R.Civ.P. 37(b)(2) and in particular to dismiss Plaintiff's complaint and grant Defendant a default judgment on its counterclaim. Defendant also seeks costs and attorney fees incurred in filing the motion for sanctions. In the alternative, Defendant asks the Court to assess other appropriate sanctions against Plaintiff and extend the scheduling order dates for Defendant only.</paratext></para>
+<para><paratext ID="p5" level="1">Plaintiff has responded to the motion and states that its &#x201C;delay in furnishing responses&#x201D; to discovery was caused by a disruption in the attorney-client relationship. Plaintiff also excuses its noncompliance by arguing that Defendant does not need Plaintiff to produce the requested documents because it has the information it requests already in its possession. Plaintiff claims that it will serve responses and answers to the requests by March 29, 2013 and promises to vigorously prosecute this action. On April 3, 2013 Defendant filed a reply stating that Plaintiff served written responses to the document requests indicating that it would produce documents, but it has not produced any of the requested documents. The reply indicates that Plaintiff has not responded to the Interrogatories. Fact discovery closed April 15, 2013 and the dispositive motion deadline closed June 14, 2013. (Docket no. 11).</paratext></para>
+<para><paratext ID="p6" level="1">Fed.R.Civ.P. 37(b)(2)(A) provides a non-inclusive list of sanctions the Court may impose against a party who fails to obey a discovery order. Those sanctions include:</paratext>
+<para><paratext ID="p7" first-line="1" turnover="1">(i) directing that the matters embraced in the order or other designated facts be taken as established for purposes of the action;</paratext></para>
+<para><paratext ID="p8" first-line="1" turnover="1">(ii) prohibiting the disobedient party from supporting or opposing designated claims or defenses, or from introducing designated matters in evidence;</paratext></para>
+<para><paratext ID="p9" first-line="1" turnover="1">(iii) striking pleadings in whole or in part;</paratext></para>
+<para><paratext ID="p10" first-line="1" turnover="1">(iv) staying further proceedings until the order is obeyed;</paratext></para>
+<para><paratext ID="p11" first-line="1" turnover="1">(v) dismissing the action or proceeding in whole or in part;</paratext></para>
+<para><paratext ID="p12" first-line="1" turnover="1">(vi) rendering a default judgment against the disobedient party; or</paratext></para>
+<para><paratext ID="p13" first-line="1" turnover="1">(vii) treating as contempt of court the failure to obey any order except an order to submit to a physical or mental examination.</paratext></para>
+<paratext ID="p14" contd-flag="y">Fed.R.Civ.P. 37(b)(2)(A). Sanctions may also include an order requiring the party failing to act to pay the reasonable expenses, including attorney's fees, caused by the party's failure. Fed.R.Civ.P. 37(b)(2)(C), (d)(3).</paratext></para>
+<para><paratext ID="p15" level="1">Dismissal of an action or entry of a default judgment for failure to cooperate in discovery are sanctions of last resort and should only be employed &#x201C;if the court concludes that a party's failure to cooperate in discovery is due to willfulness, bad faith, or fault.&#x201D; <ital>Bank One of Cleveland, N.A. v. Abbe</ital>, 916 F.2d 1067, 1073 (6th Cir. 1990) (citation omitted). Before imposing such drastic sanctions the court should consider whether the moving party was prejudiced by the opposing party's failure to cooperate in discovery, whether the opposing party was warned that failure to cooperate could lead to dismissal or default, and whether less drastic sanctions were imposed or considered. <ital>Id.</ital> (citation omitted). &#x201C;[B]ecause dismissal is a harsh sanction, it should be employed only in extreme situations when other less drastic sanctions have proven unavailing.&#x201D; <ital>MQVP, Inc. v. Keystone Auto. Indus., Inc.</ital>, No,. 07-10248, 2009 WL 817856, at *1 (E.D. Mich. Mar. 27, 2009) (citation omitted).</paratext></para>
+<para><paratext ID="p16" level="1">In the present case Defendant seeks all available sanctions under Rule 37(b)(2)(A) but primarily dismissal of Plaintiff's complaint and entry of a default judgment in Defendant's favor on its counterclaim. Defendant has clearly been prejudiced in its defense of this action by Plaintiff's failure, and Plaintiff was warned that sanctions may be imposed if it failed to comply with the March 6, 2013 order. Nevertheless, the undersigned recommends that the Court deny Defendant's request to dismiss the action or enter a default judgment at this time. Instead, given Plaintiff's assertion that it will vigorously prosecute this action, the undersigned suggests that Plaintiff be ordered to do the following:</paratext>
+<para><paratext ID="p17" first-line="1" turnover="1">(1) provide full and complete written responses to Defendant's Interrogatories without objections,</paratext></para>
+<para><paratext ID="p18" first-line="1" turnover="1">(2) produce without objection all documents responsive to Defendant's Requests for Production of Documents which Plaintiff has within its possession, custody, or control,</paratext></para>
+<para><paratext ID="p19" first-line="1" turnover="1">(3) serve its written Interrogatory responses and all documents responsive to Defendant's Requests for Production of Documents on Defendant within seven days of entry of an order adopting this recommendation,</paratext></para>
+<para><paratext ID="p20" first-line="1" turnover="1">(4) pay the reasonable expenses, including attorney fees, incurred by Defendant as a result of filing this motion, and</paratext></para>
+<para><paratext ID="p21" first-line="1" turnover="1">(5) pay a monetary sanction to Defendant in the amount of $1,500.00 within seven days of entry of an order adopting this recommendation.</paratext></para>
+</para>
+<para><paratext ID="p22" level="1">In addition, the Court should direct Defendant to submit to the Court within twenty-one days from entry of an order adopting this recommendation a bill of costs itemizing the costs and fees associated with filing the instant motion for sanctions. Furthermore, the Court should enter an amended scheduling order extending discovery for Defendant only and extending the date for filing dispositive motions. Finally, Plaintiff should be clearly warned that failure to comply with an order adopting this recommendation may result in further sanctions, including dismissal of Plaintiff's complaint with prejudice and/or entry of a default judgment in favor of Defendant on Defendant's counterclaim.</paratext></para>
+<para><paratext ID="p23" level="1">In addition to the above, the Court should grant Defendant's bill of costs (docket no. 21) and order Plaintiff to pay to Defendant the amount of $455.00 within seven days from entry of an order adopting this recommendation. The bill of costs shows that Defendant's counsel spent 1.3 hours at an hourly rate of $350 on conferring with Plaintiff's counsel and preparing Defendant's January 4, 2013 motion to compel. The undersigned suggests that both the hourly rate and the amount of time expended on the motion to compel are reasonable.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>REVIEW OF REPORT AND RECOMMENDATION</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p24" level="1">The parties to this action may object to and seek review of this Report and Recommendation, but are required to file any objections within 14 days of service, as provided for in Federal Rule of Civil Procedure 72(b)(2) and Local Rule 72.1(d). Failure to file specific objections constitutes a waiver of any further right of appeal. <ital>Thomas v. Arn</ital>, 474 U.S. 140 (1985); <ital>Howard v. Sec'y of Health &#38; Human Servs.</ital>, 932 F.2d 505 (6th Cir. 1991). Filing objections that raise some issues but fail to raise others with specificity will not preserve all the objections a party might have to this Report and Recommendation. <ital>Willis v. Sec'y of Health &#38; Human Servs.</ital>, 931 F.2d 390, 401 (6th Cir. 1991); <ital>Smith v. Detroit Fed'n of Teachers Local 231</ital>, 829 F.2d 1370, 1373 (6th Cir. 1987). Pursuant to Local Rule 72.1(d)(2), any objections must be served on this Magistrate Judge.</paratext></para>
+<para><paratext ID="p25" level="1">Any objections must be labeled as &#x201C;Objection No. 1,&#x201D; &#x201C;Objection No. 2,&#x201D; etc. Any objection must recite precisely the provision of this Report and Recommendation to which it pertains. Not later than 14 days after service of an objection, the opposing party may file a concise response proportionate to the objections in length and complexity. Fed.R.Civ.P. 72(b)(2), Local Rule 72.1(d). The response must specifically address each issue raised in the objections, in the same order, and labeled as &#x201C;Response to Objection No. 1,&#x201D; &#x201C;Response to Objection No. 2,&#x201D; etc. If the Court determines that any objections are without merit, it may rule without awaiting the response.</paratext></para>
+<para><paratext ID="p26" level="1">Dated: September 11, 2013</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>PROOF OF SERVICE</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p27" level="1">I hereby certify that a copy of this Report and Recommendation was served upon Counsel of Record on this date. Dated: September 11, 2013</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

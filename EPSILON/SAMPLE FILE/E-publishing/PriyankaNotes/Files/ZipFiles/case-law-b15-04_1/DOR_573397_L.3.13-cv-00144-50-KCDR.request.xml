@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE DISTRICT OF OREGON</venue.name>
+<venue.name>PORTLAND DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>COUNTY OF MULTNOMAH, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>MORTGAGE ELECTRONIC REGISTRATION SYSTEM, INC., et al., Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>No. 3:13-cv-00144-HZ</docket.line>
+<docket.number>3:13-cv-00144-HZ</docket.number>
+<docket.line suppress-flag="y">3:13-cv-00144-HZ</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/18/2013</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Brent L. Crumpton, BRENT L. CRUMPTON, P.C., 3755 Village Lane, Birmingham, AL 35233</attorney.line>
+<attorney.line first-line="1">Craig L. Lowell, WIGGINS, CHILDS, QUINN &#38; PANTAZIS, LCC, 301 19 th Street North, Birmingham, AL 35203</attorney.line>
+<attorney.line first-line="1">Thomas D. D'Amore D'AMORE LAW GROUP, PC 4230 Galewood Street, Suite 200, Lake Oswego, OR 97035, Attorneys for Plaintiff</attorney.line>
+<attorney.line first-line="1">Gregory A. Chaimov, DAVIS WRIGHT TREMAINE, LLP, 1300 SW Fifth Avenue, Suite 2400, Portland, OR 97201-5630, Attorney for Mortgage Electronic Registration System, Inc.</attorney.line>
+<attorney.line first-line="1">Gregory A. Chaimov, DAVIS WRIGHT TREMAINE, LLP, 1300 SW Fifth Avenue, Suite 2400, Portland, OR 97201-5630, Attorney for MERSCORP Holdings, Inc.</attorney.line>
+<attorney.line first-line="1">Joseph F. Yenouskas, Thomas M. Hefferon, GOODWIN PROCTER LLP, 901 New York Ave. NW, Washington, DC 20001</attorney.line>
+<attorney.line first-line="1">Pilar C. French, Brian R. Kiolbasa, LANE POWELL, PC, 601 SW Second Avenue, Suite 2100, Portland, OR 97204-3158, Attorneys for Bank of America N.A.</attorney.line>
+<attorney.line first-line="1">Joseph F. Yenouskas, Thomas M. Hefferon, GOODWIN PROCTER LLP, 901 New York Ave. NW, Washington, DC 20001</attorney.line>
+<attorney.line first-line="1">Pilar C. French, Brian R. Kiolbasa, LANE POWELL, PC, 601 SW Second Avenue, Suite 2100, Portland, OR 97204-3158, Attorneys for CCO Mortgage Corporation</attorney.line>
+<attorney.line first-line="1">Gregory A. Chaimov, DAVIS WRIGHT TREMAINE, LLP, 1300 SW Fifth Avenue, Suite 2400, Portland, OR 97201-5630, Attorney for Chase Home Mortgage Corporation of the Southeast</attorney.line>
+<attorney.line first-line="1">Lucia Nale, Thomas V. Panoff., MAYER BROWN LLP, 71 South Wacker Drive, Chicago, IL 60606</attorney.line>
+<attorney.line first-line="1">Russell D Garrett, Leta E. Gorman, JORDAN RAMIS, P.C., Two Centerpointe Drive, 6th Floor, Lake Oswego, OR 97035, Attorneys for CitiMortgage, Inc.</attorney.line>
+<attorney.line first-line="1">Joseph F. Yenouskas, Thomas M. Hefferon, GOODWIN PROCTER LLP, 901 New York Ave. NW Washington, DC 20001</attorney.line>
+<attorney.line first-line="1">Pilar C. French, Brian R. Kiolbasa, LANE POWELL, PC 601 SW Second Avenue Suite 2100 Portland, OR 97204-3158, Attorneys for EverHome Mortgage Company</attorney.line>
+<attorney.line first-line="1">Louis A. Santiago HOLLAND &#38; KNIGHT, LLP 2300 US Bancorp Tower 111 SW Fifth Avenue Portland, OR 97204, Attorney for Guaranty Bank</attorney.line>
+<attorney.line first-line="1">B. John Casey, K&#38;L GATES LLP, 222 SW Columbia Street, Suite 1400, Portland, OR 97201-6632</attorney.line>
+<attorney.line first-line="1">Gregory J. Marshall, SNELL &#38; WILMER L.L.P. One Arizona Center, 400 East Van Buren, Phoenix, AZ 85004-2202, Attorneys for HSBC Finance Corporation</attorney.line>
+<attorney.line first-line="1">Evelyn English Winters, BULLIVANT HOUSER BAILEY, PC, 300 Pioneer Tower, 888 SW Fifth Avenue, Portland, OR 97204</attorney.line>
+<attorney.line first-line="1">Katheryn M. Lloyd, Michael H. Carpenter, CARPENTER LIPPS &#38; LELAND LLP, 280 N. High Street, Suite 1300, Columbus, OH 43215, Attorneys for Nationwide Advantage Mortgage Company</attorney.line>
+<attorney.line first-line="1">B. John Casey, K&#38;L GATES LLP, 222 SW Columbia Street, Suite 1400, Portland, OR 97201-6632,</attorney.line>
+<attorney.line first-line="1">Gregory J. Marshall, SNELL &#38; WILMER L.L.P., One Arizona Center 400 East Van Buren, Phoenix, AZ 85004-2202, Attorneys for Suntrust Mortgage, Inc.</attorney.line>
+<attorney.line first-line="1">Joseph F. Yenouskas, Thomas M. Hefferon, GOODWIN PROCTER LLP, 901 New York Ave. NW, Washington, DC 20001</attorney.line>
+<attorney.line first-line="1">Pilar C. French, Brian R. Kiolbasa, LANE POWELL, PC, 601 SW Second Avenue, Suite 2100, Portland, OR 97204-3158, Attorneys for Wells Fargo Bank, National Association</attorney.line>
+<attorney.line first-line="1">Gregory A. Chaimov, DAVIS WRIGHT TREMAINE, LLP, 1300 SW Fifth Avenue, Suite 2400, Portland, OR 97201-5630, Attorney for WMC Mortgage Corporation</attorney.line>
+<attorney.line first-line="1">Laura J. Walker, CABLE HUSTON BENEDICT HAAGENSEN &#38; LLOYD, LLP, 1001 SW 5th Avenue, Suite 2000, Portland, OR 97204-1136, Attorney for Lewis and Clark Bancorp</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">OPINION &#38; ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">MARCO HERNANDEZ United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">HERNANDEZ, District Judge:</paratext></para>
+<para><paratext ID="p2" level="1">Plaintiff Multnomah County, Oregon, brought this action in state court against defendants Mortgage Electronic Registration Systems, Inc. (&#x201C;MERS&#x201D;), MERSCORP Holdings, Inc., and eighteen banks and other entities that are in the business of selling and servicing mortgages. Five of the defendants named in the Complaint are citizens of Oregon (&#x201C;Oregon defendants&#x201D;). The other defendants are citizens of states other than Oregon (&#x201C;non-resident defendants&#x201D;). The essence of plaintiff's Complaint is that defendants made false representations in order to avoid paying county recording fees reflecting the assignment and/or transfer of trust deeds in Multnomah County.</paratext></para>
+<para><paratext ID="p3" level="1">Non-resident defendants removed the case to this Court and plaintiff filed a Motion to Remand (doc. #25). Non-resident defendants argue that plaintiff fraudulently joined Oregon defendants in an effort to defeat diversity jurisdiction. Alternatively, non-resident defendants urge the Court to drop Oregon defendants pursuant to Federal Rules of Civil Procedure 19 and 21. Non-resident defendants also submit a request for the Court to take judicial notice of five documents (doc. #32), and a Motion for Leave to File Surreply in Opposition to Plaintiff's Motion for Remand (doc. #46).</paratext></para>
+<para><paratext ID="p4" level="1">The Court takes judicial notice of the documents and grants non-resident defendants' motion to file a surreply. However, for the reasons discussed below, the Court concludes that remanding the case to state court is proper. Accordingly, plaintiffs' Motion to Remand (doc. #25) is GRANTED.</paratext></para>
+</section.body>
+<head><headtext align="center">BACKGROUND</headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Plaintiff alleges that defendants established Mortgage Electronic Registration Systems, Inc. (&#x201C;MERS&#x201D;) in order to avoid paying required recording fees concurrent with the assignment of mortgage loans. Compl. &#182; 26. According to plaintiff, defendants listed MERS as the &#x201C;beneficiary&#x201D; of trust deeds recorded within Multnomah County. <underscore>Id.</underscore> at &#182; 40. Plaintiff alleges that under Oregon law, MERS cannot be a beneficiary, &#x201C;because a beneficiary is the party that owns the note, namely the lender or its successor.&#x201D; <underscore>Id.</underscore> at &#182; 42. Plaintiff further alleges that &#x201C;before a nonjudicial foreclosure can be held,&#x201D; the Oregon Trust Deed Act (&#x201C;OTDA&#x201D;) requires the recording of &#x201C;all assignments of a trust deed.&#x201D; <underscore>Id.</underscore> at &#182; 47. Plaintiff claims that by using MERS, defendants filed documents attesting to compliance with the OTDA without having properly recorded all assignments of trust deeds. <underscore>Id.</underscore> at &#182; 48. Plaintiff alleges that defendants have avoided paying millions of dollars to plaintiff in recording fees. <underscore>Id.</underscore> at p. 27.</paratext></para>
+<para><paratext ID="p6" level="1">Plaintiff initially brought claims in Oregon state court for violations of the Unlawful Trade Practices Act (&#x201C;UTPA&#x201D;), ORS &#167;&#167; 646.605 <ital>et seq.</ital>, violations of Oregon's Racketeer Influenced and Corrupt Organization Act (&#x201C;ORICO&#x201D;), ORS &#167;&#167; 166.715 <ital>et. seq.</ital>, Unjust Enrichment/Quasi-Contract, Negligence, Gross Negligence, and Fraudulent Misrepresentation. <underscore>Id.</underscore> at &#182;&#182; 54-89.</paratext></para>
+</section.body>
+<head><headtext align="center">STANDARDS</headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">A civil action may be removed from state court to federal court &#x201C;when the action initiated in state court is one that could have been brought, originally, in a federal district court.&#x201D; <underscore>Lincoln Prop. Co. v. Roche</underscore>, 546 U.S. 81, 83-84 (2005). However, where removal is predicated on the diversity of citizenship of the parties, removal is permissible &#x201C;only if none of the parties in interest properly joined and served as defendants is a citizen of the State in which [the] action [was] brought.&#x201D; 28 U.S.C. &#167; 1441(b)(2); <underscore>Id.</underscore> There is a strong presumption against removal jurisdiction; therefore, the burden of establishing federal jurisdiction is on the removing party and &#x201C;the court resolves all ambiguity in favor of remand to state court.&#x201D; <underscore>Hunter v. Philip Morris USA</underscore>, 582 F.3d 1039, 1042 (9th Cir. 2009) (citation omitted).</paratext></para>
+<para><paratext ID="p8" level="1">&#x201C;Although an action may be removed to federal court only where there is complete diversity of citizenship, 28 U.S.C. &#167;&#167; 1332(a), 1441(b), one exception to the requirement for complete diversity is where a non-diverse defendant has been &#x2018;fraudulently joined.&#x2019;&#x201D; <underscore>Id.</underscore> at 1043 (quotation marks and citations omitted). Joinder is fraudulent &#x201C;if the plaintiff fails to state a cause of action against a resident defendant, and the failure is obvious according to the settled rules of the state.&#x2019;&#x201D; <underscore>McCabe v. Gen. Foods Corp.</underscore>, 811 F.2d 1336, 1339 (9th Cir. 1987). &#x201C;The defendant seeking removal to the federal court is entitled to present the facts showing the joinder to be fraudulent.&#x201D; <underscore>Id.</underscore> If joinder is found to be fraudulent, the court &#x201C;may ignore the presence of [the resident] defendant for the purpose of establishing diversity.&#x201D; <underscore>Hunter</underscore>, 582 F.3d at 1043 (citation omitted).</paratext></para>
+</section.body>
+<head><headtext align="center">DISCUSSION</headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging">I. Request to Take Judicial Notice</headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Non-resident defendants request that the Court take judicial notice of five documents, including a transcript of proceedings at a Multnomah County Commission Board Meeting, financial reports showing the assets of defendants, and a transcript of a speech made by the Multnomah County Commission Chair. Defs.' Request Judicial Notice 2-4.</paratext></para>
+<para><paratext ID="p10" level="1">The Court has the power to take judicial notice of facts &#x201C;capable of accurate and ready determination by resort to sources whose accuracy cannot be reasonably questioned.&#x201D; Fed. R. Evid. 201(b). Because the documents that defendants submit are all based on information that is a matter of public record, I grant the request to take judicial notice.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">II. Motion to Remand</headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">Plaintiff moves to remand this case to state court due to lack of diversity of citizenship of the parties. Non-resident defendants oppose the motion. Non-resident defendants argue that Oregon defendants were fraudulently joined or, alternatively, that the Court should exercise its discretion and dismiss Oregon defendants pursuant to Rules 19 and 21. These arguments fail.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">A. Fraudulent Joinder</headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">In analyzing a claim of fraudulent joiner, the proper inquiry is whether plaintiff states &#x201C;a cause of action against a resident defendant.&#x201D; <underscore>McCabe</underscore>, 811 F.2d at 1339. Fraudulent joinder is established only where a diverse defendant shows that the non-diverse defendant &#x201C;cannot be liable on any theory.&#x201D; <underscore>Ritchey v. Upjohn Drug Co.</underscore>, 139 F.3d 1313, 1318 (9th Cir. 1998). The claim of fraudulent joinder &#x201C;must be proven by clear and convincing evidence.&#x201D; <underscore>Hamilton Materials, Inc., v. Dow Chem. Corp.</underscore>, 494 F.3d 1203, 1206 (9th Cir. 2007). &#x201C;Doubt arising from merely inartful, ambiguous, or technically defective pleadings should be resolved in favor of remand.&#x201D; <underscore>Lewis v. Time Inc.</underscore>, 83 F.R.D. 455, 460 (E.D. Cal. 1979), <underscore>aff'd</underscore>, 710 F.2d 549 (9th Cir. 1983). A plaintiff's intent when including a resident defendant in a cause of action is not relevant to an analysis of fraudulent joinder. <underscore>Selman v. Pfizer, Inc.</underscore>, No. 11-cv-1400-HU, 2011 WL 6655354, at *6 (D. Or. Dec. 16, 2011). To shift the focus of the inquiry &#x201C;from an examination of the factual and legal bases for a plaintiff's claims as pled to an examination of the plaintiff's motives <charfill numchar="3">&#8228;</charfill> is unsupported by existing case law, is contrary to the law stated in the Ninth Circuit, and would be unworkable in practice.&#x201D; <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p13" level="1">Non-resident defendants argue that plaintiff fails to provide &#x201C;any specific factual allegations <charfill numchar="3">&#8228;</charfill> that support a cause of action&#x201D; against Oregon defendants. Defs.' Opp. 10. Nonresident defendants contend that many of plaintiff's factual allegations only apply to non-resident defendants, such as the allegations that defendants established MERS, are shareholders in MERS, and should be held liable for activities of MERS and MERSCORP. <underscore>Id.</underscore> Non-resident defendants also argue that plaintiff fails to show any involvement by Oregon defendants in the central claim of the case&#8212;&#x201D;that loans secured by deeds of trust were transferred, trust deed assignments not recorded, and recording fees left unpaid.&#x201D; <underscore>Id.</underscore> at 11. Furthermore, non-resident defendants argue that plaintiff has no intent of obtaining a judgment against Oregon defendants because they are insignificant in size and financial worth as compared to the non-resident defendants. <underscore>Id.</underscore> Non-resident defendants also point to the fact that plaintiff did not sue 4,900 other MERS members as proof that plaintiff made a &#x201C;strategic decision&#x201D; to sue the five resident defendants &#x201C;merely to try [to] avoid federal jurisdiction.&#x201D; <underscore>Id.</underscore> at 12. Finally, defendants quote from statements made at a public meeting where the Multnomah County Board of Commissioners approved filing this lawsuit. <underscore>Id.</underscore> According to defendants, these statements demonstrate plaintiff's lack of intent to obtain a judgment from Oregon defendants. <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p14" level="1">Plaintiff's position is that the Complaint alleges specific facts establishing a viable claim against Oregon defendants. Memo. Supp. Pl.'s Mot. Remand 3. Plaintiff argues that the Complaint alleges that <underscore>all</underscore> defendants are liable for withholding filing fees from plaintiff, both through their own individual actions, as well as actions taken in connection with MERS. <underscore>Id.</underscore> Plaintiff alleges that each of the Oregon defendants has recorded trust deeds naming MERS as beneficiary, in violation of Oregon law. <underscore>Id.</underscore> at 4.</paratext></para>
+<para><paratext ID="p15" level="1">Even if some of plaintiff's claims are aimed solely at non-resident defendants, many of plaintiff's factual allegations are identical against Oregon and non-resident defendants. For example, plaintiff claims that &#x201C;defendants failed to file assignments as required by statute prior to non-judicial foreclosure.&#x201D; Compl. &#182; 24. Plaintiff also claims that &#x201C;defendants have failed to <charfill numchar="3">&#8228;</charfill> pay the accompanying fees to Plaintiff for notes in the trusts attached to mortgages filed with the Multnomah County recorder of deeds.&#x201D; <underscore>Id.</underscore> at &#182; 35. Additionally, non-resident defendants' argument regarding plaintiff's intent is speculative and misplaced. As stated above, a plaintiff's intent is irrelevant in determining whether a party was fraudulently joined. The relative size and wealth of defendants or testimony by the Multnomah County Board of Commissioners is not instructive in determining whether plaintiff states a cause of action against Oregon defendants. While perhaps plaintiff could have more clearly specified in the Complaint which claims refer to all defendants as opposed to only non-resident defendants, plaintiff has nevertheless stated a cause of action against Oregon defendants. Non-resident defendants fail to carry their burden of persuasion in showing that Oregon defendants were fraudulently joined.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">B. Discretionary Dismissal of Parties</headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">Because plaintiff properly filed the Complaint in state court against non-diverse defendants, this Court lacks jurisdiction to proceed. <underscore>See</underscore> 28 U.S.C. &#167; 1447 (c) (&#x201C;If at any time before final judgment it appears that the district court lacks subject matter jurisdiction, the case shall be remanded.&#x201D;) Nevertheless, non-resident defendants argue that this Court should dismiss Oregon defendants pursuant to Rule 21 in order to create diversity jurisdiction and maintain the action in federal court. Both parties argue that in deciding whether to dismiss Oregon defendants, the Court must determine whether they are indispensable under Rule 19.</paratext></para>
+<para><paratext ID="p17" level="1">The parties do not cite, and I do not find, a controlling case requiring this Court to consider dropping non-diverse parties in order to create diversity jurisdiction, when a plaintiff properly filed a Complaint in state court. In general, &#x201C;the plaintiff is the master of the complaint&#x201D; and has the option of naming those parties the plaintiff chooses to sue. <underscore>Lincoln Prop. Co. v. Roche</underscore>, 546 U.S. 81, 91 (2005) (citation omitted).</paratext></para>
+<para><paratext ID="p18" level="1">Even if the Court had jurisdiction to consider dropping Oregon defendants pursuant to Rule 21, I would decline to do so. There is a &#x201C;social interest in the efficient administration of justice and the avoidance of multiple litigation.&#x201D; <underscore>Republic of Philippines v. Pimentel</underscore>, 553 U.S. 851, 870 (2008) (citation omitted). Taking into account the interest in judicial efficiency and the strong presumption against removal, I see no good reason to create parallel litigations in state and federal court.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">III. Motion for Leave to File Surreply</headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">Defendants move for leave to file a surreply in opposition to plaintiff's Motion to Remand. LR 7-1(e)(3) states that &#x201C;unless directed by the Court, no further briefing is allowed&#x201D; beyond a response to a motion and a subsequent reply.</paratext></para>
+<para><paratext ID="p20" level="1">Defendants submit that good cause exists for filing the brief because plaintiff has raised &#x201C;multiple new arguments&#x201D; and case law not found in plaintiff's opening brief. Defs.' Mot. File Surreply 1. Plaintiff argues that defendants' assertion that plaintiff raised new arguments in its Reply to Defendants' Objection to Plaintiff's Motion to Remand is without merit.</paratext></para>
+<para><paratext ID="p21" level="1">Because plaintiffs Reply could be construed as introducing new arguments, I grant defendants leave to file a surreply. However, defendants fail to introduce any arguments in their surreply that change my decision to grant the Motion to Remand.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p22" level="1">Based on the reasons above, defendants' request for judicial notice (doc. #32) and defendants' Motion for Leave to File Surreply (doc. #46) are GRANTED.</paratext></para>
+<para><paratext ID="p23" level="1">Because plaintiff and Oregon defendants are citizens of Oregon, and because the Court finds that it would be inappropriate to drop properly joined, non-diverse defendants from this litigation, plaintiffs Motion for Remand (doc. #25) is GRANTED.</paratext></para>
+<para><paratext ID="p24" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p25" level="1">Dated this <underscore>18</underscore> day of <underscore>april</underscore>, 2013.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

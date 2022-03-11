@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold><underscore>CIVIL MINUTES&#8212;GENERAL</underscore></bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>Raymond Bernal</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>United Parcel Service</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No. EDCV 08-1579-VAP (OPx)</bold></docket.line>
+<docket.number><bold>EDCV 08-1579-VAP (OPx)</bold></docket.number>
+<docket.line suppress-flag="y">5:08-cv-01579-VAP-OP</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/27/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1"><bold>Maynor Galvez</bold>, Deputy Clerk, <bold>ATTORNEYS PRESENT FOR PLAINTIFFS</bold>: Jason K. Feldman</attorney.line>
+<attorney.line first-line="1"><bold>N/A</bold>, Court Reporter / Recorder, <bold>ATTORNEYS PRESENT FOR DEFENDANTS</bold>: Katherine C. Huibonhoa</attorney.line>
+<attorney.line first-line="1"><bold>CS-RS-3</bold> Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS: (PLAINTIFF'S MOTION TO COMPEL PRODUCTION OF DOCUMENTS (Dkt. No. 21))</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>THE HONORABLE OSWALD PARADA</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="center"><bold>I. <underscore>Background</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="0">Plaintiff's Complaint alleges the following four claims: 1) Interference with Rights and Discrimination under the Family and Medical Leave (&#x201C;FMLA&#x201D;) (29 U.S.C. &#167; 2615); 2) Wrongful Termination; 3) Intentional Infliction of Emotional Distress; and 4) Negligent Infliction of Emotional Distress.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Plaintiff alleges that between August 2007 through December 2007 and March 2008 through December 2008, UPS certified him for FMLA leave due to a panic and anxiety disorder. Plaintiff alleges that he developed the disorder after suffering years of harassment by supervisors and managers at UPS after he twice reported hazardous waste violations by UPS. On or about March 25, 2008, UPS terminated Plaintiff for alleged misuse of FMLA leave. (JS at 1.)</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p2">&#8195;On October 13, 2009, Plaintiff filed a Motion for Leave to file a First Amended Complaint (&#x201C;FAC&#x201D;), along with a proposed FAC containing the same four claims. (Dkt. Nos. 24, 25.) However, the proposed FAC contains additional factual allegations not contained in the Complaint. The Court has not yet ruled on the Motion.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p3" level="0">On October 10, 2009, the parties filed a Joint Stipulation (&#x201C;JS&#x201D;) Re: Plaintiff's Motion to Compel Production of Documents. Plaintiff seeks an order compelling the production of personnel records of eight known supervisors while Plaintiff was employed by Defendant. (JS at 1.) On October 13, 2009, Plaintiff filed a Supplemental Memorandum in support of the Motion to Compel. On October 27, 2009, the matter came on for a hearing.</paratext></para>
+<para><paratext ID="p4" level="0">For the reasons set forth below, the Court grants in part and denies in part Plaintiff's Motion to Compel.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. <underscore>Discussion</underscore></bold></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. <underscore>Legal Authority</underscore>.</bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="0">Under the Federal Rules of Civil Procedure, the parties may obtain discovery regarding any matter that is (1) not privileged and (2) relevant to any party's claim or defense. Fed. R. Civ. P. 26(b) (1). Relevant information need not be admissible at trial if the discovery appears reasonably calculated to lead to the discovery of admissible evidence. <underscore>Id.</underscore> The scope of discovery under the Federal Rules is extremely broad. A relevant matter is &#x201C;any matter that bears on, or that reasonably could lead to other matters that could bear on, any issue that is or may be in the case.&#x201D; <underscore>Oppenheimer Fund, Inc. v. Sanders</underscore>, 437 U.S. 340, 351, 98 S. Ct. 2380, 2389, 57 L. Ed. 2d 253 (1978) (citing <underscore>Hickman v. Taylor</underscore>, 329 U.S. 495, 501, 67 S. Ct. 385, 388, 91 L. Ed. 451 (1947)). Because discovery is designed to define and clarify the issues, it is not limited to only those specific issues raised in the pleadings. <underscore>Miller v. Pancucci</underscore>, 141 F.R.D. 292, 296 (CD. Cal. 1992) (citing <underscore>Oppenheimer</underscore>, 437 U.S. at 351)). Rather, the question of relevancy should be &#x201C;construed liberally and with common sense&#x201D; and discovery should be allowed unless the information sought has no conceivable bearing on the case. <underscore>Miller</underscore>, 141 F.R.D. at 296. The party resisting discovery has the burden of clarifying, explaining, and supporting its objections. <underscore>Nestle Foods Corp. v. Aetna Cas. and Sur. Co.</underscore>, 135 F.R.D. 101, 104 (D.N.J. 1990) (citing <underscore>Tele-Radio Systems Ltd. v. De Forest Electronics</underscore>, 92 F.R.D. 371, 375 (D.N.J. 1981)).</paratext></para>
+<para><paratext ID="p6" level="0">A constitutionally-based right of privacy can be raised in response to discovery requests. <underscore>See Breed v. United States Dist. Ct. for Northern District</underscore>, 542 F.2d 1114, 1116 (9th Cir. 1976) (balancing the invasion of minors privacy rights against the court's need for ward files); <underscore>Cook v. Yellow Freight Svs., Inc.</underscore>, 132 F.R.D. 548, 550-51 (E.D. Cal. 1990) (balancing targeted individual's right of privacy against public's need for discovery in employment discrimination case). The party or person whose privacy is affected may either object to the discovery request or seek a protective order. <underscore>Laxalt v. McClatchy</underscore>, 809 F.2d 885, 889 (D.C. Cir. 1987). Resolution of a privacy objection or request for a protective order requires a balancing of the need for the information sought against the privacy right asserted. <underscore>Perry v. State Farm Fire &#38; Cas. Co.</underscore>, 734 F.2d 1441, 1447 (11th Cir. 1984) (requests for court orders for release of information from government agencies should be evaluated by balancing need for disclosure against potential harm to the subject of the disclosure); <underscore>Rubin v. Regents of Univ. of Calif.</underscore>, 114 F.R.D. 1 (N.D. Cal. 1986) (balancing university's interest in confidentiality against plaintiff's need to prove discrimination). A carefully drafted protective order could minimize the impact of this disclosure. <underscore>See Kelly v. City of San Jose</underscore>, 114 F.R.D. 653, 666 (N.D. Cal. 1987).</paratext></para>
+<para><paratext ID="p7" level="0">Federal courts recognize a person's interest in preserving the confidentiality of sensitive information contained in personnel files. <underscore>Detroit Edison Co. v. N.L.R.B.</underscore>, 440 U.S. 301, 319 n.16, 99 S. Ct. 1123, 59 L. Ed. 2d 333 (1979) (noting recognition in both federal and state legislation governing the recordkeeping activities of public employers and agencies); <underscore>Regan-Touhy v. Walgreen Co.</underscore>, 526 F.3d 641, 648-49 (10th Cir. 2008) (&#x201C;[P]ersonnel files often contain sensitive personal information<charfill numchar="3">&#8228;</charfill> and it is not unreasonable to be cautious about ordering their entire contents disclosed willy-nilly.&#x201D;); <underscore>Whittingham v. Amherst College</underscore>, 164 F.R.D. 124, 127-28 (D. Mass. 1995) (&#x201C;[P]ersonnel files contain perhaps the most private information about an employee within the possession of an employer.&#x201D;); <underscore>Miles v. Boeing Co.</underscore>, 154 F.R.D. 112, 115 (E.D. Pa. 1994) (personnel files are confidential and discovery of them should be limited). Even where strong public policy against disclosure exists, as in the case of personnel files, discovery is nonetheless allowed if the material sought is &#x201C;clearly relevant,&#x201D; and the need for discovery is compelling because the information sought is not otherwise readily obtainable. <underscore>Matter of Hawaii Corp.</underscore>, 88 F.R.D. 518, 524 (D.C. Hawaii 1980).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>B. <underscore>Plaintiff's Requests for Production of Documents</underscore>.</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="0">Plaintiff seeks the production of documents contained in the personnel files of supervisors Marsha Drescher, Marco Velthius, Taurus Smith, Louis Soohoo, Kevin Kenley, Robert Rodriguez, Dave Bender, and Fred Parker. Plaintiff makes the following identical request as to all eight supervisors:</paratext>
+<para><paratext ID="p9" first-line="1" turnover="1">Request No. 10-17: All DOCUMENTS that relate or refer to any letters, memorandums, evaluations and/or reviews of job performance, reprimands, warnings, discipline, supervisor complaints, employee complaints, responses to complaints, grievances, notes of grievance meetings or hearings and results of grievance proceedings regarding the job performance of [supervisor].</paratext></para>
+<paratext ID="p10" contd-flag="y">Plaintiff relies on <underscore>Sprint/United Management Co. v. Mendelsohn</underscore>, 128 S. Ct. 1140, 170 L. Ed. 2d 1 (2008), in support of his contention that information concerning other UPS employees with similar grievances against these supervisors is relevant to this litigation. (JS at 12-13.) In <underscore>Sprint</underscore>, the plaintiff alleged age discrimination in connection with her layoff and sought to introduce evidence from five other employees who claimed that they, too, had been laid off because of their age (so-called &#x201C;me, too&#x201D; evidence). The &#x201C;me, too&#x201D; witnesses worked in different groups and under different supervisors than the plaintiff. <underscore>Sprint</underscore>, 128 S. Ct. at 1143. The Supreme Court held that evidence of discrimination by other supervisors was not <underscore>per se</underscore> admissible or inadmissible. Rather, the relevance and admissibility is &#x201C;fact based and depends on many factors, including how closely related the evidence is to the plaintiff's circumstances and theory of the case.&#x201D; <underscore>Id.</underscore> at 1147.</paratext></para>
+<para><paratext ID="p11" level="0">In opposition to the requests, Defendant contends that the documents are not discoverable because the supervisors are not parties to this action, they were not involved in the decision to terminate Plaintiff, and that their privacy rights outweigh any possible probative value of the requested documents. (JS at 3.) Further, Defendant contends that Plaintiff seeks personnel documents without any restrictions as to subject matter or time. (<underscore>Id.</underscore> at 6.) Finally, Defendants contend that, should the Court order discovery to be produced, any such discovery should be limited to Plaintiff's actual supervisors and to documents relating to his FMLA termination claim. (<underscore>Id.</underscore> at 9, 10.)</paratext></para>
+<para><paratext ID="p12" level="0">During the hearing, counsel for both sides provided clarification as to the roles each of the named supervisors allegedly played in connection with Plaintiff's leave under the FMLA and subsequent termination, counsels' respective positions as to the relevant time frame involved, and their respective positions as to the appropriate limitation regarding subject matter.</paratext></para>
+<para><paratext ID="p13" level="0">Based on the clarification provided by counsel, the Court finds that discovery is warranted only as to supervisors Marsha Drescher, Marco Velthius, and Taurus Smith. Although these supervisors were not involved in the actual decision to terminate Plaintiff, Ms. Drescher was involved in the investigation into the appropriateness of Plaintiff's FMLA leave and was present during his termination hearing. Mr. Velthuis and Mr. Taurus were also involved in the investigation as to the appropriateness of Plaintiff's FMLA leave and provided that information to Ms. Drescher. As to the remaining supervisors, the Court finds that Plaintiff has failed to make a sufficient showing regarding the need to obtain information from their personnel files.</paratext></para>
+<para><paratext ID="p14" level="0">As to the appropriate time frame, the Court finds that the relevant time frame is May 2005 (when Plaintiff was first certified for FMLA leave) to March 25, 2008 (the date Plaintiff was terminated for alleged misuse of FMLA leave).</paratext></para>
+<para><paratext ID="p15" level="0">As to the scope of the requested discovery, the Court finds that discovery of letters, memoranda, reprimands, warnings, discipline, supervisor complaints, employee complaints, responses to complaints, grievances, notes of grievance meetings or hearings, and results of grievance proceedings regarding Plaintiff's use or alleged misuse of FMLA leave or the use or alleged misuse of FMLA leave by other employees (not including the three named supervisors) who worked at the Ontario, California facility during the relevant time frame is warranted. <underscore>See Sprint</underscore>, 128 S. Ct. at 1143, 1147.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. <underscore>Conclusion</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="0">Based on the foregoing, the Court grants in part and denies in part Plaintiff's Motion to Compel. No later than October 29, 2009, Defendant shall produce the following documents from the personnel files of supervisors Marsha Drescher, Marco Velthius, and Taurus Smith:</paratext>
+<para><paratext ID="p17" first-line="1" turnover="hanging">1) All letters, memoranda, reprimands, warnings, discipline, supervisor complaints, employee complaints, responses to complaints, grievances, notes of grievance meetings or hearings, and results of grievance proceedings regarding Plaintiff's use or alleged misuse of FMLA leave or the use or alleged misuse of FMLA leave by other employees (not including the three named supervisors) who worked at the Ontario, California facility during the relevant time frame, i.e., May 2005 to March 25, 2008;</paratext></para>
+<para><paratext ID="p18" first-line="1" turnover="hanging">2) All responsive documents shall be produced subject to a protective order. If no protective order has been approved by the Court, the parties shall submit a proposed stipulation re: protective order forthwith; and</paratext></para>
+<para><paratext ID="p19" first-line="1" turnover="hanging">3) Plaintiff's request for sanctions is denied.</paratext></para>
+</para>
+<para><paratext ID="p20" level="0">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p21" level="1">cc: All Parties of Record</paratext></para>
+<para><paratext ID="p22" level="1"><underscore>2:00</underscore></paratext></para>
+<para><paratext ID="p23" level="0">Initials of Deputy Clerk <underscore>MG</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

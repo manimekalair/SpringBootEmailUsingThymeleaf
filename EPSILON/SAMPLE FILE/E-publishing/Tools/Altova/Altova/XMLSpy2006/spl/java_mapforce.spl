@@ -1,0 +1,533 @@
+[
+'-------------------------------------------------------------
+' Java Mapforce Project Template
+'
+' Copyright (C) 2002-2005 Altova GmbH - The XMLSPY Company
+' All rights reserved.
+'
+' MapForce generates Java classes based on this template.
+' Refer to the MapForce documentation for further details.
+'
+' http://www.altova.com/mapforce
+'-------------------------------------------------------------
+
+map type "boolean"				to "SchemaBoolean"
+
+map type "byte"					to "SchemaByte"
+map type "unsignedByte"			to "SchemaShort"
+map type "short"				to "SchemaShort"
+map type "unsignedShort"		to "SchemaInt"
+map type "int"					to "SchemaInt"
+map type "unsignedInt"			to "SchemaLong"
+map type "long"					to "SchemaLong"
+map type "unsignedLong"			to "SchemaInteger"
+
+map type "integer"				to "SchemaInteger"
+map type "nonPositiveInteger"	to "SchemaInteger"
+map type "negativeInteger"		to "SchemaInteger"
+map type "positiveInteger"		to "SchemaInteger"
+map type "nonNegativeInteger"	to "SchemaInteger"
+
+map type "float"				to "SchemaFloat"
+map type "double"				to "SchemaDouble"
+map type "decimal"				to "SchemaDecimal"
+
+map type "duration"				to "SchemaDuration"
+map type "gYear"				to "SchemaString"
+map type "gDay"					to "SchemaString"
+map type "gMonth"				to "SchemaString"
+map type "gYearMonth"			to "SchemaString"
+map type "gMonthDay"			to "SchemaString"
+map type "date"					to "SchemaDate"
+map type "time"					to "SchemaTime"
+map type "dateTime"				to "SchemaDateTime"
+
+map type "anyURI"				to "SchemaAnyURI"
+map type "QName"				to "SchemaString"
+map type "NOTATION"				to "SchemaString"
+map type "string"				to "SchemaString"
+map type "normalizedString"		to "SchemaString"
+map type "token"				to "SchemaString"
+map type "language"				to "SchemaString"
+map type "Name"					to "SchemaString"
+map type "NMTOKEN"				to "SchemaString"
+map type "NMTOKENS"				to "SchemaString"
+map type "NCName"				to "SchemaString"
+map type "ID"					to "SchemaString"
+map type "IDREF"				to "SchemaString"
+map type "IDREFS"				to "SchemaString"
+map type "ENTITY"				to "SchemaString"
+map type "ENTITIES"				to "SchemaString"
+
+map type "hexBinary"			to "SchemaHexBinary"
+map type "base64Binary"			to "SchemaBase64Binary"
+
+map type "anySimpleType"		to "SchemaString"
+
+map type "anyType"				to "com.altova.xml.AnyTypeNode"
+
+
+default "ValidFirstCharSet"			is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+default "ValidCharSet"				is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_0123456789"
+default "InvalidCharReplacement"	is "_"
+default "AnonTypePrefix"			is ""
+default "AnonTypeSuffix"			is "Type"
+default "ClassNamePrefix"			is ""
+default "ClassNameSuffix"			is ""
+default "EnumerationPrefix"			is "E"
+default "EnumerationUpperCase"		is "on"
+default "FallbackName"				is "Name"
+
+reserve "altova"
+reserve "abstract"
+reserve "boolean"
+reserve "break"
+reserve "byte"
+reserve "case"
+reserve "catch"
+reserve "char"
+reserve "class"
+reserve "const"
+reserve "continue"
+reserve "default"
+reserve "do"
+reserve "double"
+reserve "else"
+reserve "extends"
+reserve "false"
+reserve "final"
+reserve "finally"
+reserve "float"
+reserve "for"
+reserve "goto"
+reserve "if"
+reserve "implements"
+reserve "import"
+reserve "instanceof"
+reserve "int"
+reserve "interface"
+reserve "long"
+reserve "native"
+reserve "new"
+reserve "null"
+reserve "package"
+reserve "private"
+reserve "protected"
+reserve "public"
+reserve "return"
+reserve "short"
+reserve "static"
+reserve "strictfp"
+reserve "super"
+reserve "switch"
+reserve "synchronized"
+reserve "this"
+reserve "throw"
+reserve "throws"
+reserve "transient"
+reserve "true"
+reserve "try"
+reserve "void"
+reserve "volatile"
+reserve "while"
+reserve "Class" ' to prevent method name collision with getClass
+reserve "value"
+reserve "Node" ' getNode in text/BaseType
+
+$FullPackageDir		= ""
+$FullPackageName	= ""
+$QualifiedBase		= ""
+$QualifiedType		= ""
+$QualifiedValueType	= ""
+$IsQualified		= ""
+$module				= ""
+
+$AlgorithmGroupClass	= ""
+
+
+'-----------------------------------------------------------
+' Altova Package
+'-----------------------------------------------------------
+create $outputpath & "/com/altova/AltovaException.java"	: include "java/altova/AltovaException.java"	: close
+create $outputpath & "/com/altova/UserException.java"	: include "java/altova/UserException.java"	: close
+create $outputpath & "/com/altova/TraceProvider.java"	: include "java/altova/TraceProvider.java"		: close
+create $outputpath & "/com/altova/TraceTarget.java"		: include "java/altova/TraceTarget.java"		: close
+
+
+'-----------------------------------------------------------
+' Altova Common-Types Package
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/com/altova/types/"
+'Exceptions
+create $BasePath & "SchemaTypeException.java"			: include "java/altova/types/SchemaTypeException.java"			: close
+create $BasePath & "NotANumberException.java"			: include "java/altova/types/NotANumberException.java"			: close
+create $BasePath & "StringParseException.java"			: include "java/altova/types/StringParseException.java"			: close
+create $BasePath & "TypesIncompatibleException.java"	: include "java/altova/types/TypesIncompatibleException.java"	: close
+create $BasePath & "ValuesNotConvertableException.java"	: include "java/altova/types/ValuesNotConvertableException.java": close
+'Types
+create $BasePath & "SchemaTypeFactory.java"				: include "java/altova/types/SchemaTypeFactory.java"			: close
+
+create $BasePath & "SchemaType.java"					: include "java/altova/types/SchemaType.java"					: close
+create $BasePath & "SchemaTypeNumber.java"				: include "java/altova/types/SchemaTypeNumber.java"				: close
+create $BasePath & "SchemaTypeCalendar.java"			: include "java/altova/types/SchemaTypeCalendar.java"			: close
+create $BasePath & "SchemaTypeBinary.java"				: include "java/altova/types/SchemaTypeBinary.java"				: close
+
+create $BasePath & "SchemaBoolean.java"					: include "java/altova/types/SchemaBoolean.java"				: close
+create $BasePath & "SchemaByte.java"					: include "java/altova/types/SchemaByte.java"					: close
+create $BasePath & "SchemaShort.java"					: include "java/altova/types/SchemaShort.java"					: close
+create $BasePath & "SchemaInt.java"						: include "java/altova/types/SchemaInt.java"					: close
+create $BasePath & "SchemaLong.java"					: include "java/altova/types/SchemaLong.java"					: close
+create $BasePath & "SchemaInteger.java"					: include "java/altova/types/SchemaInteger.java"				: close
+create $BasePath & "SchemaDecimal.java"					: include "java/altova/types/SchemaDecimal.java"				: close
+create $BasePath & "SchemaDouble.java"					: include "java/altova/types/SchemaDouble.java"					: close
+create $BasePath & "SchemaFloat.java"					: include "java/altova/types/SchemaFloat.java"					: close
+
+create $BasePath & "SchemaCalendarBase.java"			: include "java/altova/types/SchemaCalendarBase.java"			: close
+create $BasePath & "SchemaDate.java"					: include "java/altova/types/SchemaDate.java"					: close
+create $BasePath & "SchemaTime.java"					: include "java/altova/types/SchemaTime.java"					: close
+create $BasePath & "SchemaDateTime.java"				: include "java/altova/types/SchemaDateTime.java"				: close
+create $BasePath & "SchemaDuration.java"				: include "java/altova/types/SchemaDuration.java"				: close
+
+create $BasePath & "SchemaBinaryBase.java"				: include "java/altova/types/SchemaBinaryBase.java"				: close
+create $BasePath & "SchemaBase64Binary.java"			: include "java/altova/types/SchemaBase64Binary.java"			: close
+create $BasePath & "SchemaHexBinary.java"				: include "java/altova/types/SchemaHexBinary.java"				: close
+
+create $BasePath & "SchemaString.java"					: include "java/altova/types/SchemaString.java"					: close
+create $BasePath & "SchemaAnyURI.java"					: include "java/altova/types/SchemaAnyURI.java"					: close
+create $BasePath & "SchemaNormalizedString.java"		: include "java/altova/types/SchemaNormalizedString.java"		: close
+create $BasePath & "SchemaToken.java"					: include "java/altova/types/SchemaToken.java"					: close
+create $BasePath & "SchemaLanguage.java"				: include "java/altova/types/SchemaLanguage.java"				: close
+create $BasePath & "SchemaName.java"					: include "java/altova/types/SchemaName.java"					: close
+create $BasePath & "SchemaNMToken.java"					: include "java/altova/types/SchemaNMToken.java"				: close
+create $BasePath & "SchemaNCName.java"					: include "java/altova/types/SchemaNCName.java"					: close
+create $BasePath & "SchemaID.java"						: include "java/altova/types/SchemaID.java"						: close
+create $BasePath & "SchemaIDRef.java"					: include "java/altova/types/SchemaIDRef.java"					: close
+create $BasePath & "SchemaEntity.java"					: include "java/altova/types/SchemaEntity.java"					: close
+
+
+'-----------------------------------------------------------
+' Altova XML Package
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/com/altova/xml/"
+create $BasePath & "Document.java"		: include "java/altova/xml/Document.java"		: close
+create $BasePath & "Node.java"			: include "java/altova/xml/Node.java"			: close
+create $BasePath & "AnyTypeNode.java"	: include "java/altova/xml/AnyTypeNode.java"	: close
+create $BasePath & "XmlException.java"	: include "java/altova/xml/XmlException.java"	: close
+
+
+'-----------------------------------------------------------
+' Altova Database Package
+'-----------------------------------------------------------
+if $DBLibraryCount > 0
+	$BasePath = $outputpath & "/com/altova/db/"
+	create $BasePath & "DbException.java"			: include "java/altova/db/DbException.java"				: close
+	create $BasePath & "DbConnectionException.java"	: include "java/altova/db/DbConnectionException.java"	: close
+	create $BasePath & "DbExecuteException.java"	: include "java/altova/db/DbExecuteException.java"		: close
+	create $BasePath & "DbTransactionException.java": include "java/altova/db/DbTransactionException.java"	: close
+	create $BasePath & "FieldValue.java"			: include "java/altova/db/FieldValue.java"				: close
+	create $BasePath & "Command.java"				: include "java/altova/db/Command.java"					: close
+	create $BasePath & "Database.java"				: include "java/altova/db/Database.java"				: close
+	create $BasePath & "RecordSet.java"				: include "java/altova/db/RecordSet.java"				: close
+endif
+
+'-----------------------------------------------------------
+' Altova Text Parser Package
+'-----------------------------------------------------------
+if $EDILibraryCount > 0
+	$OutBasePath = $outputpath & "/com/"
+	
+	create $OutBasePath & "altova/text/BaseType.java"				:	include "java/altova/text/BaseType.java"				:	close
+	create $OutBasePath & "altova/text/edifact/Function.java"				:	include "java/altova/text/edifact/Function.java"				:	close
+	create $OutBasePath & "altova/text/Generator.java"				:	include "java/altova/text/Generator.java"				:	close
+	create $OutBasePath & "altova/text/edifact/Scanner.java"				:	include "java/altova/text/edifact/Scanner.java"					:	close
+	create $OutBasePath & "altova/text/edifact/StringToFunctionMap.java"			:	include "java/altova/text/edifact/StringToFunctionMap.java"			:	close
+	create $OutBasePath & "altova/text/edifact/TextDocument.java"				:	include "java/altova/text/edifact/TextDocument.java"				:	close
+	create $OutBasePath & "altova/text/flex/Appender.java"				:	include "java/altova/text/flex/Appender.java"	: close
+	create $OutBasePath & "altova/text/flex/ColumnDelimited.java"				:	include "java/altova/text/flex/ColumnDelimited.java"	: close
+	create $OutBasePath & "altova/text/flex/ColumnFixed.java"				:	include "java/altova/text/flex/ColumnFixed.java"	: close
+	create $OutBasePath & "altova/text/flex/Command.java"			:    include "java/altova/text/flex/Command.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandBlock.java"			:    include "java/altova/text/flex/CommandBlock.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandCSV.java"			:    include "java/altova/text/flex/CommandCSV.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandFLF.java"			:    include "java/altova/text/flex/CommandFLF.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandProject.java"			:    include "java/altova/text/flex/CommandProject.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandSplitMultiple.java"				:	include "java/altova/text/flex/CommandSplitMultiple.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandSplitSingle.java"			:    include "java/altova/text/flex/CommandSplitSingle.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandStore.java"				:	include "java/altova/text/flex/CommandStore.java"   :   close
+	create $OutBasePath & "altova/text/flex/CommandSwitch.java"				:	include "java/altova/text/flex/CommandSwitch.java"   :   close
+	create $OutBasePath & "altova/text/flex/Condition.java"				:	include "java/altova/text/flex/Condition.java"	: close
+	create $OutBasePath & "altova/text/flex/DocumentReader.java"				:	include "java/altova/text/flex/DocumentReader.java"   :   close
+	create $OutBasePath & "altova/text/flex/DocumentWriter.java"				:	include "java/altova/text/flex/DocumentWriter.java"	: close
+	create $OutBasePath & "altova/text/flex/Range.java"				:	include "java/altova/text/flex/Range.java"   :   close
+	create $OutBasePath & "altova/text/flex/SplitAtDelimiter.java"				:	include "java/altova/text/flex/SplitAtDelimiter.java"   :   close
+	create $OutBasePath & "altova/text/flex/SplitAtDelimiterLineBased.java"				:	include "java/altova/text/flex/SplitAtDelimiterLineBased.java"   :   close
+	create $OutBasePath & "altova/text/flex/SplitAtDelimiterLineBasedMultiple.java"				:	include "java/altova/text/flex/SplitAtDelimiterLineBasedMultiple.java"   :   close
+	create $OutBasePath & "altova/text/flex/SplitAtPosition.java"				:	include "java/altova/text/flex/SplitAtPosition.java"   :   close
+	create $OutBasePath & "altova/text/flex/SplitLines.java"				:	include "java/altova/text/flex/SplitLines.java"   :   close
+	create $OutBasePath & "altova/text/flex/Splitter.java"				:	include "java/altova/text/flex/Splitter.java"   :   close
+	create $OutBasePath & "altova/text/flex/TextDocument.java"				:	include "java/altova/text/flex/TextDocument.java"   :   close
+	create $OutBasePath & "altova/text/TextNode.java"				:	include "java/altova/text/TextNode.java"				:	close
+	create $OutBasePath & "altova/text/RootTextNode.java"				:	include "java/altova/text/RootTextNode.java"				:	close
+	create $OutBasePath & "altova/text/NullTextNode.java"				:	include "java/altova/text/NullTextNode.java"				:	close
+	create $OutBasePath & "altova/text/TextNodeXMLSerializer.java"			:	include "java/altova/text/TextNodeXMLSerializer.java"			:	close
+	create $OutBasePath & "altova/text/FileIO.java"			:	include "java/altova/text/FileIO.java"			:	close
+	create $OutBasePath & "altova/text/edifact/EDIFactElementSerializer.java"		:	include "java/altova/text/edifact/EDIFactElementSerializer.java"		:	close
+	create $OutBasePath & "altova/text/edifact/ServiceStringAdvice.java"			:	include "java/altova/text/edifact/ServiceStringAdvice.java"			:	close
+	create $OutBasePath & "altova/text/AlwaysEmptyTextNodeList.java"		:	include "java/altova/text/AlwaysEmptyTextNodeList.java"			:	close
+	create $OutBasePath & "altova/text/ITextNode.java"				:	include "java/altova/text/ITextNode.java"				:	close
+	create $OutBasePath & "altova/text/ITextNodeList.java"				:	include "java/altova/text/ITextNodeList.java"				:	close
+	create $OutBasePath & "altova/text/TextNodeList.java"				:	include "java/altova/text/TextNodeList.java"				:	close
+	create $OutBasePath & "altova/text/TextNodeListIterator.java"			:	include "java/altova/text/TextNodeListIterator.java"			:	close
+	create $OutBasePath & "altova/text/edifact/DataCompletion.java"				:	include "java/altova/text/edifact/DataCompletion.java"				:	close
+	create $OutBasePath & "altova/text/edifact/MakeSureHasChild.java"			:	include "java/altova/text/edifact/MakeSureHasChild.java"			:	close
+	create $OutBasePath & "altova/text/edifact/EDIFactDataCompletion.java"			:	include "java/altova/text/edifact/EDIFactDataCompletion.java"			:	close
+	create $OutBasePath & "altova/text/edifact/EDIFactSettings.java"			:	include "java/altova/text/edifact/EDIFactSettings.java"				:	close
+	create $OutBasePath & "altova/text/edifact/EDISettings.java"				:	include "java/altova/text/edifact/EDISettings.java"				:	close
+	create $OutBasePath & "altova/text/edifact/EDIX12DataCompletion.java"			:	include "java/altova/text/edifact/EDIX12DataCompletion.java"			:	close
+	create $OutBasePath & "altova/text/edifact/EDIX12Settings.java"				:	include "java/altova/text/edifact/EDIX12Settings.java"				:	close
+	create $OutBasePath & "altova/text/edifact/commands/Command.java"			:	include "java/altova/text/edifact/commands/Command.java"			:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandBackChar.java"		:	include "java/altova/text/edifact/commands/CommandBackChar.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandCallFunction.java"		:	include "java/altova/text/edifact/commands/CommandCallFunction.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandEnter.java"			:	include "java/altova/text/edifact/commands/CommandEnter.java"			:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandEscapeChar.java"		:	include "java/altova/text/edifact/commands/CommandEscapeChar.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandIgnoreChar.java"		:	include "java/altova/text/edifact/commands/CommandIgnoreChar.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandIgnoreValue.java"		:	include "java/altova/text/edifact/commands/CommandIgnoreValue.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandLeave.java"			:	include "java/altova/text/edifact/commands/CommandLeave.java"			:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandList.java"			:	include "java/altova/text/edifact/commands/CommandList.java"			:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandSeparatorChar.java"		:	include "java/altova/text/edifact/commands/CommandSeparatorChar.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandStoreChar.java"		:	include "java/altova/text/edifact/commands/CommandStoreChar.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandStoreValue.java"		:	include "java/altova/text/edifact/commands/CommandStoreValue.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/CommandWhileLoop.java"		:	include "java/altova/text/edifact/commands/CommandWhileLoop.java"		:	close
+	create $OutBasePath & "altova/text/edifact/commands/ICommand.java"			:	include "java/altova/text/edifact/commands/ICommand.java"			:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ConditionList.java"		:	include "java/altova/text/edifact/conditions/ConditionList.java"		:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ConditionCurrentContext.java"	:	include "java/altova/text/edifact/conditions/ConditionCurrentContext.java"		:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ConditionSeparator.java"		:	include "java/altova/text/edifact/conditions/ConditionSeparator.java"		:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ConditionSiblingContext.java"	:	include "java/altova/text/edifact/conditions/ConditionSiblingContext.java"	:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ConditionValue.java"		:	include "java/altova/text/edifact/conditions/ConditionValue.java"		:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ConditionFollowCharacter.java"	:	include "java/altova/text/edifact/conditions/ConditionFollowCharacter.java"		:	close
+	create $OutBasePath & "altova/text/edifact/conditions/ICondition.java"			:	include "java/altova/text/edifact/conditions/ICondition.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/ColumnSpecification.java"			:	include "java/altova/text/tablelike/ColumnSpecification.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/Header.java"				:	include "java/altova/text/tablelike/Header.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/IRecordBasedParserObserver.java"		:	include "java/altova/text/tablelike/IRecordBasedParserObserver.java"		:	close
+	create $OutBasePath & "altova/text/tablelike/ISerializer.java"				:	include "java/altova/text/tablelike/ISerializer.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/MappingException.java"			:	include "java/altova/text/tablelike/MappingException.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/Record.java"				:	include "java/altova/text/tablelike/Record.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/RecordBasedParser.java"			:	include "java/altova/text/tablelike/RecordBasedParser.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/Serializer.java"				:	include "java/altova/text/tablelike/Serializer.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/StringList.java"				:	include "java/altova/text/tablelike/StringList.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/Table.java"				:	include "java/altova/text/tablelike/Table.java"					:	close
+	create $OutBasePath & "altova/text/tablelike/csv/BadFormatException.java"		:	include "java/altova/text/tablelike/csv/BadFormatException.java"		:	close
+	create $OutBasePath & "altova/text/tablelike/csv/Format.java"				:	include "java/altova/text/tablelike/csv/Format.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/csv/Parser.java"				:	include "java/altova/text/tablelike/csv/Parser.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/csv/ParserException.java"			:	include "java/altova/text/tablelike/csv/ParserException.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/csv/ParserState.java"			:	include "java/altova/text/tablelike/csv/ParserState.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/csv/ParserStateFactory.java"		:	include "java/altova/text/tablelike/csv/ParserStateFactory.java"		:	close
+	create $OutBasePath & "altova/text/tablelike/csv/ParserStateInsideField.java"		:	include "java/altova/text/tablelike/csv/ParserStateInsideField.java"		:	close
+	create $OutBasePath & "altova/text/tablelike/csv/ParserStateInsideQuotedField.java"	:	include "java/altova/text/tablelike/csv/ParserStateInsideQuotedField.java"	:	close
+	create $OutBasePath & "altova/text/tablelike/csv/ParserStateWaitingForField.java"	:	include "java/altova/text/tablelike/csv/ParserStateWaitingForField.java"	:	close
+	create $OutBasePath & "altova/text/tablelike/csv/Serializer.java"			:	include "java/altova/text/tablelike/csv/Serializer.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/flf/Format.java"				:	include "java/altova/text/tablelike/flf/Format.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/flf/Parser.java"				:	include "java/altova/text/tablelike/flf/Parser.java"				:	close
+	create $OutBasePath & "altova/text/tablelike/flf/ParserException.java"			:	include "java/altova/text/tablelike/flf/ParserException.java"			:	close
+	create $OutBasePath & "altova/text/tablelike/flf/Serializer.java"			:	include "java/altova/text/tablelike/flf/Serializer.java"			:	close
+endif
+
+'-----------------------------------------------------------
+' Altova / Mapforce Function Libraries
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/com/altova/functions/"
+create $BasePath & "Core.java"		: include "java/altova/functions/Core.java"		: close
+create $BasePath & "Db.java"		: include "java/altova/functions/Db.java"		: close
+create $BasePath & "Lang.java"		: include "java/altova/functions/Lang.java"		: close
+create $BasePath & "Edifact.java"	: include "java/altova/functions/Edifact.java"	: close
+
+include "LibraryTextHelpers.spl"
+
+if $application.IsWebService = 1
+	filecopy $application.WSDLService.WSDLFullFileName to $outputpath & "/" & $JavaPackageDir & "/" & $application.WSDLService.WSDLFileName 
+	$WSDLFileName = $JavaPackageDir & "/" & $application.WSDLService.WSDLFileName
+		
+	create $outputpath & "/deploy.wsdd"
+		include "java/mapforce/MapforceDeploy.wsdd"
+	close
+	create $outputpath & "/undeploy.wsdd"
+		include "java/mapforce/MapforceUndeploy.wsdd"
+	close
+endif
+
+$IsWSDLAndUsesRpcEncoding=0 
+' checked in LibraryNode, must be zero so that other schema types work
+' There should be better solution for this
+
+'-----------------------------------------------------------
+' Wrapper Libraries
+'-----------------------------------------------------------
+foreach $library in $application.Libraries
+	$module = $library.UniqueName
+	if not $library.IsDuplicate
+		$FullPackageDir  = $JavaPackageDir & "/" & $library.UniqueName
+		$FullPackageName = $JavaPackageName & "." & $library.UniqueName
+		$LibraryPackageDir = $FullPackageDir
+		$LibraryPackageName = $FullPackageName
+		if $library.Kind = 1
+			'---------------------------------------------------
+			' XML Library
+			'---------------------------------------------------
+			$namespaces = 	$library.Namespaces
+			$classes = 		$library.Classes
+			create $outputpath & "/" & $FullPackageDir & "/" & $library.UniqueName & "Doc.java"
+				include "java/library/xml/LibraryDoc.java"
+			close
+			foreach $class in $library.Classes
+				if $class.NamespacePrefix = ""
+					$FullPackageDir  = $LibraryPackageDir
+					$FullPackageName = $LibraryPackageName
+				else
+					$FullPackageDir  = $LibraryPackageDir & "/" & $class.NamespacePrefix
+					$FullPackageName = $LibraryPackageName & "." & $class.NamespacePrefix
+				endif
+				if not $class.IsInternal
+					create $outputpath & "/" & $FullPackageDir & "/" & $class.Name & ".java"
+						include "java/library/xml/LibraryNode.java" 
+					close
+				endif
+			next
+		endif
+		if $library.Kind = 5
+			'---------------------------------------------------
+			' WSDL Library
+			'---------------------------------------------------
+			
+			if $BindingStyle="rpc" and $BindingUse="encoded"
+				$IsWSDLAndUsesRpcEncoding=1
+			endif
+				
+			foreach $class in $library.Schema.Classes
+				if $class.NamespacePrefix = ""
+					$FullPackageDir  = $LibraryPackageDir
+					$FullPackageName = $LibraryPackageName
+				else
+					$FullPackageDir  = $LibraryPackageDir & "/" & $class.NamespacePrefix
+					$FullPackageName = $LibraryPackageName & "." & $class.NamespacePrefix
+				endif
+				if not $class.IsInternal
+					create $outputpath & "/" & $FullPackageDir & "/" & $class.Name & ".java"
+						include "java/library/xml/LibraryNode.java"
+					close
+				endif
+			next
+			
+			foreach $class in $library.Messages
+				if $class.NamespacePrefix = ""
+					$FullPackageDir  = $LibraryPackageDir
+					$FullPackageName = $LibraryPackageName
+				else
+					$FullPackageDir  = $LibraryPackageDir & "/" & $class.NamespacePrefix
+					$FullPackageName = $LibraryPackageName & "." & $class.NamespacePrefix
+				endif
+				$namespaces = 	$library.Schema.Namespaces
+				$module = $class.UniqueName 
+				create $outputpath & "/" & $FullPackageDir & "/" & $module & "Doc.java"
+					include "java/library/xml/LibraryDoc.java"
+				close
+
+				create $outputpath & "/" & $FullPackageDir & "/" & $module & ".java"
+					include "java/library/xml/LibraryNode.java" 
+				close
+			next
+			
+			$IsWSDLAndUsesRpcEncoding=0
+			
+		endif
+		if $library.Kind = 2
+			'---------------------------------------------------
+			' Database Library
+			'---------------------------------------------------
+			create $outputpath & "/" & $FullPackageDir & "/" & $library.UniqueName & "Database.java"
+				include "java/library/db/LibraryDatabase.java"
+			close
+			foreach $table in $library.Tables
+				create $outputpath & "/" & $FullPackageDir & "/" & $table.Name & "Set.java"
+					include "java/library/db/LibraryRecordSet.java"
+				close
+			next
+		endif
+		if $library.Kind = 3
+			'---------------------------------------------------
+			' Text Parser Library
+			'---------------------------------------------------
+			create $outputpath & "/" & $FullPackageDir & "/" & $library.UniqueName & "Document.java"
+				include "java/library/text/LibraryTextDocument.java"
+			close
+			' create the handlers
+			create $outputpath & "/" & $FullPackageDir & "/" & "HandlerFactory.java"
+				include "java/library/text/LibraryTextHandler.java"
+			close
+			' create the functions
+			create $outputpath & "/" & $FullPackageDir & "/" & "FunctionFactory.java"
+				include "java/library/text/LibraryTextFunction.java"
+			close
+			' create the type nodes
+			foreach $node in $library.Nodes
+				create $outputpath & "/" & $FullPackageDir & "/" & $node.Name & "Type.java"
+					include "java/library/text/LibraryTextType.java"
+				close
+			next
+		endif
+	endif
+next
+
+'-----------------------------------------------------------
+' MAPFORCE Application
+'-----------------------------------------------------------
+' generate algorithm-group
+include "java/mapforce/AlgorithmGroup_Interface.spl"
+include "java/mapforce/AlgorithmGroup_Library.spl"
+include "java/mapforce/AlgorithmGroup_Exec.spl"
+
+foreach $Mapping in $application.Mappings
+
+	' generate main-mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+		$classname = $application.Name & $AlgorithmGroup.Name
+		$classfilename = $classname
+		create $outputpath & "/" & $JavaPackageDir & "/" & $classfilename & ".java"
+			include "java/mapforce/AlgorithmGroup.java"
+		close
+	next
+
+	'generate userdefined-functions
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+		$classname = $AlgorithmGroup.Name
+		$classfilename = $AlgorithmGroup.LocalFunctionNamespace & "/" & $AlgorithmGroup.Name
+		create $outputpath & "/" & $JavaPackageDir & "/" & $classfilename & ".java"
+			include "java/mapforce/AlgorithmGroup.java"
+		close
+	next
+
+next
+
+
+if $application.IsWebService =1
+	create $outputpath & "/" & $JavaPackageDir & "/" & $application.WSDLService.Name & "WebService.java"
+		include "java/mapforce/ApplicationWebService.java"
+	close
+	
+	filecopy $application.WSDLService.WSDLFullFileName to $outputpath & "/" & $JavaPackageDir & "/" & $application.WSDLService.WSDLFileName 
+else
+	create $outputpath & "/" & $JavaPackageDir & "/" & $application.Name & "Console.java"
+		include "java/mapforce/ApplicationConsole.java"
+	close
+
+	create $outputpath & "/" & $JavaPackageDir & "/" & $application.Name & "Application.java"
+		include "java/mapforce/Application.java"
+	close
+
+	create $outputpath & "/" & $JavaPackageDir & "/" & $application.Name & "Frame.java"
+		include "java/mapforce/ApplicationFrame.java"
+	close
+
+	filecopy "java/mapforce/mapforce.png" to $outputpath & "/" & $JavaPackageDir & "/mapforce.png"
+endif
+create $outputpath & "/build.xml"						: include "java/mapforce/MapforceBuild.xml"	: close
+create $outputpath & "/" & $application.Name & ".jpx"	: include "java/mapforce/Mapforce.jpx"	: close
+]

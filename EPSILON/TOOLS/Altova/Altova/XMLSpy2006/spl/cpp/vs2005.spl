@@ -1,0 +1,207 @@
+[
+' common routines for generation of Visual Studio 2005 project files
+
+
+' generate global section for sln file configurations
+sub vcsln8_SolutionConfigurationPlatforms()
+]	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Release|Win32 = Unicode Release|Win32
+	EndGlobalSection
+[
+endsub
+
+
+' generate part of global section for sln file project
+sub vcsln8_ProjectConfigurationPlatforms_Project(byval $guid)
+]		{[=$guid]}.Debug|Win32.ActiveCfg = Debug|Win32
+		{[=$guid]}.Debug|Win32.Build.0 = Debug|Win32
+		{[=$guid]}.Release|Win32.ActiveCfg = Release|Win32
+		{[=$guid]}.Release|Win32.Build.0 = Release|Win32
+		{[=$guid]}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{[=$guid]}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{[=$guid]}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{[=$guid]}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+[
+endsub
+
+
+' add tools to each configuration
+sub vc8_addTools(byval $name, byval $ConfigType, byval $DebugOrRelease, byval $Unicode)
+	if $ConfigType = 1 or $ConfigType = 2 ' typeApplication or typeDynamicLibrary
+		if $DebugOrRelease = "Debug"
+]			<Tool
+				Name="VCLinkerTool"
+				LinkIncremental="2"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				TargetMachine="1"
+			/>
+[		else ' Release
+]			<Tool
+				Name="VCLinkerTool"
+				LinkIncremental="1"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				TargetMachine="1"
+			/>
+[
+		endif
+	endif ' app or DLL
+	if $ConfigType = 2 ' typeDynamicLibrary
+		$lTargetDir = "..\\" & $AppProjectName & "\\" & $Unicode & $DebugOrRelease
+]			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="@mkdir [=$lTargetDir] &gt;nul&#x0D;&#x0A;@copy .\\[=$Unicode][=$DebugOrRelease]\\[=$name].dll [=$lTargetDir]\\ &gt;nul"/>
+[
+	endif
+endsub
+
+
+' generate configurations in vcproj file
+sub vcproj8_Configurations(byval $name, byval $addDefs, byval $ConfigType, byval $addIncludeDirs)
+]	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="[=$ConfigType]"
+			UseOfMFC="[=$MFCCodeVS8]"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+[if $addIncludeDirs ]				AdditionalIncludeDirectories="[=$addIncludeDirs]"
+[endif
+]				PreprocessorDefinitions="WIN32;_DEBUG;[=$addDefs]"
+				StringPooling="true"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="[=$VCRTLDebug]"
+				UsePrecompiledHeader="2"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="4"
+			/>
+[call vc8_addTools($name, $ConfigType, "Debug", "")
+]		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="[=$ConfigType]"
+			UseOfMFC="[=$MFCCodeVS8]"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+[if $addIncludeDirs ]				AdditionalIncludeDirectories="[=$addIncludeDirs]"
+[endif
+]				PreprocessorDefinitions="WIN32;NDEBUG;[=$addDefs]"
+				StringPooling="true"
+				RuntimeLibrary="[=$VCRTLRelease]"
+				UsePrecompiledHeader="2"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="3"
+			/>
+[call vc8_addTools($name, $ConfigType, "Release", "")
+]		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory="UnicodeDebug"
+			IntermediateDirectory="UnicodeDebug"
+			ConfigurationType="[=$ConfigType]"
+			UseOfMFC="[=$MFCCodeVS8]"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+[if $addIncludeDirs ]				AdditionalIncludeDirectories="[=$addIncludeDirs]"
+[endif
+]				PreprocessorDefinitions="WIN32;_DEBUG;[=$addDefs]"
+				StringPooling="true"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="[=$VCRTLDebug]"
+				UsePrecompiledHeader="2"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="4"
+			/>
+[call vc8_addTools($name, $ConfigType, "Debug", "Unicode")
+]		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory="UnicodeRelease"
+			IntermediateDirectory="UnicodeRelease"
+			ConfigurationType="[=$ConfigType]"
+			UseOfMFC="[=$MFCCodeVS8]"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCCLCompilerTool"
+[if $addIncludeDirs ]				AdditionalIncludeDirectories="[=$addIncludeDirs]"
+[endif
+]				PreprocessorDefinitions="WIN32;NDEBUG;[=$addDefs]"
+				StringPooling="true"
+				RuntimeLibrary="[=$VCRTLRelease]"
+				UsePrecompiledHeader="2"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="false"
+				DebugInformationFormat="3"
+			/>
+[call vc8_addTools($name, $ConfigType, "Release", "Unicode")
+]		</Configuration>
+	</Configurations>
+[
+endsub
+
+
+' generate vcproj entry for StdAfx.cpp (create precompiled headers)
+sub vcproj8_StdAfx_cpp()
+]			<File
+				RelativePath=".\\StdAfx.cpp"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						UsePrecompiledHeader="1"
+					/>
+				</FileConfiguration>
+			</File>
+[
+endsub
+]

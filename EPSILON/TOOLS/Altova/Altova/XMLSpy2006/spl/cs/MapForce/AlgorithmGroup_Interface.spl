@@ -1,0 +1,163 @@
+[
+' // Subroutines from AlgorithmGroup.cs
+' // Language = C#
+' ////////////////////////////////////////////////////////////////////////
+
+' // Interface subroutines
+' ////////////////////////////////////////////////////////////////////////
+
+
+sub QualifiedTypeName(byref $member)
+	if $member.IsBuiltinType
+		return $member.Type
+	else
+		switch $member.Library.Kind
+			case 1:  ' XML
+			case 5:  ' WSDL - $member is a message
+				if $member.HasTypeObject and $member.TypeObject.NamespacePrefix <> ""
+					return $member.Library.Name & "." & $member.TypeObject.NamespacePrefix & "." & $member.Type
+				else
+					return $member.Library.Name & "." & $member.Type
+				endif
+			case 2:  ' Database
+				return $member.LibraryPrefix & "." & $member.Type
+			case 3:  ' Text
+				return $member.Library.Name & "." & $member.Type
+		    case 4:  ' Parameter
+				return $member.Library.DataType
+		endswitch
+	endif
+endsub
+
+
+' ------------------------------------------------------------------------
+' CalculateArguments:
+'
+' 		Calculates the arguments for the Run(...) member-function 
+'		out of the source- and target-libraries
+' ------------------------------------------------------------------------
+sub CalculateArguments( byref $rArgs, byref $rAlgorithm, byref $rSourceParameter, byref $rTargetParameter )
+	$rArgs = ""
+	
+	' source
+	if $rAlgorithm.HasSourceParentContext and $rAlgorithm.HasSourceContext
+		$rSourceParameter = $rAlgorithm.SourceParentContext.UniqueName & "SourceObject"
+		if $rAlgorithm.SourceParentContext.Library.Kind = 1 or $rAlgorithm.SourceParentContext.Library.Kind = 5 ' XML Library
+			if $rAlgorithm.Type = 8 and $rAlgorithm.IsVariableLoop and $rAlgorithm.SourceParentContext.UniqueName = $rAlgorithm.SourceContext.UniqueName
+				$rSourceParameter = $rSourceParameter & "UNUSED"
+			endif
+		endif
+		if $rAlgorithm.SourceParentContext.Library.Kind = 4	' Parameter Library
+			$rSourceParameter = ""
+		else
+			$rArgs = QualifiedTypeName($rAlgorithm.SourceParentContext) & " " & $rSourceParameter
+		endif
+	else
+		$rSourceParameter = ""
+	endif
+
+
+	'target
+	if $rAlgorithm.HasTargetParentContext
+		if $rSourceParameter <> ""
+			$rArgs = $rArgs & ", "
+		endif
+
+		$rTargetParameter = $rAlgorithm.TargetParentContext.UniqueName & "TargetObject"
+		$rArgs = $rArgs & QualifiedTypeName($rAlgorithm.TargetParentContext) & " " & $rTargetParameter
+		$rTargetParameter = $rAlgorithm.TargetContext.UniqueName & "TargetObject"
+		if $rAlgorithm.TargetParentContext.Library.Kind = 1 or $rAlgorithm.TargetParentContext.Library.Kind = 5	' XML Library
+			if $rAlgorithm.Type = 10 ' create
+				$rTargetParameter = "New" & $rTargetParameter
+			endif
+		endif
+	else
+		$rTargetParameter = ""
+	endif
+endsub 
+
+
+' ------------------------------------------------------------------------
+' CalculateRunSourceArgs
+' ------------------------------------------------------------------------
+sub CalculateRunSourceArgs( byref $rIsFirst, byref $rArgs, byval $lAddDataType )
+	foreach $lSourceLibrary in $AlgorithmGroup.SourceLibraryList
+		if not $rIsFirst
+			$rArgs = $rArgs & ", "
+		endif
+
+		$lTmp = $lSourceLibrary.UniqueName
+		if $lSourceLibrary.Kind = 1 ' XML Library
+			if $lAddDataType
+				$rArgs = $rArgs & "string " 
+			endif
+			$rArgs = $rArgs & $lTmp & "SourceFilename"
+		endif
+		if $lSourceLibrary.Kind = 2 ' Database Library
+			if $lAddDataType
+				$rArgs = $rArgs & "string " 
+			endif
+			$rArgs = $rArgs & $lTmp & "SourceConnection"
+		endif
+		if $lSourceLibrary.Kind = 3 ' Text Parser Library
+			if $lAddDataType
+				$rArgs = $rArgs & "string " 
+			endif
+			$rArgs = $rArgs & $lTmp & "SourceFilename"
+		endif
+		if $lSourceLibrary.Kind = 4	' Parameter Library
+			if $lAddDataType
+				$rArgs = $rArgs & $lSourceLibrary.DataType & " "
+			endif
+			$rArgs = $rArgs & $lTmp & "SourceParameter"
+		endif
+		if $lSourceLibrary.Kind = 5 ' WS  Library
+			$rArgs = $rArgs & QualifiedTypeName($lSourceLibrary.Message) & " "
+			$rArgs = $rArgs & $lSourceLibrary.Message.UniqueName & "SourceObject"
+		endif
+
+		$rIsFirst = false
+	next
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' DeclareRun:
+'
+'		Declares the interface of the Run(..) member-function
+' ------------------------------------------------------------------------
+sub DeclareRun()
+	$lArgs = ""
+
+	' source
+	$lIsFirst = true
+	call CalculateRunSourceArgs( $lIsFirst, $lArgs, true )
+
+	'target
+	if not $lIsFirst
+		$lArgs = $lArgs & ", "
+  else
+		$lIsFirst = false
+	endif
+	$lTmp = $AlgorithmGroup.TargetContext.Library.UniqueName
+	if $AlgorithmGroup.TargetContext.Library.Kind = 1	' XML Library
+		$lArgs = $lArgs & "string " & $lTmp & "TargetFilename"
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 2	' Database Library
+		$lArgs = $lArgs & "string " & $lTmp & "TargetConnection"
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 3	' Text Library
+		$lArgs = $lArgs & "string " & $lTmp & "TargetFilename"	
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 4	' Parameter Library
+		$lArgs = $lArgs & $AlgorithmGroup.TargetContext.Library.DataType & " " & $lTmp & "TargetParameter"
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 5	' WS Library
+		$lArgs = $lArgs & QualifiedTypeName($AlgorithmGroup.TargetContext) & " "
+		$lArgs = $lArgs & $AlgorithmGroup.TargetContext.UniqueName & "TargetObject"
+	endif]
+		public void Run( [=$lArgs] ) //throws Exception 
+		{
+[endsub
+]

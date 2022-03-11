@@ -1,0 +1,54 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+		<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+		<ProjectGuid>{[=$AltovaDBLibGuid]}</ProjectGuid>
+		<OutputType>Library</OutputType>
+		<AssemblyName>AltovaDB</AssemblyName>
+		<RootNamespace>AltovaDB</RootNamespace>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugSymbols>true</DebugSymbols>
+		<DebugType>full</DebugType>
+		<Optimize>false</Optimize>
+		<OutputPath>bin\\Debug\\</OutputPath>
+		<DefineConstants>DEBUG;TRACE</DefineConstants>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+		<OutputPath>bin\\Release\\</OutputPath>
+		<DefineConstants>TRACE</DefineConstants>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="System" />
+		<Reference Include="System.Data" />
+		<Reference Include="System.Xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Include="AssemblyInfo.cs"/>
+		<Compile Include="Command.cs"/>
+		<Compile Include="Database.cs"/>
+		<Compile Include="Exceptions.cs"/>
+		<Compile Include="FieldValue.cs"/>
+		<Compile Include="RecordSet.cs"/>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\\Altova\\Altova.csproj">
+			<Project>{[=$AltovaLibGuid]}</Project>
+			<Name>Altova</Name>
+		</ProjectReference>
+	</ItemGroup>
+	<Import Project="$(MSBuildBinPath)\\Microsoft.CSharp.targets" />
+</Project>
+
+
+
+
+
+
+
+
+
+
+

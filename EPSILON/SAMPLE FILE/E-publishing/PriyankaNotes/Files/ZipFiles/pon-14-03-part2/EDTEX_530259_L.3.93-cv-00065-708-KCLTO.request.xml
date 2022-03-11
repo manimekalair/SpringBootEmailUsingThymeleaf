@@ -1,0 +1,113 @@
+===== EDTEX_530259_L.3.93-cv-00065-708-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE EASTERN DISTRICT OF TEXAS</venue.name>
+<venue.name>PARIS DIVISION</venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>LINDA FREW, et al. Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>ALBERT HAWKINS, et al. Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>CIVIL ACTION NO. 3:93CV65</docket.line>
+<docket.number>3:93CV65</docket.number>
+<docket.line suppress-flag="y">3:93-cv-00065-RAS</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 11/14/2008</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER APPROVING AGREED INTERIM ATTORNEYS&#x2019; FEES, COSTS AND EXPENSES (Second Half, 2007)</headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">William Wayne Justice Senior United States District Judge</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">In their Joint Motion, the parties ask the Court to approve payment of interim attorneys&#x2019; fees, costs and expenses to Plaintiffs&#x2019; counsel. 42 U.S.C. &#x00A7;1988. DOCKET No. 680. By their Joint Motion, the parties seek to resolve Defendants&#x2019; liability to Plaintiffs&#x2019; counsel for attorneys&#x2019; fees, costs and expenses incurred from July 10 through December 31,2007.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p">&#8195; The parties do not seek to resolve fees, costs or expenses related to Plaintiffs&#x2019; Supplemental Complaint.</paratext></para></footnote.body></footnote>
+<head-c>BRIEF PROCEDURAL HISTORY</head-c>
+<para><paratext level="1">This Court's prior decisions describe the earlier procedural history of this complex case. <italic>Frew v Gilbert,</italic> 109 F.Supp.2d 579, 587-89 (E.D. Tex. <italic>20Q0)(Frew 2000); Frew v Hawkins,</italic> 401 F.Supp.2d 619, 623-25 (E.D. Tex. 2005)(Fmi&#x2019; <italic>2005), af d sub nom, Frazar</italic> v <italic>Ladd,</italic> 457 F.3d 432 (5<sup>th</sup> Cir. 2006), <italic>cert, denied,</italic> 127 S.Ct. 1039 (2007).</paratext></para>
+<para><paratext level="1">In April, 2007, the parties&#x2019; announcement of settlement eliminated the need for an evidentiary hearing about remedial orders that had been set for April 9, 2007. DOCKET No. 630. After an evidentiary hearing on July 9, 2007, the Court approved the proposed Corrective Action Order because it is &#x201C;fair, reasonable and adequate.&#x201D; <sc>Docket Nos.645;</sc> 663 (Opinion Approving CAO); F.R.Civ.P. 23(e)(2).</paratext></para>
+<para><paratext level="1">During the July 9 hearing, the Court permitted the parties to draft a proposed Order to formally approve the Corrective Action Order. TR at 181; F.R.Civ.P. 23(e)(2). The parties submitted a proposed Memorandum Opinion and the Court approved it on September 5, 2008. DOCKET Nos.657; 663.</paratext></para>
+<head-c>NOTICE TO THE CLASS</head-c>
+<para><paratext level="1">Since this is a class action, the class must be notified of this Motion. F.R.Civ. P. 23(h)(1). As required by this Court's Order, DOCKET No 685, as of May 26, 2008, Defendants posted the Court-approved notice about this Motion in all Texas Health and Human Services Commission eligibility offices. DOCKET No. 686.</paratext></para>
+<para><paratext level="1">Lead counsel for the class notified the Court on August 29, 2008 that she did not receive any comments from class members about the interim fee issue. DOCKET No. 696.</paratext></para>
+<para><paratext level="1">Notice to the class was provided in a &#x201C;reasonable manner.&#x201D; F.R.Civ.P. 23(h)(1).</paratext></para>
+<head-c>THE JOINT MOTION</head-c>
+<para><paratext level="1">The parties jointly ask the Court to approve payment to Plaintiffs&#x2019; counsel in the total amount of &#x0024;180,000 for attorney time, costs and expenses as follows:</paratext>
+<para><paratext level="1">Susan F. Zinn, Jane K. Swanson</paratext></para>
+<para><paratext level="1">fees, costs/expenses, fees, costs/expenses</paratext></para>
+<para><paratext level="1">&#x0024;104,579.29, &#x0024; 1,919.65, &#x0024; 72,673.76, &#x0024;     827.30</paratext></para>
+<head-c>FINDINGS OF FACT</head-c>
+<head-c><sc>Prevailing Parties</sc></head-c>
+<para><paratext level="1">Plaintiffs prevailed during the time period at issue here, which is July 10 through December 31, 2007.   The Court has already found that the Corrective Action Order provides &#x201C;very substantial relief to the class.&#x201D; DOCKET No. 673 at 4.</paratext></para>
+<head-c>LODESTAR CALCULATIONS</head-c>
+<head-c>REASONABLE HOURLY RATE</head-c>
+<para><paratext level="1">Susan Zinn is Plaintiffs&#x2019; lead counsel. She was licensed to practice law in Texas since 1983, after graduating with honors from the University of Texas School of Law that year. She is admitted to practice in all federal district courts in Texas, the Fifth Circuit Court of Appeals and the United States Supreme Court. Partly because of her work in this case, Ms. Zinn was honored with the Texas State Bar's J. Chrys Doughtery Award in 2004.</paratext></para>
+<para><paratext level="1">The Court has already concluded that Ms. Zinn is a highly capable, experienced lawyer who has done excellent work in this case. <italic>Fairness Order,</italic> <sc>Docket</sc> No. 133 at 1, n. 2, 23-24; <italic>Memorandum Opinion Approving CAO,</italic> DOCKET No. 663 at 10-11; 57; DOCKET No. 673 at 4. The Court concludes that this remains true.</paratext></para>
+<para><paratext level="1">Jane Swanson is Plaintiffs&#x2019; second chair counsel. Like Ms. Zinn, Ms. Swanson is capable, experienced and has represented Plaintiffs and the class well in this case. She is admitted to practice in Texas and before the United States District Courts for the Southern and Eastern Districts of Texas, the Courts of Appeals for the 5<sup>lh</sup> and 10<sup>,h</sup> Circuits and the United States Supreme Court. <italic>See also, Memorandum Opinion Approving CAO,</italic> DOCKET No. 663 at 10-11 ; 57; DOCKET N0.673 at 4-5.</paratext></para>
+<para><paratext level="1">Moreover, the skill of Plaintiffs&#x2019; counsel is well demonstrated by their work in this case, as observed by this Court. The results achieved have been excellent in all regards in this complex and important litigation.</paratext></para>
+<para><paratext level="1">Several attorneys testified by declaration or affidavit about reasonable hourly rates for attorneys in the Eastern and Western Districts of Texas. They are not counsel in this case. <sc>Docket No.</sc> 400, Affidavits/declarations of Samuel Baxter, Otis Carroll, Jose Garza, Ralph Lopez, Curtis Stuckey (2004); DOCKET No. 680-9, Supplemental affidavit of Samuel Baxter (2007). Rates in both Districts are relevant because a) this case is filed in the Eastern District but b) beginning in 2000, evidentiary hearings have been held in Austin, Texas, in the Western District. As a practical matter, it is not necessary to pick between the two Districts because attorneys&#x2019; hourly rates are the same in both Districts. Baxter supplemental affidavit at 2 (2007).</paratext></para>
+<para><paratext level="1">Mr. Baxter's 2007 affidavit is before the Court in 2008. <sc>Docket</sc> No. 680-9. In 2007, &#x0024;450/hour was &#x201C;at the low end of reasonable rates for attorneys&#x2019; fees in complex civil litigation in the Eastern District and/or the Western District, particularly in the class action context.&#x201D; Baxter supplemental affidavit at 2.</paratext></para>
+<para><paratext level="1">Plaintiffs&#x2019; currently seek reimbursement in the amount of &#x0024;370.20 per hour for time expended in this case from July 10 through December 31, 2007. This hourly rate is only minimally higher than the &#x0024;360/hour approved in 2007. DOCKET No. 673. Of course, hourly rates increase as time passes. <italic>Missouri</italic> v <italic>Jenkins,</italic> 491 U.S. 274, 284 (1989). Moreover, &#x0024;370.20 is below reasonable hourly rates for complex civil litigation -like this case - in both the Eastern and Western Districts of Texas.</paratext></para>
+<head-c><sc>Reasonable Number of Hours Expended</sc></head-c>
+<para><paratext level="1">Plaintiffs&#x2019; counsel expended the following hours, at issue in this Motion:</paratext></para>
+<para><paratext level="1">Susan F. Zinn, Jane K. Swanson, Total</paratext></para>
+<para><paratext level="1">283.45 hours, 195.35 hours<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference>, 478.8 hours</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p">&#8195; Many cases as large and complicated as this one would have been staffed by a much larger group of lawyers. Zinn declaration, &#x00B6; 18.</paratext></para></footnote.body></footnote>
+<para><paratext level="1">It was reasonable and necessary for counsel to expend this time on this case from July 10 through December 31, 2007. They had to draft the proposed Memorandum Opinion approving the Corrective Action Order, as directed by this Court. In addition, Plaintiffs&#x2019; counsel has had to expend a significant amount of time monitoring Defendants&#x2019; compliance with the Consent Decree entered in 1996 and Defendants&#x2019; commencement of implementation of the 11 -part Corrective Action Order. Monitoring required a major time commitment because this case involves the varied health care needs of more than 2.8 million indigent children in Texas, which is a large, diverse state.</paratext></para>
+<para><paratext level="1">Plaintiffs&#x2019; counsel has also expended a relatively small amount of time addressing issues relating to collection of interim fees, costs and expenses.</paratext></para>
+<para><paratext level="1">Furthermore, Plaintiffs&#x2019; counsel's records are all sufficiently clear and detailed so that this Court can evaluate them. Moreover, the lawyers discount time to indicate the exercise of billing judgment. For example, Ms. Zinn and Ms. Swanson indicate discounted time in italics in their descriptions of tasks performed. <italic>See,</italic> DOCKET No. 680-3; Zinn declaration, &#x00B6; 13; <sc>Docket</sc> No. 680-6; Swanson declaration, &#x00B6; 6.</paratext></para>
+<para><paratext level="1">Moreover, Plaintiffs do not include hours expended by Mr. Heard during this time period. Zinn declaration, &#x00B6; 15. The exclusion of Mr. Heard's time inherently increases the reasonableness of the requested fee award.</paratext></para>
+<para><paratext level="1">Last, the Court finds no unnecessary duplication of time by counsel.</paratext></para>
+<head-c>LODESTAR CALCULATION</head-c>
+<para><paratext level="1">The parties agree that the total amount due to Plaintiffs&#x2019; counsel is &#x0024;180,000 in fees, costs and expenses. The evidence currently before the Court is sufficient to determine that the proposed settlement is fair, reasonable and adequate. The evidence shows that reasonable hourly rates for counsel in a complex case like this one range from a low of &#x0024;450/hour to a high of &#x0024;800/hour. Using the low end of this range as a guide, if the Court had been forced to resolve a disputed fee motion, the Court could easily have approved a lodestar amount of &#x0024;215,460.00 (&#x0024;450/hour x 478.8 hours). The agreed amount of &#x0024;180,000 (which also includes costs and expenses) is reasonable and necessary</paratext></para>
+<para><paratext level="1">The &#x0024;180,000 amount is even more reasonable when considered in light of:</paratext>
+<paratext first-line="0" turnover="hanging">&#x2022; the significant complexity of this case. <italic>Fairness Order</italic> at 14, 23, 26, 28; <italic>Memorandum Opinion Approving CAO,</italic> DOCKET No. 663 at 6-9; 12-13; 56-57; Zinn declaration at &#x00B6;&#x00B6; 21-22.</paratext></para>
+<para><paratext first-line="0" turnover="hanging">&#x2022; preclusion of other employment by the attorneys due to acceptance of the case and time limitations imposed by the case. Ms. Zinn and Ms. Swanson were substantially precluded from other work because of this case. Ms. Zinn was precluded from other work during the second half of 2007 when she was drafting the proposed Memorandum Opinion and negotiating with Defendants&#x2019; counsel about it. Notably, Ms. Swanson was out of the country during about half of this time period, so she was not available to assist. Zinn declaration at &#x00B6;&#x00B6; 6, 23.</paratext></para>
+<para><paratext first-line="0" turnover="hanging">&#x2022; the undesirability of this case to most lawyers particularly because of the contingent nature of payment and lengthy delays in payment, Zinn declaration at &#x00B6; 28.</paratext></para>
+<para><paratext first-line="0" turnover="hanging">&#x2022; the high level of skill required to prosecute the case, Zinn declaration, &#x00B6; 22.</paratext></para></para>
+<para><paratext level="1">Based on all of these factors, the Court determines that the proposed settlement is fair, reasonable and adequate, and that the proposed lodestar amount is reasonable and necessary.</paratext></para>
+<head-c><sc>Costs and Expenses</sc></head-c>
+<para><paratext level="1">Plaintiffs seek reimbursement for costs and expenses in the amount of &#x0024;2,746.95. These costs and expenses are all properly documented and are all reasonable expenses that had to be incurred in the prosecution of this phase of this case. Indeed, counsel did not include some expenses that they reasonably and necessarily incurred while working on this case. Zinn declaration at &#x00B6;&#x00B6; 30-33; Swanson declaration at &#x00B6; 8.</paratext></para>
+<head-c>CONCLUSIONS OF LAW</head-c>
+<para><paratext level="1">The first question is whether Plaintiffs are prevailing parties. There is no question that Plaintiffs in this case have prevailed on a significant issue, so that they have achieved the status of &#x201C;prevailing parties.&#x201D; <italic>Texas State Teachers Ass'n v Garland ISD,</italic> 489 U.S. 782, 788 (1989); <italic>M&#x00E4;her v Gagne,</italic> 448 U.S. 122, 129-30 (1980).</paratext></para>
+<para><paratext level="1">Since Plaintiffs prevailed, the next issue is whether the time claimed was &#x201C;reasonably expended on the litigation.&#x201D; <italic>WebbvBd. OfEduc,</italic> 471 U.S. 234, 242 (1985). The Court concludes that Plaintiffs&#x2019; counsel only claim time that was reasonable and necessary for them to expend in this case.</paratext></para>
+<para><paratext level="1">Courts determine a reasonable fee amount by multiplying &#x201C;the number of hours reasonably expended on the litigation ... by a reasonable hourly rate.&#x201D;   <italic>Hensley v Eckerhart,</italic> 461 U.S. 424, 433 (1983).<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> As noted above, the parties agree that &#x0024;180,000. is a reasonable and necessary fee award.</paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p">&#8195; Plaintiffs&#x2019; counsel properly exercise billing judgement, which assists the Court to determine that their time records include only time that was reasonably and necessarily expended on this case. <italic>Walker v HUD,</italic> 99 F.3d 761, 769-70 (5<sup>,h</sup> Cir. 1996). Furthermore, Plaintiffs&#x2019; counsel's time records are clear enough so that the Court may evaluate them. <italic>Hensley,</italic> 461 U.S. at 437, n. 12.</paratext></para></footnote.body></footnote>
+<para><paratext level="1">Moreover, the agreed amount is lower than the low end of reasonable using the 2007 rate of &#x0024;450 per hour. If the parties had litigated this Motion instead of settling it, the Court could have concluded that a higher lodestar amount was reasonable.<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference> Moreover, the Court concludes that the minor increase in counsel's hourly rate from 2007 (&#x0024;360/hour) to the current rate in 2008 (&#x0024;370.20/hour) is reasonable and fully justified. <italic>Missouri v Jenkins,</italic> 491 U.S. 274, 284 (1989).</paratext></para>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p">&#8195; The agreed amount is particularly reasonable in light of several of the traditional factors established in <italic>Johnson v Georgia Highway Express,</italic> 488 F.2d 717, 717-19 (5<sup>th</sup> Cir. 1974), which the Court incorporates into its lodestar analysis. <italic>See, Heidtman v County of El Paso,</italic> 171 F.3d 1038, 1043 (5<sup>th</sup> Cir. 1999). Here, the Court considers: complexity of the litigation, preclusion of other work by Ms. Zinn and Ms. Swanson, time limitations imposed by the case, the undesirability of the case to many other lawyers and the very high level of skill required to handle this case for Plaintiffs and the class.</paratext></para></footnote.body></footnote>
+<head-c>CONCLUSION</head-c>
+<para><paratext level="1">THEREFORE, it is ORDERED that the parties&#x2019; proposed settlement concerning Plaintiffs&#x2019; interim fees, costs and expenses is APPROVED. Defendants SHALL make payment to Plaintiffs&#x2019; counsel as follows:</paratext></para>
+<para><paratext level="1">Susan F. Zinn, Jane K. Swanson</paratext></para>
+<para><paratext level="1">fees, costs/expenses, fees, costs/expenses</paratext></para>
+<para><paratext level="1">&#x0024;104,579.29, &#x0024; 1,919.65, &#x0024; 72,673.76, &#x0024;     827.30</paratext></para>
+<para><paratext level="1">Defendants arc hereby ORDERED to make payment to Plaintiffs&#x2019; counsel no earlier than January 2, 2009 and no later than January 16, 2009.</paratext></para>
+<para><paratext level="1">SIGNED this 14<sup>th</sup> day of November, 2008.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact></n-docbody>
+</n-document>
+</n-load>

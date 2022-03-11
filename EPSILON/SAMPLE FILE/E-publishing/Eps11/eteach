@@ -1,0 +1,608 @@
+You are looking at the Epsilon tutorial.
+
+Epsilon commands generally involve the Control key or the Alt key.
+This tutorial uses the following conventions:
+
+ Ctrl-<chr>  means hold the Control key (labelled Ctrl) while typing
+             the character <chr>.  Thus, Ctrl-F would be: hold the
+             Control key and type f.
+ Alt-<chr>   means hold the Alt key down while typing <chr>.
+
+Important note: if you must exit at some point, type Ctrl-X Ctrl-Z.
+
+The characters ">>" at the left margin indicate directions for you to
+try using a command.  For instance:
+
+>>  Now type Ctrl-V (next-page) to move to the next screenful.
+    (go ahead, do it by depressing the control key and V together).
+    From now on, you'll be expected to do this whenever you finish
+    reading the screen.
+
+Note that there is an overlap when going from screen to screen; this
+provides some continuity when moving through the file.
+
+The first thing that you need to know is how to move around from
+place to place in the file.  You already know how to move forward a
+screen, with Ctrl-V.  To move backwards a screen, type Alt-V (depress
+the Alt key and type V).
+
+>>  Try typing Alt-V and then Ctrl-V to move back and forth a
+    few times.
+
+If your keyboard has a cursor keypad, you can generally type the
+appropriate key there if you prefer.  For example, the synonym for
+Ctrl-V is <PageDown>, and that for Alt-V is <PageUp>.
+
+
+SUMMARY
+-------
+
+The following commands are useful for viewing screenfuls:
+
+    Ctrl-V  Move forward one screenful
+    Alt-V   Move backward one screenful
+    Ctrl-L  Put the text near the cursor at the center.
+
+
+BASIC CURSOR CONTROL
+--------------------
+
+Getting from screenful to screenful is useful, but how do you
+reposition yourself within a given screen to a specific place?  There
+are several ways you can do this.  One way (not the best, but the
+most basic) is to use the commands previous, backward, forward and
+next.  As you can imagine these commands (which are given to Epsilon
+as Ctrl-P, Ctrl-B, Ctrl-F, and Ctrl-N, respectively, or by the
+corresponding arrow key on the numeric keypad) move the cursor from
+where it currently is to a new place in the given direction.  Here,
+in a more graphical form, are the main keyboard forms of the commands:
+ 
+                          Previous line, Ctrl-P
+                                    :
+                                    :
+   Backward, Ctrl-B .... Current cursor position .... Forward, Ctrl-F
+                                    :
+                                    :
+                            Next line, Ctrl-N
+
+You'll probably find it easy to think of these by letter.  P for
+previous, N for next, B for backward and F for forward.  These are
+the basic cursor positioning commands and you'll be using them ALL
+the time so it would be of great benefit if you learn them now.
+
+>> Do a few Ctrl-N's to bring the cursor down to this line.
+
+>> Move into the line with Ctrl-F's and then up with Ctrl-P's.
+   See what Ctrl-P does when the cursor is in the middle of the line.
+
+Under Windows, DOS and OS/2, lines are separated by a pair of
+characters, a Return and a Linefeed, but Epsilon almost always makes
+them look like one character.  You can think of it as a Newline.
+
+>> Try to Ctrl-B at the beginning of a line.  Do a few more Ctrl-B's.
+   Then do Ctrl-F's back to the end of the line and beyond.
+
+>> Use the arrow keys to move to the end of this line [right here -->]
+   by going to the beginning of this line and using the left arrow
+   key to move backwards onto the end of the previous line.
+
+When you go off the top or bottom of the screen, the text beyond
+the edge is shifted onto the screen so that your instructions can
+be carried out while keeping the cursor on the screen.
+
+>> Try to move the cursor off the bottom of the screen with Ctrl-N
+   and see what happens.
+
+If moving by characters is too slow, you can move by words.  Alt-F
+(Alt-F) moves forward a word and Alt-B moves back a word, as do
+the cursor pad keys Ctrl-<Right> and Ctrl-<Left>, respectively.
+
+>> Type a few Alt-F's and Alt-B's.  Intersperse them with Ctrl-F's
+   and Ctrl-B's.
+
+Notice the parallel between Ctrl-F and Ctrl-B on the one hand, and
+Alt-F and Alt-B on the other hand.  Very often Alt characters are
+used for operations related to English text whereas Control
+characters operate on the basic textual units that are independent of
+what you are editing (characters, lines, etc).  There is a similar
+parallel between lines and sentences: Ctrl-A and Ctrl-E move to the
+beginning or end of a line, and Alt-A and Alt-E move to the beginning
+or end of a sentence.
+
+>> Try a couple of Ctrl-A's, and then a couple of Ctrl-E's.
+   Try a couple of Alt-A's, and then a couple of Alt-E's.
+
+See how repeated Ctrl-A's do nothing, but repeated Alt-A's keep
+moving farther.  Do you think that this is right?
+
+Two other simple cursor motion commands are Alt-< (Alt Less-than),
+which moves to the beginning of the file, and Alt-> (Alt
+Greater-than), which moves to the end of the file.  You probably
+don't need to try them, since finding this spot again will be boring.
+Since you need the shift key to type a "<", you must also use the
+shift key to type Alt-<.  Otherwise, you would be typing Alt-,.  The
+keypad synonyms for these commands are Ctrl-<Home> and Ctrl-<End>.
+
+The location of the cursor in the text is also called "point".  To
+paraphrase, the cursor shows on the screen where point is located in
+the text.
+
+Here is a summary of simple moving operations including the word and
+sentence moving commands:
+
+    Numeric Keypad  Main Keyboard
+    <Right>         Ctrl-F  Move forward a character
+    <Left>          Ctrl-B  Move backward a character
+
+    Ctrl-<Right>    Alt-F   Move forward a word
+    Ctrl-<Left>     Alt-B   Move backward a word
+
+    <Down>          Ctrl-N  Move to next line
+    <Up>            Ctrl-P  Move to previous line
+
+    Alt-<Left>      Ctrl-A  Move to beginning of line
+    Alt-<Right>     Ctrl-E  Move to end of line
+
+    Ctrl-<Up>       Alt-A   Move back to beginning of sentence
+    Ctrl-<Down>     Alt-E   Move forward to end of sentence
+
+    Ctrl-<Home>     Alt-<   Go to beginning of file
+    Ctrl-<End>      Alt->   Go to end of file
+
+>> Try all of these commands now a few times for practice.
+   Since the last two will take you away from this screen,
+   you can come back here with Alt-V's and Ctrl-V's.  These are
+   the most often used commands.
+
+Like all other commands in Epsilon, these commands can be given
+arguments which cause them to be executed repeatedly.  The way you
+give a command a repeat count is by typing Ctrl-U and then the digits
+before you type the command.  If you have an Alt key, you can omit
+the Ctrl-U if you hold down the Alt key while you type the digits.
+This is easier, but we recommend the Ctrl-U method because it works
+on any keyboard.
+
+For instance, Ctrl-U 8 Ctrl-F moves forward eight characters.
+    
+>> Try giving a suitable argument to Ctrl-N or Ctrl-P to come as close
+   as you can to this line in one jump.
+
+Sometimes you may want to scroll the screen by less than a full
+screenful.  Epsilon has two commands Ctrl-Z and Alt-Z that scroll the
+screen, like Ctrl-V and Alt-V, but by only a single line, instead of
+a screenful.
+
+>> Try scrolling the screen up repeatedly.  What happens to the
+   cursor?
+
+
+ABORTING COMMANDS
+-----------------
+
+If Epsilon gets into an infinite (or simply very long) computation
+which you don't want to finish, you can usually stop it safely by
+typing Ctrl-G.  You can also use Ctrl-G to discard a numeric argument
+or the beginning of a command that you don't want to finish.
+
+>> Type Ctrl-U 100 to make a numeric arg of 100, then type Ctrl-G.
+   Now type Ctrl-F.  How many characters does it move?
+   If you have typed an <Esc> by mistake, you can get rid of it
+   with a Ctrl-G.
+
+
+INSERTING AND DELETING
+----------------------
+
+If you want to type text, just do it.  Characters which you can see,
+such as A, 7, *, etc. are taken by Epsilon as text and inserted
+immediately.  Type <Enter> (sometimes called <Return>) to insert a
+line separator.
+
+You can delete the last character you typed by typing <Backspace>.
+More generally, <Backspace> deletes the character immediately before
+the current cursor position.
+
+>> Do this now, type a few characters and then delete them
+   by typing <Backspace> a few times.  Don't worry about this file
+   being changed; you won't affect the master tutorial.  This is just
+   a copy of it.
+
+>> Now start typing text until you reach the right margin, and keep
+   typing.  When a line of text gets too big for one line on the
+   screen, the line of text is "continued" onto a second screen line.
+   The mark you see at the right margin indicates a line which has
+   been continued.
+>> Use <Backspace>'s to delete the text until the line fits on one
+   screen line again.  The continuation line goes away.  (By the way,
+   normally Epsilon scrolls horizontally across wide lines instead
+   of using continuation lines.  You can set up Epsilon to operate
+   either way.)
+
+>> Move the cursor to the beginning of a line and type <Backspace>.
+   This deletes the line separator before the line and merges the
+   line onto the previous line.  The resulting line may be too long
+   to fit, in which case it has a continuation line.
+>> Type <Enter> to insert the separator again.
+
+Remember that most Epsilon commands can be given a repeat count;  Note
+that this includes characters which insert themselves.
+
+>>  Try that now -- type Ctrl-U 8 * and see what happens.
+
+You've now learned the most basic way of typing something in
+Epsilon and correcting errors.  You can delete by words or lines
+as well.  Here is a summary of the delete operations:
+
+    <Backspace>      delete the character just before the cursor
+    Ctrl-D or <Del>  delete the next character after the cursor
+
+    Alt-<Backspace>  kill the word immediately before the cursor
+    Alt-D            kill the next word after the cursor
+
+    Ctrl-K           kill from the cursor position to end of line
+    Alt-K            kill to the end of the current sentence
+
+Notice that <Backspace> and Ctrl-D vs Alt-<Backspace> and Alt-D
+extend the parallel started by Ctrl-F and Alt-F.  Ctrl-K and Alt-K
+are like Ctrl-E and Alt-E, sort of, in that lines are opposite
+sentences.
+
+Now suppose you kill something, and then you decide that you want to
+get it back?  Well, whenever you kill something bigger than a
+character, Epsilon saves it for you.  To yank it back, use Ctrl-Y.
+Note that you don't have to be in the same place to do Ctrl-Y; this
+is a good way to move text around.  Also note that the difference
+between "Killing" and "Deleting" something is that "Killed" things
+can be yanked back, and "Deleted" things cannot.  Generally, the
+commands that can destroy a lot of text save it, while the ones that
+attack only one character, or nothing but blank lines and spaces, do
+not save.
+
+For instance, type Ctrl-N a couple times to position the cursor
+at some line on this screen.
+
+>> Do this now, move the cursor and kill that line with Ctrl-K.
+
+Note that a single Ctrl-K kills the contents of the line, and a
+second Ctrl-K kills the line itself, and makes all the other lines
+move up.  If you give Ctrl-K a repeat count, it kills that many lines
+AND their contents.
+
+The text that has just disappeared is saved so that you can
+retrieve it.  To retrieve the last killed text and put it where
+the cursor currently is, type Ctrl-Y.
+
+>> Try it; type Ctrl-Y to yank the text back.
+
+Think of Ctrl-Y as if you were yanking something back that someone
+took away from you.  Notice that if you do several Ctrl-K's in a row
+the text that is killed is all saved together so that one Ctrl-Y will
+yank all of the lines.
+
+>> Do this now, type Ctrl-K several times.
+
+Now to retrieve that killed text:
+
+>> Type Ctrl-Y.  Then move the cursor down a few lines and type Ctrl-Y
+   again.  You now see how to copy some text.
+
+What do you do if you have some text you want to yank back, and then
+you kill something else?  Ctrl-Y would yank the more recent kill.
+But the previous text is not lost.  You can get back to it using the
+Alt-Y command.  After you have done Ctrl-Y to get the most recent
+kill, typing Alt-Y replaces that yanked text with the previous kill.
+Typing Alt-Y again and again brings in earlier and earlier kills.
+When you have reached the text you are looking for, you can just go
+away and leave it there.  If you Alt-Y enough times, you come back to
+the starting point (the most recent kill).
+
+>> Kill a line, move around, kill another line.
+   Then do Ctrl-Y to get back the second killed line.
+   Then do Alt-Y and it will be replaced by the first killed line.
+   Do more Alt-Y's and see what you get.  Keep doing them until
+   the second kill line comes back, and then a few more.
+
+
+UNDO
+----
+
+As you move around in the text, inserting and deleting, Epsilon keeps
+track of just what you do.  If you decide you've made a mistake, you
+can ask Epsilon to undo the last command by pressing F9.  If you
+press it again, Epsilon will undo the command before that, and so
+forth.
+
+The F10 key puts changes back in, after you've undone them.  Like
+undo, it operates one command at a time.  If you press undo ten
+times, then press redo eight times, it's as if you've pressed undo
+only twice.  (F10 is Epsilon's notation for Function Key 10, which
+is probably marked F10 on your keyboard.)
+
+>> Try editing this sentence, killing the last three words and
+   inserting them in the middle.  Then press F9 until all the changes
+   are undone.  Now press F10 and watch the changes reappear.  You can
+   go back and forth through the different versions of the text with
+   F9 and F10, as long as you don't use an undoable command, like
+   inserting or moving.
+
+
+FILES
+-----
+
+In order to make the text you edit permanent, you must put it in a
+file.  Otherwise, it will go away when your invocation of Epsilon goes
+away.  You put your editing in a file by "visiting" the file.  What
+visiting means is that you see the contents of the file in your Epsilon;
+and, loosely speaking, what you are editing is the file itself.
+However, the changes still don't become permanent until you "save" the
+file.  This is so you can have control to avoid leaving a half-changed
+file around when you don't want to.
+
+If you look near the botton of the screen you will see a line that
+starts with "myteach".  This is the name of your own temporary copy of
+the text of the Epsilon tutorial; the file you are now visiting.
+Whatever file you visit, that file's name will appear in that spot.
+
+The commands for visiting and saving files are unlike the other
+commands you have learned in that they consist of two characters.
+They both start with the character Control-X.  There is a whole
+series of commands that start with Control-X; many of them have to do
+with files, buffers, and related things, and all of them consist of
+Control-X followed by some other character.
+
+Another thing about the command for visiting a file is that you have
+to say what file name you want.  We say the command "prompts for an
+argument" (in this case, the argument is the name of the file).
+After you type the command
+
+    Ctrl-X Ctrl-F   Find a file
+
+Epsilon will ask you for the file name.  You should end the name with
+the <Enter> key.  After this command, you will see the contents of
+the file in your Epsilon.  You can edit the contents.  When you wish
+to make the changes permanent, issue the command
+
+    Ctrl-X Ctrl-S   Save the file
+
+A new version of the file will be created.  When the operation is
+finished, Epsilon prints the name of the file.
+
+To make a new file, just visit it "as if" it already existed.  Then
+start typing in the text.  When you ask to "save" the file, Epsilon
+will really create the file with the text that you have inserted.
+From then on, you can consider yourself to be editing an already
+existing file.
+
+It is not easy for you to try out visiting a file and continue with
+the tutorial.  But you can always come back into the tutorial by
+starting it over and skipping forward.  So, when you feel ready, you
+should try visiting a file named "FOO", putting some text in it, and
+saving it; then exit from Epsilon and look at the file to be sure that
+it worked.
+
+
+EXTENDING THE COMMAND SET
+-------------------------
+
+There are many, many more Epsilon commands than could possibly be put
+on all the control and alt characters.  Epsilon gets around this with
+the X (eXtend) command.  This comes in two flavors:
+
+    Ctrl-X  Character eXtend.  Followed by one character.
+    Alt-X   Named command eXtend.  Followed by a long name.
+
+These are commands that are generally useful but used less than the
+commands you have already learned about.  You have already seen two
+of them: the file commands Ctrl-X Ctrl-F to Find and Ctrl-X Ctrl-S to
+Save.  Another example is the command to tell Epsilon that you'd like
+to stop editing.  The command to do this is Ctrl-X Ctrl-Z.  Think of
+it as Z for zapping yourself.  If some of your files haven't been
+saved, Epsilon will give you a chance to change your mind.
+
+There are many Ctrl-X commands.  The ones you need immediately are:
+
+    Ctrl-X Ctrl-F       Find file.
+    Ctrl-X Ctrl-S       Save file.
+    Ctrl-X Ctrl-Z       Quit Epsilon.  This does NOT save your file.
+                        The standard way to save and exit is
+                        Ctrl-X Ctrl-S  Ctrl-X Ctrl-Z.
+
+Named eXtended commands are commands which are used even less
+frequently, or commands which are used only in certain modes.  These
+commands are sometimes called "functions".  An example is the command
+replace-string, which globally replaces one string with another.
+When you type Alt-X, Epsilon prompts you at the bottom of the screen
+with "Alt-X" and you should type the name of the function you wish to
+call; in this case, "replace-string".  Just type
+"replace-string<Enter>".  Then you type the string that you want to
+replace, an <Enter>, the string you want to replace it with, and an
+<Enter>.
+
+>> Move the cursor to the blank line two lines below this one.
+   Then type Alt-X rep<Esc>changed<Enter>altered<Enter>.
+
+   Notice how this line has changed: you've replaced
+   the word c-h-a-n-g-e-d with "altered" wherever it occurs
+   after the cursor.
+
+
+MODE LINE
+---------
+
+Epsilon shows you the extended commands as you type them at the
+bottom of the screen in an area called the echo area.  The echo area
+is the last line of the screen.  The line immediately above it
+is called the MODE LINE.  The mode line says something like
+
+   filename [Fundamental] nn% *
+
+This is a very useful "information" line.
+
+You already know what the filename means -- it is the file you have
+visited.  What the nn% means is that nn percent of the file is
+above the top of the screen.
+
+The star means that you have made changes to the text.  Right after
+you visit or save a file, there is no star.
+
+The part of the mode line inside the brackets is to tell you what
+modes you are in.  The default mode is Fundamental which is what you
+are in now.  It is an example of a "major mode".  There are several
+major modes in Epsilon for editing different types of text, such as C
+mode, HTML mode, etc.  At any time one and only one major mode is
+active, and its name can always be found in the mode line just where
+"Fundamental" is now.  Some modes alter the command set only a
+little.  For instance, C mode makes closing delimiters like ) and ]
+briefly indicate their matching characters, and indents lines of C
+code automatically as you type them.  Other modes provide a selection
+of new commands on the letter keys, like Dired or Bufed modes.  Each
+major mode is the name of an extended command, which is how you get
+into the mode.  For example, Alt-X fundamental-mode is how to get
+into Fundamental mode.
+
+Major modes are called major because there are also minor modes.
+They are called minor because they aren't alternatives to the major
+modes, just minor modifications of them.  Each minor mode can be
+turned on or off by itself, regardless of what major mode you are in,
+and regardless of the other minor modes.  So you can use no minor
+modes, or one minor mode, or any combination of several minor modes.
+
+One feature of Epsilon that is very useful, especially for editing
+English text, is Auto Fill mode.  When this mode is on, Epsilon
+breaks the line in between words automatically whenever the line gets
+too long.  You can turn this mode on by doing Alt-X and then typing
+"auto<Esc>" using the Escape key (on PC's, a grey key marked Esc in
+the top row of keys), and Epsilon will complete the name and execute
+the command.  (You could also have typed the command's full name,
+auto-fill-mode, after the Alt-X, but it's easier to let Epsilon fill
+in the name for you.)  When auto-fill mode is on, you can turn it off
+by doing Alt-X auto<Esc> again.  If the mode is off, this function
+turns it on, and if the mode is on, this function turns it off.  This
+is called "toggling".
+
+>> Type Alt-X auto-fill-mode<Enter> now.  Then insert a line of "asdf "
+   over again until you see it divide into two lines.  You must put in
+   spaces between them because Auto Fill breaks lines only at spaces.
+   Notice that "Fill" appears in the mode line in addition to the name
+   of the mode, not instead of it.
+
+The margin is usually set at 70 characters, but you can change it
+with the Ctrl-X F command.  You can give the margin setting you want
+as a numeric argument.
+
+>> Type Ctrl-X F with an argument of 20.  (Ctrl-U 2 0 Ctrl-X F).
+   Then type in some text and see Epsilon fill lines of 20
+   characters with it.  Then set the margin back to 70 using
+   Ctrl-X F again.
+
+
+SEARCHING
+---------
+
+Epsilon can do searches for strings (these are groups of contiguous
+characters or words) either forward through the file or backward
+through it.  To search for the string means that you are trying to
+locate it somewhere in the file and have Epsilon show you where the
+occurrences of the string exist.  This type of search is somewhat
+different from what you may be familiar with.  It is a search that is
+performed as you type in the thing to search for.  The command to
+initiate a search is Ctrl-S for forward search, and Ctrl-R for
+reverse search.  BUT WAIT!  Don't do them now.  When you type Ctrl-S
+you'll notice that the string "I-Search:" appears as a prompt in the
+echo area.  This tells you that Epsilon is in what is called an
+incremental search waiting for you to type the thing that you want to
+search for.  <Enter> terminates a search.
+
+>> Now type Ctrl-S to start a search.  SLOWLY, one letter at a time,
+   type the word 'cursor', pausing after you type each
+   character to notice what happens to the cursor.
+>> Type Ctrl-S to find the next occurrence of "cursor".
+>> Now type <Backspace> four times and see how the cursor moves.
+>> Type <Enter> to terminate the search.
+
+Did you see what happened?  Epsilon, in an incremental search, tries
+to go to the occurrence of the string that you've typed out so far.
+To go to the next occurrence of 'cursor' just type Ctrl-S again.  If
+no such occurrence exists Epsilon tells you that it is a failing
+search.  Ctrl-G would also terminate the search.
+
+If you are in the middle of an incremental search and type
+<Backspace>, you'll notice that the last character in the search
+string is erased and the search backs up to the last place of the
+search.  For instance, suppose you currently have typed 'cu' and you
+see that your cursor is at the first occurrence of 'cu'.  If you now
+type <Backspace>, the 'u' on the search line is erased and you'll be
+repositioned in the text to the occurrence of 'c' where the search
+took you before you typed the 'u'.  This provides a useful means for
+backing up while you are searching.
+
+If you are in the middle of a search and happen to type a control or
+alt character (other than a Ctrl-S or Ctrl-R, which tell Epsilon to
+search for the next occurrence of the string), the search is
+terminated.
+
+The Ctrl-S starts a search that looks for any occurrence of the
+search string AFTER the current cursor position.  But what if you
+want to search for something earlier in the text?  To do this, type
+Ctrl-R for Reverse search.  Everything that applies to Ctrl-S applies
+to Ctrl-R except that the direction of the search is reversed.
+
+
+GETTING MORE HELP
+-----------------
+
+In this tutorial we have tried to supply just enough information to
+get you started using Epsilon.  There is so much available in Epsilon
+that it would be impossible to explain it all here.  However, you may
+want to learn more about Epsilon since it has numerous desirable
+features that you don't know about yet.  Epsilon has a great deal of
+internal documentation.  All of these commands can be accessed
+through the HELP key, which is F1.  (If you're using Epsilon on a
+terminal with no F1 key, or if F1 doesn't work, Ctrl-_ and Alt-? are
+synonyms.)
+
+To use the HELP features, type the <HELP> key (an F1), and then a
+key saying what kind of help you want.  If you are REALLY lost, type
+<HELP> ? and Epsilon will tell you what kinds of help it can give.
+If you have typed the <HELP> key and decide you don't want any help,
+just type Ctrl-G to abort.
+
+The most basic HELP feature is <HELP> K.  Type <HELP>, a K, and a
+command key, and Epsilon prints a description of the command.
+
+>> Type <HELP> K Control-p.  When you are finished reading the output,
+type a <Space>.  The message should be something like
+
+    Ctrl-P runs the command up-line.
+    Point moves to the previous line.
+
+    The command tries to keep point near the same horizontal position.
+
+This message tells you two things: it describes the command named
+"up-line", and it says that one way to run the command is to type
+Ctrl-P.  Another way is to type Alt-X and the command's name, of
+course, for any command.
+
+Multi-key commands such as Ctrl-X Ctrl-Z are also allowed after
+<HELP> K.
+
+Here are some other useful <HELP> options:
+
+   <HELP> C Describe a command by name.  You type in the name of the
+            command.
+
+>> Try typing <HELP> C replace-string<Enter>.
+
+   <HELP> A Apropos.  Type in a keyword and Epsilon will list
+            all the commands containing that keyword.
+
+>> Type <HELP> A File<Enter>.  You will see a list of all commands
+(Alt-x commands) with "file" in their names.  These correspond to keys
+like Ctrl-X Ctrl-F and Ctrl-X Ctrl-S.
+
+
+CONCLUSION
+----------
+
+For more information, consult the Epsilon manual.  Remember, to exit
+use Ctrl-X Ctrl-Z.

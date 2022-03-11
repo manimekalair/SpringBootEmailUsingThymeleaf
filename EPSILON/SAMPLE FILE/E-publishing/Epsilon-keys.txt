@@ -1,0 +1,48 @@
+Epsilon:
+	(1) Command(alt-x)
+	(2) Find file folder(ctrl-x ctrl-f)
+	(3) Copy(alt-w)
+	(4) Paste(ctrl-y)
+	(5) Cut(ctrl-w)
+	(6) Fundamental-mode(left-align)
+	(7) Html-mode
+	(8) Find and replace(alt-shift-8)
+	(9) Replace all(shift-1)
+	(10) Mark set(ctrl-spacebar)
+	(11) Book mark set(alt-?)
+	(12) Jumped to mark set(alt-j)
+	(13) Multi window(ctrl-2)
+	(14) Single window(ctrl-1)
+	(15) Crop the selected lines in the window(narrow to region)
+	(16) Back to window(widden buffer)
+	(17) Beginning page(ctrl-home)
+	(18) End page(ctrl-end)
+	(19) Up window(alt-home)
+	(20) Down window(alt-end)
+	(21) Save(ctrl-x ctrl-s): new name and old name
+	(22) Save as(ctrl-x ctrl-w): new name and update
+	(23) Search (ctrl-s): running(online), offline
+	(24) Reverse(ctrl-r)
+	(26) Closing tag(alt-1)
+	(27) Close current window(ctrl-x ctrl-k)
+	(28) View file(v)
+	(29) Cancel(ctrl-g)
+	(30) Close all file(kill all buffer)
+	(31) Undo(F9)
+	(32) Redo(F10)
+	(33) Select all(ctrl-shift-end)
+	(34) Extra keys:
+		Ctrl+Tab
+		If u want to replace num([0-9]+): #1
+		If u want to replace different types of text and tags(.*): #1
+		If u want to replace word([a-z]): #1 (lower-case)
+		If u want to replace words([a-z]+): #1
+		If u want to replace words([A-Z]+): #1 (upper-case)
+
+Epsilon shortcut keys:
+	Alt+shift+]					:word wrap
+	Alt+F7 and enter, ctrl+s, xml file		:griping word
+	Ctrl+s Ctrl+T, type char, Ctrl+s Ctrl+c Ctrl+s	:exact word
+
+Ctrl+s Ctrl+T(searching special char)
+Ctrl+s Ctrl+c(exact word)

@@ -1,0 +1,41 @@
+[$format= $library.FormatCSV]
+
+	public class [=$module]Document : Table
+	{
+		#region Implementing Table:
+		protected override ISerializer CreateSerializer()
+		{
+			CSVSerializer result= new CSVSerializer(this);
+			result.Format.AssumeFirstRowAsHeaders= [=$format.UseFirstRowNames];
+			result.Format.FieldDelimiter= '[=$format.FieldSeparator]'; 
+			[if $format.QuoteCharacter <> ""]
+			result.Format.QuoteCharacter= '[=$format.QuoteCharacter]';
+			[endif]
+			return result;
+		}
+		protected override void InitHeader(Header header)
+		{
+			[foreach $field in $format.Fields]
+			header.Add(new ColumnSpecification("[=$field.Name]"));
+			[next]
+		}
+		#endregion
+		#region Public Interface:
+		public [=$module]Document()	{}
+		#endregion
+		#region Code needed by generated MappingMain:
+		public int Get[=$library.RootName]Count()
+		{
+			return base.Count;
+		}
+		public [=$library.RootName]Type Get[=$library.RootName]At (int index) 
+		{
+		 	return new [=$library.RootName]Type(base\[index\]);
+		}
+		public void Add[=$library.RootName]([=$library.RootName]Type rhs)
+		{
+			base.Add(rhs);
+		}
+		#endregion
+	}
+

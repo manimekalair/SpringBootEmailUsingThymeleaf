@@ -1,0 +1,294 @@
+[
+'-----------------------------------------------------------
+' C# XML Project Template
+'
+' Copyright (C) 2002-2005 Altova GmbH - The XMLSPY Company
+' All rights reserved.
+'
+' XMLSpy Enterprise Edition generates C# classes
+' based on this template.
+' Refer to the XMLSpy Documentation for further details.
+'
+' http://www.altova.com/xmlspy
+'-----------------------------------------------------------
+
+map type "boolean"				to "SchemaBoolean"
+
+map type "byte"					to "SchemaInt"
+map type "unsignedByte"			to "SchemaInt"
+map type "short"				to "SchemaInt"
+map type "unsignedShort"		to "SchemaInt"
+map type "int"					to "SchemaInt"
+map type "unsignedInt"			to "SchemaInt"
+map type "long"					to "SchemaLong"
+map type "unsignedLong"			to "SchemaLong"
+
+map type "integer"				to "SchemaLong"
+map type "nonPositiveInteger"	to "SchemaLong"
+map type "negativeInteger"		to "SchemaLong"
+map type "positiveInteger"		to "SchemaLong"
+map type "nonNegativeInteger"	to "SchemaLong"
+
+map type "decimal"				to "SchemaDecimal"
+map type "float"				to "SchemaDecimal"
+map type "double"				to "SchemaDecimal"
+
+map type "duration"				to "SchemaString"
+map type "gYear"				to "SchemaString"
+map type "gDay"					to "SchemaString"
+map type "gMonth"				to "SchemaString"
+map type "gYearMonth"			to "SchemaString"
+map type "gMonthDay"			to "SchemaString"
+map type "date"					to "SchemaString"
+map type "time"					to "SchemaString"
+map type "dateTime"				to "SchemaDateTime"
+
+map type "hexBinary"			to "SchemaHexBinary"
+map type "base64Binary"			to "SchemaBase64Binary"
+
+map type "string"				to "SchemaString"
+map type "anyURI"				to "SchemaString"
+map type "QName"				to "SchemaString"
+map type "NOTATION"				to "SchemaString"
+map type "normalizedString"		to "SchemaString"
+map type "token"				to "SchemaString"
+map type "language"				to "SchemaString"
+map type "IDREF"				to "SchemaString"
+map type "ENTITY"				to "SchemaString"
+map type "NMTOKEN"				to "SchemaString"
+map type "Name"					to "SchemaString"
+map type "NCName"				to "SchemaString"
+map type "ID"					to "SchemaString"
+map type "IDREFS"				to "SchemaString"
+map type "ENTITIES"				to "SchemaString"
+map type "NMTOKENS"				to "SchemaString"
+
+map type "anySimpleType"		to "SchemaString"
+
+map type "anyType"				to "Altova.Xml.AnyTypeNode"
+
+default "ValidFirstCharSet"			is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+default "ValidCharSet"				is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_0123456789"
+default "InvalidCharReplacement"	is "_"
+default "AnonTypePrefix"			is ""
+default "AnonTypeSuffix"			is "Type"
+default "ClassNamePrefix"			is ""
+default "ClassNameSuffix"			is ""
+default "EnumerationPrefix"			is "e"
+default "EnumerationUpperCase"		is "off"
+default "FallbackName"				is "Name"
+
+reserve "altova"
+reserve "abstract"
+reserve "as"
+reserve "base"
+reserve "bool"
+reserve "break"
+reserve "byte"
+reserve "case"
+reserve "catch"
+reserve "char"
+reserve "checked"
+reserve "class"
+reserve "const"
+reserve "continue"
+reserve "decimal"
+reserve "default"
+reserve "delegate"
+reserve "do"
+reserve "double"
+reserve "else"
+reserve "enum"
+reserve "event"
+reserve "explicit"
+reserve "extern"
+reserve "false"
+reserve "finally"
+reserve "fixed"
+reserve "float"
+reserve "for"
+reserve "foreach"
+reserve "goto"
+reserve "if"
+reserve "implicit"
+reserve "in"
+reserve "int"
+reserve "interface"
+reserve "internal"
+reserve "is"
+reserve "lock"
+reserve "long"
+reserve "namespace"
+reserve "new"
+reserve "null"
+reserve "object"
+reserve "operator"
+reserve "out"
+reserve "override"
+reserve "params"
+reserve "private"
+reserve "protected"
+reserve "public"
+reserve "readonly"
+reserve "ref"
+reserve "return"
+reserve "sbyte"
+reserve "sealed"
+reserve "short"
+reserve "sizeof"
+reserve "stackalloc"
+reserve "static"
+reserve "string"
+reserve "struct"
+reserve "switch"
+reserve "this"
+reserve "throw"
+reserve "true"
+reserve "try"
+reserve "typeof"
+reserve "uint"
+reserve "ulong"
+reserve "unchecked"
+reserve "unsafe"
+reserve "ushort"
+reserve "using"
+reserve "virtual"
+reserve "void"
+reserve "volatile"
+reserve "while"
+
+reserve "Type"
+reserve "NodeType"
+reserve "Value"
+
+$QualifiedFilename = ""
+$QualifiedNamespace = ""
+$QualifiedBase = ""
+$QualifiedType = ""
+$QualifiedValueType = ""
+$BasePath = ""
+$IsQualified = ""
+$AltovaLibGuid = "D43E6C54-2DF5-454E-9566-DFFE2F3A6946"
+$AltovaXMLLibGuid 	= "03AAA791-EC2D-4A90-ABBF-45337E52DFD6"
+$ProjectLibGuid = createguid
+$TestProjectGuid = createguid
+$moduleName = ""
+
+'-----------------------------------------------------------
+' Altova Common Library
+'-----------------------------------------------------------
+' Common types
+create $outputpath & "/Altova/Altova.cs"			: include "cs/Altova/Altova.cs"				: close
+create $outputpath & "/Altova/SchemaExceptions.cs"	: include "cs/Altova/SchemaExceptions.cs"	: close
+create $outputpath & "/Altova/SchemaTypes.cs"		: include "cs/Altova/SchemaTypes.cs"		: close
+create $outputpath & "/Altova/SchemaTypeFactory.cs"	: include "cs/Altova/SchemaTypeFactory.cs"	: close
+' assembly and project files
+create $outputpath & "/Altova/AssemblyInfo.cs"		: include "cs/Altova/AssemblyInfo.cs"		: close
+if $CreateVS2005Project
+	create $outputpath & "/Altova/Altova.csproj"	: include "cs/Altova/Altova2005.csproj"		: close
+	create $outputpath & "/Altova/Altova.sln"		: include "cs/Altova/Altova2005.sln"		: close
+endif
+if $CreateVS2003Project
+	create $outputpath & "/Altova/Altova.csproj"	: include "cs/Altova/Altova2003.csproj"		: close
+	create $outputpath & "/Altova/Altova.sln"		: include "cs/Altova/Altova2003.sln"		: close
+endif
+if $CreateVSProject
+	create $outputpath & "/Altova/Altova.csproj"	: include "cs/Altova/Altova.csproj"			: close
+	create $outputpath & "/Altova/Altova.sln"		: include "cs/Altova/Altova.sln"			: close
+endif
+if $CreateBorlandProject
+	create $outputpath & "/Altova/Altova.bdsproj"	: include "cs/Altova/Altova.bdsproj"		: close
+endif
+
+'-----------------------------------------------------------
+' Altova XML Library
+'-----------------------------------------------------------
+' XML package
+create $outputpath & "/AltovaXML/Document.cs"			: include "cs/AltovaXML/Document.cs"			: close
+create $outputpath & "/AltovaXML/Node.cs"				: include "cs/AltovaXML/Node.cs"				: close
+create $outputpath & "/AltovaXML/AnyTypeNode.cs"		: include "cs/AltovaXML/AnyTypeNode.cs"			: close
+' assembly and project files
+create $outputpath & "/AltovaXML/AssemblyInfo.cs"		: include "cs/AltovaXML/AssemblyInfo.cs"		: close
+if $CreateVS2005Project
+	create $outputpath & "/AltovaXML/AltovaXML.csproj"	: include "cs/AltovaXML/AltovaXML2005.csproj"	: close
+	create $outputpath & "/AltovaXML/AltovaXML.sln"		: include "cs/AltovaXML/AltovaXML2005.sln"		: close
+endif
+if $CreateVS2003Project
+	create $outputpath & "/AltovaXML/AltovaXML.csproj"	: include "cs/AltovaXML/AltovaXML2003.csproj"	: close
+	create $outputpath & "/AltovaXML/AltovaXML.sln"		: include "cs/AltovaXML/AltovaXML2003.sln"		: close
+endif
+if $CreateVSProject
+	create $outputpath & "/AltovaXML/AltovaXML.csproj"	: include "cs/AltovaXML/AltovaXML.csproj"		: close
+	create $outputpath & "/AltovaXML/AltovaXML.sln"		: include "cs/AltovaXML/AltovaXML.sln"			: close
+endif
+if $CreateBorlandProject
+	create $outputpath & "/AltovaXML/AltovaXML.bdsproj"	: include "cs/AltovaXML/AltovaXML.bdsproj"		: close
+endif
+
+
+'-----------------------------------------------------------
+' Wrapper Library
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/" & $module & "/"
+$moduleName = $module
+if $CreateVS2005Project
+	create $BasePath & $module & ".csproj"	: include "cs/LibraryXML/LibraryXML2005.csproj"	: close
+	create $BasePath & $module & ".sln"		: include "cs/LibraryXML/LibraryXML2005.sln"	: close
+endif
+if $CreateVS2003Project
+	create $BasePath & $module & ".csproj"	: include "cs/LibraryXML/LibraryXML2003.csproj"	: close
+	create $BasePath & $module & ".sln"		: include "cs/LibraryXML/LibraryXML2003.sln"	: close
+endif
+if $CreateVSProject
+	create $BasePath & $module & ".csproj"	: include "cs/LibraryXML/LibraryXML.csproj"		: close
+	create $BasePath & $module & ".sln"		: include "cs/LibraryXML/LibraryXML.sln"		: close
+endif
+if $CreateBorlandProject
+	create $BasePath & $module & ".bdsproj" : include "cs/LibraryXML/LibraryXML.bdsproj"	: close
+	create $BasePath & $module & ".bdsgroup": include "cs/LibraryXML/LibraryXML.bdsgroup"	: close
+endif
+create $BasePath & $module & "Doc.cs"	: include "cs/LibraryXML/ModuleDoc.cs"		: close
+create $BasePath & "AssemblyInfo.cs"	: include "cs/LibraryXML/AssemblyInfo.cs"	: close
+
+foreach $namespace in $namespaces
+	foreach $class in $namespace.Classes
+		$QualifiedFilename  = $class.Name & ".cs"
+		if $class.NamespacePrefix = ""
+			$QualifiedNamespace = $module
+		else
+			$QualifiedNamespace = $module & "." & $class.NamespacePrefix
+		endif
+		if not $class.IsInternal
+			create $BasePath & $QualifiedFilename : include "cs/LibraryXML/Module.cs" : close
+		endif
+	next
+next
+
+
+'-----------------------------------------------------------
+' Test Project (C#)
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/" & $module & "Test/"
+create $BasePath & $module & "Test.cs"			: include "cs/LibraryXMLTest/ModuleTest.cs"		: close
+if $CreateVS2005Project
+	create $BasePath & $module & "Test.csproj"	: include "cs/LibraryXMLTest/LibraryXMLTest2005.csproj"	: close
+	create $BasePath & $module & "Test.sln"		: include "cs/LibraryXMLTest/LibraryXMLTest2005.sln"	: close
+endif
+if $CreateVS2003Project
+	create $BasePath & $module & "Test.csproj"	: include "cs/LibraryXMLTest/LibraryXMLTest2003.csproj"	: close
+	create $BasePath & $module & "Test.sln"		: include "cs/LibraryXMLTest/LibraryXMLTest2003.sln"	: close
+endif
+if $CreateVSProject
+	create $BasePath & $module & "Test.csproj"	: include "cs/LibraryXMLTest/LibraryXMLTest.csproj"	: close
+	create $BasePath & $module & "Test.sln"		: include "cs/LibraryXMLTest/LibraryXMLTest.sln"	: close
+endif
+if $CreateBorlandProject
+	create $BasePath & $module & "Test.bdsproj"	: include "cs/LibraryXMLTest/LibraryXMLTest.bdsproj"	: close
+	create $BasePath & $module & "Test.bdsgroup": include "cs/LibraryXMLTest/LibraryXMLTest.bdsgroup"	: close
+endif
+if $CreateMonoMakefile
+	create $outputpath & "/makefile"			: include "cs/LibraryXMLTest/makefile" : close
+endif
+create $BasePath & "AssemblyInfo.cs"			: include "cs/LibraryXMLTest/AssemblyInfo.cs"	: close
+
+]

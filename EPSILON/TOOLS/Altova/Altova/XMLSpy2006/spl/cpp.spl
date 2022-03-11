@@ -1,0 +1,205 @@
+[
+'-----------------------------------------------------------
+' C++ XML Project Template
+'
+' Copyright (C) 2002-2005 Altova GmbH - The XMLSPY Company
+' All rights reserved.
+'
+' XMLSpy Enterprise Edition generates C++ classes
+' based on this template.
+' Refer to the XMLSpy Documentation for further details.
+'
+' http://www.altova.com/xmlspy
+'-----------------------------------------------------------
+
+include "cpp/settings.spl"
+
+$QualifiedBase = ""
+$QualifiedSimpleBase = ""
+$QualifiedType = ""
+$QualifiedName = ""
+$BuiltInType = ""
+$InstanceLength = ""
+$InstanceValue = ""
+$BasePath = ""
+$IsQualified = ""
+
+'-----DSP generation variables-----
+$libtypename = ""
+$dllexp = ""
+$CPPOpt = ""
+$RSCOpt = ""
+$LINKOpt = ""
+$RTLOpt = ""
+$AppProjectName = $module & "Test"
+if $libtype = 1 'Static lib
+	$libtypename = "Static Library"
+	$VCConfigurationType = 4
+	$VCRTLRelease = 0
+	$VCRTLDebug = 1
+	$PreprocessorDefinitions = "_LIB;_CRT_SECURE_NO_DEPRECATE"
+else 'DLL
+	$libtypename = "Dynamic-Link Library"
+	$VCConfigurationType = 2
+	$VCRTLRelease = 2
+	$VCRTLDebug = 3
+	$PreprocessorDefinitions = "_USRDLL;_CRT_SECURE_NO_DEPRECATE"
+endif
+if $mfc
+	if $libtype = 1 'Static lib
+		$MFCCode = 2 'Use MFC from static lib
+		$CPPOpt = " /D \"_LIB\" /D \"_AFXDLL\" /MD"
+     	$MFCCodeVS7 = 2
+     	$MFCCodeVS8 = 1
+	else 'DLL
+		$MFCCode = 6 'Use MFC from DLL
+		$CPPOpt = " /D \"_USRDLL\" /D \"_WINDLL\" /D \"_AFXDLL\" /MD"
+		$LINKOpt = " /subsystem:windows"
+		$MFCCodeVS7 = 2
+     	$MFCCodeVS8 = 2
+	endif
+	$RSCOpt = " /d \"_AFXDLL\""
+	$RTLOpt = " /MD"
+else 'No MFC
+	$MFCCode = 0 'Do not use MFC
+	$MFCCodeVS7 = 0
+	$MFCCodeVS8 = 0
+	if $libtype = 1 'Static lib
+		$CPPOpt = " /D \"_LIB\" /MT"
+		$RTLOpt = " /MT"
+	else 'DLL
+		$CPPOpt = " /D \"_USRDLL\" /MD"
+		$LINKOpt = " kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"
+		$RTLOpt = " /MD"
+	endif
+	$RSCOpt = ""
+endif
+
+$AltovaLibGuid = "5CCDF85F-DC01-43BF-A2C2-ACB1BD6BEA42"
+$AltovaXMLLibGuid 	= "3E4146D4-2603-4873-B8AE-4B83B18ABE9F"
+$ProjectLibGuid = createguid
+$TestProjectGuid = createguid
+
+include "cpp/vs2005.spl"
+
+'-----------------------------------------------------------
+' Test Project
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/" & $module & "Test/"
+if $vc6project
+	create $BasePath & $module & "Test.dsp"	: include "cpp/LibraryXMLTest/LibraryXMLTest.dsp"	: close
+	create $BasePath & $module & "Test.dsw"	: include "cpp/LibraryXMLTest/LibraryXMLTest.dsw"	: close
+endif
+if $VS2003Project
+	create $BasePath & $module & "Test.vcproj"	: include "cpp/LibraryXMLTest/LibraryXMLTest2003.vcproj"	: close
+	create $BasePath & $module & "Test.sln"		: include "cpp/LibraryXMLTest/LibraryXMLTest2003.sln"	: close
+endif
+if $VS2005Project
+	create $BasePath & $module & "Test.vcproj"	: include "cpp/LibraryXMLTest/LibraryXMLTest2005.vcproj"	: close
+	create $BasePath & $module & "Test.sln"		: include "cpp/LibraryXMLTest/LibraryXMLTest2005.sln"	: close
+endif
+create $BasePath & $module & "Test.cpp"		: include "cpp/LibraryXMLTest/LibraryXMLTest.cpp"		: close
+create $BasePath & $module & "Test.h"		: include "cpp/LibraryXMLTest/LibraryXMLTest.h"			: close
+create $BasePath & $module & "Test.rc"		: include "cpp/LibraryXMLTest/LibraryXMLTest.rc"		: close
+create $BasePath & "Resource.h"				: include "cpp/LibraryXMLTest/Resource.h"			: close
+create $BasePath & "StdAfx.h"				: include "cpp/LibraryXMLTest/StdAfx.h"				: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/LibraryXMLTest/StdAfx.cpp"			: close
+
+'-----------------------------------------------------------
+' Wrapper Library
+'-----------------------------------------------------------
+
+sub GenerateBaseClassIncludes(ByRef $class)
+	if $class.HasBaseObject
+		foreach $tmpclass1 in $classes : if not $tmpclass1.IsInternal
+			if $tmpclass1.Name = $class.Base
+				call GenerateBaseClassIncludes($tmpclass1)
+				]#include "[=$module]_[=$class.Base].h"
+[			endif
+		endif: next
+	endif
+endsub
+
+$BasePath = $outputpath & "/" & $module & "/"
+if $vc6project
+	create $BasePath & $module & ".dsp"		: include "cpp/LibraryXML/LibraryXML.dsp"		: close
+	create $BasePath & $module & ".dsw"		: include "cpp/LibraryXML/LibraryXML.dsw"		: close
+endif
+if $VS2003Project
+	create $BasePath & $module & ".vcproj"	: include "cpp/LibraryXML/LibraryXML2003.vcproj"	: close
+	create $BasePath & $module & ".sln"		: include "cpp/LibraryXML/LibraryXML2003.sln"	: close
+endif
+if $VS2005Project
+	create $BasePath & $module & ".vcproj"	: include "cpp/LibraryXML/LibraryXML2005.vcproj"	: close
+	create $BasePath & $module & ".sln"		: include "cpp/LibraryXML/LibraryXML2005.sln"	: close
+endif
+include "cpp/LibraryXML/LibraryXML.h"
+include "cpp/LibraryXML/LibraryXML.cpp"
+create $BasePath & "StdAfx.h"				: include "cpp/LibraryXML/StdAfx.h"			: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/LibraryXML/StdAfx.cpp"		: close
+
+'-----------------------------------------------------------
+' Altova Library
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/Altova/"
+if $vc6project
+	create $BasePath & "Altova.dsp"			: include "cpp/Altova/Altova.dsp"			: close
+	create $BasePath & "Altova.dsw"			: include "cpp/Altova/Altova.dsw"			: close
+endif
+if $VS2003Project
+	create $BasePath & "Altova.vcproj"		: include "cpp/Altova/Altova.vcproj"	: close
+	create $BasePath & "Altova.sln"			: include "cpp/Altova/Altova.sln"	: close
+endif
+if $VS2005Project
+	create $BasePath & "Altova.vcproj"		: include "cpp/Altova/Altova2005.vcproj"	: close
+	create $BasePath & "Altova.sln"			: include "cpp/Altova/Altova2005.sln"	: close
+endif
+create $BasePath & "SchemaTypes.h"			: include "cpp/Altova/SchemaTypes.h"		: close
+create $BasePath & "SchemaTypes.cpp"		: include "cpp/Altova/SchemaTypes.cpp"		: close
+create $BasePath & "AltovaException.h"		: include "cpp/Altova/AltovaException.h"	: close
+create $BasePath & "AltovaException.cpp"	: include "cpp/Altova/AltovaException.cpp"	: close
+create $BasePath & "Altova.h"				: include "cpp/Altova/Altova.h"				: close
+create $BasePath & "SchemaTypeBinary.h"		: include "cpp/Altova/SchemaTypeBinary.h"	: close
+create $BasePath & "SchemaTypeBinary.cpp"	: include "cpp/Altova/SchemaTypeBinary.cpp"	: close
+create $BasePath & "SchemaTypeCalendar.h"	: include "cpp/Altova/SchemaTypeCalendar.h"	: close
+create $BasePath & "SchemaTypeCalendar.cpp"	: include "cpp/Altova/SchemaTypeCalendar.cpp": close
+create $BasePath & "SchemaTypeNumber.h"		: include "cpp/Altova/SchemaTypeNumber.h"	: close
+create $BasePath & "SchemaTypeNumber.cpp"	: include "cpp/Altova/SchemaTypeNumber.cpp"	: close
+create $BasePath & "SchemaTypeString.h"		: include "cpp/Altova/SchemaTypeString.h"	: close
+create $BasePath & "SchemaTypeString.cpp"	: include "cpp/Altova/SchemaTypeString.cpp"	: close
+create $BasePath & "StdAfx.h"				: include "cpp/Altova/StdAfx.h"				: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/Altova/StdAfx.cpp"			: close
+
+'-----------------------------------------------------------
+' Altova XML Library
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/AltovaXML/"
+if $vc6project
+	create $BasePath & "AltovaXML.dsp"		: include "cpp/AltovaXML/AltovaXML.dsp"		: close
+	create $BasePath & "AltovaXML.dsw"		: include "cpp/AltovaXML/AltovaXML.dsw"		: close
+endif
+if $VS2003Project
+	create $BasePath & "AltovaXML.vcproj"	: include "cpp/AltovaXML/AltovaXML.vcproj"	: close
+	create $BasePath & "AltovaXML.sln"		: include "cpp/AltovaXML/AltovaXML.sln"	: close
+endif
+if $VS2005Project
+	create $BasePath & "AltovaXML.vcproj"	: include "cpp/AltovaXML/AltovaXML2005.vcproj"	: close
+	create $BasePath & "AltovaXML.sln"		: include "cpp/AltovaXML/AltovaXML2005.sln"	: close
+endif
+if $domtype = 1
+	create $BasePath & "Doc.h"				: include "cpp/AltovaXML/MSXML/Doc.h"		: close
+	create $BasePath & "Doc.cpp"			: include "cpp/AltovaXML/MSXML/Doc.cpp"		: close
+	create $BasePath & "Node.h"				: include "cpp/AltovaXML/MSXML/Node.h"		: close
+	create $BasePath & "Node.cpp"			: include "cpp/AltovaXML/MSXML/Node.cpp"	: close
+else
+	create $BasePath & "Doc.h"				: include "cpp/AltovaXML/Xerces/Doc.h"		: close
+	create $BasePath & "Doc.cpp"			: include "cpp/AltovaXML/Xerces/Doc.cpp"	: close
+	create $BasePath & "Node.h"				: include "cpp/AltovaXML/Xerces/Node.h"		: close
+	create $BasePath & "Node.cpp"			: include "cpp/AltovaXML/Xerces/Node.cpp"	: close
+endif
+create $BasePath & "AltovaXMLAPI.h"			: include "cpp/AltovaXML/AltovaXMLAPI.h"	: close
+create $BasePath & "XmlException.h"			: include "cpp/AltovaXML/XmlException.h"	: close
+create $BasePath & "XmlException.cpp"		: include "cpp/AltovaXML/XmlException.cpp"	: close
+create $BasePath & "StdAfx.h"				: include "cpp/AltovaXML/StdAfx.h"			: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/AltovaXML/StdAfx.cpp"		: close
+]

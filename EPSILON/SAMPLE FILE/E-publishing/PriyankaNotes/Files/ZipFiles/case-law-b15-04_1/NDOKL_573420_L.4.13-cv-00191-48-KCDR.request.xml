@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>LODA OKLA, LLC and VICTORIA TIME CORP., Claimants/Movants</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>MICKEY OVERALL, GINETTE OVERALL, and AMERICAN NATURAL RESOURCES, LLC, Respondents/Objectors.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 13-CV-191-GKF-FHM</docket.line>
+<docket.number>13-CV-191-GKF-FHM</docket.number>
+<docket.line suppress-flag="y">4:13-cv-00191-GKF-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 10/09/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GREGORY K. FRIZZELL, CHIEF JUDGE UNITED STATES DISTRICT COURT</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the court is the motion of the claimants Loda Okla, LLC and Victoria Time Corp. to confirm an arbitration award entered in their favor [Dkt. #32] and the motions of respondents Mickey Overall, Ginette Overall, and American Natural Resources, LLC to stay confirmation of the award [Dkt. #42]. For the reasons given below, the respondents' motion is granted, and consideration of the claimants' motion is stayed until the respondents' motion to vacate the arbitration award [Dkt. #47] is fully briefed.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>I. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">The claimants brought suit against the respondents, alleging that the respondents violated Oklahoma law when they fraudulently induced the claimants to invest in mineral leases the respondents did not actually own. [Dkt. #2, &#182; 10].<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> The proceedings were stayed to allow the parties to settle their dispute through mediation or arbitration. [Dkt. #31]. The result of the arbitration was an award issued on July 10, 2014 in the claimants' favor. [Dkt. #32-4].</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;The court has jurisdiction over this case under 28 U.S.C. &#167; 1332, as complete diversity exists between the claimants, who are residents of Texas, and the respondents, who are residents of Oklahoma.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p4" level="1">On July 15, 2014, just three business days after the award was granted, the claimants moved to confirm the arbitration award and enter judgment in accordance therewith, noting that no motion to vacate, modify, or correct the award had yet been entered. [Dkt. #32, &#182; 15]. In response, the respondents argue the claimants' motion was premature, as they intended to file a motion to vacate, modify, and/or correct the arbitration award within the three-month period of time allowed by 9 U.S.C. &#167; 12. [Dkt. #39]. But this response, the claimants contend, did not state the grounds for denying confirmation of the award, and did not properly request the court to stay consideration of their motion to confirm, thus warranting immediate confirmation of the award. [Dkt. #41].</paratext></para>
+<para><paratext ID="p5" level="1">The respondents then moved to stay consideration of the claimants' motion to confirm the arbitration award, again noting their intent to file a motion to vacate, modify, and/or correct the arbitration award within the period allowed by statute. [Dkt. #42]. The claimants characterize this motion as nothing more than an unauthorized sur-reply brief, and claim the respondents's failure to assert their objections or properly seek an extension of time to respond requires this court to confirm the arbitration award. [Dkt. #45]. The respondents nevertheless contend it would be unfair to confirm the arbitration award without first considering the arguments contained in the motion to vacate, which they subsequently filed on October 7, 2014, before the statutory time limit had passed. [Dkt. #47].</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>II. Discussion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">The Federal Arbitration Act (&#x201C;FAA&#x201D;) permits a party to arbitration to seek confirmation of an arbitration award &#x201C;at any time within one year after the award is made.&#x201D; 9 U.S.C. &#167; 9. At the same time, however, the FAA states that &#x201C;[n]otice of a motion to vacate, modify, or correct an award must be served upon the adverse party or his attorney within three months after the award is filed or delivered.&#x201D; 9 U.S.C. &#167; 12. This case principally concerns the effects of that three-month gap between the time when a prevailing party is first able to seek confirmation of an arbitration award and when its opponent must raise its challenge to the award.</paratext></para>
+<para><paratext ID="p7" level="1">In resolving the tension between these two statutes, two cases are particularly helpful. In <ital>In re North of England Steamship Co., Ltd.</ital>, 57 F.2d 672 (2d Cir. 1932), a party to arbitration moved to confirm an award less than one month after it was entered. The opposing party, meanwhile, stated its intent to file a motion to vacate within the three-month period, though it could not do so at that time because of missing exhibits. <ital>Id.</ital> at 673. The district court entered the award before the motion to vacate was entered, but the Second Circuit reversed on appeal. The district court, the circuit court concluded, had jurisdiction under 9 U.S.C. &#167; 9 to confirm the award &#x201C;at any time,&#x201D; but the district court nevertheless &#x201C;erred in confirming the award as of course, when it was advised that objections were to be made but could not be presented because of missing exhibits.&#x201D; <ital>Id.</ital></paratext></para>
+<para><paratext ID="p8" level="1">Similarly, in <ital>Burlington Northern and Santa Fe Ry. Co. v. Public Service Co. of OK</ital>, 2007 WL 593621 (N.D. Okla. 2007) (unpublished), the respondent filed a motion to confirm an arbitration award less than a month after the award was issued. The applicant, in its response to the motion, argued the court should continue the motion until it filed its forthcoming petition to vacate the award. <ital>Id.</ital> at *1. The applicant later moved to amend its response, reaffirming its intent to file a motion to vacate the award and detailing some of the grounds the subsequent motion would address. <ital>Id.</ital> Before the applicant had filed its motion to vacate, however, the court entered an order confirming the arbitration award and a corresponding judgment. <ital>Id.</ital> But upon the applicant's motion to reconsider, the court conceded it had erred in granting the motion to confirm when the applicant had advised the court of its intent to file a motion to vacate within the permitted period. <ital>Id.</ital> at *2. &#x201C;[G]ranting [the respondent's] Motion to Confirm without first considering the arguments contained in [the applicant's] Motion to Amend and Motion to Vacate,&#x201D; the court concluded, &#x201C;was fundamentally unfair and counter to the interests of justice. It is further in direct contravention of the general policy favoring decision of cases based on their merits rather than mere technicalities.&#x201D; <ital>Id.</ital> at *2 (citing <ital>Denver &#38; Rio Grande W. R.R. Co. v. Union Pac. R.R. Co.</ital>, 119 F.3d 847, 848 (10th Cir. 1997)). The court noted the applicant &#x201C;would have been well-advised to file its Motion to Vacate in response to [the respondent's] Motion to Confirm, so as to avoid the possibility that the Motion to Confirm could be granted prior to consideration of [the applicant's] Motion to Vacate.&#x201D; <ital>Id.</ital> at *2, n.1. But the court nevertheless disagreed that its failure to do so amounted to a waiver of its opportunity to file a motion to vacate. <ital>Id.</ital></paratext></para>
+<para><paratext ID="p9" level="1">The court finds the reasoning in these cases persuasive. Here, too, the respondents would have been well-advised to file their motion to vacate along with their response to the motion to confirm, or, if more time was necessary to compile transcripts or other materials, to extend the period of time in which to file their response to the motion. But the salient facts are these: the respondents promptly notified the court and the claimants of their intent to challenge the arbitration award within the statutorily permitted period of time, and requested the court defer its consideration of the claimants' motion until they had filed their challenge. The court need not, and indeed, does not, recommend the procedural methods the respondents used to alert the court and the claimants of its position in order to find the respondents nevertheless accomplished the same objective the better course of action would have achieved. The claimants appear to have suffered no prejudice because notice of the respondents' intent to challenge the arbitration award did not come in the preferred form, and indeed, the claimants do not argue otherwise.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> It would be fundamentally unfair to deprive the respondents of their statutory right to challenge the award simply because its otherwise timely and effective assertion of that right did not come in the proper form.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p10">&#8195;The claimants argue they are &#x201C;irreparably harmed by every day of delay in confirmation of the award.&#x201D; [Dkt. #45, p. 8]. Yet this allegation of prejudice refers not to the form in which the respondents conveyed their grounds for delaying consideration of the motion to confirm the award, but to the delay itself.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p11" level="1">The claimants attempt to distinguish <ital>Burlington Northern</ital> by noting in that case, the applicant had articulated substantive reasons for questioning the award, thereby showing good cause to delay consideration of the motion to confirm the arbitration award. [Dkt. #41, p. 4] (citing <ital>Burlington Northern</ital>, 2007 WL 593621 at *2). The court nevertheless determines good cause to stay consideration of the motion to confirm likewise exists in this case. Importantly, 9 U.S.C. &#167; 12 grants a statutory right to challenge the entry of the arbitration award within three months of its entry. Even if the respondents were required to provide reasons why they would need the three months given to them by statute to submit their challenge, the fact remains that they did so. The respondents notified the court that new counsel had been retained to prepare their motion to vacate [Dkt. #38, p. 3], and that it had not yet been able to obtain the arbitration trial transcript, which they claimed would provide further grounds for their challenge to the award [Dkt. #39, p. 2] (<ital>cf. In re North of England Steamship Co., Ltd.</ital>, 57 F.2d at 673 (finding the district court erred in confirming the award when it had been advised that objections could not yet be presented due to missing exhibits)). The form may have been improper, to be sure, but in the interest of &#x201C;deciding cases on the merits as opposed to dismissing them because of minor technical defects&#x201D; (<ital>Denver &#38; Rio Grande Western R. Co. v. Union Pacific R. Co.</ital>, 119 F.3d 847, 848&#8211;49 (10th Cir. 1997)), the court will not elevate form over substance here.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>III. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">For the foregoing reasons, the respondents' motion to stay consideration of the claimants' motion to confirm the arbitration award [Dkt. #42] is granted.</paratext></para>
+<para><paratext ID="p13" level="1">ENTERED this 9th day of October, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

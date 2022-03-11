@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 alpha 1 U build Jun 28 2002 (http://www.xmlspy.com) by Altova (Altova) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tsd="http://namespaces.softwareag.com/tamino/TaminoSchemaDefinition" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="ENTER_NAME_OF_ROOT_ELEMENT_HERE">
+		<xs:annotation>
+			<xs:documentation>The root element is usually named the same as the doctype.</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

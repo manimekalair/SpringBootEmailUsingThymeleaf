@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>WEBCO INDUSTRIES, INC. Plaintiff</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>TEXAS TUBULAR PRODUCTS, INC. Defendant.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No. 15-CV-704-JED-FHM</bold></docket.line>
+<docket.number><bold>15-CV-704-JED-FHM</bold></docket.number>
+<docket.line suppress-flag="y">4:15-cv-00704-JED-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/30/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold><underscore>ORDER</underscore></bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JOHN E. DOWDELL UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">The Court has for its consideration defendant Texas Tubular Products, Inc.'s Motion to Abate and Compel Arbitration (the &#x201C;Motion&#x201D;) (Doc. 22). Plaintiff submitted its Response. (Doc. 30). Having reviewed the Motion and the relevant law, the Court finds that the motion should be <bold>granted</bold>.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Plaintiff filed this lawsuit against defendant alleging that defendant breached the contract entered into between the parties by failing to pay plaintiff for a sales order of steel tubular products (the &#x201C;Sales Order&#x201D;) that plaintiff delivered to defendant. (Doc. 2). Defendant filed a counterclaim alleging breach of contract, negligence, and manufacturing defect based on its contention that the products plaintiff delivered pursuant to the Sales Order did not conform to defendant's specifications. (Doc. 13).</paratext></para>
+<para><paratext ID="p3" level="1">The Sales Order contains a notice at the bottom of each page, which states: &#x201C;This order is made only upon the &#x2018;Condition of Sale&#x2019; set forth on the last page<charfill numchar="4">&#8228;</charfill>&#x201D; (Doc. 22, Exh. 1, at 1, 2). The referenced document on the last page of the Sales Order, titled the &#x201C;Standard Terms and Conditions of Sale&#x201D; (hereinafter &#x201C;Terms and Conditions&#x201D;), includes an arbitration clause which reads in part as follows:</paratext>
+<para><paratext ID="p4" first-line="1" turnover="1"><ital>Any</ital> controversy or claim arising out of or relating to the Agreement of these terms, or the breach thereof, <ital>shall</ital> be resolved by arbitration administered by the American Arbitration Association under its Commercial Arbitration Rules in Tulsa, Oklahoma, and judgment on the award rendered by the arbitrators may be entered in any court having jurisdiction thereof.</paratext></para>
+<paratext ID="p5" contd-flag="y">(Doc. 22, Exh. 1, at 3; Doc. 22, &#182; 2, italics added).</paratext></para>
+<para><paratext ID="p6" level="1">Defendant filed this Motion requesting that the Court stay the pending litigation and order the parties to proceed in arbitration. (Doc. 22, &#182; 5). There are other motions pending before the Court.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p7">&#8195;Plaintiff filed a Motion to Dismiss for Failure to State a Claim (Doc. 19), defendant filed a Motion for Leave to File an Amended Answer and Counterclaim (Doc. 21) and a Motion for Leave to Strike or Alternative Motion for More Definite Statement (Doc. 23), and after defendant filed this Motion, plaintiff filed a Motion for Partial Summary Judgment (Doc. 33).</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Legal Standard</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Under the Federal Arbitration Act (&#x201C;FAA&#x201D;), 9 U.S.C. &#167; 1 <ital>et seq.</ital>, arbitration clauses in contracts involving commerce are valid, irrevocable, and enforceable. 9 U.S.C. &#167; 2. &#x201C;The Supreme Court has long recognized and enforced a liberal federal policy favoring arbitration agreements,&#x201D; and &#x201C;[u]nder this policy, the doubts concerning the scope of arbitrable issues should be resolved in favor of arbitration.&#x201D; <ital>Nat'l Am. Ins. Co. v. SCOR Reinsurance Co.</ital>, 362 F.3d 1288, 1290 (10th Cir. 2004) (citations and quotations omitted); <ital>see also Sanchez v. Nitro-Lift Techs., L.L.C.</ital>, 762 F.3d 1139, 1146 (10th Cir. 2014) (&#x201C;[T]he FAA and common law have created a presumption in favor of arbitration.&#x201D;). Moreover, when a contract contains a broad arbitration clause, the presumption in favor of arbitration &#x201C;&#x2018;applies with even greater force,&#x2019;&#x201D; <ital>Sanchez</ital>, 762 F.3d at 1147 (quoting <ital>P &#38; P Indus., Inc. v. Sutter Corp.</ital>, 179 F.3d 861, 871 (10th Cir. 1999)), and &#x201C;matters that touch the underlying contract should be arbitrated.&#x201D; <ital>Brown v. Coleman Co.</ital>, 220 F.3d 1180, 1184 (10th Cir. 2000).</paratext></para>
+<para><paratext ID="p9" level="1">In considering a motion to compel arbitration, a district court must determine &#x201C;(1) whether a valid agreement to arbitrate exists, and (2) whether the subject matter of the dispute is covered by the arbitration agreement.&#x201D; <ital>Gonzales v. J.C. Penney Corp.</ital>, 2013 WL 1798684, at *2 (N.D. Okla. Apr. 29, 2013); <ital>Pierce v. Kellogg, Brown &#38; Root, Inc.</ital>, 245 F. Supp. 2d 1212, 1215-16 (E.D. Okla. 2003) (citing <ital>Coors Brewing Co. v. Molson Breweries</ital>, 51 F.3d 1511, 1515&#8211;16 (10th Cir. 1995)). The FAA requires a district court to stay judicial proceedings if it concludes the dispute must be arbitrated. 9 U.S.C. &#167; 3; <ital>Coors</ital>, 51 F.3d at 1514.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. Discussion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Under the first part of the test, the Court must determine whether a valid agreement to arbitrate exists. Neither party challenges the validity of the arbitration clause referenced in the Sales Order. Thus, the Court finds that there is a valid agreement to arbitrate.</paratext></para>
+<para><paratext ID="p11" level="1">Next, the Court must determine whether the subject matter of the dispute falls within the scope of the arbitration clause. The broad language of the arbitration clause provides that &#x201C;[a]ny controversy or claim arising out of or relating to the Agreement of these terms, or the breach thereof, shall be resolved by arbitration<charfill numchar="4">&#8228;</charfill>&#x201D; (Doc. 22, Exh. 1, at 3; Doc. 22, &#182; 2). Defendant argues that the Court should enforce the arbitration clause because the clause encompasses the subject matter of this litigation: the parties' dispute over the goods sold in the Sales Order. (Doc. 22, &#182; 4). In its Response, plaintiff does not deny the applicability of the arbitration clause to the parties' dispute.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> (Doc. 30). Given the fact that there is no dispute about whether the parties' claims fall within the scope of the arbitration clause, in addition to the even stronger presumption in favor of arbitration where a broad arbitration clause exists, <ital>see Sanchez</ital>, 762 F.3d at 1147, the Court finds that the parties' dispute is properly subject to arbitration under the clause.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p12">&#8195;However, plaintiff requests that the Court compel defendant to confirm that the Terms and Conditions apply in their entirety to ensure that plaintiff has some certainty that defendant &#x201C;will not renege on its commitment to the [Terms and Conditions]&#x201D; and subsequently contest their applicability. (Doc. 30 at 3). Plaintiff states that once defendant has done so&#8212;through one request for admission, one request for production, and two interrogatories&#8212;it will then &#x201C;gladly proceed to arbitration.&#x201D; (<ital>Id.</ital> at 4). Absent any authority from plaintiff demonstrating that such a route is justified under the circumstances, the Court declines to grant plaintiff's requests.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p13" level="1">Accordingly, under the FAA and in light of the broad language of the arbitration clause, the Court determines that the arbitration clause will be enforced.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1"><bold>IT IS THEREFORE ORDERED</bold> that defendant's Motion to Abate and Compel Arbitration (Doc. 22) is <bold>granted</bold>. The case is stayed pending arbitration. The parties are directed to file a joint status report with the Court within twenty (20) days of the conclusion of the arbitration proceedings.</paratext></para>
+<para><paratext ID="p15" level="1"><bold>SO ORDERED</bold> this 30th day of June, 2016.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

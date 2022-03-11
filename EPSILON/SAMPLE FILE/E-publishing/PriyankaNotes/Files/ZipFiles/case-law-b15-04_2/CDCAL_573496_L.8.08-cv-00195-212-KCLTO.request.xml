@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8211; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>All Cities Realty, Inc.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>Hollymax Realty, Inc., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SA CV 08-195-AHS(MLGx)</docket.line>
+<docket.number>SA CV 08-195-AHS(MLGx)</docket.number>
+<docket.line suppress-flag="y">8:08-cv-00195-AHS-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 03/16/2011</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Loretta Anderson, Deputy Clerk, Attorneys Present for Plaintiff: None</attorney.line>
+<attorney.line first-line="1">Not present, Court Reporter / Recorder, Attorneys Present for Defendants: None</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings</bold>: (In Chambers) ORDER GRANTING DEFENDANT KIM'S MOTION TO AMEND ANSWER AND EXTENDING DISCOVERY CUT-OFF DATE TO JUNE 30, 2011</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable ALICEMARIE H. STOTLER, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>I. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On February 18, 2011, defendant Jihan Kim (&#x201C;defendant&#x201D;) filed a motion to amend his answer to the Second Amended Complaint (&#x201C;SAC&#x201D;). (Doc. No. 202.) On February 28, 2011, plaintiff opposed, and also filed evidentiary objections to the declaration of Jihan Kim. (Doc. Nos. 208, 209.) On March 7, 2011, defendant replied. (Doc. No. 211.)</paratext></para>
+<para><paratext ID="p2" level="1">The Court finds this matter appropriate for submission on the papers. <underscore>See</underscore> Local Rule 7-15 (stating that the Court may dispense with oral argument on any matter unless otherwise required); Fed. R. Civ. P. 78. The matter is, therefore, removed from the Court's March 21, 2011 calendar.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>II. Legal Standard</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Because the deadline to amend pleadings under Rule 16(b)(3)(A), as set forth in the Court's scheduling order (Doc. No. 129 &#182; 1), has passed, amendment is allowed &#x201C;only for good cause and with the judge's consent.&#x201D; Fed. R. Civ. P. 16(b)(4). <underscore>See also AmerisourceBergen Corp. v. Dialysist West, Inc.</underscore>, 465 F.3d 946, 952 (9th Cir. 2006) (a party may not &#x201C;appeal to the liberal amendment procedures afforded by Rule 15&#x201D; after the court issues a pretrial scheduling order). Although prejudice to the opposing party may provide support for denying a motion to amend, &#x201C;the focus of the inquiry is upon the moving party's reasons for seeking modification. If that party was not diligent, the inquiry should end.&#x201D; <underscore>Johnson v. Mammoth Recreations, Inc.</underscore>, 975 F.2d 604, 609 (9th Cir. 1992) (citation omitted).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>III. Discussion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">Defendant's motion erroneously argues that the liberal amendment standards of Rule 15 apply. (Motion at 7.) Defendant raises good cause for the first time on reply. (Reply at 2.) While arguments raised for the first time on reply are generally waived, <underscore>see United States ex rel. Meyer v. Horizon Health Corp.</underscore>, 565 F.3d 1195, 1199 n.1 (9th Cir. 2009), because defendant makes similar arguments in support of amendment under both Rule 15 and, belatedly, under Rule 16, the Court addresses the issue of good cause.</paratext></para>
+<para><paratext ID="p5" level="1">Turning to defendant's reasons for seeking amendment, the Court notes that the defective answer was filed when defendant was <ital>pro se</ital>, and allegedly upon the advice of a volunteer in the Court's <ital>Pro Se</ital> Clinic. (Motion at 3.) Although it has been nearly one year since defendant filed his answer, (Doc. No. 98), he obtained counsel only four months ago. Defendant argues that plaintiff's silence in the face of the defective answer, until February 2, 2011, supports granting leave to amend. However, defendant provides no satisfactory explanation regarding why <ital>his own counsel</ital>, retained November 3, 2010, failed to notice that the answer prematurely terminates at paragraph 53 and does not track the operative complaint. Defendant's attempt to put the burden to object to his answer on plaintiff lacks authority.</paratext></para>
+<para><paratext ID="p6" level="1">Notwithstanding the question regarding whether defendant's counsel reviewed defendant's answer before February 2, 2011, the Court is mindful of the somewhat unusual posture of this case. After multiple motions to dismiss and a stay of discovery, followed by the sudden withdrawal of defense counsel and the untimely death of plaintiff's counsel, no initial disclosures have been made and discovery began to progress only recently. These facts, combined with defendant's prompt response to plaintiff's concerns regarding the defective answer, tip the scale of good cause slightly in favor of granting leave to amend the answer. In the interests of deciding the case on the merits and promoting justice, defendant is granted leave to file the proposed First Amended Answer, (Motion, Ex. 5), and he shall do so forthwith.</paratext></para>
+<para><paratext ID="p7" level="1">Because it appears that plaintiff would otherwise be prejudiced by granting defendant leave to amend his answer only 45 days before the close of discovery, the Court extends the discovery cut-off date to June 30, 2011, allowing plaintiff to propound additional discovery on the newly expanded answer. This extension is appropriate given plaintiff's diligence in raising the issue of the defective answer, combined with plaintiff's early attempts to seek a discovery extension sufficiently taking into account the impact an amended answer would have on the scope of discovery. (Motion, Ex. 3 at 5 (&#x201C;Does your client intent to amend his answer?<charfill numchar="3">&#8228;</charfill> Whether your client intends to amend his answer or stay with what he has will determine the extent of my discovery requests. If he will seek leave to amend, then I need the discovery cutoff [sic] take that into account.&#x201D;).) Because defendant avoided a direct response to this question, (Motion, Ex. 4 at 6 (&#x201C;We see no relationship between our client's inadvertent omission and the discovery cutoff.&#x201D;)), plaintiff agreed to a four-, instead of six-, month discovery extension, based on the belief that no amendment would be sought. (Motion, Ex. 6 at 22.) It was only after the Court entered an order extending the discovery cut-off to April 30, 2011, (Doc. No. 201), that defendant made his intention to amend clear. Better communication on the part of both parties, as required by Local Rule 7-3, would have avoided the need for Court intervention.</paratext></para>
+<para><paratext ID="p8" level="1">The Court overrules plaintiff's evidentiary objections.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>IV. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">For the foregoing reasons, the Court grants Defendant Kim's motion (Doc. No. 202), and grants leave to file the proposed First Amended Answer (Doc. No. 202, Ex. 5), which was not electronically filed as a separate document in accordance with Local Rule 15-1. The discovery cut-off deadline is extended until June 30, 2011.</paratext></para>
+<para><paratext ID="p10" level="1">The Clerk shall serve a copy of this minute order on counsel for all parties and all parties appearing in pro per in this action.</paratext></para>
+<para><paratext ID="p11" level="1">&#95;&#95;&#95;&#95; : &#95;&#95;&#95;&#95;</paratext></para>
+<para><paratext ID="p12" level="1">Initials of Clerk <underscore>lma</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

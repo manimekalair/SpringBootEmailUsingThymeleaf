@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8212; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><ital>Mellissa Withers</ital></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><ital>eHarmony, Inc.</ital></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-2266-GHK (RCx)</docket.line>
+<docket.number>CV 09-2266-GHK (RCx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-02266-GHK-RC</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/09/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Beatrice Herrera, Deputy Clerk, Attorneys Present For Plaintiffs: None</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter / Recorder, Attorneys Present For Defendants: None</attorney.line>
+<attorney.line first-line="1">N/A, Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: (In Chambers) Order re: Defendant's Motion to Dismiss and Motion to Strike</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>The Honorable GEORGE H. KING, U.S. DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">This matter is before the Court on Defendant eHarmony, Inc.'s Motion to Dismiss the First Amended Complaint [15], and Motion to Strike [16] (collectively &#x201C;Motions&#x201D;). We have considered the papers filed in support of and opposition to these Motions, and deem these matters appropriate for resolution without oral argument. L.R. 7-15. As the Parties are familiar with the facts in this case, they will be repeated only as necessary. Accordingly, we rule as follows:</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Motion to Dismiss</bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging">A. Standard</headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">&#x201C;Federal Rule of Civil Procedure 8(a)(2) requires only &#x2018;a short and plain statement of the claim showing that the pleader is entitled to relief,&#x2019; in order to &#x2018;give the defendant fair notice of what the<charfill numchar="3">&#8228;</charfill> claim is and the grounds upon which it rests.&#x2019;<ital>&#x201D; Bell Atl. Corp. v. Twombly</ital>, 550 U.S. 544, 555 (2007) (quoting <ital>Conley v. Gibson</ital>, 355 U.S. 41, 47 (1957)) (citation omitted) (alteration in original). In deciding a Rule 12(b)(6) motion to dismiss for failure to state a claim upon which relief can be granted, we must accept the allegations of fact in the complaint as true and construe them in the light most favorable to the plaintiff. <ital>Warren v. Fox Family Worldwide, Inc.</ital>, 328 F.3d 1136, 1139 (9th Cir. 2003).</paratext></para>
+<para><paratext ID="p3" level="1">&#x201C;While a complaint attacked by a Rule 12(b)(6) motion to dismiss does not need detailed factual allegations, a plaintiff's obligation to provide the &#x2018;grounds&#x2019; of his &#x2018;entitle[ment] to relief requires more than labels and conclusion, and a formulaic recitation of the elements of a cause of action will not do.&#x201D; <ital>Twombley</ital>, 550 U.S. at 555 (quoting Fed. R. Civ. P. 8(a)(2)) (citations omitted) (alteration in original). There is a &#x201C;need at the pleading stage for allegations plausibly suggesting (not merely consistent with) [liability, which] reflects the threshold requirement of Rule 8(a)(2) that the &#x2018;plain statement&#x2019; possess enough heft to &#x2018;show[] that the pleader is entitled to relief.&#x2019;&#x201D; <ital>Id.</ital> at 557 (quoting Fed. R. Civ. P. 8(a)(2)) (alteration in original).</paratext></para>
+<para><paratext ID="p4" level="1">&#x201C;[O]f course, a well-pleaded complaint may proceed even if it strikes a savvy judge that actual proof of those facts is improbable, and that a recovery is very remote and unlikely.&#x201D; <ital>Id.</ital> at 556 (internal quotation marks omitted). Claims should be dismissed only when there is either a &#x201C;lack of a cognizable legal theory or the absence of sufficient facts alleged under a cognizable legal theory.&#x201D; <ital>Balistreri v. Pacifica Police Dept.</ital>, 901 F.2d 696, 699 (9th Cir. 1990).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><underscore>B. Discussion</underscore></headtext></head>
+<head><headtext align="center">1. Standing</headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Defendant first argues that Plaintiff Melissa Withers (&#x201C;Plaintiff&#x201D;) lacks standing because she has no cognizable injury. Defendant also argues that Plaintiff fails to allege the &#x201C;lost money or property,&#x201D; reliance, and causation requirements of California's Unfair Competition Law (&#x201C;UCL&#x201D;), California's False Advertising Law (&#x201C;FAL&#x201D;), or California's Consumer Legal Remedies Act (&#x201C;CLRA&#x201D;). We reject Defendant's argument. Plaintiff does allege a cognizable injury. She alleges that: &#x201C;As a result of the fraudulent advertising scheme Plaintiff entered into an agreement for [Defendant's] Singles Service and paid several hundred dollars in membership dues, and continued to renew her membership periodically from 2007 through December of 2008.&#x201D; (First Amended Complaint (&#x201C;FAC&#x201D;) &#182; 25.) Plaintiff therefore alleges that she was injured, and her injury was the amount she paid to Defendant for Defendant's services. Moreover, under the federal notice pleading standards, Plaintiff has sufficiently alleged reliance, and causation.</paratext></para>
+<para><paratext ID="p6" level="1">Defendant argues that under <ital>Kwikset Corp v. Super Ct. of Orange County</ital>, 171 Cal. App. 4th 645, 653-54 (2009) and <ital>Chavez v. Blue Sky Natural Beverage Co.</ital>, 503 F. Supp. 2d 1370, 1372-73 (N.D. Cal. 2007), Plaintiff's claims fail because she cannot show that the value of non-subscriber matches was worth any less than the value of current subscriber matches. Unlike those cases, here, Defendant's argument is a factual one and is inappropriate at this stage of the proceedings.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p7">&#8195;Defendant's argument is also undercut by statements that Defendant itself relies upon as evidence that Plaintiff was put on notice that some matches would come from non-current subscribers. For example, Defendant points out that the Frequently Asked Questions section of its website states &#x201C;If a match is no longer active, we encourage you to close this match, allowing you to focus on and communicate with the matches in your account who are actively participating.&#x201D; It would seem odd for Defendant to urge its customers to close matches that are no longer active if, in fact, those matches are as valuable to a customer as non-closed account matches.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p8" level="1">Lastly, Plaintiff's damages are not speculative. Plaintiff alleges that she joined and continued to renew her membership to the Singles Service because of the alleged misrepresentations and fraudulent conduct on the part of Defendant. If, in fact, Plaintiff proves that she would not have continued her membership with Defendant if she had known that she was provided non-subscriber matches she may be entitled to the amount she spent on the service.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p9">&#8195;Defendant argues that Plaintiff did not suffer an injury because Plaintiff continued her membership for two months after she received a match from an individual who indicated his account had been closed for years. That Plaintiff received an email from a closed account two months before she closed her own account may be <ital>evidence</ital> that Defendant's representations did not cause her injury, but it does not show, as a matter of law, that she was not injured.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="center">2. Plaintiff's Consumer Law Claims</headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">To allege a violation of the FAL, Plaintiff must allege facts showing that Defendant's advertising was false or misleading. <ital>See</ital> Cal. Bus. &#38; Prof. Code &#167; 17500. To allege a violation of the UCL, she must allege facts establishing that Defendant engaged in unlawful, unfair, or fraudulent business acts or practices, or in unfair, deceptive, untrue or misleading advertising. Cal. Bus. &#38; Prof. Code &#167; 17200. Plaintiff alleges such facts here.</paratext></para>
+<para><paratext ID="p11" level="1">&#x201C;Where there is no dispute or conflict in the evidence the finding of the trial court that the advertisements are not in violation of the applicable provisions of the Business and Professions Code amounts to a conclusion of law.&#x201D; <ital>Freeman v. Time, Inc.</ital>, 68 F.3d 285, 288 (9th Cir. 1995) (citations omitted). Defendant compares this case to <ital>Freeman</ital>, where the court found that no reasonable person could believe that they were the winner of a million dollar sweepstakes because the promotions expressly and repeatedly state the conditions which had to be met for the person to win the sweepstakes. <ital>Id.</ital> at 289. Any person, the court held, would be put on notice that they were not actually winners <ital>if they read the sweepstakes in context. Id.</ital> at 290 (emphasis added).</paratext></para>
+<para><paratext ID="p12" level="1">Defendant argues that similarly, here, no reasonable customer could assume that they would not be matched with non-subscribers. However, unlike in <ital>Freeman</ital>, where there was no possibility for an inference that the plaintiff had won the sweepstakes, <ital>id.</ital>, here, Defendant has provided no evidence that it specifically told paying subscribers that they might be matched with non-paying subscribers. Thus, even read in context, Defendant has provided no statement putting Plaintiff explicitly on notice that she would not receive non-subscriber matches, especially matches from individuals who have closed their account with Defendant. None of Defendant's statements put Plaintiff on notice, as a matter of law, that a &#x201C;substantial portion of [Defendant's] matches involve people who are not subscribers.&#x201D; (FAC &#182;20). In fact, many of Defendant's own statements referenced in its Motion to Dismiss infer that Defendant does not match subscribers with non-subscribers, especially non-subscribers who were once paying subscribers and had then closed their accounts. For example, Defendant states that &#x201C;[f]ollowing any termination of any Registered User's use of the Singles Service, Defendant reserves the right to send a notice thereof to other Registered Users [with] whom [they] corresponded.&#x201D; RJN Ex. A. One logical inference of such a statement is that Defendant will contact customers who have corresponded with the terminated user to inform that paying customer that the user terminated its membership. If Defendant does, in fact, notify its customers in such circumstances, one could assume that it would not turn around and try to match that same terminated user with a paying subscriber. Moreover, Plaintiff alleges that Defendant states that: &#x201C;To help improve your experience, matches who are no longer active on the site will be closed and removed from your account.&#x201D; (FAC &#182;24.) Based on these statements alone we cannot say, at the motion to dismiss stage, that these statements, read in context with the others, would put a reasonable customer on notice that they may be matched with non-current subscribers. In fact, a reasonable customer could believe that the very opposite is true. Accordingly, we cannot say as a matter of law that such statements are not misleading.</paratext></para>
+<para><paratext ID="p13" level="1">We also cannot conclude, at this stage of the proceedings, that as a matter of law Defendant's conduct was not unfair.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> Because we find that Plaintiff has sufficiently pled the unfairness prong, we need not determine whether Plaintiff has satisfied the unlawful or fraudulent prongs of the UCL. <ital>See Lozano v. AT &#38; T Wireless Servs.</ital>, 504 F.3d 718, 731 (9th Cir. 2007) (&#x201C;Each prong of the UCL is a separate and distinct theory of liability; thus, the &#x201C;unfair&#x201D; practices prong offers an independent basis for relief.&#x201D;).</paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p14">&#8195;We need not determine, at this time, whether the unfairness standard enunciated under <ital>Cel-Tech Commc'ns, Inc. v. Los Angeles Cellular Tel. Co.</ital>, 20 Cal. 4th 163, 186&#8211;187 (1999) applies in the consumer class action context, or whether the older balancing test explained in <ital>People v. Casa Blanca Convalescent Homes, Inc.</ital>, 159 Cal. App. 3d 509, 530 (1984) remains good law. <ital>See Lozano</ital>, 504 F.3d at 736 (recognizing that the California Courts of Appeal are split as to whether the <ital>Cel-Tech</ital> standard applies in consumer class action cases but endorsing the older balancing approach in the absence of further clarification by the California Supreme Court).</paratext></para></footnote.body></footnote>
+<para><paratext ID="p15" level="1">Plaintiff has also sufficiently pled her CLRA claims under Rule 8(a). Plaintiff has sufficiently alleged facts to show that Defendant represented that services have characteristics which they do not have, Cal. Civ. Code &#167; 1770(a)(5), that services are of a particular quality when they are another, &#167; 1770(a)(7), that Defendant advertised services with an intent to sell them as advertised, &#167; 1770(a)(9), and that Defendant represented that the subject of a transaction has been supplied in accordance with a previous representation when it has not. &#167; 1770(a)(16).</paratext></para>
+</section.body>
+<head><headtext align="center">3. Breach of Contract Claim</headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">Plaintiff's Breach of Contract Claim is sufficiently pled.</paratext></para>
+<para><paratext ID="p17" level="1">For the foregoing reasons, Defendant's Motion to Dismiss is hereby <bold>DENIED</bold> in its entirety. Defendant is hereby <bold>ORDERED</bold> to answer the FAC <bold>within TEN DAYS</bold> hereof.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Motion to Strike</bold></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">We hereby <bold>GRANT</bold> Defendant's Motion to Strike Plaintiff's Claim for Violation of CLRA Subsection 1770(a)(4), and 1770(a)(17). We also <bold>GRANT</bold> Defendant's Motion to Strike Plaintiff's prayer for disgorgement. The rest of Defendant's Motion to Strike is hereby <bold>DENIED</bold>.</paratext></para>
+<para><paratext ID="p19" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p20" level="1"><underscore>-- : --</underscore></paratext></para>
+<para><paratext ID="p21" level="1">Initials of Deputy Clerk <underscore>Bea</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

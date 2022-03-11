@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>STUART C. IRBY COMPANY, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>WIRE NUTS ELECTRIC, INC., an Oklahoma Corporation; CHRISTY McGILL; WILLIAM SMITH; and JANET SMITH, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No.12-CV-617-CVE-FHM</docket.line>
+<docket.number>12-CV-617-CVE-FHM</docket.number>
+<docket.line suppress-flag="y">4:12-cv-00617-CVE-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 07/19/2013</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>REPORT AND RECOMMENDATION</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">FRANK H. McCARTHY UNITED STATES MAGISTRATE JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Plaintiff's Motion for Attorneys' Fees and Costs, [Dkt. 42], has been referred to the undersigned United States Magistrate Judge for report and recommendation. The undersigned RECOMMENDS that the motion be GRANTED.</paratext></para>
+<para><paratext ID="p2" level="1">Plaintiff seeks an award of attorney fees and costs against Defendants William Smith and Janet Smith (the Smiths). Default judgment has been entered in Plaintiff's favor against the Smiths. [Dkt. 40]. The Smiths liability is predicated on a personal guaranty signed by them in which they guaranteed Plaintiff the &#x201C;payment of all existing indebtedness of [Wire Nuts]&#x201D; owed to Plaintiff. [Dkt. 2-1, p. 2&#8211;sealed]. The Personal Guaranty also contained the following provision:</paratext>
+<para><paratext ID="p3" first-line="2" turnover="2">If the Applicant's [Wire Nuts] account is placed in the hands of an attorney for collection, the undersigned Guarantor agrees to pay twenty percent (20%) of the account balance as attorney's fees and costs of collection.</paratext></para>
+<paratext ID="p4" contd-flag="y"><ital>Id.</ital> Based on the delinguent account balance of $179,682.36, applying the quoted attorney fee provision of the Personal Guaranty, Plaintiff is entitled to recover $35,936.47 (20% &#215; 179,682.36) as an attorney fee.</paratext></para>
+<para><paratext ID="p5" level="1">The undersigned United States Magistrate Judge RECOMMENDS that the Motion for Attorneys' Fees and Costs, [Dkt. 42], be GRANTED and that Plaintiff be awarded $35,936.47 as the liquidated attorney fee amount pursuant to the terms of the Personal Guaranty.</paratext></para>
+<para><paratext ID="p6" level="1">In accordance with 28 U.S.C. &#167;636(b) and Fed. R. Civ. P. 72(b)(2), a party may file specific written objections to this report and recommendation. Such specific written objections must be filed with the Clerk of the District Court for the Northern District of Oklahoma on or before August 2, 2013.</paratext></para>
+<para><paratext ID="p7" level="1">If specific written objections are timely filed, Fed.R.Civ.P. 72(b)(3) directs the district judge to:</paratext>
+<para><paratext ID="p8" first-line="2" turnover="2">determine de novo any part of the magistrate judge's disposition that has been properly objected to. The district judge may accept, reject, or modify the recommended disposition; receive further evidence; or return the matter to the magistrate judge with instructions.</paratext></para>
+<paratext ID="p9" contd-flag="y">See also 28 U.S.C. &#167; 636(b)(1).</paratext>
+</para>
+<para><paratext ID="p10" level="1">The Tenth Circuit has adopted a &#x201C;firm waiver rule&#x201D; which &#x201C;provides that the failure to make timely objections to the magistrate's findings or recommendations waives appellate review of factual and legal questions.&#x201D; <ital>United States v. One Parcel of Real Property</ital>, 73 F.3d 1057, 1059 (10th Cir. 1996) (quoting <ital>Moore v. United States</ital>, 950 F.2d 656, 659 (10th Cir. 1991)). Only a timely specific objection will preserve an issue for de novo review by the district court or for appellate review.</paratext></para>
+<para><paratext ID="p11" level="1">DATED this 19th day of July, 2013.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

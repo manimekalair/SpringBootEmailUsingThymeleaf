@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8212; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+<venue.name>3470 Twelfth Street, Riverside, CA 92501</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><ital>Revolorio, et al.</ital></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><ital>C&#38;R Canoga Park, et al.</ital></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-04572 ODW (RZx)</docket.line>
+<docket.number>CV 09-04572 ODW (RZx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-04572-ODW-RZ</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/20/2010</date.line>
+</content.date>
+<procedural.history xml:lang="en">
+<appeal>
+<appeal.text>
+<para><paratext ID="p1" level="1">(See Addendum B for additional OSC cases)</paratext></para>
+</appeal.text>
+</appeal>
+</procedural.history>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Cindy Sasse, Courtroom Deputy, ATTORNEYS PRESENT FOR PLAINTIFFS: Rosetta Runnels</attorney.line>
+<attorney.line first-line="1">Theresa Lanza, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS: Nicholas Gregory Hood</attorney.line>
+<attorney.line first-line="1">Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS: ORDER GRANTING DEFENDANTS' MOTION TO DISMISS (DOCKET #4); ORDER GRANTING DEFENDANTS' MOTION TO EXPUNGE LIS PENDENS (DOCKET #5); ORDER POSTPONING RULING ON DEFENDANTS' REQUEST FOR ATTORNEY'S FEES; ORDER REQUIRING LAW OFFICES OF JAMES CURTIS &#38; ASSOCIATES TO SHOW CAUSE; ORDER REQUIRING THE PERSONAL APPEARANCE OF ATTORNEY JAMES CURTIS</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HONORABLE STEPHEN G. LARSON, UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p2" level="1">Case was called. Appearance was made for defendants, but no appearance by counsel of record was made for plaintiffs; instead, an attorney not associated with the case attempted to &#x201C;specially appear&#x201D; on behalf of plaintiffs for the hearing on said motions.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;Mr. Curtis's stand-in was specifically instructed that Mr. Curtis must be advised of his obligation to appear before this Court on Monday, June 8, 2009, as set forth herein.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p4" level="1">For the reasons stated on the record, the motion to dismiss is <bold>GRANTED</bold> and the matter is dismissed with prejudice. Moreover, defendants' motion to expunge lis pendens is <bold>GRANTED</bold> and it is ordered that the notice of lis pendens concerning the property commonly known and located at 27015 Fisher Street, Highland, CA 92346, with Assessor's Parcel No. 1191-441-52 is <bold>EXPUNGED</bold>. The Court postpones ruling on defendants' request for attorney's fees to the June 8, 2009, OSC hearing noted below.</paratext></para>
+<para><paratext ID="p5" level="1">In granting the present motions, some further explanation than that offered on the record is in order. Plaintiffs' opposition to the motion to dismiss is noteworthy not for any arguments addressing the points raised in the motion to dismiss, but for addressing arguments <underscore>not</underscore> raised in the motion. In point of fact, the opposition is clearly a &#x201C;boilerplate&#x201D; pleading that plaintiffs' counsel, James Curtis (California State Bar #140709), has developed to utilize whenever he decides to &#x201C;oppose&#x201D; a motion in one of his many mortgage-related lawsuits he has filed before this Court and others in the Central District over the past six months.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p6">&#8195;Mr. Curtis has filed 49 mortgage-related cases in the Central District since January, 2009, of which 10 have been before this judicial officer.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p7" level="1">The reason the Court can confidently characterize the opposition filed in this case as boilerplate is because he filed an almost identical opposition in another case that was set for hearing on June 1, 2009, <underscore>Eduwiges Rodriguez v. U.S. Bank National Association, et al.</underscore>, EDCV-09-457-SGL (OPx), a hearing that was vacated in favor of a written disposition without a hearing. <underscore>See</underscore> Fed. R. Civ. P. 78(b); Local Rule 7-15. Moreover, in two other cases, <underscore>Elvis Gutierrez v. Countrywide Home Loans, Inc.</underscore>, EDCV-09-326-SGL (MANx) and <underscore>Blanca Vargas v. Wells Fargo Bank, N.A</underscore>, EDCV-09-399-SGL (JCx), Mr. Curtis filed almost identical oppositions one week and two days (respectively) <underscore>after</underscore> these cases were dismissed. The minor variations among the oppositions are insignificant.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference></paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p8">&#8195;Ironically, Mr. Curtis, in his opposition in this case derides <underscore>defendants'</underscore> motion to dismiss as &#x201C;part and parcel of one in a series of &#x2018;Boilerplate&#x2019; Motions to Dismiss filed by the same law firm Wright, Finlay &#38; Zak, LLP with all of these motions containing verbatim the same cited authorities.&#x201D; Opp. at 1-2.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p9" level="1">Over the past six months, a large number of cases have been removed to this Court consisting of boilerplate complaints asserting essentially the same claims concerning the foreclosure of various plaintiffs' homes by a number of defendants who were involved in either the origination or secondary market on those mortgages. The plaintiffs in all of these cases are or were represented by Mr. Curtis. The ten of these cases that have been assigned to this judicial officer proceed in a very predictable manner. Until the two cases set for hearing on June 1, 2009, Mr. Curtis filed no timely opposition to motions to dismiss his cases, and his cases essentially withered on the vine before they were dismissed for his failure to file oppositions.</paratext></para>
+<para><paratext ID="p10" level="1">The Court has attached as Addendum A to this Order a listing of the cases adjudicated thus far before this judicial officer, identifying (1) the case name and number, (2) the date the matter was removed to this Court, (3) the date an order or motion to dismiss, strike, etc., was filed by the defendant(s), (4) whether a response or opposition was ever tendered thereto by plaintiffs' counsel, and (5) the disposition of the matter, which was, in each instance, the dismissal of the case for failure to file a timely opposition to a motion to dismiss. These cases, in the Court's view, represent either a wholesale abdication by Mr. Curtis of his duty to his clients and/or this Court, or they evidence Mr. Curtis's assessment of the lack of merits of the complaints he has filed.</paratext></para>
+<para><paratext ID="p11" level="1">Accordingly, plaintiffs in the remaining cases before this Court filed by the Law Offices of James Curtis &#38; Associates (<underscore>see</underscore> Addendum B listing the cases affected) are <bold>ORDERED TO SHOW CAUSE</bold> by Monday, June 8, 2009, why those cases should not likewise be <underscore>dismissed without prejudice</underscore> and the Law Offices of James Curtis &#38; Associates ordered to pay costs or fees thus far incurred by defendants in litigating those matters to date. Furthermore, plaintiffs' counsel, Mr. James Curtis is <bold>ORDERED TO SHOW CAUSE</bold> by Monday, June 8, 2009, why he should not be forced to refund to his clients in the ten cases, identified by the Court in Addenda A and B, any attorney fees, retainers, or other advances paid to him by his clients. Additionally, Mr. Curtis is <bold>ORDERED TO SHOW CAUSE</bold> why the Court should not find that he is in violation of Fed. R. Civ. P. 11(b)(1) for filing lawsuits for an improper purpose. Specifically, it appears to the Court that the actions referenced in Addenda A and B have been filed merely to forestall the foreclosure, non-judicial sale, and subsequent eviction of plaintiffs (if required), rather than being filed with any intention to pursue the claims asserted on their merits.</paratext></para>
+<para><paratext ID="p12" level="1">Toward that end, the Court sets all the matters listed in Addendum B for hearing at 10:00 a.m., in Courtroom One of the above-referenced Court, on Monday June 8, 2009. Mr. Curtis is <bold>ORDERED TO APPEAR PERSONALLY</bold>; his failure to appear will result in a finding of contempt, and the Court will take appropriate steps to secure his appearance at a subsequent hearing. Voluntary dismissals of this case and the cases set forth in Addendum B will not excuse Mr. Curtis's appearance at the hearing.</paratext></para>
+<para><paratext ID="p13" level="1">The Clerk shall docket this Order in the above-captioned case and in the four cases set forth in Addendum B.</paratext></para>
+<para><paratext ID="p14" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+<head><headtext align="center"><bold>ADDENDUM A</bold></headtext></head>
+<section.body>
+<para><paratext ID="p15" level="1">1, 2, 3, 4., 5.</paratext></para>
+<para><paratext ID="p16" level="1">Case Name &#38; Number, Jozef Forgac, et al. v. Suntrust Mortgage Inc., et al., EDCV-09-181-SGL (AGRx), Arturo Melchor, et al., v. HSBC Bank USA Nat'l Ass., et al., EDCV-09-248-SGL (OPx), Elvis Gutierrez v. Countrywide Home Loans, Inc., et al., EDCV-09-326-SGL (MANx), Pedro Mancilla v. SBMC Mortgage et al., EDCV-09-396-SGL (CTx), Blanca Vargas et al., v. Wells Fargo Bank NA, et al., EDCV-09-399-SGL (JCx)</paratext></para>
+<para><paratext ID="p17" level="1">Removal Date, 01/28/2009, 02/05/2008, 02/13/2009, 02/25/2009, 02/25/2009</paratext></para>
+<para><paratext ID="p18" level="1">Motion/ Court Order Filed, Motion to Dismiss (docket #5); Motion Dismiss (docket #6), Motion Dismiss (docket #4), Motion Dismiss (docket #4); Motion Dismiss (docket #5), Motion Dismiss (docket # 4), Motion Dismiss (docket #4)</paratext></para>
+<para><paratext ID="p19" level="1">Response/ Opposition Tendered?, None filed, None filed, None filed, None filed, None filed</paratext></para>
+<para><paratext ID="p20" level="1">Disposition of Matter, Case dismissed for failure to file opposition, Case dismissed for failure to file opposition, Case dismissed for failure to file opposition, Case dismissed for failure to file opposition, Case dismissed for failure to file opposition</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>ADDENDUM B</bold></headtext></head>
+<section.body>
+<para><paratext ID="p21" first-line="1" turnover="hanging">1. <underscore>Juan Manuel Palomares v. Countrywide Home Loans Inc. et al.</underscore>, EDCV-09-437-SGL (OPx)</paratext></para>
+<para><paratext ID="p22" first-line="1" turnover="hanging">2. <underscore>Luis Villicana et al. v. Countrywide Home Loans Inc. et al.</underscore>, EDCV-09-441-SGL (OPx)</paratext></para>
+<para><paratext ID="p23" first-line="1" turnover="hanging">3. <underscore>Eduwiges Rodriguez v. US Bank National Association et al.</underscore>, EDCV-09-457-SGL (OPx)</paratext></para>
+<para><paratext ID="p24" first-line="1" turnover="hanging">4. <underscore>Cindy Kim v. EMC Mortgage Corporation et al.</underscore>, EDCV-09-590-SGL (RCx)</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

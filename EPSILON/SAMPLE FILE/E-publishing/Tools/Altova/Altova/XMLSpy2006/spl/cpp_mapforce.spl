@@ -1,0 +1,473 @@
+[
+'-------------------------------------------------------------
+' C++ Mapforce Project Template
+'
+' Copyright (C) 2002-2005 Altova GmbH - The XMLSPY Company
+' All rights reserved.
+'
+' MapForce generates a C++ application
+' based on this template.
+' Refer to the MapForce documentation for further details.
+'
+' http://www.altova.com/mapforce
+'-------------------------------------------------------------
+
+include "cpp/settings.spl"
+
+$QualifiedBase			= ""
+$QualifiedSimpleBase	= ""
+$QualifiedType			= ""
+$QualifiedName			= ""
+$BuiltInType			= ""
+$InstanceLength			= ""
+$InstanceValue			= ""
+$BasePath				= ""
+$IsQualified			= ""
+
+$QualifiedValueType		= ""
+$module					= ""
+$AlgorithmGroupClass	= ""
+
+'-----DSP generation variables-----
+$libtypename	= ""
+$dllexp			= ""
+$CPPOpt			= ""
+$RSCOpt			= ""
+$LINKOpt		= ""
+$RTLOpt			= ""
+$AppProjectName = $application.Name
+if $libtype = 1 'Static lib
+	$libtypename = "Static Library"
+	$VCConfigurationType = 4
+	$VCRTLRelease = 0
+	$VCRTLDebug = 1
+	$PreprocessorDefinitions = "_LIB;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE"
+else 'DLL
+	$libtypename = "Dynamic-Link Library"
+	$VCConfigurationType = 2
+	$VCRTLRelease = 2
+	$VCRTLDebug = 3
+	$PreprocessorDefinitions = "_USRDLL;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE"
+endif
+if $mfc
+	if $libtype = 1 'Static lib
+		$MFCCode = 2 'Use MFC from static lib
+		$CPPOpt = " /D \"_LIB\" /D \"_AFXDLL\" /MD"
+		$MFCCodeVS7 = 2
+     	$MFCCodeVS8 = 1
+	else 'DLL
+		$MFCCode = 6 'Use MFC from DLL
+		$CPPOpt = " /D \"_USRDLL\" /D \"_WINDLL\" /D \"_AFXDLL\" /MD"
+		$LINKOpt = " /subsystem:windows"
+		$MFCCodeVS7 = 2
+     	$MFCCodeVS8 = 2
+	endif
+	$RSCOpt = " /d \"_AFXDLL\""
+	$RTLOpt = " /MD"
+else 'No MFC
+	$MFCCode = 0 'Do not use MFC
+	$MFCCodeVS7 = 0
+	$MFCCodeVS8 = 0
+	if $libtype = 1 'Static lib
+		$CPPOpt = " /D \"_LIB\" /MT"
+		$RTLOpt = " /MT"
+	else 'DLL
+		$CPPOpt = " /D \"_USRDLL\" /MD"
+		$LINKOpt = " kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"
+		$RTLOpt = " /MD"
+	endif
+	$RSCOpt = ""
+endif
+
+$AltovaLibGuid 		= "128D343B-C8BC-4C94-B438-2EDCE3FD5002"
+$AltovaXMLLibGuid 	= "28075CB7-0BE6-427A-9520-CA9466DA164D"
+$AltovaDBLibGuid 	= "1379E29D-FD79-4C67-BE48-864A58725714"
+$AltovaTextLibGuid 	= "64646999-11B8-4933-9FAF-CED04FFA5DD8"
+$AltovaFunctionsGuid= "74AD1678-E8E9-4ADB-A9F0-8070706D47F1"
+
+include "cpp/vs2005.spl"
+
+'create $outputpath & "/com/altova/TraceProvider.java"	: include "java/com/altova/TraceProvider.java"		: close
+'create $outputpath & "/com/altova/TraceTarget.java"		: include "java/com/altova/TraceTarget.java"		: close
+
+'-----------------------------------------------------------
+' Altova Common Library
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/Altova/"
+if $vc6project
+	create $BasePath & "Altova.dsp"		: include "cpp/Altova/Altova.dsp"	: close
+	create $BasePath & "Altova.dsw"		: include "cpp/Altova/Altova.dsw"	: close
+endif
+if $VS2003Project
+	create $BasePath & "Altova.vcproj"	: include "cpp/Altova/Altova.vcproj": close
+	create $BasePath & "Altova.sln"		: include "cpp/Altova/Altova.sln"	: close
+endif
+if $VS2005Project
+	create $BasePath & "Altova.vcproj"		: include "cpp/Altova/Altova2005.vcproj"	: close
+	create $BasePath & "Altova.sln"			: include "cpp/Altova/Altova2005.sln"	: close
+endif
+create $BasePath & "SchemaTypes.h"			: include "cpp/Altova/SchemaTypes.h"		: close
+create $BasePath & "SchemaTypes.cpp"		: include "cpp/Altova/SchemaTypes.cpp"		: close
+create $BasePath & "Altova.h"				: include "cpp/Altova/Altova.h"				: close
+create $BasePath & "SchemaTypeBinary.h"		: include "cpp/Altova/SchemaTypeBinary.h"	: close
+create $BasePath & "SchemaTypeBinary.cpp"	: include "cpp/Altova/SchemaTypeBinary.cpp"	: close
+create $BasePath & "SchemaTypeCalendar.h"	: include "cpp/Altova/SchemaTypeCalendar.h"	: close
+create $BasePath & "SchemaTypeCalendar.cpp"	: include "cpp/Altova/SchemaTypeCalendar.cpp": close
+create $BasePath & "SchemaTypeNumber.h"		: include "cpp/Altova/SchemaTypeNumber.h"	: close
+create $BasePath & "SchemaTypeNumber.cpp"	: include "cpp/Altova/SchemaTypeNumber.cpp"	: close
+create $BasePath & "SchemaTypeString.h"		: include "cpp/Altova/SchemaTypeString.h"	: close
+create $BasePath & "SchemaTypeString.cpp"	: include "cpp/Altova/SchemaTypeString.cpp"	: close
+create $BasePath & "AltovaException.h"		: include "cpp/Altova/AltovaException.h"	: close
+create $BasePath & "AltovaException.cpp"	: include "cpp/Altova/AltovaException.cpp"	: close
+create $BasePath & "StdAfx.h"				: include "cpp/Altova/StdAfx.h"				: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/Altova/StdAfx.cpp"			: close
+
+'-----------------------------------------------------------
+' Altova XML Library
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/AltovaXML/"
+if $vc6project
+	create $BasePath & "AltovaXML.dsp"		: include "cpp/AltovaXML/AltovaXML.dsp"		: close
+	create $BasePath & "AltovaXML.dsw"		: include "cpp/AltovaXML/AltovaXML.dsw"		: close
+endif
+if $VS2003Project
+	create $BasePath & "AltovaXML.vcproj"	: include "cpp/AltovaXML/AltovaXML.vcproj"	: close
+	create $BasePath & "AltovaXML.sln"		: include "cpp/AltovaXML/AltovaXML.sln"	: close
+endif
+if $VS2005Project
+	create $BasePath & "AltovaXML.vcproj"	: include "cpp/AltovaXML/AltovaXML2005.vcproj"	: close
+	create $BasePath & "AltovaXML.sln"		: include "cpp/AltovaXML/AltovaXML2005.sln"	: close
+endif
+if $domtype = 1
+	create $BasePath & "Doc.h"				: include "cpp/AltovaXML/MSXML/Doc.h"		: close
+	create $BasePath & "Doc.cpp"			: include "cpp/AltovaXML/MSXML/Doc.cpp"		: close
+	create $BasePath & "Node.h"				: include "cpp/AltovaXML/MSXML/Node.h"		: close
+	create $BasePath & "Node.cpp"			: include "cpp/AltovaXML/MSXML/Node.cpp"	: close
+else
+	create $BasePath & "Doc.h"				: include "cpp/AltovaXML/Xerces/Doc.h"		: close
+	create $BasePath & "Doc.cpp"			: include "cpp/AltovaXML/Xerces/Doc.cpp"	: close
+	create $BasePath & "Node.h"				: include "cpp/AltovaXML/Xerces/Node.h"		: close
+	create $BasePath & "Node.cpp"			: include "cpp/AltovaXML/Xerces/Node.cpp"	: close
+endif
+create $BasePath & "AltovaXMLAPI.h"			: include "cpp/AltovaXML/AltovaXMLAPI.h"	: close
+create $BasePath & "XmlException.h"			: include "cpp/AltovaXML/XmlException.h"	: close
+create $BasePath & "XmlException.cpp"		: include "cpp/AltovaXML/XmlException.cpp"	: close
+create $BasePath & "StdAfx.h"				: include "cpp/AltovaXML/StdAfx.h"			: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/AltovaXML/StdAfx.cpp"		: close
+
+'-----------------------------------------------------------
+' Altova Database Library
+'-----------------------------------------------------------
+if $DBLibraryCount > 0
+	$BasePath = $outputpath & "/AltovaDB/"
+	if $vc6project
+		create $BasePath & "AltovaDB.dsp"		: include "cpp/AltovaDB/AltovaDB.dsp"	: close
+		create $BasePath & "AltovaDB.dsw"		: include "cpp/AltovaDB/AltovaDB.dsw"	: close
+	endif
+	if $VS2003Project
+		create $BasePath & "AltovaDB.vcproj"	: include "cpp/AltovaDB/AltovaDB.vcproj": close
+		create $BasePath & "AltovaDB.sln"		: include "cpp/AltovaDB/AltovaDB.sln"	: close
+	endif
+	if $VS2005Project
+		create $BasePath & "AltovaDB.vcproj"	: include "cpp/AltovaDB/AltovaDB2005.vcproj": close
+		create $BasePath & "AltovaDB.sln"		: include "cpp/AltovaDB/AltovaDB2005.sln"	: close
+	endif
+	create $BasePath & "AltovaDB.h"				: include "cpp/AltovaDB/AltovaDB.h"		: close
+	create $BasePath & "AltovaDB.cpp"			: include "cpp/AltovaDB/AltovaDB.cpp"	: close
+	create $BasePath & "StdAfx.h"				: include "cpp/AltovaDB/StdAfx.h"		: close
+	create $BasePath & "StdAfx.cpp"				: include "cpp/AltovaDB/StdAfx.cpp"		: close
+endif
+
+'-----------------------------------------------------------
+' Altova Text Library
+'-----------------------------------------------------------
+if $EDILibraryCount > 0
+	$BasePath= $outputpath & "/AltovaText/"
+	if $vc6project
+		create $BasePath& "AltovaText.dsp"		: include "cpp/AltovaText/AltovaText.dsp"		: close
+		create $BasePath& "AltovaText.dsw"		: include "cpp/AltovaText/AltovaText.dsw"		: close
+	endif
+	if $VS2003Project
+		create $BasePath & "AltovaText.vcproj"	: include "cpp/AltovaText/AltovaText.vcproj"		: close
+		create $BasePath & "AltovaText.sln"		: include "cpp/AltovaText/AltovaText.sln"			: close
+	endif
+	if $VS2005Project
+		create $BasePath & "AltovaText.vcproj"	: include "cpp/AltovaText/AltovaText2005.vcproj"		: close
+		create $BasePath & "AltovaText.sln"		: include "cpp/AltovaText/AltovaText2005.sln"			: close
+	endif
+
+create $BasePath& "AltovaTextAPI.h"		:	include "cpp/AltovaText/AltovaTextAPI.h"		:	close
+create $BasePath& "BaseNode.cpp"		:	include "cpp/AltovaText/BaseNode.cpp"			:	close
+create $BasePath& "BaseNode.h"			:	include "cpp/AltovaText/BaseNode.h"			:	close
+create $BasePath& "CodePageInformation.cpp"	:	include "cpp/AltovaText/CodePageInformation.cpp"	:	close
+create $BasePath& "CodePageInformation.h"	:	include "cpp/AltovaText/CodePageInformation.h"		:	close
+create $BasePath& "ColumnSpecification.cpp"	:	include "cpp/AltovaText/ColumnSpecification.cpp"	:	close
+create $BasePath& "ColumnSpecification.h"	:	include "cpp/AltovaText/ColumnSpecification.h"		:	close
+create $BasePath& "Command.cpp"			:	include "cpp/AltovaText/Command.cpp"			:	close
+create $BasePath& "Command.h"			:	include "cpp/AltovaText/Command.h"			:	close
+create $BasePath& "Commands.cpp"		:	include "cpp/AltovaText/Commands.cpp"			:	close
+create $BasePath& "Commands.h"			:	include "cpp/AltovaText/Commands.h"			:	close
+create $BasePath& "Condition.cpp"		:	include "cpp/AltovaText/Condition.cpp"			:	close
+create $BasePath& "Condition.h"			:	include "cpp/AltovaText/Condition.h"			:	close
+create $BasePath& "Conditions.cpp"		:	include "cpp/AltovaText/Conditions.cpp"			:	close
+create $BasePath& "Conditions.h"		:	include "cpp/AltovaText/Conditions.h"			:	close
+create $BasePath& "CSVFormat.cpp"		:	include "cpp/AltovaText/CSVFormat.cpp"			:	close
+create $BasePath& "CSVFormat.h"			:	include	"cpp/AltovaText/CSVFormat.h"			:	close
+create $BasePath& "CSVParser.cpp"		:	include "cpp/AltovaText/CSVParser.cpp"			:	close
+create $BasePath& "CSVParser.h"			:	include "cpp/AltovaText/CSVParser.h"			:	close
+create $BasePath& "CSVSerializer.cpp"		:	include "cpp/AltovaText/CSVSerializer.cpp"		:	close
+create $BasePath& "CSVSerializer.h"		:	include "cpp/AltovaText/CSVSerializer.h"		:	close
+create $BasePath& "DataCompletion.cpp"		:	include "cpp/AltovaText/DataCompletion.cpp"		:	close
+create $BasePath& "DataCompletion.h"		:	include "cpp/AltovaText/DataCompletion.h"		:	close
+create $BasePath& "EDIFactDataCompletion.h"	:	include "cpp/AltovaText/EDIFactDataCompletion.h"	:	close
+create $BasePath& "EDIFactDataCompletion.cpp"	:	include "cpp/AltovaText/EDIFactDataCompletion.cpp"	:	close
+create $BasePath& "EDIFactSerializer.cpp"	:	include "cpp/AltovaText/EDIFactSerializer.cpp"		:	close
+create $BasePath& "EDIFactSerializer.h"		:	include "cpp/AltovaText/EDIFactSerializer.h"		:	close
+create $BasePath& "EDIFactSettings.cpp"		:	include "cpp/AltovaText/EDIFactSettings.cpp"		:	close
+create $BasePath& "EDIFactSettings.h"		:	include "cpp/AltovaText/EDIFactSettings.h"		:	close
+create $BasePath& "EDISettings.cpp"		:	include "cpp/AltovaText/EDISettings.cpp"		:	close
+create $BasePath& "EDISettings.h"		:	include "cpp/AltovaText/EDISettings.h"			:	close
+create $BasePath& "EDIX12DataCompletion.h"	:	include "cpp/AltovaText/EDIX12DataCompletion.h"		:	close
+create $BasePath& "EDIX12DataCompletion.cpp"	:	include "cpp/AltovaText/EDIX12DataCompletion.cpp"	:	close
+create $BasePath& "EDIX12Settings.cpp"		:	include "cpp/AltovaText/EDIX12Settings.cpp"		:	close
+create $BasePath& "EDIX12Settings.h"		:	include "cpp/AltovaText/EDIX12Settings.h"		:	close
+create $BasePath& "FlexCommand.cpp"			:	include "cpp/AltovaText/FlexCommand.cpp"			:	close
+create $BasePath& "FlexCommand.h"			:	include "cpp/AltovaText/FlexCommand.h"			:	close
+create $BasePath& "FlexUtilities.cpp"			:	include "cpp/AltovaText/FlexUtilities.cpp"			:	close
+create $BasePath& "FlexUtilities.h"			:	include "cpp/AltovaText/FlexUtilities.h"			:	close
+create $BasePath& "FLFFormat.cpp"		:	include "cpp/AltovaText/FLFFormat.cpp"			:	close
+create $BasePath& "FLFFormat.h"			:	include "cpp/AltovaText/FLFFormat.h"			:	close
+create $BasePath& "FLFParser.cpp"		:	include "cpp/AltovaText/FLFParser.cpp"			:	close
+create $BasePath& "FLFParser.h"			:	include "cpp/AltovaText/FLFParser.h"			:	close
+create $BasePath& "FLFSerializer.cpp"		:	include "cpp/AltovaText/FLFSerializer.cpp"		:	close
+create $BasePath& "FLFSerializer.h"		:	include "cpp/AltovaText/FLFSerializer.h"		:	close
+create $BasePath& "Function.cpp"		:	include "cpp/AltovaText/Function.cpp"			:	close
+create $BasePath& "Function.h"			:	include "cpp/AltovaText/Function.h"			:	close
+create $BasePath& "Functions.cpp"		:	include "cpp/AltovaText/Functions.cpp"			:	close
+create $BasePath& "Functions.h"			:	include "cpp/AltovaText/Functions.h"			:	close
+create $BasePath& "Generator.cpp"		:	include "cpp/AltovaText/Generator.cpp"			:	close
+create $BasePath& "Generator.h"			:	include "cpp/AltovaText/Generator.h"			:	close
+create $BasePath& "Header.cpp"			:	include "cpp/AltovaText/Header.cpp"			:	close
+create $BasePath& "Header.h"			:	include "cpp/AltovaText/Header.h"			:	close
+create $BasePath& "Helpers.cpp"			:	include "cpp/AltovaText/Helpers.cpp"			:	close
+create $BasePath& "Helpers.h"			:	include "cpp/AltovaText/Helpers.h"			:	close
+create $BasePath& "MakeSureHasChild.h"		:	include "cpp/AltovaText/MakeSureHasChild.h"		:	close
+create $BasePath& "MakeSureHasChild.cpp"	:	include "cpp/AltovaText/MakeSureHasChild.cpp"		:	close
+create $BasePath& "Parser.cpp"			:	include "cpp/AltovaText/Parser.cpp"			:	close
+create $BasePath& "Parser.h"			:	include "cpp/AltovaText/Parser.h"			:	close
+create $BasePath& "Record.cpp"			:	include "cpp/AltovaText/Record.cpp"			:	close
+create $BasePath& "Record.h"			:	include "cpp/AltovaText/Record.h"			:	close
+create $BasePath& "RecordBasedParser.cpp"	:	include "cpp/AltovaText/RecordBasedParser.cpp"		:	close
+create $BasePath& "RecordBasedParser.h"		:	include "cpp/AltovaText/RecordBasedParser.h"		:	close
+create $BasePath& "Scanner.cpp"			:	include "cpp/AltovaText/Scanner.cpp"			:	close
+create $BasePath& "Scanner.h"			:	include "cpp/AltovaText/Scanner.h"			:	close
+create $BasePath& "Serializer.cpp"		:	include "cpp/AltovaText/Serializer.cpp"			:	close
+create $BasePath& "Serializer.h"		:	include "cpp/AltovaText/Serializer.h"			:	close
+create $BasePath& "ServiceStringAdvice.h"	:	include "cpp/AltovaText/ServiceStringAdvice.h"		:	close
+create $BasePath& "ServiceStringAdvice.cpp"	:	include "cpp/AltovaText/ServiceStringAdvice.cpp"	:	close
+create $BasePath& "StdAfx.cpp"			:	include "cpp/AltovaText/StdAfx.cpp"			:	close
+create $BasePath& "StdAfx.h"			:	include "cpp/AltovaText/StdAfx.h"			:	close
+create $BasePath& "Table.cpp"			:	include "cpp/AltovaText/Table.cpp"			:	close
+create $BasePath& "Table.h"			:	include "cpp/AltovaText/Table.h"			:	close
+create $BasePath& "TextDocument.cpp"		:	include "cpp/AltovaText/TextDocument.cpp"		:	close
+create $BasePath& "TextDocument.h"		:	include "cpp/AltovaText/TextDocument.h"			:	close
+create $BasePath& "TextException.cpp"		:	include "cpp/AltovaText/TextException.cpp"		:	close
+create $BasePath& "TextException.h"		:	include "cpp/AltovaText/TextException.h"		:	close
+create $BasePath& "TextNode.cpp"		:	include "cpp/AltovaText/TextNode.cpp"			:	close
+create $BasePath& "TextNode.h"			:	include "cpp/AltovaText/TextNode.h"			:	close
+create $BasePath& "TextNodeXMLWriter.h"		:	include "cpp/AltovaText/TextNodeXMLWriter.h"		:	close
+create $BasePath& "TextNodeXMLWriter.cpp"	:	include "cpp/AltovaText/TextNodeXMLWriter.cpp"		:	close
+endif
+
+'-----------------------------------------------------------
+' Altova/Mapforce Function Library
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/AltovaFunctions/"
+if $vc6project
+	create $BasePath & "AltovaFunctions.dsp": include "cpp/AltovaFunctions/AltovaFunctions.dsp"	: close
+	create $BasePath & "AltovaFunctions.dsw": include "cpp/AltovaFunctions/AltovaFunctions.dsw"	: close
+endif
+if $VS2003Project
+	create $BasePath & "AltovaFunctions.vcproj"	: include "cpp/AltovaFunctions/AltovaFunctions.vcproj"	: close
+	create $BasePath & "AltovaFunctions.sln"	: include "cpp/AltovaFunctions/AltovaFunctions.sln"		: close
+endif
+if $VS2005Project
+	create $BasePath & "AltovaFunctions.vcproj"	: include "cpp/AltovaFunctions/AltovaFunctions2005.vcproj"	: close
+	create $BasePath & "AltovaFunctions.sln"	: include "cpp/AltovaFunctions/AltovaFunctions2005.sln"		: close
+endif
+
+create $BasePath & "AltovaFunctionsAPI.h"	: include "cpp/AltovaFunctions/AltovaFunctionsAPI.h" : close
+create $BasePath & "Core.h"					: include "cpp/AltovaFunctions/Core.h"		: close
+create $BasePath & "Core.cpp"				: include "cpp/AltovaFunctions/Core.cpp"	: close
+create $BasePath & "Db.h"					: include "cpp/AltovaFunctions/Db.h"		: close
+create $BasePath & "Db.cpp"					: include "cpp/AltovaFunctions/Db.cpp"		: close
+create $BasePath & "Lang.h"					: include "cpp/AltovaFunctions/Lang.h"		: close
+create $BasePath & "Lang.cpp"				: include "cpp/AltovaFunctions/Lang.cpp"	: close
+create $BasePath & "Edifact.h"				: include "cpp/AltovaFunctions/Edifact.h"	: close
+create $BasePath & "Edifact.cpp"			: include "cpp/AltovaFunctions/Edifact.cpp"	: close
+create $BasePath & "StdAfx.h"				: include "cpp/AltovaFunctions/StdAfx.h"	: close
+create $BasePath & "StdAfx.cpp"				: include "cpp/AltovaFunctions/StdAfx.cpp"	: close
+
+'-----------------------------------------------------------
+' User-defined Function Libraries
+'-----------------------------------------------------------
+foreach $FuncLib in $application.FunctionLibraries
+	$module = $FuncLib.Name
+	if $module <> "core" and $module <> "lang" and $module <> "edifact" and $module <> "db" and not $FuncLib.HasOnlyLocalFunctions
+		$ProjectLibGuid = $FuncLib.Guid
+		$BasePath = $outputpath & "/" & $module & "/"
+		if $vc6project
+			create $BasePath & $module & ".dsp"	: include "cpp/UserDefinedFunctions/UserDefinedFunctions.dsp"	: close
+			create $BasePath & $module & ".dsw"	: include "cpp/UserDefinedFunctions/UserDefinedFunctions.dsw"	: close
+		endif
+		if $VS2003Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/UserDefinedFunctions/UserDefinedFunctions.vcproj"	: close
+		endif
+		if $VS2005Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/UserDefinedFunctions/UserDefinedFunctions2005.vcproj"	: close
+		endif
+		create $BasePath & "StdAfx.h"			: include "cpp/UserDefinedFunctions/StdAfx.h"	: close
+		create $BasePath & "StdAfx.cpp"			: include "cpp/UserDefinedFunctions/StdAfx.cpp"	: close
+		$IncludePath = $FuncLib.Setting.path & "/"
+		foreach $Setting in $FuncLib.Settings
+			if $Setting.Name = "include" or $Setting.Name = "source"
+				filecopy $IncludePath & $Setting.Value to $BasePath & $Setting.Value
+			endif
+		next
+	endif
+next
+
+include "LibraryTextHelpers.spl"
+
+'-----------------------------------------------------------
+' Wrapper Libraries
+'-----------------------------------------------------------
+
+sub GenerateBaseClassIncludes(ByRef $class)
+	if $class.HasBaseObject
+		foreach $tmpclass1 in $classes : if not $tmpclass1.IsInternal
+			if $tmpclass1.Name = $class.Base
+				call GenerateBaseClassIncludes($tmpclass1)
+				]#include "[=$module]_[=$class.Base].h"
+[			endif
+		endif: next
+	endif
+endsub
+
+foreach $library in $application.Libraries
+	$module		= $library.UniqueName
+	$BasePath	= $outputpath & "/" & $module & "/"
+	$ProjectLibGuid = $library.Guid
+	if $library.Kind = 1 ' XML Library
+		$namespaces	= $library.Namespaces
+		$classes	= $library.Classes
+		if $vc6project
+			create $BasePath & $module & ".dsp"	: include "cpp/LibraryXML/LibraryXML.dsp"	: close
+			create $BasePath & $module & ".dsw"	: include "cpp/LibraryXML/LibraryXML.dsw"	: close
+		endif
+		if $VS2003Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/LibraryXML/LibraryXML2003.vcproj"	: close
+			create $BasePath & $module & ".sln"		: include "cpp/LibraryXML/LibraryXML2003.sln"		: close
+		endif
+		if $VS2005Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/LibraryXML/LibraryXML2005.vcproj"	: close
+			create $BasePath & $module & ".sln"		: include "cpp/LibraryXML/LibraryXML2005.sln"		: close
+		endif
+		include "cpp/LibraryXML/LibraryXML.h"
+		include "cpp/LibraryXML/LibraryXML.cpp"
+		create $BasePath & "StdAfx.h"			: include "cpp/LibraryXML/StdAfx.h"			: close
+		create $BasePath & "StdAfx.cpp"			: include "cpp/LibraryXML/StdAfx.cpp"		: close
+	endif
+	if $library.Kind = 2 ' Database Library
+		if $vc6project
+			create $BasePath & $module & ".dsp"	: include "cpp/LibraryDB/LibraryDB.dsp"		: close
+			create $BasePath & $module & ".dsw"	: include "cpp/LibraryDB/LibraryDB.dsw"		: close
+		endif
+		if $VS2003Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/LibraryDB/LibraryDB2003.vcproj"	: close
+			create $BasePath & $module & ".sln"		: include "cpp/LibraryDB/LibraryDB2003.sln"		: close
+		endif
+		if $VS2005Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/LibraryDB/LibraryDB2005.vcproj"	: close
+			create $BasePath & $module & ".sln"		: include "cpp/LibraryDB/LibraryDB2005.sln"		: close
+		endif
+		create $BasePath & $module & ".h"		: include "cpp/LibraryDB/LibraryDB.h"		: close
+		create $BasePath & $module & ".cpp"		: include "cpp/LibraryDB/LibraryDB.cpp"		: close
+		create $BasePath & "StdAfx.h"			: include "cpp/LibraryDB/StdAfx.h"			: close
+		create $BasePath & "StdAfx.cpp"			: include "cpp/LibraryDB/StdAfx.cpp"		: close
+	endif
+	if $library.Kind = 3 ' Text Parser Library
+		if $vc6project
+			create $BasePath & $module & ".dsp"	: include "cpp/LibraryText/LibraryText.dsp"	: close
+			create $BasePath & $module & ".dsw"	: include "cpp/LibraryText/LibraryText.dsw"	: close
+		endif
+		if $VS2003Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/LibraryText/LibraryText2003.vcproj"	: close
+			create $BasePath & $module & ".sln"		: include "cpp/LibraryText/LibraryText2003.sln"		: close
+		endif
+		if $VS2005Project
+			create $BasePath & $module & ".vcproj"	: include "cpp/LibraryText/LibraryText2005.vcproj"	: close
+			create $BasePath & $module & ".sln"		: include "cpp/LibraryText/LibraryText2005.sln"		: close
+		endif
+		create $BasePath & $module & ".h"				: include "cpp/LibraryText/LibraryText.h"	: close
+		create $BasePath & $module & ".cpp"				: include "cpp/LibraryText/LibraryText.cpp"	: close
+		create $BasePath & $module & "API.h"			: include "cpp/LibraryText/LibraryTextAPI.h"		: close
+		create $BasePath & $module & "Types.h"			: include "cpp/LibraryText/LibraryTextTypes.h"		: close
+		create $BasePath & $module & "Types.cpp"		: include "cpp/LibraryText/LibraryTextTypes.cpp"	: close
+		create $BasePath & $module & "Functions.h"		: include "cpp/LibraryText/LibraryTextFunctions.h"		: close
+		create $BasePath & $module & "Functions.cpp"	: include "cpp/LibraryText/LibraryTextFunctions.cpp"	: close
+		create $BasePath & "StdAfx.h"					: include "cpp/LibraryText/StdAfx.h"		: close
+		create $BasePath & "StdAfx.cpp"					: include "cpp/LibraryText/StdAfx.cpp"		: close
+	endif
+next
+
+'-----------------------------------------------------------
+' MAPFORCE Application
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/" & $application.Name & "/"
+$TestProjectGuid 	= createguid
+if $vc6project
+	create $BasePath & $application.Name & ".dsp"		: include "cpp/Mapforce/Mapforce.dsp"	: close
+	create $BasePath & $application.Name & ".dsw"		: include "cpp/Mapforce/Mapforce.dsw"	: close
+endif
+if $VS2003Project
+	create $BasePath & $application.Name & ".vcproj"	: include "cpp/Mapforce/Mapforce.vcproj"	: close
+	create $BasePath & $application.Name & ".sln"		: include "cpp/Mapforce/Mapforce.sln"		: close
+endif
+if $VS2005Project
+	create $BasePath & $application.Name & ".vcproj"	: include "cpp/Mapforce/Mapforce2005.vcproj"	: close
+	create $BasePath & $application.Name & ".sln"		: include "cpp/Mapforce/Mapforce2005.sln"		: close
+endif
+create $BasePath & "Resource.h"							: include "cpp/Mapforce/Resource.h"		: close
+create $BasePath & $application.Name & ".rc"			: include "cpp/Mapforce/Mapforce.rc"	: close
+create $BasePath & $application.Name & ".h"				: include "cpp/Mapforce/Mapforce.h"		: close
+create $BasePath & $application.Name & ".cpp"			: include "cpp/Mapforce/Mapforce.cpp"	: close
+
+' generate algorithm-group
+include "cpp/Mapforce/AlgorithmGroup_Interface.spl"
+include "cpp/Mapforce/AlgorithmGroup_Library.spl"
+include "cpp/Mapforce/AlgorithmGroup_Exec.spl"
+
+foreach $Mapping in $application.Mappings
+
+	' generate main-mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+		$classname = $application.Name & $AlgorithmGroup.Name
+		$classfilename = $classname
+		create $BasePath & $classfilename & ".h"			: include "cpp/Mapforce/AlgorithmGroup.h"	: close
+		create $BasePath & $classfilename & ".cpp"			: include "cpp/Mapforce/AlgorithmGroup.cpp"	: close
+	next
+
+	'generate userdefined-functions
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+		$classname = "C" & $AlgorithmGroup.Name
+		$classfilename = $AlgorithmGroup.LocalFunctionNamespace & "_" & $AlgorithmGroup.Name
+		create $BasePath & $classfilename & ".h"			: include "cpp/Mapforce/AlgorithmGroup.h"	: close
+		create $BasePath & $classfilename & ".cpp"			: include "cpp/Mapforce/AlgorithmGroup.cpp"	: close
+	next
+
+next
+
+create $BasePath & "StdAfx.h"							: include "cpp/Mapforce/StdAfx.h"		: close
+create $BasePath & "StdAfx.cpp"							: include "cpp/Mapforce/StdAfx.cpp"		: close
+]

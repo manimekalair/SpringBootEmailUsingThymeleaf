@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resume PUBLIC "-//Sean Kelly//DTD Resume 1.5.1//EN"
+  "http://www.altova.com/schemas/xmlresume/resume.dtd">
+<?altova_sps http://www.altova.com/sps/template/xmlresume/xmlresume.sps?>
+<resume id="exam001">
+	<header>
+		<name id="sgirl">
+			<firstname>XML</firstname>
+			<surname>Spy</surname>
+		</name>
+		<address>99 Cummings Park  Suite 317T Beverly Massachusetts, 01915 USA</address>
+		<contact>
+			<phone location="work">1-978-816-1600</phone>
+			<phone location="work">fax: 1-978-816-1606</phone>
+			<email>spygirl@altova.com</email>
+		</contact>
+	</header>
+	<objective targets="xmltechnology">
+		<para>To achieve successful integration of XML on the web, corporate infrastructure, and transactional systems.  Apply skills acquired though previous versions to the newest version to result in best XML developer in the world.</para>
+	</objective>
+	<skillarea>
+		<title>XML Editing and Validation</title>
+		<skillset>
+			<skill>Well-formedness checking</skill>
+			<skill> Intelligent Editing (DTD/Schema based entry-help) </skill>
+			<skill> Pretty-printing of XML files </skill>
+			<skill>Spell-Checking</skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>DTD and Schema Editing</title>
+		<skillset>
+			<skill>DTD Editor</skill>
+			<skill>Graphical XML Schema Editor</skill>
+			<skill>Support for aggregate Schemas</skill>
+			<skill>Generation of DTD/Schema from database</skill>
+			<skill> Editing of embedded Schemas inside WSDL files</skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>XSLT Debugger</title>
+		<skillset>
+			<skill>View and change variables during execution</skill>
+			<skill>XPath Analyzer</skill>
+			<skill> View and change variables during execution </skill>
+			<skill>Debug XML and XSL files in Grid and Text View</skill>
+			<skill>Node-based Breakpoint Management</skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>Programming-language support</title>
+		<skillset>
+			<skill>Scripting and COM API</skill>
+			<skill>Java Code Generation of classes from XML Schema</skill>
+			<skill>ASP Support</skill>
+			<skill>Forms Editor and ActiveX Controls Integration</skill>
+			<skill>C++ Code Generation of classes from XML Schema</skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>Web Services Support</title>
+		<skillset>
+			<skill>SOAP Debugger</skill>
+			<skill>WSDL Validation</skill>
+			<skill>Graphical WSDL Editor</skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>Database and Legacy support</title>
+		<skillset>
+			<skill>Tamino XML Database management</skill>
+			<skill>Generation of DTD/Schema from database</skill>
+			<skill>Hierarchical Database Import based on XML Schema</skill>
+			<skill>Database Export/Import</skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>Connectivity</title>
+		<skillset>
+			<skill>Filesystem access</skill>
+			<skill> http/WebDAV server access </skill>
+		</skillset>
+	</skillarea>
+	<skillarea>
+		<title>Project Management</title>
+		<skillset>
+			<skill>Source-Code Control System Interface (VSS, CVS, and compatibles</skill>
+			<skill>transformation, schema generation)</skill>
+			<skill>Linking to physical Filesystem folders</skill>
+		</skillset>
+	</skillarea>
+	<history>
+		<job>
+			<jobtitle>Award winning IDE for XML</jobtitle>
+			<employer>Altova Inc</employer>
+			<period>
+				<from>
+					<date>
+						<year>2002</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<year>2003</year>
+					</date>
+				</to>
+			</period>
+			<description>
+				<para>The next generation of internet software will encompass web services, mobile devices, smart agents, desktops and servers, collaborating seamlessly across the network. At the heart of this solution are XML based technologies such as SOAP, XML Schema, XSL and WSDL which enable unprecedented application interoperability </para>
+			</description>
+			<projects>
+				<project title="Altova All Inclusive Soulution">Was the ultimate developer tool for all XML-related work</project>
+				<project>Made for Easy Deployment of XML content editing throughout the Enterprise</project>
+				<project>Utilized the power of XML Spy in your Server Environment</project>
+			</projects>
+			<achievements>
+				<achievement>Earned the product an eWEEK Labs Analyst's Choice award.</achievement>
+				<achievement>Was winner of the XML Journal Readers Choice Awards 2000.</achievement>
+			</achievements>
+		</job>
+		<job>
+			<jobtitle>Stylevision</jobtitle>
+			<employer>Altova Inc</employer>
+			<period>
+				<from>
+					<date>
+						<year>2002</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<year>2003</year>
+					</date>
+				</to>
+			</period>
+			<projects>
+				<project title="ultimate XML tool for Web developers">Provided visual conversion utilities for HTML to XML Migration</project>
+				<project>Allowed for full compliance with new web standards such as XML, XSLT and XML schema</project>
+				<project>Included an XML Schema Editor and graphical drag-and-drop interface </project>
+			</projects>
+		</job>
+		<job>
+			<jobtitle>Authentic 5</jobtitle>
+			<employer>Altova Inc.</employer>
+			<period>
+				<from>
+					<date>
+						<year>2002</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<year>2003</year>
+					</date>
+				</to>
+			</period>
+			<projects>
+				<project>Seamlessly capture ideas and information directly into XML format</project>
+				<project>Saved XML to content management system, database and XML repository</project>
+				<project>Allowed business users to unlock corporate knowledge</project>
+			</projects>
+		</job>
+	</history>
+	<memberships>
+		<title>Partnerships</title>
+		<membership>
+			<organization>IONA Technologies</organization>
+			<description>
+				<para>Altova is partnering with IONA to provide developers with a powerful and simplified approach to Web service creation.</para>
+			</description>
+		</membership>
+		<membership>
+			<organization>XML Global</organization>
+			<description>
+				<para>Altova is partnering with XML Global to provide developers with a powerful and cost effective alternative tools bundling to accelerate XML integration projects.</para>
+			</description>
+		</membership>
+		<membership>
+			<organization>Software AG</organization>
+			<description>
+				<para>xmlspy 5 includes integration with Software AG's Tamino XML Server including development and server management features.
+
+</para>
+			</description>
+		</membership>
+	</memberships>
+	<awards>
+		<title>Honors and Awards</title>
+		<award>
+			<title>XML Spy 4 Suite was selected as the best Web Services Training Tool in the Web Services Journal Readers Choice Awards competition
+			</title>
+		</award>
+		<award>
+			<title>In the June 22, 2002 issue of PC Magazine, XML Spy 4.3 Suite was awarded the PC Magazine Editor Choice Awards for Best XML Editor
+			</title>
+		</award>
+		<award>
+			<title>XML Spy won the productivity award in the category "Utilities and Deployment Tools". 
+			</title>
+		</award>
+	</awards>
+	<clearances>
+		<clearance>
+			<level>Super Secret</level>
+			<organization>XML Spy team</organization>
+			<date>
+				<month>June</month>
+				<year>2002</year>
+			</date>
+		</clearance>
+		<clearance>
+			<level>Super Duper Secret</level>
+			<organization>XML Spy team</organization>
+			<period>
+				<from>
+					<date>
+						<month>July</month>
+						<year>2002</year>
+					</date>
+				</from>
+				<to>
+					<date>
+						<month>January</month>
+						<year>2003</year>
+					</date>
+				</to>
+			</period>
+		</clearance>
+	</clearances>
+	<lastModified>
+		<date>
+			<month>January</month>
+			<year>2003</year>
+		</date>
+	</lastModified>
+</resume>

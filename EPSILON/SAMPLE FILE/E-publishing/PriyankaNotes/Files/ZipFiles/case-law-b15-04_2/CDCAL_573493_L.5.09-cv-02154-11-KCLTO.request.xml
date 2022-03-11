@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>JAVIER</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>WELLS FARGO BANK</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. <bold>ED CV 09-02154 RGK (DTBx)</bold></docket.line>
+<docket.number><bold>ED CV 09-02154 RGK (DTBx)</bold></docket.number>
+<docket.line suppress-flag="y">5:09-cv-02154-RGK-DTB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/25/2010</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Sharon L. Williams, Deputy Clerk, Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Reported, Court Reporter / Recorder, Attorneys Present for Defendants: Not Present</attorney.line>
+<attorney.line first-line="1">N/A, Tape No.</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: (IN CHAMBERS)</bold> Order Re Defendant's Motion to Dismiss (DE 6)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable R. GARY KLAUSNER, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. <underscore>INTRODUCTION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On July 31, 2009, Victor Javier (&#x201C;Plaintiff&#x201D;) filed an action against Wells Fargo Bank (&#x201C;Defendant&#x201D;) in California Superior Court. Plaintiff alleges the following claims: (1) Declaratory Relief; (2) Wrongful Foreclosure; (3) Reversal and Cancellation of Illegal Foreclosure Sale Barred by Operation of Federal Law and State Law; (4) Cancellation of Instruments; and (5) Temporary Restraining Order, Preliminary and Permanent Injunction. Plaintiff removed the action to federal court on November 20, 2009, based on violations of federal law, specifically, the Truth in Lending Act, 15 U.S.C. &#167; 1601 et seq. (&#x201C;TILA&#x201D;) and the Home Ownership and Equity Protection Act, 15 U.S.C. &#167; 1639 (&#x201C;HOEPA&#x201D;). On December 7, 2009, Defendant filed a Motion to Dismiss. Plaintiff never filed an opposition.</paratext></para>
+<para><paratext ID="p2" level="1">For the following reasons, the Court <bold>GRANTS</bold> Defendant's Motion to Dismiss.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. <underscore>FACTUAL BACKGROUND</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Based on Plaintiff's Complaint, it appears that Plaintiff's house was foreclosed upon when he defaulted on his loan, and that it was sold to Defendant at a foreclosure sale. However, the Complaint fails to allege any facts leading up to the default and foreclosure.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. <underscore>JUDICIAL STANDARD</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">A party may move to dismiss for failure to state a claim upon which relief can be granted. <csc>Fed. R. Civ. P.</csc> 12(b)(6). In deciding a 12(b)(6) motion, the Court must assume that allegations in the challenged complaint are true and construe the complaint in the light most favorable to the non-moving party. <ital>Cahill v. Liberty Mut. Ins. Co.</ital>, 80 F.3d 336, 337-38 (9th Cir. 1996). The Court shall not consider facts outside the complaint. <ital>See Arpin v. Santa Clara Valley Transp. Agency</ital>, 261 F.3d 912, 925 (9th Cir. 2001). The Court may not dismiss &#x201C;unless it appears beyond doubt that the plaintiff can prove no set of facts in support of his claim which would entitle him to relief.&#x201D; <ital>Russell v. Landrieu</ital>, 621 F.2d 1037, 1039 (9th Cir. 1980). However, a court need not accept as true unreasonable inferences, unwarranted deductions of fact, or conclusory legal allegations cast in the form of factual allegations. <ital>See W. Mining Council v. Watt</ital>, 643 F.2d 618, 624 (9th Cir. 1981). Dismissal is appropriate only where the complaint lacks a cognizable legal theory or sufficient facts to support a cognizable legal theory. <ital>Mendiondo v. Centinela Hosp. Med. Ctr.</ital>, 521 F.3d 1097, 1104 (9th Cir. 2008). Plaintiff must state &#x201C;enough facts to state a claim for relief that is plausible on its face.&#x201D; <ital>Bell Atl. Corp. v. Twombly</ital>, 550 U.S. 544, 570 (2007). The complaint need not contain detailed factual allegations, but it must provide more than &#x201C;a formulaic recitation of the elements of a cause of action.&#x201D; <ital>Id.</ital> at 555.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. <underscore>DISCUSSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Plaintiff fails to allege clearly discernible claims or facts giving rise to any claims. However, it appears that Plaintiff seeks remedies for violations of: (1) the State Nonjudicial Foreclosure Statutes; (2) TILA; (3) HOEPA; and (4) U.S. Treasury Regulation Z (&#x201C;Reg. Z&#x201D;). As discussed below, the Court dismisses all of Plaintiff's claims based on Plaintiff's failure to comply with the pleading requirements of Federal Rule of Civil Procedure 8 (&#x201C;Rule 8&#x201D;). Additionally, to the extent Plaintiff alleges claims under TILA, HOEPA, and Reg. Z, the Court dismisses those claims, as they are barred by the statute of limitations.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. <underscore>Rule 8</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Rule 8(a) states the general rules of pleading. Pursuant to Rule 8(a), a complaint must contain a &#x201C;short and plain statement of the claim showing that the pleader is entitled to relief.&#x201D; Fed. R. Civ. P. 8(a). If a complaint is verbose, conclusory, or confusing, it does not comply with Rule 8(a). <ital>Nevijel v. N. Coast Life Ins. Co.</ital>, 651 F.2d 671, 674 (9th Cir. 1981). &#x201C;Threadbare recitals of the elements of a cause of action, supported by mere conclusory statements, do not suffice.&#x201D; <ital>Twombly</ital>, 550 U.S. at 555. Plaintiff must also allege, with at least some degree of particularity, overt acts by the defendant that support each claim. <ital>See Jones v. Cmty. Redevelopment Agency</ital>, 733 F.2d 646, 649 (9th Cir. 1984). A complaint must contain plausible factual allegations to support its legal conclusions. <ital>Ashcroft v. Iqbal</ital>, 129 S. Ct. 1937, 1950 (2009).</paratext></para>
+<para><paratext ID="p7" level="1">Plaintiff's complaint is not clear, and it is impossible to determine what, exactly, Plaintiff is alleging. Plaintiff seems to assert that he rescinded his loan pursuant to TILA, HOEPA, and Reg. Z violations by &#x201C;[Defendant] and [Defendant's] predecessors in interest.&#x201D; It is not clear, however, when this rescission was allegedly made, when the TILA Loan Rescission Notice was sent, or even to whom the Notice was given. Plaintiff then alleges that Defendant did not respond appropriately within twenty days because it did not deliver the required monetary payment or reconvey the trust deed.</paratext></para>
+<para><paratext ID="p8" level="1">Plaintiff claims that after he rescinded the loan, it was void by operation of law, and that foreclosure was therefore wrongful and in violation of TILA, HOEPA, Reg. Z, and state non-judicial foreclosure statutes. Plaintiff does not define what the state non-judicial foreclosure statutes are, nor does he explain where they can be found. Plaintiff alleges absolutely no facts and does not provide any dates for anything that has occurred. The allegations made by Plaintiff are so unclear that they fall far short of complying with the pleading requirement stated in Rule 8 and supporting Ninth Circuit law. The Complaint does not provide Defendant with fair notice of the charges it is facing. Accordingly, the Court dismisses Plaintiff's state and federal claims for failure to comply with the Rule 8 pleading requirements.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. <underscore>Statute of Limitations</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">A claim for damages under TILA, HOEPA, or Reg. Z must be brought within &#x201C;one year from the date of the occurrence of the violation.&#x201D; 15 U.S.C. &#167; 1640(e). The limitations period runs from the date of the consummation of the transaction. <ital>See King v. State of Cal.</ital>, 784 F.2d 910, 915 (9th Cir. 1986).</paratext></para>
+<para><paratext ID="p10" level="1">It appears that the latest possible date of consummation of the loan was August 14, 2006.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Pursuant to the applicable statutes of limitations, the last day for Plaintiff to file an action for violation of TILA, HOEPA, or Reg. Z was August 14, 2007. Plaintiff filed the current action on July 31, 2009, nearly two years after the limitations period had already run. Therefore, to the extent that Plaintiff is attempting to assert any claims under TILA, HOEPA, or Reg. Z, he is time-barred from asserting those claims. Accordingly, the Court grants Defendant's Motion to Dismiss Plaintiff's claims under TILA, HOEPA, and Reg. Z with prejudice.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p11">&#8195;Plaintiff's Complaint does not contain the date of consummation of the mortgage transaction. The Court takes judicial notice of the Deed of Trust provided by Defendant as Exhibit 1 in Defendant's Request for Judicial Notice in Support of Motion to Dismiss Complaint.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>V. <underscore>CONCLUSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">In light of the forgoing, the Court <bold>GRANTS</bold> Defendant's Motion to Dismiss. The federal claims are dismissed <bold>with prejudice</bold> and the state claims are dismissed <bold>without prejudice</bold>.</paratext></para>
+<para><paratext ID="p13" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p14" level="1">&#95;&#95;&#95;&#95; : &#95;&#95;&#95;&#95;</paratext></para>
+<para><paratext ID="p15" level="1">Initials of Preparer <underscore>slw</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

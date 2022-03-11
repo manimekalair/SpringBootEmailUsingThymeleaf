@@ -1,0 +1,55 @@
+===== NDGA_532149_L.1.07-cv-01065-17-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>NORTHERN DISTRICT OF GEORGIA</venue.name>
+<venue.name>ATLANTA DIVISION</venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>UNITED STATES OF AMERICA, Petitioner,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>MARTIN M. CHANDLER, Respondent.</title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>CIVIL ACTION NO. 1:07-CV-1065-RLV</docket.line>
+<docket.number>1:07-CV-1065-RLV</docket.number>
+<docket.line suppress-flag="y">1:07-cv-01065-RLV</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/10/2008</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><u>ORDER</u></headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ROBERT L. VINING JR. Senior United States District Judge</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">After carefully considering the report and recommendation of the magistrate judge, together with the objections thereto, the court receives it with approval and adopts it as the opinion and order of this court. Pursuant to the report and recommendation, the United States is directed to file affidavits and any other supporting material with respect to the amount of costs and reasonable attorney's fees incurred in enforcing the summons at issue. This material should be filed no later than February 8, 2008.</paratext></para>
+<para><paratext level="1">SO ORDERED, this <u>10<sup>th</sup></u> day of January, 2008.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

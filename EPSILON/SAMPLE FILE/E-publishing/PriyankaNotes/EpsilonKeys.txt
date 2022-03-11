@@ -1,0 +1,89 @@
+Epsilon:
+	(1) Command(alt-x)
+	(2) Find file folder(ctrl-x ctrl-f)
+	(3) Copy(alt-w)
+	(4) Paste(ctrl-y)
+	(5) Cut(ctrl-w)
+	(6) Fundamental-mode(left-align)
+	(7) Html-mode
+	(8) Find and replace(alt-shift-8)
+	(9) Replace all(shift-1)
+	(10) Mark set(ctrl-spacebar)
+	(11) Book mark set(alt-?)
+	(12) Jumped to mark set(alt-j)
+	(13) Multi window(ctrl-2)
+	(14) Single window(ctrl-1)
+	(15) Crop the selected lines in the window(narrow to region)
+	(16) Back to window(widden buffer)
+	(17) Beginning page(ctrl-home)
+	(18) End page(ctrl-end)
+	(19) Up window(alt-home)
+	(20) Down window(alt-end)
+	(21) Save(ctrl-x ctrl-s)
+	(22) Save as(ctrl-x ctrl-w)
+	(23) Search (ctrl-s)
+	(24) Reverse(ctrl-r)
+	(25) Forward(ctrl-s ctrl-r)
+	(26) Closing tag(alt-1)
+	(27) Close current window(ctrl-x ctrl-k)
+	(28) View file(v)
+	(29) Cancel(ctrl-g)
+	(30) Close all file(kill all buffer)
+	(31) Undo(F9)
+	(32) Redo(F10)
+	(33) Select all(ctrl-shift-end)
+Ctrl-X 5		split-window-vertically
+Ctrl-X (		start-kbd-macro
+Ctrl-X )		end-kbd-macro
+Ctrl-X Ctrl-D		kill-window
+Ctrl-X Ctrl-C		exit
+Alt-F4			exit
+Ctrl-C Ctrl-C		stop-process
+Alt-F2			show-menu
+Ctrl-F4			last-kbd-macro
+Ctrl-F2			compare-windows
+Shift-F3		view-process
+Shift-F4		pause-macro
+Shift-F6		change-show-spaces
+<PgUp>			previous-page
+<PgDn>			next-page
+F2			named-command
+Alt-x			named-command
+Alt-z			scroll-down
+Alt-t			transpose-words
+Alt-u			uppercase-word
+Alt-k			kill-sentence
+Alt-l			lowercase-word
+Alt-d			kill-word
+Alt-c			capitalize-word
+Ctrl-Z			scroll-up
+Ctrl-T			transpose-characters
+Ctrl-K			kill-line
+Ctrl-G			abort
+
+
+
+	(34) Extra keys:
+		Ctrl+Tab
+	Grouping:
+		If u want to replace num([0-9]+): #1
+		If u want to replace different types of text and tags(.*): #1
+		If u want to replace word([a-z]): #1 (lower-case)
+		If u want to replace words([a-z]+): #1
+		If u want to replace words([A-Z]+): #1 (upper-case)
+
+Epsilon shortcut keys:
+	Alt+shift+]					:word wrap
+	Alt+shift+[					:Normal
+	Alt+F7 and enter, ctrl+s, xml file		:griping word
+	Ctrl+s Ctrl+T, type char, Ctrl+s Ctrl+c Ctrl+s	:exact word
+
+Ctrl+s Ctrl+T(searching special char)
+Ctrl+s Ctrl+c(exact word)
+
+Enter mark		Ctrl+Q+J
+
+Open(")		-&#x201C;
+Close(")	-&#x201D;
+open(')		-&#x2018;
+Close(')	-&#x2019;

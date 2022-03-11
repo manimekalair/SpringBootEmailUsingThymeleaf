@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>FARMERS INSURANCE COMPANY, INC., a/s/o DARRELL THOMPSON and LISA THOMPSON Plaintiffs</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>BIG LOTS, INC., an Ohio Corporation, et al., Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 15-CV-97-GKF-PJC</docket.line>
+<docket.number>15-CV-97-GKF-PJC</docket.number>
+<docket.line suppress-flag="y">4:15-cv-00097-GKF-PJC</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 09/16/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>OPINION AND ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GREORY K. FRIZZELL, CHIEF JUDGE UNITED STATES DISTRICT COURT</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the court is the Motion to Strike of plaintiff Lisa Thompson (&#x201C;Thompson&#x201D;) [Dkt. #57]. For the following reasons, Thompson's motion is granted.</paratext></para>
+<para><paratext ID="p2" level="1">On August 31, 2016, attorney Scott B. Goode (&#x201C;Goode&#x201D;) filed a notice of attorney's lien on any &#x201C;verdict, report, decision, finding, judgment, settlement or other payment&#x201D; received by Thompson in the above-captioned matter. [Dkt. #56, p.l]. Goode represents no parties in this action, has never filed an entry of appearance, and fails to allege any involvement in this case whatsoever. Rather, Goode represented Thompson in an unrelated prior divorce proceeding in Oklahoma state court, captioned <ital>In re Thompson</ital>, No. FD-2015-2474. That is not a proper basis on which to assess a lien in this case.</paratext></para>
+<para><paratext ID="p3" level="1">In Oklahoma, an attorney may perfect a lien on a client's judgment or recovery for services rendered &#x201C;in <ital>that suit.&#x201D; Mehdipour v. Holland</ital>, 2007 OK 69, &#182; 23, 177 P.3d 544, 549 (emphasis added). Specifically, 5 O.S. 2001 &#167; 6 provides: &#x201C;[t]he attorney who represents the party in whose behalf such pleading is filed shall <charfill numchar="3">&#8228;</charfill> have a lien upon his client's cause of action <charfill numchar="3">&#8228;</charfill> and [the] same shall attach to any verdict, report, decision, finding or judgment in his client's favor.&#x201D; In this way, &#x201C;when the skills and services of an attorney produce a judgment<charfill numchar="3">&#8228;</charfill> a lien attaches to the fruits of his efforts.&#x201D; <ital>Mehdipour</ital>, 2007 OK 69, &#182; 23, 177 P.3d at 549 (quotation marks omitted). Any recovery in the above-captioned action would not be attributable to Goode's efforts. Accordingly, his Notice of Attorney's Lien [Dkt. #56] is stricken. <ital>See Wilcox v. Mid-Continent Cas. Co.</ital>, 1998 OK CIV APP 189, &#182; 7, 971 P.2d 405, 406 (&#x201C;It is undisputed that Wilcox filed no pleadings whatsoever on behalf of Hedges and hence could not establish a condition precedent for the establishment of a statutory charging lien.&#x201D;).</paratext></para>
+<para><paratext ID="p4" level="1">WHEREFORE, Thompson's Motion to Strike [Dkt. #57] is granted.</paratext></para>
+<para><paratext ID="p5" level="1">IT IS SO ORDERED this 16th day of September, 2016.</paratext></para>
+<para><paratext ID="p6" level="1">IT IS FURTHER ORDERED that the court clerk send a copy of this Order to Goode at 115 W. 3rd St., Ste. 413, Tulsa, OK 74103.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

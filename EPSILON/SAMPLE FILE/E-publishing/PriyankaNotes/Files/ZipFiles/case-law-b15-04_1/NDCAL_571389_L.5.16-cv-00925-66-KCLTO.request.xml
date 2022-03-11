@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>NORTHERN DISTRICT OF CALIFORNIA</venue.name>
+<venue.name>SAN JOSE DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>XILINX, INC., Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>PAPST LICENSING GMBH &#38; CO.KG, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 14-CV-04963-LHK</docket.line>
+<docket.number>14-CV-04963-LHK</docket.number>
+<docket.line suppress-flag="y">5:16-cv-00925-LHK</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 03/22/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>RELATED CASE ORDER</bold> Re: Dkt. No. 72</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">LUCY H. KOH United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On November 7, 2014, Plaintiff Xilinx, Inc. (&#x201C;Xilinx&#x201D;) filed suit in the Northern District of California against Defendant Papst Licensing GMBH &#38; Co. KG (&#x201C;Pabst&#x201D;). Xilinx sought a declaratory judgment that its products do not infringe United States Patent Nos. 6,576,759 (the &#x201C;&#x2019;759 patent&#x201D;) and 6,704,891 (the &#x201C;&#x2019;891 patent&#x201D;), which are owned by Pabst. ECF No. 1. On February 19, 2015, the above-captioned case was related to <ital>Altera Corp. v. Pabst Licensing GMBH &#38; Co. KG (&#x201C;Altera California&#x201D;)</ital>, 14-CV-04794-BLF. ECF No. 32. The plaintiff in <ital>Altera California</ital>, Altera Corp., also sought a declaratory judgment in the Northern District of California that its products do not infringe Pabst's &#x2018;759 and &#x2018;891 patents.</paratext></para>
+<para><paratext ID="p2" level="1">Before the Court is Xilinx's motion to relate the above-captioned case and <ital>Altera California</ital> to two actions recently transferred to the Northern District of California from the District of Delaware: <ital>Papst Licensing GMBH &#38; Co. KG v. Xilinx Inc. (&#x201C;Xilinx Delaware &#x201D;)</ital>, No. 4:16-CV-00925-EDL, and <ital>Papst Licensing GMBH &#38; Co. KG v. Altera Corp. (&#x201C;Altera Delaware &#x201D;)</ital>, No. 16-CV-00926-EDL. ECF No. 72. Like <ital>Altera California</ital> and the above-captioned case, the two recently-transferred cases involve alleged infringement of the &#x2018;759 and &#x2018;891 patents. Pabst agrees that the cases should be related. ECF No. 73. Altera Corp. did not file a response to Xilinx's motion to relate.</paratext></para>
+<para><paratext ID="p3" level="1"><ital>Xilinx Delaware, Altera Delaware, Altera California</ital>, and the above-captioned case concern substantially the same parties and events, and it appears likely that there will be an unduly burdensome duplication of labor and expense or conflicting results if the cases are conducted before different judges. <ital>See</ital> Civil L.R. 3-12(a). Accordingly, the Court determines that <ital>Xilinx Delaware and Altera Delaware</ital> should be related to the above-captioned case and <ital>Altera California.</ital></paratext></para>
+<para><paratext ID="p4" level="1">Xilinx asks that the related cases be assigned either to the undersigned judge or to United States Magistrate Judge Elizabeth Laporte. <ital>See</ital> ECF No. 72. However, Xilinx declined magistrate judge jurisdiction in the above-captioned case on December 12, 2014. ECF No. 11. Additionally, Altera Corp. declined magistrate judge jurisdiction in <ital>Altera California</ital> on November 19, 2014. ECF No. 10 in the <ital>Altera California</ital> docket. Accordingly, <ital>Xilinx Delaware</ital> and <ital>Altera Delaware</ital> shall be reassigned to the undersigned judge. All future filings are to bear the initials &#x201C;LHK.&#x201D; Unless otherwise ordered, any dates for hearing noticed motions are vacated and must be renoticed by the moving party before the newly assigned judge; any deadlines set by the ADR Local Rules remain in effect; and any deadlines established in a case management order continue to govern, except dates for appearance in court, which will be rescheduled by the newly assigned judge. A copy of this Order shall be filed in the <ital>Xilinx Delaware, Altera Delaware</ital>, and <ital>Altera California</ital> dockets.</paratext></para>
+<para><paratext ID="p5" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p6" level="1">Dated: March 22, 2016</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

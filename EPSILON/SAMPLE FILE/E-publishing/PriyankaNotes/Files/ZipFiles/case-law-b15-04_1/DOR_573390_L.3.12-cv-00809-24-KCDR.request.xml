@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE DISTRICT OF OREGON</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>ANDRITZ, INC., a Delaware corporation, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>J&#38;L FIBER SERVICES, INC., a Wisconsin corporation, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Civ. No. 3:12-cv-809 AA</docket.line>
+<docket.number>3:12-cv-809 AA</docket.number>
+<docket.line suppress-flag="y">3:12-cv-00809-AA</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 03/19/2013</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Renee E. Rothauge Markowitz, Herbold, Glade &#38; Mehlhaf, P.C., Suite 3000, Pacwest Center, 1211 SW Fifth Avenue, Portland, OR 97204, Attorney for Plaintiff</attorney.line>
+<attorney.line first-line="1">Randolph C. Foster, Nathan C. Brunette, Brad S. Daniels, Stoel Rives, LLP, 900 SW Fifth Avenue, Suite 2600, Portland, OR 97204, Attorneys for Defendant</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">OPINION AND ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Ann Aiken united States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">AIKEN, Chief Judge:</paratext></para>
+<para><paratext ID="p2" level="1">Plaintiff Andritz, Inc. (&#x201C;Andritz&#x201D;) filed suit against defendant J&#38;L Fiber Services, Inc. (&#x201C;J&#38;L&#x201D;) alleging breaches of express contract and the covenant of good faith and fair dealing, intentional interference with business relations and seeking declaratory relief and permanent injunction. Andritz alleges that J&#38;L breached the Settlement Agreement previously reached by both parties, relating to a patent dispute. J&#38;L brings a motion pursuant to Fed. R. Civ. P. 12(e) (&#x201C;Rule 12(e)&#x201D;), seeking a more definite statement of certain paragraphs within Andritz's complaint. The motion is denied.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>PROCEDURAL HISTORY</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">In December 2005, Andritz brought suit against a former employee, Gary Prue, and J&#38;L, alleging patent infringement, violation of Oregon's Trade Secrets Act, breach of contract, breach of the covenant of good faith and fair dealing, unfair competition and permanent injunction. These claims arose from the alleged misappropriation of Andritz's trade secrets by Prue and delivery of said secrets to J&#38;L. The suit was resolved later when the parties entered into a settlement agreement (&#x201C;Agreement&#x201D;), wherein J&#38;L agreed that it &#x201C;would not &#x2018;make, have made, offer for sale, and/or sell&#x2019; certain refiner plates and plates not colorably different from those plates specifically identified in SI 5.1 of the Settlement Agreement.&#x201D; Compl. &#182; 9.</paratext></para>
+<para><paratext ID="p4" level="1">In 2008, Andritz alleged that J&#38;L breached the Agreement by making, using, offering for sale, and/or supplying refiner plates not colorably different from the so-called &#x201C;Section 5.1 plates&#x201D; identified in &#182; 5.1 of the Agreement. This dispute was resolved without litigation.</paratext></para>
+<para><paratext ID="p5" level="1">The present dispute began in 2010, when Andritz notified J&#38;L by letter that J&#38;L was again in breach of the Agreement. Andritz alleges that, subsequent to this notification, it became aware of a &#x201C;pattern and practice&#x201D; by J&#38;L of additional sales in breach of the Agreement.</paratext></para>
+<para><paratext ID="p6" level="1">The parties were unable to resolve the dispute, and on May 7, 2012 Andritz filed a complaint for breach of express contract, breach of the covenant of good faith and fair dealing, and intentional interference with business relations. Andritz seeks declaratory relief and a permanent injunction against J&#38;L.</paratext></para>
+<para><paratext ID="p7" level="1">On September 7, 2012, J&#38;L filed a motion for a more definite statement pursuant to Rule 12(e), stating that OT 15, 20, 24, 30(a) and 32 of Andritz's complaint contained &#x201C;vague and ambiguous allegations.&#x201D;</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>LEGAL STANDARD</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">A party may move for a more definite statement before responding to the pleading when that pleading &#x201C;is so vague or ambiguous that a party cannot reasonably prepare a response.&#x201D; Fed. R. Civ. P. 12(e). The motion is &#x201C;ordinarily restricted to situations where a pleading suffers from unintelligibility rather than want of detail, and if the requirements of the general rule as to pleadings are satisfied and the opposing party is fairly notified of the nature of the claim such motion is inappropriate.&#x201D; <underscore>Sheffield v. Orius Corp.</underscore>, 211 F.R.D. 411, 414-15 (D. Or. 2002) (quoting <underscore>Tilley v. Allstate Ins. Co.</underscore>, 40 F. Supp. 2d 809, 814 (S.D. W. Va 1999)); <underscore>see also Resolution Trust Corp. v. Gerhmann</underscore>, 829 F. Supp. 1095, 1103 (E.D. Mo. 1993) (&#x201C;Rule 12(e) provides a remedy for unintelligible pleadings; it is not intended to correct a claimed lack of detail.&#x201D;). Accordingly, motions under Rule 12(e) are viewed with disfavor, and rarely granted. <underscore>Margarita Cellars v. Pacific Coast Packaging, Inc.</underscore>, 189 F.R.D. 575, 578 (N.D. Cal. 1999).</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>DISCUSSION</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Movant J&#38;L claims that Andritz's allegations in &#182;&#182;15, 20, 24, 30(a), and 32 of the complaint are &#x201C;vague and ambiguous.&#x201D; Def.'s Mot. at 2. The contents of each of the identified paragraphs are substantially similar, with Andritz asserting that J&#38;L is producing, selling, or otherwise supplying refiner plates that are &#x201C;not colorably different from the Section 5.1 plates.&#x201D; <underscore>E.g.</underscore>, Compl. &#182; 15. Andritz's complaint specifically identifies two plates which it believes violate Section 5.1 of the Agreement. Compl. &#182;12.</paratext></para>
+<para><paratext ID="p10" level="1">J&#38;L argues that, because the Agreement lists 53 discrete Section 5.1 plates (<underscore>see</underscore> Compl. II 14), Andritz must do more than identify two infringing plates produced or sold by J&#38;L. <underscore>See</underscore> PL's Mem. at 5. J&#38;L contends that they cannot &#x201C;reasonably prepare a response&#x201D; without knowing exactly which of their products Andritz claims are being manufactured and sold in breach of the Agreement. <underscore>Id.</underscore> J&#38;L specifically requests that Andritz identify &#x201C;the plates allegedly made, used, sold, or supplied <charfill numchar="3">&#8228;</charfill> in violation of the parties' Settlement Agreement.&#x201D; Def.'s Mot. at 2. J&#38;L frames Andritz's complaint, which singles out only two known refiner plates, as an improper attempt to &#x201C;reach beyond the specific two plates&#x201D; and bring broad allegations against unspecified plates J&#38;L produced and sold by J&#38;L. Def's. Mem. at 2. Yet J&#38;L does not provide any evidence in support, and the plain language of Andritz's complaint does not suggest it. <underscore>See</underscore> Compl. <ital>1</ital> 12. Andritz makes five claims for relief (breach of contract, breach of covenant of good faith and fair dealing, intentional interference with business relations, and declaratory and injunctive relief), and Andritz dos not allege any claims of infringement.</paratext></para>
+<para><paratext ID="p11" level="1">It is well established that Rule 12 (e) is not intended to supplant or replace discovery. <underscore>See, e.g., Beery v Hitachi Home Elecs. (Am.)</underscore>, 157 F.R.D. 477 (C.D. Cal. 1993) (motions under Rule 12 (e) attack the unintelligibility of a complaint, not mere lack of detail); <underscore>Kroungold v. Triester</underscore>, 407 F. Supp. 414 (E.D. Pa. 1975) (motions under Rule 12 (e) will be denied unless defendant cannot reasonably be expected to frame a responsive pleading); <underscore>United States v. 108 Boxes of Cheddar Cheese</underscore> 3 F.R.D. 40 (D. Iowa 1942) (motions for more definite statement should be granted only if desired information cannot be obtained by discovery).</paratext></para>
+<para><paratext ID="p12" level="1">Andritz's complaint quite clearly identifies two of J&#38;L's refiner plates which allegedly violate the terms of the Agreement. Compl. &#182;&#182;12, 16 (&#x201C;Specifically, the breaching J&#38;L plates of which Andritz is currently aware are the 54P116 and 54P133 plates sold to Robin Resources in Malaysia.&#x201D;). Whether additional plates are also at issue may be determined during the discovery process, and Andritz may seek leave to amend its complaint accordingly, if necessary. The specificity of Andritz's complaint is more than sufficient to allow J&#38;L to determine the issues and reasonably frame its response.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore>CONCLUSION</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">For the reasons set forth above, defendant's motion for more definite statement (doc. 11) is DENIED. IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p14" level="1">Dated this <underscore>19</underscore> day of March, 2013.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

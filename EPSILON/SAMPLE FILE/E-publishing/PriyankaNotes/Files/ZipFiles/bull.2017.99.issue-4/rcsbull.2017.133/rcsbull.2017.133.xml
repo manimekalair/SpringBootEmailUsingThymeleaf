@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "C:\Documents and Settings\riyaz.EXETERPM\Desktop\archiveJats-interchange-dtd-1.1\JATS-archivearticle1.dtd">
+<?release-delay 0|0?>
+<article article-type="research-article" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">bull</journal-id>
+<journal-title-group>
+<journal-title>The Bulletin of the Royal College of Surgeons of England</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1473-6357</issn>
+<issn pub-type="epub">1478-7075</issn>
+<publisher>
+<publisher-name>Royal College of Surgeons</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.133</article-id>
+<article-id pub-id-type="publisher-id">2017.133</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research</subject>
+</subj-group>
+<subj-group subj-group-type="rcs-spec">
+<compound-subject>
+<compound-subject-part content-type="code">adm</compound-subject-part>
+<compound-subject-part content-type="label">Hospital administration</compound-subject-part>
+</compound-subject>
+<compound-subject>
+<compound-subject-part content-type="code">emg</compound-subject-part>
+<compound-subject-part content-type="label">Emergency care</compound-subject-part>
+</compound-subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Does the word &#x2018;quiet&#x2019; really make things busier?</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<surname>Lamb</surname>
+<given-names>JN</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Trauma and Orthopaedics Registrar</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Howard</surname>
+<given-names>AJ</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Trauma and Orthopaedics Registrar</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Marciniak</surname>
+<given-names>J</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Trauma and Orthopaedics Registrar</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Shenolikar</surname>
+<given-names>A</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+<role>Consultant Foot and Ankle Surgeon</role>
+</contrib>
+<aff id="AF0001"><sup>1</sup><institution>Leeds Teaching Hospitals NHS Trust</institution></aff>
+<aff id="AF0002"><sup>2</sup><institution>Calderdale and Huddersfield NHS Foundation Trust</institution></aff>
+</contrib-group>
+<pub-date pub-type="ppub"><month>04</month><year>2017</year></pub-date>
+<pub-date pub-type="epub"><month>04</month><year>2017</year></pub-date>
+<volume>99</volume>
+<issue>4</issue>
+<fpage>133</fpage>
+<lpage>136</lpage>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2017 Royal College of Surgeons</copyright-statement>
+<copyright-year>2017</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="rcsbull.2017.133.pdf" content-type="pdf"></self-uri>
+<abstract>
+<p>Statistics vs superstition: Taking a look at medicine&#x2019;s &#x2018;Macbeth&#x2019;</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<p>Life as a doctor has become progressively busier and understaffing of rotas creates staff shortages. Hospital admissions are rising year on year by 1&#x2013;3%.<sup><xref ref-type="bibr" rid="bib1">1</xref></sup> In 2015 a national survey revealed that National Health Service staff were more likely to feel stressed than any other public sector workers.<sup><xref ref-type="bibr" rid="bib2">2</xref></sup> It is no surprise that doctors try to indentify factors that further overstretch their capacity to work. Natural intrigue often leads hospital staff to use superstitious reasoning to infer meaning in situations we do not truly understand.</p>
+<p>Previous work has focused on various treatment outcomes and their relationship to the lunar cycle, failing to address the critical issue of medical presentational volume and semantic word usage. However, the lunar cycle work provides a useful backdrop to the current study. Joswig<italic> et al</italic> found no influence of lunar phase and star sign on the outcome of elective spinal surgery for degenerative disc disease.<sup><xref ref-type="bibr" rid="bib3">3</xref></sup> Likewise, Shuld<italic> et al</italic> concluded there was no evidence to show that moon phases, zodiac signs or Friday the 13th influence surgical blood loss and emergency frequency.<sup><xref ref-type="bibr" rid="bib4">4</xref></sup> Similarly, Eisenburger<italic> et al</italic> found that lunar phases do not appear to correlate with acute coronary events leading to myocardial infarction or sudden cardiac death.<sup><xref ref-type="bibr" rid="bib5">5</xref></sup> The frequency of births and related complications also seemed to have no relationship to the lunar cycle.<sup><xref ref-type="bibr" rid="bib6">6</xref></sup></p>
+<p>It is a widely held belief that saying the word &#x2018;quiet&#x2019; will somehow cause the subsequent workload to increase. Hospital staff are naturally keen to reduce excessive potential workload in order to ensure their ability to provide safe care and therefore try to avoid using the word &#x2018;quiet&#x2019;, even if no hard evidence exists to prove its effect on subsequent workload.</p>
+<p>There is also a political appetite for reducing the burden of healthcare; if shown to be of benefit, avoiding the word &#x2018;quiet&#x2019; in hospital could be a profession-led initiative. The National Institute of Health and Care Excellence has health economics at the centre of its mandate, and so a national strategy for language usage to reduce the cost of additional treatment would be greatly beneficial. There is no reason why the principles of evidence-based medicine should not apply to even the most superstitious of practices. The aim of this study was therefore to investigate whether use of the word &#x2018;quiet&#x2019; by the on-call team increases the subsequent workload.</p>
+<sec><title>Methods</title>
+<p>A multicentre, single blind, randomised controlled trial was conducted. The research and development office confirmed that this study was outside its jurisdiction. Using a validated allocation technique,<sup><xref ref-type="bibr" rid="bib7">7</xref></sup> night on-call sessions from 8pm to 8am were allocated randomly to one of two study arms by a coin toss at the beginning of the shift. Heads indicated allocation to the &#x2018;quiet&#x2019; arm and tails allocation to the control arm.</p>
+<p>The coin toss was performed by the orthopaedic registrar attending the evening handover at 8pm with the senior house officer. The senior house officers were blinded to the study. When leaving the meeting of an on-call session allocated to the quiet arm, the registrar said: &#x2018;Have a quiet night. I&#x2019;ll see you in the morning.&#x2019; In the control group, the registrar said: &#x2018;Have a good night. I&#x2019;ll see you in the morning.&#x2019; If the word &#x2018;quiet&#x2019; was uttered during the meeting when the on-call shift was allocated to the control arm, data collection was abandoned to prevent supernatural bias.</p>
+<p>It is a widely held belief that saying the word &#x2018;quiet&#x2019; will somehow cause the subsequent workload to increase.</p>
+<p>Standard power calculations were not performed as no previous study demonstrating the power of the word &#x2018;quiet&#x2019; on workload exists. Group sizes were decided on a pragmatic ad hoc basis.</p>
+<p>The primary outcome was the number of new referrals between 8pm and 8am that resulted in hospital admission the following morning. The difference between the groups was analysed with a two-tailed Mann&#x2013;Whitney U test using StatsDirect (StatsDirect, Altrincham, UK). A <italic>p</italic>-value of &lt;0.05 was considered statistically significant.</p>
+</sec>
+<sec><title>Results</title>
+<p>The quiet group contained 18 night shifts whereas the control group contained 24 shifts. These were contributed by five district general hospitals across the Yorkshire region. The number of admissions to each of these hospitals is shown in <xref ref-type="fig" rid="F1">Figure 1</xref>.</p>
+<fig id="F1" position="float" fig-type="figure"><label>Figure 1</label><caption><p>Number of hospital admissions resulting from new referrals at night</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="rcsbull.2017.133.jpg"/></fig>
+<p>The mean number of night referrals leading to admissions was 3.1 (standard deviation [SD]: 2.6) in the quiet arm and 1.7 (SD: 1.3) in the control arm. The difference in admissions between the groups was statistically significant (<italic>p</italic>=0.04).</p>
+<p>On one evening, armed police were also present on the ward during a night shift randomised to the control arm. Since no beds were occupied by the police, they were discounted from the study.</p>
+</sec>
+<sec><title>Discussion</title>
+<p>This study has shown that when the word &#x2018;quiet&#x2019; was used, a significantly higher number of admissions occurred during a night on-call period. It is the first of its kind to demonstrate a cost neutral, clinician-focused method of reducing workload in hospital. One can also conclude that avoiding the word &#x2018;quiet&#x2019; may even reduce the incidence of traumatic injuries and orthopaedic emergencies within a hospital catchment area.</p>
+<p>The mechanism by which using the word &#x2018;quiet&#x2019; causes an increase in workload is unclear. It is likely that the supernatural forces at work are beyond the grasp of even the most skilled orthopaedic researchers. It is possible that such mechanisms might entail mythical microparticles such as &#x2018;interleukins&#x2019; and &#x2018;prions&#x2019;, which may or may not exist in the real world. The ability to test such particles on the vast array of hospital investigations available has been noted but this testing has been avoided to prevent confusion. The true mechanism for our findings requires further work.</p>
+<p>It may be difficult to extrapolate the results of this study to an international audience. Although it has been robustly demonstrated that using the word &#x2018;quiet&#x2019; has significant health and service implications for the Yorkshire population, it is not clear whether the word &#x2018;quiet&#x2019; would have a comparable impact in a non-English environment. A thorough search of the available literature shows that no such belief is apparent in other countries. Similar evidence-based approaches should be explored worldwide in order to improve healthcare globally.</p>
+<p>Similarly, health superstitions have not yet been fully explored in the UK. A widespread belief that the number 13 is unlucky is already popular in hospitals across the country. For this reason, rooms and wards are commonly not named &#x2018;13&#x2019;. However, it must be stressed that this belief has not been tested as robustly as the findings in this study and as a result, we cannot recommend such practice. Likewise, adopting other potentially beneficial practices such as covering yourself in bird poo, carrying a rabbit&#x2019;s foot on your lanyard or taping your fingers crossed should be viewed with caution. Currently, there is no high-quality evidence to support their use. Clinicians looking to maximise their practice should limit themselves to evidence-based methods.</p>
+<p>Our study makes important developments in the field of superstition within modern medicine. The trial was randomised and blinded to clinicians so as to prevent observer and recruitment bias. This shows that such a scheme could be adopted at a senior level without the need for direct clinician buy-in across the lower tiers of specialty trainees.</p>
+<p>Implementation of this novel method should be approached from two directions. First, senior management should make efforts to reinforce the evidence-based belief that using the word &#x2018;quiet&#x2019; makes on-call periods busier. This will reduce the erroneous use of the word by staff. Approaches could include the appointment of a &#x2018;Q&#x2019; word specialist manager to oversee the implementation of a &#x2018;Q&#x2019; word eradication policy. Methods should follow the excellent work of similar schemes such as the &#x2018;bare below the elbows&#x2019; campaign, which has improved sun tanning and vitamin D levels in almost all clinical staff. It is likely that complete eradication of the word &#x2018;quiet&#x2019; would not be possible owing to the occasional use of the word by foolhardy comedic clinical staff.</p>
+<p>Second, a nationwide health-focused public initiative should be set up to reduce the use of the word &#x2018;quiet&#x2019; in the public domain. This could reduce the incidence of trauma and orthopaedic emergencies across the country. Efforts should be concentrated in schools and workplaces, replacing the word &#x2018;quiet&#x2019; with less harmful words such as &#x2018;calm&#x2019; or &#x2018;low volume&#x2019;. We hope that this will be reflected in the good work done by Professor Tim Briggs in further iterations of the &#x2018;getting it right first time&#x2019; project<sup><xref ref-type="bibr" rid="bib8">8</xref></sup> as an important means of reducing complications following orthopaedic surgery in the UK.</p>
+<p>It is not yet clear how a person might reverse the ill effects of the word &#x2018;quiet&#x2019; if uttered in error. Instead of referring to &#x2018;Macbeth&#x2019;, actors use the euphemism &#x2018;the Scottish play&#x2019; to avoid disaster.<sup><xref ref-type="bibr" rid="bib9">9</xref></sup> Should an actor use the play&#x2019;s actual title, the effect can be negated if the individual turns three times and utters certain incantations. It is possible that a similar approach could be employed in nthe hospital environment. Given the importance of the effects of the word &#x2018;quiet&#x2019; found in this study, there is a real need to find a useful solution to reverse these effects.</p>
+<p>While this study aimed to obtain statistically robust conclusions, some improvements should be made to further work. Our results could be used to perform power calculations for estimating adequate group sizes in larger, national prospective trials. In our study, it was not possible to establish equal recruitment from each contributing hospital (<xref ref-type="fig" rid="F1">Figure 1</xref>). As such, our findings should be considered most representative of superstition beyond West Yorkshire. However, we did not want this to get in the way of good evidence.</p>
+</sec>
+<sec>
+<title>Conclusions</title>
+<p>This study has shown that the use of the word &#x2018;quiet&#x2019; makes subsequent on-call periods busier in trauma and orthopaedics departments. Our findings will hopefully be used by doctors and the public alike to reduce the incidence of hospital admissions secondary to trauma and orthopaedic emergencies.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="bib1"><label>1.</label><mixed-citation publication-type="web"><person-group><collab>King&#x2019;s Fund</collab></person-group><x>. </x><article-title>What&#x2019;s going on in A&#x0026;E? The key questions answered</article-title><x>. </x><uri>http://www.kingsfund.org.uk/projects/urgent-emergency-care/urgent-and-emergency-caremythbusters</uri><x> [</x><comment>last accessed October 2016</comment><x>].</x></mixed-citation></ref>
+<ref id="bib2"><label>2.</label><mixed-citation publication-type="web"><person-group><collab>The Guardian</collab></person-group><x>. </x><article-title>NHS Staff Most Stressed Public Sector Workers, Survey Finds</article-title><x>. </x><uri>http://www.theguardian.com/healthcare-network/2015/jun/12/nhs-staff-moststressed-public-sector-workers-survey-finds</uri><x> [</x><comment>last accessed October 2016</comment><x>].</x></mixed-citation></ref>
+<ref id="bib3"><label>3.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Joswig</surname><x> </x><given-names>H</given-names></string-name><x>, </x><string-name><surname>Stienen</surname><x> </x><given-names>MN</given-names></string-name><x>, </x><string-name><surname>Hock</surname><x> </x><given-names>C</given-names></string-name><x> </x><etal><italic>et al</italic></etal></person-group><x>. </x><article-title>The influence of lunar phases and zodiac sign &#x2018;Leo&#x2019; on perioperative complications and outcome in elective spine surgery</article-title><x>. </x><source><italic>Acta Neurochir</italic></source><x> </x><year>2016</year><x>; </x><volume><bold>158</bold></volume><x>: </x><fpage>1,095</fpage><x>&#x2013;</x><lpage>1,101</lpage><x>.</x></mixed-citation></ref>
+<ref id="bib4"><label>4.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schuld</surname><x> </x><given-names>J</given-names></string-name><x>, </x><string-name><surname>Slotta</surname><x> </x><given-names>JE</given-names></string-name><x>, </x><string-name><surname>Schuld</surname><x> </x><given-names>S</given-names></string-name><x> </x><etal><italic>et al</italic></etal></person-group><x>. </x><article-title>Popular belief meets surgical reality: impact of lunar phases, Friday the 13th and zodiac signs on emergency operations and intraoperative blood loss</article-title><x>. </x> <source><italic>World J Surg</italic></source><x> </x><year>2011</year><x>; </x><volume><bold>35</bold></volume><x>: </x><fpage>1,945</fpage><x>&#x2013;</x><lpage>1,949</lpage><x>.</x></mixed-citation></ref>
+<ref id="bib5"><label>5.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eisenburger</surname><x> </x><given-names>P</given-names></string-name><x>, </x><string-name><surname>Schreiber</surname><x> </x><given-names>W</given-names></string-name><x>, </x><string-name><surname>Vergeiner</surname><x> </x><given-names>G</given-names></string-name><x> </x><etal><italic>et al</italic></etal></person-group><x>. </x><article-title>Lunar phases are not related to the occurrence of acute myocardial infarction and sudden cardiac death</article-title><x>. </x><source><italic>Resuscitation</italic></source><x> </x><year>2003</year><x>; </x><volume><bold>56</bold></volume><x>: </x><fpage>187</fpage><x>&#x2013;</x><lpage>189</lpage><x>.</x></mixed-citation></ref>
+<ref id="bib6"><label>6.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Arliss</surname><x> </x><given-names>JM</given-names></string-name><x>, </x><string-name><surname>Kaplan</surname><x> </x><given-names>EN</given-names></string-name><x>, </x><string-name><surname>Galvin</surname><x> </x><given-names>SL</given-names></string-name></person-group><x>. </x><article-title>The effect of the lunar cycle on frequency of births and birth complications</article-title><x>. </x><source><italic>Am J Obstet Gynecol</italic></source><x> </x><year>2005</year><x>; </x><volume><bold>192</bold></volume><x>: </x><fpage>1,462</fpage><x>&#x2013;</x><lpage>1,464</lpage><x>.</x></mixed-citation></ref>
+<ref id="bib7"><label>7.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Suresh</surname><x> </x><given-names>K</given-names></string-name></person-group><x>. </x><article-title>An overview of randomization techniques: an unbiased assessment of outcome in clinical research</article-title><x>. </x><source><italic>J Hum Reprod Sci</italic></source><x> </x><year>2011</year><x>; </x><volume><bold>4</bold></volume><x>: </x><fpage>8</fpage><x>&#x2013;</x><lpage>11</lpage><x>.</x></mixed-citation></ref>
+<ref id="bib8"><label>8.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Briggs</surname><x> </x><given-names>TW</given-names></string-name></person-group><x>. </x><chapter-title>Getting It Right First Time</chapter-title><x>. </x><publisher-loc>Stanmore</publisher-loc><x>: </x><publisher-name>TWR Briggs</publisher-name><x>; </x><year>2012</year><x>.</x></mixed-citation></ref>
+<ref id="bib9"><label>9.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bald</surname><x> </x><given-names>RC</given-names></string-name></person-group><x>. </x><article-title>Macbeth and the &#x2018;short&#x2019; plays</article-title><x>. </x><source><italic>Rev Engl Stud</italic></source><x> </x><year>1928</year><x>; </x><volume><bold>os-IV</bold></volume><x>(</x><issue>16</issue><x>): </x><fpage>429</fpage><x>&#x2013;</x><lpage>431</lpage><x>.</x></mixed-citation></ref>
+</ref-list>
+</back>
+</article>

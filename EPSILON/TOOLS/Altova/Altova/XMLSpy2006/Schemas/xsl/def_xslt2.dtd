@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   This DTD has been developed in order to provide entry helpers for XSLT documents 
+   conformant to the W3C XSLT 1.0 Recommendation.
+   
+   © Altova GmbH, 1999-2004. 
+-->
+
+<!ENTITY % xhtml-dtd PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                   "xhtml1-transitional.dtd">
+%xhtml-dtd; 
+
+<!ENTITY % xsl "xsl">
+<!ENTITY % xsl_prefix "%xsl;:">
+<!ENTITY % analyze-string "%xsl_prefix;analyze-string">
+<!ENTITY % apply-imports "%xsl_prefix;apply-imports">
+<!ENTITY % apply-templates "%xsl_prefix;apply-templates">
+<!ENTITY % attribute "%xsl_prefix;attribute">
+<!ENTITY % attribute-set "%xsl_prefix;attribute-set">
+<!ENTITY % call-template "%xsl_prefix;call-template">
+<!ENTITY % character-map "%xsl_prefix;character-map">
+<!ENTITY % choose "%xsl_prefix;choose">
+<!ENTITY % comment "%xsl_prefix;comment">
+<!ENTITY % copy "%xsl_prefix;copy">
+<!ENTITY % copy-of "%xsl_prefix;copy-of">
+<!ENTITY % decimal-format "%xsl_prefix;decimal-format">
+<!ENTITY % document "%xsl_prefix;document">
+<!ENTITY % element "%xsl_prefix;element">
+<!ENTITY % fallback "%xsl_prefix;fallback">
+<!ENTITY % for-each "%xsl_prefix;for-each">
+<!ENTITY % for-each-group "%xsl_prefix;for-each-group">
+<!ENTITY % function "%xsl_prefix;function">
+<!ENTITY % if "%xsl_prefix;if">
+<!ENTITY % import "%xsl_prefix;import">
+<!ENTITY % import-schema "%xsl_prefix;import-schema">
+<!ENTITY % include "%xsl_prefix;include">
+<!ENTITY % key "%xsl_prefix;key">
+<!ENTITY % matching-substring "%xsl_prefix;matching-substring">
+<!ENTITY % message "%xsl_prefix;message">
+<!ENTITY % namespace "%xsl_prefix;namespace">
+<!ENTITY % namespace-alias "%xsl_prefix;namespace-alias">
+<!ENTITY % next-match "%xsl_prefix;next-match">
+<!ENTITY % non-matching-substring "%xsl_prefix;non-matching-substring">
+<!ENTITY % number "%xsl_prefix;number">
+<!ENTITY % otherwise "%xsl_prefix;otherwise">
+<!ENTITY % output "%xsl_prefix;output">
+<!ENTITY % output-character "%xsl_prefix;output-character">
+<!ENTITY % param "%xsl_prefix;param">
+<!ENTITY % perform-sort "%xsl_prefix;perform-sort">
+<!ENTITY % preserve-space "%xsl_prefix;preserve-space">
+<!ENTITY % processing-instruction "%xsl_prefix;processing-instruction">
+<!ENTITY % result-document "%xsl_prefix;result-document">
+<!ENTITY % sequence "%xsl_prefix;sequence">
+<!ENTITY % sort "%xsl_prefix;sort">
+<!ENTITY % strip-space "%xsl_prefix;strip-space">
+<!ENTITY % stylesheet "%xsl_prefix;stylesheet">
+<!ENTITY % template "%xsl_prefix;template">
+<!ENTITY % text "%xsl_prefix;text">
+<!ENTITY % transform "%xsl_prefix;transform">
+<!ENTITY % value-of "%xsl_prefix;value-of">
+<!ENTITY % variable "%xsl_prefix;variable">
+<!ENTITY % when "%xsl_prefix;when">
+<!ENTITY % with-param "%xsl_prefix;with-param">
+<!ENTITY % standard-attributes-base
+	"extension-element-prefixes CDATA #IMPLIED
+	exclude-result-prefixes CDATA #IMPLIED
+	xpath-default-namespace CDATA #IMPLIED
+	use-when CDATA #IMPLIED">
+<!ENTITY % standard-attributes 
+	"%standard-attributes-base;
+	version NMTOKEN #IMPLIED
+	">
+<!ENTITY % standard-attributes-versionrequired 
+	"%standard-attributes-base;
+	version NMTOKEN #REQUIRED
+	">
+<!ENTITY % sequence-constructor 
+	"#PCDATA | %variable; | %sequence; | %next-match; | %element; | %copy; | %comment; | %perform-sort; | %result-document; | %choose; | %processing-instruction; | %analyze-string; | %text; | %fallback; | %value-of; | %number; | %apply-imports; | %copy-of; | %attribute; | %for-each; | %call-template; | %message; | %for-each-group; | %if; | %apply-templates; | %namespace; | %document;">
+<!ENTITY % declarations
+	"((%attribute-set; | %function; | %output; | %preserve-space; | %template; | %import-schema; | %namespace-alias; | %key; | %character-map; | %include; | %strip-space; | %decimal-format;) | %variable; | %param;)*">
+<!ELEMENT %analyze-string; ((%matching-substring;)?, (%non-matching-substring;)?, (%fallback;)*)>
+<!ATTLIST %analyze-string;
+	%standard-attributes;
+	select CDATA #REQUIRED
+	regex CDATA #REQUIRED
+	flags CDATA #IMPLIED
+>
+<!ELEMENT %apply-imports; ((%with-param;)*)>
+<!ATTLIST %apply-imports;
+	%standard-attributes;
+>
+<!ELEMENT %apply-templates; ((%sort; | %with-param;)*)>
+<!ATTLIST %apply-templates;
+	%standard-attributes;
+	select CDATA "child::node()"
+	mode CDATA #IMPLIED
+>
+<!ELEMENT %attribute; (%sequence-constructor;)*>
+<!ATTLIST %attribute;
+	%standard-attributes;
+	name CDATA #REQUIRED
+	namespace CDATA #IMPLIED
+	select CDATA #IMPLIED
+	separator CDATA #IMPLIED
+	type NMTOKEN #IMPLIED
+	validation (strict | lax | preserve | strip) #IMPLIED
+>
+<!ELEMENT %attribute-set; (%attribute;)*>
+<!ATTLIST %attribute-set;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	use-attribute-sets CDATA #IMPLIED
+>
+<!ELEMENT %call-template; ((%with-param;)*)>
+<!ATTLIST %call-template;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+>
+<!ELEMENT %character-map; ((%output-character;)*)>
+<!ATTLIST %character-map;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	use-character-maps CDATA #IMPLIED
+>
+<!ELEMENT %choose; ((%when;)+, (%otherwise;)?)>
+<!ATTLIST %choose;
+	%standard-attributes;
+>
+<!ELEMENT %comment; (%sequence-constructor;)*>
+<!ATTLIST %comment;
+	%standard-attributes;
+	select CDATA #IMPLIED
+>
+<!ELEMENT %copy; (%sequence-constructor;)*>
+<!ATTLIST %copy;
+	%standard-attributes;
+	copy-namespaces (yes | no) "yes"
+	inherit-namespaces (yes | no) "yes"
+	use-attribute-sets CDATA #IMPLIED
+	type NMTOKEN #IMPLIED
+	validation (strict | lax | preserve | strip) #IMPLIED
+>
+<!ELEMENT %copy-of; EMPTY>
+<!ATTLIST %copy-of;
+	%standard-attributes;
+	select CDATA #REQUIRED
+	copy-namespaces (yes | no) "yes"
+	type NMTOKEN #IMPLIED
+	validation (strict | lax | preserve | strip) #IMPLIED
+>
+<!ELEMENT %decimal-format; EMPTY>
+<!ATTLIST %decimal-format;
+	%standard-attributes;
+	name NMTOKEN #IMPLIED
+	decimal-separator CDATA "."
+	grouping-separator CDATA ","
+	infinity CDATA "Infinity"
+	minus-sign CDATA "-"
+	NaN CDATA "NaN"
+	percent CDATA "%"
+	per-mille CDATA "‰"
+	zero-digit CDATA "0"
+	digit CDATA "#"
+	pattern-separator CDATA ";"
+>
+<!ELEMENT %document; (%sequence-constructor;)*>
+<!ATTLIST %document;
+	%standard-attributes;
+	type NMTOKEN #IMPLIED
+	validation (strict | lax | preserve | strip) #IMPLIED
+>
+<!ELEMENT %element; (%sequence-constructor;)*>
+<!ATTLIST %element;
+	%standard-attributes;
+	name CDATA #REQUIRED
+	namespace CDATA #IMPLIED
+	inherit-namespaces (yes | no) "yes"
+	use-attribute-sets CDATA #IMPLIED
+	type NMTOKEN #IMPLIED
+	validation (strict | lax | preserve | strip) #IMPLIED
+>
+<!ELEMENT %fallback; (%sequence-constructor;)*>
+<!ATTLIST %fallback;
+	%standard-attributes;
+>
+<!ELEMENT %for-each; (%sequence-constructor; | %sort;)*>
+<!ATTLIST %for-each;
+	%standard-attributes;
+	select CDATA #REQUIRED
+>
+<!ELEMENT %for-each-group; (%sequence-constructor; | %sort;)*>
+<!ATTLIST %for-each-group;
+	%standard-attributes;
+	select CDATA #REQUIRED
+	group-by CDATA #IMPLIED
+	group-adjacent CDATA #IMPLIED
+	group-starting-with CDATA #IMPLIED
+	group-ending-with CDATA #IMPLIED
+	collation CDATA #IMPLIED
+>
+<!ELEMENT %function; (%sequence-constructor; | %param;)*>
+<!ATTLIST %function;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	override (yes | no) "yes"
+	as CDATA "item()*"
+>
+<!ELEMENT %if; (%sequence-constructor;)*>
+<!ATTLIST %if;
+	%standard-attributes;
+	test CDATA #REQUIRED
+>
+<!ELEMENT %import; EMPTY>
+<!ATTLIST %import;
+	%standard-attributes;
+	href CDATA #REQUIRED
+>
+<!ELEMENT %import-schema; (xs:schema)>
+<!ATTLIST %import-schema;
+	%standard-attributes;
+	namespace CDATA #IMPLIED
+	schema-location CDATA #IMPLIED
+>
+<!ELEMENT %include; EMPTY>
+<!ATTLIST %include;
+	%standard-attributes;
+	href CDATA #REQUIRED
+>
+<!ELEMENT %key; (%sequence-constructor;)*>
+<!ATTLIST %key;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	match CDATA #REQUIRED
+	use CDATA #IMPLIED
+	collation CDATA #IMPLIED
+>
+<!ELEMENT %matching-substring; (%sequence-constructor;)*>
+<!ATTLIST %matching-substring;
+	%standard-attributes;
+>
+<!ELEMENT %message; (%sequence-constructor;)*>
+<!ATTLIST %message;
+	%standard-attributes;
+	select CDATA #IMPLIED
+	terminate (yes | no) "no"
+>
+<!ELEMENT %namespace; (%sequence-constructor;)*>
+<!ATTLIST %namespace;
+	%standard-attributes;
+	name CDATA #REQUIRED
+	select CDATA #IMPLIED
+>
+<!ELEMENT %namespace-alias; EMPTY>
+<!ATTLIST %namespace-alias;
+	%standard-attributes;
+	stylesheet-prefix CDATA #REQUIRED
+	result-prefix CDATA #REQUIRED
+>
+<!ELEMENT %next-match; ((%with-param; | %fallback;)*)>
+<!ATTLIST %next-match;
+	%standard-attributes;
+>
+<!ELEMENT %non-matching-substring; (%sequence-constructor;)*>
+<!ATTLIST %non-matching-substring;
+	%standard-attributes;
+>
+<!ELEMENT %number; EMPTY>
+<!ATTLIST %number;
+	%standard-attributes;
+	value CDATA #IMPLIED
+	select CDATA #IMPLIED
+	level (single | multiple | any) "single"
+	count CDATA #IMPLIED
+	from CDATA #IMPLIED
+	format CDATA "1"
+	lang CDATA #IMPLIED
+	letter-value (alphabetic | traditional) #IMPLIED
+	ordinal CDATA #IMPLIED
+	grouping-separator CDATA #IMPLIED
+	grouping-size CDATA #IMPLIED
+>
+<!ELEMENT %otherwise; (%sequence-constructor;)*>
+<!ATTLIST %otherwise;
+	%standard-attributes;
+>
+<!ELEMENT %output; EMPTY>
+<!ATTLIST %output;
+	%standard-attributes;
+	name NMTOKEN #IMPLIED
+	method (xml | xhtml | html | text) #IMPLIED
+	byte-order-mark (yes | no) #IMPLIED
+	cdata-section-elements CDATA #IMPLIED
+	doctype-public CDATA #IMPLIED
+	doctype-system CDATA #IMPLIED
+	encoding CDATA #IMPLIED
+	escape-uri-attributes (yes | no) "yes"
+	include-content-type (yes | no) "yes"
+	indent (yes | no) #IMPLIED
+	media-type CDATA #IMPLIED
+	normalization-form (NFC | NFD | NKFC | NKFD | fully-normalized | none) "none"
+	omit-xml-declaration (yes | no) "no"
+	standalone (yes | no | omit) "omit"
+	undeclare-namespaces (yes | no) "no"
+	use-character-maps CDATA #IMPLIED
+>
+<!ELEMENT %output-character; EMPTY>
+<!ATTLIST %output-character;
+	%standard-attributes;
+	character CDATA #REQUIRED
+	string CDATA #REQUIRED
+>
+<!ELEMENT %param; (%sequence-constructor;)*>
+<!ATTLIST %param;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	select CDATA #IMPLIED
+	as CDATA #IMPLIED
+	required (yes | no) #IMPLIED
+	tunnel (yes | no) #IMPLIED
+>
+<!ELEMENT %perform-sort; (%sequence-constructor; | %sort;)*>
+<!ATTLIST %perform-sort;
+	%standard-attributes;
+	select CDATA #IMPLIED
+>
+<!ELEMENT %preserve-space; EMPTY>
+<!ATTLIST %preserve-space;
+	%standard-attributes;
+	elements CDATA #REQUIRED
+>
+<!ELEMENT %processing-instruction; (%sequence-constructor;)*>
+<!ATTLIST %processing-instruction;
+	%standard-attributes;
+	name CDATA #REQUIRED
+	select CDATA #IMPLIED
+>
+<!ELEMENT %result-document; (%sequence-constructor;)*>
+<!ATTLIST %result-document;
+	%standard-attributes;
+	format NMTOKEN #IMPLIED
+	href CDATA #IMPLIED
+	type NMTOKEN #IMPLIED
+	validation (strict | lax | preserve | strip) "strip"
+	method (xml | html | xhtml | text | NMTOKEN) #IMPLIED
+	byte-order-mark (yes | no) #IMPLIED
+	cdata-section-elements NMTOKENS #IMPLIED
+	doctype-public CDATA #IMPLIED
+	doctype-system CDATA #IMPLIED
+	encoding CDATA #IMPLIED
+	escape-uri-attributes (yes | no) "yes"
+	include-content-type (yes | no) "yes"
+	indent (yes | no) #IMPLIED
+	media-type CDATA #IMPLIED
+	normalization-form (NFC | NFD | NKFC | NKFD | fully-normalized | none)  "none"
+	omit-xml-declaration (yes | no) "no"
+	standalone (yes | no | omit) "omit"
+	undeclare-namespaces (yes | no) "no"
+	use-character-maps NMTOKENS #IMPLIED
+	output-version NMTOKENS #IMPLIED
+>
+<!ELEMENT %sequence; (%sequence-constructor;)*>
+<!ATTLIST %sequence;
+	%standard-attributes;
+	select CDATA #IMPLIED
+>
+<!ELEMENT %sort; (%sequence-constructor;)*>
+<!ATTLIST %sort;
+	%standard-attributes;
+	select CDATA #IMPLIED
+	lang CDATA #IMPLIED
+	data-type (text | number) "text"
+	order (ascending | descending) "ascending"
+	case-order (upper-first | lower-first) #IMPLIED
+	collation CDATA #IMPLIED
+	stable (yes | no) "yes"
+>
+<!ELEMENT %strip-space; EMPTY>
+<!ATTLIST %strip-space;
+	%standard-attributes;
+	elements CDATA #REQUIRED
+>
+<!ELEMENT %stylesheet; ((%import;)*, %declarations;)>
+<!ATTLIST %stylesheet;
+	%standard-attributes-versionrequired;
+	id ID #IMPLIED
+	default-validation (preserve | strip) "strip"
+	input-type-annotations (preserve | strip | unspecified) "unspecified"
+	xmlns:xsl CDATA #FIXED "http://www.w3.org/1999/XSL/Transform"
+>
+<!ELEMENT %template; (%sequence-constructor; | %param;)*>
+<!ATTLIST %template;
+	%standard-attributes;
+	match CDATA #IMPLIED
+	priority NMTOKEN #IMPLIED
+	mode CDATA #IMPLIED
+	name NMTOKEN #IMPLIED
+	as CDATA "item()*"
+>
+<!ELEMENT %text; EMPTY>
+<!ATTLIST %text;
+	%standard-attributes;
+	disable-output-escaping (yes | no) "no"
+>
+<!ELEMENT %transform; ((%import;)*, %declarations;)>
+<!ATTLIST %transform;
+	%standard-attributes-versionrequired;
+	id ID #IMPLIED
+	default-validation (preserve | strip) "strip"
+	input-type-annotations (preserve | strip | unspecified) "unspecified"
+	xmlns:xsl CDATA #FIXED "http://www.w3.org/1999/XSL/Transform"
+>
+<!ELEMENT %value-of; (%sequence-constructor;)*>
+<!ATTLIST %value-of;
+	%standard-attributes;
+	select CDATA #IMPLIED
+	separator CDATA #IMPLIED
+	disable-output-escaping (yes | no) "no"
+>
+<!ELEMENT %variable; (%sequence-constructor;)*>
+<!ATTLIST %variable;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	select CDATA #IMPLIED
+	as CDATA #IMPLIED
+>
+<!ELEMENT %when; (%sequence-constructor;)*>
+<!ATTLIST %when;
+	%standard-attributes;
+	test CDATA #REQUIRED
+>
+<!ELEMENT %with-param; (%sequence-constructor;)*>
+<!ATTLIST %with-param;
+	%standard-attributes;
+	name NMTOKEN #REQUIRED
+	select CDATA #IMPLIED
+	as CDATA #IMPLIED
+	tunnel (yes | no) #IMPLIED
+>

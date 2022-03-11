@@ -1,0 +1,119 @@
+# This file contains help text for Epsilon's various color classes.
+# Copyright 1994, 2001 Lugaru Software, Ltd.  All Rights Reserved.
+
+text		This color is used for normal text.
+highlight	This color is used for highlighted text.
+echo-area	This color is used for messages and prompts.
+mode-line	This is for the text part of a mode line.
+horiz-border	This color is for the line part of each mode line between tiled windows.
+vert-border	This color is for vertical lines between tiled windows.
+popup-title	This is for the title text of a pop-up window.
+popup-border	This is for the border around a pop-up window.
+after-exiting	Epsilon tries to leave the screen in this color when you exit.
+debug-text	The EEL debugger shows source in this color.
+debug-highlight	The EEL debugger shows the current line in this color.
+default		Newly-defined color classes use this color.
+overlap-even	Some dialogs with line-highlighting use this color for the region.
+overlap-odd	This color class is no longer used.
+screen-border	Use this color's background for the screen's border.
+screen-decoration	Draw column marker lines in this color.
+viewed-text	This color is for the text in non-GUI help and similar windows.
+viewed-gui-text	This color is for the text in GUI help and similar windows.
+dialog-gui-text	This color is for the text in certain GUI dialogs.
+viewed-border	This color is for the border around help windows and similar.
+menu		Epsilon uses this color for the text of pop-up menus.
+menu-highlight	The highlighted line in a pop-up menu is this color.
+menu-bar	The menu bar at the top of the screen is this color.
+menu-bar-highlight	The selected menu on the menu bar is this color.
+submenu		Drop-down menus below the menu bar are this color.
+submenu-highlight	A selected menu item is this color.
+c-comment	C, C++, or EEL comments are this color when code coloring.
+c-preprocessor	Preprocessor directives are this color.
+c-keyword	Keywords like "else" or "while" are this color.
+c-function	Functions (identifiers followed by a "(") are this color.
+c-identifier	Variables and other identifiers are this color.
+c-string	String literals are this color.
+c-charconst	Character constants are this color.
+c-number	Numeric constants are this color when code coloring.
+c-punctuation	Characters like "->" or ";" are this color.
+selected-link	This is the current help file link.
+viewed-link	This is a help file link to another topic.
+html-text	Normal text in web page source is this color.
+html-tag	Web page commands like <p> or <table> are this color.
+html-attribute	Tag parameters like the src= in <image src=...> are this color.
+html-value	The setting of a tag attribute like a file name or width is this color.
+html-comment	A comment in web page source is this color.
+html-entity	A special symbol or accented character like &copy;.
+html-namespace	A namespace in XML.
+html-punctuation	Whitespace and characters like = are in this color.
+dired-normal	The size, date, etc. in a directory listing is this color.
+dired-file-name	A file name in a directory listing is this color.
+dired-dir-name	A subdirectory name in a directory listing is this color.
+dired-header	The header at the top of a directory list is this color.
+dired-deleted	A file marked for deletion is indicated with this color.
+dired-moved	A file marked for moving is indicated with this color.
+dired-copied	A file marked for copying is indicated with this color.
+grep-header	The line separating one search from the next is in this color.
+grep-text	Text in the grep buffer is this color (unless it's syntax-highlighted).
+grep-match	Occurrences of the search string are in this color.
+grep-filename	Each file name in a grep listing is in this color.
+diff-added	Visual-diff marks lines added to the second buffer in this color.
+diff-removed	Visual-diff marks lines removed from the second buffer in this color.
+process-output	Output from the concurrent process appears in this color.
+process-input	Input sent to the concurrent process appears in this color.
+process-prompt	Prompts from the concurrent process appear in this color.
+show-matching-start	Auto-show-delimiter shows the (, [, or similar in this color.
+show-matching-end	Auto-show-delimiter shows the ), ], or similar in this color.
+tex-text	Plain text in TeX mode is this color.
+tex-comment	Comments in TeX mode are this color.
+tex-curly-brace	The { and } characters in TeX mode are this color.
+tex-square-bracket	The [ and ] characters in TeX mode are this color.
+tex-math	TeX's math mode uses this color for text between $ pairs.
+tex-display-math	TeX's math mode uses this color for text between $$ pairs.
+tex-literal	Special characters like $ or { "quoted" by a preceding \ use this color.
+tex-command	Most TeX commands are in this color.
+tex-begin-end	LaTeX's \begin and \end commands are in this color.
+tex-section	LaTeX's sectioning commands like \chapter are in this color.
+ident-completion	Auto-completed identifier names use this color.
+man-underlined	The Alt-x man command uses this color for underlined text.
+man-bold	The Alt-x man command uses this color for bold text.
+asm-keyword	Assembler file keywords are in this color.
+asm-register	The names of registers like EAX are in this color.
+asm-identifier	Names of subroutines and data are in this color.
+perl-comment	Perl comments are in this color.
+perl-string	Perl strings of all sorts are in this color.
+perl-keyword	Perl keywords like foreach are in this color.
+perl-function	Most Perl function names are in this color.
+perl-variable	Most Perl variable names are in this color.
+perl-constant	Here documents, label and package names, and the like are in this color.
+makefile-comment	Comments in a makefile use this color.
+makefile-preproc	Preprocessor lines in makefile use this color.
+makefile-macro	Macros being defined get this color.
+makefile-target	A target in a makefile gets this color.
+inifile-comment	A comment in a .ini file gets this color.
+inifile-section	A section marker in []'s gets this color.
+inifile-definition	An .ini file item name gets this color.
+conf-attribute	In a configuration file definition, the part before the =.
+conf-comment	A comment in a generic configuration file.
+conf-value	In a configuration file definition, the part after the =.
+gams-comment	A comment in the GAMS language.
+gams-control	A control statement like $TITLE in the GAMS language.
+gams-keyword	A keyword like SCALAR in the GAMS language.
+gams-string	A quoted string in GAMS.
+gams-variable	A variable name (a non-keyword) in GAMS.
+postscript-comment	A comment in a PostScript file.
+postscript-literal	A literal value like /Fontname in PostScript.
+postscript-text	Some quoted text in a PostScript file.
+vbasic-comment	A comment in Visual Basic.
+vbasic-string	A string in Visual Basic.
+vbasic-keyword	A keyword in Visual Basic.
+vbasic-function	A function call in Visual Basic.
+vbasic-identifier	An identifier in Visual Basic.
+python-comment	A comment in Python.
+python-string	A string in Python.
+python-keyword	A keyword in Python.
+python-identifier	An identifier in Python.
+hex-address	An address in hex mode.
+hex-ascii	The column with ascii characters in hex mode.
+hex-change	A modified value in hex mode.
+pull-highlight	The pull-word command's highlighted text.

@@ -1,0 +1,3 @@
+This file will list known errors in the printed form of the Epsilon 11
+manual, as they are discovered.  All known errors have already been
+corrected in the online documentation.

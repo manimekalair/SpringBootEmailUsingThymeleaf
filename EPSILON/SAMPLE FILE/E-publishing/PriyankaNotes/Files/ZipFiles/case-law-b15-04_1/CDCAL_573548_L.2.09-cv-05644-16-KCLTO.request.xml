@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><ital><bold>PROFESSOR BRAINSTORM, LLC</bold></ital></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><ital><bold>ARONOWITZ</bold></ital></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-05644 RGK (SSx)</docket.line>
+<docket.number>CV 09-05644 RGK (SSx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-05644-DMG-SS</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/08/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Sharon L. Williams, Deputy Clerk Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Reported, Court Reporter / Recorder, Attorneys Present for Defendants: Not Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings: (IN CHAMBERS)</bold> Order Re Defendants' Motion to Dismiss (DE 12)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable R. GARY KLAUSNER, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. <underscore>FACTUAL BACKGROUND</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On June 10, 2009, Professor Brainstorm, LLC, (&#x201C;Plaintiff&#x201D;) filed an action against Greg Aronowitz (&#x201C;Defendant&#x201D;) in Los Angeles Superior Court. Defendant removed this case to federal court on July 31, 2009.</paratext></para>
+<para><paratext ID="p2" level="1">In May of 2007, Plaintiff hired Defendant as a graphic design consultant on a long-term project. Defendant worked on the project from May 2007 to January 9, 2009. During that time Plaintiff and Defendant entered into several different contracts. The contract at issue in this case is the Independent Contractor Agreement, signed on December 12, 2008 (&#x201C;Agreement&#x201D;). Under the Agreement, Defendant agreed to provide, among other things, services as an artist and graphic designer. The Agreement also required Defendant to produce a number of specific products by January 5, 2009.</paratext></para>
+<para><paratext ID="p3" level="1">Plaintiff alleges that Defendant failed to complete the original project for which Plaintiff hired him, and to produce several of the products he agreed to produce under the Agreement. Plaintiff terminated the Agreement on January 9, 2009.</paratext></para>
+<para><paratext ID="p4" level="1">Plaintiff also alleges that, in connection with Defendant's employment, Plaintiff purchased computer equipment for Defendant's work related use. According to Plaintiff, Defendant has failed to return this equipment. Finally, Plaintiff alleges that Defendant made disparaging remarks regarding Plaintiff's product, which resulted in damage to Plaintiff's reputation and a potential loss of customers.</paratext></para>
+<para><paratext ID="p5" level="1">On August 28, 2009, Plaintiff filed its First Amended Complaint (&#x201C;FAC&#x201D;), alleging: (1) Breach of Contract; (2) Conversion; (3) Commercial Disparagement; and (4) Unjust Enrichment.</paratext></para>
+<para><paratext ID="p6" level="1">Presently before the Court is Defendant's Motion to Dismiss Plaintiff's FAC pursuant to Federal Rule of Civil Procedure 12(b)(6). The Court <bold>GRANTS in part</bold> and <bold>DENIES in part</bold> Defendant's Motion.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. <underscore>JUDICIAL STANDARD</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">A party may move to dismiss for failure to state a claim upon which relief can be granted under Federal Rule of Civil Procedure 12(b)(6). Fed. R. Civ. P. 12(b)(6). In deciding a Rule 12(b)(6) motion, the Court must assume that the plaintiff's allegations are true and construe the complaint in the light most favorable to the non-moving party. <ital>Cahill v. Liberty Mut. Ins. Co.</ital>, 80 F.3d 336, 337-338 (9th Cir. 1996). Dismissal is appropriate only where the complaint lacks a cognizable theory or sufficient facts to support a cognizable legal theory. <ital>Mendiondo v. Centinela Hosp. Med. Ctr.</ital>, 521 F.3d 1097, 1104 (9th Cir. 2008). &#x201C;While a complaint attacked by a Rule 12(b)(6) motion to dismiss does not need detailed factual allegations, a plaintiff's obligation to provide the &#x2018;grounds&#x2019; of his &#x2018;entitlement to relief&#x2019; requires more than labels and conclusions, and a formulaic recitation of the elements of a cause of action will not do.&#x201D; <ital>Bell Atlantic Corp. v. Twombly</ital>, 550 U.S. 544, 555 (2007) (quoting <ital>Papasan v. Allain</ital>, 478 U.S. 265, 286 (1986)). Moreover, the court need not accept as true unreasonable inferences, unwarranted deductions of fact, or conclusory legal allegations cast in the form of factual allegations. <ital>W. Mining Council v. Watt</ital>, 643 F.2d 618, 624 (9th Cir. 1981).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. <underscore>DISCUSSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Defendant seeks dismissal of all four claims alleged in Plaintiff's FAC.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. <underscore>Breach of Contract</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Defendant argues that the Court should dismiss Plaintiff's breach of contract claim for failure to allege a breach with sufficient specificity. The Court disagrees. Under California law there is no heightened pleading requirement for a breach of contract claim. <ital>See Gautier v. General Telephone Co.</ital>, 234 Cal. App. 2d 302, 305 (&#x201C;[t]o state a cause of action for breach of contract, it is required that there be a pleading of the contract, plaintiff's performance (or excuse for nonperformance), defendant's breach, and damage to plaintiff therefrom.&#x201D;)</paratext></para>
+<para><paratext ID="p10" level="1">The elements of a breach of contract cause of action are as follows: (1) the existence of a valid contract; (2) the plaintiff's performance, or excuse for nonperformance, of the contract; (3) the defendant's breach of the contract; and (4) the resulting damage to the plaintiff. <ital>Careau &#38; Co. v. Sec. Pac. Bus. Credit, Inc.</ital>, 222 Cal. App. 3d 1371, 1388 (1990).</paratext></para>
+<para><paratext ID="p11" level="1">Plaintiff alleges that it had an independent contractor agreement with Defendant. Plaintiff also alleges that it completed performance under the Agreement by paying Defendant in exchange for his promise to provide certain services and products. (Compl. &#182; 58). Plaintiff claims that under the Agreement, Defendant committed to, among other things, provide Plaintiff with certain products by January 5, 2009, and that Defendant breached the Agreement by failing to provide these items by such date. (Compl. <ital>&#182;</ital> 36). Finally, Plaintiff alleges that Defendant's breach cause Plaintiff to suffer damages in excess of $10,000. Therefore, Plaintiff alleges all the elements of a breach of contract claim in its FAC.</paratext></para>
+<para><paratext ID="p12" level="1">Defendant argues that his alleged failure to perform is excused because Plaintiff terminated the Agreement, thereby making it impossible for Defendant to complete performance under the Agreement. The Court finds Defendant's argument unavailing. In deciding a motion to dismiss, the Court must assume that the plaintiff's allegations are true and construe the complaint in the light most favorable to the non-moving party. <ital>Cahill</ital>, 80 F.3d 337-338. In its FAC, Plaintiff alleges that it terminated the contract only after Defendant had breached the contract. (Compl. &#182; 38). Taken as true, Plaintiff allegations establish a legally plausible claim for a breach of contract. Therefore, the Court <bold>DENIES</bold> Defendant's Motion to Dismiss Plaintiff's breach of contract claim.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. <underscore>Conversion</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Defendant argues that the Court should dismiss Plaintiff's conversion claim because Plaintiff fails to allege that Defendant's actions were intended to affect Plaintiff's property interest. The Court disagrees. The elements of a conversion cause of action are as follows: (1) the plaintiff's ownership or right to possession of the property; (2) the defendant's conversion of that property by a wrongful act or disposition of property rights; and (3) resulting damages to the plaintiff. <ital>Burlesci v. Petersen</ital>, 68 Cal. App. 4<super style="percent_r">th</super> 1062, 1066 (1998).</paratext></para>
+<para><paratext ID="p14" level="1">Plaintiff alleges that it purchased several computers and computer-related equipment for Defendant's use in connection with his employment. (Compl. &#182; 20.) Plaintiff further alleges that it is the owner of and has a right of possession in such computer equipment. (Compl. &#182; 48.). Additionally, Plaintiff claims that Defendant interfered with Plaintiff's ownership rights of that equipment by taking the computer equipment, and refusing to return it, despite Plaintiff's repeated requests. (Compl. &#182;&#182; 29-31.) These allegations are sufficient to give rise to a Conversion claim.</paratext></para>
+<para><paratext ID="p15" level="1">Defendant also argues that Plaintiff's conversion claim fails because Plaintiff does not show that Defendant's conduct that gave rise to the alleged conversion was wrongful. In California, a person is privileged to intentionally invade another's interest or personality &#x201C;when the actor reasonably believes that such other person intends to cause a confinement or a harmful or offensive contact to the actor.&#x201D; <ital>Church of Scientology v. Armstrong</ital>, 232 Cal. App. 3d 1060 (1991). Defendant argues that maintaining possession of the computer equipment was necessary to protect his interests because the computer contains evidence relevant to the current contractual dispute. However, based on the allegations, it does not appear that Defendant was attempting to protect against &#x201C;confinement or a harmful or offensive contact.&#x201D; <ital>See Id.</ital> Therefore, Defendant's acts were not privileged under the rule above. For the foregoing reasons, the Court <bold>DENIES</bold> Defendant's Motion to Dismiss Plaintiff's Conversion claim.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>C. <underscore>Commercial Disparagement</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">California courts have defined commercial disparagement, or trade libel, as &#x201C;an intentional disparagement of the quality of property, which results in pecuniary damage to plaintiff.&#x201D; <ital>Erlich v. Etner</ital>, 224 Cal. App. 2d 69, 75 (quoting Restatement (First) of Torts &#167;&#167; 626 and 627.) To maintain a cause of action for commercial disparagement a plaintiff must show that he suffered specific damages. <ital>Id.</ital> at 73. Alleging a general decline in the plaintiff's business is insufficient to support a commercial disparagement claim. <ital>Id.</ital></paratext></para>
+<para><paratext ID="p17" level="1">Here, Plaintiff alleges only that Defendant's purportedly disparaging statements caused Plaintiff a potential loss of customers. Plaintiff does not allege any specific damages, but rather, it alleges only potential damages, which may or may not occur. To survive a motion to dismiss a plaintiff must provide the grounds of his entitlement to relief. &#x201C;A formulaic recitation of the elements of a cause of action will not do.&#x201D; <ital>Twombly</ital>, 550 U.S. at 555 (quoting <ital>Papasan</ital>, 478 U.S. at 286). Plaintiff merely states that it suffered damages without alleging any facts to support this assertion. Therefore, Plaintiff fails to state a valid commercial disparagement claim. Moreover, the inherent nature of Plaintiff's alleged damages is too speculative for Plaintiff to cure this defect. Thus, the Court <bold>GRANTS</bold> Defendant's Motion to Dismiss Plaintiff's Commercial Disparagement claim.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>D. <underscore>Unjust Enrichment</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">Defendant argues that Plaintiff is not entitled to equitable relief under the doctrine of unjust enrichment because the rights and obligations of the parties in this case are governed by contract. Defendant cites two cases in support of his proposition that an action in quasi contract is not available where an enforceable contract governs the subject matter giving rise to the quasi contract claim. <ital>See Paracor Finance, Inc. v. General Elec. Capital Corp.</ital>, 96 F.3d 1151, 1167 (9th Cir. 1996) (&#x201C;unjust enrichment is an action in quasi-contract, which does not lie when an enforceable, binding, agreement exists defining the rights of the parties.&#x201D;); <ital>Berkla v. Corel Corp.</ital>, 302 F.3d 909, 918 (9th Cir. 2002) (&#x201C;There cannot be a valid, express contract and an implied contract, each embracing the same subject matter, existing at the same time&#x201D;) (quoting <ital>Wal-Noon Corp. v. Hill</ital>, 45 Cal. App. 3d 605, 605 (1975)). However, unlike the cases above, this case is at the pleading stage. At this stage, the Court has yet to determine what remedies are available. It would be improper to exclude the quasi contract claim on the basis that it cannot co-exist alongside a contract remedy because the Court has yet to determine whether a contract remedy is available to Plaintiff. Therefore, the Court <bold>DENIES</bold> Defendant's Motion to Dismiss Plaintiff's unjust enrichment claim.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. <underscore>CONCLUSION</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">The Court <bold>GRANTS in part</bold> and <bold>DENIES in part</bold> Defendant's Motion to Dismiss. Specifically, the Court <bold>GRANTS</bold> Defendant's Motion to Dismiss Plaintiff's commercial disparagement claim. The Court <bold>DENIES</bold> Defendant's Motion to Dismiss Plaintiff's conversion claim, breach of contract claim, and unjust enrichment claim.</paratext></para>
+<para><paratext ID="p20" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p21" level="1">Initials of Preparer <underscore>slw</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

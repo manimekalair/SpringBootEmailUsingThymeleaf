@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+<venue.name><bold>WHEELING</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>BRANCH BANKING AND TRUST COMPANY</bold>, a North Carolina banking corporation, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>BARBARA K REALTY, LLC</bold>, a West Virginia limited liability company, and <bold>BARBARA TWEEDLIE</bold>, formerly known as <bold>BARBARA KUREISHY</bold>, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Civil Action No. 5:12-CV-176 (BAILEY)</bold></docket.line>
+<docket.number><bold>5:12-CV-176 (BAILEY)</bold></docket.number>
+<docket.line suppress-flag="y">5:12-cv-00176-JPB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 05/28/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER DENYING DEFENDANTS' MOTION TO QUASH AFFIDAVIT</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JOHN PRESTON BAILEY CHIEF UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Presently pending before this Court is defendants Barbara K Realty, LLC and Barbara Tweedlie f/k/a Barbara Kureishy's Motion to Quash Affidavit of Ann. K. Pardue <bold>[Doc. 33]</bold>, filed April 25, 2014. For the reasons set forth below, defendants' Motion is <bold>DENIED.</bold></paratext></para>
+<para><paratext ID="p2" level="1">In its Order Granting Plaintiff's Motion for Summary Judgment [Doc. 31] dated March 18, 2014, this Court granted summary judgment in favor of plaintiff and ordered plaintiff to submit an affidavit attesting to all sums associated with Notes 1 and 2 presently due and owing, including principal, interest, fees, and costs. Plaintiff thereafter submitted the Affidavit of Ann K. Pardue [Doc. 32], Assistant Vice President and Business Loan Recovery Officer of the Special Assets Division for BB&#38;T. <ital>Id.</ital> at &#182; 1. The Affidavit sets forth the unpaid principal and interest amounts due on both Notes as of March 18, 2014, <ital>see id.</ital> at &#182;&#182; 2&#8211;3, and the attorneys' fees and legal costs accrued as of March 31, 2014, <ital>see id.</ital> at &#182; 4.</paratext></para>
+<para><paratext ID="p3" level="1">In their brief Motion, defendants allege that the affidavit should be invalidated because it &#x201C;merely list[s] the amounts due without any backing information substantiating the claim[,] <charfill numchar="3">&#8228;</charfill> and attempts to over inflate&#x201D; the amounts owed. Specifically, defendants find fault with (1) plaintiff's &#x201C;fail[ure] to provide information regarding how much monies were received&#x201D; from the foreclosure sale on the property securing defendants' loans; (2) plaintiff's &#x201C;fail[ure] to provide an itemized list <charfill numchar="3">&#8228;</charfill> of the amounts due as well as how <charfill numchar="3">&#8228;</charfill> the interest accrue[d]&#x201D; on the subject loans; and (3) the &#x201C;incredible&#x201D; amount plaintiff avers is owed in attorneys' fees.</paratext></para>
+<para><paratext ID="p4" level="1">Defendants' argument, which they fail to substantiate with any evidence, is meritless. First, defendants' assertion that plaintiff failed to specify the amount of money received from the foreclosure sale is factually incorrect, as defendants provided the specific dollar figure in their Complaint. <ital>See</ital> [Doc. 1 at &#182;&#182; 15&#8211;16] (noting that the property at issue was sold at foreclosure for $61,750, that the net amount credited against the Note 1 balance was $61,428.74 after deductions for costs of sale, and that after applying the credit to defendants' account, the amount due as of August 31, 2010 was $134,442.59). Additionally, the Successor Trustee Deed [Doc. 34-1] and the Successor Trustees' Report of Sale [Doc. 34-2], both filed and recorded with the Office of the Clerk of the County Commission of Ohio County, West Virginia and attached to plaintiff's Response, confirm the accuracy of plaintiff's figures concerning the foreclosure sale. <ital>See</ital> [Doc. 34-1 at 2]; [Doc. 34-2 at 3].</paratext></para>
+<para><paratext ID="p5" level="1">Second, with respect to the principal and interest amounts due on the Notes, defendants provide no information suggesting that plaintiff has improperly calculated those amounts other than defendants' own bare assertion. Information regarding the principal amounts and rates of interest applicable to Notes 1 and 2 has been available to defendants since defendants applied for the commercial loans at issue and executed the promissory notes evidencing same. <ital>See</ital> [Doc. 31 at 1&#8211;3] (describing the principal balance, interest rates, and payment schedule applicable to both Notes); [Doc. 1-1 at 1&#8211;2] (Note 1); [Doc. 1-5 at 1&#8211;2] (Note 2). Moreover, defendants did not contest plaintiff's calculation of the sums due as of August 31, 2012 in connection with plaintiff's Motion for Summary Judgment, <ital>see</ital> [Doc. 27] (defendants' Response); [Doc. 31 at 4], and defendants failed to request further information regarding the sums due in discovery, <ital>see</ital> [Doc. 34 at 4].</paratext></para>
+<para><paratext ID="p6" level="1">Finally, plaintiff has provided information which adequately substantiates its claimed attorney's fees, including a breakdown of dollar amounts incurred over specified periods of time since October 2010, lists of matters completed during those specified periods of time, and the names, positions, and hourly billing rates of attorneys and paralegals who rendered legal services in connection with this case. <ital>See generally</ital> [Doc. 34 at 6&#8211;8]. As plaintiff points out, defendants' contention regarding the attorneys' fees references only this civil action, apparently without accounting for the additional work performed in connection with investigating defendants' default, organizing and attending the foreclosure sale, drafting and recording documents of transfer, and performing other services related to preparation for foreclosure on and ultimate disposition of the property which secured Notes 1 and 2. <ital>Id.</ital> This Court finds that the attorneys' fees incurred by defendant were reasonable in light of the nature of the work, the skill required to perform it, the time and labor expended by counsel, comparable fees in the area, and the amount of money involved and results obtained in this matter. <ital>See <bold>Aetna Cas. &#38; Sur. Co. v. Pitrolo</bold></ital>, 176 W.Va. 190, 191&#8211;92, 342 S.E.2d 156, 157 (1986).</paratext></para>
+<para><paratext ID="p7" level="1">Defendants' assertions that plaintiff has attempted to inflate the sums owed are unfounded. Consequently, defendant's Motion to Quash the Affidavit of Ann K. Pardue <bold>[Doc. 33]</bold> is hereby <bold>DENIED</bold>.</paratext></para>
+<para><paratext ID="p8" level="1">It is so <bold>ORDERED</bold>.</paratext></para>
+<para><paratext ID="p9" level="1">The Clerk is directed to transmit a copy of this Order to counsel of record herein.</paratext></para>
+<para><paratext ID="p10" level="1"><bold>DATED:</bold> May 28, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>Albert Maldonado</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>Systems Services of America, Inc., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 09-542 JVS (RNBx)</docket.line>
+<docket.number>SACV 09-542 JVS (RNBx)</docket.number>
+<docket.line suppress-flag="y">8:09-cv-00542-JVS-RNB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/18/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Karla J. Tunis, Deputy Clerk, Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter, Attorneys Present for Defendants: Not Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>Proceedings:</bold> (In Chambers) Order Granting Defendant's Motion to Compel Arbitration and Stay Proceedings</headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The James V. Selna</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Defendant Systems Services of America, Inc. (&#x201C;SSA&#x201D;) petitions the Court to compel arbitration pursuant to California Code of Civil Procedure &#167;1281 et seq. and to stay this action pending the outcome of arbitration. Plaintiff Albert Maldonado (&#x201C;Maldonado&#x201D;) does not oppose this motion. As set forth below, the motion is granted.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">I. <underscore>BACKGROUND</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">On April 1, 2009, Maldonado filed an action in the Superior Court of California, County of Orange against SSA.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> (Mot. p. 7.) On May 6, 2009, SSA filed a Notice of Removal of that action with this Court. (Docket No. 1.)</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;In his Complaint, Maldonado alleges Wrongful Termination in Violation of Public Policy, Disability Discrimination in Violation of FEHA and Failure to Accommodate/Failure to Engage in the Interactive Process. (Docket No. 1, Ex. A, &#182;&#182; 13-37.)</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p4" level="1">In the Complaint, Maldonado alleges that on May 26, 2004, he was injured on the job while employed by SSA and further alleges he was wrongfully terminated on April 25, 2008. (Docket No. 1, Ex. A, &#182; 9, 11.) McCabe's changed its name to Systems Services of America, Inc. in September of 2006. (Toneck Decl. &#182; 3.)</paratext></para>
+<para><paratext ID="p5" level="1">SSA asserts that on November 17, 2002, while employed by McCabe's as a truck driver, Maldonado signed a &#x201C;Mutual Agreement for Arbitration of Disputes&#x201D; (the &#x201C;Arbitration Agreement&#x201D;). (Villegas Decl. &#182; 3.) SSA also contends that Maldonado agreed that any dispute between he and SSA arising from or related to his employment relationship with SSA will be submitted to binding arbitration under the Code of Procedure of the National Arbitration Forum. (<underscore>See id.</underscore>, Ex. 2 pp. 1-2.) SSA now moves the Court to compel arbitration. (Mot. p. 7.)</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">II. <underscore>LEGAL STANDARD</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">The Federal Arbitration Act (&#x201C;FAA&#x201D;) provides in relevant part that &#x201C;[a] party aggrieved by the alleged failure, neglect, or refusal of another to arbitrate under a written agreement for arbitration may petition&#x201D; the court &#x201C;for an order directing that such arbitration proceed in the manner provided for in such agreement.&#x201D; 9 U.S.C. &#167; 4 (West 2009). After hearing such a petition, &#x201C;and upon being satisfied that the making of the agreement for arbitration or the failure to comply therewith is not in issue,&#x201D; the court shall order the parties to arbitration. <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p7" level="1">Section 1of the FAA provides an exemption: &#x201C;nothing herein contained shall apply to contracts of employment of seamen, railroad employees, or any other class of workers engaged in foreign or interstate commerce.&#x201D; 9 U.S.C. &#167; 1. The Supreme Court has interpreted the exemption in section 1 as applying only to employment contracts of transportation workers. <underscore>See Circuit City Stores, Inc. v. Adams</underscore>, 532 U.S. 105, 119 (2001); <underscore>Lucas v. Gund, Inc.</underscore>, 450 F. Supp.2d 1125, 1129 (C.D.Cal. 2006).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">III. <underscore>DISCUSSION</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">First, the Court deems plaintiff's failure to oppose the motion as consent to granting the motion. L.R. 7-12. Second, the Court grants the motion on the merits.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">1. <ital>Governing Law</ital></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Since SSA has presented evidence that Maldonado was employed by SSA as a truck driver transporting goods, the Court finds that the FAA exemption applies. (Villegas Decl. &#182; 3.)</paratext></para>
+<para><paratext ID="p10" level="1">Where arbitration disputes do not fall under the FAA, state law may be applied. <underscore>See Palcko v. Airborne Express, Inc.</underscore>, 372 F.3d 588, 596 (3rd Cir. 2004); <underscore>see also Volt Info. Sci., Inc. v. Board of Trustees of Leland Stanford Junior Univ.</underscore>, 489 U.S. 468, 470, 477-78 (1989) (finding that the FAA does not contain an express pre-emptive provision, does not reflect a congressional intent to occupy the entire field of arbitration, and the application of a California statute to stay arbitration under a construction contract did not undermine the goals and policies of the FAA). Moreover, California law related to arbitrations may be enforced where the FAA does not apply. <underscore>See Ruiz v. Sysco Food Servs.</underscore>, 122 Cal.App.4th 520, 537-38 (Cal.App.4.Dist. 2004); <underscore>Lagatree v. Luce, Forward, Hamilton &#38; Scripps</underscore>, 74 Cal.App.4th 1105, 1121 (Cal.App.4.Dist. 1999).</paratext></para>
+<para><paratext ID="p11" level="1">California Civil Procedure Code &#167; 1281 (2009) provides &#x201C;A written agreement to submit to arbitration an existing controversy or a controversy thereafter arising is valid, enforceable and irrevocable, save upon such grounds as exist for the revocation of any contract.&#x201D; California law, like federal law, favors enforcement of valid arbitration agreements. <underscore>Discover Bank v. Super. Ct.</underscore>, 36 Cal.4th 148, 163 (2005); <underscore>Armendariz v. Foundation Health Psychcare Services</underscore>, 24 Cal.4th 83, 98-99 (2000).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">2. <ital>Enforceability</ital></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">An arbitration agreement may be enforceable when it (1) provides for neutral arbitrators, (2) provides for more than minimal discovery, (3) requires a written award, (4) provides for all of the types of relief that would otherwise be available in court, and (5) does not require employees to pay either unreasonable costs or any arbitrators' fees or expenses as a condition of access to the arbitration forum. <underscore>See Cole v. Burns Intern. Sec. Services</underscore>, 105 F.3d 1465, 1482 (D.C. Cir. 1997); <underscore>Armendariz v. Found. Health Psychcare Services</underscore>, 24 Cal.4th 83, 102 (2000).</paratext></para>
+<para><paratext ID="p13" level="1">First, since the Arbitration Agreement provides for a mechanism of selecting a neutral arbitrator, the Court finds that the first prong is satisfied (Mot., Ex. 2, p. 2.)</paratext></para>
+<para><paratext ID="p14" level="1">Second, the Arbitration Agreement provides that in the event that the NAF Code of Procedure does not provide for more than minimal discovery, each party shall &#x201C;be entitled to sufficient discovery to adequately arbitrate the California statuary claim.&#x201D;(<underscore>Id.</underscore> at 1.) Moreover, the scope of the discovery &#x201C;shall include, but not be limited to, the right for each party to take one deposition and the deposition of any expert witness designated by another party&#x201D; and each party &#x201C;shall have the right to make requests for the production of documents to any party and to subpoena documents from third parties.&#x201D; (<underscore>Id.</underscore>) Accordingly, the second prong is satisfied.</paratext></para>
+<para><paratext ID="p15" level="1">Third, since the Arbitration Agreement provides that &#x201C;in deciding a California statutory claim, the arbitrator must, regardless of the NAF Code of Procedure, issue a written arbitration decision that will reveal, however briefly, the essential findings and conclusions of law on which the award is based,&#x201D; the third prong is satisfied. (<underscore>Id.</underscore> at 2.)</paratext></para>
+<para><paratext ID="p16" level="1">Fourth, because the Arbitration Agreement provides that Maldnado &#x201C;may seek in arbitration any remedy or award that would be available to [him] through civil litigation and the arbitrator has authority to grant any such remedy or award,&#x201D; the fourth prong is satisfied. (<underscore>Id.</underscore> at 1.)</paratext></para>
+<para><paratext ID="p17" level="1">Fifth, since the Arbitration Agreement provides that the fees for the National Arbitration Forum and the arbitrator will be paid by SSA &#x201C;regardless of what may be provided in the NAF Code of Procedure then in effect,&#x201D; the fifth prong is satisfied. (<underscore>See id.</underscore> at 2.)</paratext></para>
+<para><paratext ID="p18" level="1">Accordingly, the Court finds that the Arbitration Agreement is enforceable.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">3. <ital>Motion to Stay</ital></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">Section 1281.4 provides in relevant part:</paratext>
+<para><paratext ID="p20" first-line="2" turnover="2">If an application has been made to a court of competent jurisdiction <charfill numchar="3">&#8228;</charfill> for an order to arbitrate a controversy which is an issue involved in an action or proceeding pending before a court of this State and such application is undetermined, the court in which such action or proceeding is pending shall, upon motion of a party to such action or proceeding, stay the action or proceeding until the application for an order to arbitrate is determined and, if arbitration of such controversy is ordered, until an arbitration is had in accordance with the order to arbitrate or until such earlier time as the court specifies. Cal. Civ. Proc. Code &#167; 1281.4.</paratext></para>
+</para>
+<para><paratext ID="p21" level="1">Pursuant to &#167;1281.4, the Court finds it appropriate to grant the motion to stay until the conclusion of arbitration. <underscore>Id.</underscore></paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">IV. <underscore>CONCLUSION</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p22" level="1">For the forgoing reasons, the Court grants SSA's motion to compel arbitration and grants the motion to stay this case until the conclusion of arbitration.</paratext></para>
+<para><paratext ID="p23" level="1">The Court finds that oral argument would not be helpful on this matter, and therefore vacates the June 22, 2009 hearing. Fed. R. Civ. P. 78; L.R. 7-15.</paratext></para>
+<para><paratext ID="p24" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p25" level="1">Initials of Preparer <underscore>kjt</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

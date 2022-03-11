@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>Albert Zamora, et al.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>U.S. Bank NA, et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. EDCV 09-2109 JVS (OPx)</docket.line>
+<docket.number>EDCV 09-2109 JVS (OPx)</docket.number>
+<docket.line suppress-flag="y">5:09-cv-02109-JVS-OP</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/22/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Karla Tunis, Deputy Clerk, Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter, Attorneys Present for Defendants: Not Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings</bold>: (IN CHAMBERS) Order Granting Defendants' Motion to Dismiss (Fld 11-20-09)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable James V. Selna</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Defendants U.S. Bank N.A. as Trustee under a pooling and servicing agreement dated as of March 1, 2006 Master Asset Back Securities Trust 2006 WMC1 Mortgage Pass-Through Certificates Series 2006 WMC1 and Barclays Capital Real Estate, Inc. dba HomEq Servicing (collectively, &#x201C;Defendants&#x201D;) move to dismiss Plaintiffs Albert and Kelly Zamora's (collectively, &#x201C;the Zamoras&#x201D;) Complaint for failure to state a claim pursuant to Federal Rule of Civil Procedure 12(b)(6). The motion is unopposed. The Court GRANTS the motion.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">I. <underscore>Legal Standard</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Under Rule 12(b)(6), a defendant may move to dismiss for failure to state a claim upon which relief can be granted. A plaintiff must state &#x201C;enough facts to state a claim to relief that is plausible on its face.&#x201D; <underscore>Bell Atl. Corp. v. Twombly</underscore>, 550 U.S. 544, 570 (2007). A claim has &#x201C;facial plausibility&#x201D; if the plaintiff pleads facts that &#x201C;allow[] the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.&#x201D; <underscore>Ashcroft v. Iqbal</underscore>, --- U.S. ----, 129 S. Ct. 1937, 1949 (May 18, 2009).</paratext></para>
+<para><paratext ID="p3" level="1">In resolving a Rule 12(b)(6) motion under <underscore>Twombly</underscore>, the Court must follow a two-pronged approach. First, the Court must accept all well-pleaded factual allegations as true, but &#x201C;[t]hread-bare recitals of the elements of a cause of action, supported by mere conclusory statements, do not suffice.&#x201D; <underscore>Id.</underscore> Nor must the Court &#x201C;accept as true a legal conclusion couched as a factual allegation.&#x201D; <underscore>Id.</underscore> at 1949-50 (quoting <underscore>Twombly</underscore>, 550 U.S. at 555). Second, assuming the veracity of well-pleaded factual allegations, the Court must &#x201C;determine whether they plausibly give rise to an entitlement to relief.&#x201D; <underscore>Id.</underscore> at 1950. This determination is context-specific, requiring the Court to draw on its experience and common sense, but there is no plausibility &#x201C;where the well-pleaded facts do not permit the court to infer more than the mere possibility of misconduct.&#x201D; <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p4" level="1">Under Federal Rule of Civil Procedure 9(b), a plaintiff must plead each of the elements of a fraud claim with particularity, i.e., a plaintiff &#x201C;must set forth <ital>more</ital> than the neutral facts necessary to identify the transaction.&#x201D; <underscore>Cooper v. Pickett</underscore>, F.3d 616, 625 (9th Cir. 1997) (emphasis in original). In other words, fraud claims must be accompanied by the &#x201C;who, what, when, where, and how&#x201D; of the fraudulent conduct charged. <underscore>Vess v. Ciba-Geigy Corp., USA</underscore>, 317 F.3d 1097, 1106 (9th Cir. 2003). A pleading is sufficient under Rule 9(b) if it identifies the circumstances constituting fraud so that a defendant can prepare an adequate answer from the allegations. <underscore>Moore v. Kayport Package Express, Inc.</underscore>, 885 F.2d 531, 540 (9th Cir. 1989). While statements of the time, place and nature of the alleged fraudulent activities are sufficient, mere conclusory allegations of fraud are insufficient. <underscore>Id.</underscore></paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">II. <underscore>Discussion</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">The Court deems the Zamoras' failure to oppose the motion as consent to the granting of the motion. Local Rule 7-12. The Court also grants the motion on its merits. The Complaint includes eight causes of action, each of which is addressed below.</paratext></para>
+<para><paratext ID="p6" level="1">Before addressing these claims, the Court considers the threshold issue of standing. To establish standing, the Zamoras must demonstrate injury, causation, and redressability. <underscore>See Lujan v. Defenders of Wildlife</underscore>, 504 U.S. 555, 560 (1992). As in all standing inquiries, the central inquiry is whether the Zamoras have &#x201C;alleged such a personal stake in the outcome of the controversy as to warrant their invocation of federal-court jurisdiction.&#x201D; <underscore>Summers v. Earth Island Inst.</underscore>, --- U.S. ----, 129 S. Ct. 1142, 1148-49 (Mar. 3, 2009) (internal quotation marks omitted).</paratext></para>
+<para><paratext ID="p7" level="1">Defendants argue that the Zamoras lack standing because the claims they have brought are property of the bankruptcy estate. The Court agrees. On March 23, 2009, the Zamoras filed a Chapter 7 Bankruptcy Petition. (<underscore>See</underscore> RJN, Ex. 4.) This filing created a bankruptcy estate that consists of &#x201C;all legal or equitable interests of the debtor in property as of the commencement of the case,&#x201D; 11 U.S.C. &#167; 541(a)(1), and &#x201C;[a]ny interest in property that the estate acquires after the commencement of the case,&#x201D; <underscore>id.</underscore> &#167; 541(a)(7). Section 541's definition of property includes causes of action. <underscore>United States v. Whiting Pools, Inc.</underscore>, 462 U.S. 198, 205 (1983). &#x201C;[P]roperty of the estate that is not scheduled and not otherwise administered before a case is closed is not abandoned to the debtor at the time of closing, but rather remains property of the estate-forever.&#x201D; <underscore>In re JZ L.L.C.</underscore>, 371 B.R. 412, 418 (9th Cir. BAP 2007) (citing 11 U.S.C. &#167; 554(d); <underscore>Cheng v. K &#38; S Diversified Invs., Inc. (In re Cheng)</underscore>, 308 B.R. 448, 461 (9th Cir. BAP 2004), <underscore>aff'd</underscore>, 160 Fed. Appx. 644 (9th Cir. 2005). &#x201C;Thus, upon closing and in the absence of a court order to the contrary, property of the estate that was scheduled is abandoned to the debtor and ceases to be property of the estate, but, under &#167; 554(d), unscheduled property of the estate remains property of the estate after the case is closed.&#x201D; <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p8" level="1">Here, the Zamoras failed to list the claims they have brought in this case in the schedule prepared in the bankruptcy case. (<underscore>See</underscore> RJN, Ex. 5.) These claims clearly arose, if at all, prior to the Zamoras' bankruptcy filing. Thus, they remained property of the bankruptcy estate. There is no evidence that the trustee abandoned these claims. Therefore, the Zamoras lack standing to bring these claims and dismissal is warranted. In any event, the Zamoras have failed to state a claim as to any of their eight causes of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">1. <underscore>Declaratory Relief</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Citing state law, Defendants argue that the Zamoras' declaratory relief cause of action fails because it seeks to address a past wrong. (<underscore>See</underscore> Mot. Br. 5-6 <underscore>citing County of San Diego v. State</underscore>, 164 Cal. App. 4th 580, 607 (Ct. App. 2008).) However, &#x201C;once a case is removed to federal court, whether to grant declaratory relief becomes a procedural matter implicating the Declaratory Judgment Act (&#x201C;DJA&#x201D;), 28 U.S.C. &#167; 2201.&#x201D; <underscore>See Lopez v. GMAC Mortgage Corp.</underscore>, No. C 07-3911 CW, 2007 WL 3232448, at *2 (N.D. Cal. Nov. 1, 2007) (citing <underscore>Golden Eagle Ins. Co. v. Travelers Cos.</underscore>, 103 F.3d 750, 753 (9th Cir.1996), <underscore>overruled on other grounds</underscore> by <underscore>Gov't Employees. Ins. Co. v. Dizol</underscore>, 133 F.3d 1220 (9th Cir.1998)). &#x201C;The DJA permits a federal court to &#x2018;declare the rights and other legal relations&#x2019; of parties to &#x2018;a case of actual controversy.&#x2019;&#x201D; <underscore>Id.</underscore> (citing <underscore>Wickland Oil Terminals v. Asarco, Inc.</underscore>, 792 F.2d 887, 893 (9th Cir. 1986)). &#x201C;The &#x2018;actual controversy&#x2019; requirement of the DJA is the same as the &#x2018;case or controversy&#x2019; requirement of Article III of the United States Constitution.&#x201D; <underscore>Id.</underscore> (citing <underscore>American States Ins. Co. v. Kearns</underscore>, 15 F.3d 142, 1434 (9th Cir. 1993)). Here, it appears that the Zamoras' claims, if sufficiently pled, would satisfy the case or controversy requirement.</paratext></para>
+<para><paratext ID="p10" level="1">The Zamoras, however, have failed to adequately pled any claims to support their request for a declaratory judgment. The Zamoras' request for a declaratory judgment is premised on alleged violations of the Home Ownership and Equity Protection Act (HOEPA), the Truth in Lending Act (TILA),<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Regulation Z, and the Federal Trade Commission Act. The Zamoras admit in their Complaint that they have not alleged facts to support their assertion that Defendants violated these statutes and regulations. The Complaint states that &#x201C;[t]he full details of these violations are presently unknown to Plaintiffs, however, when these facts are ascertained through discovery and investigation, this complaint will be amended with leave of court to allege those facts.&#x201D; (Compl. &#182; 34.) Under <underscore>Twombly</underscore> and <underscore>Iqbal</underscore>, the failure to allege facts in support of the claims requires dismissal.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p11">&#8195;The Court also notes that the Zamoras' TILA claim is time barred, since the loan documents were executed on November 8, 2005 and suit was not filed until October 26, 2009.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p12" level="1">Accordingly, the Court dismisses the first cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">2. <underscore>Cancellation of Notice of Default and Notice of Trustee's Sale</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">The Zamoras seek cancellation of the Notice of Default and Notice of Trustee's Sale because &#x201C;the underlying Deed of Trust and Promissory Note<charfill numchar="3">&#8228;</charfill> are void and unenforceable.&#x201D; (Compl. &#182; 42.) The Complaint, however, fails to explain why this is so other than the conclusory statement that they &#x201C;were the product of multiple violations of statute and were dervived through the process of predatory lending practices.&#x201D; (Compl. &#182; 41.) Under <underscore>Twombly</underscore> and <underscore>Iqbal</underscore>, this conclusory statement is insufficient.</paratext></para>
+<para><paratext ID="p14" level="1">The Zamoras also allege Defendants violated California Civil Code &#167; 2923.5 because they did not offer to meet and confer to discuss options to avoid foreclosure. (Compl. &#182; 48.) Section 2923.5 requires that a Notice of Default include a declaration that the mortgagee, beneficiary, or authorized agent has contacted or attempted to contact that borrower in an attempt to avoid foreclosure. Cal. Civ. Code &#167; 2923.5. The Notice of Default attached to the Complaint contains the required declaration. (<underscore>See</underscore> Compl., Exh. C.)</paratext></para>
+<para><paratext ID="p15" level="1">The Zamoras' claimed violation of California Civil Code &#167; 2923.52 fails because it was not in effect when the notice of sale was sent and the statute lacks any retroactive declaration. <underscore>See Pantoja v. Countrywide Home Loans, Inc.</underscore>, 640 F. Supp. 2d 1177, 1187 (N.D. Cal. 2009) (&#x201C;California Civil Code provisions are not retroactive unless so declared. Cal. Civ. Code &#167; 3. Section 2923.52 does not contain any retroactivity declarations.&#x201D;).</paratext></para>
+<para><paratext ID="p16" level="1">Finally, the Zamoras' argument that non-judicial foreclosures require physical possession of the promissory note is based on an incorrect understanding of the law. The Complaint's references to the California Commercial Code are incorrect, since California Civil Code section 2924 governs non-judicial foreclosures. Under California Civil Code section 2924, &#x201C;no party needs to physically possess the promissory note.&#x201D; <underscore>Sicairos v. NDEX West, LLC</underscore>, No. 08cv2014-LAB (BLM), 2009 WL 385855, at *3 (S.D. Cal. Feb. 13, 2009). Rather, &#x201C;[t]he foreclosure process is commenced by the recording of a Notice of Default and Election to Sell by the trustee.&#x201D; <underscore>Moeller v. Lien</underscore>, 25 Cal. App. 4th 822, 830 (Ct. App. 1994). Section 2924 further provides that a &#x201C;trustee, mortgagee or beneficiary or any of their authorized agents&#x201D; may conduct the foreclosure process. Cal. Civ. Code &#167; 2924(a)(1).</paratext></para>
+<para><paratext ID="p17" level="1">Accordingly, the Court dismisses the second cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">3. <underscore>Cancellation of Instruments</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">The Zamoras' third cause of action, like the second, also seeks cancellation of various documents related to the loan, including the Deed of Trust, Promissory Note, Notice of Default, and Notice of Trustee's Sale, because they were allegedly the product of multiple violations of law. The only statute specifically identified under this cause of action is California Civil Code &#167; 2923.5. However, as discussed above, section 2923.5 requires that a Notice of Default include a declaration that the mortgagee, beneficiary, or authorized agent has contacted or attempted to contact that borrower in an attempt to avoid foreclosure. Cal. Civ. Code &#167; 2923.5. The Notice of Default attached to the Complaint contains the required declaration. (<underscore>See</underscore> Compl., Exh. C.)</paratext></para>
+<para><paratext ID="p19" level="1">Accordingly, the Court dismisses the third cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">4. <underscore>Quiet Title to Real Property</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p20" level="1">To state a claim for quiet title, the following information must be included in the Complaint:</paratext>
+<para><paratext ID="p21" first-line="1" turnover="1">(a) A description of the property that is the subject of the action<charfill numchar="4">&#8228;</charfill> In the case of real property, the description shall include both its legal description and its street address or common designation, if any.</paratext></para>
+<para><paratext ID="p22" first-line="1" turnover="1">(b) The title of the plaintiff as to which a determination under this chapter is sought and the basis of the title<charfill numchar="4">&#8228;</charfill></paratext></para>
+<para><paratext ID="p23" first-line="1" turnover="1">(c) The adverse claims to the title of the plaintiff against which a determination is sought.</paratext></para>
+<para><paratext ID="p24" first-line="1" turnover="1">(d) The date as of which the determination is sought. If the determination is sought as of a date other than the date the complaint is filed, the complaint shall include a statement of the reasons why a determination as of that date is sought.</paratext></para>
+<para><paratext ID="p25" first-line="1" turnover="1">(e) A prayer for the determination of the title of the plaintiff against the adverse claims.</paratext></para>
+<paratext ID="p26" contd-flag="y">Cal. Civ. Proc. Code &#167; 761.020. The Zamoras have failed to state the adverse claims they seek judicial determination of, the date as of which the determination is sought, and a prayer for the determination of the title against the adverse claims.</paratext></para>
+<para><paratext ID="p27" level="1">Accordingly, the Court dismisses the fourth cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">5. <underscore>Accounting</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p28" level="1">Ordinarily, a plaintiff must demonstrate a fiduciary relationship between himself and the defendant as well as refer to a sum owed to him by the defendant in order to successfully bring a claim in equity for an accounting. <underscore>See Whann v. Doell</underscore>, 192 Cal. 680 (1923); <underscore>Kritzer v. Lancaster</underscore>, 96 Cal. App. 2d 1 (Ct. App. 1950). The Zamoras have not alleged such a fiduciary relationship, nor have they pled any of the extraordinary situations which might otherwise substantiate an assertion of equity jurisdiction. <underscore>See Hafiz v. Greenpoint Mortg. Funding, Inc.</underscore>, No. C 09-01729 WHA, 2009 WL 2137393, at *3 (N.D. Cal. July 16, 2009).</paratext></para>
+<para><paratext ID="p29" level="1">Accordingly, the Court dismisses the fifth cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">6. <underscore>Fraud</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p30" level="1">The Zamoras have failed to allege the elements of a fraud claim. Specifically, the Complaint does not allege that Defendants misrpresented material facts to the Zamoras, that the Defendants did so with knowledge of falsity and with an intent to defraud. Additionally, the Zamoras have not pled their fraud cause of action with the requisite specificity of Rule 9(b). Accordingly, the Court dismisses the sixth cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">7. <underscore>Injunctive Relief</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p31" level="1">The seventh cause of action is a request for injunctive relief to prevent the Defendant from enforcing loan documents and conducting a foreclosure sale. &#x201C;Injunctive relief is a remedy and not, in itself, a cause of action, and a cause of action must exist before injunctive relief may be granted.&#x201D; <underscore>Shell Oil Co. v. Richter</underscore>, 52 Cal. App. 2d 164, 168 (Ct. App. 1942). Furthermore, the Zamoras have not identified or successfully pled a cause of action that would entitle them to injunctive relief.</paratext></para>
+<para><paratext ID="p32" level="1">Accordingly, the Court dismisses the seventh cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">8. <underscore>Damages</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p33" level="1">The Zamoras' cause of action for damages fails because the allegations on which the damages claim rests fail to state a claim as discussed above.</paratext></para>
+<para><paratext ID="p34" level="1">Accordingly, the Court dismisses the eighth cause of action.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">III. <underscore>Conclusion</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p35" level="1">For the foregoing reasons, the Court GRANTS the motion to dismiss the Zamoras' Complaint with prejudice as they lack standing to pursue their claims. IT IS SO ORDERED.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>The Court ORDERS the defendant to prepare, lodge and submit, forthwith, a proposed order of dismissal consistent with the Court's order above.</bold></headtext></head>
+<section.body>
+<para><paratext ID="p36" level="1">&#95;&#95;&#95;&#95;: <underscore>00</underscore></paratext></para>
+<para><paratext ID="p37" level="1">Initials of Preparer <underscore>kjt</underscore></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

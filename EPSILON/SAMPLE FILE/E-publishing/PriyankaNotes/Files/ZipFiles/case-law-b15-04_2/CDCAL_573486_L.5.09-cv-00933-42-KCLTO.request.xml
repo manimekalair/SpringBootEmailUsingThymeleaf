@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8212; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+<venue.name>3470 Twelfth Street, Riverside, CA 92501</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>LAURENCE JAMES, ET AL</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>UNITED TITLE CO., ET AL</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. ED CV 09-933-SGL (MANx)</docket.line>
+<docket.number>ED CV 09-933-SGL (MANx)</docket.number>
+<docket.line suppress-flag="y">5:09-cv-00933-SGL-MAN</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/04/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Cindy Sasse, Courtroom Deputy Clerk, ATTORNEYS PRESENT FOR PLAINTIFFS: <ital>pro se</ital></attorney.line>
+<attorney.line first-line="1">Theresa Lanza, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS: Katherine S. Agbayani</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">PROCEEDINGS: <bold>ORDER GRANTING DEFENDANTS' MOTIONS TO DISMISS</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HONORABLE STEPHEN G. LARSON, UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On May 14, 2009, plaintiff filed a complaint against defendants First American Loanstar Trustee Services (&#x201C;Loanstar&#x201D;), Chase Home Finance LLC (&#x201C;Chase&#x201D;), and Mortgage Electronic Registration Systems, Inc. (&#x201C;MERS&#x201D;). As detailed more fully below, plaintiffs assert a number of claims, including a Truth-in-Lending Act claim, arising out of the anticipated non-judicial sale of their residence. Defendants move to dismiss all claims. For the reasons and in the manner set forth below, the Court <bold>GRANTS</bold> the motions to dismiss and dismisses the complaint as to all defendants.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p2">&#8195;The grounds for dismissal apply to the non-moving defendants. For that reason, the Court dismisses the complaint against them as well.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>I. FACTUAL ALLEGATIONS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">In early 2007, plaintiffs obtained a mortgage loan for $225,000, secured through a deed of trust for the property at 1973 West Evans Street, San Bernardino, California 92411, and registered with the county recorder on February 1, 2008.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>II. JUDICIAL NOTICE OF OTHER FACTS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">The Court takes judicial notice of the public documents filed by defendants, each of which is a copy of property records maintained by the County of San Bernardino. <underscore>See</underscore> Fed. R. Evid. 201.</paratext></para>
+<para><paratext ID="p5" level="1">A deed of trust as to plaintiffs' property was purchased on January 26, 2007, by &#x201C;Laurence L. James, a single man,&#x201D; and was recorded on February 1, 2008. Under that deed of trust, defendant Resmae Mortgage Company was listed as the Lender, defendant United Title Company the Trustee, and defendant MERS the beneficiary. On November 1, 2007, Mr. James filed a quitclaim deed, purporting to quitclaim his interest in the property in favor of &#x201C;Myrtle L. James, a widow.&#x201D; Both Jameses are the plaintiffs in this action. On January 26, 2009, a notice of default and election to sell under the deed of trust was filed. Approximately one month later, a substitution of trustee was filed, designating defendant First American Title Company as Trustee. Approximately one week after that, an assignment of the deed of trust was recorded, transferring beneficial ownership from defendant MERS to Deutsche Bank National Trust Company. Finally, on April 27, 2009, First American filed a Notice of Trustee's Sale, setting the foreclosure sale date as May 18, 2009. The present action was filed approximately four days before the sale date; it appears from the record and arguments of the parties that the sale has be delayed pending this litigation.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>III. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Plaintiffs have failed to sufficiently establish a claim for each of their causes of action. Thus, defendants' motion is <bold>GRANTED</bold> and the complaint is dismissed with prejudice for the following reasons.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">A. <underscore>TILA Claim</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">Plaintiffs contend that defendants violated the Truth in Lending Act (&#x201C;TILA&#x201D;); however, TILA claims are subject to one-year statute of limitations. 15 U.S.C. &#167; 1640(e). In the present case, plaintiffs' loan closed in February, 2007, and more than two years later, on May 14, 2009, they filed the present claims. Accordingly, plaintiffs' TILA claim, their first cause of action, is time-barred and is therefore <bold>DISMISSED WITH PREJUDICE</bold>.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">B. <underscore>RESPA Claim</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Plaintiffs assert a claim based on the Real Estate Settlement Procedures Act (&#x201C;RESPA&#x201D;). However, a RESPA claim must allege a failure to respond to a qualified written request for information (&#x201C;QWR&#x201D;) that resulted in actual damages. <underscore>Hutchinson v. Delaware Sav. Bank FSB</underscore>, 410 F. Supp. 2d 374, 383 (D.N.J. 2006) (RESPA claim sufficiently pleaded where plaintiffs alleged actual damages to their credit rating after defendant failed to respond to a QWR). The complaint does not allege actual damages beyond the boilerplate conclusory allegation: &#x201C;Plaintiff has suffered and continues to suffer damage and costs of suit.&#x201D; In opposition to the present motions, plaintiff has not offered to amend the complaint to address this deficiency. According, the RESPA claim, plaintiffs' second cause of action, is <bold>DISMISSED WITH PREJUDICE</bold>.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">C. <underscore>Rosenthal Fair Debt Collection Practices Act (&#x201C;RFDCPA&#x201D;)</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p9" level="1">Plaintiffs' Rosenthal Fair Debt Collection Practices Act (&#x201C;RFDCPA&#x201D;) claim fails because the Act does not apply to foreclosures on real property. <underscore>See Ricon v. Recontrust Co.</underscore>, No. 09cv937-IEG-JMA, 2009 WL 2407396 at *4 (S.D. Cal., Aug. 4, 2009) (citing cases).</paratext></para>
+<para><paratext ID="p10" level="1">In their opposition, plaintiffs' arguments are not framed in terms of the RFDCPA; rather, perhaps in implicit acknowledgment of defendants' arguments regarding their state-law claim, plaintiffs' arguments are grounded in the <ital><bold>federal</bold></ital> Fair Debt Collection Practices Act (&#x201C;FDCPA&#x201D;), <underscore>see e.g.</underscore>, Opp. at 5 (quoting FDCPA definition of &#x201C;debt collector&#x201D;), a claim that is not asserted in their complaint. Even if the Court were to construe these arguments as an implicit request to amend the complaint to assert a claim under the FDCPA, such an amendment would be futile as the federal Act likewise does not apply to foreclosures. <underscore>Nera v. American Home Mortg. Servicing, Inc.</underscore>, No. C-09-2025 RMW, 2009 WL 2423109 at *4 (N.D. Cal., Aug. 5, 2009) (citing cases). In this instance, the judicially noticeable public records indicate that no party is attempting to collect a debt of another; rather, the defendants participating in the non-judicial sale process are instead merely attempting to enforce their reserved security interests. Thus, no defendant is a &#x201C;debt collector&#x201D; within the meaning of the FDCPA. <underscore>See</underscore> 15 U.S.C. &#167; 1692a(6)(F) (explicitly excluding creditors and mortgage servicers from the definition of &#x201C;debt collector&#x201D;); <underscore>Santos v. Countrywide Home Loans</underscore>, No. 1:09-CV-00912-AWI-SM, 2009 WL 2500710 at *6 (E.D. Cal., Aug. 14, 2009) (citing cases).</paratext></para>
+<para><paratext ID="p11" level="1">Accordingly, plaintiffs' RFDCPA claim, their third cause of action, is <bold>DISMISSED WITH PREJUDICE</bold>.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">D. <underscore>Wrongful Foreclosure</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">Absent foreclosure, which plaintiffs have not alleged, plaintiffs' claim for wrongful foreclosure is premature. <underscore>See Munger v. Moore</underscore>, 11 Cal. App. 3d 1, 7-8 (1970). This claim, plaintiffs' fifth cause of action, is <bold>DISMISSED WITHOUT PREJUDICE.</bold></paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging">E. <underscore>Remaining Claims</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Defendants have, on specifically articulated grounds, moved to dismiss plaintiffs' remaining claims. Plaintiffs' arguments in response thereto do not address the merits of defendants' motion; rather, plaintiffs merely note that they have suffered damages as a result of defendants' misconduct. Accordingly, the Court <bold>DISMISSES WITH PREJUDICE</bold> plaintiffs' remaining claims.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>IV. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">As set forth herein, the Court <bold>GRANTS</bold> the motions to dismiss and dismisses the complaint as to all defendants.</paratext></para>
+<para><paratext ID="p15" level="1">The Clerk shall close the case.</paratext></para>
+<para><paratext ID="p16" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE specification PUBLIC "-//USPTO//DTD TEAM Project specification-2000-10-16 Doctype//EN" "http://www.altova.com/schemas/uspto/u-specif.dtd">
+<?altova_sps http://www.altova.com/sps/template/Patents/specification.sps?>
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/stylesheets/uspto/specification.xsl"?>
+<specification id="specification" label="[Specification:] " class="legal-instrument">
+	<spec.title-block label="[Title Block:] " class="template-id">
+		<spec.title label="[Title:] " class="title" text="SPECIFICATION"/>
+		<spec.version label="[Version:] " class="version" version="[Electronic Version 1.2.8] " distribution="2000-10-16"/>
+	</spec.title-block>
+	<specification-block label="[Specification Block:] ">
+		<title-of-invention id="title-of-invention1" class="title" label="[Title of Invention:] ">Reusable vinyl tape for securing hockey equipment externally</title-of-invention>
+		<summary-of-invention id="summary-of-invention" label="[Summary Of Invention:] ">
+			<heading id="h7" label="[Heading:] " class="title">Brief Summary of the Invention</heading>
+			<paragraph id="p2" class="paragraph" label="[Paragraph:] " number="0001">   Among hockey-players, it is common practice to make use of disposable adhesive athletic tape in order to secure protective leg pads against shifting of the equipment during play.  Typically, the player applies a length of disposable adhesive athletic tape over the equipment to secure it to the leg. The amount of tape used for this purpose varies from player to player, but it is typical for players to use approximately half a roll of tape, wrapping it over the equipment and around the leg in two places: just below the knee and also, either just above, or just below the top of the skate.  </paragraph>
+			<paragraph id="p3" class="paragraph" label="[Paragraph:] " number="0002">   Older products intended for this purpose are very inefficient in actual use; they require buckles, button snaps or VELCRO pads to keep themselves in place. Furthermore, these older products are manufactured from various types of elastic, or elasticized cloth-like material, such materials do not perform well because lengths of material exceeding one leg-circumference cannot be wrapped around the leg without impairing blood circulation to the legs and feet. Neither elasticized cloth, nor other materials intended for securing equipment onto a leg can simply be tossed into a player&apos;s equipment bag between uses because they absorb moisture and therefore require airing out between uses as well as periodic washing.  Only vinyl is sufficiently rigid that it does not become entangled with equipment or form into knots that require disentangling, as do straps manufactured from cloth-like materials.  These factors account for the fact that very few players use older products of this type--they simply do not perform as efficiently as disposable adhesive tape, use of which continues to be the method preferred by players to secure protective equipment to the leg.   </paragraph>
+			<paragraph id="p4" class="paragraph" label="[Paragraph:] " number="0003">  The instant invention simulates all the essential properties of disposable tape in that it can be applied in a manner identical to that with which disposable tape is applied by the player.  Specifically, vinyl is virtually inelastic, this facilitates its mechanical functioning, and accounts for its similarity in &quot;feel&quot; to disposable tape.  Furthermore, the electrostatic, intra-molecular, self-adhesive property of vinyl makes unnecessary the use of any adhesive or mechanical fastening device.  Similarly, once the loose end of the strap is smoothed against the underlying layer of the material, it adheres to itself and will not become unraveled--similar in principle to vinyl shower curtains that stick together.   </paragraph>
+			<paragraph id="p5" class="paragraph" label="[Paragraph:] " number="0004">  The primary value of the product to players is economic as disposabletape is relatively expensive to use over the course of a full season.  The instant invention is designed to allow players to purchase strips in pre-cut lengths, or to cut shorter, customized-length strips.  </paragraph>
+			<paragraph id="p6" class="paragraph" label="[Paragraph:] " number="0005">   The instant invention comprises strips of vinyl of various length, width, and thickness: from 30&quot; to 240&quot;, from 1&quot; to 11/2&quot;, and from 8-gauge to 12-gauge, respectively.  </paragraph>
+			<paragraph id="p7" class="paragraph" label="[Paragraph:] " number="0006">   Vinyl is sufficiently strong that it will withstand the tensile load resulting from its being applied by the player in the manner of disposable tape, when used for the purpose of securing protective equipment against shifting by wrapping externally over the equipment and around the leg.   </paragraph>
+			<paragraph id="p8" class="paragraph" label="[Paragraph:] " number="0007">  Unlike older elastic, cloth, or cloth-like products intended as substitutes for athletic tape, vinyl tape can be used in lengths identical to lengths of disposable tape without impairing blood circulation, and it does not require any additional fastening device; thereby duplicating efficiently, the precise &quot;feel&quot; and mechanical functioning of disposable athletic tape when used for this purpose.  Because vinyl does not absorb moisture, it requires neither airing-out between uses nor periodic washing, as does cloth material. Similarly, vinyl is sufficiently rigid that it does not become entangled with other equipment in the player&apos;s bag, or form knots that require disentangling between uses. </paragraph>
+		</summary-of-invention>
+		<detailed-description id="detailed-description" label="[Detailed Description:] ">
+			<heading id="h9" label="[Heading:] " class="title">Detailed Description of the Invention</heading>
+			<paragraph id="p9" class="paragraph" label="[Paragraph:] " number="0008">   The vinyl tape is comprised of an elongated rectangular inelastic panel. The securing effected by the instant invention is particularly designed to prevent slippage of the protective equipment over which the invention is applied.    </paragraph>
+			<paragraph id="p10" class="paragraph" label="[Paragraph:] " number="0009"> It is desirable for the protective hockey equipment worn over the front of the lower leg to maintain its position in a stable and secure manner for the duration that it is worn.  Accordingly, a strap comprised of vinyl, constructed in accordance with the instant invention is capable of providing the same restriction of equipment slippage heretofore achieved by disposable, adhesive athletic tape applied in the same manner as that described as the preferred method of application of the instant invention.    </paragraph>
+			<paragraph id="p11" class="paragraph" label="[Paragraph:] " number="0010"> The use of vinyl material for this invention is responsible on its own, for providing functional restriction of equipment slippage identical in efficiency to that provided by disposable adhesive athletic tape at a considerable reduction in expense, owing to the reusable nature of the strap.</paragraph>
+		</detailed-description>
+		<claims label="[Claims:] ">
+			<heading id="h11" label="[Heading:] " class="title">What is Claimed is:</heading>
+			<claim id="c1" label="[Claim:] " number="1">
+				<claim-text label="[Claim Text:] " class="paragraph"> A method of securing protective equipment to a hockey-player&apos;s leg by wrapping a reusable vinyl strap over the equipment and around the leg, said vinyl strap comprising: a rectangular strip of 8-gauge to 12-gauge vinyl in lengths of 30&quot; to 240&quot;, in widths of 1&quot; to 11/2&quot;, in a solid color. </claim-text>
+			</claim>
+			<claim id="c2" label="[Claim:] " number="2">
+				<claim-text label="[Claim Text:] " class="paragraph">A method according to claim 1 wherein the vinyl strap is 120&quot; to 240&quot; and can be measured and cut into shorter, customized-length strips. </claim-text>
+			</claim>
+			<claim id="c3" label="[Claim:] " number="3">
+				<claim-text label="[Claim Text:] " class="paragraph">A method according to claim 1 wherein the vinyl strap is transparent.</claim-text>
+			</claim>
+			<claim id="c4" label="[Claim:] " number="4">
+				<claim-text label="[Claim Text:] " class="paragraph">A method according to claim 2 wherein the vinyl strap is transparent.</claim-text>
+			</claim>
+		</claims>
+		<abstract-of-disclosure label="[Abstract Of Disclosure:] " id="abstract-of-disclosure" preferred-word-count="250">
+			<heading id="h12" label="[Heading:] " class="title">Abstract of the Disclosure</heading>
+			<paragraph id="p12" class="paragraph" label="[Paragraph:] " number="0011">A reusable tape for effectively securing hockey equipment against shifting of the equipment during play.  The tape is designed to be wrapped over the equipment and around the leg in precisely the same manner as is disposable adhesive athletic tape when used for this purpose.  The tape is further designed to enable it to be measured and cut to particular lengths, so that it duplicates the precise functioning of whatever particular lengths of adhesive athletic tape is normally preferred by each player.     The tape consists of an elongated, rectangular strip of vinyl from 30&quot; in length to 240&quot;, in widths of 1&quot; to 11/2&quot;, in different solid colors to match team uniforms, including white, black, and clear. </paragraph>
+		</abstract-of-disclosure>
+	</specification-block>
+</specification>

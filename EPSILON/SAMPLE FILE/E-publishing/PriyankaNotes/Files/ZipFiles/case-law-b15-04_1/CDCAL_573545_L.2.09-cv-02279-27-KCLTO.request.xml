@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>Flooring 101, Inc.</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>Shaw Industries, Inc., et al.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-2279 DSF (Ex)</docket.line>
+<docket.number>CV 09-2279 DSF (Ex)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-02279-DSF-E</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 08/10/2009</date.line>
+</content.date>
+<procedural.history xml:lang="en">
+<appeal>
+<appeal.text>
+<para><paratext ID="p1" level="1">JS 6</paratext></para>
+</appeal.text>
+</appeal>
+</procedural.history>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Debra Plato, Deputy Clerk, Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter, Attorneys Present for Defendants: Not Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings:</bold> (In Chambers) Order GRANTING Petition for Order Compelling Arbitration (Docket No. 18, 20)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable DALE S. FISCHER, United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p2" level="1">Before the Court is Plaintiff Flooring 101, Inc.'s motion to compel arbitration. For the reasons given below, the petition is GRANTED.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Plaintiff is a beneficiary of a 2004 settlement of a class action suit brought by California retail carpet dealers against Defendant Shaw Industries, Inc. Pursuant to the settlement, Plaintiff submitted 121 warranty claims to Defendant on November 23, 2004. Defendant responded to the submitted claims by a letter dated March 14, 2005. The parties dispute whether any or all of the claims were rejected in this letter. Defendant claims that at least 22 claims were rejected. Plaintiff argues that the 22 claims were not unambiguously rejected, with Plaintiff being allowed to supplement those claims, and that, in any event, Plaintiff was allowed to provide a further showing in support of the remainder of the claims.</paratext></para>
+<para><paratext ID="p4" level="1">After the March 14, 2005 letter, three years passed with little or no activity by either party.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> In May 2008, Plaintiff submitted further evidence in support of its warranty claims. On June 16, 2008, Defendant denied the claims.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;Plaintiff claims that it had conversations with Defendant about providing further support for <underscore>its claims. Defendant denies that the conversations took place.</underscore></paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p6" level="1">Plaintiff submitted a written demand for arbitration pursuant to the settlement agreement on June 24, 2008. The settlement agreement provides that &#x201C;[d]ealers who wish to arbitrate a partially or wholly rejected Warranty Claim must file a written demand within fifteen (15) days of notification by Shaw that all or part of the claim has been denied.&#x201D; (<underscore>See</underscore> Pet., Ex. B.) The arbitrability dispute hinges on whether the 15-day time limit began with the March 14, 2005 letter &#8211; as argued by Defendant &#8211; or the June 16, 2008 letter &#8211; as argued by Plaintiff.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>ANALYSIS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1"><underscore>Howsam v. Dean Witter Reynolds, Inc.</underscore>, 537 U.S. 79 (2002) dictates the result here. In <underscore>Howsam</underscore>, the Supreme Court found that the question of whether arbitration was initiated beyond the contractual time period for arbitration was for the arbitrator to decide. <underscore>See id.</underscore> at 84-85. While <underscore>Howsam</underscore> contained the additional fact that the arbitrator would be interpreting its own arbitration rules as integrated into the parties' contract &#8211; whereas here the arbitrator would interpret the parties' contract directly &#8211; this difference does not affect the result. The Supreme Court did not rely on the fact that the arbitrator would interpret its own rules and instead rested its ruling more broadly on the concept that &#x201C;the presumption is that the arbitrator should decide &#x2018;allegations of waiver, delay, or a like defense to arbitrability.&#x2019;&#x201D; <underscore>Id.</underscore> at 84 (quoting <underscore>Moses H. Cone Mem. Hospital v. Mercury Constr. Corp.</underscore>, 460 U.S. 1, 24-25 (1983)).<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p8">&#8195;The authorities cited by Defendant in favor of the court deciding the time limit issue were all <underscore>decided prior to Howsam. (See Opp'n at 7.)</underscore></paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p9" level="1"><underscore>Cox v. Ocean View Hotel Corp.</underscore>, 533 F.3d 1114 (9th Cir. 2008), does not compel a contrary result. <underscore>Cox</underscore> distinguished <underscore>Howsam</underscore> in a &#x201C;waiver&#x201D; situation where the party seeking arbitration arguably had renounced the clause's applicability by previously opposing enforcement of the arbitration clause. <underscore>See</underscore> 533 F.3d at 1120-21. Here, neither party contests the general applicability of the arbitration clause &#8211; Defendant only argues that a procedural consideration that must be met prior to arbitration has not been satisfied. This is precisely the kind of question that <underscore>Howsam</underscore> has reserved for the arbitrator.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">The petition to compel arbitration is GRANTED.</paratext></para>
+<para><paratext ID="p11" level="1">IT IS SO ORDERED.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

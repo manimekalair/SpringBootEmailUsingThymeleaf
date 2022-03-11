@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Audio Tag</title>
+    </head>
+    <body>
+        <h1>Audio Tags</h1>
+        <h2>Audio File for Wav Format</h2>
+        <audio src="wav-recording.wav" controls>
+            This Browser doesnot support in this Audio Format
+        </audio>
+        <h2>Audio File for MP3 Format</h2>
+        <audio src="mp3-recording.mp3" controls>
+            This Browser doesnot support in this Audio Format
+        </audio>
+        <h2>Audio Files in Multiple Formats</h2>
+        <audio controls>
+            <source src="wav-recording.wav" type="audio/wav" />
+            <source src="mp3-recording.mp3" type="audio/mp3" />
+            <source src="recording.m4a" type="audio/m4a" />
+            <source src="ogg-recording.ogg" type="audio/ogg" />
+        </audio>
+    </body>
+</html>

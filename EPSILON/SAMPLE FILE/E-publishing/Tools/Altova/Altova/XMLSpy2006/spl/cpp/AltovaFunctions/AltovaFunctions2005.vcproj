@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="AltovaFunctions"
+	ProjectGUID="{[=$AltovaFunctionsGuid]}"
+	RootNamespace="AltovaFunctions"
+	Keyword="Win32Proj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+[
+$addDefs = "ALTOVAFUNCTIONS_EXPORTS;" & $PreprocessorDefinitions
+call vcproj8_Configurations("AltovaFunctions", $addDefs, $VCConfigurationType, "..\\Altova")
+]	<References>
+		<ProjectReference
+			ReferencedProjectIdentifier="{[=$AltovaLibGuid]}"
+			RelativePathToProject="..\\Altova\\Altova.vcproj"
+		/>
+	</References>
+	<Files>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\\AltovaFunctionsAPI.h"
+				>
+			</File>
+			<File
+				RelativePath=".\\Core.h"
+				>
+			</File>
+			<File
+				RelativePath=".\\Db.h"
+				>
+			</File>
+			<File
+				RelativePath=".\\Edifact.h"
+				>
+			</File>
+			<File
+				RelativePath=".\\Lang.h"
+				>
+			</File>
+			<File
+				RelativePath=".\\StdAfx.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+		</Filter>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\\Core.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\\Db.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\\Edifact.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\\Lang.cpp"
+				>
+			</File>
+[call vcproj8_StdAfx_cpp()
+]		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

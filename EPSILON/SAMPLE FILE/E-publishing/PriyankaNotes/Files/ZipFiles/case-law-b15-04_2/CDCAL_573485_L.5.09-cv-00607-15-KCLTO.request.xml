@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8212; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>QUENTON TRENAL, JOI P. TRENAL</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>US BANK NATIONAL ASSOCIATION, et al.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. EDCV 09-607-VAP (MANx)</docket.line>
+<docket.number>EDCV 09-607-VAP (MANx)</docket.number>
+<docket.line suppress-flag="y">5:09-cv-00607-VAP-MAN</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/03/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Marva Dillard, Courtroom Deputy, ATTORNEYS PRESENT FOR PLAINTIFFS: None</attorney.line>
+<attorney.line first-line="1">None Present, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS: None</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">PROCEEDINGS: MINUTE ORDER GRANTING MOTION TO DISMISS (IN CHAMBERS)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HONORABLE VIRGINIA A. PHILLIPS, U.S. DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Defendants U.S. Bank, N.A., U.S. Bancorp, America's Servicing Company (&#x201C;ASC&#x201D;), and Wells Fargo, N.A. (&#x201C;Defendants&#x201D;) filed a Motion to Dismiss (&#x201C;Motion&#x201D;) on April 2, 2009 to be heard on April 27, 2009. Under Local Rule 7-9, a party must file opposition papers no later than 14 days before the date designated for the hearing of the motion. Plaintiffs Quenton Trenal and Joi P. Trenal (&#x201C;Plaintiffs&#x201D;) represent themselves. Plaintiffs' opposition was untimely; (Declaration of Joi P. Trenal Re Timeliness of Filing of Plaintiffs' Opposition Papers &#182; 3.) In the interests of justice, the Court will consider Plaintiffs' late-filed opposition but in the future Plaintiffs shall comply with the Local Rules.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I. BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Plaintiffs filed suit in the Superior Court for the County of San Bernardino seeking relief under California law. This action was removed to this Court pursuant to diversity jurisdiction. Plaintiffs seek millions in general and emotional distress damages. As they claim sole title to real property sold for over $200,000, the amount in controversy meets the jurisdictional requirement.</paratext></para>
+<para><paratext ID="p3" level="1">Plaintiffs entered into a loan agreement, secured by a Deed of Trust on real property, with Defendants to purchase a house at 1958 Adams Street, San Bernardino, California 92407 (&#x201C;the property&#x201D;) and made payments for ten years. The loan fell into default and Plaintiffs failed to make nine payments between July 1, 2007 and March 1, 2008.</paratext></para>
+<para><paratext ID="p4" level="1">They made many attempts to modify their loan agreement, and documented the people with whom they spoke and what each person said.</paratext></para>
+<para><paratext ID="p5" level="1">Defendant ASC sent Plaintiffs a letter dated March 20, 2008 (&#x201C;the letter&#x201D;) enclosing a Special Forbearance Agreement (&#x201C;Agreement&#x201D;) in which it agreed to accept modified payment for several months. (Compl. Ex. A at A 36.) The letter stated that ASC would &#x201C;instruct [their] foreclosure counsel to suspend foreclosure proceedings<charfill numchar="3">&#8228;</charfill> as long as [Plaintiffs] keep[t] to the terms of the Agreement.&#x201D; (Compl. Ex. A at A 35.)</paratext></para>
+<para><paratext ID="p6" level="1">The Agreement required Plaintiffs to pay approximately $2,700 on April 15, May 15, and June 15, 2008 and to pay approximately $30,000 (the &#x201C;lump sum&#x201D;) on July 15, 2008. The Agreement itself reserved the right of the unnamed lender to institute foreclosure without notice or compliance with the terms of the Agreement. (Compl. Ex. A at A 36.)</paratext></para>
+<para><paratext ID="p7" level="1">The Agreement was not integrated and did not require modifications to be made in writing. Nevertheless, it required Plaintiffs to sign and return it for it to become effective. The copy of the Agreement Plaintiffs attach to their Complaint is not signed.</paratext></para>
+<para><paratext ID="p8" level="1">After they received the Agreement, Plaintiffs called ASC many times and received several instructions about how and when to make payments. Plaintiffs apparently made the April, May, and June payments but &#x201C;Anya,&#x201D; a representative of Defendants, told Ms. Trenal that the lump sum &#x201C;would be restructured back into the loan when the modification was completed.&#x201D; (Compl. &#182;&#182; 32-35.) Plaintiffs never made the lump sum payment because Defendants' representative &#x201C;Mike&#x201D; told them to &#x201C;hold the money.&#x201D; (Compl. &#182; 35.)</paratext></para>
+<para><paratext ID="p9" level="1">Defendants sold the property on September 2008 without notice to Plaintiffs.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. LEGAL STANDARD</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Under Rule 12(b)(6), a party may bring a motion to dismiss for failure to state a claim upon which relief can be granted. As a general matter, the Federal Rules require only that a plaintiff provide &#x201C;&#x2018;a short and plain statement of the claim&#x2019; that will give the defendant fair notice of what the plaintiff's claim is and the grounds upon which it rests.&#x201D; <underscore>Conley v. Gibson</underscore>, 355 U.S. 41, 47 (1957) (quoting Fed. R. Civ. P. 8(a)(2)); <underscore>Bell Atlantic Corp. v. Twombly</underscore>, 550 U.S. 544, 127 S. Ct. 1955, 1964 (2007). In addition, the Court must accept all material allegations in the complaint &#8212; as well as any reasonable inferences to be drawn from them &#8212; as true. <underscore>See Doe v. United States</underscore>, 419 F.3d 1058, 1062 (9th Cir. 2005); <underscore>ARC Ecology v. U.S. Dep't of Air Force</underscore>, 411 F.3d 1092, 1096 (9th Cir. 2005).</paratext></para>
+<para><paratext ID="p11" level="1">&#x201C;While a complaint attacked by a Rule 12(b)(6) motion to dismiss does not need detailed factual allegations, a plaintiff's obligation to provide the &#x2018;grounds&#x2019; of his &#x2018;entitlement to relief&#x2019; requires more than labels and conclusions, and a formulaic recitation of the elements of a cause of action will not do.&#x201D; <underscore>Bell Atlantic</underscore>, 127 S. Ct. at 1964-65 (citations omitted). Rather, the allegations in the complaint &#x201C;must be enough to raise a right to relief above the speculative level.&#x201D; <underscore>Id</underscore>. at 1965.</paratext></para>
+<para><paratext ID="p12" level="1">Although the scope of review is limited to the contents of the complaint, the Court may also consider exhibits submitted with the complaint, such as the attached Agreement, <underscore>Hal Roach Studios, Inc. v. Richard Feiner &#38; Co.</underscore>, 896 F.2d 1542, 1555 n.19 (9th Cir. 1990), and &#x201C;take judicial notice of matters of public record outside the pleadings,&#x201D; <underscore>Mir v. Little Co. of Mary Hosp.</underscore>, 844 F.2d 646, 649 (9th Cir. 1988).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Plaintiffs appear pro se and accordingly the Court construes their pleading liberally. Nevertheless, &#x201C;a pro se litigant is not excused from knowing the most basic pleading requirements.&#x201D; <underscore>American Ass'n of Naturopathic Physicians v. Hayhurst</underscore>, 227 F.3d 1104, 1108 (9th Cir. 2000).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. First Claim: Quiet Title</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">The elements of a claim for quiet title are (a) a description of the property; (b) the title of the plaintiff seeking possession; (c) the adverse claims against which the plaintiff seeks to quiet title; (d) the date as to which determination is sought; (e) a prayer for relief. Cal. Civ. Proc. Code &#167; 761.020. The Complaint lacks element (c) and pleads element (b) only by inference, averring that Plaintiffs have been divested of title without saying what their current interest is. <underscore>See Andrade v. Wachovia Mortgage F.S.B.</underscore>, 2009 WL 1111182, *5 (S.D. Cal. 2009) (dismissing quiet title claim in part because &#x201C;Plaintiff has not identified her own ownership interest in the property or even whether she still has legal title to it.&#x201D;) The Court GRANTS the Motion as to this claim WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>B. Second Claim: Cancel Deed of Trust</bold></headtext></head>
+<section.body>
+<para><paratext ID="p15" level="1">Plaintiffs' clear title to the property is a condition precedent to cancellation of the deed of trust. As the Court has granted the Motion as to Plaintiffs' first claim, to quiet title, so also the Court GRANTS WITH LEAVE TO AMEND the Motion as to the second claim.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>C. Third Claim: Declaratory Relief</bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">Plaintiffs ask the Court to find that the deed of trust recorded by defendants is void or voidable and that they have clear title to the property. (Compl. &#182; 50.) For the above reasons, Plaintiffs do not show they are entitled to the declaratory relief they seek. The Court GRANTS the Motion WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>D. Fourth Claim: Fraud</bold></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="1">Plaintiffs assert Defendants committed fraud by making the following false promise: if Plaintiffs complied with the terms of the Agreement, Defendants would not institute foreclosure proceedings.</paratext></para>
+<para><paratext ID="p18" level="1">The five elements of fraud are: (a) an untrue statement; (b) scienter; (c) intent to induce reliance; (d) an act in justifiable reliance; (e) damages. Cal. Civ. Code &#167; 1572; <underscore>Conroy v. Regents of University of Cal.</underscore>, 45 Cal. 4th 1244, 1255 (2009).</paratext></para>
+<para><paratext ID="p19" level="1">The Complaint includes the who, what, and when of the statements of Defendants' representatives to Plaintiffs and therefore complies with Rule 9(b) of the Federal Rules of Civil Procedure. <underscore>Vess v. Ciba-Geigy Corp. USA</underscore>, 317 F.3d 1097, 1106 (9th Cir. 2003) (&#x201C;Rule 9(b)'s particularity requirement applies to state-law causes of action&#x201D; including fraud. <underscore>Id</underscore>. at 1103.).</paratext></para>
+<para><paratext ID="p20" level="1">Nevertheless, the Court grants the Motion as to the fourth claim. Plaintiffs claim that Defendants committed fraud by sending them the Agreement, receiving their payments, and then surreptitiously selling the property. (Compl. &#182;&#182; 52-57.) The text of the Agreement undermines the fourth element of fraud, the reasonableness of Plaintiffs' reliance on the Agreement. The Agreement states it must be signed and returned to be effective and the Agreement attached to the Complaint is unsigned. (Compl. Ex. A.) Accordingly, based on the evidence before it the Court cannot find that Plaintiffs were justified in relying on the Agreement.</paratext></para>
+<para><paratext ID="p21" level="1">Amendment is not futile here because the Agreement was not integrated, did not bar oral modifications, and, according to Plaintiffs, Defendants' representatives modified it in several respects. For example, Defendants' representatives told Plaintiffs they would restructure the lump sum back into the loan rather than require its payment per the Agreement.</paratext></para>
+<para><paratext ID="p22" level="1">Defendants also move the Court to grant the Motion as Plaintiffs cannot show harm or damages. According to Defendants, Plaintiffs were not harmed by making payments because they were contractually required to do so. According to the Complaint, however, Plaintiffs changed their position in reliance on the Agreement. They made payments they otherwise would not have made &#x201C;in consideration of extending forbearance for a period of time,&#x201D; as paragraph 1 of the Agreement states. (Compl. Ex. A at A 36.)</paratext></para>
+<para><paratext ID="p23" level="1">The Court GRANTS the Motion WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>E. Fifth Claim: Breach of Contract</bold></headtext></head>
+<section.body>
+<para><paratext ID="p24" level="1">For Plaintiffs to recover under their fifth claim, for breach of contract, they must show they entered into a contract with Defendants. The Agreement states it must be signed and returned to be valid; the Agreement attached to the Complaint is not signed. Accordingly, Plaintiffs fail to show they entered into an agreement with Defendants. The court GRANTS the Motion WITH LEAVE TO AMEND. Amendment is not futile as the requirement the Agreement be signed, like other provisions, was subject to oral modification.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>F. Sixth Claim: Intentional Infliction of Emotional Distress</bold></headtext></head>
+<section.body>
+<para><paratext ID="p25" level="1">&#x201C;The elements of the tort of intentional infliction of emotional distress are: &#x2018;(1) extreme and outrageous conduct by the defendant with the intention of causing, or reckless disregard of the probability of causing, emotional distress; (2) the plaintiff's suffering severe or extreme emotional distress; and (3) actual and proximate causation of the emotional distress by the defendant's outrageous conduct<charfill numchar="3">&#8228;</charfill>&#x2019; Conduct to be outrageous must be so extreme as to exceed all bounds of that usually tolerated in a civilized community.&#x201D; <underscore>Christensen v. Superior Court</underscore>, 54 Cal. 3d 868, 903 (1991).</paratext></para>
+<para><paratext ID="p26" level="1">Here Plaintiffs assert Defendants committed the tort of intentional infliction of emotional distress by &#x201C;lying to Plaintiffs; giving them false hope<charfill numchar="3">&#8228;</charfill> making them submit volumes of personal financial information<charfill numchar="4">&#8228;</charfill>&#x201D; (Compl. &#182; 66.) According to the Complaint, all of these actions were undertaken by Defendants to foreclose on the property. Defendants move the Court to find their conduct was privileged. (Mot. 19.)</paratext>
+<para><paratext ID="p27" first-line="2" turnover="2">A party is not subject to liability for infliction of emotional distress when it has merely pursued its own economic interests and properly asserted its legal rights. [citations]<charfill numchar="3">&#8228;</charfill> Of course<charfill numchar="3">&#8228;</charfill> actions in its own interest are circumscribed in scope and may not be undertaken in an impermissible manner. [citation.] But there is no cognizable showing that [defendant] acted in an illegal or impermissible fashion. There were no threats or words of abuse directed toward the plaintiff.</paratext></para>
+<paratext ID="p28" contd-flag="y"><underscore>Kruse v. Bank of America</underscore>, 202 Cal. App. 3d 38, (no internal pagination given) (1988); (Mot. 19.)</paratext></para>
+<para><paratext ID="p29" level="1">According to the Complaint, Defendants foreclosed on and sold a property that was the security for a loan in default. Plaintiffs allege they were lied to but do not explicitly aver Defendants acted outrageously and Defendants appear to have acted in their own self-interest. <underscore>See Kruse</underscore>, 202 Cal. App. 3d (no internal pagination) (outrageous conduct where plaintiffs suffered &#x201C;public ridicule and use of profanities,&#x201D; &#x201C;racial insult and wrongful discharge,&#x201D; &#x201C;midnight visits by process server,&#x201D; or &#x201C;demands for payment while plaintiff lay in hospital bed&#x201D;). Accordingly, Plaintiffs fail to make out the first element of an emotional distress claim &#8211; that Defendants acted outrageously &#8212; and also fail to plead facts showing that Defendants' actions were not privileged. The Court GRANTS the Motion WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>G. Seventh Claim: Negligent Infliction of Emotional Distresss</bold></headtext></head>
+<section.body>
+<para><paratext ID="p30" level="1">The elements of negligent infliction of emotional distress include the defendant's duty to the plaintiff, as in a negligence claim. (Mot. 20 citing <underscore>Marlene F. v. Affiliated Psychiatric Medical Clinic, Inc.</underscore>, 48 Cal. 3d 583, 588 (1989).) Plaintiffs fail to aver Defendants owed them a duty and the Court cannot infer this element virtue of Defendants' entering into a contractual relationship with Plaintiffs. &#x201C;[C]onduct amounting to a breach of contract becomes tortious only when it also violates a duty independent of the contract arising from principles of tort law.&#x201D; <underscore>Erlich v. Menezes</underscore>, 21 Cal. 4th 543, 551-52 (1999); (Mot. 20.) Accordingly, the Court GRANTS the Motion WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>H. Eighth Claim: Conspiracy</bold></headtext></head>
+<section.body>
+<para><paratext ID="p31" level="1">Plaintiffs apparently seek relief for a conspiracy to commit fraud or another tort premised on wrongful foreclosure. (Compl. &#182; 72 (wrongful foreclosure), &#182; 74 (conspiracy to sell the property tortious), &#182; 77 (Defendants guilty of &#x201C;malice, oppression and fraud&#x201D;).)</paratext></para>
+<para><paratext ID="p32" level="1">&#x201C;As is well established, civil conspiracy is not an independent tort<charfill numchar="4">&#8228;</charfill> rather &#x2018;[t]he basis of a civil conspiracy is the formation of a group of two or more persons who have agreed to a common plan or design to commit a tortious act.&#x2019;&#x201D; <underscore>Kidron v. Movie Acquisition Corp.</underscore>, 40 Cal. App. 1571, 1582 (1995). Here all of Plaintiffs' claims have been dismissed without prejudice. Accordingly, Plaintiffs plead conspiracy as a stand-alone claim, which is impermissible. The Court GRANTS the Motion as to the eighth claim, for conspiracy, WITH LEAVE TO AMEND.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p33" level="1">The Court GRANTS the Motion WITH LEAVE TO AMEND. Plaintiffs shall file any amended complaint no later than June 23, 2009.</paratext></para>
+<para><paratext ID="p34" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

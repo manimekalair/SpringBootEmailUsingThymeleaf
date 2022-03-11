@@ -1,0 +1,427 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // Database execution implementation subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoopDB:
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoopDB( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter, byref $rDBLoop )
+
+	if $rAlgorithm.IsParentLoop
+
+][=$rIndent]// {LOOP} DB-PARENT
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsDocSwitchLoop
+
+][=$rIndent]// {LOOP} DB-DOC
+[		$lRootQType = $rAlgorithm.SourceContext.LibraryPrefix & "::" & $rAlgorithm.SourceContext.Type
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType]& [=$rSourceParameter]
+[=$rIndent]	= m_[=$rAlgorithm.SourceContext.Library.UniqueName]Instance;
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop and $rAlgorithm.Query = ""
+
+][=$rIndent]// {LOOP} DB-VAR
+[		$lParentQType = $rAlgorithm.LoopContext.Library.Name & "::" & $rAlgorithm.LoopContext.Type
+		if $rAlgorithm.SourceContext.UniqueName <> $rAlgorithm.SourceParentContext.UniqueName
+			$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lParentQType]& [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject
+[=$rIndent]	= /*([=$lParentQType])*/m_[=$rAlgorithm.VarID];
+[=$rIndent][=$lQType] [=$rSourceParameter]
+[=$rIndent]	= [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.Get[=$rAlgorithm.SourceContext.Name]();
+[		endif
+][=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop or $rAlgorithm.SourceContext.IsTable ' Query & ResultSet-loop
+
+][=$rIndent]// {LOOP} DB-TABLE
+[		$rDBLoop = true
+		$lRootQType	= $rAlgorithm.SourceContext.Library.Name & "::" & $rAlgorithm.SourceContext.Library.Type
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType]& [=$rAlgorithm.SourceContext.UniqueName]SourceDatabase
+[=$rIndent]	= m_[=$rAlgorithm.SourceContext.Library.UniqueName]Instance;
+
+[=$rIndent]CCommand	cmdQuery(_T("[=$rAlgorithm.Query]"));
+[		foreach $lParam in $rAlgorithm.Query.Parameters
+			if $lParam.Type = 11 Or $lParam.Type = 5 'assignment Or variable
+][=$rIndent]cmdQuery.AddParameter(m_[=$lParam.VarID]);
+[			else
+][=$rIndent]cmdQuery.AddParameter(CSchemaString::CreateVariantByString( _T(\"[=$lParam.Value]\")) );
+[			endif
+		next
+][=$rIndent][=$lQType] [=$rSourceParameter](
+[=$rIndent]		[=$rAlgorithm.SourceContext.UniqueName]SourceDatabase,
+[=$rIndent]		cmdQuery
+[=$rIndent]	);
+[=$rIndent][=$rSourceParameter].Execute();
+[=$rIndent]while ([=$rSourceParameter].HasNext())
+[=$rIndent]{
+[
+	else
+
+][=$rIndent]// {LOOP} DB-FIELD
+[		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lQType] [=$rSourceParameter]
+[=$rIndent]	= [=$rAlgorithm.LoopContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name](); 
+[=$rIndent]if( ![=$rSourceParameter].IsNull() )
+[=$rIndent]{
+[
+	endif : endif : endif : endif
+
+	$rIndent = $rIndent & "	"
+
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginCreateDB:
+' ------------------------------------------------------------------------
+sub ExecuteBeginCreateDB( byval $lQType, byref $rIndent, byref $rAlgorithm )
+	if $rAlgorithm.TargetContext.IsTable
+
+][=$rIndent][=$lQType] [=$rAlgorithm.TargetContext.UniqueName]TargetObject( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject[
+		if $rAlgorithm.TargetParentContext.IsTable : ].GetDatabase()[endif] );
+[=$rIndent][=$rAlgorithm.TargetContext.UniqueName]TargetObject.Prepare();
+[=$rIndent]bool bRowsAffected = false;
+[=$rIndent]bool bProcessChilds = true;
+[=$rIndent]bool bDeleteRow = false;
+
+[		if $rAlgorithm.UseTransaction
+][=$rIndent]try
+[=$rIndent]{
+[=$rIndent]	[=$rAlgorithm.TargetContext.UniqueName]TargetObject.GetDatabase().BeginTransaction( _T("[=$rAlgorithm.TargetContext.TransactionName]") );
+[			$rIndent = $rIndent & "	"
+		endif
+
+	else	' DB-Field
+
+][=$rIndent][=$lQType] [=$rAlgorithm.TargetContext.UniqueName]TargetObject;
+[
+	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' PrepareCreateDBBeforeChildren:
+' ------------------------------------------------------------------------
+sub PrepareCreateDBBeforeChildren( byref $rIndent, byref $rAlgorithm, byval $lTargetParameter )
+]
+[=$rIndent]// execute DB-query before looping through childs or create child-table entries
+[
+	foreach $lAction in $rAlgorithm.TableActions
+][=$rIndent]if( !bRowsAffected )
+[=$rIndent]{
+[=$rIndent]	CCommandList	cmdList;
+[=$rIndent]	CCommand		command;
+
+[		if $lAction.Type = 0 ' INSERT
+			call GenerateSQLInsert( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		else : if $lAction.Type = 1 ' UPDATE
+			call GenerateSQLUpdate( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		else ' DELETE
+			call GenerateSQLDelete( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		endif : endif
+
+		call GenerateSQLDeleteChildren( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		call GenerateSQLProceedWithChildren( $lAction, $rIndent )
+][=$rIndent]}
+[	next
+][=$rIndent]if( bProcessChilds && bRowsAffected )
+[=$rIndent]{
+[	$rIndent = $rIndent & "	"
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndLoopDB:
+' ------------------------------------------------------------------------
+sub ExecuteEndLoopDB( byval $lIndent, byval $lSourceParameter )
+][=$lIndent][=$lSourceParameter].MoveNext();
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreateDB:
+' ------------------------------------------------------------------------
+sub ExecuteEndCreateDB( byref $rIndent, byref $rAlgorithm, byval $lTargetParameter, byval $lIsFirstListLoop )
+	if $rAlgorithm.TargetContext.IsTable
+		if $lIsFirstListLoop
+			foreach $lAction in $rAlgorithm.TableActions]
+[=$rIndent]// execute DB-query after all simple members were looped
+[=$rIndent]if( !bRowsAffected )
+[=$rIndent]{
+[=$rIndent]	CCommandList	cmdList;
+[=$rIndent]	CCommand		command;
+
+[				if $lAction.Type = 0 ' INSERT
+					call GenerateSQLInsert( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				else : if $lAction.Type = 1 ' UPDATE
+					call GenerateSQLUpdate( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				else ' DELETE
+					call GenerateSQLDelete( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				endif : endif
+				call GenerateSQLDeleteChildren( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				call GenerateSQLProceedWithChildren( $lAction, $rIndent )
+][=$rIndent]}
+[			next
+		else
+			$rIndent = "	"
+][=$rIndent]	}
+[		endif
+
+		foreach $lAction in $rAlgorithm.TableActions
+			if $lAction.Type = 2 ' DELETE
+				if $lAction.IsProceedChildren or $lAction.IsDeleteWithChildren
+					call GenerateSQLFinalDelete( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				endif 
+			endif
+		next
+
+		if $rAlgorithm.UseTransaction
+][=$rIndent]	[=$rAlgorithm.TargetContext.UniqueName]TargetObject.GetDatabase().CommitTransaction( _T("[=$rAlgorithm.TargetContext.TransactionName]") );
+[=$rIndent]}
+[=$rIndent]catch( CAltovaDBExecuteException& e )
+[=$rIndent]{
+[=$rIndent]	[=$rAlgorithm.TargetContext.UniqueName]TargetObject.GetDatabase().RollbackTransaction( _T("[=$rAlgorithm.TargetContext.TransactionName]") );
+
+[=$rIndent]	// TODO: implement your transaction handling, to ...
+[=$rIndent]	//	(1) rollback all transactions --> by default, don't change the line below
+[=$rIndent]	//	(2) rollback this transaction and stop --> use k_AltovaDBTransactionAction_Stop instead of k_AltovaDBTransactionAction_RollbackAll
+[=$rIndent]	//	(3) rollback this transaction, continue --> comment out the following line
+[=$rIndent]	throw CAltovaDBTransactionException( k_AltovaDBTransactionAction_RollbackAll, _T("[=$rAlgorithm.TargetContext.TransactionName]"), e );
+[=$rIndent]}
+[		endif
+	else	' Column
+][=$rIndent][=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Set[=$rAlgorithm.TargetContext.Name]( [=$rAlgorithm.TargetContext.UniqueName]TargetObject );
+[	endif
+
+endsub
+
+
+
+' // Helpers
+' ////////////////////////
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLInsert:
+' ------------------------------------------------------------------------
+sub GenerateSQLInsert( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	foreach $lCommand in $rAction.Commands
+][=$lIndent]	command = CCommand( _T("[=$lCommand.Query]"), [=$lCommand.AutoReadFields] );
+[		if $lCommand.IsMainCommand and $rAlgorithm.KeyToParent <> ""
+][=$lIndent]	command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[		endif
+
+		foreach $lParameter in $lCommand.Parameters
+			if not $lParameter.IsConditionField
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lParameter.Name](), [ if $lParameter.IsAutoUpdate ]true[else]false[endif] );
+[			endif 
+		next
+
+		if $lCommand.IsMainCommand 
+			foreach $lValueGenColumn in $rAlgorithm.ValueGenColumns
+				if $lValueGenColumn.ValueFromColumnIndirect <> "" 
+][=$lIndent]	command.AddParameter( _T("[=$lValueGenColumn.ValueFromColumnIndirect]"), true );
+[				endif
+			next
+		endif
+
+][=$lIndent]	cmdList.push_back( command );
+[	next
+]
+[=$lIndent]	bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLUpdate
+' ------------------------------------------------------------------------
+sub GenerateSQLUpdate( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	$lHasKeyColumns		= false
+	$lIsFirstMainCommand = true
+	foreach $lCommand in $rAction.Commands
+
+][=$lIndent]	command = CCommand( _T("[=$lCommand.Query]"), [=$lCommand.AutoReadFields] );
+[		foreach $lParameter in $lCommand.Parameters
+			if not $lParameter.IsConditionField
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lParameter.Name](), [ if $lParameter.IsAutoUpdate ]true[else]false[endif] );
+[			endif 
+		next
+
+		if $lCommand.IsMainCommand 
+			if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]	command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[			endif
+
+			foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lConditionField.Name]() );
+[			next
+
+			if not $rAction.HasMultipleMainCommands
+				$lHasKeyColumns = false
+				foreach $lKeyColumn in $rAlgorithm.KeyColumns
+					$lHasKeyColumns = true
+				next
+				if $lHasKeyColumns
+					foreach $lConditionField in $rAction.ConditionFields
+						if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]	command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[						endif
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lConditionField.Name]() );
+[					next
+				endif
+			endif
+
+		endif
+][=$lIndent]	cmdList.push_back( command );
+[	next
+]
+[=$lIndent]	bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLDelete:
+' ------------------------------------------------------------------------
+sub GenerateSQLDelete( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	foreach $lCommand in $rAction.Commands
+][=$lIndent]	command = CCommand( _T("[=$lCommand.Query]"), [=$lCommand.AutoReadFields] );
+[		if $lCommand.IsMainCommand 
+			if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]	command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[			endif
+
+			foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lConditionField.Name]() );
+[			next
+
+			if not $rAction.HasMultipleMainCommands
+				if $rAction.IsProceedChildren or $rAction.IsDeleteWithChildren
+					$lHasKeyColumns = false
+					foreach $lKeyColumn in $rAlgorithm.KeyColumns
+						$lHasKeyColumns = true
+					next
+					if $lHasKeyColumns
+						foreach $lConditionField in $rAction.ConditionFields
+							if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]	command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[							endif
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lConditionField.Name]() );
+[						next
+					endif
+				endif
+			endif
+
+		endif
+][=$lIndent]	cmdList.push_back( command );
+[	next
+]
+[=$lIndent]	bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[	if $rAction.IsProceedChildren or $rAction.IsDeleteWithChildren
+][=$lIndent]	_variant_t	vRowsToDelete = [=$lTargetParameter].GetRowsToDelete();
+[=$lIndent]	if( long(vRowsToDelete)==0 )
+[=$lIndent]		bRowsAffected = false;	// No rows to delete
+[=$lIndent]	else
+[=$lIndent]		bDeleteRow = true;
+
+[	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLFinalDelete
+' ------------------------------------------------------------------------
+sub GenerateSQLFinalDelete( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	foreach $lCommand in $rAction.DeleteCommands
+][=$lIndent]if( bDeleteRow )
+[=$lIndent]{
+[=$lIndent]	CCommandList	cmdList;
+[=$lIndent]	CCommand command = CCommand( _T("[=$lCommand.Query]"), [=$lCommand.AutoReadFields] );
+[		
+		if $lCommand.IsMainCommand 
+			if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]	command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[			endif
+
+			foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent]	command.AddParameter( [=$lTargetParameter].Get[=$lConditionField.Name]() );
+[			next
+		endif
+	next
+]
+[=$lIndent]	cmdList.push_back( command );
+[=$lIndent]	bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[=$lIndent]}
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLDeleteChildren
+' ------------------------------------------------------------------------
+sub GenerateSQLDeleteChildren( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	$lHasChildren = false
+	if $rAction.IsDeleteWithChildren
+][=$lIndent]	if( bRowsAffected )
+[=$lIndent]	{	// DeleteChildren
+[		foreach $lCommand in $rAction.DeleteChildrenCommands
+			$lHasChildren = true
+][=$lIndent]		command = CCommand( _T("[=$lCommand.Query]"), [=$lCommand.AutoReadFields] );
+[
+			if $lCommand.IsMainCommand 
+				if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Get[=$rAlgorithm.KeyFromParent]() );	// foreign-key value
+[				endif
+
+				foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent]		command.AddParameter( [=$lTargetParameter].Get[=$lConditionField.Name]() );
+[				next
+			endif
+
+][=$lIndent]		cmdList.push_back( command );
+[		next
+		if $lHasChildren
+]
+[=$lIndent]		bool bChildRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[		endif
+][=$lIndent]	}
+[
+	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLProceedWithChildren
+' ------------------------------------------------------------------------
+sub GenerateSQLProceedWithChildren( byref $rAction, byval $lIndent )
+	if not $rAction.IsProceedChildren
+][=$lIndent]	if( bRowsAffected )	// don't process children
+[=$lIndent]		bProcessChilds = false;
+[	endif
+endsub
+
+
+
+' EOF
+]

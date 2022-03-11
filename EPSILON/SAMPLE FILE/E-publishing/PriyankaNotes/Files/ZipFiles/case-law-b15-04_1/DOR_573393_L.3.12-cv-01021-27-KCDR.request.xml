@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE DISTRICT OF OREGON</venue.name>
+<venue.name>PORTLAND DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>CANTERBURY PARK CAPITAL L.P. and CANTERBURY PARK CAPITAL (U.S.) L.P., Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>JOSEPH V.R. MICALLEF, RICO MICALLEF, VINCENT A. MICALLEF, and ALLEGRO CORPORATION, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>No. 03:12-cv-01021-HZ</docket.line>
+<docket.number>03:12-cv-01021-HZ</docket.number>
+<docket.line suppress-flag="y">3:12-cv-01021-HZ</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/25/2012</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Derek D. Green, John F. McGrory, Jr., Sarah M. Villanueva, DAVIS WRIGHT TREMAINE, LLP, 1300 SW Fifth Avenue, Suite 2300 Portland, OR 97201-5630, Attorneys for Plaintiffs, Matthew P. Kanny, MANATT, PHELPS &#38; PHILLIPS, LLP, 11355 West Olympic Boulevard, Los Angeles, CA 90064</attorney.line>
+<attorney.line first-line="1">Kathryn P. Salyer, TOMASI SALYER BAROWAY, 121 SW Morrison Street, Suite 450, Portland, OR 97204-3136</attorney.line>
+<attorney.line first-line="1">Attorneys for Defendants, Joseph V.R. Micallef, Vincent, A. Micallef and Rico Micallef</attorney.line>
+<attorney.line first-line="1">Kimberley Hanks McGair, FARLEIGH WADA WITT, PC, 121 SW Morrison Street, Suite 600, Portland, OR 97204-3136, Attorney for Defendant Allegro, Corporation</attorney.line>
+<attorney.line first-line="1">HERNANDEZ, District Judge:</attorney.line></content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">OPINION &#38; ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">MARCO A. HERNANDEZ United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">HERNANDEZ, District Judge:</paratext></para>
+<para><paratext ID="p2" level="1">Plaintiffs Canterbury Park Capital L.P. and Canterbury Park Capital (U.S.) L.P. brought an action in Multnomah County Circuit Court over a shareholder agreement dispute with Defendants Joseph V.R. Micallef, Rico Micallef, Vincent A. Micallef, and Allegro Corporation. Defendants removed the state action to this court. Plaintiffs now move to remand to state court and request attorney fees for the time spent to bring this motion. Plaintiffs' motion to remand and their request for attorney fees are granted.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Plaintiffs are &#x201C;limited partnership[s] existing and organized under the laws of Canada.&#x201D; Notice of Removal of Action, Ex. 1 at 3. Defendants Joseph V.R. Micallef, Rico Micallef, and Vincent Micallef are all citizens of Oregon. <underscore>Id.</underscore> at 3-4. Defendant Allegro Corporation's principal place of business is in Oregon. <underscore>Id.</underscore> at 4. On June 7, 2012, Defendants removed the state action to this court based on diversity jurisdiction. 28 U.S.C. &#167;&#167; 1332(a), 1441(a). Plaintiffs timely filed this motion to remand on June 29, 2012.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>STANDARDS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">If a civil action is removable &#x201C;solely on the basis of&#x201D; diversity jurisdiction, the action &#x201C;may not be removed if any of the <charfill numchar="3">&#8228;</charfill> defendants [are] citizen[s] of the State in which such action is brought.&#x201D; 28 U.S.C. &#167; 1441(b)(2). &#x201C;A motion to remand the case on the basis of any defect other than lack of subject matter jurisdiction must be made within 30 days after the filing of the notice of removal. <charfill numchar="3">&#8228;</charfill>&#x201D; 28 U.S.C. &#167; 1447(c).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>DISCUSSION</bold></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging">I. Motion to Remand</headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Plaintiffs argue that removal is barred by &#167; 1441(b)(2) because Defendants are citizens of Oregon, the forum state. Pls.&#x2019; Mem. Supp. Mot. Rem., 3. &#x201C;Removal based on diversity jurisdiction is intended to protect out-of-state defendants from possible prejudices in state court.&#x201D; <underscore>Lively v. Wild Oats Mkts., Inc.</underscore>, 456 F.3d 933, 940 (9th Cir. 2006). However, when the defendant is a citizen of the forum state such protection becomes unnecessary. <underscore>Id.</underscore> Defendants concede that &#167; 1441(b)(2) generally precludes removal if a defendant is a citizen of the forum state. Defs.' Opp'n Mot. Remand, 8. But Defendants characterize their removal as a &#x201C;procedural&#x201D; defect and argue that the court has discretion to overlook the forum defendant rule. <underscore>Id.</underscore> at 9. Defendants ask this court to apply its discretion and deny the motion to remand.</paratext></para>
+<para><paratext ID="p6" level="1">&#x201C;[T]he presence of a local defendant at the time removal is sought bars removal.&#x201D; <underscore>Spencer v. U.S. Dist. Court</underscore>, 393 F.3d 867, 870 (9th Cir. 2004). However, a &#x201C;violation&#x201D; of &#167; 1441(b) &#x201C;constitutes a waivable non-jurisdictional defect subject to the 30-day time limit imposed by &#167; 1447(c).&#x201D; <underscore>Lively</underscore>, 456 F.3d at 942. In <underscore>Lively</underscore>, plaintiff did not move to remand, but the district court remanded <ital>sua sponte</ital>, months after the 30-day time limit had passed. <underscore>Id.</underscore> at 935. The court of appeals, found that the district court had exceeded its authority under &#167; 1447(c) and vacated the order to remand. <underscore>Id.</underscore> at 942. Here, Plaintiffs objected to the removal within the 30-day time limit. Thus, unlike <underscore>Lively</underscore>, Plaintiffs did not waive the &#x201C;defect&#x201D; in Defendants' removal. Defendants' reliance on <underscore>Hood Custom Homes, LLC v. Ill. Nat'l Ins. Co.</underscore>, No. 08-1506-JE, 2009 U.S. Dist. LEXIS 32060 (D. Or. Apr. 14, 2009) is also misplaced. In <underscore>Hood</underscore>, the court used its discretion to deny the motion to remand that was &#x201C;based upon minor procedural defects which [were] not cured within the removal period.&#x201D; <underscore>Id.</underscore> at *15 (procedural defect occurred when defendant failed to attach two exhibits in the notice of removal). The defect in <underscore>Hood</underscore> did not involve the forum defendant rule. Neither <underscore>Lively</underscore> nor <underscore>Hood</underscore> are directly applicable to this case. Defendants have not presented any cases that suggests &#167; 1441(b) is discretionary when a plaintiff has timely objected to removal. Plaintiffs' motion to remand is granted.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging">II. Attorney Fees</headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">Plaintiffs seek costs and expenses incurred as a result of Defendants' removal. &#x201C;An order remanding the case may require payment of just costs and any actual expenses, including attorney fees, incurred as a result of the removal.&#x201D; 28 U.S.C. &#167; 1447(c). &#x201C;&#x2018;Absent unusual circumstances, courts may award attorney's fees under &#167; 1447(c) only where the removing party lacked an objectively reasonable basis for seeking removal. Conversely, when an objectively reasonable basis exists, fees should be denied.&#x2019;&#x201D; <underscore>Gardner v. UICI</underscore>, 508 F.3d 559, 561 (9th Cir. 2007) (quoting <underscore>Martin v. Franklin Capital Corp.</underscore>, 546 U.S. 132, 141 (2005)). &#x201C;[W]hether a removal is improper is not dispositive in determining whether fees should be awarded under 28 U.S.C. &#167; 1447(c). Rather, the standard for awarding fees <charfill numchar="3">&#8228;</charfill> turn[s] on the reasonableness of the removal.&#x201D; <underscore>Id</underscore> at 562 (quotation omitted).</paratext></para>
+<para><paratext ID="p8" level="1">On June 15, 2012, Plaintiffs advised Defendants that removal was improper because of &#167; 1441(b) and requested that Defendants remand the case to state court. Decl. of Matthew P. Kanny Supp. Defs.' Opp'n (&#x201C;Kanny Decl.&#x201D;) Ex. C at 2. Plaintiffs also warned that they would seek fees if &#x201C;forced to file a motion for remand.&#x201D; <underscore>Id</underscore> On June 18, 2012, Plaintiffs reiterated their position that Defendants' removal was improper because of &#167; 1441(b). Decl. of John F. McGrory, Jr. Supp. Pls.&#x2019; Reply &#182; 4. On June 20, 2012, Plaintiffs contacted Defendants again to discuss the removal issue. <underscore>Id</underscore> at &#182;&#182; 5-6. On June 22, 2012, Defendants explained their position on the issue and responded unequivocally that &#x201C;[Defendants] will not agree to remand the action.&#x201D; Kanny Decl. Ex. D at 3.</paratext></para>
+<para><paratext ID="p9" level="1">Plaintiffs alerted Defendants to the improper removal before filing their motion to remand. Defendants have not presented any persuasive authority to justify their position on &#167; 1441(b). Therefore, the request for costs and expenses is granted.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Plaintiffs' motion to remand [#10] is granted. This action is remanded to state court and Plaintiff is awarded costs and expenses incurred in the filing of this motion.</paratext></para>
+<para><paratext ID="p11" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p12" level="1">Dated this <underscore>25</underscore> day of October, 2012.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

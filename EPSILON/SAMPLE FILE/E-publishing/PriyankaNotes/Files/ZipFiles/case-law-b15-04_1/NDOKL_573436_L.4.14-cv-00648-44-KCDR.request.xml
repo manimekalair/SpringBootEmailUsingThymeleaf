@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>TRINITY CHEMICAL INDUSTRIES, L.L.C., Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>MENLO ENERGY, L.L.C. and MENLO CAPITAL GROUP, L.L.C. Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No. 14-CV-648-JED-FHM</bold></docket.line>
+<docket.number>14-CV-648-JED-FHM</docket.number>
+<docket.line suppress-flag="y">4:14-cv-00648-JED-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 06/01/2016</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JOHN E. DOWDELL UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is plaintiff Trinity Chemical Industries, L.L.C.'s Motion for Default Judgment against defendants Menlo Energy, L.L.C. and Menlo Capital Group, L.L.C. (Doc. 40). Pursuant to LCvR7.2(n), plaintiff subsequently filed a Notice of Matter under Advisement requesting that the Court grant plaintiff's Motion. (Doc. 41).</paratext></para>
+<para><paratext ID="p2" level="1">On October 12, 2015, counsel for defendants submitted an Unopposed Motion for Leave to Withdraw as Counsel of Record for Defendants (Doc. 34), representing that counsel was unable to adequately represent defendants because defendants had &#x201C;stopped communicating&#x201D; with counsel. The Court entered an Order granting the motion on October 14, 2015, directing defendants to &#x201C;cause new counsel to enter an appearance&#x201D; within thirty (30) days of receipt of the Order. (Doc. 35). The Court made clear that defendants' failure to comply with the Order could result in a Judgment against defendants. (<ital>Id.</ital>). The Court also directed counsel to mail a copy of the Order to the defendants. (<ital>Id.</ital>).</paratext></para>
+<para><paratext ID="p3" level="1">In its Motion, plaintiff argues that, pursuant to Fed. R. Civ. P. 16(f), default judgment against defendants is appropriate because defendants have failed to cause substitute counsel to enter an appearance in this case, in violation of the Court's October 14, 2015 Order. (Doc. 40, &#182; 3). Specifically, plaintiff requests judgment in the amount of $1,134,765.23 plus interest at 8% per annum from October 31, 2015, and reasonable attorneys' fees (<ital>Id.</ital>, &#182; 4). Plaintiff's Notice further states that defendants' failure to comply with the Court's October 14, 2015 Order, combined with defendants' failure to respond to discovery requests served on August 26, 2015, has caused the case to become stalled.</paratext></para>
+<para><paratext ID="p4" level="1">The Court is sensitive to plaintiff's concerns and does not take lightly defendants' failure to participate in discovery or failure to comply with the Order. However, because there is a strong preference to &#x201C;decide cases on their merits,&#x201D; a district court's &#x201C;dismissal or default sanctions order should be predicated on &#x2018;willfulness, bad faith, or [some] fault&#x2019; rather than just a simple &#x2018;inability to comply.&#x2019;&#x201D; <ital>Lee v. Max Int'l, LLC</ital>, 638 F.3d 1318, 1321 (10th Cir. 2011) (quoting <ital>Archibeque v. Atchison, Topeka &#38; Santa Fe Ry.</ital>, 70 F.3d 1172, 1174 (10th Cir. 1995)) (affirming district court's dismissal of the case with prejudice after plaintiffs were afforded multiple chances to produce discovery). Here, there is nothing in the record to indicate that defendants have acted willfully or in bad faith.</paratext></para>
+<para><paratext ID="p5" level="1">Accordingly, the Court finds it appropriate to allow defendants thirty (30) days from the date of receipt of this Order to cause new counsel to enter an appearance in this matter and to respond to plaintiff's discovery requests. Defendants are advised that any subsequent failure to comply with this Court's directives will likely result in the entrance of Judgment against defendants.</paratext></para>
+<para><paratext ID="p6" level="1">IT IS THEREFORE ORDERED that plaintiff's Motion for Default Judgment (Doc. 40) is <bold>denied</bold> at this time. The Court Clerk is directed to mail a copy of this Order to the defendants' last known address:</paratext></para>
+<para><paratext ID="p7" level="1">Menlo Energy, L.L.C. and Menlo Capital Group, L.L.C., c/o Sunil Suri, 555 California Street, Floor 46, San Francisco, CA 94104</paratext></para>
+<para><paratext ID="p8" level="1">SO ORDERED this 1st day of June, 2016.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

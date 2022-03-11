@@ -1,0 +1,72 @@
+New features from Epsilon 7.0 to Epsilon 8.0:
+
+This version includes a 32-bit native Windows executable for Windows
+95 and Windows NT, a 16-bit Windows version designed for Windows 3.1,
+and an updated DOS version of Epsilon.  Epsilon for OS/2 includes the
+above, plus a 16-bit text-mode OS/2 version, with features similar to
+the DOS version.  All four versions share most customization files.
+
+The 32-bit Windows version of Epsilon can use long file names.
+Under Windows 95, the DOS version can too.
+
+Epsilon for Windows 95/NT displays a customizable tool bar by
+default.
+
+The complete Epsilon manual is included as a searchable Windows
+help file.  You can directly see and set variables and execute
+commands from the help system.
+
+The "dired" directory editor can start another program using
+Windows file associations, to view or execute a selected file.
+
+Epsilon for Windows has new printing abilities, including color
+printing.
+
+You can drag files and drop them onto an Epsilon window, and
+Epsilon will open the file and display it in that window.  Drop a
+directory to get a dired listing.
+
+Epsilon provides easy access to some compiler help files and other
+on-line documentation.  You can search for keywords in multiple help
+files.
+
+Epsilon can remember the current directory from session to session.
+
+The "bufed" buffer list can sort buffers by most recent use, in
+addition to its other sorting options.  As you move in the buffer
+list, Epsilon shows the text of the current line's buffer.
+
+Several commands in Epsilon support the notion of an "untitled"
+buffer.  You can create a buffer without specifying a file name, and
+Epsilon will prompt for the file name when you save it.
+
+New commands locate and delete repeated lines in a buffer, and
+a variety of similar tasks.
+
+In the Windows version, Epsilon's concurrent process buffer runs in a
+separate task, and no longer has to share memory with Epsilon.  As a
+result, much larger programs can run concurrently.
+
+A new Windows-based install program makes it quicker to get started
+using Epsilon.
+
+Epsilon's mechanism for handling international characters is much
+simpler.
+
+You can select text by holding down the shift key and using the arrow
+keys.  You can replace text by highlighting it and typing replacement
+text.  See the typing-deletes-highlight variable.
+
+When Epsilon prompts for various kinds of responses, it automatically
+inserts a default response.  See the insert-default-response variable.
+
+When Epsilon prompts for a file, it includes the path of the current
+file in its prompt, like Gnu Emacs.  See the
+prompt-with-buffer-directory variable.
+
+Epsilon recognizes the .java extension, and knows about Java and
+JavaScript keywords.
+
+The OS/2 version of Epsilon uses the same state and bytecode files as
+all other versions.  Users switching between OS/2 and other versions
+no longer need to make each customization twice.

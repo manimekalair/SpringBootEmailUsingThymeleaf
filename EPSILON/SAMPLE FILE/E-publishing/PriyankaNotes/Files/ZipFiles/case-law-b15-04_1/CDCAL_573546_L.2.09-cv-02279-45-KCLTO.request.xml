@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>Flooring 101, Inc.</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>Shaw Industries, Inc., et al.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-2279 DSF (Ex)</docket.line>
+<docket.number>CV 09-2279 DSF (Ex)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-02279-DSF-E</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/07/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Debra Plato, Deputy Clerk, Attorneys Present for Plaintiffs: Not Present</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter, Attorneys Present for Defendants: Not Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Proceedings:</bold> (In Chambers) Order GRANTING Petitioner's Motion for Contractual Attorney's Fees (Docket No. 30)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable DALE S. FISCHER, United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On August 10, 2009, the Court granted Petitioner Flooring 101, Inc.'s motion to compel arbitration under the terms of the parties' Settlement Agreement. (Dkt. No. 27.) On August 21, 2009, Respondents Shaw Industries, Inc. filed a motion for reconsideration. (Dkt. No. 29.) The motion for reconsideration is denied in a separate order.</paratext></para>
+<para><paratext ID="p2" level="1">Petitioner filed a motion for contractual attorney's fees on August 24, 2009, (Dkt. No. 30), which Respondents opposed, (Dkt. No. 40). The Court heard argument on the motion on October 5, 2009.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. ANALYSIS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">The parties' Settlement Agreement provides for the arbitration of disputed claims. (Pet'r Mot. for Att'ys Fees, Ex. 5A &#182; 5(c).) Where &#x201C;any additional or further legal proceedings are necessary <charfill numchar="3">&#8228;</charfill> for enforcement&#x201D; of the terms of the Settlement Agreement, Paragraph 22 of the Agreement provides for the award of attorney's fees. (<underscore>Id.</underscore> Ex. 5A &#182; 22.) Petitioner contends it is entitled to attorney's fees incurred in bringing its motion to compel arbitration. The Court finds that Petitioner is a &#x201C;prevailing party&#x201D; under California Civil Code &#167; 1717. However, Petitioner's estimate of attorney's fees does not appear reasonable. <underscore>See</underscore> Fed. R. Civ. P. 54(d) (requiring a reasonable estimate of fees).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. Petitioner Is a &#x201C;Prevailing Party&#x201D; Under &#167; 1717</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">When suit is brought on the basis of a contract and the terms of the contract provide for the award of attorney's fees, the court shall award attorney's fees to the prevailing party. Cal. Civ. Code &#167; 1717(a). The prevailing party is &#x201C;the party who recovered a greater relief in the action on the contract.&#x201D; <underscore>Id.</underscore> &#167; 1717(b)(1).<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Although the court has some discretion in naming the prevailing party, a party is entitled to fees as a matter of law when the statutory requirements are met. <underscore>Hsu v. Abbara</underscore>, 9 Cal. 4th 863, 871-72, 877 (1995).</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;Several cases cited by Respondents for support were decided under previous versions of &#167; 1717. <underscore>See, e.g., Lachkar v. Lachkar</underscore>, 182 Cal. App. 3d 641, 648 (1986) (no prevailing party where &#167; 1717 defined &#x201C;prevailing party&#x201D; as the party &#x201C;entitled to recover costs of suit&#x201D;); <underscore>Bank of Idaho v. Pine Ave. Assocs.</underscore>, 137 Cal. App. 3d 5, 16 (1982) (same). Recent cases have distinguished these decisions based on the amended version of &#167; 1717. <underscore>See, e.g., Turner v. Schultz</underscore>, 175 Cal. App. 4th 974, 984 n.5 (2009); <underscore>Acosta v. Kerrigan</underscore>, 150 Cal. App. 4th <underscore>1124, 1132 n.16 (2007).</underscore></paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p6" level="1">A party prevails in an action on a contract when the party &#x201C;defeats recovery <charfill numchar="3">&#8228;</charfill> on the only contract claim in the action.&#x201D; <underscore>Id.</underscore> at 876; <underscore>see also Turner v. Schultz</underscore>, 175 Cal. App. 4th 974, 983 (2009); <underscore>Otay River Constructors v. San Diego Expressway</underscore>, 158 Cal. App. 4th 796, 807 (2008). As long as the party obtains &#x201C;the final resolution of a discrete legal proceeding,&#x201D; that party is entitled to attorney's fees. <underscore>Otay River</underscore>, 158 Cal. App. 4th at 807.</paratext></para>
+<para><paratext ID="p7" level="1">Where a party's success on a contractual issue is resolved independently of the merits of the underlying claim, the party is the prevailing party &#x201C;even though the underlying litigation on the merits [is] not final.&#x201D; <underscore>Id.</underscore> (<underscore>citing Christensen v. Dewor Devs.</underscore>, 33 Cal. 3d 778, 786-87 (1983)); <underscore>see also Turner</underscore>, 175 Cal. App. 4th at 983. Although the merits of the <underscore>contractual issue</underscore> must be determined with finality, resolution of the merits of the underlying dispute is unnecessary. <underscore>Otay River</underscore>, 158 Cal. App. 4th at 808. Rather, where a party is entitled to relief &#x201C;[i]rrespective of who becomes the prevailing party&#x201D; in subsequent proceedings, <underscore>Turner</underscore>, 175 Cal. App. 4th at 983, that party has &#x201C;already prevailed in an independent proceeding contemplated in the contract.&#x201D; <underscore>Acosta v. Kerrigan</underscore>, 150 Cal. App. 4th 1124, 1132 (2007) (party was entitled to &#x201C;fees incurred while enforcing an independent provision of the contract <charfill numchar="3">&#8228;</charfill> even if he loses the case on the merits in arbitration&#x201D;).</paratext></para>
+<para><paratext ID="p8" level="1">If a party succeeds on a motion to compel arbitration, it is the prevailing party for &#167; 1717 purposes. Although earlier cases suggested that final resolution of arbitration is required before attorney's fees can be awarded, recent case law clarifies that it is not. <underscore>See, e.g., Otay River</underscore>, 158 Cal. App. 4th at 807 (<underscore>citing Christensen</underscore>, 33 Cal. 3d at 786-87 (attorney's fees appropriate where party successfully opposed a motion to compel arbitration)).</paratext></para>
+<para><paratext ID="p9" level="1">For example, in <underscore>Turner</underscore>, the plaintiff sought a preliminary injunction against defendants who had brought a motion to compel arbitration in another proceeding. <underscore>Turner</underscore>, 175 Cal. App. 4th at 977-78. When the trial court denied relief in the injunction suit, the defendants were entitled to attorney's fees even though the merits of the arbitration claim had not yet been determined. The court of appeal found that &#x201C;defendants' entitlement to attorney fees in this legal action is independent of the outcome of the arbitration of the merits of the underlying dispute.&#x201D; <underscore>Id.</underscore> at 983.</paratext></para>
+<para><paratext ID="p10" level="1">The <underscore>Turner</underscore> court distinguished the cases cited by Respondents because none of those cases involved a discrete, separate legal proceeding based on an independent contractual claim. <underscore>See id.</underscore> at 983 n.4, 984. Rather than requesting attorney's fees based on an independent contractual issue such as a motion to compel arbitration, the parties in each case sued for attorney's fees based on &#x201C;an interim ruling, where further proceedings <ital>in the same litigation</ital> were contemplated.&#x201D;<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> <underscore>Id.</underscore> at 984. Because none of these interim rulings constituted a final determination of the parties' rights on any substantive issue, the parties were not prevailing parties entitled to attorney's fees. On the other hand, in <underscore>Turner</underscore>, where the defendants sued for the costs of bringing a motion to compel arbitration pursuant to the terms of a contractual agreement, the defendants were entitled to attorney's fees because success on the motion would be unaffected by future arbitration. <underscore>Id.</underscore> at 984.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p11">&#8195;<underscore>E.g., Bank of Idaho</underscore>, 137 Cal. App. 3d at 7 (party was successful in reinstating a complaint that had been dismissed); <underscore>Presley of S. Cal. v. Whelan</underscore>, 146 Cal. App. 3d 959, 960 (1983) (party obtained a reversal of summary judgment); <underscore>Estate of Drummond</underscore>, 149 Cal. App. 4th 46, 49 (2007) (party successfully argued an action should be dismissed and refiled in a different <underscore>department of the court).</underscore></paratext></para>
+</footnote.body></footnote>
+<para><paratext ID="p12" level="1">Respondents contend that <underscore>Turner</underscore> is distinguishable because the injunction suit (on which the attorney's fees claim was based) and the motion to compel arbitration were separate proceedings. (Resp. Opp. 14.) This distinction is irrelevant. The court's decision in the suit for injunctive relief was not final and independent because the injunctive suit was separate from the suit to compel arbitration; it was final and independent because it would not be affected by the resolution of the merits of arbitration. Although the <underscore>Turner</underscore> court noted the &#x201C;particular procedural context&#x201D; of the case, it was not emphasizing the existence of separate proceedings as Respondents contend. Rather, it was emphasizing that the case involved an &#x201C;independent&#x201D; issue that could be resolved in a &#x201C;discrete legal proceeding.&#x201D; <underscore>See Turner</underscore>, 175 Cal. App. 4th at 983. That is exactly the context here.</paratext></para>
+<para><paratext ID="p13" level="1">Because Petitioner brought suit under an independent contractual provision &#8211; Paragraph 22 of the Settlement Agreement &#8211; and the favorable resolution of that suit will not be affected by the outcome of arbitration, the termination of arbitration is not required for Petitioner to be the prevailing party in this action. While parties are not entitled to attorney's fees on the basis of &#x201C;any interim ruling or motion,&#x201D; (Resp. Opp. 6), a judgment on a petition to compel arbitration is not an interim ruling, but rather a final and appealable order of an independent legal issue. <underscore>See</underscore> 9 U.S.C. &#167; 16(a)(3). Petitioner is entitled to attorney's fees as the prevailing party on the motion to compel arbitration.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>B. Petitioner Has Not Fully Complied with the Requirements of FRCP 54(d)</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">Federal Rule of Civil Procedure 54 sets out requirements for filing a motion for attorney's fees. Fed. R. Civ. P. 54(d)(2)(B)(I)-(iv). Per these requirements, Petitioner filed its motion within 14 days of the Court's order granting Petitioner's motion to compel arbitration, and Petitioner stated the judgment and statute entitling it to the award of attorney's fees. (Pet'r Mot. for Att'ys Fees 1-2.) However, Petitioner's estimate of the fees to which it is entitled appears excessive for the reasons stated on the record.</paratext></para>
+<para><paratext ID="p15" level="1">Where jurisdiction is based on diversity, federal courts exercise their discretion in granting attorney's fees within the parameters of forum state law. <underscore>Kona Enters., Inc. v. Estate of Bishop</underscore>, 229 F.3d 877, 883 (9th Cir. 2000). Under California law, &#x201C;[w]here a contract provides for attorneys' fees but does not specify a particular sum, it is within the trial court's discretion to determine what constitutes reasonable attorneys' fees.&#x201D; <underscore>Niederer v. Ferreira</underscore>, 189 Cal. App. 3d 1485, 1507 (1987). The trial court's consideration should include the following factors: (1) the nature and difficulty of the litigation, (2) the amount of money involved in the litigation, (3) the skill required to handle the litigation, (4) the attention given the case, (5) the skill and experience of the attorney handling the case, (6) the intricacy and importance of the litigation, (7) the required labor and necessity of highly skilled legal practitioners, and (8) the amount of time spent on the case. <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p16" level="1">Petitioner's request for attorney's fees does not provide a sufficient basis for evaluating these factors. The Court orders Petitioner to submit a revised request, including copies of counsel's billing records.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="1">Because it prevailed on a motion to compel arbitration under the parties' Settlement Agreement, Petitioner is entitled to attorney's fees under Paragraph 22 of the Settlement Agreement and California Civil Code &#167; 1717. The parties shall meet and confer. If no agreement is reached, Petitioner shall file a revised request for reasonable attorney's fees.</paratext></para>
+<para><paratext ID="p18" level="1">IT IS SO ORDERED.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

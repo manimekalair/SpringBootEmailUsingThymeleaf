@@ -1,0 +1,144 @@
+  File  Edit  Window  Search  Process  Utility  Help  
+
+# This file contains data for the Epsilon menu system.	The first line
+# holds the main menu bar.  Each entry must have spaces on both sides.
+# The submenus below each begin with a line that has the submenu title
+# from the main menu (again, with spaces on both sides), then the width
+# of the submenu to create, not including command bindings.  Then the
+# submenu entries, each line containing the item name, one or more tab
+# characters, and the definition (must be the name of a function to
+# execute).  A line starting with a tab puts a blank line in the menu.
+# An actual blank line ends the submenu.  A line starting with # is a 
+# comment.
+
+# If an entry contains a binding (that is, if text before the tab
+# character extends past the column width indicated for that submenu),
+# Epsilon uses the binding text as-is.	Otherwise, Epsilon adds
+# bindings when it first displays a submenu.
+
+# Copyright 1992, 1997 Lugaru Software Ltd.  Pittsburgh, PA.
+# All Rights Reserved.	(412) 421-5911.
+
+ File 20
+Open...			find-file
+Save			save-file
+Save as...		write-file
+Revert to saved		revert-file
+Close			kill-current-buffer
+			####
+Copy to file...		copy-to-file
+Insert file...		insert-file
+Write region...		write-region
+			####
+Print...			print-buffer
+			####
+Change directory...	cd
+Exit			exit
+
+ Edit 17
+Undo			undo
+Redo			redo
+			####
+Copy			brief-copy-region
+Cut			brief-cut-region
+Paste			yank
+Paste other		yank-pop
+Delete			brief-delete-region
+			####
+Capitalize word		capitalize-word
+Uppercase word		uppercase-word
+Lowercase word		lowercase-word
+Transpose words		transpose-words
+			####
+Fill paragraph		fill-paragraph
+Indent region		indent-region
+Indent rigidly		indent-rigidly
+Fill mode		auto-fill-mode
+Insert ASCII...		insert-ascii
+
+ Window 23
+Select buffer...		bufed
+Split window...			brief-split-window
+Delete window...		brief-delete-window
+				####
+Select screen size...		set-video
+Set colors...			set-color
+Set display look...		set-display-look
+Toggle borders			toggle-borders
+Show spaces			change-show-spaces
+Change line wrapping		change-line-wrapping
+				####
+Toggle menu bar			toggle-menu-bar
+Toggle scroll bars		toggle-scroll-bar
+
+ Search 26
+Search forward...		string-search
+Search backward...		reverse-string-search
+Search again			search-again
+				###
+Grep...				grep
+Show next match			next-match
+Show previous match		previous-match
+				###
+Query replace...		query-replace
+File query replace...		file-query-replace
+Replace string...		replace-string
+Regex search forward...		regex-search
+Regex search backward...	reverse-regex-search
+Regex replace...		regex-replace
+				###
+Delete matching lines...	delete-matching-lines
+Keep matching lines...		keep-matching-lines
+
+ Process 20
+Make				make
+Compile buffer			compile-buffer
+				#####
+View process...			view-process
+Show next error			next-error
+Show previous error		previous-error
+				#####
+Start Concurrent		start-process
+Stop Concurrent			stop-process
+Exit Concurrent			exit-process
+Push to shell			push
+
+ Utility 23
+Pluck tag				pluck-tag
+Go to tag...				goto-tag
+Tag files...				tag-files
+Select tag file...			select-tag-file
+					#####
+Drop bookmark          Alt-Digit	brief-drop-bookmark
+Jump to bookmark...			brief-jump-to-bookmark
+Go to line...				goto-line
+					#####
+Compare					compare-windows
+Diff...					diff
+Visual Diff				visual-diff
+					#####
+Sort Buffer				sort-buffer
+Sort Region				sort-region
+					#####
+Run last macro				last-kbd-macro
+Repeat command...			argument
+Edit variables...			edit-variables
+Bind command to key...			bind-to-key
+Run another command...			named-command
+
+ Help 21
+Describe key...			describe-key
+Describe command...		describe-command
+Describe variable...		describe-variable
+Apropos...			apropos
+				####
+Show bindings...		show-bindings
+What is key...			what-is
+Show last keys...		show-last-keys
+Show point			show-point
+Count lines			count-lines
+				####
+Release notes			release-notes
+About Epsilon...		about-epsilon
+
+There must be a blank line after the last item.

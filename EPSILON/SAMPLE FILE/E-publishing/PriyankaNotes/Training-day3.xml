@@ -1,0 +1,25 @@
+Book
+Book-body
+
+Part: No., Title, Subtitle, Author-group, Heading levels/para
+
+Chapter: Chap-Frontmatter(cf), Chap-Body(cb), Chap-Back(cbk)
+
+Chap-Front-M: Chap no, Title, Subtitle, Author group
+
+Chap-Body: Heading levels/subheadings, para, fig, tables
+
+Chap-Back: References, Notes, Index
+
+<fig id="fig1">
+<label>Fig .1</label>
+<caption><title>===========</title></caption>
+<graphic xml:href="images/fig1.jpg" type="jpg"/>
+</fig>
+
+Table no, title, thead, tbody, tfoot
+thead: th, td
+tbody: tr, td
+tfoot: <fn><p>
+
+tab

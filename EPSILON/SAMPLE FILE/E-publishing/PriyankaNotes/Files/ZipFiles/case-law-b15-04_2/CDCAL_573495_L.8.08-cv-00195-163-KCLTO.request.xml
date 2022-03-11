@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><underscore>CIVIL MINUTES &#8211; GENERAL</underscore></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>All Cities Realty, Inc.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>Hollymax Realty, Inc., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. <underscore>SA CV 08-195-AHS(MLGx)</underscore></docket.line>
+<docket.number><underscore>SA CV 08-195-AHS(MLGx)</underscore></docket.number>
+<docket.line suppress-flag="y">8:08-cv-00195-AHS-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/26/2010</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Loretta Anderson, Deputy Clerk, <bold>ATTORNEYS PRESENT</bold>: None</attorney.line>
+<attorney.line first-line="1">Not Present, Court Reporter</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS:</bold> (IN CHAMBERS) ORDER: (1) DISMISSING DEFAULT DEFENDANTS WITH PREJUDICE; (2) DENYING PLAINTIFF'S MOTION FOR ENTRY OF DEFAULT JUDGMENT (DKT. NO. 160); (3) DISCHARGING THE COURT'S OCTOBER 12, 2010 ORDER TO SHOW CAUSE (DKT. NO. 158); AND, (4) DENYING AS MOOT DEFENDANT SIMON SHAHERI'S MOTION TO SET ASIDE CLERK'S ENTRY OF DEFAULT (DKT. NO. 150)</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold>HON. <underscore>ALICEMARIE H. STOTLER</underscore>, U.S. DISTRICT JUDGE</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Procedural History and Discharge of Order to Show Cause</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">On October 12, 2010, the Court issued to plaintiff an Order to Show Cause (&#x201C;OSC&#x201D;) why default defendants<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> should not be dismissed with prejudice. Plaintiff was ordered to file a response no later than October 19, 2010. Because plaintiff's October 19, 2010 response is deficient, as hereinafter set out, the Court dismisses the default defendants with prejudice, denies plaintiff's motion for entry of default judgment, and discharges the OSC as unsatisfactorily answered.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p2">&#8195;As set forth in the Court's May 5, 2010 OSC, the default defendants are Arianne Kays, Colette Stevens, Simon Shaheri and Allen Jackson.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Order Discharging the Court's October 12, 2010 Order to Show Cause and Dismissing Default Defendants with Prejudice</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">For the reasons set forth fully below, the default defendants are hereby DISMISSED with prejudice.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">On May 5, 2010, the Court issued to plaintiff an OSC to show cause why the case should not be dismissed as to the default defendants pursuant to Fed. R. Civ. P. Rule 41 for lack of prosecution. Plaintiff's response was due no later than May 28, 2010. Plaintiff filed no response. The Court dismissed the default defendants with prejudice on June 3, 2010.</paratext></para>
+<para><paratext ID="p5" level="1">On June 28, 2010, plaintiff filed a motion for relief from the dismissal order. On July 14, 2010, the Court took the unopposed motion under submission, vacated dismissal of the default defendants, and granted plaintiff 30 days to file default judgment applications.</paratext></para>
+<para><paratext ID="p6" level="1">Plaintiff's default judgment applications were not filed by August 13, 2010; instead, they were untimely filed on August 16, 2010. On September 23, 2010, the Clerk issued a Notice of Deficiency regarding the applications.</paratext></para>
+<para><paratext ID="p7" level="1">On October 12, 2010, no corrective action having been taken by plaintiff, the Court issued the pending OSC, ordering plaintiff to show cause why the case should not once again be dismissed against the default defendants for failure to comply with Court orders and lack of prosecution under Fed. R. Civ. P. 41(a).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. Plaintiff's Deficient OSC Response</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Notwithstanding the many opportunities afforded plaintiff to apply for default judgment against the default defendants, plaintiff's amended default judgment application continues to violate the Court's Local Rules and the Federal Rules of Civil Procedure.</paratext></para>
+<para><paratext ID="p9" level="1">First, plaintiff fails to comply with the notice requirements of L.R. 55-1(e), requiring a sworn statement that &#x201C;notice has been served on the defaulting party,&#x201D; if required under Fed. R. Civ. P. 55(b)(2)). Written notice is required in this instance under Rule 55(b)(2) because the default defendants have appeared in this action through former counsel, Cislo &#38; Thomas LLP. The fact that three of the default defendants are now <ital>pro se</ital> and the fourth obtained new counsel does not excuse plaintiff from providing notice.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> In an apparent attempt to satisfy the notice requirement, plaintiff states that notice was served &#x201C;per the proof of service attached to the Request to Enter Default.&#x201D; (Dkt. No. 160-1, Miner Decl., at &#182; 3(e).) However, Rule 55(b)(2) requires &#x201C;written notice of the [default judgment] application.&#x201D; Fed. R. Civ. P. 55(b)(2). Notice of an earlier request for the Clerk to enter default is insufficient, as is plaintiff's proffered notice of its motion for relief from the Court's dismissal order, and notice of the Court's order granting same.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p10">&#8195;Although defendant Simon Shaheri disputes that Cislo &#38; Thomas LLP ever represented him, plaintiff is aware that Shaheri is currently represented by new counsel, and it is undisputed that plaintiff did not serve a copy of the default judgment application on Shaheri or his current counsel. According to plaintiff's proof of service, only the answering defendants were served. (<underscore>See</underscore> Dkt. No. 135 at 10-11.)</paratext></para></footnote.body></footnote>
+<para><paratext ID="p11" level="1">Second, in violation of L.R. 55-2, plaintiff fails to provide notice to the default defendants of the amount requested. Even if plaintiff had served a copy of the default judgment application on the default defendants, the application contains requests for conflicting amounts. (<underscore>Compare</underscore> Dkt. No. 160-1, Miner Decl., at &#182; 14 (requesting $100,000 per defendant), <underscore>with</underscore> Dkt. No. 160 at p. 14 (requesting $341,240 per defendant).)</paratext></para>
+<para><paratext ID="p12" level="1">Third, in violation of L.R. 58-11, plaintiff fails to provide a proposed default judgment.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>C. Dismissal with Prejudice</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Given plaintiff's repeated disregard and violation of Court orders, as well as its lack of compliance with local and federal rules, the Court finds plaintiff has not prosecuted this case as to the default defendants with the required &#x201C;reasonable diligence.&#x201D; <underscore>Anderson v. Air West, Inc.</underscore>, 542 F.2d 522, 524 (9th Cir. 1976). The Ninth Circuit has consistently held that &#x201C;failure to prosecute diligently is sufficient by itself to justify a dismissal, even in the absence of a showing of actual prejudice to the [default defendants].&#x201D; <underscore>Id.</underscore> Thus, the Court discharges the October 12, 2010 OSC and DISMISSES the default defendants with prejudice.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. Motion to Vacate Clerk's Entry of Default</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">On September 27, 2010, defendant Simon Shaheri filed a motion to set aside Clerk's entry of default. On October 11, 2010, plaintiff filed untimely opposition.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> On October 13, 2010, Shaheri filed his &#x201C;Objection in Reply&#x201D; to plaintiff's opposition.</paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p15">&#8195;In further violation of the Local Rules, plaintiff's opposition violates L.R. 7-9, requiring any opposition papers to be filed no later than twenty-one (21) days before the date designated for hearing of the motion. The motion was noticed for hearing on October 25, 2010, making plaintiff's opposition due no later than October 4, 2010.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p16" level="1">Because this order dismisses Shaheri with prejudice, the Court DENIES Shaheri's motion as moot.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="1">For the foregoing reasons, the Court dismisses defendants Arianne Kays, Colette Stevens, Simon Shaheri, and Allen Jackson, with prejudice, and denies plaintiff's motion for default judgment (Dkt. No. 160). The Court discharges the October 12, 2010 OSC (Dkt. No. 158) as unsatisfactorily answered. The Court denies as moot Shaheri's motion to set aside Clerk's entry of default (Dkt. No. 150).</paratext></para>
+<para><paratext ID="p18" level="1">The Clerk shall serve this minute order on all counsel currently of record and/or all parties who have appeared in this action.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

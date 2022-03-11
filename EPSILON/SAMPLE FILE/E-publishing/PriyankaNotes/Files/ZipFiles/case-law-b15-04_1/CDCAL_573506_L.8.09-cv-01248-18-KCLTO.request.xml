@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>MARK M. OXFORD, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>THE LINC GROUP, INC., OPERATIONAL SUPPORT SERVICES, REEP, INC., AND LINC GOVERNMNET SERVICES Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Case No.: SACV 09-01248-CJC(ANx)</bold></docket.line>
+<docket.number><bold>SACV 09-01248-CJC(ANx)</bold></docket.number>
+<docket.line suppress-flag="y">8:09-cv-01248-CJC-AN</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/19/2010</date.line>
+</content.date>
+<procedural.history xml:lang="en">
+<appeal>
+<appeal.text>
+<para><paratext ID="p1" level="1"><bold>JS-6</bold></paratext></para>
+</appeal.text>
+</appeal>
+</procedural.history>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>ORDER TRANSFERRING CASE AND DENYING DEFENDANTS' MOTIONS TO DISMISS FOR LACK OF PERSONAL JURISDICTION AND FAILURE TO STATE A CLAIM AS MOOT</bold></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">CORMAC J. CARNEY UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p2" level="1">Plaintiff Mark Oxford brought this action against Defendants The Linc Group, Inc., Operational Support Services, REEP, Inc., and Linc Government Services (collectively &#x201C;Defendants&#x201D;) for employment discrimination while serving as a contractor in Iraq. Defendants now move to dismiss Mr. Oxford's complaint for improper venue, lack of personal jurisdiction, and failure to state a claim. In the alternative, Defendants move for transfer of venue. For the following reasons, the case is TRANSFERRED to the United States District Court for the Eastern District of North Carolina, Western Division. Defendants' motions to dismiss for lack of personal jurisdiction and failure to state a claim are DENIED as moot.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;Having read and considered the papers presented by the parties, the Court finds this matter appropriate for disposition without a hearing. <ital>See</ital> <csc>Fed. R. Civ. P.</csc> 78; <csc>Local Rule</csc> 7-15. Accordingly, the hearing set for January 25, 2010, at 1:30 p.m. is hereby vacated and off calendar.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">During 2008 and 2009, Mr. Oxford worked in Iraq as a Bilingual Bicultural Advisor for REEP, a New Hampshire corporation with its principal place of business in Fayetteville, North Carolina. (Votipka Decl. &#182; 8; Compl. &#182; 10.) REEP does business as Operational Support Services and Linc Government Services, and is a subsidiary of The Linc Group, a Delaware company with headquarters in Irvine, California. (Votipka Decl. &#182;&#182; 7, 9.)</paratext></para>
+<para><paratext ID="p5" level="1">Mr. Oxford executed two employment contracts with Operational Support Services. (Ex. A and Ex. B to Votipka Decl.) The first contract covered the period from June 20, 2008, to March 10, 2009. (Ex. A to Votipka Decl.) The second contract covered March 17, 2009, to March 16, 2010. (Ex. B to Votipka Decl.) Mr. Oxford signed the first contract on June 5, 2008, before deployment to Iraq, and the second contract on March 18, 2009, while in Iraq. (Votipka Decl. &#182; 12; Pl.'s Opp. at 8.) Clause 19 of both contracts states that &#x201C;should any controversy or claim arise out of the employment relationship, or out of or relating to this Agreement or any of its provisions, the controversy or claim shall be resolved in Cumberland County, North Carolina.&#x201D; (Ex. A and Ex. B to Votipka Decl.)</paratext></para>
+<para><paratext ID="p6" level="1">Mr. Oxford is a male of Middle Eastern origin and a practicing Muslim. (Compl. &#182; 9.) He asserts that during his course of employment, Defendants discriminated against him based on his gender, race, national origin, and religion. (Compl. &#182;&#182; 13-38.) On May 18, 2009, Mr. Oxford terminated his employment with Operational Support Services. (Compl. &#182; 10.) He brought suit against Defendants on October 27, 2009. Defendants now move to dismiss Mr. Oxford's complaint for improper venue pursuant to Federal Rule of Civil Procedure 12(b)(3), lack of personal jurisdiction pursuant to Rule 12(b)(2), and failure to state a claim pursuant to Rule 12(b)(6). In the alternative, Defendants move for transfer of venue pursuant to 28 U.S.C. &#167; 1404(a).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Legal Standard</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">In the Ninth Circuit, courts treat motions to dismiss brought pursuant to forum selection clauses as motions to dismiss for improper venue under Rule 12(b)(3). <ital>Argueta v. Banco Mexicano, S.A.</ital>, 87 F.3d 320, 324 (9th Cir. 1996). In a motion to dismiss pursuant to Rule 12(b)(3), the pleadings need not be accepted as true, and the court may consider facts outside of the pleadings. <ital>Murphy v. Schneider Nat., Inc.</ital>, 362 F.3d 1133, 1137 (9th Cir. 2004); <ital>Doe 1 v. AOL LLC</ital>, 552 F.3d 1077, 1081 (9th Cir. 2009) (per curiam). However, &#x201C;in the context of a Rule 12(b)(3) motion based upon a forum selection clause, the trial court must draw all reasonable inferences in favor of the non-moving party and resolve all factual conflicts in favor of the non-moving party. <charfill numchar="3">&#8228;</charfill>&#x201D; <ital>Murphy</ital>, 362 F.3d at 1138.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Analysis</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Federal law applies to determine the enforceability of a forum selection clause in federal court. <ital>See Manetti-Farrow, Inc. v. Gucci America, Inc.</ital>, 858 F.2d 509, 513 (9th Cir. 1988). The United States Supreme Court and Ninth Circuit have made clear that the party challenging a forum selection clause bears a &#x201C;heavy burden of proof,&#x201D; and that the clause should be honored &#x201C;absent some compelling and countervailing reason.&#x201D; <ital>Murphy</ital>, 362 F.3d at 1140 (quoting <ital>Bremen v. Zapata Off-Shore Co.</ital>, 407 U.S. 1, 12 (1972)). Under the <ital>Bremen</ital> test, a forum selection clause is enforceable unless &#x201C;(1) its incorporation into the contract was the result of fraud, undue influence, or overweening bargaining power, (2) the selected forum is so gravely difficult and inconvenient that the complaining party will for all practical purposes be deprived of its day in court, or (3) enforcement of the clause would contravene a strong public policy of the forum in which the suit is brought.&#x201D; <ital>Argueta</ital>, 87 F.3d at 325 (citing <ital>Bremen</ital>, 407 U.S. at 12-13). Although developed in admiralty and international cases, the <ital>Bremen</ital> test for forum selection clauses applies in employment contract cases as well. <ital>Spradlin v. Lear Siegler Mgmt. Services Co., Inc.</ital>, 926 F.2d 865, 867-68 (9th Cir. 1991).</paratext></para>
+<para><paratext ID="p9" level="1">In this case, the forum selection clause agreed to by Mr. Oxford clearly specifies that suit must be brought in Cumberland County, North Carolina.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> It does not appear that any of the <ital>Bremen</ital> factors dictate a different result. First, there is no evidence that the clause's incorporation into the contract was the result of fraud, undue influence, or overreaching. Mr. Oxford contends that he was strong-armed into the employment contract because he signed it while in Iraq, a theater of war. The primary problem with Mr. Oxford's argument is that he signed his first employment contract in the United States on June 5, 2008, before he left for Iraq. (<ital>See</ital> Votipka Decl. &#182; 12.) He then signed a second contract with an identical forum selection clause on March 18, 2009, while in Iraq. (Ex. B to Votipka Decl.) Although the Court is sympathetic to Mr. Oxford's claim that he was pressured to agree to the forum selection because of his circumstances in Iraq, this argument is ultimately unpersuasive because he previously freely agreed to the same terms while in the United States. Furthermore, the contract Mr. Oxford agreed to in the United States covers nine of the eleven months during which Mr. Oxford worked for Operational Support Services and was subject to Defendants' allegedly discriminatory conduct.</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p10">&#8195;Mr. Oxford contends as an initial matter that the forum selection clause does not apply to his employment discrimination claims because they do not &#x201C;arise out of&#x201D; the employment contract. Regardless of whether this is true, the claims do arise out of the &#x201C;employment relationship,&#x201D; so they are covered by the forum selection clause.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p11" level="1">Second, the selected forum is not so gravely difficult or inconvenient that Mr. Oxford will be deprived of his day in court. Mr. Oxford lives and attends law school in Michigan, not California. (Compl. &#182; 1; Pl.'s Opp. at 4.) Although he states in his opposition that he has family members in California, he has made no argument that litigating his claim in North Carolina would cause him undue hardship.</paratext></para>
+<para><paratext ID="p12" level="1">Third, enforcement of the clause would not contravene public policy of the forum in which the case was originally brought. Public policy in California favors enforcement of forum selection clauses absent some compelling interest, even in employment cases. <ital>Olinick v. BMG Entm't</ital>, 138 Cal. App. 4th 1286, 1302-03 (Cal. Ct. App. 2006). As discussed above, Mr. Oxford has failed to argue that there are any compelling reasons not to enforce the forum selection clause, nor does the Court find any given that Mr. Oxford lives in Michigan.</paratext></para>
+<para><paratext ID="p13" level="1">When venue is improper, a district court &#x201C;shall dismiss, or if it be in the interest of justice, transfer such case to any district or division in which it could have been brought.&#x201D; 28 U.S.C. &#167; 1406(a). Here, the interest of justice is best served by transfer to the United States District Court for the Eastern District of North Carolina, Western Division, consistent with the forum selection clause in the contracts. <ital>See Chudner v. TransUnion Interactive, Inc.</ital>, 626 F.Supp. 2d 1084, 1093 (D. Or. 2009) (holding in the context of a 12(b)(3) motion that the interest of justice mandates that a case be transferred to the venue specified in the forum selection clause).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">For the foregoing reasons, the case is TRANSFERRED to the United States District Court for the Eastern District of North Carolina, Western Division. Defendants' motions to dismiss for lack of personal jurisdiction and failure to state a claim are DENIED as moot.</paratext></para>
+<para><paratext ID="p15" level="1">DATED: January 19, 2010</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

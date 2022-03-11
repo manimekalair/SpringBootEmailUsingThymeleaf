@@ -1,0 +1,1091 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; This file containes exceptions for some TWAIN sources
+; File is used by FineReader TWAIN driver.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;MANUAL_BRIGHTNESS=0
+;PREFER_BRIGHTNESS=1
+;USE_THRESHOLD=0		// Obsolete! Use PREFER_BRIGHTNESS=1 instead!
+;AUTO_BRIGHTNESS=0
+;COLORIMAGE=0|1
+;GREYIMAGE=0|1
+;PIXELTYPE=0
+;AUTOFEED=0
+;USE_AUTOFEED=0
+;DEFAULT_TRANSFER=Native|Memory|File     // common
+;MEMORY_TRANSFER=0 // DEBUG only
+;FILE_TRANSFER=0   // DEBUG only
+;NATIVE_TRANSFER=0 // DEBUG only
+;PAGESIZE=0
+;PAGESIZE_VALUES=A4,A5,B5,Letter // simple sample
+;PAGESIZE_VALUES=A0,A1,A2,A3,A4,A5,B4,B5,B6,B4_ISO,B5_ISO,B6_ISO,Letter,Legal
+;PAGESIZE_WIDTH=<width in minch>
+;PAGESIZE_HEIGHT=<height in minch>
+;PAGESIZE_NONE=0
+;PAGESIZE_CUSTOM=0
+;PAGESIZE_CORRECTION=0
+;PAGESIZE_SAFE=1
+;RESOLUTION=0
+;RESOLUTION_VALUES=..,..
+;INVERT_MEMORY=1
+;INVERT_FILE=1
+;INVERT_NATIVE=1
+;SHOW_UI=1
+;DEFAULT_SHOW_UI=0
+;UNLOAD_SOURCE=0
+;CloseForcedly=0
+;BringToTop=0
+;EnableSource=0
+;AlignPageSize=1
+;UnknownImageLength=1
+;ScannerType=Flatbed|EdgeFed|HandHeld
+
+;BitDepth=1
+;BitDepthReduction=0            // common
+
+;"key_name"=<...> - default int value
+;EnableGrayBrightness=1
+;DefaultGrayBrightness=<50>
+;EnableTimeout=<0>
+;OpenTimeout=<0>
+;GetXferMech=0
+;PalletePixelTypeKey=1
+;IgnoreGrayPalette=1
+;GetDefaultSource=0				//common
+;FlatbedEnabled=1
+;ForcePixelType=1
+;ScaleImage=1
+
+;Compression=0
+;Rotation=0
+;DuplexMode=0
+;FlipRotation=0
+;DoCenterScanFrame=1
+
+;InvertMemoryBw=1
+;InvertMemoryGray=1
+;InvertMemoryColor=1
+;InvertNativeBw=1
+;InvertNativeGray=1
+;InvertNativeColor=1
+;InvertFileBw=1
+;InvertFileGray=1
+;InvertFileColor=1
+ 
+;QuickBinarization=0            // common
+;ResetPendingForcedly=0|1       // common
+;ResetUndefinedPending=0        // common
+;AlwaysCheckFeederLoaded=0      // common
+
+;AutoContinueInAdf=1            // common
+
+;EnableTwain_15_API=0           // common
+;EnableTwain_16_API=0           // common
+;EnableTwain_17_API=0           // common
+;EnableTwain_18_API=0           // common
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Global Options
+[Options]
+Version=143
+Comment=Official
+;CheckTwainVersionInfo=0
+;TopmostTwainWindow=1
+;EnableReopenDsm=0
+;EnableReloadDsm=1
+;DefaultUITwain=0|1
+;EnableQuickStop=1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Common Settings
+
+[COMMON]
+DEFAULT_TRANSFER=Memory
+;DEFAULT_TRANSFER=Native
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; TWAIN Sample Sources
+
+[TWAIN_32 Sample Source]
+;Twain WG Sample Source (32 bit)
+AUTO_BRIGHTNESS=0
+MEMORY_TRANSFER=0
+NATIVE_TRANSFER=0
+SHOW_UI=1
+
+[TWAIN_16 Sample Source]
+;Twain WG Sample Source (16 bit)
+AUTO_BRIGHTNESS=0
+MEMORY_TRANSFER=0
+NATIVE_TRANSFER=0
+SHOW_UI=1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Special Source with empty name
+[]
+EnableSource=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; MUSTEK
+
+[Cканер Mustek]
+FILE_TRANSFER=0
+SHOW_UI=1
+
+[PCMCIA Color DS]
+ScannerType=HandHeld
+FILE_TRANSFER=0
+SHOW_UI=1
+
+[Mustek F/B Scanner (N)]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+RESOLUTION_VALUES=200,300,400,500,600
+
+[F/B Scanner (N)]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+RESOLUTION_VALUES=200,300,400,500,600
+;EnableTimeout=5
+
+[Mustek F/B Scanner (EPP)]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+RESOLUTION_VALUES=200,300,400,500,600
+
+[Mustek PARAGON 1200SP PRO]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+RESOLUTION_VALUES=200,300,400,500,600
+;MANUAL_BRIGHTNESS=0
+
+[Mustek Планшетный сканер]
+;==[Mustek F/B Scanner]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+RESOLUTION_VALUES=200,300,400,500,600
+;MANUAL_BRIGHTNESS=0
+COLORIMAGE=1
+GREYIMAGE=1
+
+[Mustek F/B Scanner]
+;==[Mustek Планшетный сканер]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+RESOLUTION_VALUES=200,300,400,500,600
+;MANUAL_BRIGHTNESS=0
+COLORIMAGE=1
+GREYIMAGE=1
+
+[Mustek 36-Bit F/B Scanner]
+SHOW_UI=1
+
+[ScanExpress 6000 P]
+;AlignPageSize=1
+;DEFAULT_TRANSFER=Native
+
+[ScanExpress  12000P]
+RESOLUTION_VALUES=200,300,400,500,600
+PAGESIZE=0
+;PAGESIZE_VALUES=A4,A5,B5,Letter
+;MANUAL_BRIGHTNESS=0
+
+[ScanExpress 12000 SP]
+RESOLUTION_VALUES=200,300,400,500,600
+PAGESIZE_VALUES=A4,A5,B5,Letter
+;MANUAL_BRIGHTNESS=0
+
+[F/B Scanner (EPP-II)]
+ScannerType=Flatbed
+FILE_TRANSFER=0
+PAGESIZE_VALUES=A4,A5,B5,Letter
+PAGESIZE_NONE=0
+
+[MUSTEK 600 CP]
+MANUAL_BRIGHTNESS=0
+
+[Mustek Flatbed Scanner]
+ScannerType=Flatbed
+RESOLUTION=0
+PAGESIZE=0
+SHOW_UI=1
+
+[Mustek Hand Scanner]
+ScannerType=HandHeld
+FILE_TRANSFER=0
+;DEFAULT_TRANSFER=Memory
+SHOW_UI=1
+UnknownImageLength=1
+
+[Mustek Hand Scanner II]
+ScannerType=HandHeld
+UnknownImageLength=1
+
+[Mustek Sheetfed Gray]
+ScannerType=EdgeFed
+FILE_TRANSFER=0
+COLORIMAGE=0
+;Не устанавливается PixelType в FineUI
+SHOW_UI=1
+
+[ScanMagic 4800P]
+ScannerType=Flatbed
+FILE_TRANSFER=0
+PAGESIZE_VALUES=A4,A5,B5,Letter
+PAGESIZE_NONE=0
+
+[Mustek 1200 UB]
+FILE_TRANSFER=0
+
+[Mustek 1200 CU]
+MANUAL_BRIGHTNESS=0
+CAP_FEEDERENABLED=0
+
+[1200 CU Scanner]
+MANUAL_BRIGHTNESS=0
+CAP_FEEDERENABLED=0
+
+[Mustek 1200 USB]
+MANUAL_BRIGHTNESS=0
+
+[SE12000P / SM9636P]
+MANUAL_BRIGHTNESS=0
+
+[SCSI FAST Scanner]
+MANUAL_BRIGHTNESS=0
+
+[Mustek 12000 SP PLUS]
+FILE_TRANSFER=0
+MANUAL_BRIGHTNESS=0
+
+[BearPaw 1200CU]
+FILE_TRANSFER=0
+
+[BearPaw 1200F]
+FILE_TRANSFER=0
+;AutoContinueInADF=1 
+CAP_FEEDERLOADED=0
+
+[BearPaw 1200F ADF]
+FILE_TRANSFER=0
+;AutoContinueInADF=1 
+CAP_FEEDERLOADED=0
+
+[BearPaw 2400CU]
+FILE_TRANSFER=0
+
+[USB Scanner]
+;Mustek 1200 USB Plus
+FILE_TRANSFER=0
+
+[BearPaw 2400TA Pro]
+UNLOAD_SOURCE=0
+
+[BearPaw 4800TA Pro]
+UNLOAD_SOURCE=0
+MANUAL_BRIGHTNESS=0
+DEFAULT_TRANSFER=Native
+CAP_FEEDERENABLED=0
+
+[WIA-BearPaw 4800TA Pro WIA Scanne]
+MANUAL_BRIGHTNESS=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; PLUSTEK
+
+[OpticPro 600P-32]
+ScannerType=Flatbed
+DEFAULT_SHOW_UI=0
+
+;[OpticPro 6800]
+;ScannerType=Flatbed
+;DEFAULT_SHOW_UI=0
+
+;[OpticPro 6830]
+;ScannerType=Flatbed
+;DEFAULT_SHOW_UI=0
+
+[4830P (32-Bit TWAIN Source)]
+ScannerType=Flatbed
+AlignPageSize=1
+MANUAL_BRIGHTNESS=0
+
+[Flatbed scanner -32]
+;DEFAULT_TRANSFER=Memory
+
+[Flatbed Scanner-32]
+;DEFAULT_TRANSFER=Memory
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; AGFA
+
+[FotoLook 32 V2.09.02 - Twain]
+; AGFA DuoScan (SCSI)
+DEFAULT_SHOW_UI=0
+
+[FotoLook 32 V2.09.04 - TWAIN]
+DEFAULT_TRANSFER=Native
+
+[FotoLook 32 V3.00.08 - TWAIN]
+SHOW_UI=1
+
+[FotoSnap 32 V3.00.08 - TWAIN]
+SHOW_UI=1
+
+[ScanWise 1.0]
+EnableTwain_16_API=0
+
+[ScanWise 1.1]
+; Agfa SnapScan Touch
+EnableTwain_16_API=0
+
+[ScanWise 1.2]
+; Agfa SnapScan 1212U
+EnableTwain_16_API=0
+
+[ScanWise 1.4]
+; Agfa SnapScan 1212U
+EnableTwain_16_API=0
+;CAP_DEVICEONLINE=0
+AUTOFEED=0
+
+[ScanWise 1.5]
+; Agfa SnapScan e20
+EnableTwain_16_API=0
+;CAP_DEVICEONLINE=0
+
+[ScanWise 1.7]
+EnableTwain_16_API=0
+PAGESIZE_SAFE=1
+PAGESIZE_CUSTOM=0
+
+[ScanWise 2.0]
+; AGFA SnapScan E50
+EnableTwain_16_API=0
+PAGESIZE_SAFE=1
+PAGESIZE_CUSTOM=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; EPSON
+
+[EPSON TWAIN(32-bit)]
+;DEFAULT_SHOW_UI=0
+
+[EPSON TWAIN 3(32-bit)]
+;DEFAULT_TRANSFER=Memory
+EnableTwain_16_API=0
+ForcePixelType=1
+
+[EPSON TWAIN 4]
+ResetPendingForcedly=0
+
+[Epson TWAIN 5]
+ResetPendingForcedly=0
+DEFAULT_TRANSFER=Native
+;AutoContinueInAdf=1
+
+[Epson TWAIN 5-WindowsXP]
+OpenTimeout=3
+
+[Epson TWAIN Pro]
+;AutoContinueInAdf=1
+
+[EPSON Colorio Copy FB]
+ResetPendingForcedly=0
+
+[WIA-EPSON GT-5000]
+DEFAULT_TRANSFER=Native
+
+[EPSON GT-9800]
+UNLOAD_SOURCE=0
+
+[WIA-EPSON Perfection2400]
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0	
+
+[WIA-EPSON Perfection1660]
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+
+[WIA-EPSON Perfection1660-WindowsXP]
+OpenTimeout=3
+
+[WIA-EPSON Expression1640XL-WindowsXP]
+OpenTimeout=3
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+
+[WIA-EPSON Expression1640XL-WindowsME]
+SHOW_UI=1
+
+[EPSON Perfection 3200-WindowsXP]
+OpenTimeout=3
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; FUJITSU
+
+[Fujitsu SP600C/32]
+DEFAULT_SHOW_UI=0
+;DEFAULT_TRANSFER=Memory
+CAP_FEEDERLOADED=0
+;Выравнивание требуется в обоих интерфейсах!
+;AlignPageSize=1
+
+[Fujitsu (FCPA) TWAIN ScanPartner]
+ResetPendingForcedly=0
+
+[Fujitsu (FCPA) TWAIN M3093DG]
+INVERT_MEMORY=1
+
+[Fujitsu (FCPA) TWAIN M3099GH]
+DEFAULT_TRANSFER=Native
+
+[Fujitsu ScanPartner 15C/600C]
+PAGESIZE=0
+
+[FUJITSU M309xDC Scanner]
+;ResetUndefinedPending=0
+PREFER_BRIGHTNESS=1
+
+[FUJITSU M3091DC]
+ResetPendingForcedly=0
+;AutoContinueInAdf=1
+
+[FUJITSU fi-4010CU]
+Rotation=0
+
+[FUJITSU fi-4110CUd]
+CAP_FEEDERLOADED=0
+
+[FUJITSU fi-4120Cdj]
+PAGESIZE_VALUES=A4,A5,B5,B6,B5_ISO,B6_ISO,Letter,Legal
+;PREFER_BRIGHTNESS=1
+;USE_THRESHOLD=0
+
+[FUJITSU M4099Ddim]
+SHOW_UI=1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; GENIUS
+
+[Genius ColorPage-Office]
+DEFAULT_SHOW_UI=0
+PAGESIZE_VALUES=A4,A5,B5,Letter
+
+[Genius ColorPage-HR6A]
+AUTOFEED=0
+
+[Genius Scan[32]]
+DEFAULT_SHOW_UI=0
+
+[EasyScan/Color Deluxe]
+SHOW_UI=1
+
+[ScanModule32 V2.39]
+DEFAULT_SHOW_UI=0
+
+[ScanMate/Color Deluxe]
+ScannerType=HandHeld
+SHOW_UI=1
+
+[ScanMate/Color Portable]
+ScannerType=HandHeld
+SHOW_UI=1
+
+[Genius Scan Module]
+DEFAULT_TRANSFER=Native
+
+[ColorPage-Vivid 1200XE]
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; LOGITECH
+
+[Logitech ScanMan]
+SHOW_UI=1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; HP (Hewlett Packard)
+
+[DeskScan II]
+ScannerType=Flatbed
+;DEFAULT_TRANSFER=Memory
+
+[DeskScan II 2.8]
+DEFAULT_TRANSFER=Native
+
+[DeskScan II 2.9]
+SHOW_UI=1
+ScannerType=Flatbed
+EnableTwain_16_API=0
+AUTO_BRIGHTNESS=0
+USE_THRESHOLD=0
+AUTOFEED=0
+USE_AUTOFEED=0
+;FEEDER_LOADED=0
+DEFAULT_TRANSFER=Native
+
+[HP ScanJet 5S]
+ScannerType=Flatbed
+SHOW_UI=1
+
+[HP LaserJet Companion]
+DEFAULT_TRANSFER=Native
+
+[HP LaserJet 3150]
+PAGESIZE=0
+IgnoreGrayPalette=1
+
+[HP PictureScan]
+;HP ScanJet IIIp
+DEFAULT_TRANSFER=Native
+
+[HP PictureScan 2.0]
+;HP ScanJet IIp
+ScannerType=Flatbed
+AlignPageSize=1
+MANUAL_BRIGHTNESS=0
+;DEFAULT_TRANSFER=Memory
+RESOLUTION_VALUES=200,300,400,500,600
+UNLOAD_SOURCE=1
+
+[HP PictureScan 3.0]
+EnableTwain_16_API=0
+
+[HP PrecisionScan 1.0]
+RESOLUTION_VALUES=200,300,400,600
+
+[HP PrecisionScan 1.01]
+;FILE_TRANSFER=0   // DEBUG only
+RESOLUTION_VALUES=200,300,400,600
+AlignPageSize=1
+PAGESIZE=0
+USE_THRESHOLD=0
+
+[HP PrecisionScan 2.0]
+PAGESIZE_SAFE=1
+RESOLUTION=0
+;USE_THRESHOLD=0
+;MANUAL_BRIGHTNESS=0
+;AUTO_BRIGHTNESS=0
+
+[HP PrecisionScan 3.0]
+PAGESIZE=0
+RESOLUTION_VALUES=200,300,400,600
+AUTO_BRIGHTNESS=0
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+DEFAULT_TRANSFER=Native
+
+[HP PrecisionScan 3.02]
+;по аналогии с [HP PrecisionScan 3.0]
+PAGESIZE=0
+RESOLUTION_VALUES=200,300,400,600
+
+[HP PrecisionScan 3.03]
+;по аналогии с[HP PrecisionScan 3.0] + OTK
+PAGESIZE=0
+RESOLUTION_VALUES=200,300,400,600
+AUTO_BRIGHTNESS=0
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+DEFAULT_TRANSFER=Native
+
+[HP PrecisionScan Pro 1.0]
+ResetPendingForcedly=1
+;PAGESIZE_HEIGHT=14000
+
+[HP PrecisionScan Pro 2.0]
+AUTO_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+DEFAULT_TRANSFER=Native
+	
+[HP PrecisionScan Pro 3.0]
+;if scans one page
+;AutoContinueInAdf=1
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+AUTO_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+
+[HP Precisionscan Pro 3.1]
+AUTO_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+DEFAULT_TRANSFER=Native
+	
+[HP PrecisionScan LT 1.0]
+RESOLUTION_VALUES=200,300,400,600
+PAGESIZE_SAFE=1
+
+[HP PrecisionScan LT 2.0]
+; HPScanJet 3200c
+;FILE_TRANSFER=0   // DEBUG only
+RESOLUTION_VALUES=200,300,400,600
+PAGESIZE=0
+
+[HP PrecisionScan LT 3.0]
+RESOLUTION_VALUES=200,300,400,600
+PAGESIZE=0
+
+[HP PrecisionScan LTX 1.0]
+ResetPendingForcedly=1
+
+[HP PrecisionScan LTX 1.2]
+;OpenTimeout=5
+AUTO_BRIGHTNESS=0
+PREFER_BRIGHTNESS=1
+
+[HP OfficeJet R PrecisionScan]
+RESOLUTION_VALUES=200,300,400,600
+
+[HP OfficeJet Series 300]
+ICAP_BITORDER=0
+
+[WIA-Hewlett-Packard OfficeJet V40]
+DEFAULT_TRANSFER=Native
+	
+[HP LaserJet 3200]
+DEFAULT_TRANSFER=Memory
+PAGESIZE=0
+
+[hp officejet d series]
+PAGESIZE=0
+FlatbedEnabled=1
+
+[FineUI-hp officejet d series]
+DEFAULT_TRANSFER=File
+
+[WIA-hp officejet 6100]
+EnableSource=0
+
+[HP LaserJet 33xx]
+FlatbedEnabled=1
+PAGESIZE=0
+DEFAULT_TRANSFER=Memory
+
+[WIA-hp officejet d scanner]
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; MICROTEK
+
+[Microtek ScanWizard (32bit)]
+AUTO_BRIGHTNESS=0
+DEFAULT_TRANSFER=Native
+
+[Microtek ScanWizard 5]
+BringToTop=1
+;DEFAULT_TRANSFER=Native
+
+[Microtek Scan Module]
+PAGESIZE_VALUES=A4,A5,B5,Letter
+USE_THRESHOLD=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; PRIMAX
+
+[Color Hand Scanner]
+;Color Hand Scanner by Primax
+ScannerType=HandHeld
+AUTO_BRIGHTNESS=0
+FILE_TRANSFER=0
+UNLOAD_SOURCE=1
+
+[ColorMobile PRO]
+; (copy of [Color Hand Scanner])
+ScannerType=HandHeld
+AUTO_BRIGHTNESS=0
+FILE_TRANSFER=0
+SHOW_UI=1
+
+[ColorMobile Direct]
+ScannerType=HandHeld
+FILE_TRANSFER=0
+SHOW_UI=1
+
+[ColorMobile Direct 32]
+ScannerType=HandHeld
+FILE_TRANSFER=0
+SHOW_UI=1
+
+[Primax Colorado Direct]
+ScannerType=Flatbed
+FILE_TRANSFER=0
+;SHOW_UI=1
+
+[TaskBridge 32]
+;FILE_TRANSFER=0
+DEFAULT_SHOW_UI=0
+
+[PRIMAX Power TWAIN]
+ScannerType=Flatbed
+;PIXELTYPE=0 - for FineUI
+SHOW_UI=1
+
+[Primax Colorado Direct / D600]
+USE_THRESHOLD=0
+; for Windows NT version
+SHOW_UI=1
+
+[FlatBed Scanner]
+; Feb, 1997 / Win2000
+FILE_TRANSFER=0
+
+[WIA-Colorado USB 19200]
+; Windows Millenium
+DEFAULT_TRANSFER=Native
+RESOLUTION=0
+AUTO_BRIGHTNESS=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; UMAX
+
+[MagicScan32 V2.41]
+DEFAULT_TRANSFER=Native
+
+[MagicScan32 V3.13]
+;DEFAULT_SHOW_UI=0
+
+[VistaScan32 V3.1]
+USE_THRESHOLD=0
+DEFAULT_TRANSFER=Native
+
+[VistaScan32 V3.51]
+USE_THRESHOLD=0
+DEFAULT_TRANSFER=Native
+
+[VistaScan32 V3.52]
+USE_THRESHOLD=0
+UNLOAD_SOURCE=0
+
+[VistaScan32 V3.54]
+UNLOAD_SOURCE=0
+
+[VistaScan32 V3.55]
+UNLOAD_SOURCE=0
+
+[VistaScan32 V3.73]
+PREFER_BRIGHTNESS=1
+UNLOAD_SOURCE=0
+DEFAULT_TRANSFER=Native
+
+[VistaScan32 V3.74]
+USE_THRESHOLD=0
+CAP_FEEDERENABLED=0
+
+[VistaScan32 V3.75]
+PREFER_BRIGHTNESS=1
+DEFAULT_TRANSFER=Native
+
+[VistaScan32 V3.77]
+DEFAULT_TRANSFER=Native
+
+[VistaScan32 V3.81]
+PREFER_BRIGHTNESS=1
+
+[UMAX PageOffice IIC V1.02]
+DEFAULT_TRANSFER=Native
+
+[AstraSlim]
+PREFER_BRIGHTNESS=1
+AUTO_BRIGHTNESS=0
+
+[AstraSlim 1200 SE]
+DEFAULT_TRANSFER=Native
+USE_THRESHOLD=0
+PREFER_BRIGHTNESS=1
+
+[WIA-UMAX Astra 2000U]
+SHOW_UI=1
+
+[WIA-UMAX Astra 2200(USB)]
+SHOW_UI=1
+
+[UMAX TWAIN DS]
+;Astra 1220s
+EnableTwain_16_API=0
+PREFER_BRIGHTNESS=1
+USE_THRESHOLD=0
+AUTO_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+
+[UMAX Astra 4500/32]
+;PREFER_BRIGHTNESS=1
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+
+[WIA-UMAX Astra 3400]
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+
+[UMAX Astra 6700 Scanner]
+USE_THRESHOLD=0
+
+[WIA-UMAX Astra 6700 Scanner-WindowsME]
+SHOW_UI=1
+
+[TwainUI-WIA-UMAX Astra 6700 Scanner]
+InvertMemoryBw=1
+
+[FineUI-WIA-UMAX Astra 6700 Scanner-WindowsXP]
+InvertMemoryBw=1
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+CAP_FEEDERENABLED=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; CANON
+
+[CanoScan 300S]
+PAGESIZE=0
+ScannerType=Flatbed
+DEFAULT_TRANSFER=Native
+
+[CanoScan 600]
+PAGESIZE=0
+ScannerType=Flatbed
+;DEFAULT_TRANSFER=Memory
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+ResetPendingForcedly=0
+
+[CanoScan FB310]
+ScannerType=Flatbed
+;DEFAULT_TRANSFER=Memory
+
+[CanoScan FB610]
+ScannerType=Flatbed
+;DEFAULT_TRANSFER=Memory
+
+[CanoScan FB320P/FB620P]
+PAGESIZE=0
+ScannerType=Flatbed
+DEFAULT_TRANSFER=Native
+
+[CanoScan N670U/N676U]
+PAGESIZE_CUSTOM=0
+
+[Canon DR3020]
+SHOW_UI=1
+
+[Canon DR-3080C TWAIN]
+DEFAULT_TRANSFER=Native
+
+[Canon IS Scan 2]
+FILE_TRANSFER=0
+AUTO_BRIGHTNESS=0
+MANUAL_BRIGHTNESS=0
+ICAP_XSCALING=0
+ICAP_YSCALING=0
+;RESOLUTION_VALUES=90,180,200,300,360,720
+PAGESIZE_WIDTH=8190
+PAGESIZE_HEIGHT=11290
+PAGESIZE_CORRECTION=0
+PAGESIZE_CUSTOM=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ACER
+
+[MiraScan32 V2.60]
+DEFAULT_TRANSFER=Native
+
+[MiraScan V3.02]
+DEFAULT_TRANSFER=Native
+
+[MiraScan V3.20]
+;Acer Scan 620 U
+;FILE_TRANSFER=0   // DEBUG only
+DEFAULT_TRANSFER=Native
+
+[MiraScan V3.40]
+;Acer Scan 620U (USB)
+;ACER ScanPrisa 340P
+;FILE_TRANSFER=0   // DEBUG only
+
+[MiraScan V3.41]
+; from Alex
+UNLOAD_SOURCE=1
+DEFAULT_TRANSFER=Native
+AUTOFEED=0
+TopmostTwainWindow=1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; CFM
+
+[CFM Twain32 5.0]
+EnableTwain_16_API=0
+
+[CFM Twain32 5.12]
+EnableTwain_16_API=0
+;CAP_DEVICEONLINE=0
+
+[Ricoh CFM Twain 4.21]
+DEFAULT_TRANSFER=Native
+IgnoreGrayPalette=1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; KODAK
+
+[Kodak DS 3500]
+DEFAULT_TRANSFER=Native
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; VISIONEER
+
+[Visioneer PaperPort 6000B/3100B]
+;Visioneer PaperPort 6000B/3100B 
+ScannerType=Flatbed
+USE_THRESHOLD=0
+
+[Visioneer 4400]
+;Visioneer 4400 USB
+FILE_TRANSFER=0   // DEBUG only
+
+[Visioneer 6100 USB]
+DEFAULT_TRANSFER=Native
+PAGESIZE_HEIGHT=11000
+RESOLUTION_VALUES=200,300,400,500,600
+PREFER_BRIGHTNESS=1
+
+[WIA-Visioneer 6100 USB]
+SHOW_UI=1
+
+[WIA-Visioneer OneTouch 8600 USB]
+;Visioneer OneTouch 8600
+SHOW_UI=1
+
+[Visioneer Scan Manager]
+;Visioneer OneTouch 8600
+FILE_TRANSFER=0   // DEBUG only
+
+[Visioneer Scan Manager Pro]
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+	
+[WIA-Visioneer 87XX/89XX USB Scann]
+MANUAL_BRIGHTNESS=0	
+USE_THRESHOLD=0
+
+[WIA-Visioneer 90xx USB Scanner]
+ICAP_BITORDER=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; PANASONIC
+
+[Panasonic SS Series (32 bit)]
+DEFAULT_TRANSFER=Native
+
+[Panasonic SS Series (16 bit)]
+DEFAULT_TRANSFER=Native
+
+[Panasonic KV-S2025C/S2045C]
+MANUAL_BRIGHTNESS=0
+PAGESIZE_CUSTOM=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; AVISION
+
+[MrScan/32 - Expert V4.03]
+;for current user
+INVERT_MEMORY=1
+
+[MrScan/32 - Expert V4.14]
+SHOW_UI=1
+
+[DS310F/32 V4.26]
+PREFER_BRIGHTNESS=1
+;dangerous
+AutoContinueInAdf=1
+InvertMemoryBw=1
+
+[AV210]
+AUTO_BRIGHTNESS=0
+PREFER_BRIGHTNESS=1
+USE_THRESHOLD=0
+FlatbedEnabled=0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; <Others>
+
+[Digital Album]
+DEFAULT_TRANSFER=Native
+
+[Document WorkCenter 600]
+DEFAULT_TRANSFER=Native
+
+[Flatbed -32]
+ScannerType=Flatbed
+AlignPageSize=1
+SHOW_UI=1
+
+[MiniDoc]
+;Avigramm (USB)
+SHOW_UI=1
+DEFAULT_TRANSFER=Native
+
+[Nikon Scan 2.5]
+DEFAULT_TRANSFER=Native
+
+[ScanMate/Color Portable]
+DEFAULT_TRANSFER=Native
+
+[SCORPIO Pro-S (_32)]
+;Relisys Scorpio Pro-S
+MANUAL_BRIGHTNESS=0
+
+[TravelScan V1.0]
+;TravelScan (PCMCI)
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+
+[Trust Combi Scan USB 19200 (USB)]
+DEFAULT_TRANSFER=Native
+
+[USB Scanner 2400U]
+EnableTwain_16_API=0
+
+[ViewStation AS6E v1.0x]
+ScannerType=Flatbed
+AUTO_BRIGHTNESS=0
+UNLOAD_SOURCE=1
+PAGESIZE_VALUES=A4,A5,B5,Letter
+
+[ViewStation AT3 (WIN)]
+; 1996, TW v1.0
+SHOW_UI=1
+
+[WidowVIEW-32U 3.05 English]
+;Black Widow 9636 USB
+SHOW_UI=1
+
+[DY9300_32  V2.09N]
+DEFAULT_TRANSFER=Native
+
+[Kofax Software VRS - TWAIN]
+PAGESIZE_CUSTOM=0
+
+[Xerox WorkCentre PE16 USB]
+AlignPageSize=1
+AutoContinueInAdf=1
+
+[Xerox Network Scan]
+SHOW_UI=1
+
+[Xerox Scan Manager Pro]
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+
+[Lexmark X1100 Series]
+MANUAL_BRIGHTNESS=0
+USE_THRESHOLD=0
+
+[WIA-Lexmark X5100 Series]
+USE_THRESHOLD=0
+MANUAL_BRIGHTNESS=0
+
+[CSSN-SCANSHELL 800]
+ProcessCloseDsReq=1
+FlatbedEnabled=1

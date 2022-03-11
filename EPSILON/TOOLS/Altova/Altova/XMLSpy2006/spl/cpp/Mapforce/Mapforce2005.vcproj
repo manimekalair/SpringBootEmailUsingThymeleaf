@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="[=$application.Name]"
+	ProjectGUID="{[=$TestProjectGuid]}"
+	RootNamespace="[=$application.Name]"
+	Keyword="Win32Proj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+[
+$addDefs = $PreprocessorDefinitions
+$addIncludeDirs = "..\\Altova,..\\AltovaXML,..\\AltovaDB,..\\AltovaFunctions"
+call vcproj8_Configurations("", $addDefs, 1, $addIncludeDirs)
+]	<References>
+[
+foreach $library in $application.Libraries
+]		<ProjectReference
+			ReferencedProjectIdentifier="{[=$library.Guid]}"
+			RelativePathToProject="..\\[=$library.UniqueName]\\[=$library.UniqueName].vcproj"
+		/>
+[next
+foreach $FuncLib in $application.FunctionLibraries
+	if $FuncLib.Name <> "core" and $FuncLib.Name <> "db" and $FuncLib.Name <> "lang" and $FuncLib.Name <> "edifact" and not $FuncLib.HasOnlyLocalFunctions
+]		<ProjectReference
+			ReferencedProjectIdentifier="{[=$FuncLib.Guid]}"
+			RelativePathToProject="..\\[=$FuncLib.Name]\\[=$FuncLib.Name].vcproj"
+		/>
+[	endif
+next
+]		<ProjectReference
+			ReferencedProjectIdentifier="{[=$AltovaLibGuid]}"
+			RelativePathToProject="..\\Altova\\Altova.vcproj"
+		/>
+		<ProjectReference
+			ReferencedProjectIdentifier="{[=$AltovaFunctionsGuid]}"
+			RelativePathToProject="..\\AltovaFunctions\\AltovaFunctions.vcproj"
+		/>
+[
+if $DBLibraryCount > 0
+]		<ProjectReference
+			ReferencedProjectIdentifier="{[=$AltovaDBLibGuid]}"
+			RelativePathToProject="..\\AltovaDB\\AltovaDB.vcproj"
+		/>
+[endif
+
+if $EDILibraryCount > 0
+]		<ProjectReference
+			ReferencedProjectIdentifier="{[=$AltovaTextLibGuid]}"
+			RelativePathToProject="..\\AltovaText\\AltovaText.vcproj"
+		/>
+[endif
+
+if $XMLLibraryCount > 0
+]		<ProjectReference
+			ReferencedProjectIdentifier="{[=$AltovaXMLLibGuid]}"
+			RelativePathToProject="..\\AltovaXML\\AltovaXML.vcproj"
+		/>
+[endif
+]	</References>
+	<Files>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\\[=$application.Name].h"
+				>
+			</File>
+[
+foreach $Mapping in $application.Mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+]			<File
+				RelativePath=".\\[=$application.Name][=$AlgorithmGroup.Name].h">
+			</File>
+[	next
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions]
+			<File
+				RelativePath=".\\[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].h">
+			</File>
+[	next
+next ' Mapping
+]			<File
+				RelativePath=".\\Resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\\StdAfx.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+			<File
+				RelativePath=".\\[=$application.Name].rc"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\\[=$application.Name].cpp"
+				>
+			</File>
+[foreach $Mapping in $application.Mappings
+
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+]			<File
+				RelativePath=".\\[=$application.Name][=$AlgorithmGroup.Name].cpp"
+				>
+			</File>
+[	next
+
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+]			<File
+				RelativePath=".\\[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].cpp"
+				>
+			</File>
+[	next
+next ' Mapping
+
+call vcproj8_StdAfx_cpp()
+]		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

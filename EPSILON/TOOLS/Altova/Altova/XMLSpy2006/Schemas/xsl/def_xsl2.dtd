@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+   This DTD has been developed in order to provide entry helpers for XSL documents 
+   conformant to the W3C XSL 2.0 Recommendation.
+   
+   © Altova GmbH, 1999-2004. 
+-->
+
+<!ENTITY % xslt-dtd SYSTEM "def_xslt2.dtd">
+%xslt-dtd; 
+
+<!ENTITY % xslfo-dtd SYSTEM "def_fo.dtd">
+%xslfo-dtd; 

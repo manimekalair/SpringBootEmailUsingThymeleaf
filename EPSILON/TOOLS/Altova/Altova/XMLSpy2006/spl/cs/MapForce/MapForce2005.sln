@@ -1,0 +1,105 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+[ if $application.IsWebService
+$WSName = $application.WSDLPort.AddressPath
+$WSTarget = "http://" & $application.WSDLPort.AddressServerAndPort & "/" & $WSName
+]Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "[=$WSTarget]/", "[=$WSTarget]", "{[=$TestProjectGuid]}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{[=$AltovaLibGuid]}|Altova.dll;{[=$AltovaXMLLibGuid]}|Altova.XML.dll;{[=$AltovaFunctionsGuid]}|Altova.Functions.dll;[
+		foreach $library in $application.Libraries :
+				]{[=$library.Guid]}|[=$library.UniqueName].dll;[
+		next
+		if $EDILibraryCount >0
+			]{[=$AltovaTextLibGuid]}|Altova.Text.dll;[
+		endif
+		if $DBLibraryCount > 0
+			]{[=$AltovaDBLibGuid]}|Altova.DB.dll;[
+		endif]"
+		Debug.AspNetCompiler.VirtualPath = "/[=$application.Name]"
+		Debug.AspNetCompiler.PhysicalPath = "..\\[=$application.Name]\\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\\[=$application.Name]\\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/[=$application.Name]"
+		Release.AspNetCompiler.PhysicalPath = "..\\[=$application.Name]\\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\\[=$application.Name]\\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\\[=$application.Name]\\"
+	EndProjectSection
+[endif
+if not $application.IsWebService
+]Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[=$application.Name]", "[=$application.Name].csproj", "{[=$TestProjectGuid]}"
+[endif
+]EndProject
+[foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+	$ProjectLibGuid	= $library.Guid
+]Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[=$module]", "..\\[=$module]\\[=$module].csproj", "{[=$ProjectLibGuid]}"
+EndProject
+[next]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaFunctions", "..\\AltovaFunctions\\AltovaFunctions.csproj", "{[=$AltovaFunctionsGuid]}"
+EndProject
+[if $DBLibraryCount > 0]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaDB", "..\\AltovaDB\\AltovaDB.csproj", "{[=$AltovaDBLibGuid]}"
+EndProject
+[endif
+][if $EDILibraryCount > 0]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaText", "..\\AltovaText\\AltovaText.csproj", "{[=$AltovaTextLibGuid]}"
+EndProject
+[endif]
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaXML", "..\\AltovaXML\\AltovaXML.csproj", "{[=$AltovaXMLLibGuid]}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altova", "..\\Altova\\Altova.csproj", "{[=$AltovaLibGuid]}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{[=$TestProjectGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$TestProjectGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$TestProjectGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$TestProjectGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+[foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+	$ProjectLibGuid	= $library.Guid
+]		{[=$ProjectLibGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$ProjectLibGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$ProjectLibGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$ProjectLibGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+[next
+]		{[=$AltovaFunctionsGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$AltovaFunctionsGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$AltovaFunctionsGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$AltovaFunctionsGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+[if $DBLibraryCount > 0
+]		{[=$AltovaDBLibGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$AltovaDBLibGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$AltovaDBLibGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$AltovaDBLibGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+[endif
+if $EDILibraryCount > 0
+]		{[=$AltovaTextLibGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$AltovaTextLibGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$AltovaTextLibGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$AltovaTextLibGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+[endif
+]		{[=$AltovaXMLLibGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$AltovaXMLLibGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$AltovaXMLLibGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$AltovaXMLLibGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+		{[=$AltovaLibGuid]}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{[=$AltovaLibGuid]}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{[=$AltovaLibGuid]}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{[=$AltovaLibGuid]}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

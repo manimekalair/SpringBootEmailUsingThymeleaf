@@ -1,0 +1,77 @@
+===== SDIOWA_530284_L.4.09-cv-00013-24-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE SOUTHERN DISTRICT OF IOWA</venue.name>
+<venue.name>CENTRAL DIVISION</venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>UNITED STATES OF AMERICA, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>GREGORY SWECKER aka GREGORY R. SWECKER aka GREG SWECKER; BEVERLY SWECKER aka BEVERLY F. SWECKER; SWECKS, INC.; PALISADES COLLECTION, LLC; STATE OF IOWA; GRAND JUNCTION MUNICIPAL; UNIFUND CCR PARTNERS; and MIDLAND POWER COOPERATIVE, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>4:09-cv-00013</docket.line>
+<docket.number>4:09-cv-00013</docket.number>
+<docket.line suppress-flag="y">4:09-cv-00013-RP-SBJ</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 04/17/2009</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER</headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ROBERT W. PRATT, Chief Judge U.S. DISTRICT COURT</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">Before the Court are Gregory R. Swecker and Beverly F. Swecker's (&#x201C;Mrs. Swecker&#x201D;) (collectively &#x201C;the Sweckers&#x201D;) Motion for Leave to Appeal in Forma Pauperis and Motion for Reconsideration, filed on April 13, 2009. Clerk's Nos. 20, 22. The United States has not filed a response. Local Rule 7(e) permits a court to rule on a motion without waiting for a resistance or response if the motion appears to be noncontroversial, or if circumstances otherwise warrant. The Court has reviewed the Sweckers&#x2019; April 13, 2009 filings and concludes a response from the United States is unnecessary to address the Sweckers&#x2019; arguments and requests. Accordingly, the Court considers the matter fully submitted.</paratext></para>
+<head-c>I. BACKGROUND</head-c>
+<para><paratext level="1">In the Court's April 2, 2009 Order denying the Sweckers&#x2019; Motion to Dismiss (hereinafter &#x201C;April 2, 2009 Order&#x201D;), the Court noted that the Sweckers presented:</paratext>
+<para><paratext first-line="1" turnover="1">a variety of arguments which are best characterized as assertions that: (1) the United States lacks standing to bring this action; (2) this Court lacks subject matter jurisdiction over the action; (3) the United States has failed to state a claim in its Complaint; (4) the United States has engaged in a fraud by presenting false documents as attachments to its Complaint; and (5) the United States is barred under a &#x201C;doctrine of retaliation&#x201D; from pursuing a foreclosure proceeding against the Sweckers.</paratext></para>
+<paratext contd-flag="y">April 2, 2009 Order at 5-6. After reviewing the Sweckers&#x2019; arguments and supporting documents, the Court found that the United States has standing to bring the foreclosure action against the Sweckers, that the Court has subject matter jurisdiction over such actions, and that the United States sufficiently stated a claim in its Complaint to survive a Rule 12(b)(6) motion. The Court then considered whether the foreclosure action was barred by either the allegations of fraud or a &#x201C;doctrine of retaliation&#x201D; and concluded that each of these arguments lacked merit. Accordingly, the Court denied the Sweckers&#x2019; Motion to Dismiss.</paratext></para>
+<para><paratext level="1">In response to the Court's April 2, 2009 Order, the Sweckers filed a Motion for Reconsideration, a Notice of Appeal, and a Motion for Leave to Appeal in Forma Pauperis on April 13, 2009. The Court addresses each motion in turn.</paratext></para>
+<head-c>II. LAW AND ANALYSIS</head-c>
+<head-c>A. <italic>Motion for Reconsideration</italic></head-c>
+<para><paratext level="1">The Sweckers request that the Court reconsider its April 2, 2009 Order denying their Motion to dismiss asserting: (1) the Court failed to consider their argument that the Court does not have subject matter jurisdiction; (2) the Court made a factual mistake in its recitation of the facts; (3) the present motion is barred under the doctrine of res judicata by a previous proceeding; (4) the present action is barred because a civil rights complaint is pending before the Office of Civil Rights, United States Department of Agriculture (&#x201C;USDA&#x201D;); and (5) the &#x201C;only remaining litigation avenues for this set of circumstances is not present within this matter.&#x201D; Mot. for Reconsideration &#x00B6;&#x00B6; 1, 2, 3, 9, 10. The Sweckers do not cite any Federal Rules of Civil Procedure in making their Motion for Reconsideration. The Federal Rules of Civil Procedure do not explicitly provide for motions to reconsider, but such motions are typically construed as either a Rule 59(e) motion to alter or amend a judgment or a Rule 60(b) motion for relief from a judgment or order. <italic>Auto Servs. Co., Inc. v. KPMG, LLP</italic>, 537 F.3d 853, 855 (8th Cir. 2008) (citing <italic>Sanders v. Clemco Indus.</italic>, 862 F.2d 161, 168 (8th Cir. 1988)).</paratext></para>
+<para><paratext level="1">Federal Rule of Civil Procedure 59(e) provides: &#x201C;A motion to alter or amend a judgment must be filed no later than 10 days after the entry of the judgment.&#x201D; The Federal Rules of Civil Procedure define &#x201C;judgment&#x201D; as &#x201C;includ[ing] a decree and any order from which an appeal lies.&#x201D; Fed. R. Civ. P. 54(a). &#x201C;&#x2018;Judgment&#x2019; does not, however, encompass an order dismissing fewer than all of the opposing parties or claims unless the district court directs the entry of final judgment under Rule 54(b), or expressly indicates that the order is an immediately appealable interlocutory decision under 28 U.S.C. &#x00A7; 1292(b).&#x201D; <italic>Auto Servs.</italic>, 537 F.3d at 855. The Court's April 2, 2009 Order was not a final judgment, nor is it an immediately appealable interlocutory decision under 28 U.S.C. &#x00A7; 1292(b). The Sweckers&#x2019; Motion for Reconsideration cannot be treated as a Rule 59(e) motion to alter or amend a judgment.</paratext></para>
+<para><paratext level="1">Federal Rule of Civil Procedure 60(b) allows a district court to provide relief from a nonfinal order under the following limited circumstances:</paratext>
+<para><paratext first-line="1" turnover="1">(1) mistake, inadvertence, surprise, or excusable neglect; . . . ; (3) fraud . . . , misrepresentation, or misconduct by an opposing party; . . . or (6) any other reason that justifies relief.</paratext></para>
+<paratext contd-flag="y">However, Rule 60 (b) &#x201C;is not vehicle for simple reargument on merits.&#x201D; <italic>Broadway v. Norris</italic>, 193 F.3d 987, 990 (8th Cir. 1990). &#x201C;Motions for reconsideration serve a limited function: to correct manifest errors of law or fact or to present newly discovered evidence.&#x201D; <italic>Hagerman v. Yukon Energy Corp.</italic>, 839 F.2d 407, 414 (8th Cir. 1988). Relief from a judgment or order under Rule 60(b) is warranted only under exceptional circumstances. <italic>Int'l Bd. of Elec. Workers v. Hope Elec. Corp.</italic>, 293 F.3d 409, 415 (8th Cir. 2002).</paratext></para>
+<para><paratext level="1">The Sweckers&#x2019; Motion for Reconsideration, for the most part, simply restates arguments addressed by the Court in the April 2, 2009 Order. The Sweckers continue to maintain that the Complaint did not state a foreclosure claim, but rather is a request by the United States to authenticate certain loan documents attached to the Complaint. Mot. for Reconsideration &#x00B6; 1. The Sweckers also note facts related to the loan agreements and then summarily state that the Court cannot move forward to provide the relief that the Government seeks. <italic>Id.</italic> &#x00B6; 10. These are reiterations of the Sweckers&#x2019; arguments that the Court lacks subject matter jurisdiction over this action and that the United States failed to state a claim on which relief could be granted. The Court fully addressed these arguments in the April 2, 2009 Order. April 2, 2009 Order at 6-12. Similarly, the Sweckers reassert their allegation that the United States may not proceed in this action because Mrs. Swecker has a Civil Rights Complaint pending investigation with the USDA. <italic>Id.</italic> &#x00B6; 9. The Court, also, addressed this argument in the April 2, 2009 Order by noting that this claim was first raised in the Sweckers&#x2019; reply brief and, under Local Rule 7.1(g), the Court need not entertain new claims raised at that late stage. April 2, 2009 Order at 12-13, n.5. These attempts to reargue the merits of the Motion to Dismiss denied in the April 2, 2009 Order do not warrant relief pursuant to Rule 60(b).</paratext></para>
+<para><paratext level="1">The Sweckers also attempt to introduce a new legal argument in the Motion for Reconsideration, asserting that a 1996 proceeding initiated by the United States to collect debts owed by the Sweckers to the Farm Service Agency<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> (hereinafter &#x201C;1996 proceeding&#x201D;) precludes the present action under the doctrine of res judicata. Mot. for Reconsideration &#x00B6;&#x00B6; 3-8; <italic>see also</italic> Defs.&#x2019; Mot. to Dismiss, Exs. 7, 11. However, a Rule 60(b) motion is not a vehicle by which a party may assert an argument, which was available at the time of the original motion, but has not been previously presented to the Court. <italic>See Sanders</italic>, 862 F.2d at 170 (&#x201C;[T]he failure to present reasons not previously considered by the court &#x2018;alone is a controlling factor against granting relief [under Rule 60(b)].&#x2019;&#x201D;). Even if this argument was properly presented, the Sweckers have failed to demonstrate that the doctrine of res judicata, which &#x201C;prevents &#x2018;the relitigation of a claim on grounds that were raised or could have been raised in the prior suit,&#x2019;&#x201D; applies to these cases. <italic>Banks v. Int'l Union Electronic, Elec., Technical, Salaried and Machine Workers</italic>, 390 F.3d 1049, 1052 (8th Cir. 2004) (quoting <italic>Lane v. Peterson</italic>, 899 F.2d 737, 741 (8th Cir. 1990)). The Sweckers quote extensive descriptions of res judicata principles from a Wikipedia webpage but only summarily refer to the 1996 proceeding. They fail to provide any legal argument of how the United States&#x2019; claims in the present action are claims that were raised, or could have been raised, in the 1996 proceeding.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> Such conclusory statements cannot satisfy the burden on a movant to show extraordinary circumstances that warrant relief when making a Rule 60(b) motion.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p">&#8195;	The Sweckers state that this proceeding was numbered 4:04-cv-80430, but given their discussion of the case and court documents submitted with their Motion to Dismiss, the Court concludes that they are referring to case number 4:96-cv-80430. <italic>See</italic> Mot. to Reconsider &#x00B6;&#x00B6; 3, 8; Defs.&#x2019; Mot. to Dismiss, Exs. 7, 11.</paratext></para></footnote.body></footnote>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p">&#8195;	The Court also notes that the documents submitted by the Sweckers with their Motion to Dismiss suggest that the doctrine of res judicata would not apply to these cases. Though a full record of the 1996 proceeding and its settlement are not before the Court, the present case appears to arise from the maturation of an agreement which the Sweckers signed in the settlement of the 1996 proceeding. <italic>See</italic> Mot. to Dismiss, Exs. 2 (1996 letter from the United States to the Sweckers describing the requirements &#x201C;in the restructuring offer&#x201D;), 11 (unsigned settlement order between the Sweckers and the United States, dated 1997), 12 (1997 letter from the Sweckers seeking clarification of the relationship between the 1996 settlement agreement and the 1996 Shared Appreciation Agreement). If this is the case, the claims in the present litigation <italic>arise from</italic> the conditions of settlement in the 1996 proceeding and clearly could not have been litigated in the prior proceeding.</paratext></para></footnote.body></footnote>
+<para><paratext level="1">Finally, the Sweckers suggest the Court made a factual error in its April 2, 2009 Order. Specifically, they question the location in the record of the date associated with the appraisal value referenced by the Court on page three of the April 2, 2009 Order. Mot. for Reconsideration &#x00B6; 2. The date to which the Sweckers refer can be found in a letter from the USDA to the Sweckers, dated March 13, 2007. Compl., Ex. P. No mistake occurred in referencing that date. In conclusion, the Sweckers have not shown that the April 2, 2009 Order contained any manifest errors of law or fact, nor have they presented newly discovered evidence that would necessitate relief from the April 2, 2009 Order pursuant to Rule 60(b).</paratext></para>
+<head-c>B. <italic>Motion for Leave to Appeal In Forma Pauperis</italic></head-c>
+<para><paratext level="1">As noted above, the Court's denial of the Sweckers&#x2019; Motion to Dismiss did not produce a or an immediately appealable interlocutory decision. Rather, it merely found appropriate grounds to permit the matter to proceed at this early stage of litigation. Accordingly, there is no judgment or order that the Sweckers can appeal. Therefore, the Court must deny the Sweckers&#x2019; Motion for Leave to Appeal in Forma Pauperis.</paratext></para>
+<head-c>III. CONCLUSION</head-c>
+<para><paratext level="1">For the reasons stated above, the Sweckers&#x2019; Motion for Reconsideration (Clerk's No. 22) and Motion for Leave to Appeal in Forma Pauperis (Clerk's No. 20) are DENIED.</paratext></para>
+<para><paratext level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext level="1">Dated this ___17th___ day of April, 2009.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

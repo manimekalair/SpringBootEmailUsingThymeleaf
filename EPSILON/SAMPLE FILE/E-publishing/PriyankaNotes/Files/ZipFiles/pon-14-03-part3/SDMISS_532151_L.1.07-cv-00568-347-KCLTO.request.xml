@@ -1,0 +1,73 @@
+===== SDMISS_532151_L.1.07-cv-00568-347-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE SOUTHERN DISTRICT OF MISSISSIPPI</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>PENTHOUSE OWNERS ASSOC., INC. PLAINTIFF</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>CERTAIN UNDERWRITERS AT LLOYD'S, LONDON  DEFENDANT</bold></title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>Civil No. 1:07CV568-HSO-RHW</docket.line>
+<docket.number>1:07CV568-HSO-RHW</docket.number>
+<docket.line suppress-flag="y">1:07-cv-00568-HSO-RHW</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 07/07/2009</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><u><bold>ORDER GRANTING DEFENDANT'S MOTION FOR LEAVE TO FILE INTERLOCUTORY APPEAL AND DENYING PLAINTIFF'S CROSS MOTION FOR LEAVE TO FILE INTERLOCUTORY APPEAL</bold></u></headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HALIL SULEYMAN OZERDEN UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">BEFORE THE COURT are the Motion [342] of Defendant Certain Underwriters at Lloyd's, London [&#x201C;Underwriters&#x201D;], filed May 13, 2009, to certify for interlocutory appeal the Court's Order [166] filed July 2, 2008, denying Underwriters&#x2019; Motion for Summary Judgment and other related rulings, and the Conditional Cross Motion [344] of Plaintiff Penthouse Owners Association, Inc. [&#x201C;Plaintiff&#x201D;], filed June 1, 2009, to certify the Court's Orders of July 10, 2008 [193], July 21, 2008 [202], and August 19, 2008 [213]. Both Motions have now been fully briefed.</paratext></para>
+<para><paratext level="1">Underwriters argue that the Court's July 2, 2008, Order improperly determined that the insurance policy at issue in this case covers both wind and water damage sustained during Katrina. Underwriters request that the Court certify the case for interlocutory appeal to the United States Court of Appeals for the Fifth Circuit. Underwriters incorporate by reference their earlier request for certification for interlocutory appeal dated July 22, 2008 [203]. Plaintiff responds that Underwriters&#x2019; Motion should be denied, but that if it is granted, the Court should also certify for appeal the Court's Orders [193], [202], [213], denying recovery of replacement cost coverage until the insured property is actually repaired or replaced. <italic>See</italic> Pl.&#x2019;s Cross Mot., at pp. 2, 5.</paratext></para>
+<para><paratext level="1">Underwriters&#x2019; previous Motion for certification for interlocutory appeal was denied by United States Senior District Judge L.T. Senter, Jr.&#x2019;s, Order [205] dated July 23, 2008. Underwriters point out that, at the time that Order was entered, trial was imminent. The record reflects that Judge Senter's Order was dated 19 days before the scheduled commencement of this trial on August 11, 2008. Underwriters contend that the subsequent continuation of trial to January 25, 2010, which was necessitated by the reassignment of this case to the undersigned, as well as by the parties&#x2019; schedules, has altered the circumstances underlying Judge Senter's Order [205]. Underwriters further assert that additional case law has issued from the Fifth Circuit in support of its position, and that an appeal at this time will materially advance the ultimate termination of the litigation.</paratext></para>
+<para><paratext level="1">Title 28 of the United States Code, section 1292(b) provides that</paratext>
+<para><paratext first-line="1" turnover="1">[w]hen a district judge, in making in a civil action an order not otherwise appealable under this section, shall be of the opinion that such order involves a controlling question of law as to which there is substantial ground for difference of opinion and that an immediate appeal from the order may materially advance the ultimate termination of the litigation, he shall so state in writing in such order. The Court of Appeals which would have jurisdiction of an appeal of such action may thereupon, in its discretion, permit an appeal to be taken from such order, if application is made to it within ten days after the entry of the order: <italic>Provided, however</italic>, That application for an appeal hereunder shall not stay proceedings in the district court unless the district judge or the Court of Appeals or a judge thereof shall so order.</paratext></para>
+<paratext contd-flag="y">28 U.S.C. &#x00A7; 1292(b) (emphasis in original).</paratext></para>
+<para><paratext level="1">Having considered the record as a whole, along with Underwriters&#x2019; Motion [342], Plaintiff's Response [343], and Underwriters&#x2019; Reply [345], the Court agrees that the postponement of trial necessitated by the reassignment of this case to the undersigned, and by the parties&#x2019; schedules, has materially altered the circumstances underlying Judge Senter's Order [205]. The Court is of the opinion that the Order [166] denying Defendant's Motion for Summary Judgment [111], and subsequent rulings, opinions, and orders [166], [201], [291], and [304], related thereto, involve a controlling question of law as to which there is substantial ground for difference of opinion, and that an immediate appeal from such Orders may materially advance the ultimate termination of the litigation. <italic>See</italic> 28 U.S.C. &#x00A7; 1292. The Court will therefore grant Underwriters&#x2019; Motion.</paratext></para>
+<para><paratext level="1">Plaintiff's Cross Motion asks the Court to certify its Orders [193], [202], [213], regarding its right to recover replacement cost damages in this case. Plaintiff contends that the Court should certify these Orders regarding &#x201C;the issue of whether any policy provision requiring that the property be &#x2018;actually repaired or replaced&#x2019; should be deemed waived or void (as a matter of public policy) because of Defendant's failures to pay benefits owed to Plaintiff.&#x201D; Pl.&#x2019;s Cross Mot., at p. 5.</paratext></para>
+<para><paratext level="1">Underwriters counter that an interlocutory appeal is &#x201C;inappropriate where the appellate court is asked to render advisory opinions based on hypothetical questions of facts and law.&#x201D; Underwriters&#x2019; Resp. to Pl.&#x2019;s Cross Mot., at p. 2 (internal citations omitted). Underwriters maintain that such is the case here because there has been no determination made yet as to whether Underwriters has actually failed to pay benefits that are owed under the policy. <italic>See id.</italic> at pp. 2-3. Plaintiff has filed no Reply rebutting this assertion.</paratext></para>
+<para><paratext level="1">The Court agrees that the question of what constitutes a waiver generally depends on the facts of the case. <italic>See, e.g., Republic Ins. Co. v. PAICO Receivables, LLC</italic>, 383 F.3d 341, 346 (5th Cir. 2004) (in arbitration case, holding that the question of what constitutes a waiver of the right of arbitration depends on the facts of each case) (<italic>quoting Tenneco Resins, Inc. v. Davy Int'l, AG</italic>, 770 F.2d 416, 420 (5th Cir. 1985)). Whether performance of a condition precedent is excused because of the conduct of a party whose performance is dependent the condition likewise depends on the facts of the case.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> <italic>See Garner v. Hickman</italic>, 733 So. 2d 191, 195 (Miss. 1999) (stating that &#x201C;[w]here a contract is performable on the occurrence of a future event, there is an implied agreement that neither party will place any obstacle in the way of the happening of such event, and where a party is himself the cause of the failure he cannot rely on such condition to defeat his liability,&#x201D; and holding that whether one party made it impossible for the other to perform the contract is a jury question) (<italic>quoting Warwick v. Matheney</italic>, 603 So.2d 330, 337 (Miss. 1992)).</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p">&#8195; The Court notes that Plaintiff states in its Cross Motion that the policy provision at issue should be deemed void as a matter of public policy. However, a plain reading of the Cross Motion, as well as the briefing on the Motions, demonstrates that Plaintiff is actually arguing that its performance required by the provision in question, which the Court has determined requires Plaintiff to perform a condition precedent before being entitled to replacement cost, should be excused because it contends that Underwriters&#x2019; purported conduct in wrongfully denying its claim has allegedly prevented Plaintiff from performing this condition precedent.</paratext></para></footnote.body></footnote>
+<para><paratext level="1">The facts underlying Plaintiff's waiver and excuse of performance claims in this case have yet to be decided, and with predicate questions of fact remaining, the Fifth Circuit Court of Appeals would be asked to issue an advisory opinion, or base its decision upon hypothetical facts or alternative findings of fact, which is not appropriate. <italic>See White ex rel. White v. Ascension Parish School Bd.</italic>, 343 F.3d 373, 377 (5th Cir. 2003) (stating that, in a 28 U.S.C. &#x00A7; 1292(a)(1) interlocutory appeal, the Fifth Circuit could not render an advisory opinion based on a situation not before the Court). As such, given the record in this case, the Fifth Circuit would not be able to decide as a matter of law whether Underwriters have waived the requirements for Plaintiff recovering replacement cost, or whether Plaintiff's required performance under this contract provision has been excused. The Court is therefore of the opinion that Plaintiff's Cross Motion to Certify should be denied.</paratext></para>
+<para><paratext level="1"><bold>IT IS, THEREFORE, ORDERED AND ADJUDGED</bold> that, Defendant Certain Underwriters at Lloyd's, London's, Motion [342], filed May 13, 2009, pursuant to 28 U.S.C. &#x00A7; 1292(b), to appeal the Court's Order [166] denying Defendant's Motion for Summary Judgment [111], as well as related opinions and orders [166], [201], [291], and [304], should be and is hereby <bold>GRANTED</bold>.</paratext></para>
+<para><paratext level="1"><bold>IT IS, FURTHER, ORDERED AND ADJUDGED</bold> that, Plaintiff Penthouse Owners Association, Inc.&#x2019;s, Cross Motion [344], filed June 1, 2009, to Certify the Court's Orders [193], [202], [213], should be and is hereby <bold>DENIED.</bold></paratext></para>
+<para><paratext level="1"><bold>IT IS, FURTHER, ORDERED AND ADJUDGED</bold> that, Defendant Certain Underwriters at Lloyd's, London may seek leave to appeal as provided by 28 U.S.C. &#x00A7; 1292(b) and Federal Rule of Appellate Procedure 5, and that the Court's July 2, 2008,	Order [166] denying Defendant's Motion for Summary Judgment [111], as well as each related opinion and order, including Order [166] filed July 2, 2008, Order [201] filed July 21, 2008, Memorandum Opinion [291] dated January 16, 2009,	and Order [304] dated January 29, 2009, are hereby amended to include the following mandatory language pursuant to 28 U.S.C. &#x00A7; 1292(b):</paratext></para>
+<para><paratext first-line="1" turnover="1">This Order involves controlling questions of law as to which there is substantial ground for differences of opinion. Immediate appeal from this Order may materially advance the ultimate termination of this litigation.</paratext></para>
+<para><paratext first-line="1" turnover="1">It is further ordered that the Orders and Opinions as hereby amended, shall be deemed entered as of this date for purposes of computing the time for filing a petition for permission to appeal with the United States Court of Appeal for the Fifth Circuit.</paratext></para>
+<para><paratext level="1"><bold>IT IS, FURTHER, ORDERED AND ADJUDGED</bold> that, the above-captioned litigation is hereby <bold>STAYED</bold> pending either the issuance of a decision by the United States Court of Appeals for the Fifth Circuit resolving the interlocutory appeal, or the denial of the application for interlocutory appeal.</paratext></para>
+<para><paratext level="1"><bold>IT IS, FURTHER, ORDERED AND ADJUDGED</bold> that, the trial in this matter will remain specially set to commence on January 25, 2010, and that if the application for interlocutory appeal is granted, the parties are to notify the Court on or before November 25, 2009, as to the status of the appeal, at which time the Court may continue the trial in this matter.</paratext></para>
+<para><paratext level="1"><bold>SO ORDERED</bold> this the 7<sup>th</sup> day of July, 2009.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

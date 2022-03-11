@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><underscore>ALL CITIES REALTY, INC.</underscore></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><underscore>HOLLYMAX REALTY, INC., et al.</underscore></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. SACV 08-00195-CJC(MLGx)</docket.line>
+<docket.number>SACV 08-00195-CJC(MLGx)</docket.number>
+<docket.line suppress-flag="y">8:08-cv-00195-AHS-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 05/27/2008</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Michelle Urie, Deputy Clerk, ATTORNEYS PRESENT FOR PLAINTIFF: None Present</attorney.line>
+<attorney.line first-line="1">N/A, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANT: None Present</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>PROCEEDINGS: (IN CHAMBERS) ORDER DENYING DEFENDANTS' MOTIONS TO DISMISS WITHOUT PREJUDICE AND GRANTING DEFENDANTS' MOTIONS TO STAY ACTION</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><bold><underscore>HONORABLE CORMAC J. CARNEY, UNITED STATES DISTRICT JUDGE</underscore></bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Having read and considered the papers presented by the parties, the Court finds this matter appropriate for disposition without a hearing. <ital>See</ital> <csc>Fed. R. Civ. P.</csc> 78; <csc>Local Rule</csc> 7-15. Accordingly, the hearing set for June 2, 2008 at 1:30 p.m. is hereby vacated and off calendar.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This case arises out of Defendants Hollymax Realty, Inc. (&#x201C;Hollymax&#x201D;), Commbroker, Inc. (&#x201C;Commbroker&#x201D;), and Dale Eleniak's allegedly wrongful use of Plaintiff All Cities Realty, Inc.'s (&#x201C;All Cities&#x201D;) trademarked name, &#x201C;All Cities Realty&#174;&#x201D;. All Cities is a California corporation offering real estate brokerage and real estate appraisal services. Compl., &#182; 2. Defendants Hollymax Realty, Inc. and Commbroker, Inc. are competing California corporations that also offer real estate brokerage services. Defendant Dale Eleniak is a real estate broker who served as the broker of record for Hollymax Realty, Inc. and Commbroker, Inc. during the relevant time period. <ital>Id.</ital> at &#182; 7. All Cities alleges that it has been operating in California since 1997 and that it was one of the pioneers in Internet real estate marketing, relying heavily on its website entitled &#x201C;allcitiesrealty.com.&#x201D; <ital>Id.</ital> at &#182;&#182; 11, 18. All Cities alleges that a non-party entity, CF Real Estate Loans, Inc. (&#x201C;CF Real Estate&#x201D;), began infringing on All Cities' trademark in late 2002, when CF Real Estate began doing business as All Cities Real Estate. <ital>Id.</ital> at &#182; 13. All Cities asserts that CF Real Estate began extensive marketing campaigns in both print media and on the Internet using the names &#x201C;All Cities Real Estate&#x201D; and &#x201C;Re/Max All Cities Realty,&#x201D; and that CF Real Estate set up a competing website entitled &#x201C;allcitiesrealty.net.&#x201D; <ital>Id.</ital> at &#182;&#182; 15, 18-19. All Cities contends that this infringing activity caused actual confusion among real estate consumers who believed that Re/Max All Cities Realty and All Cities Realty&#174; were either affiliated or were the same company, and this had the effect of diluting All Cities Realty's&#174; trade name and web presence. <ital>Id.</ital> at &#182;&#182; 15-16.</paratext></para>
+<para><paratext ID="p3" level="1">All Cities asserts that beginning in 2005, Hollymax and Commbroker participated in this trademark infringement by appearing as &#x201C;offices&#x201D; on the Re/Max All Cities Realty website owned by CF Real Estate. Opp'n, p. 5. Specifically, All Cities contends that CF Real Estate's website contained a link entitled &#x201C;Commercial LA&#x201D; that brought consumers to websites owned by Hollymax and Commbroker. Compl., &#182;&#182; 29-32. All Cities argues that Dale Eleniak is vicariously liable for the trademark infringement carried out by Hollymax and Commbroker because he served as the broker of record during the period of alleged misconduct. <ital>Id.</ital> at &#182; 7.</paratext></para>
+<para><paratext ID="p4" level="1">In response to this alleged trademark infringement, All Cities filed three separate lawsuits against various defendants. In 2005, All Cities filed suit against CF Real Estate in this Court, Case No. CV 05-00615 AHS, <ital>All Cities Realty&#174; v. Re/Max All Cities Realty</ital> (the &#x201C;first federal action&#x201D;). The first federal action was assigned to Judge Stotler, and that case is set for trial on July 15, 2008. Hollymax's Mot. Dismiss or Stay, p. 15. During the early stages of the first federal action, CF Real Estate disclaimed responsibility for the conduct of its real estate agents in the use and marketing of All Cities' trademark. In response to this position, All Cities filed a second lawsuit against CF Real Estate's agents in California state court, Case No. BC 355724 (the &#x201C;state court action&#x201D;). Opp'n, p. 4. The state court action is currently stayed pending the outcome of the first federal action. Compl., &#182; 23. On February 21, 2008, All Cities filed the instant action against Hollymax, Commbroker, Dale Eleniak and various other individual defendants who are real estate agents or brokers. The complaint asserts claims for federal trademark infringement, California trademark infringement, California common law unfair competition, and California statutory unfair competition. Defendants Dale Eleniak, Hollymax, Commbroker, and other individual Defendants<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> now bring motions to dismiss the complaint for failure to state a claim, or alternatively, to stay the action pending the outcome of the first federal action. For the following reasons, the Court GRANTS the Defendants' motions to stay and DENIES Defendants' motions to dismiss, without prejudice to refile once the proceedings in the first federal action are complete.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;The following individual defendants have tendered their defense to the corporate defendants Hollymax and Commbroker: Kenneth Davis, Farzad Dorrani, Allen Jackson, Arianne Kays, Jeanette Gurza-Junco, Jiao Hong Kuleck, Rob O'Sullivan, Shannan O'Sullivan, Colete Stevens, Susan Williams, Omid Arasteh, Blen Beer, Maurice Benitah, Nina Dhillon, Matthew Freedman, Jack Khalii, Jihan Kim, Robert Melamed, Gina Saeidian, Simon Shaheri, and Byron Rife. The law firm of Cislo &#38; Thomas, LLP advised the Court that it is serving as counsel for all of these individual defendants as well as the corporate defendants.</paratext></para></footnote.body></footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>Analysis</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">District courts have inherent power to stay their proceedings, which is incidental to the power to promote the efficient disposition of cases on their docket. <ital>Rivers v. Walt Disney Co.</ital>, 980 F. Supp. 1358, 1360 (C.D. Cal. 1997) (<ital>quoting Landis v. North American Co.</ital>, 299 U.S. 248, 254, 57 S.Ct. 163, 166, 81 L.Ed. 153 (1936)). Such case management &#x201C;is best accomplished by the &#x2018;exercise of judgment, which must weigh competing interests and maintain an even balance.&#x2019;&#x201D; <ital>Id. (quoting Landis</ital>, 299 U.S. at 254-55.) &#x201C;When considering a motion to stay, the district court should consider three factors: (1) potential prejudice to the non-moving party, (2) hardship and inequity to the moving party if the action is not stayed; and (3) the judicial resources that would be saved by avoiding duplicative litigation if the cases are in fact consolidated.&#x201D; <ital>Id. (citing American Seafood v. Magnolia Processing, Inc.</ital>, 1992 WL 102762, at *1-2 (E.D. Penn. 1992)).</paratext></para>
+<para><paratext ID="p7" level="1">These factors weigh in favor of staying all proceedings in this case until the proceedings in the first federal action have been completed. First, the Court finds that significant judicial resources would be saved by staying this action until the first federal action has been decided. This action and the first federal action were both brought by the same Plaintiff, All Cities, and both actions regard the same main issue &#8212; whether All Cities trademark has been infringed by the trade name &#x201C;Re/Max All Cities Realty.&#x201D; Although All Cities has named different defendants in the instant case, Hollymax, Commbroker, and Dale Eleniak are being accused of the same exact conduct as the defendant in the first federal action, CF Real Estate. In both actions, All Cities is required to prove two things: first, that its mark, &#x201C;All Cities Realty,&#x201D; is valid and enforceable, and second, that the trade name &#x201C;Re/Max All Cities Realty is infringing. It would not be an efficient use of judicial resources to litigate the identical issues in two separate legal fronts, at the same time. A stay is merited because in the event that All Cities does not prevail on either of these two crucial issues in the first federal action, the instant action will be mooted. Alternatively, if All Cities does prevail in the first federal action, this action will be greatly simplified because the issues of trademark validity, enforceability, and infringement by the name Re/Max All Cities Realty will have been established. The proceedings in the instant case would then be mainly limited to the issue of whether the instant Defendants can be held accountable for infringement merely by linking their website to CF Real Estate's website and operating as an &#x201C;office&#x201D; of CF Real Estate.</paratext></para>
+<para><paratext ID="p8" level="1">Second, Hollymax, Commbroker and Mr. Eleniak may suffer hardship and prejudice if the instant action is not stayed because of the risk of inconsistent judgments. If this Court permits All Cities to litigate the same issue that is being litigated in the First Federal Action (whether All Cities' trademark has been infringed by the trade name &#x201C;Re/Max All Cities Realty&#x201D;), and this action results in a different outcome than the first federal action, the moving Defendants will be faced with inconsistent obligations. Additionally, the moving Defendants will be forced to engage in duplicative discovery and motion practice.</paratext></para>
+<para><paratext ID="p9" level="1">Finally, the Court does not find that All Cities would be prejudiced were the Court to grant a stay in the instant action because this case is in its early stages and the stay shall only be in place for a brief period of time. This case was newly filed (approximately three months ago), and these motions to dismiss are the first set of dispositive motions filed in this action. The first federal action is scheduled to go to trial on July 15, 2008, less than two months from now, and therefore the stay should not be in place for an extended period of time. If the trial in the first federal action is delayed again, and the first federal action is not resolved by the end of the year, All Cities is invited to notify this Court of that fact, and the Court will consider lifting the stay. In short, any hardship that may result from this brief stay is outweighed by the need to conserve judicial resources and to avoid litigating substantially similar issues in two different legal fronts at the same time.</paratext></para>
+<para><paratext ID="p10" level="1">Because the Court finds that it is the in interest of justice and efficiency to stay these proceedings during the pendency of the first federal action, it would not be appropriate to address the merits of the complaint at this time. Therefore, Defendants' motions to dismiss are denied without prejudice to refile after the proceedings of the first federal action are finished.</paratext></para>
+<para><paratext ID="p11" level="1">rls</paratext></para>
+<para><paratext ID="p12" level="1">MINUTES FORM 11 CIVIL-GEN</paratext></para>
+<para><paratext ID="p13" level="1">Initials of Deputy Clerk MU</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[=$module]Test", "[=$module]Test.csproj", "{[=$TestProjectGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$ProjectLibGuid]} = {[=$ProjectLibGuid]}
+		{[=$AltovaXMLLibGuid]} = {[=$AltovaXMLLibGuid]}
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[=$module]", "..\\[=$module]\\[=$module].csproj", "{[=$ProjectLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaXMLLibGuid]} = {[=$AltovaXMLLibGuid]}
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaXML", "..\\AltovaXML\\AltovaXML.csproj", "{[=$AltovaXMLLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+		{[=$AltovaLibGuid]} = {[=$AltovaLibGuid]}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altova", "..\\Altova\\Altova.csproj", "{[=$AltovaLibGuid]}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{[=$TestProjectGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$TestProjectGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$TestProjectGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$TestProjectGuid]}.Release.Build.0 = Release|.NET
+		{[=$ProjectLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$ProjectLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$ProjectLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$ProjectLibGuid]}.Release.Build.0 = Release|.NET
+		{[=$AltovaXMLLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaXMLLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaXMLLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaXMLLibGuid]}.Release.Build.0 = Release|.NET
+		{[=$AltovaLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaLibGuid]}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

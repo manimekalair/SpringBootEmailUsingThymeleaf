@@ -1,0 +1,169 @@
+[
+' // Subroutines for AlgorithmGroup.java
+' // Language = Java
+' ////////////////////////////////////////////////////////////////////////
+
+' // XML execution implementation subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoopXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoopXML( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter, byval $lCaption )
+
+	if $rAlgorithm.IsParentLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-PARENT
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsDocSwitchLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-DOC
+[		$lRootQType = QualifiedTypeName($rAlgorithm.SourceContext)
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType] [=$rSourceParameter]
+[=$rIndent]	= ( [=$lRootQType] )var[=$rAlgorithm.InstanceVariable];
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-VAR
+[		$lParentQType = QualifiedTypeName($rAlgorithm.LoopContext)
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lParentQType] [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject
+[=$rIndent]	= ( [=$lParentQType] )var[=$rAlgorithm.VarID];
+[=$rIndent]for ( int i = 0; i < [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.get[=$rAlgorithm.SourceContext.Name]Count(); i++)
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.get[=$rAlgorithm.SourceContext.Name]At( i );
+[
+	else
+
+][=$rIndent]// {LOOP} [=$lCaption]-CHILD
+[		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+	if $lCaption = "XML"
+		$lCursor = "Local" & $rAlgorithm.SourceContext.UniqueName & "Cursor"
+]
+[=$rIndent]for( org.w3c.dom.Node [=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.getStarting[=$rAlgorithm.SourceContext.Name]Cursor();
+[=$rIndent]		[=$lCursor] != null;
+[=$rIndent]		[=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.getAdvanced[=$rAlgorithm.SourceContext.Name]Cursor( [=$lCursor] ) ) {
+[=$rIndent]	[=$lQType]	[=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.get[=$rAlgorithm.SourceContext.Name]ValueAtCursor( [=$lCursor] );
+[	else : if $lCaption = "TEXT"
+][=$rIndent]int n = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.get[=$rAlgorithm.SourceContext.Name]Count();
+[=$rIndent]for ( int i = 0; i < n; i++)
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.get[=$rAlgorithm.SourceContext.Name]At( i );
+[
+	endif : endif :	endif : endif : endif
+
+	$rIndent = $rIndent & "	"	
+
+endsub
+
+'-------------------------------------------------------------------------
+' ExecuteEndLoopXML
+'-------------------------------------------------------------------------
+
+sub ExecuteEndLoopXML( byval $lQType, byref $rIndent, byref $rAlgorithm, byval $lSourceParameter, byval $lCaption )
+
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreateXML:
+' ------------------------------------------------------------------------
+sub ExecuteEndCreateXML( byval $lIndent, byref $rAlgorithm )
+][=$lIndent][=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.add[=$rAlgorithm.TargetContext.Name]( new[=$rAlgorithm.TargetContext.UniqueName]TargetObject );
+[
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteBeginDistributeXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginDistributeXML( byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+]
+[=$rIndent]org.w3c.dom.Element srcDomNode = (org.w3c.dom.Element)[=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.getDomNode();
+		
+[=$rIndent]Vector v = new Vector();
+		
+[=$rIndent]org.w3c.dom.NamedNodeMap attrs = srcDomNode.getAttributes();
+[=$rIndent]if (attrs != null) {
+[=$rIndent][=$rIndent]for (int i = 0; i < attrs.getLength(); i++) {
+[=$rIndent][=$rIndent][=$rIndent]v.add(attrs.item(i));
+[=$rIndent][=$rIndent]}
+[=$rIndent]}
+
+[=$rIndent]org.w3c.dom.NodeList list = srcDomNode.getChildNodes();
+[=$rIndent]int length = list.getLength();
+[=$rIndent]for (int i = 0; i < length; i++) {
+[=$rIndent][=$rIndent]v.add(list.item(i));
+[=$rIndent]}
+		
+[=$rIndent]for (int j = 0; j < v.size(); j++) {	
+[=$rIndent][=$rIndent]org.w3c.dom.Node node = (org.w3c.dom.Node) v.elementAt(j);
+[endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteDistLoopXML:
+' ------------------------------------------------------------------------
+
+	sub ExecuteDistLoopXML( byref $rIndent, byref $rSubAlgorithm, byref $rSourceParameter, byref $rTargetParameter  )
+
+	$lQType = QualifiedTypeName($rSubAlgorithm.SourceContext)
+	
+	if $rSubAlgorithm.SourceContext.IsBuiltinType or $rSubAlgorithm.SourceContext.IsSimpleType
+		$lArgs = "( com.altova.xml.Node.getNodeTextValue(node) )"
+	else
+		$lArgs = "( node )"
+	endif
+]
+[=$rIndent][=$rIndent]if ( node.getNodeType() == org.w3c.dom.Node.[if $rSubAlgorithm.SourceContext.IsAttribute]ATTRIBUTE[else]ELEMENT[endif
+]_NODE && node.getNodeName().equals("[=$rSubAlgorithm.SourceContext.XmlName]") [
+if $rSubAlgorithm.SourceContext.NamespaceURI <> ""]&& node.getNamespaceURI().equals("[=$rSubAlgorithm.SourceContext.NamespaceURI]") [endif])
+[=$rIndent][=$rIndent]{
+[$srcParam = "new " & $lQType & $lArgs
+][=$rIndent][=$rIndent][call ExecuteBlock( $rIndent, $rSubAlgorithm.SubAlgorithms, $srcParam, $rTargetParameter, $rSubAlgorithm )]
+[=$rIndent][=$rIndent]}
+[endsub
+
+' ------------------------------------------------------------------------
+' ExecuteEndDistributeXML:
+' ------------------------------------------------------------------------
+sub ExecuteEndDistributeXML( byref $rIndent, byref $rAlgorithm, byref $rTargetParameter )
+]
+[if $rAlgorithm.IsCopyTextNodes
+][=$rIndent][=$rIndent]if ( node.getNodeType() == org.w3c.dom.Node.TEXT_NODE )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].addTextNode( com.altova.xml.Node.getNodeTextValue(node) );
+[=$rIndent][=$rIndent]}
+[endif 
+if $rAlgorithm.IsCopyCDATA
+][=$rIndent][=$rIndent]if ( node.getNodeType() == org.w3c.dom.Node.CDATA_SECTION_NODE )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].addCDataNode( com.altova.xml.Node.getNodeTextValue(node) );
+[=$rIndent][=$rIndent]}
+[endif
+if $rAlgorithm.IsCopyComments 
+][=$rIndent][=$rIndent]if ( node.getNodeType() == org.w3c.dom.Node.COMMENT_NODE )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].addComment( com.altova.xml.Node.getNodeTextValue(node) );
+[=$rIndent][=$rIndent]}
+[endif
+if $rAlgorithm.IsCopyPIs 
+][=$rIndent][=$rIndent]if ( node.getNodeType() == org.w3c.dom.Node.PROCESSING_INSTRUCTION_NODE )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].addProcessingInstruction( node.getNodeName(), com.altova.xml.Node.getNodeTextValue(node) );
+[=$rIndent][=$rIndent]}
+[endif]
+[=$rIndent]}
+[endsub
+
+' EOF
+]
+

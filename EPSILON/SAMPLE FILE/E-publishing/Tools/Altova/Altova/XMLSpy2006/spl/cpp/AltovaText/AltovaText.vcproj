@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="AltovaText"
+[if $mfc]
+	Keyword="MFCProj"
+[endif]
+	SccProjectName=""
+	SccLocalPath="">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory=".\\Release"
+			IntermediateDirectory=".\\Release"
+[if $libtype = 1]
+			ConfigurationType="4"
+[else]
+			ConfigurationType="2"
+[endif]
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+[if $libtype = 1]
+				PreprocessorDefinitions="_LIB;WIN32;NDEBUG;_WINDOWS"
+	[if $mfc]
+				RuntimeLibrary="2"
+	[else]
+				RuntimeLibrary="0"
+	[endif]
+[else]
+				PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS"
+				RuntimeLibrary="2"
+[endif]
+				StringPooling="TRUE"
+				EnableFunctionLevelLinking="TRUE"				
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\Release/AltovaText.pch"
+				AssemblerListingLocation=".\\Release/"
+				ObjectFile=".\\Release/"
+				ProgramDataBaseFileName=".\\Release/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"/>
+[if $libtype = 1]
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\\Release\\AltovaText.lib"
+				SuppressStartupBanner="TRUE"/>
+[else]
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\Release/AltovaText.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ProgramDatabaseFile=".\\Release/AltovaText.pdb"
+				ImportLibrary=".\\Release/AltovaText.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\\Release/AltovaText.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="@mkdir ..\\[=$AppProjectName]\\Release &gt;nul
+@copy .\\Release\\AltovaText.dll ..\\[=$AppProjectName]\\Release\\ &gt;nul
+"/>
+
+[endif]
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\\Debug"
+			IntermediateDirectory=".\\Debug"
+[if $libtype = 1]
+			ConfigurationType="4"
+[else]
+			ConfigurationType="2"
+[endif]
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+[if $libtype = 1]
+				PreprocessorDefinitions="_LIB;_DEBUG;WIN32;_WINDOWS"
+	[if $mfc]
+				RuntimeLibrary="3"
+	[else]
+				RuntimeLibrary="1"
+	[endif]
+[else]
+				PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS"
+				RuntimeLibrary="3"
+[endif]
+				BasicRuntimeChecks="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\Debug/AltovaText.pch"
+				AssemblerListingLocation=".\\Debug/"
+				ObjectFile=".\\Debug/"
+				ProgramDataBaseFileName=".\\Debug/"
+				BrowseInformation="1"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"/>
+[if $libtype = 1]
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\\Debug\\AltovaText.lib"
+				SuppressStartupBanner="TRUE"/>
+[else]
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\Debug/AltovaText.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\\Debug/AltovaText.pdb"
+				ImportLibrary=".\\Debug/AltovaText.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\\Debug/AltovaText.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="@mkdir ..\\[=$AppProjectName]\\Debug &gt;nul
+@copy .\\Debug\\AltovaText.dll ..\\[=$AppProjectName]\\Debug\\ &gt;nul
+"/>
+[endif]
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\\UnicodeRelease"
+			IntermediateDirectory=".\\UnicodeRelease"
+[if $libtype = 1]
+			ConfigurationType="4"
+[else]
+			ConfigurationType="2"
+[endif]
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+[if $libtype = 1]
+				PreprocessorDefinitions="_LIB;NDEBUG;WIN32;_WINDOWS;UNICODE"
+	[if $mfc]
+				RuntimeLibrary="2"
+	[else]
+				RuntimeLibrary="0"
+	[endif]
+[else]
+				PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;UNICODE"
+				RuntimeLibrary="2"
+[endif]
+				StringPooling="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\UnicodeRelease/AltovaText.pch"
+				AssemblerListingLocation=".\\UnicodeRelease/"
+				ObjectFile=".\\UnicodeRelease/"
+				ProgramDataBaseFileName=".\\UnicodeRelease/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"/>
+[if $libtype = 1]
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\\UnicodeRelease\\AltovaText.lib"
+				SuppressStartupBanner="TRUE"/>
+[else]
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\UnicodeRelease/AltovaText.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ProgramDatabaseFile=".\\UnicodeRelease/AltovaText.pdb"
+				ImportLibrary=".\\UnicodeRelease/AltovaText.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\\UnicodeRelease/AltovaText.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="@mkdir ..\\[=$AppProjectName]\\UnicodeRelease &gt;nul
+@copy .\\UnicodeRelease\\AltovaText.dll ..\\[=$AppProjectName]\\UnicodeRelease\\ &gt;nul
+"/>
+
+[endif]
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\\UnicodeDebug"
+			IntermediateDirectory=".\\UnicodeDebug"
+[if $libtype = 1]
+			ConfigurationType="4"
+[else]
+			ConfigurationType="2"
+[endif]
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+[if $libtype = 1]
+				PreprocessorDefinitions="_LIB;_DEBUG;WIN32;_WINDOWS;UNICODE"
+	[if $mfc]
+				RuntimeLibrary="3"
+	[else]
+				RuntimeLibrary="1"
+	[endif]
+[else]
+				PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;UNICODE"
+				RuntimeLibrary="3"
+[endif]
+				BasicRuntimeChecks="3"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\UnicodeDebug/AltovaText.pch"
+				AssemblerListingLocation=".\\UnicodeDebug/"
+				ObjectFile=".\\UnicodeDebug/"
+				ProgramDataBaseFileName=".\\UnicodeDebug/"
+				BrowseInformation="1"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"/>
+[if $libtype = 1]
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile=".\\UnicodeDebug\\AltovaText.lib"
+				SuppressStartupBanner="TRUE"/>
+[else]
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\UnicodeDebug/AltovaText.dll"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\\UnicodeDebug/AltovaText.pdb"
+				ImportLibrary=".\\UnicodeDebug/AltovaText.lib"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="TRUE"
+				SuppressStartupBanner="TRUE"
+				TargetEnvironment="1"
+				TypeLibraryName=".\\UnicodeDebug/AltovaText.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				CommandLine="@mkdir ..\\[=$AppProjectName]\\UnicodeDebug &gt;nul
+@copy .\\UnicodeDebug\\AltovaText.dll ..\\[=$AppProjectName]\\UnicodeDebug\\ &gt;nul
+"/>
+[endif]
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files (General)"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="Helpers.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CodePageInformation.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="StdAfx.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Source Files (Table Based)"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="ColumnSpecification.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CSVFormat.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CSVParser.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="CSVSerializer.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FLFFormat.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FLFParser.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FLFSerializer.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Header.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Record.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="RecordBasedParser.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Serializer.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Table.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="TextException.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+
+		<Filter
+			Name="Source Files (Tree Based)"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="BaseNode.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FlexCommand.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="FlexUtilities.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Generator.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="TextDocument.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="TextNode.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="TextNodeXMLWriter.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+
+		<Filter
+			Name="Source Files (EDIFACT)"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="Command.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Commands.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Condition.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Conditions.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="DataCompletion.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="EDIFactSerializer.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="EDIFactSettings.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="EDISettings.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="EDIX12Settings.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="EDIFactDataCompletion.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="EDIX12DataCompletion.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MakeSureHasChild.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Function.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Functions.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Parser.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="Scanner.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="ServiceStringAdvice.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;NDEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;WIN32;_DEBUG;_WINDOWS;_MBCS;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;NDEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						Optimization="2"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+[if $libtype = 2 and $mfc = 0]
+						PreprocessorDefinitions="ALTOVATEXT_EXPORTS;_USRDLL;_DEBUG;WIN32;_WINDOWS;_UNICODE;UNICODE;$(NoInherit)"
+[endif]
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files (General)"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="AltovaTextAPI.h">
+			</File>
+			<File
+			    RelativePath="CodePageInformation.h">
+			</File>
+			<File
+				RelativePath="Helpers.h">
+			</File>
+			<File
+				RelativePath="StdAfx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files (Table Based)"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="ColumnSpecification.h">
+			</File>
+			<File
+				RelativePath="CSVFormat.h">
+			</File>
+			<File
+				RelativePath="CSVParser.h">
+			</File>
+			<File
+				RelativePath="CSVSerializer.h">
+			</File>
+			<File
+				RelativePath="FLFFormat.h">
+			</File>
+			<File
+				RelativePath="FLFParser.h">
+			</File>
+			<File
+				RelativePath="FLFSerializer.h">
+			</File>
+			<File
+				RelativePath="Header.h">
+			</File>
+			<File
+				RelativePath="Record.h">
+			</File>
+			<File
+				RelativePath="Serializer.h">
+			</File>
+			<File
+				RelativePath="Table.h">
+			</File>
+			<File
+				RelativePath="TextException.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files (Tree Based)"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="BaseNode.h">
+			</File>
+			<File
+				RelativePath="FlexCommand.h">
+			</File>
+			<File
+				RelativePath="FlexUtilities.h">
+			</File>
+			<File
+				RelativePath="Generator.h">
+			</File>
+			<File
+				RelativePath="TextDocument.h">
+			</File>
+			<File
+				RelativePath="TextNode.h">
+			</File>
+			<File
+				RelativePath="TextNodeXMLWriter.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files (EDIFACT)"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="Command.h">
+			</File>
+			<File
+				RelativePath="Commands.h">
+			</File>
+			<File
+				RelativePath="Condition.h">
+			</File>
+			<File
+				RelativePath="Conditions.h">
+			</File>
+			<File
+				RelativePath="DataCompletion.h">
+			</File>
+			<File
+				RelativePath="EDIFactSerializer.h">
+			</File>
+			<File
+				RelativePath="EDIFactSettings.h">
+			</File>
+			<File
+				RelativePath="EDISettings.h">
+			</File>
+			<File
+				RelativePath="EDIX12Settings.h">
+			</File>
+			<File
+				RelativePath="EDIFactDataCompletion.h">
+			</File>
+			<File
+				RelativePath="EDIX12DataCompletion.h">
+			</File>
+			<File
+				RelativePath="MakeSureHasChild.h">
+			</File>
+			<File
+				RelativePath="Function.h">
+			</File>
+			<File
+				RelativePath="Functions.h">
+			</File>
+			<File
+				RelativePath="Parser.h">
+			</File>
+			<File
+				RelativePath="Scanner.h">
+			</File>
+			<File
+				RelativePath="ServiceStringAdvice.h">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

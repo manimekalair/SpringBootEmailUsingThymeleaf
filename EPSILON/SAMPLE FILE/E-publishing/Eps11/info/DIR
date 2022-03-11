@@ -1,0 +1,16 @@
+-*- Text -*-
+This file .../info/dir contains the topmost node of the info
+hierarchy.  The "d" command in Info goes here.  This is also the
+default node when you start Info.
+
+
+File: dir	Node: Top	This is the top of the INFO tree.
+
+This is the Directory node of Info.  It contains a menu of all major
+topics.  Typing "d" in Info goes here, "q" quits Info, "?" lists all
+Info commands, "h" gives a primer for new Info users,
+"mEpsilon<Enter>" goes to the Epsilon topic, etc.
+
+* Menu: The list of major topics begins on the next line.
+
+* Epsilon: (epsilon).  Lugaru's Epsilon Programmer's Editor.

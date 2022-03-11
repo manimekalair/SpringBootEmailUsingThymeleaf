@@ -1,0 +1,569 @@
+[
+'-------------------------------------------------------------
+' C# Mapforce Project Template
+'
+' Copyright (C) 2002-2005 Altova GmbH - The XMLSPY Company
+' All rights reserved.
+'
+' MapForce generates C# classes based on this template.
+' Refer to the MapForce documentation for further details.
+'
+' http://www.altova.com/mapforce
+'-------------------------------------------------------------
+
+map type "boolean"				to "SchemaBoolean"
+
+map type "byte"					to "SchemaInt"
+map type "unsignedByte"			to "SchemaInt"
+map type "short"				to "SchemaInt"
+map type "unsignedShort"		to "SchemaInt"
+map type "int"					to "SchemaInt"
+map type "unsignedInt"			to "SchemaInt"
+map type "long"					to "SchemaLong"
+map type "unsignedLong"			to "SchemaLong"
+
+map type "integer"				to "SchemaLong"
+map type "nonPositiveInteger"	to "SchemaLong"
+map type "negativeInteger"		to "SchemaLong"
+map type "positiveInteger"		to "SchemaLong"
+map type "nonNegativeInteger"	to "SchemaLong"
+
+map type "decimal"				to "SchemaDecimal"
+map type "float"				to "SchemaDouble"
+map type "double"				to "SchemaDouble"
+
+map type "duration"				to "SchemaDuration"
+map type "gYear"				to "SchemaString"
+map type "gDay"					to "SchemaString"
+map type "gMonth"				to "SchemaString"
+map type "gYearMonth"			to "SchemaString"
+map type "gMonthDay"			to "SchemaString"
+map type "date"					to "SchemaDate"
+map type "time"					to "SchemaTime"
+map type "dateTime"				to "SchemaDateTime"
+
+map type "hexBinary"			to "SchemaHexBinary"
+map type "base64Binary"			to "SchemaBase64Binary"
+
+map type "string"				to "SchemaString"
+map type "anyURI"				to "SchemaString"
+map type "QName"				to "SchemaString"
+map type "NOTATION"				to "SchemaString"
+map type "normalizedString"		to "SchemaString"
+map type "token"				to "SchemaString"
+map type "language"				to "SchemaString"
+map type "IDREF"				to "SchemaString"
+map type "ENTITY"				to "SchemaString"
+map type "NMTOKEN"				to "SchemaString"
+map type "Name"					to "SchemaString"
+map type "NCName"				to "SchemaString"
+map type "ID"					to "SchemaString"
+map type "IDREFS"				to "SchemaString"
+map type "ENTITIES"				to "SchemaString"
+map type "NMTOKENS"				to "SchemaString"
+
+map type "anySimpleType"		to "SchemaString"
+
+map type "anyType"				to "Altova.Xml.AnyTypeNode"
+
+
+default "ValidFirstCharSet"			is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+default "ValidCharSet"				is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_0123456789"
+default "InvalidCharReplacement"	is "_"
+default "AnonTypePrefix"			is ""
+default "AnonTypeSuffix"			is "Type"
+default "ClassNamePrefix"			is ""
+default "ClassNameSuffix"			is ""
+default "EnumerationPrefix"			is "e"
+default "EnumerationUpperCase"		is "off"
+default "FallbackName"				is "Name"
+
+reserve "altova"
+reserve "abstract"
+reserve "as"
+reserve "base"
+reserve "bool"
+reserve "break"
+reserve "byte"
+reserve "case"
+reserve "catch"
+reserve "char"
+reserve "checked"
+reserve "class"
+reserve "const"
+reserve "continue"
+reserve "decimal"
+reserve "default"
+reserve "delegate"
+reserve "do"
+reserve "double"
+reserve "else"
+reserve "enum"
+reserve "event"
+reserve "explicit"
+reserve "extern"
+reserve "false"
+reserve "finally"
+reserve "fixed"
+reserve "float"
+reserve "for"
+reserve "foreach"
+reserve "goto"
+reserve "if"
+reserve "implicit"
+reserve "in"
+reserve "int"
+reserve "interface"
+reserve "internal"
+reserve "is"
+reserve "lock"
+reserve "long"
+reserve "namespace"
+reserve "new"
+reserve "null"
+reserve "object"
+reserve "operator"
+reserve "out"
+reserve "override"
+reserve "params"
+reserve "private"
+reserve "protected"
+reserve "public"
+reserve "readonly"
+reserve "ref"
+reserve "return"
+reserve "sbyte"
+reserve "sealed"
+reserve "short"
+reserve "sizeof"
+reserve "stackalloc"
+reserve "static"
+reserve "string"
+reserve "struct"
+reserve "switch"
+reserve "this"
+reserve "throw"
+reserve "true"
+reserve "try"
+reserve "typeof"
+reserve "uint"
+reserve "ulong"
+reserve "unchecked"
+reserve "unsafe"
+reserve "ushort"
+reserve "using"
+reserve "virtual"
+reserve "void"
+reserve "volatile"
+reserve "while"
+
+reserve "Type"
+reserve "NodeType"
+reserve "Value"
+
+$FullPackageDir		= ""
+$FullPackageName	= ""
+$QualifiedBase		= ""
+$QualifiedType		= ""
+$QualifiedValueType	= ""
+$QualifiedSetValueType = ""
+$IsQualified		= ""
+$module				= ""
+$moduleName			= ""
+$AltovaLibGuid 		= "E1E2A79A-12CC-4107-B1BF-E5C58E642B92"
+$AltovaXMLLibGuid 	= "03AAA791-EC2D-4A90-ABBF-45337E52DFD6"
+$AltovaDBLibGuid 	= "61A86C9B-FFAC-468F-9AF6-6AAA2012C607"
+$AltovaTextLibGuid 	= "ECC6AD11-5548-46FE-9833-2BD41FA67CC1"
+$AltovaFunctionsGuid= "56AA56BB-A330-4EE5-A3D1-7FDD0963C6D8"
+
+$AlgorithmGroupClass	= ""
+
+'-----------------------------------------------------------
+' Altova Common Library
+'-----------------------------------------------------------
+' Common types
+create $outputpath & "/Altova/Altova.cs"			: include "cs/Altova/Altova.cs"				: close
+create $outputpath & "/Altova/SchemaExceptions.cs"	: include "cs/Altova/SchemaExceptions.cs"	: close
+create $outputpath & "/Altova/SchemaTypes.cs"		: include "cs/Altova/SchemaTypes.cs"		: close
+create $outputpath & "/Altova/SchemaTypeFactory.cs"	: include "cs/Altova/SchemaTypeFactory.cs"	: close
+' assembly and project files
+create $outputpath & "/Altova/AssemblyInfo.cs"		: include "cs/Altova/AssemblyInfo.cs"		: close
+if $CreateVS2005Project
+	create $outputpath & "/Altova/Altova.csproj"	: include "cs/Altova/Altova2005.csproj"		: close
+	create $outputpath & "/Altova/Altova.sln"		: include "cs/Altova/Altova2005.sln"		: close
+endif
+if $CreateVS2003Project
+	create $outputpath & "/Altova/Altova.csproj"	: include "cs/Altova/Altova2003.csproj"		: close
+	create $outputpath & "/Altova/Altova.sln"		: include "cs/Altova/Altova2003.sln"		: close
+endif
+if $CreateVSProject
+	create $outputpath & "/Altova/Altova.csproj"	: include "cs/Altova/Altova.csproj"			: close
+	create $outputpath & "/Altova/Altova.sln"		: include "cs/Altova/Altova.sln"			: close
+endif
+if $CreateBorlandProject
+	create $outputpath & "/Altova/Altova.bdsproj"	: include "cs/Altova/Altova.bdsproj"		: close
+endif
+
+'-----------------------------------------------------------
+' Altova XML Library
+'-----------------------------------------------------------
+' XML package
+create $outputpath & "/AltovaXML/Document.cs"			: include "cs/AltovaXML/Document.cs"			: close
+create $outputpath & "/AltovaXML/Node.cs"				: include "cs/AltovaXML/Node.cs"				: close
+create $outputpath & "/AltovaXML/AnyTypeNode.cs"		: include "cs/AltovaXML/AnyTypeNode.cs"			: close
+' assembly and project files
+create $outputpath & "/AltovaXML/AssemblyInfo.cs"		: include "cs/AltovaXML/AssemblyInfo.cs"		: close
+if $CreateVS2005Project
+	create $outputpath & "/AltovaXML/AltovaXML.csproj"	: include "cs/AltovaXML/AltovaXML2005.csproj"	: close
+	create $outputpath & "/AltovaXML/AltovaXML.sln"		: include "cs/AltovaXML/AltovaXML2005.sln"		: close
+endif
+if $CreateVS2003Project
+	create $outputpath & "/AltovaXML/AltovaXML.csproj"	: include "cs/AltovaXML/AltovaXML2003.csproj"	: close
+	create $outputpath & "/AltovaXML/AltovaXML.sln"		: include "cs/AltovaXML/AltovaXML2003.sln"		: close
+endif
+if $CreateVSProject
+	create $outputpath & "/AltovaXML/AltovaXML.csproj"	: include "cs/AltovaXML/AltovaXML.csproj"		: close
+	create $outputpath & "/AltovaXML/AltovaXML.sln"		: include "cs/AltovaXML/AltovaXML.sln"			: close
+endif
+if $CreateBorlandProject
+	create $outputpath & "/AltovaXML/AltovaXML.bdsproj"	: include "cs/AltovaXML/AltovaXML.bdsproj"		: close
+endif
+'-----------------------------------------------------------
+' Altova DB Library
+'-----------------------------------------------------------
+if $DBLibraryCount > 0
+	' database package
+	create $outputpath & "/AltovaDB/Exceptions.cs"			: include "cs/AltovaDB/Exceptions.cs"		: close
+	create $outputpath & "/AltovaDB/Database.cs"			: include "cs/AltovaDB/Database.cs"			: close
+	create $outputpath & "/AltovaDB/RecordSet.cs"			: include "cs/AltovaDB/RecordSet.cs"		: close
+	create $outputpath & "/AltovaDB/FieldValue.cs"			: include "cs/AltovaDB/FieldValue.cs"		: close
+	create $outputpath & "/AltovaDB/Command.cs"				: include "cs/AltovaDB/Command.cs"			: close
+	' assembly and project files
+	create $outputpath & "/AltovaDB/AssemblyInfo.cs"		: include "cs/AltovaDB/AssemblyInfo.cs"		: close
+	if $CreateVS2005Project
+		create $outputpath & "/AltovaDB/AltovaDB.csproj"	: include "cs/AltovaDB/AltovaDB2005.csproj"	: close
+		create $outputpath & "/AltovaDB/AltovaDB.sln"		: include "cs/AltovaDB/AltovaDB2005.sln"	: close
+	endif
+	if $CreateVS2003Project
+		create $outputpath & "/AltovaDB/AltovaDB.csproj"	: include "cs/AltovaDB/AltovaDB2003.csproj"	: close
+		create $outputpath & "/AltovaDB/AltovaDB.sln"		: include "cs/AltovaDB/AltovaDB2003.sln"	: close
+	endif
+	if $CreateVSProject
+		create $outputpath & "/AltovaDB/AltovaDB.csproj"	: include "cs/AltovaDB/AltovaDB.csproj"		: close
+		create $outputpath & "/AltovaDB/AltovaDB.sln"		: include "cs/AltovaDB/AltovaDB.sln"		: close
+	endif
+	if $CreateBorlandProject
+		create $outputpath & "/AltovaDB/AltovaDB.bdsproj"	: include "cs/AltovaDB/AltovaDB.bdsproj"	: close
+	endif
+endif
+'-----------------------------------------------------------
+' Altova Text Library
+'-----------------------------------------------------------
+if $EDILibraryCount > 0
+	' text parser package
+	create $outputpath & "/AltovaText/Exceptions.cs"				:	include "cs/AltovaText/Exceptions.cs"					:	close
+	create $outputpath & "/AltovaText/IDataElement.cs"				:	include "cs/AltovaText/IDataElement.cs"					:	close
+	create $outputpath & "/AltovaText/EDIFACT/BaseFunction.cs"			:	include "cs/AltovaText/EDIFACT/BaseFunction.cs"				:	close
+	create $outputpath & "/AltovaText/BaseType.cs"				:	include "cs/AltovaText/BaseType.cs"				:	close
+	create $outputpath & "/AltovaText/EDIFACT/Commands.cs"				:	include "cs/AltovaText/EDIFACT/Commands.cs"				:	close
+	create $outputpath & "/AltovaText/EDIFACT/Conditions.cs"			:	include "cs/AltovaText/EDIFACT/Conditions.cs"				:	close
+	create $outputpath & "/AltovaText/Generator.cs"				:	include "cs/AltovaText/Generator.cs"				:	close
+	create $outputpath & "/AltovaText/EDIFACT/Scanner.cs"				:	include "cs/AltovaText/EDIFACT/Scanner.cs"				:	close
+	create $outputpath & "/AltovaText/EDIFACT/StringToFunctionMap.cs"		:	include "cs/AltovaText/EDIFACT/StringToFunctionMap.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/TextDocument.cs"			:	include "cs/AltovaText/EDIFACT/TextDocument.cs"				:	close
+	create $outputpath & "/AltovaText/Flex/TextDocument.cs"			:	include "cs/AltovaText/Flex/TextDocument.cs"				:	close
+	create $outputpath & "/AltovaText/Flex/Command.cs"			:	include "cs/AltovaText/Flex/Command.cs"				:	close
+	create $outputpath & "/AltovaText/Flex/DocumentFragment.cs"			:	include "cs/AltovaText/Flex/DocumentFragment.cs"				:	close
+	create $outputpath & "/AltovaText/Flex/Splitter.cs"			:	include "cs/AltovaText/Flex/Splitter.cs"				:	close
+	create $outputpath & "/AltovaText/TextNode.cs"				:	include "cs/AltovaText/TextNode.cs"				:	close
+	create $outputpath & "/AltovaText/TextNodeVisitorXML.cs"		:	include "cs/AltovaText/TextNodeVisitorXML.cs"			:	close
+	create $outputpath & "/AltovaText/AlwaysEmptyTextNodeCollection.cs"	:	include "cs/AltovaText/AlwaysEmptyTextNodeCollection.cs"	:	close
+	create $outputpath & "/AltovaText/EDIFACT/EDIFactSettings.cs"			:	include "cs/AltovaText/EDIFACT/EDIFactSettings.cs"			:	close
+	create $outputpath & "/AltovaText/Interfaces.cs"			:	include "cs/AltovaText/Interfaces.cs"				:	close
+	create $outputpath & "/AltovaText/NullTextNode.cs"			:	include "cs/AltovaText/NullTextNode.cs"				:	close
+	create $outputpath & "/AltovaText/RootTextNode.cs"			:	include "cs/AltovaText/RootTextNode.cs"				:	close
+	create $outputpath & "/AltovaText/EDIFACT/ServiceStringAdvice.cs"		:	include "cs/AltovaText/EDIFACT/ServiceStringAdvice.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/EDISettings.cs"			:	include "cs/AltovaText/EDIFACT/EDISettings.cs"				:	close
+	create $outputpath & "/AltovaText/TextNodeCollection.cs"		:	include "cs/AltovaText/TextNodeCollection.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/DataCompletion.cs"			:	include "cs/AltovaText/EDIFACT/DataCompletion.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/ElementSerializer.cs"			:	include "cs/AltovaText/EDIFACT/ElementSerializer.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/MakeSureHasChild.cs"			:	include "cs/AltovaText/EDIFACT/MakeSureHasChild.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/EDIFactDataCompletion.cs"		:	include "cs/AltovaText/EDIFACT/EDIFactDataCompletion.cs"		:	close
+	create $outputpath & "/AltovaText/EDIFACT/EDIX12DataCompletion.cs"		:	include "cs/AltovaText/EDIFACT/EDIX12DataCompletion.cs"			:	close
+	create $outputpath & "/AltovaText/EDIFACT/EDIX12Settings.cs"			:	include "cs/AltovaText/EDIFACT/EDIX12Settings.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/ColumnSpecification.cs"		:	include "cs/AltovaText/TableLike/ColumnSpecification.cs"		:	close
+	create $outputpath & "/AltovaText/TableLike/Header.cs"				:	include "cs/AltovaText/TableLike/Header.cs"				:	close
+	create $outputpath & "/AltovaText/TableLike/Record.cs"				:	include "cs/AltovaText/TableLike/Record.cs"				:	close
+	create $outputpath & "/AltovaText/TableLike/RecordBasedParser.cs"		:	include "cs/AltovaText/TableLike/RecordBasedParser.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/Serializer.cs"			:	include "cs/AltovaText/TableLike/Serializer.cs"				:	close
+	create $outputpath & "/AltovaText/TableLike/Table.cs"				:	include "cs/AltovaText/TableLike/Table.cs"				:	close
+	create $outputpath & "/AltovaText/TableLike/CSV/CSVFormat.cs"			:	include "cs/AltovaText/TableLike/CSV/CSVFormat.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/CSV/CSVParser.cs"			:	include "cs/AltovaText/TableLike/CSV/CSVParser.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/CSV/CSVParserException.cs"		:	include "cs/AltovaText/TableLike/CSV/CSVParserException.cs"		:	close
+	create $outputpath & "/AltovaText/TableLike/CSV/CSVParserStates.cs"		:	include "cs/AltovaText/TableLike/CSV/CSVParserStates.cs"		:	close
+	create $outputpath & "/AltovaText/TableLike/CSV/CSVSerializer.cs"		:	include "cs/AltovaText/TableLike/CSV/CSVSerializer.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/FLF/FLFFormat.cs"			:	include "cs/AltovaText/TableLike/FLF/FLFFormat.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/FLF/FLFParser.cs"			:	include "cs/AltovaText/TableLike/FLF/FLFParser.cs"			:	close
+	create $outputpath & "/AltovaText/TableLike/FLF/FLFParserException.cs"		:	include "cs/AltovaText/TableLike/FLF/FLFParserException.cs"		:	close
+	create $outputpath & "/AltovaText/TableLike/FLF/FLFSerializer.cs"		:	include "cs/AltovaText/TableLike/FLF/FLFSerializer.cs"			:	close
+	' assembly and project files
+	create $outputpath & "/AltovaText/AssemblyInfo.cs"			: include "cs/AltovaText/AssemblyInfo.cs"			: close
+	if $CreateVS2005Project
+		create $outputpath & "/AltovaText/AltovaText.csproj"	: include "cs/AltovaText/AltovaText2005.csproj"		: close
+	endif
+	if $CreateVS2003Project
+		create $outputpath & "/AltovaText/AltovaText.csproj"	: include "cs/AltovaText/AltovaText2003.csproj"		: close
+	endif
+	if $CreateVSProject
+		create $outputpath & "/AltovaText/AltovaText.csproj"	: include "cs/AltovaText/AltovaText.csproj"			: close
+	endif
+	if $CreateBorlandProject
+		create $outputpath & "/AltovaText/AltovaText.bdsproj"	: include "cs/AltovaText/AltovaText.bdsproj"		: close
+	endif
+endif
+
+
+'-----------------------------------------------------------
+' Altova/MapForce Function-Library
+'-----------------------------------------------------------
+' function libraries
+create $outputpath & "/AltovaFunctions/Core.cs"						: include "cs/AltovaFunctions/Core.cs"						: close
+create $outputpath & "/AltovaFunctions/Db.cs"						: include "cs/AltovaFunctions/Db.cs"						: close
+create $outputpath & "/AltovaFunctions/Lang.cs"						: include "cs/AltovaFunctions/Lang.cs"						: close
+create $outputpath & "/AltovaFunctions/Edifact.cs"					: include "cs/AltovaFunctions/Edifact.cs"					: close
+' assembly and project files
+create $outputpath & "/AltovaFunctions/AssemblyInfo.cs"				: include "cs/AltovaFunctions/AssemblyInfo.cs"				: close
+if $CreateVS2005Project
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.csproj"	: include "cs/AltovaFunctions/AltovaFunctions2005.csproj"	: close
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.sln"		: include "cs/AltovaFunctions/AltovaFunctions2005.sln"		: close
+endif
+if $CreateVS2003Project
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.csproj"	: include "cs/AltovaFunctions/AltovaFunctions2003.csproj"	: close
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.sln"		: include "cs/AltovaFunctions/AltovaFunctions2003.sln"		: close
+endif
+if $CreateVSProject
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.csproj"	: include "cs/AltovaFunctions/AltovaFunctions.csproj"		: close
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.sln"		: include "cs/AltovaFunctions/AltovaFunctions.sln"			: close
+endif
+if $CreateBorlandProject
+	create $outputpath & "/AltovaFunctions/AltovaFunctions.bdsproj"	: include "cs/AltovaFunctions/AltovaFunctions.bdsproj"		: close
+endif
+
+
+include "LibraryTextHelpers.spl"
+
+'-----------------------------------------------------------
+' Wrapper Libraries
+'-----------------------------------------------------------
+foreach $library in $application.Libraries
+	$module				= $library.UniqueName
+	$moduleName		 	= $library.Name
+	$BasePath			= $outputpath & "/" & $module & "/"
+	
+	if $library.Kind = 1 or $library.Kind = 5
+		$ProjectLibGuid 	= $library.Guid
+		' ----- XML or WSDL Library -----
+		$namespaces	= $library.Namespaces
+		$classes	= $library.Classes
+		' project and workspace
+		if $CreateVS2005Project
+			create $BasePath & $module & ".csproj"	: include "cs/LibraryXML/LibraryXML2005.csproj"	: close
+			create $BasePath & $module & ".sln"		: include "cs/LibraryXML/LibraryXML2005.sln"	: close
+		endif
+		if $CreateVS2003Project
+			create $BasePath & $module & ".csproj"	: include "cs/LibraryXML/LibraryXML2003.csproj"	: close
+			create $BasePath & $module & ".sln"		: include "cs/LibraryXML/LibraryXML2003.sln"	: close
+		endif
+		if $CreateVSProject
+			create $BasePath & $module & ".csproj"	: include "cs/LibraryXML/LibraryXML.csproj"		: close
+			create $BasePath & $module & ".sln"		: include "cs/LibraryXML/LibraryXML.sln"		: close
+		endif
+		if $CreateBorlandProject
+			create $BasePath & $module & ".bdsproj" : include "cs/LibraryXML/LibraryXML.bdsproj"	: close
+			create $BasePath & $module & ".bdsgroup": include "cs/LibraryXML/LibraryXML.bdsgroup"	: close
+		endif
+		' source files
+		create $BasePath & "AssemblyInfo.cs"		: include "cs/LibraryXML/AssemblyInfo.cs"		: close
+		create $BasePath & $module & "Doc.cs"		: include "cs/LibraryXML/ModuleDoc.cs"			: close
+		foreach $namespace in $library.Namespaces
+			foreach $class in $namespace.Classes
+				$QualifiedFilename  = $class.Name & ".cs"
+				if $class.NamespacePrefix = ""
+					$QualifiedNamespace = $module
+				else
+					$QualifiedNamespace = $module & "." & $class.NamespacePrefix
+'					$QualifiedFilename = $class.NamespacePrefix & "/" & $QualifiedFilename
+				endif
+				if not $class.IsInternal
+					create $BasePath & $QualifiedFilename : include "cs/LibraryXML/Module.cs" : close
+				endif
+			next
+		next
+		if $library.Kind = 5
+		' WSDL Library: generate classes for messages too
+			foreach $class in $library.Messages
+				$QualifiedFilename  = $class.Name & ".cs"
+				if $class.NamespacePrefix = ""
+					$QualifiedNamespace = $module
+				else
+					$QualifiedNamespace = $module & "." & $class.NamespacePrefix
+'					$QualifiedFilename = $class.NamespacePrefix & "/" & $QualifiedFilename
+				endif
+				create $BasePath & $QualifiedFilename : include "cs/LibraryXML/Module.cs" : close
+			next
+		endif
+	endif
+	if $library.Kind = 2 
+		$ProjectLibGuid 	= $library.Guid
+		' ----- Database Library -----
+		' projects and workspace
+		if $CreateVS2005Project
+			create $BasePath & $module & ".csproj"		: include "cs/LibraryDB/LibraryDB2005.csproj"	: close
+			create $BasePath & $module & ".sln"			: include "cs/LibraryDB/LibraryDB2005.sln"		: close
+		endif
+		if $CreateVS2003Project
+			create $BasePath & $module & ".csproj"		: include "cs/LibraryDB/LibraryDB2003.csproj"	: close
+			create $BasePath & $module & ".sln"			: include "cs/LibraryDB/LibraryDB2003.sln"		: close
+		endif
+		if $CreateVSProject
+			create $BasePath & $module & ".csproj"		: include "cs/LibraryDB/LibraryDB.csproj"		: close
+			create $BasePath & $module & ".sln"			: include "cs/LibraryDB/LibraryDB.sln"			: close
+		endif
+		if $CreateBorlandProject
+			create $BasePath & $module & ".bdsproj" 	: include "cs/LibraryDB/LibraryDB.bdsproj"		: close
+			create $BasePath & $module & ".bdsgroup"	: include "cs/LibraryDB/LibraryDB.bdsgroup"		: close
+		endif
+		' source files
+		create $BasePath & "AssemblyInfo.cs"			: include "cs/LibraryDB/AssemblyInfo.cs"		: close
+		create $BasePath & $module & "Database.cs"		: include "cs/LibraryDB/Database.cs"			: close
+		foreach $table in $library.Tables
+			create $BasePath & $table.Name & "Set.cs"	: include "cs/LibraryDB/RecordSet.cs"			: close
+		next
+	endif
+	if $library.Kind = 3 
+		$ProjectLibGuid 	= $library.Guid
+		' ----- TextParser Library -----
+		' projects and workspace
+		if $CreateVS2005Project
+			create $BasePath & $module & ".csproj"		: include "cs/LibraryText/LibraryText2005.csproj"	: close
+		endif
+		if $CreateVS2003Project
+			create $BasePath & $module & ".csproj"		: include "cs/LibraryText/LibraryText2003.csproj"	: close
+		endif
+		if $CreateVSProject
+			create $BasePath & $module & ".csproj"		: include "cs/LibraryText/LibraryText.csproj"		: close
+		endif
+		if $CreateBorlandProject
+			create $BasePath & $module & ".bdsproj" 	: include "cs/LibraryText/LibraryText.bdsproj"		: close
+			create $BasePath & $module & ".bdsgroup"	: include "cs/LibraryText/LibraryText.bdsgroup"		: close
+		endif
+		' source files
+		create $BasePath & "AssemblyInfo.cs"			: include "cs/LibraryText/AssemblyInfo.cs"			: close
+		create $BasePath & $module & ".cs"				: include "cs/LibraryText/LibraryText.cs"			: close
+		create $BasePath & $module & "Types.cs"			: include "cs/LibraryText/LibraryTextTypes.cs"		: close
+		create $BasePath & $module & "Functions.cs"		: include "cs/LibraryText/LibraryTextFunctions.cs"	: close
+	endif
+next
+
+'-----------------------------------------------------------
+' MAPFORCE Application
+'-----------------------------------------------------------
+'include "cs/Mapforce/Mapforce.spl"
+
+$TestProjectGuid 	= createguid
+$BasePath 			= $outputpath & "/" & $application.Name & "/"
+
+if $CreateVS2005Project and not $application.IsWebService
+	create $BasePath & $application.Name & ".csproj"	: include "cs/MapForce/MapForce2005.csproj" : close
+	create $BasePath & $application.Name & ".sln"		: include "cs/MapForce/MapForce2005.sln"	: close
+endif
+if $CreateVS2003Project and not $application.IsWebService
+	create $BasePath & $application.Name & ".csproj"	: include "cs/MapForce/MapForce2003.csproj"	: close
+	create $BasePath & $application.Name & ".sln"		: include "cs/MapForce/MapForce2003.sln"	: close
+endif
+if $CreateVSProject
+	create $BasePath & $application.Name & ".csproj"	: include "cs/MapForce/MapForce.csproj"		: close
+	create $BasePath & $application.Name & ".sln"		: include "cs/MapForce/MapForce.sln"		: close
+endif
+if $CreateBorlandProject
+	create $BasePath & $application.Name & ".bdsproj"	: include "cs/MapForce/MapForce.bdsproj"	: close
+	create $BasePath & $application.Name & ".bdsgroup"	: include "cs/MapForce/MapForce.bdsgroup"	: close
+endif
+if $CreateMonoMakefile
+	create $outputpath & "/makefile"		: include "cs/MapForce/makefile" 						: close
+endif
+
+if $CreateVS2005Project and $application.IsWebService
+	create $BasePath & "App_Code/AssemblyInfo.cs"		: include "cs/MapForce/AssemblyInfo.cs"		: close
+else
+	create $BasePath & "AssemblyInfo.cs"		: include "cs/MapForce/AssemblyInfo.cs"		: close
+endif
+
+' Applications
+if $application.IsWebService
+	if $CreateVS2003Project
+		create $BasePath & $application.Name & "_webservice.csproj"	: include "cs/MapForce/MapForce2003.csproj"	: close
+		create $BasePath & $application.Name & "_webservice.sln"		: include "cs/MapForce/MapForce2003.sln"	: close
+	endif
+	if $CreateVS2005Project
+		create $BasePath & $application.Name & "_webservice.sln"		: include "cs/MapForce/MapForce2005.sln"	: close
+	endif
+	$WebServiceClassName =  $application.WSDLService.Name & "WebService"
+	create $BasePath & "/" & "virtdir.vbs" : include "cs/MapForce/virtdir.vbs" : close
+	create $BasePath & "/" & "Global.asax" : include "cs/MapForce/Global.asax" : close
+	if $CreateVS2005Project
+		create $BasePath & "/" & "App_Code/Global.asax.cs" : include "cs/MapForce/Global.asax.cs" : close
+		create $BasePath & "/" & "App_Code/" & $application.WSDLService.Name & ".asmx.cs" : include "cs/MapForce/Service1.asmx.cs" : close
+	endif
+	if $CreateVS2003Project
+		create $BasePath & "/" & "Global.asax.cs" : include "cs/MapForce/Global.asax.cs" : close
+		create $BasePath & "/" & $application.WSDLService.Name & ".asmx.cs" : include "cs/MapForce/Service1.asmx.cs" : close
+	endif
+	create $BasePath & "/" & "Global.asax.resx" : include "cs/MapForce/Global.asax.resx" : close
+	create $BasePath & "/" & $application.WSDLService.Name & ".asmx" : include "cs/MapForce/Service1.asmx" : close
+	create $BasePath & "/" & $application.WSDLService.Name & ".asmx.resx" : include "cs/MapForce/Service1.asmx.resx" : close
+	create $BasePath & "/" & "Web.config" : include "cs/MapForce/Web.config" : close
+	if $CreateVS2003Project
+		create $BasePath & "/" & $application.Name & "_webservice.csproj.webinfo" : include "cs/MapForce/WebService.csproj.webinfo" : close
+	endif
+   	filecopy $application.WSDLService.WSDLFullFileName to $outputpath & "/" & $application.Name & "/" & $application.WSDLService.WSDLFileName
+else
+	create $BasePath & $application.Name & "Console.cs"	: include "cs/MapForce/ApplicationConsole.cs"	: close
+	if not $CreateMonoMakefile
+		create $BasePath & $application.Name & "Form.cs"	: include "cs/MapForce/ApplicationForm.cs"		: close
+		create $BasePath & $application.Name & "Form.resx"	: include "cs/MapForce/ApplicationForm.resx"	: close
+		' filecopy "cs/Mapforce/mapforce.png" to $outputpath & "/cs/MapForce/mapforce.png"
+	endif
+endif
+
+' generate algorithm-group
+include "cs/Mapforce/AlgorithmGroup_Interface.spl"
+include "cs/Mapforce/AlgorithmGroup_Library.spl"
+include "cs/Mapforce/AlgorithmGroup_Exec.spl"
+
+if $CreateVS2005Project and $application.IsWebService
+	$BasePath = $BasePath & "App_Code"
+endif
+
+' Algorithms
+foreach $Mapping in $application.Mappings
+
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+		$classname = $application.Name & $AlgorithmGroup.Name
+		$classfilename = $classname
+		create $BasePath & "/" & $application.Name & $AlgorithmGroup.Name & ".cs"
+			include "cs/MapForce/AlgorithmGroup.cs"
+		close
+	next
+
+	'generate userdefined-functions
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+		$classname = $AlgorithmGroup.Name
+		$classfilename = $AlgorithmGroup.LocalFunctionNamespace & "/" & $AlgorithmGroup.Name
+		create $BasePath & "/" & $AlgorithmGroup.LocalFunctionNamespace & "_" & $AlgorithmGroup.Name & ".cs"
+			include "cs/Mapforce/AlgorithmGroup.cs"
+		close
+	next
+
+next
+]

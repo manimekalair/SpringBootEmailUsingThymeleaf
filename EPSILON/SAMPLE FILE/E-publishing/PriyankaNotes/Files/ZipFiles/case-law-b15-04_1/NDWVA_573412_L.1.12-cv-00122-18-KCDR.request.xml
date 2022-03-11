@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>WILSON WORKS, INC., Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>MATHESON TRI-GAS, INC., Defendant.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CIVIL ACTION NO. 1:12-CV-122 (Judge Keeley)</bold></docket.line>
+<docket.number><bold>1:12-CV-122 (Judge Keeley)</bold></docket.number>
+<docket.line suppress-flag="y">1:12-cv-00122-IMK</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/10/2012</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>MEMORANDUM AND ORDER GRANTING DEFENDANT'S MOTION TO DISMISS FOR IMPROPER VENUE [DKT. NO. 5], DENYING AS MOOT DEFENDANT'S MOTION FOR ENTRY OF A DISMISSAL ORDER [DKT NO. 8] AND TRANSFERRING THIS <underscore>ACTION TO THE SOUTHERN DISTRICT OF TEXAS</underscore></bold></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">IRENE M. KEELEY UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On October 4, 2012, the Court held a hearing on the defendant's motions to dismiss for improper venue and for entry of a dismissal order. For the reasons that follow, the Court <bold>GRANTS</bold> the defendant's motion to dismiss for improper venue (dkt. no. 5) and <bold>TRANSFERS</bold> this action to the U.S. District Court of the Southern District of Texas.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I.</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This is a contract dispute arising from a requirements contract for welding gas made between Wilson Works, Inc. (&#x201C;Wilson Works&#x201D;) and Matheson Tri-Gas, Inc. (&#x201C;Matheson&#x201D;).<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Wilson Works alleges that, from the start of the contract, Matheson, failed to provide adequate supplies or appropriate customer service, unilaterally raised prices set in the contract, and charged for work not performed.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;Plaintiff's complaint fails to name defendant, Matheson Tri-Gas, Inc. Instead, in paragraph 9, plaintiff states: &#x201C;Shortly before the agreement at issue in this matter, Valley National Gas merged with VNG.&#x201D; Plaintiff proceeds to refer to VNG &#8211; not Matheson.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p4" level="1">Matheson allegedly refused to correct those deficiencies when notified of them by Wilson Works. Declaring Matheson in breach of the contract, Wilson Works proceeded to buy welding gases from substitute vendors. Matheson then allegedly threatened those new vendors in order to block the plaintiff from securing replacement welding gas. The complaint alleges three causes of action: (1) breach of contract; (2) complaint for declaratory judgment; and (3) tortious interference with a business relationship.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II.</bold></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">Clause 12(f) of the parties' contract (dkt. no. 5-1) states: &#x201C;The parties hereto agree to consent to the exclusive jurisdiction of the courts of the State of Texas with regard to any dispute arising hereunder. <charfill numchar="3">&#8228;</charfill>&#x201D; The contract is signed by Troy Woodall, President of Wilson Works, and Mark T. Blakeley, Vice-President of Valley National Gas (presumably now Matheson).</paratext></para>
+<para><paratext ID="p6" level="1">Matheson argues that the mandatory forum selection clause in the parties' contract controls this case, and requires this Court to dismiss the matter. Wilson Works argues that the forum selection clause is unreasonable &#8211; and therefore unenforceable &#8211; because Woodall, Wilson Works' president, did not know that the contract contained a forum selection clause, nor did he believe the contract he signed was binding. Finally, Wilson Works argues that because it is a small, West Virginia-based corporation it cannot reasonably litigate in Texas.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III.</bold></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">A federal district court treats a motion to dismiss based on a forum selection clause as a motion to dismiss for improper venue under Federal Rule of Civil Procedure 12(b)(3), rather than a motion to dismiss for lack of subject matter jurisdiction. <underscore>Sucampo Pharmaceuticals, Inc. v. Astellas Pharma, Inc.</underscore>, 471 F.3d 544, 550 (4th Cir. 2006). When analyzing a forum selection clause, a district court will apply federal law. <underscore>Albemarle Corp. v. Astrazeneca UK Ltd.</underscore>, 628 F.3d 643, 650 (4th Cir. 2010). Under the federal standard, forum selection clauses are presumptively valid and should be enforced unless enforcement would be unreasonable. <underscore>M/S Bremen v. Zapata Off&#8211;Shore Co.</underscore>, 407 U.S. 1, 10 (1972); <underscore>see also Allen v. Lloyd's of London</underscore>, 94 F.3d 923, 928 (4th Cir. 1996). Under this federal standard, forum selection clauses are unreasonable if:</paratext>
+<para><paratext ID="p8" first-line="1" turnover="1">(1) their formation was induced by fraud or overreaching;</paratext></para>
+<para><paratext ID="p9" first-line="1" turnover="1">(2) the complaining party &#x2018;will for all practical purposes be deprived of his day in court&#x2019; because of the grave inconvenience or unfairness of the selected forum;</paratext></para>
+<para><paratext ID="p10" first-line="1" turnover="1">(3) the fundamental unfairness of the chosen law may deprive the plaintiff of a remedy; or</paratext></para>
+<para><paratext ID="p11" first-line="1" turnover="1">(4) their enforcement would contravene a strong public policy of the forum state.</paratext></para>
+<paratext ID="p12" contd-flag="y"><underscore>Allen</underscore>, 94 F.3d at 928. Here, Wilson Works's argument focuses entirely on standards (1) and (2).</paratext>
+</para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. <underscore>Formation Induced by Fraud or Overreaching</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Wilson Works first argues that the forum selection clause was not clearly communicated to its Troy Woodall because Matheson's salesman indicated that the contract was a &#x201C;mere formality&#x201D; and not the controlling document of the parties' agreement. Second, Wilson Works contends that the forum selection clause was hidden in small print in an inappropriately titled sub-paragraph (&#x201C;miscellaneous provisions&#x201D;). Finally, Wilson Works argues that it did not bargain for the clause.</paratext></para>
+<para><paratext ID="p14" level="1">Matheson responds that, under both West Virginia and Texas law, ignorance of a contract term is no excuse. For example, in <underscore>Reddy v. Community Health Foundation</underscore>, 298 S.E.2d 906, 910 (W. Va. 1982), the West Virginia Supreme Court of Appeals placed the risk of signing a contract without reading it squarely at the feet of the party who chose not to read the agreement. <underscore>See also Mercury Coal &#38; Coke, Inc. v. Mannesmann Pipe and Steel Corp.</underscore>, 696 F.2d 315, 318 (4th Cir. 1982) (&#x201C;Mercury avers that the forum choice never became a part of the contract because Fortney was unable to read the clause when he signed. Nonetheless, ignorance due to failure to read is no excuse in West Virginia or New York.&#x201D;). In other words, the law offers no quarter to those who sign agreements without first reading them.</paratext></para>
+<para><paratext ID="p15" level="1">In addition, it is important to note that the initials or signature of Wilson Works's president, Mr. Woodall, appear on each page of the contract, indicating that while he may not have read those pages he was not prevented from doing so. Therefore, absent extraordinary circumstances not present here, Mr. Woodall and Wilson Works bear the risk of signing the agreement with Matheson Tri-Gas without first reading all of it.</paratext></para>
+<para><paratext ID="p16" level="1">It is also notable that Wilson Works does not argue that the contract is the result of legal fraud by the defendant. Rather, it contends that the defendant's representative stated that the contract was a &#x201C;mere formality&#x201D; and that the attached price schedule would control, a representation it asserts is impermissible overreaching. As Matheson points out, however, the price schedule states: &#x201C;This Exhibit A to Product Supply Agreement&#8211;Packaged <charfill numchar="3">&#8228;</charfill> is incorporated into and made a part of that certain Product Supply Agreement&#8211;Packaged by and between Valley National Gases <charfill numchar="3">&#8228;</charfill> and Wilson Works Inc.&#x201D; And again, Mr. Woodall's signature or initials appear on each page of the contract he allegedly was told to disregard.</paratext></para>
+<para><paratext ID="p17" level="1">Although neither party raised it, it is worth noting that &#x201C;[i]n a rebuttal argument, the party arguing that the clause should not be enforced for fraud or overreaching must specifically allege that the fraud relates to the forum selection clause, not to the contract as a whole.&#x201D; <underscore>Scherk v. Alberto-Culver Co.</underscore>, 417 U.S. 506, 519 n.14 (1974). Therefore, even if Wilson Works's assertions of misrepresentation amounted to fraud, those assertions would not nullify the forum selection clause because they are aimed at the entire contract and not the forum selection clause alone.</paratext></para>
+<para><paratext ID="p18" level="1">Therefore, considering that failing to read a contract is no defense to its enforcement, that Mr. Woodall's signature or initials appear on each page of the contract, and that Wilson Works has failed to state facts of fraud with specific regard to the forum selection clause, the Court concludes that Wilson Works has not satisfied the first exception to the general rule enforcing forum selection clauses.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. <underscore>Issues of Fairness and Reasonableness</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">Matheson contends that enforcement of the forum selection clause is fair, reasonable, and will not deprive Wilson Works of its day in court. Specifically, Matheson argues that it is not too inconvenient to require Wilson Works to litigate these issues in Texas, as courts traditionally have upheld forum selection clauses requiring parties to travel abroad to litigate. <underscore>See Baker v. Adidas America, Inc.</underscore>, 335 Fed. Appx. 356, 360-61 (4th Cir., 2009) (enforcing forum selection clause requiring tennis player to bring suit in Amsterdam); <underscore>Phillips v. Audio Active Ltd.</underscore>, 494 F.3d 378, 393 (2d. Cir. 2007) (enforcing forum selection clause requiring litigation abroad despite increased cost of litigation to challenger).</paratext></para>
+<para><paratext ID="p20" level="1">Wilson Works rejoins that it would be inconvenient for it to litigate in Texas because it is a small, local business in West Virginia. Additionally, it argues that the contract at issue has no connection with Texas, and claims that all its business with Matheson has been conducted in West Virginia, and Texas is therefore a totally unrelated forum.</paratext></para>
+<para><paratext ID="p21" level="1">The plaintiff's argument is inapposite. It is the foreseeability of litigation in the selected forum &#8211; and not its explicit connection to the transaction &#8211; that is the relevant consideration. <underscore>See Baker</underscore>, 335 Fed. Appx. at 361. For example, in <underscore>Baker</underscore>, the court found it dispositive that litigation in a distant forum was foreseeable to the contracting party when she signed the contract. <underscore>See also Bremen</underscore>, 407 U.S. at 17-18 (1972) (observing that &#x201C;[w]hatever &#x2018;inconvenience&#x2019; [the defendant] would suffer by being forced to litigate in the contractual forum as it agreed to do was clearly foreseeable at the time of contracting&#x201D;). Here, given that Mr. Woodall signed and initialed the page of the contract on which the forum selection clause appears, the language of that forum selection clause was available to him at the time of ratification, thus making litigation in Texas foreseeable to Mr. Woodall at the time. Had Mr. Woodall wished to avoid the possibility of litigation in Texas, he could have refused to sign the contract. However, he did sign it, and therefore cannot complain that the forum selection clause at issue is unfair or unreasonable.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>C. <underscore>Conclusion</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p22" level="1">For the reasons discussed, the forum selection clause contained in the parties' agreement is enforceable and this Court concludes that West Virginia is an improper venue for disputes arising out of that agreement. Moreover, based on the representation of Matheson's counsel at the hearing in this matter, and the Court's inherent power to transfer matters pursuant to Section 1406(a) of Title 28 of the United States Code, the Court determines that the United States District Court for the Southern District of Texas at Houston is the proper venue for this matter, and therefore:</paratext>
+<para><paratext ID="p23" first-line="0" turnover="hanging">1. <bold>GRANTS</bold> defendant's motion to dismiss for improper venue (dkt. no. 5);</paratext></para>
+<para><paratext ID="p24" first-line="0" turnover="hanging">2. <bold>DENIES</bold> defendant's motion for entry of a dismissal order (dkt. no. 8);</paratext></para>
+<para><paratext ID="p25" first-line="0" turnover="hanging">3. <bold>TRANSFERS</bold> this action to the U.S. District Court of the Southern District of Texas at Houston; and</paratext></para>
+<para><paratext ID="p26" first-line="0" turnover="hanging">4. <bold>ORDERS</bold> that this case be <bold>STRICKEN</bold> from the Court's docket.</paratext></para>
+</para>
+<para><paratext ID="p27" level="1">It is so <bold>ORDERED</bold>.</paratext></para>
+<para><paratext ID="p28" level="1">The Clerk is directed to transmit copies of this Order to counsel of record.</paratext></para>
+<para><paratext ID="p29" level="1">Dated: October 10, 2012.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

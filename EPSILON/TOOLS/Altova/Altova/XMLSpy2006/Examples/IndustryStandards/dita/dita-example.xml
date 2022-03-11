@@ -1,0 +1,1956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dita PUBLIC "-//IBM//DTD DITA Composite//EN" "http://www.altova.com/schemas/dita/ditabase.dtd">
+<?altova_sps http://www.altova.com/sps/template/dita/dita.sps?>
+<dita>
+	<topic id="XSLTDesigner">
+		<title>Stylesheet Designer</title>
+		<prolog>
+			<metadata>
+				<keywords>
+					<keyword>Stylesheet Designer</keyword>
+				</keywords>
+			</metadata>
+		</prolog>
+		<body>
+			<p>Stylesheet Designer converts XML documents into HTML without you having to know a single thing about XSLT programming!  The XSLT Stylesheet is automatically created for you!</p>
+			<p>There are only a few steps: <ul>
+					<li> Load the Schema that forms the basis of your HTML document </li>
+					<li> Assign a working XML document which provides preview data </li>
+					<li> Drag and drop the specific schema elements into Stylesheet Designer window </li>
+					<li> View the results in the integrated Internet Explorer window </li>
+				</ul>The XSLT Stylesheet is automatically created for you!</p>
+			<p>Stylesheet Designer is available in two flavors:<ul>
+					<li> As a stand-alone product which allows you to create XSLT stylesheets </li>
+					<li> As an administration module/tool which allows you to prepare an XSLT Template for further use with authentic 5. </li>
+				</ul></p>
+		</body>
+		<topic id="XSLTOverview">
+			<title>Overview</title>
+			<prolog>
+				<metadata>
+					<keywords>
+						<keyword>Overview, Stylesheet Designer</keyword>
+					</keywords>
+				</metadata>
+			</prolog>
+			<body>
+				<p>Stylesheet Designer has three main areas: two panes on the left and the main window at right.<ul>
+						<li> The top<b> left pane</b> displays a tree view of currently loaded schema file.  The schema name and path is displayed in the top line </li>
+						<li> The <b>Text style</b> pane consists of several tabs, and allows you to assign HTML properties to text elements in the main window. </li>
+						<li> The <b>Block style</b> pane consists of several tables and allows you to assign HTML Properties to blocks, such as tables, in the main window. </li>
+						<li> The main window is where you design your XSLT template You can also view the automatically generated XSLT stylesheet and preview the transformation results in Internet Explorer in this window. </li>
+					</ul><image href="http://www.xmlspy.com/manual/ov_01.gif"/></p>
+			</body>
+		</topic>
+		<topic id="XSLTSymbolsandicons">
+			<title>Symbols and Icons</title>
+			<prolog>
+				<metadata>
+					<keywords>
+						<keyword>Symbols</keyword>
+						<keyword>Icons</keyword>
+						<keyword>Tags</keyword>
+						<keyword>Placeholder, adding/deleting</keyword>
+						<keyword>Tree view, icons</keyword>
+						<keyword>Design view, icons</keyword>
+						<keyword>Format, table cells</keyword>
+						<keyword>Format, marking</keyword>
+						<keyword>Marking, table data</keyword>
+						<keyword>Apply, formatting</keyword>
+					</keywords>
+				</metadata>
+			</prolog>
+			<body>
+				<p>Stylesheet Designer uses easily recognizable symbols to display the various schema elements in the tree view, and uses tag symbols for the XSLT elements is the Design view.</p>
+				<p><b>Tree view symbols and icons</b></p>
+				<p><image href="http://www.xmlspy.com/manual/ic_schema_path.gif"/></p>
+				<p>Schema name and folder</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_doc_root.gif"/></p>
+				<p>Document root.</p>
+				<p>All elements inserted from below the Document root (but not under the Global Templates) into the Design view, become local elements. Any formatting applied to them in the Design view, only takes effect in this document instance. The Design view tab contains the text <b>Design [Document]</b></p>
+				<p>Global templates are defined using the elements under the Global Templates element.   </p>
+				<p><image href="http://www.xmlspy.com/manual/ic_element2.gif"/></p>
+				<p>Element.</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_attribute2.gif"/></p>
+				<p>Attribute.</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_el_child.gif"/></p>
+				<p>Element with child/sub elements.</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_glob_elem.bmp"/></p>
+				<p>Global templates, these are equivalent to global elements in a schema.</p>
+				<p>Use Global Templates as text modifiers for the moment e.g. bold, italic or paragraph.</p>
+				<p><ol>
+						<li> Click the global template you want to apply formatting to (italic. in this case).  The Design view now displays the italic. template. The tab also contains the name of the global template Design [italic].    <image href="http://www.xmlspy.com/manual/ov_03.gif"/></li>
+						<li> Define the attributes the global element is to have using the TEXT STYLE pane, click on the Text tab and select font-style = italic. Wherever this element appears (or is applied to) text in Designer view, it will appear in italic </li>
+						<li> Clicking the italic icon in the title bar in <xref href="DocumentEditorintro">authentic 5 Document view</xref> inserts this element and changes the text to italic.)     </li>
+					</ol></p>
+				<p>Design view symbols and icons</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_root_elem.gif"/></p>
+				<p>Root element tags.</p>
+				<p>The <b>(contents)</b><q>text</q> between the two tags in the Design view, is the symbol for an XML data <b>placeholder</b>. The placeholder is filled with data when you switch to the IE Preview tab. The data is supplied by the XML file assigned to the schema visible in the tree view. Use the menu option <xref href="XSLTAssignworkingXMLfile">File | Assign working XML file...</xref> to assign the XML file to the schema. </p>
+				<p><ol>
+						<li> Click the placeholder and press the keyboard Del. key. This deletes the placeholder in the Design tab, and causes the XML data to be suppressed in the IE Preview. </li>
+					</ol></p>
+				<p><ol>
+						<li> Click between the two tags where you want to insert the placeholder. </li>
+						<li> Click right (at the cursor position) to open the context menu, and select <q>Insert Contents.</q></li>
+					</ol></p>
+				<p><image href="http://www.xmlspy.com/manual/ic_start_end_tags.gif"/></p>
+				<p>Start and end tags of the Person element, expanded. The parent tags of the Person element (Altova) are also included.   </p>
+				<p><image href="http://www.xmlspy.com/manual/ic_collapsed_tags.gif"/></p>
+				<p>Person element tag, contracted. To expand or contract tags, double click the specific tag.</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_tag_attribute.gif"/></p>
+				<p>Manager attribute, start and end tag.</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_contents.gif"/></p>
+				<p><q>Contents,</q> placeholder for XML data.</p>
+				<p><image href="http://www.xmlspy.com/manual/ic_tbl_design_tab.gif"/></p>
+				<p>Person element inserted as a table containing both elements and attributes</p>
+				<p><image href="http://www.xmlspy.com/manual/input_field.gif"/></p>
+				<p>Email element "input field". Clicking right on the vertical border at the right allows you to directly change the size of this field by dragging with the mouse.</p>
+				<p><ul>
+						<li> Place the cursor over any table or cell border, and drag when the mouse pointer changes to the double headed arrow.<image href="http://www.xmlspy.com/manual/tbl_drag_popup.bmp"/>     The moment you click and drag, the cell or table dimensions appear in a popup allowing you to precisely define its size. You can also use the same method on table borders that have been hidden, by clicking the View<xref href="XSLTViewtblCellboundaries"> table cell bounds icon</xref>, <image href="http://www.xmlspy.com/manual/ic_tbl_cell_bounds.gif"/> and dragging on the dashed lines that have then become visible. </li>
+					</ul></p>
+				<p><ul>
+						<li> You can apply formatting (bold etc.) to<b> parts</b> of a table eg. only some of the column headers, some cells etc., by just marking them and applying bold or any other HTML formatting for example. </li>
+						<li> Using <b>drag left</b> allows you to <b>mark multiple cells </b>and apply formatting. </li>
+						<li> Clicking an element tag marks the whole element, to which you can then apply the specific formatting. In the diagram above, clicking the &lt;Altova&gt;&lt;Person&gt; element would mark the whole table. </li>
+						<li> (also standard HTML formatting using the HTML combo box in the title bar??) </li>
+					</ul></p>
+			</body>
+		</topic>
+		<topic id="XSLTDesignerTutorial">
+			<title>Designer Tutorial</title>
+			<prolog>
+				<metadata>
+					<keywords>
+						<keyword>Tutorial, Stylesheet Designer</keyword>
+						<keyword>Stylesheet Designer, Tutorial</keyword>
+					</keywords>
+				</metadata>
+			</prolog>
+			<body>
+				<p>The aim of this tutorial is to create an XSLT stylesheet for a company which has two offices, the main US office and the EU dependency.</p>
+				<p><ul>
+						<li> The name of the Document, Orgchart in this case </li>
+						<li> The name of the regional office </li>
+						<li> The address data of each of the regional offices </li>
+						<li> The office departments and a list of employees in each department with an email address to use as hyperlink. </li>
+					</ul></p>
+				<p><note><p>Designer supports <b>unlimited undo</b>, you can always go back and retrace your steps!</p></note></p>
+			</body>
+			<topic id="XSLTCreatinganXSLTStylesheet">
+				<title>Creating an XSL Stylesheet</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Create, stylesheet</keyword>
+							<keyword>Design view</keyword>
+							<keyword>Preview, XSLT file</keyword>
+							<keyword>XSLT, preview</keyword>
+							<keyword>XSLT, saving</keyword>
+							<keyword>SPS, XSLT designer format</keyword>
+							<keyword>Save, as *.sps</keyword>
+							<keyword>Insert, elements into Design view</keyword>
+							<keyword>Authentic</keyword>
+							<keyword>XMLSPY, Authentic</keyword>
+							<keyword>Template, saving XSLT files</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p><ol>
+							<li><p>Start <b>Stylesheet Designer</b> by double clicking on the <b>Stylesheet Designer</b> icon.</p><p><image href="http://www.xmlspy.com/manual/ic_Designer.gif"/></p><p>You are presented with an empty environment.</p></li>
+							<li><p>Select the menu option <b>File | Open</b> and open the <b>OrgChart.xsd</b> schema file supplied with <b>Stylesheet Designer</b> (in the Examples folder). </p><p><image href="http://www.xmlspy.com/manual/tut_01.gif"/></p><p>The OrgChart schema is the basis of your stylesheet. The elements and attributes it contains are used to create the XSLT stylesheet.</p></li>
+							<li><p>Select the menu option <b>File | Assign working XML file... </b>and open the <b>OrgChart.xml</b> file supplied with <b>Stylesheet Designer</b></p><p>This file supplies the XML data through which you preview the XSLT Stylesheet. The file and folder name of the XML file now appear in the title bar. </p></li>
+						</ol></p>
+					<p><ol>
+							<li><p>Click on the <b>plus</b> icon of OrgChart element in the schema tree view, to see the sub-elements</p></li>
+							<li><p>Click the <b>Name</b> element and drag it into the Design window. Drop it just after the (contents) text to the left of the root element, end tag.  A popup window appears at this point.</p><p><image href="http://www.xmlspy.com/manual/mnu_cxt_create_struct.gif"/></p></li>
+							<li><p>Click the Create Contents option in the popup</p><p><image href="http://www.xmlspy.com/manual/tut_topic1_p2.gif"/></p><p>The start and end tags of the Altova and Name elements are inserted. The (Contents) text, is a <b>placeholder</b> in the Design view and is replaced by XML data in the IE Preview tab.</p></li>
+						</ol></p>
+					<p><ol>
+							<li><p>Click on the IE Preview tab to display the resulting HTML output of the XSLT stylesheet.</p><p>In the case the orgchart title is displayed</p><p><image href="http://www.xmlspy.com/manual/tut_topic1_p3.gif"/></p></li>
+						</ol></p>
+					<p><ul>
+							<li><p>Click the XSLT stylesheet tab to see the automatically generated XSLT code.</p><p><image href="http://www.xmlspy.com/manual/tut_topic1_p4.gif"/></p></li>
+							<li><p>Click the <b>Design[Document]</b> tab, to return to the Design view.</p><p>The XSLT stylesheet can be saved by selecting the menu command <b>File | Save Generated XSLT file...</b></p></li>
+						</ul></p>
+					<p><ul>
+							<li><p>Select the menu option File | Save as, and enter a name for the file (XSLT-tutorial). The file name you enter also appears in the title bar.</p><p>The "Save" command saves the <b>Stylesheet Designer</b> file as a structure file, or template, (extension *<b>.sps</b>). The .sps file saves all the data visible in the Designer window, as well as the associated working XML and Schema/DTD files.</p><p><note><p>Only template files (all *.sps files) saved from within <b>Stylesheet Designer</b>, can be edited in <b>authentic 5</b>! </p></note></p></li>
+						</ul></p>
+				</body>
+			</topic>
+			<topic id="XSLTInsertingtablesandapplying">
+				<title>Inserting tables and applying HTML</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Table, insert</keyword>
+							<keyword>Table, formatting</keyword>
+							<keyword>Table, fixed type</keyword>
+							<keyword>Table, dynamic type</keyword>
+							<keyword>Table, properties</keyword>
+							<keyword>Fixed, table</keyword>
+							<keyword>Dynamic, table</keyword>
+							<keyword>Attributes, HTML</keyword>
+							<keyword>Combo box</keyword>
+							<keyword>Drop-down list</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p><ol>
+							<li><p>Click the (Contents) placeholder to mark it.</p><p>The TEXT BLOCK pane (HTML attributes window) displays all the HTML attributes available that can be assigned to the element. You might have to drag up the window divider to see more of the attributes.</p></li>
+							<li><p>Click the <b>Text tab</b>, then the <b>font-size</b> combo box and select <q>large</q>.  The (contents) placeholder is updated immediately, and displays the HTML attributes you select.</p></li>
+							<li><p>Click to set the text cursor after the Name end tag, and hit the Enter key.</p><p>This moves the OrgChart end tag to the next line.</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p1.gif"/></p></li>
+							<li><p>Click the plus icon next to the Office element (in the tree view) to expand the sub-elements.</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p2.gif"/></p></li>
+							<li><p>Click the <b>Name</b> element (under the Office element) <b>drag</b> it into the Design view, and drop it in front of the OrgChart end tag.</p></li>
+							<li><p>Select the <b>Create Paragraph</b> item from the popup menu.  The start and end tags are now displayed over three lines. This is the visual indication that a paragraph is to follow each of the XML data instances in the IE Preview</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p3.gif"/></p></li>
+							<li><p> Click the <b>(contents)</b> placeholder and select <b>medium</b> from the <q>font-size</q> combo box in the TEXT STYLE pane.</p></li>
+							<li><p>Click the <b>Color</b> tab in the TEXT STYLE pane and select <b>red</b> from the <q>color</q> combo box. (Click somewhere else in the Design window to deselect the contents placeholder).</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p4.gif"/></p></li>
+							<li><p> Click the IE Preview tab to see the changes made to the stylesheet.</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p5.gif"/></p></li>
+							<li><p>Click the Design [Document] tab to return to the Design view.</p></li>
+						</ol></p>
+					<p><ol>
+							<li><p>Set the text cursor between the Name and Office<b> end </b>tags.</p></li>
+							<li><p>Select the menu option <b>Table | Insert Table</b>.</p></li>
+							<li><p>Define a <b>table</b> of 2 columns and 1 row in the Insert Table dialog box, click OK to confirm the selection.</p><p>A standard HTML table is inserted between the two tags.This is a fixed table and does not change with the underlying XML data.</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p6.gif"/></p></li>
+							<li><p>Place the text cursor on the <b>Address </b>tag in the tree view, and drag the Address element into the first cell of the table.</p></li>
+							<li><p>Select <b>Create Table</b> from the popup. This opens the <q>Create dynamic table</q> dialog box.</p></li>
+							<li><p>Click the <b>ipo:name</b> entry in the Show columns list box, to deselect it.</p><p><note><p><b>Stylesheet Designer</b> supports the use of CALS and HTML tables directly in <b>authentic 5</b> (or in the <b>authentic 5</b> view of the IDE). Please see the CALS / HTML table section for more information on how to configure these type of tables for use in <b>authentic 5</b>.</p></note></p><p><image href="http://www.xmlspy.com/manual/mnu_cxt_ins_table.gif"/></p></li>
+							<li><p> Click the Table grows... <b>left/right</b> radio button, and confirm with OK.</p><p>This inserts a <b>dynamic table</b> within the table we just created. Dynamic tables adjust their size to the underlying XML data.</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p7.gif"/></p></li>
+							<li><p>Click in the empty column at the far right, and select the menu option <b>Insert | Insert Table</b>. Define the table as having 3 rows and 2 columns.</p></li>
+							<li><p>Click in the first column (of the new table) and enter Phone, Fax and E-mail in each row.              </p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p8.gif"/></p></li>
+							<li><p>Click the <b>Phone</b> element in the tree view, drag it into the Design view, and drop it next to the Phone cell. Select <b>Create Contents</b> from the popup.</p></li>
+							<li><p>Use the same method to insert the Fax and Email elements from the tree view into the respective cells of the table. Select <q>Create Contents</q> in both cases</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p9.gif"/></p></li>
+							<li><p>Click the <b>IE Preview tab</b>, to see the progress so far, then switch back to the Design tab so we can continue designing the Orgchart</p><p><image href="http://www.xmlspy.com/manual/tut_part1.gif"/></p></li>
+						</ol></p>
+					<p>Not the most beautiful table layout, I am sure you will agree! Lets try and make it somewhat more pleasing to the eye.</p>
+					<p><ol>
+							<li><p>Click in the <b>zip</b> cell and select the menu option <b>Table | Join cell above</b>.</p></li>
+							<li><p>Set the text cursor between the state and zip text, and enter a forward slash character ( / ). Enter the same character after the <b>ipo:state</b> end tag.</p><p><image href="http://www.xmlspy.com/manual/new_tut_p15b.gif"/></p></li>
+							<li><p>Right click the <b>ipo:city</b> tag, and select <b>Change to combo box</b> from the popup menu.</p></li>
+							<li><p>Click the <q>+</q> button, and double click in the Visible Entry field.</p></li>
+							<li><p>Enter a city name, e.g. Athens and hit TAB. </p></li>
+							<li><p>Enter the text or value that is to appear in the XML document, hit Enter to confirm. The XML Value can of course differ from the text in the Visible Entry field.</p></li>
+							<li><p>Click the <q>+</q> button again and enter the name of a second city (e.g. Paris).  </p><p><image href="http://www.xmlspy.com/manual/new_tut_p15c.gif"/></p></li>
+							<li><p>Click OK to confirm these entries and close the dialog box.    </p><p><image href="http://www.xmlspy.com/manual/new_tut_p15d.gif"/></p><p><note><p>To edit the combo box settings: right click the combo box (not the ipo:city tags), and select <q>Edit properties...</q> from the popup menu.</p></note></p></li>
+						</ol></p>
+					<p><ol>
+							<li><p>Click the <b>Address</b> tag at the top of the table, and select the menu option <b>Table | Table properties</b>.</p></li>
+							<li><p>Click the <b>border</b> combo box, and select <b>0</b> from the drop down list, confirm the changes with OK.</p><p><image href="http://www.xmlspy.com/manual/tut_topic2_p12.gif"/></p><p>This removes the table border from the Design view, as well as in the IE Preview window.  The table border is now displayed as a dashed line.  This enables you to click the border and resize it if you wish. Click the <q>View table cell bounds</q> icon  to switch the dashed line on or off.       </p></li>
+							<li><p>Click the <b>IE Preview</b> tab to see the changes, then click the Design tab so we can complete our orgchart</p><p><image href="http://www.xmlspy.com/manual/new_tut_p15e.gif"/></p><p><note><p>The City combo box entries you define here, can be selected when this template is opened and completed in Document Editor, the IE Preview displays the currently defined entries. The <b>XML Values</b> defined in the Edit Combo box, are what actually appear in the template document in Document Editor (in this case 1 for Athens and 2 for Paris). </p></note></p></li>
+						</ol></p>
+					<p><note><p><xref>CALS/HTML Table properties</xref></p><p><xref>Delete table</xref></p><p><xref>Table properties</xref></p></note></p>
+				</body>
+			</topic>
+			<topic id="XSLTHyperlinkasanimage">
+				<title>Hyperlinking an Image</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Hyperlink image</keyword>
+							<keyword>Image, hyperlink</keyword>
+							<keyword>Insert, hyperlink to image</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p>You may want to hyperlink an image to jump to the company's homepage on the picture.  In this case, we will add a hyperlink to the Nanonull company logo. </p>
+					<p><ol>
+							<li><p> From the schema tree view pane select <b>CompanyLogo</b>, drag it into the Design window and drop it in the empty line between the two <b>Name</b> tags</p><p><image href="http://www.xmlspy.com/manual/tut_02.gif"/></p></li>
+							<li><p>Select <b>Create Image </b>from the pop-up menu.</p><p><image href="http://www.xmlspy.com/manual/tut_16.gif"/></p></li>
+							<li><p>Select the <b>Static</b> tag and click the Browse button to select an existing image.</p><p><image href="http://www.xmlspy.com/manual/tut_17.gif"/></p></li>
+							<li><p>Select the picture to insert, in this case <q>nanonull.gif </q>and click <b>Open</b></p><p><image href="http://www.xmlspy.com/manual/tut_18.gif"/></p></li>
+							<li><p>The selected object is now shown in the <b>Address </b>field. Click <b>OK</b>.</p><p><image href="http://www.xmlspy.com/manual/tut_19.gif"/></p></li>
+							<li><p>The selected picture is now shown at the point of insertion in the <b>Design</b> view.</p><p><image href="http://www.xmlspy.com/manual/tut_03.gif"/></p></li>
+							<li><p>Click between the CompanyLogo and Name tags, and hit Enter.</p></li>
+							<li><p>Right click the inserted image and select <b>Hyperlink</b>. Write the URL in the Address field, in this case <b>http://www.nanonull.com</b> and click <b>OK</b></p><p><image href="http://www.xmlspy.com/manual/tut_21.gif"/></p><p><note><p>You must enter a valid URL, starting with http://. An URL without a prefix can be entered, but the internet connection would lead to an error message.</p></note></p></li>
+							<li><p>Switch from the Design view to the IE Preview and click on the graphic. Internet Explorer searches for the URL and displays the web site.</p><p><image href="http://www.xmlspy.com/manual/tut_06.gif"/></p></li>
+							<li><p>To go back to the IE Preview, right click and select Back from the pop-up menu</p></li>
+						</ol></p>
+					<p><note><p>See Also</p><p><xref>Hyperlinking text</xref></p><p><xref>Hyperlink</xref> in the Reference section</p></note></p>
+				</body>
+			</topic>
+			<topic id="XSLTHyperlinkasatext">
+				<title>Hyperlinking a text</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Hyperlink text</keyword>
+							<keyword>Text, hyperlink</keyword>
+							<keyword>Insert, hyperlink to text</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p>At this point we want to hyperlink the company's name to the Nanonull homepage.</p>
+					<p><ol>
+							<li><p>Select the text to use for the hyperlink. In this case, click the <b>Name</b><q>(contents)</q> placeholder.</p><p><image href="http://www.xmlspy.com/manual/tut_04.gif"/></p></li>
+							<li><p>Click the Insert Hyperlink  icon in the menu bar (or right-click and select <q>Hyperlink</q> from the pop-up menu, shortcut <q>CTRL+K</q>).</p></li>
+							<li><p>The <q>Insert Hyperlink</q> window opens. The <b>Selection:</b> field displays the hyperlink source in your XML document.</p></li>
+							<li><p>Select the Static tab and enter a valid URL, in this case http://www.nanonull.com.</p><p><image href="http://www.xmlspy.com/manual/tut_17.gif"/></p></li>
+							<li><p>Click OK. The hyperlinked selection is now shown with an underline.</p><p><image href="http://www.xmlspy.com/manual/tut_05.gif"/></p></li>
+							<li><p>To check whether the URL is correct: Switch to the IE Preview tag.</p></li>
+							<li><p>Click the Organization Chart hyperlink. Internet Explorer searches for the URL and displays it.</p><p><image href="http://www.xmlspy.com/manual/tut_06.gif"/></p></li>
+							<li><p>To go back to the <b>IE Preview</b> pane, right-click and select Back from the pop-up menu.</p></li>
+						</ol></p>
+					<p><note><p>See Also:</p><p><xref>Hyperlink an image</xref></p><p><xref>Hyperlink</xref> in the Reference section</p></note></p>
+				</body>
+			</topic>
+			<topic id="XSLTInsertingbookmarks">
+				<title>Bookmarks</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Bookmark</keyword>
+							<keyword>Insert, bookmark</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p>In addition to hyperlinks, you can also define and insert bookmarks.</p>
+					<p><ol>
+							<li><p>Select the text to use as a bookmark. In this case, click the <q>(contents)</q> placeholder in the e-mail field.</p></li>
+							<li><p>Select the menu option <b>Insert | Bookmark</b> (you can also use the shortcut <q>CTRL+G</q>).</p></li>
+							<li><p>The <q>Insert Bookmark</q> dialog-box opens. The Bookmark name field shows the name of the bookmark. To change the name, overwrite the text in this field. Click OK to confirm.</p><p><image href="http://www.xmlspy.com/manual/tut_08.gif"/></p><p>If several bookmarks exist on the current page, they are shown in the 'Other bookmarks on this page' list box. Bookmarked text is shown as dashed underlined text.</p></li>
+						</ol></p>
+					<p><ol>
+							<li><p>To create a hyperlink from the company's name to the bookmarked e-mail address, click the contents placeholder between the <b>Office | Name</b> tags, and then right click it.</p><p><image href="http://www.xmlspy.com/manual/tut_10.gif"/></p></li>
+							<li><p>Select Hyperlink.</p><p><image href="http://www.xmlspy.com/manual/tut_11.gif"/></p></li>
+							<li><p>Click the Bookmark button. The <q>Select place in Document</q> window opens. Since only one bookmark has yet been inserted in this document, only this bookmark is shown. Select the bookmark and click the OK button.</p><p><image href="http://www.xmlspy.com/manual/tut_12.gif"/></p></li>
+							<li><p>The bookmark's name is inserted into the Address field of the Insert Hyperlink dialog box. Click OK to set the hyperlink.</p><p><image href="http://www.xmlspy.com/manual/tut_13.gif"/></p></li>
+							<li><p>The hyperlink is now underlined and ready for use. The bookmark (Email) is highlighted with a dashed underline.</p><p><image href="http://www.xmlspy.com/manual/tut_14.gif"/></p></li>
+							<li><p>Switch to the IE preview pane and click the hyperlink. Since both hyperlink and bookmark are on the same page, you will not see any change (unless you make the Designer window very small).</p></li>
+						</ol></p>
+					<p><note><p>Bookmark in the Reference section.</p></note></p>
+				</body>
+			</topic>
+			<topic id="XSLTCompletingthestylesheet">
+				<title>Completing the stylesheet</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Table, dynamic</keyword>
+							<keyword>Dynamic, table</keyword>
+							<keyword>Table, properties</keyword>
+							<keyword>Table, hiding border</keyword>
+							<keyword>Border, hiding table borders</keyword>
+							<keyword>Paragraph, enabling for Authentic</keyword>
+							<keyword>Authentic, enabling paragraphs</keyword>
+							<keyword>Insert, paragraph for Authentic</keyword>
+							<keyword>Authentic, insert paragraph</keyword>
+							<keyword>Line, insert for Authentic</keyword>
+							<keyword>Authentic, insert line</keyword>
+							<keyword>Authentic, delete paragraph</keyword>
+							<keyword>Delete, paragraph in Authentic</keyword>
+							<keyword>Line, delete in Authentic</keyword>
+							<keyword>Authentic, delete line</keyword>
+							<keyword>Paragraph, delete in Authentic</keyword>
+							<keyword>Authentic, delete paragraph</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p><ol>
+							<li><p>Set the text cursor just <b>in front</b> of the <b>Office</b> end tag and hit the Enter key (you can also use the keyboard arrow keys, to move the cursor in the design view).</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p2.gif"/></p><p>This inserts a space between the end of the table and the end tags, and also creates a paragraph in the IE Preview.</p></li>
+							<li><p>Click on the <b>Desc</b> tag in the tree view, drag it to the Design view and drop it in front of the Office end tag.</p></li>
+							<li><p>Select <b>Create Contents</b> from the popup menu</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p3.gif"/></p></li>
+							<li><p>Click the <b>Para </b>tag in the tree view (expand the Desc. tag), drag it to the Design view and drop it in front of the <b>Desc</b> end tag. Select <b>Create Paragraph</b> from the popup menu.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p3a.gif"/></p><p><note><p>Inserting the <b>para</b> (graph) tag in <b>Stylesheet Designer</b>, makes it possible to add a new paragraph(s) to the Description text (using the Enter key) in <b>authentic 5</b>. The para start and end tags, are automatically inserted when the Enter key is pressed in <b>authentic 5</b>.</p><p>Deleting paragraphs in <b>authentic 5</b> is achieved using the Backspace and Del. keys</p></note></p></li>
+							<li><p>Click between the <b>Desc</b> and <b>Office</b> end tags, and hit Enter to insert a paragraph.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p5.gif"/></p></li>
+							<li><p>Click the <b>IE Preview</b> tab to see the results, and then switch back to the Design view.</p></li>
+						</ol></p>
+					<p>Each company now has its own address data and description text.</p>
+					<p><image href="http://www.xmlspy.com/manual/tut_06.gif"/></p>
+					<p><ol>
+							<li><p>Click the plus icon next to the department element to see the sub elements.</p></li>
+							<li><p>Click the <b>Name</b> element (of the <b>Department</b> parent element), drag it to the Design view, and drop it after the <b>Desc</b> end tag.</p></li>
+							<li><p>Select <b>Create Paragraph</b> from the popup menu that opens automatically.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p6.gif"/></p></li>
+							<li><p>Place the text cursor between the Desc <b>end tag</b> and the Department <b>start tag</b>, and hit the Enter key.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p7.gif"/></p><p>If you check the IE Preview, you will see that all the department names have been inserted after the company description text.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p8.gif"/></p></li>
+							<li><p>Click the <b>Department | Name </b>(Contents) placeholder, and select <b>bold</b> from the <b>font-weight</b> combo box in the Text tab of the Text style pane.</p></li>
+							<li><p>Click the (Department) <b>Person </b>element in the tree view, <b>drag</b> it into the Design view and drop it between the Name and Department end tags.</p></li>
+							<li><p>Select <b>Create Table</b> from the popup menu that opens at this point, and confirm with OK.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p9.gif"/></p></li>
+							<li><p>Click between the <b>Person</b> and <b>Department</b> end tags, and hit the Enter key.</p></li>
+							<li><p>Click the <b>IE Preview</b> tab to see the results, and then return to the Design view.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p10.gif"/></p></li>
+						</ol></p>
+					<p><ol>
+							<li><p>Click in the <b>table header</b> and select the menu option <b>Table | Table properties...</b></p></li>
+							<li><p>Click the <b>Row </b>tab and select <b>aqua</b> from the <b>bgcolor</b> combo box, click on OK to confirm.</p></li>
+							<li><p>Click in one of the table body cells and use the same method to color the rows yellow.</p></li>
+							<li><p>Use the same method to change the border combo box entry to 0 (zero), in the Table tab.</p><p><image href="http://www.xmlspy.com/manual/tut_topic3_p11.gif"/></p></li>
+							<li><p>Click the <b>IE Preview</b> tab to see the results, and then save your work using the <b>File | Save</b> menu entry. </p><p><image href="http://www.xmlspy.com/manual/tut_07.gif"/></p></li>
+						</ol></p>
+					<p><ul>
+							<li><p>Select the menu option File | Save Generated XSLT file...</p></li>
+						</ul></p>
+					<p>
+						The generated XSLT can now be used to create HTML output for your XML files. If you want to edit the XSLT file you can open it in <b>*XMLSPY*</b> at any time.
+					</p>
+					<p><note><p>See Also</p><p><xref>Save generated XSLT file...</xref></p></note></p>
+				</body>
+			</topic>
+		</topic>
+		<topic id="XSLTDesignerReference">
+			<title>Stylesheet Designer Reference</title>
+			<body>
+				<p>The reference section contains a complete description of all <b>Stylesheet Designer</b> windows and menu commands.</p>
+			</body>
+			<topic id="XSLTMenusandDialogs">
+				<title>Menus and dialogs</title>
+				<prolog>
+					<metadata>
+						<keywords>
+							<keyword>Menus</keyword>
+							<keyword>Dialogs</keyword>
+						</keywords>
+					</metadata>
+				</prolog>
+				<body>
+					<p>This section describes the menu, dialog box and context menu options.</p>
+				</body>
+				<topic id="XSLTFile">
+					<title>File</title>
+					<body>
+						<p>The File menu contains all commands relevant to manipulating files in the order common to most Windows software products.</p>
+					</body>
+					<topic id="XSLTOpen">
+						<title>Open</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Open </keyword>
+									<keyword>File, open</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_open.gif"/></p>
+							<p>The <q>Open...</q> command allows you to open an XML schema, DTD or .sps file. The familiar Windows "Open" dialog is opened and allows you to select one of these file types.</p>
+							<p>You may get an error message if your file is either not well-formed or invalid, in this case switch to <b>*XMLSPY*</b> and try to resolve the problem there.</p>
+							<p>Opening a .sps file displays the tags in the Design view, and automatically loads all the XML files associated with this file (Schema/DTD and XML document instance).</p>
+						</body>
+					</topic>
+					<topic id="XSLTSave">
+						<title>Save</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Save</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_save.gif"/></p>
+							<p>The <q>Save</q> command saves the currently open <b>Stylesheet Designer</b> file as a structure file. The file type extension is *.sps. </p>
+							<p>The .sps file saves all the data visible in <b>Stylesheet Designer</b>, as well as the associated XML and Schema/DTD files. </p>
+							<p><note><p>Only template files (all *.sps files) saved from within <b>Stylesheet Designer</b>, can be edited in  <b>authentic 5</b>!</p></note></p>
+						</body>
+					</topic>
+					<topic id="XSLTSaveas...">
+						<title>Save as...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Save as</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The "Save As..." command shows the familiar Windows "Save as..." dialog and prompts for the name and location of the .sps file to be saved. </p>
+							<p><note><p>Only <b>template files</b> (all *.<b>sps</b> files) saved from within <b>Stylesheet Designer</b>, can be edited in  <b>authentic 5</b>!</p></note></p>
+						</body>
+					</topic>
+					<topic id="XSLTAssignworkingXMLfile">
+						<title>Assign working XML File</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Assign XML file</keyword>
+									<keyword>Working XML file</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <b>Assign working XML file</b> command assigns an existing XML file to the currently open DTD or schema file. </p>
+							<p>The XML file is used to preview the XSLT file using the XML data. Clicking the IE Preview tab without having assigned an XML file, opens a message box prompting you to select one.</p>
+							<p><note><p>The name and folder of the XML working file is displayed in the <b>title bar</b> of <b>Stylesheet Designer</b>! If a file has not been assigned, only the *.sps name is displayed.</p></note></p>
+						</body>
+					</topic>
+					<topic id="XSLTSaveGeneratedXSLTfile">
+						<title>Save generated XSLT file</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Save generated XSLT file</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Save generated XSLT file</q> command allows you to save the current version of the XSLT file visible in the XSLT Stylesheet tab.</p>
+						</body>
+					</topic>
+					<topic id="XSLTMostrecentlyusedfiles">
+						<title>Most recently used files</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Recently used files, open</keyword>
+									<keyword>Open, recently used files</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The list of most recently used files, shows the file name and path information for the nine most recently used files, which you can select with the mouse. </p>
+							<p><image href="http://www.xmlspy.com/manual/mnu_file_lastopened.gif"/></p>
+							<p>To access these files using the <b>keyboard</b>, press: ALT+F,1 to open the File menu, and select the first file in the list. </p>
+						</body>
+					</topic>
+					<topic id="XSLTExit">
+						<title>Exit</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Exit</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The "Exit" command is used to quit <b>Stylesheet Designer</b>. If you have an open file with unsaved changes, you will be prompted to save these changes. </p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTEdit">
+					<title>Edit</title>
+					<body>
+						<p>The Edit menu contains the undo and redo commands which allow you to discard or restore your previous actions.</p>
+					</body>
+					<topic id="XSLTUndo_1">
+						<title>Undo</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Unlimited levels of Undo</keyword>
+									<keyword>Undo</keyword>
+									<keyword>Undo, history</keyword>
+									<keyword>Syntax-coloring</keyword>
+									<keyword>RichEdit</keyword>
+									<keyword>History, undo</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_undo.gif"/> Hotkey: <b>CTRL+Z</b></p>
+							<p>The <q>Undo</q> command contains support for unlimited levels of Undo! Every action can be undone and it is possible to undo one command after another. The Undo history is retained after using the "Save" command, enabling you go back to a state the document was in before you saved your changes. </p>
+						</body>
+					</topic>
+					<topic id="XSLTRedo_1">
+						<title>Redo</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Undo</keyword>
+									<keyword>Redo</keyword>
+									<keyword>History, redo</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_redo.gif"/>Hotkey: <b>CTRL+Y</b></p>
+							<p>The <q>Redo</q> command allows you to redo previously undone commands – thereby giving you a complete history of the work you have completed. You can step back and forward through this history using the Undo and Redo commands.</p>
+						</body>
+					</topic>
+					<topic id="XSLTSelectall">
+						<title>Select All</title>
+						<body>
+							<p>Selects the entire contents of the Design Document window.</p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTInsert">
+					<title>Insert</title>
+					<body>
+						<p>The Insert menu provides commands enabling you to insert various items into the Design view.</p>
+					</body>
+					<topic id="XSLTParagraph">
+						<title>Paragraph</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Paragraph</keyword>
+									<keyword>Insert, paragraph</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p></p>
+							<p>The Paragraph command encloses the selected element in a paragraph. </p>
+						</body>
+					</topic>
+					<topic id="XSLTImage...">
+						<title>Image..</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Image, insert</keyword>
+									<keyword>Insert, image</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_parag.gif"/></p>
+							<p>The <q>Paragraph</q> command encloses the selected element in a paragraph. </p>
+						</body>
+					</topic>
+					<topic id="XSLTList...">
+						<title>List</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>List</keyword>
+									<keyword>Insert, list</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>List...</q> command inserts a list bullet for each of the elements or attributes. A dialog box opens, allowing you to specify how many list instances you want to insert.</p>
+						</body>
+					</topic>
+					<topic id="XSLTInsertContents">
+						<title>Contents</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Contents</keyword>
+									<keyword>Insert, contents</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <b>(contents)</b><b>text</b> between the two tags is the Design view symbol for an XML data <b>placeholder</b>. </p>
+							<p>The placeholder is filled with data when you switch to the IE Preview tab. The data is supplied by the XML file assigned to the currently visible schema visible in the tree view. Use the menu option File | Assign working XML file... to assign the XML file to the schema.</p>
+							<p><ol>
+									<li><p>Click between the two tags where you want to insert the placeholder.</p></li>
+									<li><p>Click right (at the cursor position) to open the context menu, and select <q>Insert Contents</q>.</p></li>
+								</ol>The placeholder is inserted at the cursor position.</p>
+							<p><ol>
+									<li><p>Click the placeholder and press the keyboard <b>Delete</b> key.  This deletes the placeholder in the <b>Design</b> tab, and causes the XML data to be suppressed in the <b>IE Preview</b>.</p></li>
+								</ol></p>
+							<p><note><p>See Also:</p><p><xref>Insert Contents</xref></p></note></p>
+						</body>
+					</topic>
+					<topic id="XSLTInsertrestofcontents">
+						<title>Rest of Contents</title>
+						<body>
+							<p>The <b>Insert Rest of Contents</b> item inserts the <b>unused child elements</b> (of the current parent) at the cursor position. This option only applies to elements, attributes are not inserted. </p>
+							<p>The unused child elements are those child elements (of the current parent element) that occur in the schema, but have not been inserted in the Design Document window.</p>
+							<p>The placeholder is filled with data when you switch to the IE Preview tab. The data is supplied by the XML file assigned to the currently visible schema visible in the tree view. Use the menu option File | Assign working XML file... to assign the XML file to the schema.</p>
+							<p><ol>
+									<li><p>Click between the two tags where you want to insert the placeholder.</p></li>
+									<li><p>Click right (at the cursor position) to open the context menu, and select <q>Insert Rest of Contents</q>.  The placeholder is inserted at the cursor position.</p></li>
+								</ol></p>
+							<p><ol>
+									<li><p>Click the placeholder and press the keyboard <b>Delete</b> key.  This deletes the placeholder in the Design tab, and causes the XML data to be suppressed in the IE Preview.</p></li>
+								</ol></p>
+						</body>
+					</topic>
+					<topic id="XSLTBookmark">
+						<title>Bookmark</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Bookmark</keyword>
+									<keyword>Insert, bookmark</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The "Bookmark" command allows you to define a bookmark from an element in <b>Stylesheet Designer</b>. </p>
+							<p><ol>
+									<li><p>Double click the text (free standing or table header text) from where you want to start.</p></li>
+									<li><p>Go to the <b>Menu</b> bar, click <b>Insert </b>and select <b>Insert Bookmark</b> (or use the shortcut CTRL+G).</p><p>The name of the bookmark is shown in the <b>Bookmark name</b> field. You can change it to a name of your choice. If there are more bookmarks on the same page, they are displayed in the <q>Other bookmarks on this page</q> window.</p></li>
+									<li><p>Click <q>OK</q>. The bookmark has been set.</p></li>
+								</ol></p>
+							<p><note><p>See also:</p><p><xref>Bookmarks</xref> in the Tutorial section.</p></note></p>
+						</body>
+					</topic>
+					<topic id="XSLTLinkto">
+						<title>Hyperlink</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Hyperlink</keyword>
+									<keyword>Insert, hyperlink</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_hyperlink_active.gif"/></p>
+							<p>The "Insert Hyperlink" command/icon allows you to define a hypertext link from an element in <b>Stylesheet Designer</b>. </p>
+							<p><ol>
+									<li><p>Click the text (free standing or table header text) from where you want to start.</p></li>
+									<li><p>Click the Hyperlink icon in the title bar.</p></li>
+									<li><p>Select the <b>Static</b> tab.</p></li>
+									<li><p>Enter the address you want to navigate to e.g. http://www.altova.com</p></li>
+									<li><p>Click the IE Preview tab, and then click the header to jump to the link destination.</p></li>
+									<li><p>The Altova home page now appears in the IE Preview window.</p></li>
+									<li><p>To go back to the IE preview pane, right-click and select Back.</p></li>
+								</ol></p>
+							<p>A hyperlink or bookmark element (or group) can be both a hyperlink <b>and</b> a bookmark. They are however, single level structures, it is not possible to create a hyperlink inside a hyperlink, or a bookmark inside a bookmark.</p>
+							<p>You can either select the <q>Static</q>, <q>Dynamic</q>, or <q>Static and Dynamic</q> tab in the Insert Hyperlink window. </p>
+							<p>A hyperlink entered in the Static tab Address field remains fixed. The Absolute Path check box does not have to be selected.</p>
+							<p>The <q>Dynamic</q> and <q>Static and Dynamic</q> tabs, allow you to use XPath notation to select addresses for hyperlinks. </p>
+							<p>In this tab, you can select the<b> Absolute Path</b> checkbox. 
+you can check the <b>Absolute XPath</b> checkbox. In this case, the resulting Xpath is absolute rather then relative (default setting).</p>
+							<p>If you select the <q>Static and Dynamic</q> tab you can link to two Static and one Dynamic address.</p>
+							<p>If a hyperlink has already been inserted, right-click and select Edit hyperlink.</p>
+							<p><note><p>See also:</p><p><xref>Hyperlinking an image</xref></p><p><xref>Hyperlinking text</xref></p></note></p>
+						</body>
+					</topic>
+					<topic id="XSLTInsBulletsandNumbering">
+						<title>Bullets and Numbering...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Bullets and numbering, symbol types</keyword>
+									<keyword>Symbol types, bullets</keyword>
+									<keyword>Symbol types, numbering</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <b>Bullets and Numbering</b> command allows you to change the type of bullet or numbering graphic for the currently selected list or list item.</p>
+							<p><image href="http://www.xmlspy.com/manual/mnu_bullets-number.gif"/></p>
+							<p><image href="http://www.xmlspy.com/manual/ic_design-number.gif"/></p>
+							<p>The <q>Numbering</q> command changes the paragraph to a numbered list and back again. The numbers are automatically incremented if you add more paragraphs. Clicking this icon always inserts the default numbering - digits starting with 1. </p>
+							<p><ol>
+									<li><p>This is only possible when using the para tab.</p><p>Right click the <b>para</b> tab which should have auto numbering</p></li>
+									<li><p>Select <q>Change to List</q>.  This inserts a bullet in front of the contents placeholder.</p></li>
+									<li><p>Click the <b>contents</b> placeholder, and click the Numbering icon in the title bar.  This changes the bullet to a number.</p><p>Opening the document in <b>authentic 5</b> and hitting the Enter key while in the para tab, automatically adds a new paragraph with correct auto numbering sequence.</p></li>
+								</ol></p>
+							<p>The symbols used for bullets and numbering can be changed using the menu option <b>Properties</b> | <b>Bullets and numbering</b>. The changes made in this dialog box only apply to the currently selected list or list item.</p>
+							<p><image href="http://www.xmlspy.com/manual/ic_design-bullet.gif"/></p>
+							<p>The <q>Bullets</q> command changes the paragraph to an unordered bulleted list and back again. Bullets are automatically inserted if you add more paragraphs. Clicking this icon always inserts the default bullet - a solid round bullet. </p>
+							<p>The symbols used for bullets and numbering can be changed using the menu option <b>Properties</b> | <b>Bullets and numbering.</b> The changes made in this dialog box only apply to the currently selected list or list item.</p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTTable">
+					<title>Table</title>
+					<body>
+						<p>The Table menu provides commands enabling you to change table characteristics; append, insert, delete and join rows and columns. The table commands available to you depend on the type of table and the current cursor position. To prepare for the insertion of CALS or HTML tables in Document Editor, please see the CALS / HTML Table properties section. </p>
+						<p><ul>
+								<li><p>You must have previously inserted a table using the Insert | Table menu command (a fixed table), or  </p></li>
+								<li><p>Dragged an element into the Design window and selected Create Table from the popup menu (a dynamic table). </p></li>
+								<li><p>Click in a table cell and select the specific command from the menu or toolbar.</p></li>
+							</ul></p>
+						<p>Use the keyboard Tab as well as the arrow keys, to navigate the table cells.</p>
+						<p>Text can be entered in any table cell, this includes the table headers as well.   </p>
+					</body>
+					<topic id="XSLTTable...">
+						<title>Insert Table...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Table</keyword>
+									<keyword>Insert, table</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_ins_tbl.gif"/></p>
+							<p>The <q>Insert Table...</q> command inserts an empty table into the design tab. A dialog box opens allowing you to define the size of the table. The inserted table is of a <b>fixed type</b> and does not automatically change size with varying XML data in the IE Preview.</p>
+							<p>To insert a <b>dynamic table</b> please see the section <b>Context menus | Create... context menu  | Create table</b>.</p>
+						</body>
+					</topic>
+					<topic id="XSLTDeletetable">
+						<title>Delete table</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Delete, table</keyword>
+									<keyword>Table, delete</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_del_tbl.gif"/></p>
+							<p>The <q>Delete table</q> command deletes the currently active table. </p>
+						</body>
+					</topic>
+					<topic id="XSLTAppendrow">
+						<title>Append row</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Append, row</keyword>
+									<keyword>Row, append</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_app_row.gif"/></p>
+							<p>The <q>Append row</q> command appends a row to the end of the currently active table. </p>
+						</body>
+					</topic>
+					<topic id="XSLTAppendcolumn">
+						<title>Append column</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Append, column</keyword>
+									<keyword>Column, append</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_app_col.gif"/></p>
+							<p>The <q>Append column</q> command appends a column to the end of the currently active table.</p>
+						</body>
+					</topic>
+					<topic id="XSLTInsertrow">
+						<title>Insert row</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Insert, row</keyword>
+									<keyword>Row, insert</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_ins_row.gif"/></p>
+							<p>The <q>Insert row </q> command inserts a row above the current cursor position in the currently active table.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTInsertcolumn">
+						<title>Insert Column</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Insert, column</keyword>
+									<keyword>Column, insert</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_ins_col.gif"/></p>
+							<p>The <q>Insert column</q> command inserts a column to the left of the current cursor position in the currently active table.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTDeleterow">
+						<title>Delete row</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Delete, row</keyword>
+									<keyword>Row, delete</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_del_row.gif"/></p>
+							<p>The <q>Delete row</q> command deletes the row where the cursor is currently positioned.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTDeletecolumn">
+						<title>Delete column</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Delete, column</keyword>
+									<keyword>Column, delete</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_del_col.gif"/></p>
+							<p>The <q>Delete column </q>command deletes the column where the cursor is currently positioned. </p>
+						</body>
+					</topic>
+					<topic id="XSLTJoincellleft">
+						<title>Join cell left</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Join, cell left</keyword>
+									<keyword>Cell, join left</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_join_left.gif"/></p>
+							<p>The <q>Join cell left</q> command joins the current cell (current cursor position) with the cell to the left. The tabs of both cells remain in the new cell, the column headers remain unchanged.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTJoincellright">
+						<title>Join cell right</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Join, cell right</keyword>
+									<keyword>Cell, join right</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_join_right.gif"/></p>
+							<p>The <q>Join cell right</q> command joins the current cell (current cursor position) with the cell to the right. The tabs of both cells remain in the new cell, the column headers remain unchanged.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTJoincellbelow">
+						<title>Join cell below</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Join, cell below</keyword>
+									<keyword>Cell, join below</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_join_down.gif"/></p>
+							<p>The <q>Join cell below</q> command joins the current cell (current cursor position) with the cell below. The tabs of both cells remain in the new cell, the column headers remain unchanged.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTJoincellabove">
+						<title>Join cell above</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Join, cell below</keyword>
+									<keyword>Cell, join above</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_join_up.gif"/></p>
+							<p>The <q>Join cell above</q> command joins the current cell (current cursor position) with the cell above. The tabs of both cells remain in the new cell, the column headers remain unchanged. </p>
+						</body>
+					</topic>
+					<topic id="XSLTSplitcellHorizontally">
+						<title>Split cell Horizontally</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Split cell, horizontally</keyword>
+									<keyword>Cell, split horizontally</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_split_horiz.gif"/></p>
+							<p>The <q>Split cell Horizontally</q> command creates a new cell to the right of the currently active cell. The size of both cells, is now the same as the original cell. </p>
+						</body>
+					</topic>
+					<topic id="XSLTSplitcellVertically">
+						<title>Split cell Vertically</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Split cell, vertically</keyword>
+									<keyword>Cell, split vertically</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_split_vert.gif"/></p>
+							<p>The <q>Split cell Vertically</q> command creates a new cell below the currently active cell.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTCellcontentalignment">
+						<title>Cell content alignment</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Table, cell alignment</keyword>
+									<keyword>Align, cell content</keyword>
+									<keyword>Cell, align content</keyword>
+									<keyword>Align top, cell content</keyword>
+									<keyword>Center vertically, cell content</keyword>
+									<keyword>Align bottom, cell content</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>These commands allow you to format the cell content of individual cells in a table. </p>
+							<p><image href="http://www.xmlspy.com/manual/ic_cell_top.gif"/></p>
+							<p>Align Top</p>
+							<p>This command aligns the cell contents to the top of the cell.   </p>
+							<p><image href="http://www.xmlspy.com/manual/ic_cell_centre.gif"/></p>
+							<p>Center vertically</p>
+							<p>This command centers the cell contents.</p>
+							<p><image href="http://www.xmlspy.com/manual/ic_cell_bott.gif"/></p>
+							<p>Cell bottom</p>
+							<p>This command aligns the cell contents to the bottom of the cell.</p>
+						</body>
+					</topic>
+					<topic id="XSLTViewtblCellboundaries">
+						<title>View Cell Bounds</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Table boundaries</keyword>
+									<keyword>View table cell bounds</keyword>
+									<keyword>Cell boundaries, view</keyword>
+									<keyword>Dashed, cell boundaries</keyword>
+									<keyword>Table, view border </keyword>
+									<keyword>Border, view table border</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_tbl_cell_bounds.gif"/></p>
+							<p>This command displays or hides table boundaries in the Design [Document] tab. 
+</p>
+							<p><ol>
+									<li><p>Set the table <b>border</b> to <b>0 </b>(zero) in the Table Properties dialog box, in the Table tab.</p></li>
+									<li><p>Click the View table cell bounds icon.</p><p> This switches the dashed table borders of all tables on or off.</p><p><image href="http://www.xmlspy.com/manual/tbl_show_border.gif"/></p></li>
+								</ol></p>
+							<p>This method allows you to see hidden table borders and easily change the table size using the mouse</p>
+							<p><ul>
+									<li><p>Move the mouse pointer over the dashed line, until the double-headed arrow appears, then click and drag the mouse. A popup appears showing the dimensions while you drag the mouse.</p></li>
+								</ul></p>
+						</body>
+					</topic>
+					<topic id="XSLTTableproperties">
+						<title>Table properties</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Table properties</keyword>
+									<keyword>Properties, table</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p></p>
+							<p>The Table properties command opens the Table Properties dialog box. This allows you to customize your table.</p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTDocumentEditor">
+					<title>Authentic</title>
+					<body>
+						<p>The Authentic menu allows you to define special settings for further processing of the resulting HTML document with the <b>authentic 5. </b>These settings only apply when using the <b>authentic 5</b>!</p>
+					</body>
+					<topic id="XSLTNodeSettings...">
+						<title>Node Settings..</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Node settings</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p><image href="http://www.xmlspy.com/manual/ic_design-nodesett.jpg"/></p>
+							<p>The <q>Node Settings...</q> command allows you to define the properties of each node i.e. element/attribute in the Design view, for further processing in <b>authentic 5</b>. </p>
+							<p><ol>
+									<li><p>Click a node start or end tag (element/attribute tag).</p></li>
+									<li><p>Select the menu option <b>authentic 5 | Node Settings... </b>(or right click the tag and select <q>Editor Node settings...</q> from the popup menu).</p></li>
+								</ol></p>
+							<p>Note: You have to click a tag to be able to edit the node settings, clicking the (Contents) placeholder does not make this possible.</p>
+							<p><image href="http://www.xmlspy.com/manual/mnu_doced_node_sett.gif"/></p>
+							<p>This check box lets you define if the <b>XML content</b> of this node can be edited in the <b>authentic 5</b>.</p>
+							<p>This group lets you define if existing child nodes are to be added, when you add this node in the <b>authentic 5</b>.</p>
+							<p>This group lets you define if, and how, you want to see the markup tags in the <b>authentic 5</b>.</p>
+							<p>Text entered in this text box, appears as a tool tip hint when the mouse pointer is placed over the node in the <b>authentic 5</b>. Use this text box to enter explanatory text or hints on how the document is to be filled in. E.g. The Office node could have the explanatory text, <q>Enter the office name here! </q></p>
+						</body>
+					</topic>
+					<topic id="XSLTTextStateicons">
+						<title>Text State icons</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Icons, text state</keyword>
+									<keyword>Text state icons</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Text State icons</q> command allows you to define an icon for each global element (that can contain text) present in the schema. A global element is one that appears under the "Global Templates" element in the schema tree view. You have total freedom to apply any styles, formatting etc. to XML documents using this command.</p>
+							<p><image href="http://www.xmlspy.com/manual/ov_03.gif"/></p>
+							<p><ol>
+									<li><p>Make sure the element type you want to define as an icon is available as a global element in the schema (italic). The entry will be visible under Global Templates in the schema tree view in <b>Stylesheet Designer</b>.</p></li>
+									<li><p>Click the <b>italic</b> element under Global Templates, and define the attributes you want it to have in the Text style window e.g. font-style = italic.</p></li>
+									<li><p>Select the menu option Authentic | <b>Text State Icons</b>.</p><p><image href="http://www.xmlspy.com/manual/glob_txt_state_icons2.gif"/></p><p>This opens the <q>Text State Icons</q> dialog box.</p></li>
+									<li><p>Click the <q>+</q> button to add a new line.</p></li>
+									<li><p>Click the combo box that is made available at this point.  The drop down list contains all the elements that can contain text in the Global Templates list.</p><p><image href="http://www.xmlspy.com/manual/glob_txt_state_icons3.gif"/></p></li>
+									<li><p>Click the <b>italic</b> entry and confirm with Enter.</p></li>
+									<li><p>Double click in the icon name column, and enter the name of the icon that should represent the attribute e.g. italic.bmp, in the <b>authentic 5</b> toolbar</p><p><image href="http://www.xmlspy.com/manual/glob_txt_state_icons4.gif"/></p></li>
+									<li><p>Click OK to confirm.</p></li>
+								</ol></p>
+							<p><ol>
+									<li><p>Design the icon you want to represent <q>italic</q> in your graphic program (as a windows .gif), and give it the same name as entered in the Text State Icon dialog box (italic.bmp)</p></li>
+									<li><p> Place the italic.bmp in the installation folder of <b>*XMLSPY*</b> which is your installation folder ..\sps\Picts.</p></li>
+									<li><p>Start <b>authentic 5</b> and open or create a new template file (*.sps). The italic.bmp icon you defined is now visible in a toolbar.</p></li>
+									<li><p>Mark some text in the <b>authentic 5</b> and click the italic icon to apply the formatting.</p></li>
+								</ol></p>
+						</body>
+					</topic>
+					<topic id="XSLTCALSHTMLTableproperties">
+						<title>CALS / HTML Table properties</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>CALS, inserting table</keyword>
+									<keyword>HTML, inserting table</keyword>
+									<keyword>Table, insert CALS / HTML table</keyword>
+									<keyword>SPS, making CALS/HTML tables available</keyword>
+									<keyword>Template, making CALS/HTML tables available</keyword>
+									<keyword>Insert, CALS table</keyword>
+									<keyword>Insert, HTML table</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command allows you to define the type of table, CALS or HTML,  you want <b>authentic 5</b> to support when you open the XML document or <b>sps template</b> there.</p>
+							<p><image href="http://www.xmlspy.com/manual/cals-html-properties.gif"/></p>
+							<p><b>Stylesheet Designer</b> now supports the use of CALS and HTML tables directly in <b>authentic 5</b>. </p>
+							<p><note><p>Please note:</p><ul>
+										<li><p>Only one of the two table types can be inserted into a Authentic Document view XML document (any number of fixed and dynamic tables can still be inserted).</p></li>
+										<li><p>The table data are saved in the XML file, and have no effect on the <b>sps</b> template file.    </p></li>
+										<li><p>You can assign existing XML tags, in your XML document, to the default CALS or HTML tags in the User Defined column. This allows you to use existing XML tags as CALS or HTML table tags. </p></li>
+										<li><p>CALS or HTML tables can only be inserted at the exact position defined in the assigned schema file.</p></li>
+									</ul></note></p>
+							<p>Prerequisites for CALS or HTML tables:</p>
+							<p><ul>
+									<li><p>CALS - a DocBook DTD or Schema that supplies the CALS tags               HTML - a XHTML.DTD or Schema that supplies the HTML tags </p></li>
+									<li><p>An SPS file template - created in <b>Stylesheet Designer</b> which includes/references these DTD/Schemas, and also contains the tags, tables, graphics etc. that form the basis of the template.  </p></li>
+								</ul></p>
+							<p>The <b>..\Examples</b> folder contains the <b>HTML-OrgChart.sps</b> file seen below, as well as the other necessary files. </p>
+							<p>The sps template file:</p>
+							<p><ul>
+									<li><p>references the <b>HTML-OrgChart.xsd</b> schema file (which also imports the <b>HTML-address.xsd</b> file), and </p></li>
+									<li><p>uses the <b>HTML-OrgChart.xml</b> as the working XML file</p></li>
+								</ul></p>
+							<p><image href="http://www.xmlspy.com/manual/44-html-orgch1-neu.gif"/></p>
+							<p><note><p>Please Note:</p><p>The <b>HTML-OrgChart.xsd</b> file includes the <b>HTML table tags</b> under the <b>para</b> tag. This means that HTML tables can only be inserted within/under a para tag in <b>authentic 5</b>.</p><p>To add CALS or HTML tables anywhere else in this example, the schema file would have to be edited. You would have to insert the table, and all table sub tags, under the tag you want  to contain a CALS / HTML table.</p></note></p>
+							<p>To prepare the sps file for inclusion of HTML or CALS tables:</p>
+							<p><ol>
+									<li><p>Select the menu option <b>Properties | CALS / HTML Tables...</b></p><p><image href="http://www.xmlspy.com/manual/44-html-prop1.gif"/></p></li>
+									<li><p>Click the <q>Enable XML tables in authentic 5</q> check box.</p></li>
+									<li><p>Use the <q>Type</q> combo box to select the type of table you want to insert in <b>authentic 5</b>, HTML in this case.</p></li>
+									<li><p>Confirm with OK.</p><p>The sps template file is now configured. HTML table(s) can be inserted under the para tag when you use this HTML-OrgChart template.</p></li>
+								</ol></p>
+							<p><note><p>Please note:</p><p>If you enter an element name in the User Defined column that does not exist in the schema file associated with the XML document, the element name will appear in red.</p></note></p>
+							<p>Please see the <b>authentic 5</b> documentation on how to insert and use the CALS / HTML tables.</p>
+						</body>
+					</topic>
+					<topic id="XSLTAssignTemplateXMLfile">
+						<title>Assign Template XML file</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Assign, template</keyword>
+									<keyword>Template XML, assign</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Assign Template XML</q> command allows you to define which XML file is to act as a template when you select the <b>File | New</b> menu option in the <b>authentic 5</b> and select a template file (*.sps).</p>
+							<p>The file you select can be any XML file and does not have to be the currently loaded one, but must conform to the schema currently in use.</p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTHTMLImport">
+					<title>HTML Import</title>
+					<body>
+						<p>The HTML import menu enables you to convert HTML files to XML, and auto-generate the XML Schema/DTD, XSLT stylesheet, and XML content files.</p>
+					</body>
+					<topic id="XSLTOpenHTMLfile">
+						<title>Open HTML file</title>
+						<body>
+							<p>The <q>Open HTML</q> command allows you to open an HTML file. The familiar Windows <q>Open</q> dialog is opened and allows you to select the HTML file you want to convert to XML.</p>
+							<p>Having selected the file you want to import, it then appears in the Design [Document] window. You then drag the elements you want to convert to XML into the schema window at left. Please see the HTML to XML Migration documentation for further information.</p>
+						</body>
+					</topic>
+					<topic id="XSLTAddtoParent">
+						<title>Add to Parent</title>
+						<body>
+							<p>Adds the selected item, in the Design window, as a <b>child item</b> to the currently active element/attribute in the Schema window.</p>
+							<p><ol>
+									<li><p>Select the XML <b>parent item</b> by clicking it in the schema window (not necessary if the root element is the only visible element in the schema view).</p></li>
+									<li><p>Select the HTML item (e.g. header or text) you want to define as the child item (in the <b>Design [Document]</b> window), and</p></li>
+									<li><p>Select the specific menu item from the list below.</p></li>
+								</ol></p>
+							<p>Converts the HTML selection(s) in the Design [Document] window, into an XML element.</p>
+							<p>Converts the HTML selection(s) in the Design [Document] window, into an XML attribute.</p>
+							<p>Embeds the current HTML selection between an XML start and XML end tag.</p>
+							<p>Converts the HTML selection (even if the text cursor is only set in a table), into an XML table where all HTML items are converted into XML elements.</p>
+							<p>Converts the HTML selection (even if the text cursor is only set in a table), into an XML table where all HTML items are converted into XML attributes.</p>
+						</body>
+					</topic>
+					<topic id="XSLTInserthtml">
+						<title>Insert</title>
+						<body>
+							<p>Inserts the selected item, in the Design window, <b>above</b> the currently active element/attribute in the Schema window.</p>
+							<p><ol>
+									<li><p>Select/click the XML item <b>above</b> which the element/attribute is to be inserted in the <b>schema window</b>.</p></li>
+									<li><p>Select the HTML item (e.g. header or text) you want to insert and convert to XML, in the<b> Design [Document] </b>window.</p></li>
+									<li><p>Select the specific menu item from the list below.</p></li>
+								</ol></p>
+							<p>Converts the HTML selection(s) in the Design [Document] window, into an XML element.</p>
+							<p>Converts the HTML selection(s) in the Design [Document] window, into an XML attribute.</p>
+							<p>Embeds the current HTML selection between an XML start and XML end tag.</p>
+							<p>Converts the HTML selection (even if the text cursor is only set in a table), into an XML table where all HTML items are converted into XML elements.</p>
+							<p>Converts the HTML selection (even if the text cursor is only set in a table), into an XML table where all HTML items are converted into XML attributes.</p>
+						</body>
+					</topic>
+					<topic id="XSLTAppendhtml">
+						<title>Append</title>
+						<body>
+							<p>Appends the selected item, in the Design window, to the currently active element/attribute in the Schema window.</p>
+							<p><ol>
+									<li><p>Select an XML item to which the element/attribute is to be appended in the <b>schema window</b>.</p></li>
+									<li><p>Select the HTML item (e.g. header or text) you want to append and convert to XML, in the <b>Design [Document]</b> window.</p></li>
+									<li><p>Select the specific menu item from the list below.</p></li>
+								</ol></p>
+							<p>Converts the HTML selection(s) in the Design [Document] window, into an XML element.</p>
+							<p>Converts the HTML selection(s) in the Design [Document] window, into an XML attribute.</p>
+							<p>Embeds the current HTML selection between an XML start and XML end tag.</p>
+							<p>Converts the HTML selection (even if the text cursor is only set in a table), into an XML table where all HTML items are converted into XML elements.</p>
+							<p>Converts the HTML selection (even if the text cursor is only set in a table), into an XML table where all HTML items are converted into XML attributes.</p>
+						</body>
+					</topic>
+					<topic id="XSLTSettings...">
+						<title>Settings...</title>
+						<body>
+							<p>The <q>Settings...</q> command allows you to define the specific HTML import settings.</p>
+							<p>Allows for inclusion of starting or containing whitespace, or just carriage return <q>whitespace</q>.</p>
+							<p>Imports empty cells from static HTML tables.</p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTProperties">
+					<title>Properties</title>
+					<body>
+						<p>The Properties menu allows you to change the properties of the various objects in Stylesheet Designer. </p>
+					</body>
+					<topic id="XSLTPage">
+						<title>Page...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Properties, page</keyword>
+									<keyword>Page, properties</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Page...</q> command allows you to define the current page properties. The properties defined here take precedence over the individual HTML element settings. </p>
+							<p><image href="http://www.xmlspy.com/manual/page-properties.gif"/></p>
+						</body>
+					</topic>
+					<topic id="XSLTTable2">
+						<title>Table...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Properties, table</keyword>
+									<keyword>Table, properties</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Table properties</q> command opens the Table Properties dialog box. This allows you to define the specific table properties. </p>
+						</body>
+					</topic>
+					<topic id="XSLTBulletsandNumbering...">
+						<title>Bullets and Numbering...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Bullets and numbering, symbol types</keyword>
+									<keyword>Symbol types, bullets</keyword>
+									<keyword>Symbol types, numbering</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Bullets and Numbering</q> command allows you to change the type of bullet or numbering graphic for the currently selected list or list item.</p>
+							<p><image href="http://www.xmlspy.com/manual/mnu_bullets-number.gif"/></p>
+							<p><image href="http://www.xmlspy.com/manual/ic_design-number.gif"/></p>
+							<p>The <q>Numbering</q> command changes the paragraph to a numbered list and back again. The numbers are automatically incremented if you add more paragraphs. Clicking this icon always inserts the default numbering - digits starting with 1. </p>
+							<p>This is only possible when using the para tab.</p>
+							<p><ol>
+									<li><p>Right click the <b>para</b> tab which should have auto numbering</p></li>
+									<li><p>Select <b>Change to List</b>.  This inserts a bullet in front of the contents placeholder.</p></li>
+									<li><p>Click the <b>contents</b> placeholder, and click the Numbering icon in the title bar.  This changes the bullet to a number. </p><p>Opening the document in <b>authentic 5</b> and hitting the Enter key while in the para tab, automatically adds a new paragraph with correct auto numbering sequence.</p></li>
+								</ol></p>
+							<p>The symbols used for bullets and numbering can be changed using the menu option <b>Properties</b> | Bullets and numbering. The changes made in this dialog box only apply to the currently selected list or list item.</p>
+							<p><image href="http://www.xmlspy.com/manual/ic_design-bullet.gif"/></p>
+							<p>The <q>Bullets</q> command changes the paragraph to an unordered bulleted list and back again. Bullets are automatically inserted if you add more paragraphs. Clicking this icon always inserts the default bullet - a solid round bullet. </p>
+							<p>The symbols used for bullets and numbering can be changed using the menu option <b>Properties</b> | Bullets and numbering. The changes made in this dialog box only apply to the currently selected list or list item.</p>
+						</body>
+					</topic>
+					<topic id="XSLTSelectedobject">
+						<title>Selected object</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Selected object</keyword>
+									<keyword>Object, settings</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The <q>Selected object</q> command, opens the dialog box of the specific object you select.  This command only becomes active if you select a <b>combo box</b>, <b>check box</b> or <b>radio button</b>.</p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTTools">
+					<title>Tools</title>
+					<body>
+						<p>The Tools command allows you to select the customize option, from where you can customize <b>Stylesheet Designer</b>.</p>
+					</body>
+					<topic id="XSLTSpelling...">
+						<title>Spelling</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Check spelling</keyword>
+									<keyword>Spellchecker</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command (hotkey Shift+F7) opens the Spelling dialog box, and automatically starts checking the currently active XML document in this case the OrgChart.sps document.</p>
+							<p><image href="http://www.xmlspy.com/manual/spell-check.gif"/></p>
+							<p>Not in Dictionary: This text box contains the word that cannot be found in any of the existing dictionaries (default and custom dictionaries). You can also edit the text here. The word is also highlighted in the XML document. The command buttons become active at this point and allow you to decide which action to take.</p>
+							<p>Suggestions: This list box displays a list of words that resemble the unknown word (supplied from all dictionaries). Double clicking a word in this list automatically inserts it in the document and continues the spell checking process.</p>
+							<p>Ignore once: This command allows you to continue checking the document while ignoring the first occurrence of the unknown word. The same word will be flagged again if it appears in the document. </p>
+							<p>Ignore all: This command ignores all instances of the unknown word in the whole document. </p>
+							<p>Add to dictionary: This command adds the unknown word to the currently active <b>custom dictionary</b>. This is the dictionary containing the check mark in the Custom Dictionaries dialog box (custom.tlx).</p>
+							<p><image href="http://www.xmlspy.com/manual/44-spell-cust-dict2.gif"/></p>
+							<p>Change: This command replaces the currently highlighted word in the XML document, with the selected word in the Suggestions list box.</p>
+							<p>Change all: This command replaces all occurrences of the currently highlighted word in the XML document, with the selected word in the Suggestions list box.</p>
+							<p>Recheck: The Recheck button restarts the check from the beginning of the document.</p>
+							<p>Close: This command closes the Spelling dialog box.</p>
+							<p>Options...: This command is always grayed out in <b>Stylesheet Designer</b>.</p>
+						</body>
+					</topic>
+					<topic id="XSLTSpellingoptions">
+						<title>Spelling options</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Spelling options</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command opens the Options dialog box which defines the global spelling checker options.</p>
+							<p>Always suggest corrections: Activating this option causes suggestions (from all of the dictionaries) to be displayed in the Suggestions list box. Disabling this option causes no suggestions to be shown.</p>
+							<p>Make corrections only from main dictionary: Activating this option causes only the default dictionary to be used, none of the custom dictionaries are scanned for suggestions. It also disables the Custom Dictionaries button, preventing any editing of the custom dictionaries.</p>
+							<p>Ignore words in UPPER case: Activating this option causes all upper case words to be ignored</p>
+							<p>Ignore words with numbers: Activating this number causes all words containing numbers to be ignored.</p>
+							<p>Dictionary Language: Use this combo box to select the dictionary language for the spelling checking. The default installation allows you to select English. Other language dictionaries will be made available on the Altova download web site.</p>
+							<p><image href="http://www.xmlspy.com/manual/44-spell-options.gif"/></p>
+							<p>The Custom Dictionaries... button allows you to:</p>
+							<p><ul>
+									<li><p>Modify Dictionary: modify an existing dictionary (add or delete dictionary entries)</p></li>
+									<li><p>Create Dictionary: create a totally new dictionary</p></li>
+									<li><p>Add Dictionary: add an existing dictionary</p></li>
+									<li><p>Remove Dictionary: remove an existing dictionary</p></li>
+								</ul></p>
+							<p>When you start the spell checking process, all dictionaries listed in the Custom Dictionaries list box are searched. If you want to limit the search to specific dictionaries, use the Remove command to delete those you do not want searched.</p>
+							<p><image href="http://www.xmlspy.com/manual/44-spell-cust-dict.gif"/></p>
+							<p>To modifiy Entires:</p>
+							<p><ol>
+									<li><p>Click the custom dictionary name whose entries you want to change, and click Modify... </p><p>This opens the dictionary highlighted in the list box (custom.tlx in this case). A prompt appears if none of the dictionaries has been selected.</p><p><image href="http://www.xmlspy.com/manual/44-spell-cust-tlx.gif"/></p></li>
+									<li><p>Click in the Word: field and enter the new dictionary entry (this automatically activates the Add button).</p></li>
+									<li><p>Click Add to add it to the dictionary.</p></li>
+								</ol></p>
+							<p>To delete an entry from the dictionary:</p>
+							<p><ol>
+									<li><p>Click the word in the Dictionary list box to highlight it, and click Delete.</p></li>
+									<li><p>Click OK to confirm the changes made in this dialog box.</p></li>
+								</ol></p>
+							<p>To add a new dictionary:</p>
+							<p><ol>
+									<li><p>Click New, and enter the name of the new <b>custom dictionary</b> in the File name... field.</p></li>
+									<li><p>Click Save to save the dictionary.</p></li>
+									<li><p>You can now add entries to the dictionary using the Add button, or the Add to Dictionary button while performing a spell check.</p></li>
+								</ol></p>
+							<p>To add an existing dictionary:</p>
+							<p>Use this option to add previously removed (or third party dictionaries). </p>
+							<p><ol>
+									<li><p>Click Add and select a dictionary from the list box. Dictionaries have a *.<b>tlx</b> extension.</p></li>
+									<li><p>Click Open to add the dictionary to the Custom dictionary list.</p><p><note><p>Please note:</p><p>It is not mandatory for a dictionary to have a *.tlx extension. It can have any, or no extension at all, and still be added to the dictionary list box.</p></note></p></li>
+								</ol></p>
+							<p>To remove a dictionary:</p>
+							<p><ul>
+									<li><p>Click the dictionary name in the list and click Remove. This removes the dictionary from the list, it does not physically delete it from your hard disk.</p></li>
+								</ul></p>
+						</body>
+					</topic>
+					<topic id="XSLTCustomize">
+						<title>Customize</title>
+						<body>
+							<p>The customize command lets you customize Stylesheet Designer to suit your personal needs.</p>
+						</body>
+						<topic id="XSLTCommands">
+							<title>Commands</title>
+							<prolog>
+								<metadata>
+									<keywords>
+										<keyword>Customize, commands</keyword>
+										<keyword>Commands, customize</keyword>
+									</keywords>
+								</metadata>
+							</prolog>
+							<body>
+								<p>The Commands tab allows you customize your menus or toolbars. </p>
+								<p><image href="http://www.xmlspy.com/manual/mnu_cust_command.gif"/></p>
+								<p>To add a command to a toolbar or menu</p>
+								<p><ol>
+										<li><p>Open this dialog using <b>View </b>| <b>Customize.</b></p></li>
+										<li><p>Select the command category in the Categories list box. The commands available appear in the Commands list box.  </p></li>
+										<li><p>Click on a command in the commands list box and drag <q>it</q> to an to an existing menu or toolbar. </p></li>
+										<li><p>An <b>I</b>-beam appears when you place the cursor over a valid position to drop the command.    </p></li>
+										<li><p>Release the mouse button at the position you want to insert the command. </p></li>
+									</ol></p>
+								<p><ul>
+										<li><p>A small button icon appears at the tip of mouse pointer when you drag a command. The check mark below the pointer means that the command cannot be dropped at the current cursor position.</p></li>
+										<li><p>The check mark disappears wherever it is possible to drop the command (over a tool bar or menu).  </p></li>
+										<li><p>Placing the cursor over a menu when dragging, opens it, allowing you to insert the command anywhere in the menu.  </p></li>
+										<li><p>Commands can be placed in menus or tool bars. If you created you own toolbar you can populate it with your own commands/icons.</p><p><note><p>Please note:</p><p>You can also edit the commands in the context menus (right click in Stylesheet Designer opens a context menu), using the same method. Click the Menu tab and then select the specific context menu from the Context Menus combo box.  </p></note></p></li>
+									</ul></p>
+								<p>To delete a command or menu: </p>
+								<p><ol>
+										<li><p>Open this dialog using <b>View</b> | <b>Customize</b>.</p></li>
+										<li><p>Click on the menu entry or icon you want to delete, and drag with the mouse.    </p></li>
+										<li><p>Release the mouse button whenever the check mark icon appears below the mouse pointer. The command, or menu item is deleted from the menu or tool bar. </p></li>
+									</ol></p>
+							</body>
+						</topic>
+						<topic id="XSLTToolbars">
+							<title>Toolbars</title>
+							<prolog>
+								<metadata>
+									<keywords>
+										<keyword>Customize, toolbars</keyword>
+										<keyword>Toolbars, customize</keyword>
+									</keywords>
+								</metadata>
+							</prolog>
+							<body>
+								<p>The Toolbars tab allows you to activate or deactivate specific toolbars, as well as create your own specialized ones.   </p>
+								<p>Stylesheet Designer toolbars contain symbols for the most frequently used menu commands.  For each icon you get a brief  <q>tool tip</q> explanation when the mouse cursor is directly over it. The status bar (at the bottom of the application window) displays a more detailed description of the command. </p>
+								<p>You can drag the toolbars from their standard position to any location on the screen, where they appear as a floating window. Alternatively you can also dock them to the left or right edge of the main window. </p>
+								<p>To activate or deactivate a toolbar:</p>
+								<p><ol>
+										<li><p>Click the check box to activate (or deactivate) the specific toolbar.    </p></li>
+									</ol></p>
+								<p>To reset the Menu Bar </p>
+								<p><ul>
+										<li><p>Click the Menu Bar entry and</p></li>
+										<li><p>Click the <b>Reset</b> button, to reset the menu commands to the state they were in when Stylesheet Designer was installed.</p></li>
+									</ul></p>
+								<p>To reset all toolbar and menu commands</p>
+								<p><ul>
+										<li><p>Click the <b>Reset All</b> button, to reset all the toolbar commands to the state they were when Stylesheet Designer was installed. A prompt appears stating that all toolbars and menus will be reset</p></li>
+									</ul></p>
+								<p>Show text labels:   This option places explanatory text below toolbar icons when activated. </p>
+							</body>
+						</topic>
+						<topic id="XSLTKeyboard">
+							<title>Keyboard</title>
+							<prolog>
+								<metadata>
+									<keywords>
+										<keyword>Customize, keyboard</keyword>
+										<keyword>Keyboard, customize</keyword>
+									</keywords>
+								</metadata>
+							</prolog>
+							<body>
+								<p>The Keyboard tab allows you to define (or change) keyboard shortcuts for any Stylesheet Designer command.   </p>
+								<p><image href="http://www.xmlspy.com/manual/mnu_cust_keyboard.gif"/></p>
+								<p>To assign a new Shortcut to a command:</p>
+								<p><ol>
+										<li><p>Select the commands category using the <b>Category</b> combo box.    </p></li>
+										<li><p>Select the <b>command</b> you want to assign a new shortcut to, in the Commands list box</p></li>
+										<li><p>Click in the <b>Press New Shortcut Key:</b> text box, and press the shortcut keys that are to activate the command.  The shortcut immediately appears in the text box. If the shortcut was assigned previously, then that function is displayed below the text box. </p></li>
+										<li><p>Click the <b>Assign</b> button to permanently assign the shortcut.</p><p>The shortcut now appears in the Current Keys text box.</p><p>(To <b>clear</b> this text box, press any of the control keys, CTRL, ALT or SHIFT). </p></li>
+									</ol></p>
+								<p>To deassign (or delete a shortcut):  </p>
+								<p><ol>
+										<li><p>Click the shortcut you want to delete in the Current Keys list box, and    </p></li>
+										<li><p>Click the <b>Remove</b> button (which has now become active). </p></li>
+										<li><p>Click the Close button to confirm all the changes made in the Customize dialog box.</p></li>
+									</ol></p>
+								<p>To reset all keyboard assignments:</p>
+								<p><ol>
+										<li><p>Click the Reset All button.</p><p>A dialog box appears prompting you to confirm if you want to reset all keyboard assignments. </p></li>
+										<li><p>Click Yes if you want to reset all keyboard assignments. </p></li>
+									</ol></p>
+								<p>Set accelerator for: Currently no function. </p>
+							</body>
+						</topic>
+						<topic id="XSLTMenu">
+							<title>Menu</title>
+							<prolog>
+								<metadata>
+									<keywords>
+										<keyword>Menu, XSLT customized</keyword>
+										<keyword>Customize, XSLT menu</keyword>
+									</keywords>
+								</metadata>
+							</prolog>
+							<body>
+								<p>The menu tab allows you to customize the main menu bars as well as the context menus (right click anywhere).   </p>
+								<p><image href="http://www.xmlspy.com/manual/mnu_cust_menu.gif"/></p>
+								<p>To customize a menu:</p>
+								<p><ol>
+										<li><p>Select the menu bar you want to customize (Default Menu currently).    </p></li>
+										<li><p>Click the Commands tab, and drag the commands to the menu bar of your choice.</p></li>
+									</ol></p>
+								<p>To delete commands from a menu:</p>
+								<p><ol>
+										<li><p>Click right on the command, or icon representing the command, and</p></li>
+										<li><p>Select the Delete option from the popup menu, </p></li>
+									</ol></p>
+								<p>OR,</p>
+								<p><ol>
+										<li><p>Select <b>View</b> | <b>Customize</b> to open the Customize dialog box, and  </p></li>
+										<li><p>Drag the command away from the menu, and drop it as soon as the check mark icon appears below the mouse pointer.</p></li>
+									</ol></p>
+								<p>To reset either of the menu bars: </p>
+								<p>(Select the Default Menu entry in the combo box)  </p>
+								<p><ol>
+										<li><p>Click the Reset button just below the menu name. </p><p>A prompt appears asking if you are sure you want to reset the menu bar. </p></li>
+									</ol></p>
+								<p>To customize any of the Context menus (right click menus):</p>
+								<p><ol>
+										<li><p>Select the context menu from the combo box. </p></li>
+										<li><p>Click the Commands tab, and drag the commands to context menu that is now open. </p></li>
+									</ol></p>
+								<p><image href="http://www.xmlspy.com/manual/mnu_cust_context_menu.gif"/></p>
+								<p>To delete commands from a context menu:</p>
+								<p><ol>
+										<li><p>Click right on the command, or icon representing the command, and </p></li>
+										<li><p>Select the Delete option from the popup menu.</p></li>
+									</ol></p>
+								<p>OR,</p>
+								<p><ol>
+										<li><p>Select <b>View</b> | <b>Customize</b> to open the Customize dialog box, and </p></li>
+										<li><p>Drag the command away from the context menu, and drop it as soon as the check mark icon appears below the mouse pointer.</p></li>
+									</ol></p>
+								<p>To reset any of the context menus: </p>
+								<p><ol>
+										<li><p>Select the context menu from the combo box, and  </p></li>
+										<li><p>Click the <b>Reset</b> button just below the context menu name.</p><p>A prompt appears asking if you are sure you want to reset the context menu.</p></li>
+									</ol></p>
+								<p>To close a context menu window: </p>
+								<p><ol>
+										<li><p>Click on the <b>Close icon</b> at the top right of the title bar, or </p></li>
+										<li><p>Click the Close button of the Customize dialog box. </p></li>
+									</ol></p>
+								<p>Menu animations </p>
+								<p><ul>
+										<li><p>Select one of the menu animations from the combo box, if you want animated menus.</p></li>
+									</ul></p>
+								<p>Menu shadows </p>
+								<p><ul>
+										<li><p>Click the <q>Menu shadows</q> check box, if you want all your menus to have shadows.    </p></li>
+									</ul></p>
+							</body>
+						</topic>
+						<topic id="XSLTOptions">
+							<title>Options</title>
+							<prolog>
+								<metadata>
+									<keywords>
+										<keyword>Customize, options</keyword>
+										<keyword>Options, customize</keyword>
+									</keywords>
+								</metadata>
+							</prolog>
+							<body>
+								<p>The Options tab allows you to set general environment settings. </p>
+								<p>Toolbar</p>
+								<p>When active, the <b>Show Tool tips on toolbars</b> check box displays a popup when the mouse pointer is placed over an icon in any of the icon bars. The popup contains a short description of the icon function, as well as the associated keyboard shortcut, if one has been assigned.</p>
+								<p>The <b>Show shortcut keys in Tool tips</b> check box, allows you to decide if you want to have the shortcut displayed in the tool tip. When active, the <b>Large icons</b> check box switches between the standard size icons, and larger versions of the icons.</p>
+							</body>
+						</topic>
+					</topic>
+				</topic>
+				<topic id="XSLTHelpMenu">
+					<title>Help</title>
+					<prolog>
+						<metadata>
+							<keywords>
+								<keyword>Help, Menu</keyword>
+								<keyword>Menu, Help</keyword>
+							</keywords>
+						</metadata>
+					</prolog>
+					<body>
+						<p>The Help menu contains all commands required to get help or more information on Stylesheet Designer, as well as links to information and support pages on our web server. </p>
+						<p>Stylesheet Designer includes a online help system that is based on the Microsoft HTML Help Viewer, and let you currently access the table of contents, index and search function of the supplied help file.</p>
+						<p>The Help menu also contains the Registration dialog, which lets you enter your license key-code, once you have purchased the product.</p>
+					</body>
+					<topic id="XSLTTableofcontents...">
+						<title>Table of contents...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Help, contents</keyword>
+									<keyword>Chapters</keyword>
+									<keyword>Topic, view on TOC</keyword>
+									<keyword>Table of contents</keyword>
+									<keyword>Favorites</keyword>
+									<keyword>Bookmark</keyword>
+									<keyword>Help system</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command displays a <b>hierarchical representation</b> of all chapters and topics contained in the online help system. Use this command to jump to the table of contents directly from within Stylesheet Designer. </p>
+							<p>Once the help window is open, use the three tabs to toggle between the table of contents, index, and search panes. The Favorites tab lets you bookmark certain pages within the help system. </p>
+						</body>
+					</topic>
+					<topic id="XSLTIndex...">
+						<title>Index...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Help, index</keyword>
+									<keyword>Index, help</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command accesses the keyword index of Stylesheet Designer Online Help. You can also use the Index tab in the left pane of the online help system.</p>
+							<p>The index, lists all relevant keywords and lets you navigate to a topic by double-clicking the respective keyword. If more than one topic matches the selected keyword, you are presented a list of available topics to choose from.</p>
+						</body>
+					</topic>
+					<topic id="XSLTSearch...">
+						<title>Search...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Help, search</keyword>
+									<keyword>Full-text, search</keyword>
+									<keyword>Search, help</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The Search command performs a <b>full-text search</b> in the entire online help system.</p>
+							<p>Once you enter your search term into the query field and hit the Return key. The online help system displays a list of available topics that contain the search term you've entered.</p>
+							<p><ul>
+									<li><p>Double-click on any item in the list to display the corresponding topic</p></li>
+								</ul></p>
+						</body>
+					</topic>
+					<topic id="XSLTRegistration">
+						<title>Registration...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Licensed Version</keyword>
+									<keyword>Evaluation Version</keyword>
+									<keyword>Registration</keyword>
+									<keyword>Activate, license</keyword>
+									<keyword>License</keyword>
+									<keyword>E-mail</keyword>
+									<keyword>Unlock</keyword>
+									<keyword>Key-code</keyword>
+									<keyword>Internet</keyword>
+									<keyword>Single-user</keyword>
+									<keyword>Multi-user</keyword>
+									<keyword>Installation</keyword>
+									<keyword>License-metering</keyword>
+									<keyword>Concurrent-use</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>When you start Stylesheet Designer for the first time, you are automatically presented with the Registration dialog box, which lets you register your software product in order to be eligible for technical support and activate your license, which is done by entering a unique key-code to unlock the software.   </p>
+							<p><b>FREE Evaluation Version</b></p>
+							<p>If you have downloaded the Stylesheet Designer from our web server and would like to activate your <b>FREE</b> 30-day evaluation version, please enter your name, company, and e-mail address and click on the <q>Request FREE evaluation key...</q> button. Stylesheet Designer then uses your Internet connection to transmit the information you have just entered to our web server, where a personal unique evaluation license will be generated for you. The license key-code, which is necessary to unlock your software, will then be sent to the e-mail address you have entered - it is therefore important, that you enter your <b>real e-mail address</b> in the registration dialog box!</p>
+							<p>Once you have clicked the request button, please go to your favorite mail software and retrieve the license key-code from our e-mail message, which you should be receiving in a matter of a few minutes (depending on transient Internet conditions). </p>
+							<p>If you requested a key-code and it didn't arrive in a short space of time, the process may have failed due to Firewall restrictions in your network. If this is the case, please send a short message with your information via e-mail to our website and our support staff will generate a key-code for you manually.   </p>
+							<p>When you have received your evaluation key-code, please enter it into the key-code field in the registration dialog box and click on OK to start working with Stylesheet Designer. </p>
+							<p>Whenever you want to place an order for a licensed version of Stylesheet Designer, you can also use the <q>Order license key...</q> button in the registration dialog box or the Order form menu command to proceed to the Secure Altova Online Shop on the Internet. </p>
+							<p><b>Licensed Version</b></p>
+							<p>If you have purchased a <b>single-user</b> license for Stylesheet Designer, you will receive an e-mail message from us that contains your license-data and includes your name, company and key-code. Please make sure that you enter <b>all fields</b> from your license e-mail into the registration dialog box. The key-code will only be able to unlock your software installation, if the entries in the name and company fields match the name and company entered into our order form.</p>
+							<p>If your company has purchased a <b>multi-user</b> license for <b>Stylesheet Designer</b>, you will receive an e-mail message from us that contains your license-data and includes your company name and key-code.   </p>
+							<p>Please make sure that you enter the company name and key-code from your license e-mail into the registration dialog box and also enter your personal name into the name field. The key-code will only be able to unlock your software installation, if the value in the company field match the company name entered into our order form.</p>
+							<p>Please note that the <b>Stylesheet Designer</b> License-Agreement does not allow you to install more than the licensed number of copies of Stylesheet Designer on the computers in your organization (per-seat license). </p>
+						</body>
+					</topic>
+					<topic id="XSLTOrderform...">
+						<title>Order form...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Internet</keyword>
+									<keyword>Web Server</keyword>
+									<keyword>Secure Online Shop</keyword>
+									<keyword>Online Shop</keyword>
+									<keyword>Web Shop</keyword>
+									<keyword>Order Form</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>When you want to place an order for a licensed version of <b>Stylesheet Designer</b>, use this command or the <q>Order license key...</q> button in the registration dialog to proceed to the Secure Altova Online Shop on the Internet, where you can choose between different single- and multi-user license packs. </p>
+							<p>Once you have placed your order, you can choose to pay by credit card, send a check by mail, or use a bank wire transfer. </p>
+						</body>
+					</topic>
+					<topic id="XSLTSupportCenter...">
+						<title>Support Center...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Technical Support</keyword>
+									<keyword>Internet</keyword>
+									<keyword>Web Server</keyword>
+									<keyword>Support Center</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>If you have any questions regarding our product, please feel free to use this command to query to our support center on the Internet at any time. This is the place where you'll find links to the FAQ, support form, and e-mail addresses for contacting our support staff directly.</p>
+						</body>
+					</topic>
+					<topic id="XSLTFAQ">
+						<title>FAQ on the web</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>FAQ</keyword>
+									<keyword>Support</keyword>
+									<keyword>Technical Support</keyword>
+									<keyword>Web Server</keyword>
+									<keyword>Internet</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>To help you in getting the best support possible, we are providing a list of Frequently Asked Questions (FAQ) on the Internet, that is constantly updated as our support staff encounters new issues that are raised by our customers.</p>
+							<p>Please make sure to check the FAQ before contacting our technical support team. This will allow you to get help more quickly. </p>
+							<p>We regret that we are not able to offer technical support by phone at this time, but our support staff will typically answer your e-mail incidents within one business day.</p>
+						</body>
+					</topic>
+					<topic id="XSLTQuestionnaire">
+						<title>Components download</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Component download</keyword>
+									<keyword>Download, components</keyword>
+									<keyword>Parser download</keyword>
+									<keyword>XSLT Transformation System, download</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>The Components download option, currently lets you to download the latest Microsoft XML Parser, as well as an alternate XSLT Transformation System, and will be expanded in the future</p>
+						</body>
+					</topic>
+					<topic id="XSLTXMLSpywebsite...">
+						<title>Altova on the Internet...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Internet</keyword>
+									<keyword>Web Server</keyword>
+									<keyword>XMLSPY</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command takes you directly to the Altova web-server <xref href="http://www.altova.com">http://www.altova.com</xref> where you can find out about news, product updates and additional offers from the Altova team.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTJapanesedistributor...">
+						<title>Japanese distributor...</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>Japan</keyword>
+									<keyword>Distributor</keyword>
+									<keyword>Nippon</keyword>
+									<keyword>nihongo</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>If you are located in Japan, you may prefer to contact our Japanese distributor on the Internet by using this menu command.   </p>
+						</body>
+					</topic>
+					<topic id="XSLTAboutXSLTDesigner...">
+						<title>About Stylesheet Designer</title>
+						<prolog>
+							<metadata>
+								<keywords>
+									<keyword>About Stylehseet Designer</keyword>
+								</keywords>
+							</metadata>
+						</prolog>
+						<body>
+							<p>This command displays the current <b>Stylesheet Designer</b> splash window and version number.   </p>
+						</body>
+					</topic>
+				</topic>
+				<topic id="XSLTTEXTSTYLEpane">
+					<title>Text style pane</title>
+					<prolog>
+						<metadata>
+							<keywords>
+								<keyword>Text Style</keyword>
+							</keywords>
+						</metadata>
+					</prolog>
+					<body>
+						<p>The Text style pane allows you to set attributes for text in your .sps file. You can select the attributes for color, text, position of text, layout, more and IE by clicking on each tab.</p>
+						<p><image href="http://www.xmlspy.com/manual/textstyle.gif"/></p>
+						<p>Select from the values in the drop-down list of each combo box.</p>
+					</body>
+				</topic>
+				<topic id="XSLTBLOCKSTYLEpane">
+					<title>Block style pane</title>
+					<prolog>
+						<metadata>
+							<keywords>
+								<keyword>Block Style</keyword>
+							</keywords>
+						</metadata>
+					</prolog>
+					<body>
+						<p>The Block style pane allows you to set attributes in areas (e.g. tables) in your .sps file. You can select the attributes for color, text, position of text, layout, more and IE by clicking on each tab. </p>
+						<p><image href="http://www.xmlspy.com/manual/blockstyle.gif"/></p>
+						<p>Select from the values in the drop-down list of each combo box.</p>
+					</body>
+				</topic>
+			</topic>
+			<topic id="XSLTContextmenus">
+				<title>Context Menus</title>
+				<body>
+					<p>Context menus are opened by clicking right on some part of the user-interface. The pop-up menu that opens is determined by where you click.</p>
+					<p>You can customize the context menus using the <b>View</b> | <b>Customize</b> option.   </p>
+				</body>
+				<topic id="XSLTChange...contextmenu">
+					<title>Change... context menu</title>
+					<prolog>
+						<metadata>
+							<keywords>
+								<keyword>Change to, contents</keyword>
+								<keyword>Change to, paragraph</keyword>
+								<keyword>Change to, table</keyword>
+								<keyword>Change to, list</keyword>
+								<keyword>Change to, image</keyword>
+								<keyword>Change to, input field</keyword>
+								<keyword>Change to, multiline input field</keyword>
+								<keyword>Change to, combo box</keyword>
+								<keyword>Change to, check box</keyword>
+								<keyword>Change to, radio button</keyword>
+								<keyword>Change to, button</keyword>
+							</keywords>
+						</metadata>
+					</prolog>
+					<body>
+						<p>Right-clicking in the Design view, opens this context menu. If you right-click a tag, you can change the tag into any one of the other types available in this list.</p>
+						<p>The <b>authentic 5</b> Document view Node Settings... item, opens a dialog box enabling you to define the current node properties for further editing in the Authentic Document view. (Node in the Designer view means an element or attribute tag.) </p>
+						<p><image href="http://www.xmlspy.com/manual/mnu_cxt_change_struct.gif"/></p>
+						<p><note><p>Insert</p></note></p>
+					</body>
+				</topic>
+				<topic id="XSLTCreate...popupmenu">
+					<title>Create... popup menu</title>
+					<prolog>
+						<metadata>
+							<keywords>
+								<keyword>Create, contents</keyword>
+								<keyword>Create, paragraph</keyword>
+								<keyword>Create, list</keyword>
+								<keyword>Create, image</keyword>
+								<keyword>Create, input field</keyword>
+								<keyword>Create, multiline input field</keyword>
+								<keyword>Create, combo box</keyword>
+								<keyword>Create, check box</keyword>
+								<keyword>Create, radio button</keyword>
+								<keyword>Create, button</keyword>
+							</keywords>
+						</metadata>
+					</prolog>
+					<body>
+						<p>Not exactly a context menu. This menu is automatically opened when you <b>drag</b> an element from the schema tree view into the Design view pane. It allows you to decide how the schema component is to be used in the XSLT stylesheet. </p>
+						<p><image href="http://www.xmlspy.com/manual/mnu_cxt_create_struct.gif"/></p>
+						<p>Create Contents:  Selecting Create Contents inserts the respective tags, and displays them in the same line in the Design tab. The IE Preview tab displays the XML data as text in a single line without delimiters. </p>
+						<p>Create Paragraph:  This command encloses the contents in a paragraph. Selecting Create Paragraph, inserts the respective tags, and displays them over three lines. The first line contains the start tags, the second the (contents) placeholder, and the third all the end tags. The IE Preview tab displays the XML data as text, one line for each instance. </p>
+						<p>Create List:   Selecting List, inserts the respective tags and displays them over three lines in the Design view. The first line contains the start tags, the second a <q>bulleted</q> (contents) placeholder, and the third the end tags. The IE Preview tab displays the XML data as bulleted text, one line for each instance.</p>
+						<p>Create Image: Selecting image, inserts the image referenced in the image path.   </p>
+						<p>Create Input Field:  Selecting Input Field inserts the element/attribute tags with a text box between the start and end tags in the Designer view. The IE Preview displays a text box for each XML data instance. Input fields can be resized by clicking the right or lower border and dragging. A popup appears displaying the current dimension. </p>
+						<p>Create Multiline Input Field:  Selecting Multiline Input Field inserts the element/attribute tags with a multiline text box between the start and end tags in the Designer view. The IE Preview displays a multiline textbox with scroll bar for each XML data instance. Input fields can be resized by clicking the right or lower border and dragging. A popup appears displaying the current dimension.</p>
+						<p>Create Combo box: Selecting Combo box, allows you to define a combo box and the values it contains for the element/attribute you insert. A dialog box opens the moment you select the Combo box entry.   </p>
+						<p>Click the <q>Plus</q> button to add a list entry line to the combo box. Double click in the <q>Visible entry</q> column and enter the list entry you want to appear. Double click in the <q>XML value</q> column to add combo box return values. The visible entry is used as a descriptor, the XML value is what is actually saved. </p>
+						<p>E.g.<table>
+								<title></title>
+								<tgroup cols="2">
+									<colspec colnum="1" colname="spycolgen1" colwidth="*"/>
+									<colspec colnum="2" colname="spycolgen2" colwidth="*"/>
+									<tbody>
+										<row>
+											<entry>Visible entry</entry>
+											<entry>XML value</entry>
+										</row>
+										<row>
+											<entry>Programmer</entry>
+											<entry>1</entry>
+										</row>
+										<row>
+											<entry>Support</entry>
+											<entry>2</entry>
+										</row>
+										<row>
+											<entry>Manager</entry>
+											<entry>3</entry>
+										</row>
+									</tbody>
+								</tgroup>
+							</table></p>
+						<p>Click the <q>Minus</q> button to delete a row from the list entries. </p>
+						<p>Clicking OK inserts the element/attribute tags with a combo box between the start and end tags in the Design view. The IE Preview tab displays a combo box for each XML data instance.   </p>
+						<p>To <b>reopen</b> this dialog box, click the combo box and select the menu option <b>Properties</b> | <b>Selected object...</b></p>
+						<p><b>Create Check box: </b></p>
+						<p>A dialog box opens the moment you select the check box entry. To open this dialog box at a later time right-click the element to change and select <b>Change to Check Box</b>.   </p>
+						<p>Click the <b>Plus</b> button to add an entry line to the <q>Checked values</q> column. Double click in the column and enter the checked value you want to appear. Double click in the <q>Unchecked value</q> text box to change the unchecked value. The unchecked value represents the unchecked status of a check box, and is the XML value when unchecked (a check box must always have a distinct state). </p>
+						<p>Click the <q>Minus</q> button to delete a row from the checked values.   </p>
+						<p>Clicking OK inserts the element/attribute tags with a check box between the start and end tags in the Designer view. The IE Preview displays a check box for each XML data instance.</p>
+						<p>  To <b>reopen</b> this dialog box, click the check box and select the menu option <b>Properties</b> | <b>Selected object...</b></p>
+						<p>A dialog box opens the moment you select the check box entry.   </p>
+						<p>Click the <q>Plus</q> button to add an entry line to the <q>Checked values</q> column. Double click in the column and enter the <q>Checked value</q> you want to appear. The checked value is the XML value that represents checked. </p>
+						<p>Click the <q>Minus</q> button to delete a row from the checked values.</p>
+						<p>Clicking OK inserts the element/attribute tags with a radio button between the start and end tags in the Designer view. The IE Preview displays a radio button for each XML data instance. </p>
+						<p>To <b>reopen</b> this dialog box, click the radio button and select the menu option <b>Properties</b> | <b>Selected object...</b></p>
+						<p><b>Create Button:  </b></p>
+						<p>Selecting Button inserts the element/attribute tags with a button named <q>Button text</q> between the start and end tags in the Designer view. The IE Preview displays a button for each XML data instance. </p>
+					</body>
+				</topic>
+				<topic id="XSLTInsertContets">
+					<title>Insert Contents</title>
+					<prolog>
+						<metadata>
+							<keywords>
+								<keyword>Insert, contents</keyword>
+								<keyword>Insert, rest of contents</keyword>
+								<keyword>Rest of Contents</keyword>
+								<keyword>Contents</keyword>
+							</keywords>
+						</metadata>
+					</prolog>
+					<body>
+						<p>The <b>Insert Contents</b> item only becomes active if you have previously clicked and set the cursor on text in the Design view, and subsequently right-clicked the cursor at that position. The (contents) placeholder is inserted at the position of the cursor. </p>
+						<p>The <b>Insert Rest of Contents</b> item works like the Insert Contents item. The (rest of contents) placeholder is inserted at the cursor position. </p>
+						<p><image href="http://www.xmlspy.com/manual/mnu_cts_insert.gif"/></p>
+					</body>
+				</topic>
+			</topic>
+		</topic>
+	</topic>
+</dita>

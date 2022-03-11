@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>EASTERN DISTRICT OF MICHIGAN</venue.name>
+<venue.name>SOUTHERN DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>CHARTER WARRANTY SERVICES, INC.,Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>BLUE BIRD BODY CO., Defendant,</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>CASE NO. 2:12-CV-10107</docket.line>
+<docket.number>2:12-CV-10107</docket.number>
+<docket.line suppress-flag="y">2:12-cv-10107-SFC-PJK</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/22/2012</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><underscore><bold>ORDER DEEMING RESOLVED PLAINTIFF'S SEPTEMBER 11, 2012 MOTION TO COMPEL (Doc. Ent. 26)</bold></underscore></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JUDGE SEAN F. COX MAGISTRATE JUDGE PAUL J. KOMIVES</judge.line>
+<judge.line first-line="1">PAUL J. KOMIVES UNITED STATES MAGISTRATE JUDGE</judge.line>
+<judge.line first-line="1">s/Eddrey Butts Case Manager</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p1" level="1">Charter Warranty Services, Inc. filed this case against Blue Bird Body Co. in Oakland County Circuit Court on October 25, 2011. The causes of action include (I) breach of contract, (II) account stated and (III) open account. Doc. Ent. 1 at 4-31. Among the attachments to the complaint is a March 2009 private label warranty agreement between Charter Warranty Services, Inc., and Blue Bird Body Company. Doc. Ent. 1 at 13-16.</paratext></para>
+<para><paratext ID="p2" level="1">Defendant removed the case to this Court on January 10, 2012. Doc. Ent. 1 at 1-3. On January 10, 2012, defendant filed an answer (Doc. Ent. 3) and a counterclaim (Doc. Ent. 4), regarding which plaintiff filed an answer on January 20, 2012 (Doc. Ent. 7).</paratext></para>
+<para><paratext ID="p3" level="1">Pursuant to Judge Cox's March 15, 2012 scheduling order, all discovery was to be completed by October 1, 2012, and all motions are to be filed by November 5, 2012. Doc. Ent. 11.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>B. Plaintiff's September 11, 2012 Motion to Compel</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">Currently before the Court is plaintiff's September 11, 2012 motion to compel production of documents responsive to Charter's First Set of Discovery Requests and to award Charter its costs and fees. Doc. Ent. 26. Among the exhibits to this motion are (1) Blue Bird's &#x201C;draft&#x201D; responses (Doc. Ent. 26-2); (2) Blue Bird counsel's response that material is in electronic form; can be inspected at his client's business (Doc. Ent. 26-3); and (3) an e-mail re: documents (Doc. Ent. 26-4). <ital>See</ital> Doc. Ent. 26-1 (Index of Exhibits).</paratext></para>
+<para><paratext ID="p5" level="1">Blue Bird Body Co. filed a response on September 25, 2012 (Doc. Ent. 29). Charter Warranty Services, Inc. filed a reply on October 4, 2012 (Doc. Ent. 30). Relatedly, on October 11, 2012, the parties filed a joint report to the Court following E.D. Mich. LR 37.1 conference (Doc. Ent. 31). Then, on October 19, 2012, defendant filed a supplemental Rule 37.1 statement (Doc. Ent. 33).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>C. Discussion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Judge Cox has referred this motion to me for hearing and determination. Doc. Ent. 27. A hearing was noticed for October 15, 2012. Doc. Ent. 28. However, the hearing was renoticed for October 22, 2012. Doc. Ent. 32.</paratext></para>
+<para><paratext ID="p7" level="1">On the date set for hearing, attorneys Philip C. Korovesis and Larry W. Bennett appeared. In lieu of conducting a motion hearing, I conferred with counsel for the parties off the record. As a result of a review of the pleadings and that discussion, I have reached the following conclusions:</paratext>
+<para><paratext ID="p8" first-line="0" turnover="hanging">1. Plaintiff is entitled to the discovery it seeks in its September 11, 2012 motion to compel (Doc. Ent. 26).</paratext></para>
+<para><paratext ID="p9" first-line="0" turnover="hanging">2. Counsel for the parties are directed to agree on a time and date at which the discovery shall be furnished in defense counsel's Troy, Michigan office. Counsel for the parties are free to decide whether a non lawyer for each side or solely counsel for each side may be present. I will be available by telephone to resolve any problems which may arise during the above-described furnishing of discovery, provided that the parties confirm my availability with my courtroom deputy.</paratext></para>
+<para><paratext ID="p10" first-line="0" turnover="hanging">3. Apart from any documents that may be furnished, any discussion or statements made by any person present shall be considered confidential and may only be used by agreement of counsel or by further order of the Court.</paratext></para>
+<para><paratext ID="p11" first-line="0" turnover="hanging">4. The parties may keep a record of costs associated with this production of discovery and the prevailing party will be free to seek reimbursement of such costs at the conclusion of this case.</paratext></para>
+</para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>D. Order</bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">Accordingly, plaintiff's September 11, 2012 motion to compel (Doc. Ent. 26) is DEEMED RESOLVED.</paratext></para>
+<para><paratext ID="p13" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p14" level="1">The attention of the parties is drawn to Fed. R. Civ. P. 72(a), which provides a period of ten days from the date of receipt of a copy of this order within which to file objections for consideration by the district judge under 28 U.S.C. &#167; 636(b)(1).</paratext></para>
+<para><paratext ID="p15" level="1">Dated: 10/22/12</paratext></para>
+<para><paratext ID="p16" level="1">The undersigned certifies that a copy of the foregoing order was served on the attorneys of record and by electronic means or U.S. Mail on October 22, 2012.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

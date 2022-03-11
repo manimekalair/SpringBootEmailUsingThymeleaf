@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>EASTERN DISTRICT OF MICHIGAN</venue.name>
+<venue.name>SOUTHERN DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>QUINTON BROWN, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>HARLEY-DAVISON MOTOR COMPANY GROUP, INC., a Wisconsin Corporation and MOTOWN HARLEY-DAVIDSON, INC. d/b/a BIKER BOB'S HARLEY-DAVIDSON MOTOWN, a Michigan Corporation, Jointly and Severally, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 12-CV-14305</docket.line>
+<docket.number>12-CV-14305</docket.number>
+<docket.line suppress-flag="y">2:12-cv-14305-GCS-RSW</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/06/2012</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><underscore><bold>ORDER GRANTING MOTION TO REMAND (DOC # 8)</bold></underscore></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">HON. GEORGE CARAM STEEH</judge.line>
+<judge.line first-line="1">GEORGE CARAM STEEH UNITED STATES DISTRICT JUDGE</judge.line>
+<judge.line first-line="1"><underscore>s/Marcia Beauchemin</underscore> Deputy Clerk</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Plaintiff, the purchaser of a new Harley-Davidson motorcycle, brought the instant lawsuit complaining of its defects under a number of warranty and contract theories. The case was filed in Wayne County Circuit Court and removed to this court by defendants on the basis of federal question jurisdiction, for the reason that plaintiff's claims included one under the Magnuson-Moss Warranty Act, 15 U.S.C. &#167; 2301 et seq. The matter could not have been removed on the basis of diversity of citizenship, because plaintiff is a Michigan resident and defendant Motown Harley-Davidson is a Michigan corporation with a principal place of business in Taylor, Michigan. Now before the court is plaintiff's motion to remand this case to Wayne County Circuit Court, where it was originally filed.</paratext></para>
+<para><paratext ID="p2" level="1">The Magnuson-Moss Warranty Act includes an &#x201C;amount in controversy&#x201D; requirement of $50,000. 15 U.S.C. &#167; 2310(d)(3)(B). This requirement is jurisdictional, and the amount is exclusive of interests and costs. <underscore>See Golden v. Gorno Bros., Inc.</underscore>, 410 F.3d 879, 881-82 (6th Cir. 2005). Plaintiff now moves to remand the matter to state court, asserting that his motorcycle had a &#x201C;total delivered price&#x201D; of $42,152 as set forth in the invoice (attached to plaintiff's motion as Exhibit A). Accordingly, plaintiff asserts defendants cannot possibly meet their burden of establishing the $50,000 jurisdictional amount.</paratext></para>
+<para><paratext ID="p3" level="1">Defendants have not filed a response to the motion and have not demonstrated any opposition to plaintiff's assertions concerning either the amount paid for the motorcycle or the amount in controversy in this lawsuit. Because the undersigned cannot contemplate how the $50,000 amount in controversy requirement of the statute would be satisfied in this case, plaintiff's motion to remand is hereby GRANTED and the clerk shall remand the matter to the Wayne County Circuit Court.</paratext></para>
+<para><paratext ID="p4" level="1"><bold>IT IS SO ORDERED</bold>.</paratext></para>
+<para><paratext ID="p5" level="1">Dated: December 6, 2012</paratext></para>
+</section.body>
+<head><headtext align="center">CERTIFICATE OF SERVICE</headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Copies of this Order were served upon attorneys of record on December 6, 2012, by electronic and/or ordinary mail.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

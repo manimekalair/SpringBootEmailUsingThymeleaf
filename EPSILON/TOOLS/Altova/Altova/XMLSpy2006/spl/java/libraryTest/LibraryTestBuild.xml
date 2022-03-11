@@ -1,0 +1,19 @@
+<project name="[=$module]" default="test" basedir=".">
+	<target name="compile">
+		<javac srcdir="com/altova" destdir="."/>
+		<javac srcdir="com/altova/types" destdir="."/>
+		<javac srcdir="com/altova/xml" destdir="."/>
+		<javac srcdir="[=$JavaPackageDir]" destdir="."/>
+		<javac srcdir="com/[=$module]Test" destdir="."/>
+	</target>
+	<target name="test" depends="compile">
+		<java classname="com.[=$module]Test.[=$module]Test" fork="true" failonerror="true"/>
+	</target>
+	<target name="clean">
+		<delete>
+			<fileset dir=".">
+				<include name="**/*.class"/>
+			</fileset>
+		</delete>
+	</target>
+</project>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>JESSE STEFFENS, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>ELECTROLUX NORTH AMERICA, INC., <ital>et al.</ital>, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CASE NO. SACV 09-0292 AG (MLGx)</bold></docket.line>
+<docket.number><bold>SACV 09-0292 AG (MLGx)</bold></docket.number>
+<docket.line suppress-flag="y">8:09-cv-00292-AG-MLG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/22/2009</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>ORDER GRANTING IN PART AND DENYING IN PART DEFENDANT KAREN JACKSON'S MOTION TO DISMISS</bold></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Andrew J. Guilford United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is the motion to dismiss (the &#x201C;Motion&#x201D;) for lack of personal jurisdiction under Rule 12(b)(2) and for failure to state a claim under Rule 12(b)(6), filed by defendant Karen Jackson. After considering the parties' arguments, the Court DENIES the Motion to dismiss for lack of personal jurisdiction under Rule 12(b)(2), and GRANTS the Motion to dismiss for failure to state a claim under Rule 12(b)(6).</paratext></para>
+<para><paratext ID="p2" level="1">The Court grants the Motion with leave to amend. Plaintiff may file an amended complaint within 21 days of this Order, setting forth adequate allegations against Jackson. The amended complaint shall be complete in and of itself, and shall not incorporate by reference any prior pleading.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>BACKGROUND</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Plaintiff Jesse Steffens (&#x201C;Plaintiff&#x201D;) worked for defendant Electrolux. (Steffens Decl. &#182; 2.) Jackson was Plaintiff's second-level supervisor. (<ital>Id.</ital> &#182; 3.) Jackson lived and worked in North Carolina, but supervised California employees and traveled to California about twice per year to meet with them. (FAC &#182; 8; Jackson Decl. &#182; 3.)</paratext></para>
+<para><paratext ID="p4" level="1">Plaintiff argues that during Plaintiff's employment with Electrolux, Jackson harassed her and discriminated against her. Plaintiff argues that Jackson &#x201C;told Plaintiff that she would not succeed in the &#x2018;boys club&#x2019; unless Plaintiff lost weight.&#x201D; (FAC &#182;&#182; 77, 87.) Plaintiff asserts that Jackson publicly berated and humiliated Plaintiff at a Best Buy. (Steffens Decl. &#182; 4(e).) And Plaintiff says that Jackson publicly terminated Plaintiff's employment in a humiliating and degrading fashion by firing her at a coffee shop and forcing her to turn over her company car and call a family member for a ride home. (<ital>Id.</ital> &#182; 4(g).)</paratext></para>
+<para><paratext ID="p5" level="1">Based on these facts and others, Plaintiff brings nine claims for relief, numbered as follows: (1) failure to pay overtime wages; (2) failure to provide meal periods; (3) failure to provide rest periods; (4) failure to timely furnish accurate itemized wage statements; (5) violations of labor code &#167; 203; (6) unfair business practices; (7) discrimination based on sex/sex harassment; (8) retaliation; and (9) wrongful termination in violation of public policy. Plaintiff brings all of her claims against Electrolux, and claims 7, 8, and 9 against Jackson.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>ANALYSIS</bold></underscore></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>1. PERSONAL JURISDICTION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Jackson argues that this Court lacks personal jurisdiction over her. The Court disagrees.</paratext></para>
+<para><paratext ID="p7" level="1">A defendant may bring a motion to dismiss for lack of personal jurisdiction under Federal Rule of Civil Procedure 12(b)(2). When a court decides the motion without a trial or evidentiary hearing, the plaintiff need only make a <ital>prima facie</ital> showing of personal jurisdiction. <ital>Ballard v. Savage</ital>, 65 F.3d 1495, 1498 (9th Cir. 1995). A plaintiff makes a <ital>prima facie</ital> showing by producing admissible evidence which, if believed, would be sufficient to establish the existence of personal jurisdiction. <ital>Harris Rutsky &#38; Co. Ins. Servs., Inc. v. Bell &#38; Clements Ltd.</ital>, 328 F.3d 1122, 1129 (9th Cir. 2003). The court accepts as true the complaint's uncontroverted factual allegations and resolves any factual conflicts in the plaintiff's favor. <ital>Id.</ital></paratext></para>
+<para><paratext ID="p8" level="1">Personal jurisdiction over a nonresident defendant is proper &#x201C;only so long as there exist &#x2018;minimum contacts&#x2019; between the defendant and the forum State.&#x201D; <ital>Int'l Shoe Co. v. Washington</ital>, 326 U.S. 310, 316 (1945). A plaintiff can establish a defendant's minimum contacts with a given forum under a theory of general or specific jurisdiction. <ital>Helicopteros Nacionales de Columbia, S.A. v. Hall</ital>, 466 U.S. 408, 414-16 (1984). Here, Plaintiff does not contend personal jurisdiction under a theory of general jurisdiction. Accordingly the Court will not address jurisdiction under this theory.</paratext></para>
+<para><paratext ID="p9" level="1">Under a theory of specific jurisdiction, the Ninth Circuit uses a three-part test to determine whether a plaintiff can establish a defendant's minimum contacts with the forum. The minimum contacts test is satisfied when: &#x201C;(1) the defendant has performed some act or consummated some transaction within the forum or otherwise purposefully availed himself of the privileges of conducting activities in the forum, (2) the claim arises out of or results from the defendant's forum-related activities, and (3) the exercise of jurisdiction is reasonable.&#x201D; <ital>Pebble Beach Co. v. Caddy</ital>, 453 F.3d 1151, 1155 (9th Cir. 2006) (citing <ital>Bancroft &#38; Masters, Inc. v. Augusta Nat'l Inc.</ital>, 223 F.3d 1082, 1086 (9th Cir. 2000)).</paratext></para>
+</section.body>
+<head><headtext align="center">1.1 Jackson has purposefully availed herself of the privileges of conducting activities in California</headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Jackson argues that she did not purposefully avail herself of the privileges of conducting activities in California. The Court disagrees.</paratext></para>
+<para><paratext ID="p11" level="1">To determine whether a defendant has purposefully availed herself of the privileges of conducting activities in the forum state, the Ninth Circuit applies the &#x201C;effects test&#x201D; of <ital>Calder v. Jones</ital>, 465 U.S. 783 (1984). <ital>Yahoo! Inc. v. La Ligue Contre Le Racisme Et L'Antisemitisme</ital>, 433 F.3d 1199, 1205-06 (9th Cir. 2006). In <ital>Yahoo! Inc.</ital>, the court construed the <ital>Calder</ital> test as imposing three requirements: &#x201C;the defendant allegedly [must] have (1) committed an intentional act, (2) expressly aimed at the forum state, (3) causing harm that the defendant knows is likely to be suffered in the forum state.&#x201D; <ital>Id.</ital> (internal citations omitted.)</paratext></para>
+<para><paratext ID="p12" level="1">Plaintiff asserts facts that show Jackson berated her in a Best Buy in California and staged a surprise termination in California, where she forced Plaintiff to turn over her company car and call a family member for a ride home. Thus, Plaintiff asserts sufficient facts that show Jackson committed intentional acts expressly aimed at California. Further, Plaintiff asserts facts that show Jackson committed these acts in an effort to humiliate, hurt, and shame Plaintiff. Thus, Plaintiff asserts sufficient facts that show Jackson caused harm that she knew was likely to be suffered in California.</paratext></para>
+<para><paratext ID="p13" level="1">Plaintiff satisfies the <ital>Calder</ital> &#x201C;effects test.&#x201D; Plaintiff has established that Jackson purposefully availed herself of the privileges of conducting activities in California.</paratext></para>
+</section.body>
+<head><headtext align="center">1.2 Plaintiff's claims arise out of Jackson's forum-related activities</headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">Plaintiff asserts that two major events underlying her claims occurred in California: the incident at the Best Buy and Plaintiff's termination. (Opp'n 6:1-2.) Jackson, while disputing Plaintiff's account of these events, does not dispute that they happened in California. (Jackson Decl. &#182; 4.) Plaintiff has asserted sufficient facts that her claims arise out of Jackson's forum-related activities.</paratext></para>
+</section.body>
+<head><headtext align="center">1.3 The exercise of jurisdiction is reasonable</headtext></head>
+<section.body>
+<para><paratext ID="p15" level="1">Once a court finds that a defendant has purposefully availed herself of the benefits and protections of the forum or has purposefully directed her actions toward the forum, personal jurisdiction is presumptively reasonable. <ital>See Roth</ital>, 942 F.2d at 625. The burden is on the defendant to &#x201C;present a compelling case that the presence of some other considerations would render jurisdiction unreasonable.&#x201D; <ital>Burger King</ital>, 471 U.S. at 477. Jackson fails to do so.</paratext></para>
+<para><paratext ID="p16" level="1">Jackson maintains that forcing her to come to California to defend herself is not &#x201C;fair play&#x201D; because of her minimal contacts with California. (Mot. 5:3-5.) She argues that she visited California about twice per year for a few days to meet with zone managers and that the &#x201C;majority of [her] interactions&#x201D; with Plaintiff occurred outside of California. (Mot. 5:5-7, 21-23.) But Jackson does not dispute that at least two incidents central to Plaintiff's claims, the Best Buy incident and Plaintiff's termination, occurred in California. These incidents form a significant basis of Plaintiff's claims.</paratext></para>
+<para><paratext ID="p17" level="1">Jackson has not presented a compelling case for why jurisdiction would be unreasonable.</paratext></para>
+</section.body>
+<head><headtext align="center">1.4 Conclusion</headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">Plaintiff produces sufficient evidence to make a <ital>prima facie</ital> showing of personal jurisdiction. The Court DENIES Jackson's motion to dismiss for lack of personal jurisdiction under Rule 12(b)(2).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>2. FAILURE TO STATE A CLAIM</bold></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">A court should dismiss a complaint when its allegations fail to state a claim upon which relief can be granted. <csc>Fed R. Civ. P.</csc> 12(b)(6). A complaint need only include &#x201C;a short and plain statement of the claim showing that the pleader is entitled to relief.&#x201D; <csc>Fed R. Civ. P.</csc> 8(a)(2). &#x201C;&#x2018;[D]etailed factual allegations&#x2019; are not required.&#x201D; <ital>Ashcroft v. Iqbal</ital>, 129 S. Ct. 1937, ____ (May 18, 2009) (quoting <ital>Bell Atlantic Corp. v. Twombly</ital>, 550 U.S. 554, 555 (2007)). The Court must accept as true all factual allegations in the complaint and must draw all reasonable inferences from those allegations, construing the complaint in the light most favorable to the plaintiff. <ital>Westlands Water Dist. v. Firebaugh Canal</ital>, 10 F.3d 667, 670 (9th Cir. 1993).</paratext></para>
+<para><paratext ID="p20" level="1">But the complaint must allege &#x201C;sufficient factual matter, accepted as true, to &#x2018;state a claim that is plausible on its face.&#x2019;&#x201D; <ital>Iqbal</ital>, 129 S. Ct. at ____ (quoting <ital>Twombly</ital>, 550 U.S. at 557). &#x201C;A claim has facial plausibility when the pleaded factual content allows the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.&#x201D; <ital>Iqbal</ital>, 129 S. Ct. at ____ (citing <ital>Twombly</ital>, 550 U.S. at 556). A court should not accept &#x201C;threadbare recitals of a cause of action's elements, supported by mere conclusory statements,&#x201D; <ital>Iqbal</ital>, 129 S. Ct. at ____, or &#x201C;allegations that are merely conclusory, unwarranted deductions of fact, or unreasonable inferences.&#x201D; <ital>Sprewell v. Golden State Warriors</ital>, 266 F.3d 979, 988 (9th Cir. 2001). Dismissal without leave to amend is appropriate only when the Court is satisfied that the deficiencies of the complaint could not possibly be cured by amendment. <ital>Jackson v. Carey</ital>, 353 F.3d 750, 758 (9th Cir. 2003).</paratext></para>
+</section.body>
+<head><headtext align="center">2.1 Discrimination and Harassment</headtext></head>
+<section.body>
+<para><paratext ID="p21" level="1">Plaintiff's seventh claim for relief is for discrimination based on sex and sexual harassment.</paratext></para>
+<para><paratext ID="p22" level="1">Regarding discrimination based on sex, Jackson argues that the FEHA does not permit discrimination claims against non-employer individuals. (Mot. 6:26-7:2.) In <ital>Reno v. Baird</ital>, 18 Cal. 4th 640, 643 (1998), the California Supreme Court held that &#x201C;the FEHA, like similar federal statutes, allows persons to sue and hold liable their employers, but not individuals.&#x201D; Plaintiff does not respond to Jackson's argument. Plaintiff fails to state a claim for discrimination based on sex.</paratext></para>
+<para><paratext ID="p23" level="1">As for sexual harassment, Jackson argues that the FAC does not adequately allege a claim of harassment. (Mot. 8:10-11.) Jackson points to <ital>Miller v. Dep't of Corr.</ital>, 115 P.3d 77, 86 (Cal. 2005), where the California Supreme Court stated:</paratext>
+<para><paratext ID="p24" first-line="1" turnover="1">We have agreed with the United States Supreme Court that, to prevail, an employee claiming harassment based upon a hostile work environment must demonstrate that the conduct complained of was severe enough or sufficiently pervasive to alter the conditions of employment and create a work environment that qualifies as hostile or abusive to employees because of their sex.</paratext></para>
+</para>
+<para><paratext ID="p25" level="1">Plaintiff argues that the FAC adequately alleges a claim of sexual harassment against Jackson. (Opp'n 10:14-17.) But Plaintiff acknowledges that she &#x201C;is able to plead more specific facts <charfill numchar="3">&#8228;</charfill> if so required.&#x201D; (Opp'n 10:14-17.) The Court will give Plaintiff this opportunity.</paratext></para>
+<para><paratext ID="p26" level="1">The Court GRANTS the Motion as to Plaintiff's claims for discrimination based on sex and sexual harassment, in the seventh claim.</paratext></para>
+</section.body>
+<head><headtext align="center">2.2 Wrongful Termination</headtext></head>
+<section.body>
+<para><paratext ID="p27" level="1">Jackson argues that a claim for wrongful termination under the FEHA cannot be maintained against a non-employer individual. (Mot. 9:3-4.) Plaintiff responds that she did not intend to allege a claim for wrongful termination against Jackson and will not pursue this claim. (Opp'n 7:24-27.)</paratext></para>
+<para><paratext ID="p28" level="1">The Court GRANTS the Motion as to Plaintiff's claim for wrongful termination, the ninth claim.</paratext></para>
+</section.body>
+<head><headtext align="center">2.3 Retaliation</headtext></head>
+<section.body>
+<para><paratext ID="p29" level="1">Jackson argues that Plaintiff cannot maintain a retaliation claim against a non-employer individual. To support her argument, Jackson cites <ital>Jones v. Lodge at Torrey Pines P'ship</ital>, 177 P.3d 232 (Cal. 2008). (Mot. 9:19-23.) The Court disagrees with Jackson's interpretation of <ital>Jones.</ital> It is true that the <ital>Jones</ital> court said that the &#x201C;rationale for not holding individuals personally liable for discrimination applies equally to retaliation.&#x201D; <ital>Jones</ital>, 177 P.3d at 236. But the court in <ital>Jones</ital> did not address the question at issue in this case: whether an individual can be liable for retaliation made in response to a report of harassment. (Opp'n 9:16-19.) In fact, the court expressly reserved this question. It said:</paratext>
+<para><paratext ID="p30" first-line="1" turnover="1">Because the issue is not presented, we express no opinion on whether an individual who is personally liable for harassment might also be personally liable for retaliating against someone who opposes or reports that same harassment.</paratext></para>
+<paratext ID="p31" contd-flag="y"><ital>Jones</ital>, 177 P.3d at 239. Jackson argues that the California Supreme Court &#x201C;hinted&#x201D; that it might, in future, hold that retaliation claims are barred against non-employer individuals. (Reply 6:5-7.) But until the California Supreme Court rules on that issue, this Court will not find that the FEHA bars a plaintiff from suing a non-employer individual for retaliation in response to a report of harassment.</paratext>
+</para>
+<para><paratext ID="p32" level="1">Accordingly, Plaintiff is not barred from bringing a retaliation claim against Jackson. But Plaintiff acknowledges that she &#x201C;is able to plead more specific facts <charfill numchar="3">&#8228;</charfill> if so required&#x201D; on the retaliation and harassment claims. (Opp'n 10:14-17.) The Court will give Plaintiff this opportunity.</paratext></para>
+<para><paratext ID="p33" level="1">The Court GRANTS the Motion as to Plaintiff's retaliation claim, the eighth claim.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><bold>DISPOSITION</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p34" level="1">The Court DENIES the Motion to dismiss for lack of personal jurisdiction under Rule 12(b)(2), and GRANTS the Motion to dismiss for failure to state a claim under Rule 12(b)(6).</paratext></para>
+<para><paratext ID="p35" level="1">The Court grants the Motion with leave to amend. Plaintiff may file an amended complaint within 21 days of this Order, setting forth adequate allegations against Jackson. The amended complaint shall be complete in and of itself, and shall not incorporate by reference any prior pleading.</paratext></para>
+<para><paratext ID="p36" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p37" level="1">DATED: June 22, 2009</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

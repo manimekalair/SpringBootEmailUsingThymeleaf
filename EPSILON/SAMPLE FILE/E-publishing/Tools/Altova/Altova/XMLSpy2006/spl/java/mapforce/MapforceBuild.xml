@@ -1,0 +1,44 @@
+[if $application.IsWebService = 0]
+<project name="[=$application.Name]" default="test" basedir=".">[
+else
+]<project name="[=$application.Name]" default="compile" basedir=".">[
+
+$adminClientURI = $application.WSDLPort.AddressProtocol & "://"
+$adminClientURI = $adminClientURI & $application.WSDLPort.AddressServerAndPort & "/"
+$adminClientURI = $adminClientURI & "axis/services/AdminService"
+
+endif]
+	<property name="build.sysclasspath" value="last"/>
+	<target name="compile">
+		<javac srcdir="com/altova" destdir="."/>
+		<javac srcdir="[=$JavaPackageDir]" destdir="."/>
+	</target>[
+	if $application.IsWebService = 1]
+	<target name="deploy">
+		<java classname="org.apache.axis.client.AdminClient">
+			<arg value="-l[=$adminClientURI]"/>
+			<arg value = "deploy.wsdd"/>
+		</java>
+	</target>
+	<target name="undeploy">
+		<java classname="org.apache.axis.client.AdminClient">
+			<arg value="-l[=$adminClientURI]"/>
+			<arg value = "undeploy.wsdd"/>
+		</java>
+	</target>[
+	else]
+	<target name="test" depends="compile">
+		<java classpath="[=$outputpath]" classname="[=$JavaPackageName].[=$application.Name]Console" fork="true" failonerror="true"/>
+	</target>
+	[endif]
+	<target name="clean">
+		<delete>
+			<fileset dir=".">
+				<include name="**/*.class"/>
+			</fileset>
+		</delete>
+	</target>
+	<target name="jar">
+		<jar destfile="[=$application.Name].jar" basedir="." includes="**/*.class **/*.wsdl" excludes="**/*.java"/>
+	</target>
+</project>

@@ -1,0 +1,166 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{[=$TestProjectGuid]}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "[=$application.Name]"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Exe"
+                RootNamespace = "[=$application.Name]"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\\Debug\\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\\Release\\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\\..\\..\\..\\..\\..\\WINDOWS\\Microsoft.NET\\Framework\\v1.0.3705\\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\\..\\..\\..\\..\\..\\WINDOWS\\Microsoft.NET\\Framework\\v1.0.3705\\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\\..\\..\\..\\..\\..\\WINDOWS\\Microsoft.NET\\Framework\\v1.0.3705\\System.XML.dll"
+                />
+[foreach $library in $application.Libraries
+	$module			= $library.UniqueName
+	if $library.Kind <> 4 : $ProjectLibGuid	= $library.Guid
+]                <Reference
+                    Name = "[=$module]"
+                    Project = "{[=$ProjectLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[endif : next
+]                <Reference
+                    Name = "Altova.Functions"
+                    Project = "{[=$AltovaFunctionsGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[if $DBLibraryCount > 0
+]                <Reference
+                    Name = "Altova.DB"
+                    Project = "{[=$AltovaDBLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[endif
+][if $EDILibraryCount > 0
+]                <Reference
+                    Name = "Altova.Text"
+                    Project = "{[=$AltovaTextLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[endif
+]                <Reference
+                    Name = "Altova.XML"
+                    Project = "{[=$AltovaXMLLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Altova"
+                    Project = "{[=$AltovaLibGuid]}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+[
+foreach $FuncLib in $application.FunctionLibraries
+	foreach $Setting in $FuncLib.Settings
+		if $Setting.Name = "namespace" 
+			if $Setting.Value <> "Altova.Functions"
+]                <Reference
+                    Name = "[=$Setting.Value]"
+                    AssemblyName = "[=$Setting.Value]"
+[				foreach $Setting2 in $FuncLib.Settings
+					if $Setting2.Name = "reference"
+]                    HintPath = "[=$Setting2.Value]"
+[					endif
+				next
+]                />
+[			endif
+		endif
+	next
+next
+]
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "[=$application.Name]Console.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[foreach $Mapping in $application.Mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups
+]                <File
+                    RelPath = "[=$application.Name][=$AlgorithmGroup.Name].cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[	next
+	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions
+]                <File
+                    RelPath = "[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+[	next
+next
+]            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

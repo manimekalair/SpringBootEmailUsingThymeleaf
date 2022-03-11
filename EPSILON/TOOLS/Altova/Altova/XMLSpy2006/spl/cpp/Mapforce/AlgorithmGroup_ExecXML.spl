@@ -1,0 +1,222 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // XML execution implementation subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoopXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoopXML( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter, byval $lCaption )
+
+	if $rAlgorithm.IsParentLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-PARENT
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsDocSwitchLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-DOC
+[
+		if $rAlgorithm.SourceContext.Library.Kind = 3	' Text Library
+			$lRootQType = QualifiedTypeName($rAlgorithm.SourceContext) & "&"
+		else
+			$lRootQType = QualifiedTypeName($rAlgorithm.SourceContext)      ' TODO: why no ref here?
+		endif
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType] [=$rSourceParameter]
+[=$rIndent]	= /*( [=$lRootQType] )*/m_[=$rAlgorithm.InstanceVariable];
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop
+
+][=$rIndent]// {LOOP} [=$lCaption]-VAR
+[
+		$lParentQType = QualifiedTypeName($rAlgorithm.LoopContext)
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lParentQType] [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject
+[=$rIndent]	= /*( [=$lParentQType] )*/m_[=$rAlgorithm.VarID];
+[=$rIndent]int n = [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.Get[=$rAlgorithm.SourceContext.Name]Count();
+[=$rIndent]for ( int i = 0; i < n; ++i)
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.Get[=$rAlgorithm.SourceContext.Name]At( i );
+[
+	else
+
+][=$rIndent]// {LOOP} [=$lCaption]-CHILD
+[		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+	if $lCaption = "XML"
+		$lCursor = "Local" & $rAlgorithm.SourceContext.UniqueName & "Cursor"
+		
+		if $domtype = 1			' MSXML
+][=$rIndent]for (	MSXML2::IXMLDOMNodePtr [=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.GetStarting[=$rAlgorithm.SourceContext.Name]Cursor();
+[		else					' XERCES
+][=$rIndent]for (	xercesc::DOMNode* [=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.GetStarting[=$rAlgorithm.SourceContext.Name]Cursor();
+[		endif
+][=$rIndent]			[=$lCursor] != NULL;
+[=$rIndent]			[=$lCursor] = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.GetAdvanced[=$rAlgorithm.SourceContext.Name]Cursor( [=$lCursor] ) )
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name]ValueAtCursor( [=$lCursor] );
+[		
+	else if $lCaption = "TEXT"
+][=$rIndent]int n = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name]Count();
+[=$rIndent]for ( int i = 0; i < n; ++i)
+[=$rIndent]{
+[=$rIndent]	[=$lQType] [=$rSourceParameter]
+[=$rIndent]		= [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Get[=$rAlgorithm.SourceContext.Name]At( i );
+[
+	endif : endif : endif : endif : endif
+
+	$rIndent = $rIndent & "	"
+
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreateXML:
+' ------------------------------------------------------------------------
+sub ExecuteEndCreateXML( byval $lIndent, byref $rAlgorithm )
+][=$lIndent][=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Add[=$rAlgorithm.TargetContext.Name]( New[=$rAlgorithm.TargetContext.UniqueName]TargetObject );
+[
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteBeginDistributeXML:
+' ------------------------------------------------------------------------
+sub ExecuteBeginDistributeXML( byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+if $domtype = 1 'msxml
+	$domNodePtr 		= "MSXML2::IXMLDOMNodePtr"
+	$domNodeMapPtr 		= "MSXML2::IXMLDOMNamedNodeMapPtr"
+	$mGetAttributes		= "attributes"
+	$mGetLength			= "length"
+	$mGetItemI			= "item\[i\]"
+	$mGetFirstChild		= "firstChild"
+	$mGetNextSibling	= "nextSibling"
+	$indexType			= "long"
+else 'xerces
+	$domNodePtr 		= "xercesc::DOMNode* "
+	$domNodeMapPtr 		= "xercesc::DOMNamedNodeMap*"
+	$mGetAttributes		= "getAttributes()"
+	$mGetLength			= "getLength()"
+	$mGetItemI			= "item(i)"
+	$mGetFirstChild		= "getFirstChild()"
+	$mGetNextSibling	= "getNextSibling()"
+	$indexType			= "XMLSize_t"
+endif
+]
+[=$rIndent]vector<[=$domNodePtr]> vAttrAndNodes;
+
+[=$rIndent][=$domNodePtr] spNode = [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.GetDOMNode();
+
+[=$rIndent][=$domNodeMapPtr] spAttributeMap = spNode->[=$mGetAttributes];
+[=$rIndent]for ([=$indexType] i = 0; i < spAttributeMap->[=$mGetLength]; ++i)
+[=$rIndent][=$rIndent]vAttrAndNodes.push_back(spAttributeMap->[=$mGetItemI]);
+
+[=$rIndent]for ([=$domNodePtr] spChild = spNode->[=$mGetFirstChild]; spChild; spChild = spChild->[=$mGetNextSibling])
+[=$rIndent][=$rIndent]vAttrAndNodes.push_back( spChild );
+
+[=$rIndent]vector<[=$domNodePtr]>::iterator it = vAttrAndNodes.begin();
+[=$rIndent]vector<[=$domNodePtr]>::iterator itEnd = vAttrAndNodes.end();
+[=$rIndent]for( ; it != itEnd; ++it )
+[=$rIndent]{
+[endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteDistLoopXML:
+' ------------------------------------------------------------------------
+sub ExecuteDistLoopXML( byref $rIndent, byref $rAlgorithm, byref $rSubAlgorithm, byref $rSourceParameter, byref $rTargetParameter  )
+if $domtype = 1 'msxml
+	$mGetNodeType 		= "GetnodeType()"
+	$attrType 			= "MSXML2::NODE_ATTRIBUTE"
+	$elemType 			= "MSXML2::NODE_ELEMENT"
+	$mGetNodeName		= "nodeName"
+else ' xerces
+	$mGetNodeType 		= "getNodeType()"
+	$attrType 			= "xercesc::DOMNode::ATTRIBUTE_NODE"
+	$elemType 			= "xercesc::DOMNode::ELEMENT_NODE"
+	$mGetNodeName		= "getNodeName()"
+endif
+
+$lQType = QualifiedTypeName($rSubAlgorithm.SourceContext)
+	
+if $rSubAlgorithm.SourceContext.IsBuiltinType or $rSubAlgorithm.SourceContext.IsSimpleType
+	$lArgs = "( CNode::GetNodeTextValue( (*it) ) )"
+else
+	if $domtype = 1 'msxml
+		$lArgs = "( " & $rAlgorithm.SourceParentContext.UniqueName & "SourceObject,  (*it) )"
+	else
+		$lArgs = "( (*it) )"
+	endif
+endif
+
+][=$rIndent][=$rIndent]//DIST LOOP
+[=$rIndent][=$rIndent]if ( (*it)->[=$mGetNodeType] == [if $rSubAlgorithm.SourceContext.IsAttribute][=$attrType][else][=$elemType][endif
+] && CNode::NamesMatch( (*it), _T("[=$rSubAlgorithm.SourceContext.NamespaceURI]"), _T("[=$rSubAlgorithm.SourceContext.XmlName]") ) )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][
+$lArgs = $lQType & $lArgs
+call ExecuteBlock( $rIndent, $rSubAlgorithm.SubAlgorithms, $lArgs, $rTargetParameter, $rAlgorithm )
+][=$rIndent][=$rIndent]}
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndDistributeXML:
+' ------------------------------------------------------------------------
+sub ExecuteEndDistributeXML( byref $rIndent, byref $rAlgorithm, byref $rTargetParameter )
+if $domtype = 1 'msxml
+	$mGetNodeType 		= "GetnodeType()"
+	$textType 			= "MSXML2::NODE_TEXT"
+	$cDataType 			= "MSXML2::NODE_CDATA_SECTION"
+	$commentType 		= "MSXML2::NODE_COMMENT"
+	$piType 			= "MSXML2::NODE_PROCESSING_INSTRUCTION"
+	$mGetNodeName		= "nodeName"
+else
+	$mGetNodeType 		= "getNodeType()"
+	$textType 			= "xercesc::DOMNode::TEXT_NODE"
+	$cDataType 			= "xercesc::DOMNode::CDATA_SECTION_NODE"
+	$commentType 		= "xercesc::DOMNode::COMMENT_NODE"
+	$piType 			= "xercesc::DOMNode::PROCESSING_INSTRUCTION_NODE"
+	$mGetNodeName		= "getNodeName()"
+endif
+]// END_DISTRIBUTE
+[if $rAlgorithm.IsCopyTextNodes ]
+[=$rIndent][=$rIndent]if ( (*it)->[=$mGetNodeType] == [=$textType] )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddTextNode( CSchemaString( CNode::GetNodeTextValue( (*it) ) ) );
+[=$rIndent][=$rIndent]}
+[endif 
+if $rAlgorithm.IsCopyCDATA 
+][=$rIndent][=$rIndent]if ( (*it)->[=$mGetNodeType] == [=$cDataType] )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddCDataNode( CSchemaString( CNode::GetNodeTextValue( (*it) ) ) );
+[=$rIndent][=$rIndent]}
+[endif
+if $rAlgorithm.IsCopyComments 
+][=$rIndent][=$rIndent]if ( (*it)->[=$mGetNodeType] == [=$commentType] )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddComment( CSchemaString( CNode::GetNodeTextValue( (*it) ) ) );
+[=$rIndent][=$rIndent]}
+[endif
+if $rAlgorithm.IsCopyPIs 
+][=$rIndent][=$rIndent]if ( (*it)->[=$mGetNodeType] == [=$piType] )
+[=$rIndent][=$rIndent]{
+[=$rIndent][=$rIndent][=$rIndent][=$rTargetParameter].AddProcessingInstruction( CSchemaString( (*it)->[=$mGetNodeName] ), CSchemaString( CNode::GetNodeTextValue( (*it) ) ) );
+[=$rIndent][=$rIndent]}
+[endif]
+[=$rIndent]}
+[
+endsub
+
+
+' EOF
+]

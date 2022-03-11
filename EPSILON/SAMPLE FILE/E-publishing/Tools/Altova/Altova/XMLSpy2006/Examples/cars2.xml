@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Limousine xmlns:tsd="http://namespaces.softwareag.com/tamino/TaminoSchemaDefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<EngineSpec>120 hp</EngineSpec>
+	<Type>3</Type>
+	<Interior>
+		<HiFiSystem>Micro HiFi</HiFiSystem>
+		<Covering>Leather</Covering>
+		<SatNav>Global Inc.</SatNav>
+	</Interior>
+	<Extras>
+		<Metalic>true</Metalic>
+		<Sunroof>true</Sunroof>
+		<Magwheels>true</Magwheels>
+	</Extras>
+</Limousine>

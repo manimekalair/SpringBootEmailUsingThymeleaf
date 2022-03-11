@@ -1,0 +1,1409 @@
+
+<book-part book-part-type="chapter" id="chap14">
+<book-part-meta>
+<book-part-id book-part-id-type="doi">10.22233/9781905319619.14</book-part-id>
+<subj-group subj-group-type="topic-type">
+<subject></subject>
+</subj-group>
+<title-group>
+<label>14</label>
+<title><xref ref-type="page" id="page_"/>Injectable anaesthetics</title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name name-style="western">
+<surname initials="">K&#x00E4;stner</surname>
+<given-names initials="">Sabine B.R.</given-names>
+</name>
+</contrib>
+</contrib-group>
+<fpage>190</fpage>
+<lpage>206</lpage>
+<permissions>
+<copyright-statement>&#x00A9; 2017 British Small Animal Veterinary Association</copyright-statement>
+<copyright-year>2017</copyright-year>
+<copyright-holder>British Small Animal Veterinary Association</copyright-holder>
+</permissions>
+<self-uri content-type="pdf" xlink:href="9781905319619.14.pdf"/>
+<abstract>
+</abstract>
+</book-part-meta>
+<body>
+<p>Injectable anaesthetics are used either for induction of anaesthesia followed by maintenance with an inhalational anaesthetic agent, or as the sole agent to induce and maintain general anaesthesia. For minor procedures of short duration, a single injection will suffice. Repeated boluses or infusion of an anaesthetic in conjunction with analgesics defines total intravenous anaesthesia (TIVA). Infusion of certain anaesthetics can also be used to  control seizures and muscle spasm (e.g. tetanus, status epilepticus) or to provide long-term sedation in intensive care units. For some injectable anaesthetics, there is a dose-dependent transition from sedation to general anaes&#x00AD;thesia. Dose rates required for induction and maintenance of anaesthesia depend on the pre-anaesthetic medication given and the individual patient&#x2019;s sensitivity. Slow, incremental dosing of the calculated amount of anaesthetic is therefore recommended to prevent overdosing. For proper administration of potent anaesthetics, it is crucial to choose an appropriately sized syringe; placing small volumes in a large syringe inevitably leads to overdosing. In cats, syringe size rarely needs to exceed 1&#x2013;2 ml. In the case of very potent, highly concentrated drugs, prior dilution with saline (e.g. 1:10) will improve accuracy of dosing.</p>
+
+<sec1 id="ch-ss">
+<title>Venous access</title>
+<p>Secure venous access is necessary for careful and effective administration of anaesthetics. Proper pre-anaesthetic medication and handling usually allows placement of  an intravenous catheter without forceful restraint in the maj&#x00AD;ority of cats and dogs.</p>
+
+<sec2 id="ch-ss">
+<title>Catheter site</title>
+<p>Accessible veins in the cat and the dog are the cephalic vein on the dorsomedial aspect of the forelimb, and the lateral saphenous vein running across the lateral aspect of the hindlimb above the hock. Catheter fixation can be more difficult on the hindlimbs. In cats, the medial saphenous vein on the medial aspect of the hindlimb is easily localized. In dogs with large, pendulous ears, the auricular veins (Figure 14.1) might be an option for catheterization. For prolonged placement of long venous catheters (central venous catheters) or in very small animals, the external jugular vein can be used.</p>
+
+<fig id="fig14_1">
+<label>14.1</label>
+<caption><title>Marginal auricular veins, such as those observed in this German Shorthaired Pointer, may be suitable for venous catheterization. Avoid the artery which generally courses along the middle portion of the ear pinna.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_1.png" mime-subtype="png"/>
+</fig>
+
+
+</sec2>
+<sec2 id="ch-ss">
+<title>Catheter types</title>
+<p>Various indwelling catheters inserted using an &#x2018;over-the-needle&#x2019; technique are suitable for the peripheral veins;  the choice depends on patient size, intended duration of catheter placement and personal preference (Figure 14.2). Because of the flexibility of the neck, short catheters can be easily dislodged from the external jugular vein, and a length of at least 6 cm is required to reduce the risk of this happening. Conventional &#x2018;over-the-needle&#x2019; catheters of  this length can be difficult to introduce in the neck area; a Seldinger technique using a guide wire and dilator might be necessary for insertion of a jugular catheter. Commercial catheter kits are available for placement of central venous catheters intended for long-term use.</p>
+<p>In well hydrated animals, percutaneous placement of peripheral catheters is possible. In older uncastrated male cats, and dog breeds with very thick skin, initial perfor&#x00AD;ation of the skin with a hypodermic needle is advisable to avoid damage to the catheter tip or kinking of the catheter. In very small animals or in dehydrated, hypovolaemic patients, a cut-down to the vein with prior subcutaneous local anaesthesia might be necessary, or ultrasonography by a skilled operator can be used to locate blood vessels.</p>
+<fig id="fig14_2">
+<label>14.2</label>
+<caption><title>Different types of intravenous catheters.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_2.png" mime-subtype="png"/>
+</fig>
+</sec2>
+<sec2 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Preparation</title>
+<p>Preparation of the catheter area depends on the type of catheter used and intended duration of catheter placement. The hair should be clipped over a sufficiently wide area around the vessel to be catheterized to avoid inadvertent contamination of the catheter during insertion. The clipped area should be prepared with an antiseptic solution (1&#x2013;2% iodine tincture, iodophors, chlorhexidine or 70% alcohol). When using a cut-down technique or inserting long catheters using guide wires, surgical draping of the area and sterile gloves must be used to avoid contam&#x00AD;ination. After placement (Figure 14.3a), the catheter is fixed by tape and a covering bandage (Figure 14.3bc) or sutured to the skin. The catheter is flushed with plain saline or  heparinized saline (1&#x2013;2 units heparin/ml) and either capped or attached to a T-connector, or an intravenous fluid infusion immediately instituted to avoid the catheter becoming blocked. To prevent accidental dislodgement of the cath&#x00AD;eter, the infusion line should also be fixed to the animal&#x2019;s body. For provision of unrestricted access to the vein with concurrent fluid administration, different catheter types with side ports and connecting pieces for multiple infusions are available.</p>
+</sec2>
+<sec2 id="ch-ss">
+<title>Accidental perivascular injection</title>
+<p>Accidental perivascular injection of highly irritant drugs such as thiopental (&#x003E;2.5% solution) leads to cellulitis, phlebitis or tissue sloughing (Figure 14.4). Immediate infiltration of the affected area with normal saline will dilute the drug and help to prevent tissue necrosis. Using 2% lidocaine instead of normal saline can neutralize the pH (especially after thiopental), prevent vasospasm, and reduce inflammation and pain. Topical treatment with an ointment dressing containing heparin or an anti-inflam&#x00AD;matory drug, in conjunction with systemic therapy using a non-steroidal anti-inflam&#x00AD;matory drug, further reduces tissue inflammation.</p>
+
+<fig id="fig14_3">
+<label>14.3</label>
+<caption><title>(a) Insertion of an intravenous catheter into the cephalic vein in a cat. (b) Fixation of the catheter to the limb with tape. (c) An elastic bandage is then applied to cover the tape.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_3.png" mime-subtype="png"/>
+</fig>
+<fig id="fig14_4">
+<label>14.4</label>
+<caption><title>Phlebitis and tissue slough after accidental perivascular injection of 5% thiopental in a dog.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_4.png" mime-subtype="png"/>
+<p>(Courtesy of Tanya Duke-Novakovski, Western College of Veterinary Medicine, University of Saskatchewan, Canada)</p>
+</fig>
+
+</sec2>
+</sec1>
+<sec1 id="ch-ss">
+<title>Anaesthetics</title>
+<p>A comparison of the physicochemical and clinical properties of commonly used injectable anaesthetics is given in Figures 14.5 and 14.6.</p>
+
+<sec2 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Barbiturates</title>
+<p>Short-acting barbiturates such as thiopental and metho&#x00AD;hexital have been the &#x2018;classic&#x2019; injectable anaesthetics used in veterinary medicine for several decades. However, with the development of anaesthetic molecules with a  better safety index and a better pharmacokinetic profile (i.e. less accumulation), use of barbiturates has dram&#x00AD;atically reduced. Barbiturates produce hypnosis with  minimal analgesia, and high doses are required to produce surgical anaesthesia when used as the sole anaesthetic agent. Longer-acting barbiturates such as phenobarbital and pentobarbital are not used for anaesthesia but may be used for their anticonvulsant and sedative properties. Only the use of thiopental as an anaesthetic agent will be discussed here.</p>
+
+<table-wrap id="tbl14_5">
+<label>14.5</label>
+<caption><title>Comparison of some properties of commonly used intravenous anaesthetics. &#x2191; = mild increase; &#x2191;&#x2191; = moderate increase; &#x2193; = mild decrease; &#x2193;&#x2193; = moderate decrease; &#x2194; = no change; CBF = cerebral blood flow; CNS = central nervous system; CO = cardiac output; CPP = cerebral perfusion pressure; HR = heart rate; ICP = intracranial pressure; IOP = intraocular pressure; MAP = mean arterial blood pressure; NMDA = <italic>N</italic>-methyl D-aspartate; RR = respiratory rate; SVR = systemic vascular resistance; Vt = tidal volume.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="10%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="20%"/>
+<col content-type="4" width="10%"/>
+<col content-type="5" width="20%"/>
+<col content-type="6" width="10%"/>
+<col content-type="7" width="10%"/>
+</colgroup>
+<thead>
+<row>
+<entry align="left"><p>Drug concentration</p></entry>
+<entry align="left"><p>Physicochemical properties</p></entry>
+<entry align="left"><p>Induction/recovery</p></entry>
+<entry align="left"><p>Haemodynamic effects</p></entry>
+<entry align="left"><p>Respiratory effects</p></entry>
+<entry align="left"><p>CNS effects</p></entry>
+<entry align="left"><p>Other</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Thiopental 1% (w/v) 2.5% (w/v)</p></entry>
+<entry align="left"><p>Yellow crystalline powder </p>
+<p>Solution pH 11&#x2013;14 Irritating, precipitates with many acidic drugs</p></entry>
+<entry align="left"><p>Rapid (30 seconds) and smooth induction; not suitable for repeated dosing</p></entry>
+<entry align="left"><p>HR &#x2191;&#x2191;</p>
+<p>Tachyarrhythmia</p>
+<p>MAP &#x2193;</p>
+<p>CO &#x2193;&#x2194;</p>
+<p>SVR &#x2194;</p></entry>
+<entry align="left"><p>RR &#x2193;</p>
+<p>Vt &#x2193;</p>
+<p>Apnoea after rapid injection</p></entry>
+<entry align="left"><p>Cerebral depression Cerebral metabolism &#x2193;</p>
+<p>ICP &#x2193;</p>
+<p>CBF &#x2193;</p></entry>
+<entry align="left"><p>IOP &#x2193;</p>
+<p>Poor analgesia</p></entry>
+</row>
+<row>
+<entry align="left"><p><a id="x.21501" />Propofol 1% (w/v)</p></entry>
+<entry align="left"><p>White emulsion </p>
+<p>pH ~7</p>
+<p>Promotes bacterial growth</p></entry>
+<entry align="left"><p>Smooth induction and recovery, excitatory signs can occur during induction and recovery</p></entry>
+<entry align="left"><p>HR &#x2193;&#x2191;</p>
+<p>MAP &#x2193;&#x2193;</p>
+<p>CO &#x2193;</p>
+<p>SVR &#x2193;&#x2193;</p></entry>
+<entry align="left"><p>RR &#x2193;</p>
+<p>Vt &#x2193;</p>
+<p>Apnoea after rapid injection</p></entry>
+<entry align="left"><p>Cerebral metabolism &#x2193;</p>
+<p>ICP &#x2193;</p>
+<p>CBF &#x2193;</p></entry>
+<entry align="left"><p>IOP &#x2193;</p>
+<p>Poor analgesia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Etomidate 0.2% (w/v)</p></entry>
+<entry align="left"><p>Propylene glycol preparation is hyperosmolar (4640 mOsm/l)</p>
+<p>White emulsion Promotes bacterial growth</p></entry>
+<entry align="left"><p>Myoclonus without pre-anaesthetic medication</p></entry>
+<entry align="left"><p>HR &#x2194;</p>
+<p>MAP &#x2194;  &#x2193;</p>
+<p>CO &#x2194;  &#x2193;</p>
+<p>SVR &#x2194;</p></entry>
+<entry align="left"><p>RR &#x2191;</p>
+<p>Vt &#x2193;</p>
+<p>Depression with high doses</p></entry>
+<entry align="left"><p>Cerebral depression</p>
+<p>ICP &#x2193;</p>
+<p>CBF &#x2193;</p>
+<p>CPP &#x2194;</p></entry>
+<entry align="left"><p>IOP &#x2193;</p>
+<p>Adrenal suppression</p>
+<p>Poor analgesia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Ketamine</p>
+<p>1% (w/v)</p>
+<p>5% (w/v)</p>
+<p>10% (w/v)</p></entry>
+<entry align="left"><p>Clear, stable solution pH 3.5&#x2013;5.5</p></entry>
+<entry align="left"><p>Increased muscle tone, spasms, seizures, excitatory recovery without pre-anaesthetic medication</p></entry>
+<entry align="left"><p>HR &#x2191;&#x2191;</p>
+<p>MAP &#x2191;&#x2191;</p>
+<p>CO &#x2191;</p>
+<p>SVR &#x2194;</p></entry>
+<entry align="left"><p>Apneustic, irregular breathing</p>
+<p>Apnoea with high doses</p></entry>
+<entry align="left"><p>Stimulation Cerebral metabolism &#x2191;&#x2191;</p>
+<p>ICP &#x2191;&#x2191;</p>
+<p>CBF &#x2191;&#x2191;</p></entry>
+<entry align="left"><p>IOP &#x2191;</p>
+<p>Somatic analgesia</p>
+<p>NMDA receptor antagonist</p></entry>
+</row>
+<row>
+<entry align="left"><p>Ketamine 1&#x2013;10% (w/v) with either: diazepam 0.5% (w/v) or midazolam 0.5% (w/v)</p></entry>
+<entry align="left"><p>Mixed immediately before use. Check pharmaceutical compatibility before mixing</p></entry>
+<entry align="left"><p>Smooth induction</p>
+<p>Excitatory recovery</p></entry>
+<entry align="left"><p>HR &#x2191;</p>
+<p>MAP &#x2191;</p>
+<p>CO &#x2191;  &#x2194;</p>
+<p>SVR &#x2194;</p></entry>
+<entry align="left"><p>Apneustic, irregular breathing</p>
+<p>More depression than with ketamine alone</p>
+<p>Apnoea with high doses</p></entry>
+<entry align="left"><p>Stimulation Cerebral metabolism &#x2191;</p>
+<p>ICP &#x2191;</p>
+<p>CBF &#x2191;</p></entry>
+<entry align="left"><p>Somatic analgesia</p>
+<p>NMDA receptor antagonist</p></entry>
+</row>
+<row>
+<entry align="left"><p>Tiletamine&#x2013; zolazepam 250 mg/250 mg</p></entry>
+<entry align="left"><p>Lyophilized powder</p>
+<p>Solution pH 2&#x2013;3.5 1:1 mixture</p></entry>
+<entry align="left"><p>Smooth induction</p>
+<p>Excitatory recovery, mainly in dogs</p></entry>
+<entry align="left"><p>HR &#x2191;  &#x2194;</p>
+<p>MAP &#x2191;&#x2193;</p>
+<p>CO &#x2191;  &#x2194;  &#x2193;</p>
+<p>SVR &#x2191;  &#x2194;</p></entry>
+<entry align="left"><p>RR &#x2193;</p>
+<p>Vt &#x2193;</p>
+<p>Depression with high doses</p></entry>
+<entry align="left"><p>Stimulation Cerebral metabolism &#x2191;</p>
+<p>ICP &#x2191;</p>
+<p>CBF &#x2191;</p></entry>
+<entry align="left"><p>IOP &#x2191;</p>
+<p>Somatic analgesia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone 1% (w/v)</p></entry>
+<entry align="left"><p>Clear stable solution, contains 2-hydroxypropyl-beta cyclodextrin as solubilizer pH ~7</p></entry>
+<entry align="left"><p>Smooth induction, excitatory signs can occur during recovery</p></entry>
+<entry align="left"><p>HR &#x2194; &#x2191;&#x2191; </p>
+<p>MAP &#x2193;</p>
+<p>CO &#x2193; </p>
+<p>SVR &#x2193;</p></entry>
+<entry align="left"><p>RR &#x2194; &#x2193; </p>
+<p>Vt &#x2193;</p>
+<p>Apnoea after rapid injection</p></entry>
+<entry align="left"><p>Cerebral depression</p></entry>
+<entry align="left"><p>Poor analgesia</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+
+
+
+<table-wrap id="tbl14_6">
+<label>14.6</label>
+<caption><title>Pharmacokinetic variables of commonly used intravenous anaesthetics (see also Figure 14.12). Vc = volume of the central compartment;  Vd<sub>SS</sub> = volume of distribution at steady state.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="10%"/>
+<col content-type="2" width="10%"/>
+<col content-type="3" width="15%"/>
+<col content-type="4" width="15%"/>
+<col content-type="5" width="25%"/>
+<col content-type="6" width="25%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drug</p></entry>
+<entry align="left"><p>Species</p></entry>
+<entry align="left"><p>Elimination half-life (minutes)</p></entry>
+<entry align="left"><p>Total body clearance (Cl <sub>B</sub>) (ml/kg/min)</p></entry>
+<entry align="left"><p>Volume of distribution (Vd<sub>ss</sub>; Vc) (l/kg)</p></entry>
+<entry align="left"><p>Reference</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Thiopental</p></entry>
+<entry align="left"><p>Dog </p>
+<p>Cat</p></entry>
+<entry align="left"><p>182.4</p></entry>
+<entry align="left"><p>3.4</p></entry>
+<entry align="left"><p>0.81 (Vc 0.038)</p></entry>
+<entry align="left"><p>Ilkiw <italic>et al.</italic>, 1991</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>Dog</p>
+<p>&#x00A0;</p>
+<p>Cat</p></entry>
+<entry align="left"><p>90</p>
+<p>322</p>
+<p>55</p></entry>
+<entry align="left"><p>58.6</p>
+<p>50.1</p></entry>
+<entry align="left"><p>4.9</p>
+<p>6.5</p>
+<p>1.3</p></entry>
+<entry align="left"><p>Nolan et al., 1993</p>
+<p>Nolan and Reid, 1993</p>
+<p>Adam et al., 1980</p></entry>
+</row>
+<row>
+<entry align="left"><p>Etomidate</p></entry>
+<entry align="left"><p>Dog</p>
+<p>&#x00A0;</p>
+<p>Cat</p></entry>
+<entry align="left"><p>86.4</p>
+<p>59.66</p>
+<p>173.4</p></entry>
+<entry align="left"><p>&#x00A0;</p>
+<p>40.1</p>
+<p>41.2</p></entry>
+<entry align="left"><p>&#x00A0;</p>
+<p>Vc 0.108</p>
+<p>4.88 (Vc 1.17)</p></entry>
+<entry align="left"><p>Zhang et al., 1998</p>
+<p>McIntosh et al., 2004</p>
+<p>Wertz et al., 1990</p></entry>
+</row>
+<row>
+<entry align="left"><p>Ketamine</p></entry>
+<entry align="left"><p>Dog</p>
+<p>Cat</p></entry>
+<entry align="left"><p>61</p>
+<p>78.66</p></entry>
+<entry align="left"><p>39.5</p>
+<p>21.33</p></entry>
+<entry align="left"><p>1.95</p>
+<p>2.12</p></entry>
+<entry align="left"><p>Kaka and Hayton, 1980</p>
+<p>Hanna et al., 1988</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone</p></entry>
+<entry align="left"><p>Dog</p>
+<p>Cat</p></entry>
+<entry align="left"><p>25&#x2013;35</p>
+<p>52&#x2013;74</p></entry>
+<entry align="left"><p>52.9&#x2013;59.4</p>
+<p>14.8&#x2013;25.1</p></entry>
+<entry align="left"><p>2.4&#x2013;2.9</p>
+<p>0.325&#x2013;0.589</p></entry>
+<entry align="left"><p>Ferr&#x00E9; et al., 2006</p>
+<p>Heit et al., 2004</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<p><xref ref-type="page" id="page_"/>The principal effect of barbiturates is depression of the central nervous system (CNS) by enhancing inhibitory pathways and suppressing excitation at the level of synaptic neurotransmission, mainly by interaction with the gamma-aminobutyric acid (GABA <sub>A</sub>) receptor. Rapidity of action and dose requirements depend on the amount  of the unbound and unionized form of the drug in the bloodstream, because only this form can penetrate cell membranes and enter the CNS. Both a decrease in blood pH and hypoproteinaemia can increase the percentage of free and unionized (active) drug, which means that dose requirements can be dramatically decreased in severely debilitated patients.</p>
+
+<sec3 id="ch-ss">
+<title>Thiopental</title>
+
+<sec4 id="ch-ss">
+<title>Physicochemical properties:</title>
+<p>Thiopental is a thiobarbiturate. It is a weak organic acid provided as a sodium salt (yellow crystalline powder) in sealed vials. Anhydrous sodium carbonate is added to prevent precipitation of  the free acid with atmospheric carbon dioxide. After the  powder is reconstituted with sterile water, the solution is very alkaline (pH in the range of 11&#x2013;14), which makes it extremely irritant at concentrations greater than 2.5%. Reduction of alkalinity of the solution results in precipitation of the free acid. As a result, thiopental does not  dissolve well in saline or Ringer&#x2019;s solution and it precipitates with many other acidic drugs. Care must therefore be taken to avoid occlusion of the intravenous line by  precipitated thiopental. The prepared solution should be tightly capped so as not to expose it to air, and refrigerated at 5&#x2013;6&#x00B0;C to prolong shelf-life (approximately 1 week). When the solution becomes turbid, it loses activity and must be discarded.</p>
+</sec4>
+
+<sec4 id="ch-ss">
+<title>Clinical properties:</title>
+<p>Thiopental causes rapid loss of  consciousness (approximately 30 seconds) after intra&#x00AD;venous injection. The time to onset of action is influenced by the circulation time to the brain, which might be  prolonged by sedation (especially with alpha-2 adrenoceptor agonists).</p>
+<p>Thiopental is classified as an ultra-short-acting  bar&#x00AD;&#x00AD;biturate and recovery is fast (10&#x2013;15 minutes) after a  single injection. Recovery after a single injection is mainly  governed by redistribution of the drug from the bloodstream to other tissues. Initially, well perfused tissues (brain, heart, kidneys) will take up the drug, resulting in a rapid decline in plasma concentration after a single thiopental bolus. A  further decrease in plasma thiopental concentration occurs when moderately perfused tissues, such as muscle, take  up the drug. At that time, brain concentration begins to fall and recovery occurs. Poorly perfused tissue, such as body fat, will take up thiopental slowly; however, adipose tissue has a high &#x2018;storage&#x2019; capacity for lipid-soluble drugs such as thiopental. Repeated doses of thiopental will lead to an accumulation of the drug, because tissue sites become  saturated and liver metabolism is slow. Successive doses lead to a progressive increase in anaesthesia time. Therefore, thiopental is unsuitable for maintenance of anaesthesia as accumulation can lead to serious cardio&#x00AD;respiratory depression and delayed recovery.</p>
+<p>Thiopental induces respiratory depression, and induction apnoea commonly occurs after rapid intravenous injection. Thiopental causes dose- and rate-dependent cardiovascular depression (more likely with a high plasma concentration after rapid injection). Peripheral vasodilation and reduction in cardiac output from direct myocardial depression results in hypotension. Tachyarrhythmias (e.g. premature ventricular contractions, transient bigeminy, ventricular tachycardia) are also possible, but usually do not require treatment. In response to hypotension, an increased heart rate helps to maintain cardiac output. Drugs used concurrently (sedatives, opioids) and the  animal&#x2019;s body condition will influence the overall effects.</p>
+<p>Thiopental should not be used in Greyhounds and other sighthounds. In these breeds, the body disposition (low body fat) and decreased liver metabolism can lead to very high plasma concentrations of thiopental, which can cause severe cardiovascular depression and prolonged recovery. Alternative induction agents (e.g. propofol, alfaxalone, ketamine&#x2013;benzodiazepine) should be used in sighthounds.</p>
+<p>Thiopental reduces the metabolic rate and oxygen requirements of the brain by depressing cellular activity. With the reduction in metabolic demand, a parallel reduction in cerebral blood flow and intracranial pressure (ICP) occurs. A reduction in ICP is desirable for example in patients with head trauma or intracranial tumours (see Chapter 28).</p>
+</sec4>
+
+<sec4 id="ch-ss">
+<title>Practical use:</title>
+<list list-type="bullet">
+<list-item><p>Use as induction agent or as sole anaesthetic agent for very short procedures only.</p></list-item>
+<list-item><p>Prepare 1&#x2013;2.5% solution for small animals (as dilute as possible; consider reasonable injection volume).</p></list-item>
+<list-item><p>Discard turbid solution.</p></list-item>
+<list-item><p>Should be administered through an intravenous catheter (perivascular injection leads to tissue necrosis). Flush catheter before and after administration.</p></list-item>
+<list-item><p>Give to effect (Figures 14.7 and 14.8):
+
+<list list-type="bullet">
+<list-item><p>Consider pre-anaesthetic medication</p></list-item>
+<list-item><p>Consider physical status of the animal</p></list-item>
+<list-item><p>Give by slow injection (30&#x2013;60 seconds)</p></list-item>
+<list-item><p>Give half of the calculated dose and await maximum effect, then proceed further with increments until desired effect is achieved (e.g. endotracheal intubation)</p></list-item>
+<list-item><p>Decreased blood pH (e.g. azotaemia) and hypoproteinaemia reduce required dose.</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Avoid in severely hypovolaemic patients.</p></list-item>
+<list-item><p>Avoid in patients with cardiac arrhythmias.</p></list-item>
+<list-item><p>Poor analgesia (use with analgesic).</p></list-item>
+<list-item><p>Not the best drug for induction of anaesthesia for Caesarean section (see Chapter 26).</p></list-item>
+<list-item><p>Not recommended for Greyhounds and other sighthounds.</p></list-item>
+</list>
+</sec4>
+</sec3>
+</sec2>
+<sec2 id="ch-ss">
+<title>Non-barbiturates</title>
+<sec3 id="ch-ss">
+<title>Propofol</title>
+<sec4 id="ch-ss">
+<title>Physicochemical properties:</title>
+<p>Propofol is a hypnotic alkyl phenol (2,6-diisopropylphenol) with a molecular weight of 178.27 and occurs as an oil at room temperature. It is insoluble in aqueous solutions but highly lipid soluble. To allow intravenous injection, propofol is currently formulated as a white oil-in-water macroemulsion containing Intralipid (1% w/v soya bean oil, 1.2% w/v purified egg phosphatide, 2.25% w/v glycerol). The formulation has a pH of 7 and is a slightly viscous, milky white liquid. Products intended for veterinary use are usually formulated at a concentration of 1% (w/v) but a 2% (w/v) formulation is available as a human medical product.</p>
+
+<table-wrap id="tbl14_7">
+<label>14.7</label>
+<caption><title>Anaesthesia induction doses in the dog. Note that induction doses can vary with type and dose of pre-anaesthetic medication: xylazine and (dex)medetomidine and high-dose opioid pre-anaesthetic medication reduce induction doses by 50&#x2013;80%. &#x2013; = without pre-anaesthetic medication; + = with pre-anaesthetic medication.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="10%"/>
+<col content-type="3" width="30%"/>
+<col content-type="4" width="40%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drug</p></entry>
+<entry align="left"><p>Pre-anaesthetic medication</p></entry>
+<entry align="left"><p>Dose</p></entry>
+<entry align="left"><p>Comment</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Thiopental</p></entry>
+<entry align="left"><p>&#x2013;</p>
+<p>+</p></entry>
+<entry align="left"><p>20&#x2013;25 mg/kg i.v.</p>
+<p>8&#x2013;12.5 mg/kg i.v.</p></entry>
+<entry align="left"><p>Give to effect</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>&#x2013;</p>
+<p>+</p></entry>
+<entry align="left"><p>6&#x2013;8 mg/kg i.v.</p>
+<p>2&#x2013;4 mg/kg i.v.</p></entry>
+<entry align="left"><p>Give to effect</p></entry>
+</row>
+<row>
+<entry align="left"><p>Etomidate</p></entry>
+<entry align="left"><p>&#x2013;</p>
+<p>+</p></entry>
+<entry align="left"><p>1&#x2013;3 mg/kg i.v.</p>
+<p>0.5&#x2013;2 mg/kg i.v.</p></entry>
+<entry align="left"><p>High incidence of myoclonus without pre-anaesthetic medication</p></entry>
+</row>
+<row>
+<entry align="left"><p>Ketamine</p></entry>
+<entry align="left"><p>+</p>
+<p>+</p></entry>
+<entry align="left"><p>2&#x2013;5 mg/kg i.v.</p>
+<p>5&#x2013;10 mg/kg i.m.</p></entry>
+<entry align="left"><p>Always with pre-anaesthetic medication</p>
+<p>Administer i.m. only in very uncooperative dogs</p></entry>
+</row>
+<row>
+<entry align="left"><p>Ketamine and  diazepam</p>
+<p>Ketamine and  diazepam</p>
+<p>Ketamine and  midazolam</p></entry>
+<entry align="left"><p>&#x00B1;</p>
+<p>&#x00A0;</p>
+<p>&#x00B1;</p>
+<p>&#x00A0;</p>
+<p>&#x00B1;</p>
+<p>&#x00A0;</p></entry>
+<entry align="left"><p>5 mg/kg i.v. </p>
+<p>0.25 mg/kg i.v.</p>
+<p>5 mg/kg i.v.</p>
+<p>0.5 mg/kg i.v.</p>
+<p>5 mg/kg i.v.</p>
+<p>0.25 mg/kg i.v.</p></entry>
+<entry align="left"><p>Mix ketamine (10%) and diazepam (0.5%) at 1:1 (v:v); give 0.05&#x2013;0.1 ml/kg of this mixture in increments to effect. Lower dose suitable for dogs with gastric dilatation-volvulus</p>
+<p>&#x00A0;</p>
+<p>Mix ketamine (10%) with midazolam (0.5%) at 1:1 (v/v); give 0.05&#x2013;0.1 ml/kg of this mixture in increments to effect</p></entry>
+</row>
+<row>
+<entry align="left"><p>Tiletamine&#x2013;zolazepam</p></entry>
+<entry align="left"><p>&#x2013;</p>
+<p>+</p></entry>
+<entry align="left"><p>5 mg/kg i.v.</p>
+<p>1&#x2013;2 mg/kg i.v. </p>
+<p>4&#x2013;8 mg/kg i.m.</p></entry>
+<entry align="left"><p>&#x00A0;</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone</p></entry>
+<entry align="left"><p>&#x2013;</p>
+<p>+</p></entry>
+<entry align="left"><p>3 mg/kg i.v.</p>
+<p>2 mg/kg i.v.</p></entry>
+<entry align="left"><p>Give to effect</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<missing-table-14.8/>
+<table-wrap id="tbl14_8">
+<label>14.8</label>
+<caption><title>Anaesthesia induction doses in the cat. Note that induction doses can vary with type and dose of pre-anaesthetic medication: xylazine and (dex)medetomidine and high-dose opioid pre-anaesthetic medication reduce induction doses significantly (50&#x2013;80%). &#x2013; = Without pre-anaesthetic medication; + = With pre-anaesthetic medication.</title></caption>
+</table-wrap>
+
+
+<p><xref ref-type="page" id="page_"/>The emulsion is an ideal culture medium for bacteria and promotes exponential bacterial growth; because of this, open vials should be used within 24 hours. Aseptic handling of multiple-use vials is essential to avoid contamination. A propofol formulation with a longer broached shelf-life  (28 days), PropoFlo Plus<sup>&#x2122;</sup> (PropoFlo 28<sup>&#x2122;</sup> in the USA) or PropoVet<sup>&#x2122;</sup> Multidose, is available. It contains benzyl alcohol (20 mg/ml) as a bacteriostatic preser&#x00AD;vative. It is licensed for anaesthetic induction and short-term anaesthesia in dogs (and also cats in the UK), but not for prolonged TIVA because the benzyl alcohol may produce toxicity.</p>
+<p>Intramuscular injection of propofol does not induce anaesthesia at reasonable dose rates, but inadvertent perivascular injection is non-irritating. Propofol is com&#x00AD;- pat&#x00AD;ible with 5% dextrose in water if a dilute solution is re&#x00AD;- quired, but care has to be taken not to disrupt the emulsion.</p>
+</sec4>
+
+<sec4 id="ch-ss">
+<title>Clinical properties:</title>
+<p>Propofol is primarily a hypnotic agent with a rapid onset (60&#x2013;90 seconds) and short duration  of action after a single dose (approximately 10 minutes). The hypnotic action is mainly mediated by interaction with the GABA<sub>A</sub> receptor subunit, potentiating the GABA-induced chloride current.</p>
+<p>The half-life of equilibration of propofol between CNS effects and plasma concentration is approximately 2 minutes. Therefore, an injection time of 2 minutes is recommended for administration of induction doses to enable titration to effect and to avoid overdose and apnoea. In dogs, pre-anaesthetic medication with acepromazine reduces the induction dose of propofol; in contrast, such a dose reduction after acepromazine is not observed in cats. However, alpha-2 adrenoceptor agonists with or without opioids reduce propofol requirements significantly in both cats and dogs, and induction doses need to be adjusted in patients that have received these drugs as premedicants.</p>
+<p><xref ref-type="page" id="page_"/>The pharmacokinetic properties of propofol (see Figure 14.6) contribute to its clinical advantages. After a single bolus injection, blood concentration of propofol decreases rapidly due to redistribution of the drug to highly perfused tissues. After the initial rapid distribution phase, propofol is rapidly metabolized, and further slow distribution to fat occurs. This is followed by prolonged terminal elimination, which reflects slow release from fat, although this has little effect on clinical recovery from anaesthesia. Clearance rates exceed hepatic blood flow, indicating that extra&#x00AD;hepatic metabolism occurs. A high first-pass extraction of propofol in the lung has been demonstrated (Matot <italic>et al.</italic>, 1993). Propofol is metabolized to sulphate and glucuronide conjugates, which are inactive; the conjugates are mainly excreted via the urine. Hepatic and renal disease do not appear to influence propofol pharmacokinetics. In dogs, pre-anaesthetic medication with medetomidine or main&#x00AD;tenance of anaesthesia with halothane and nitrous oxide does not alter propofol kinetics to a significant extent (Nolan <italic>et al.</italic>, 1993). In dogs, the propofol doses required  to induce anaesthesia seem to decrease with age (Reid and Nolan, 1996).</p>
+<p>The rapid metabolism of propofol results in minimal accumulation of the drug after repeated doses. This makes propofol suitable for administration by infusion for main&#x00AD;tenance of anaesthesia (i.e. TIVA), with excellent results in dogs. Propofol can still be used in Greyhounds for induction even though recovery can be prolonged after a continuous propofol infusion because of their higher proportion of lean body mass to fat and lower microsomal activity compared with other dog breeds. Cats have a compar&#x00AD;atively low capacity for glucuronide conjugation, which is required for metabolism of phenolic compounds. This leads to accumulation of propofol and prolonged recoveries in cats after propofol infusions (TIVA) that last longer than 30 minutes. Infusion times should therefore be limited (Pascoe <italic>et al.</italic>, 2006a). In addition, a propofol infusion lasting more than 30 minutes in cats leads to clinically significant reductions in packed cell volume. Therefore, propofol TIVA in cats should be kept at as low a dose and of as short a duration as possible. In addition, feline haemo&#x00AD;globin is prone to oxidative injury by phenolic compounds. Repeated propofol anaesthesia (more than 3 days consecutively) results in significant Heinz body formation, anor&#x00AD;exia, diarrhoea, facial oedema, depression and delayed recovery from anaesthesia (Andress <italic>et al.</italic>, 1995). However, repeated very low doses of propofol for short-term immobilization of cats for radiation therapy were well tolerated (Bley <italic>et al.</italic>, 2007).</p>
+<p>The most prominent haemodynamic effect is moderate hypotension due to reductions in cardiac output and  systemic vascular resistance, which can become severe  in hypovolaemic patients or animals with a low cardiac reserve. Hypotension is most severe 2 minutes after an induction dose of propofol and after rapid injection, and heart rate does not increase in response to hypotension as it does with thiopental. In patients with pre-existing bradycardia (e.g. sick sinus syndrome), refractory bradycardia or asystole can occur. Bradycardia can be severe if a high dose of an opioid is combined with propofol, although severe bradycardia can be prevented by prior administration of an anticholinergic drug. Rapid injection of propofol can result in apnoea, and so equipment for endotracheal intu&#x00AD;bation should be readily available when administering this drug. Desaturation of haemoglobin, with cyanotic mucous membranes, is often observed after propofol induction.</p>
+<p>Respiratory depression with hypercapnia and a  decrease in arterial oxygen saturation also occurs after repeated or continuous propofol dosing without apnoea; therefore, oxygen supplementation and availability of equipment for endotracheal intubation is always recommended during prolonged propofol administration, even at very low doses. Surgical anaesthesia with a combination of propofol and a potent opioid very often requires the lungs to  be ventilated.</p>
+<p>Propofol has both proconvulsant and anticonvulsant properties, mediated by different mechanisms. Propofol  has been used successfully for seizure control (Figure 14.9), but paradoxically, excitatory signs such as myoclonus, paddling, opisthotonos and nystagmus can occur during a slow induction period, and to a lesser extent  during recovery. Pre-anaesthetic medication reduces the incidence of excitatory signs but cannot completely prevent them. In most cases, excitatory signs cease when administration of inhalational anaesthetics is commenced. Refractory excitations have been treated successfully  with ketamine (1 mg/kg i.v.), diazepam (0.2 mg/kg i.v.) or  by introducing inhalational anaesthesia with isoflurane  or sevoflurane.</p>
+<p>Propofol decreases cerebral metabolic requirement for oxygen and cerebral perfusion pressure, and causes a corresponding decrease in ICP (in normal animals and those with intracranial pathology) and intraocular pressure (IOP). The reactivity of cerebral vessels to changes in arterial carbon dioxide tension (<italic>P</italic><sub>a</sub>CO<sub>2</sub>) seems to be maintained during propofol anaesthesia. The lack of cerebrovascular dilation (in contrast to that associated with use of volatile agents) makes propofol TIVA a suitable choice for intracranial surgery in dogs (see Chapter 28).</p>
+<p>Propofol has poor analgesic properties and the doses required for induction and maintenance of anaesthesia are significantly reduced by analgesic pre-anaesthetic medications (alpha-2 agonists, opioids).</p>
+<p>Propofol readily crosses the placenta and may affect neurological and cardiorespiratory variables in kittens  and puppies. It should therefore never be used for main&#x00AD;tenance of anaesthesia in cats and dogs undergoing Caesarean section. Clinical experience has shown that propofol is suitable for induction of anaesthesia in the dog before maintenance with inhalational anaesthetics, as long as the animal is haemodynamically stable. An interval of approximately 10 minutes between induction of anaes&#x00AD;thesia and delivery of the puppies minimizes respiratory depression by residual propofol effects (see Chapter 26).</p>
+
+
+<table-wrap id="tbl14_9">
+<label>14.9</label>
+<caption><title>Drugs used for long-term sedation and seizure control. CRI = constant rate infusion.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="50%"/>
+<col content-type="3" width="30%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drug</p></entry>
+<entry align="left"><p>Dose</p></entry>
+<entry align="left"><p>Indication</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Diazepam</p></entry>
+<entry align="left"><p>Repeated boluses  (0.2&#x2013;0.5 mg/kg i.v.) to effect</p>
+<p>In case of repeated seizures, 0.2&#x2013;0.5 mg/kg/h CRI to effect.</p>
+<p>Use diazepam emulsion for CRI; infusion with propylene glycol formulation can induce phlebitis (use long catheter)</p></entry>
+<entry align="left"><p>Seizure control</p></entry>
+</row>
+<row>
+<entry align="left"><p>Midazolam</p></entry>
+<entry align="left"><p>Repeated boluses  (0.2&#x2013;0.5 mg/kg i.v.) to effect</p>
+<p>In case of repeated seizures, 0.3&#x2013;0.9 mg/kg/h CRI to effect</p></entry>
+<entry align="left"><p>Seizure control</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>4&#x2013;6 mg/kg slowly i.v. to effect, then 6&#x2013;24 mg/kg/h to effect</p>
+<p>Requires intubation (risk of aspiration) and monitoring of ventilation</p></entry>
+<entry align="left"><p>In conjunction with phenobarbital for uncontrollable seizures</p></entry>
+</row>
+<row>
+<entry align="left"><p>Fentanyl and  diazepam or midazolam</p></entry>
+<entry align="left"><p>0.5&#x2013;5 &#x03BC;g/kg/h and 0.2&#x2013;0.5 mg/kg/h given to effect, alone or in combination with propofol 6&#x2013;24 mg/kg/h </p></entry>
+<entry align="left"><p>Long-term sedation for ventilatory support</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<p><xref ref-type="page" id="page_"/>Disorders of lipid metabolism could potentially be aggravated by the lipid emulsion formulation of propofol, particularly after long-term infusion. Therefore, propofol should be used with caution in patients with diabetic hyperlipidaemia or pancreatitis. Very low, non-sedative doses can stimulate appetite via disinhibition mechanisms similar to those of benzodiazepines.</p>
+<p>Propofol for induction and maintenance of anaesthesia should be titrated to effect, in a similar fashion to a volatile agent, because of the variable influence of pre-anaesthetic medications, concurrent analgesics and surgical stimulation.</p>
+</sec4>
+
+<sec4 id="ch-ss">
+<title>Practical use:</title>
+<list list-type="bullet">
+<list-item><p>Induction and maintenance agent (see Figures 14.7 and 14.8).</p></list-item>
+<list-item><p>Can induce pain on injection.</p></list-item>
+<list-item><p>Keep TIVA in cats as short as possible (&#x003C;30 minutes).</p></list-item>
+<list-item><p>Discard open vials after 24 hours (refer to manufacturer&#x2019;s data sheets).</p></list-item>
+<list-item><p>PropoFlo Plus<sub>&#x2122;</sub> (PropoFlo 28<sub>&#x2122;</sub> in the USA) should not be used for TIVA over several hours (risk of benzyl alcohol toxicity).</p></list-item>
+<list-item><p>Supplement oxygen when using repeated doses or infusion.</p></list-item>
+<list-item><p>Surgical anaesthesia with propofol TIVA often requires intermittent positive pressure ventilation (IPPV).</p></list-item>
+<list-item><p>Give to effect:
+
+<list list-type="bullet">
+<list-item><p>Consider pre-anaesthetic medication (20&#x2013;80% reduction in propofol requirement depending on drugs used)</p></list-item>
+<list-item><p>Consider physical status of the animal</p></list-item>
+<list-item><p>Give by slow or intermittent injection (over 60&#x2013;120 seconds)</p></list-item>
+<list-item><p>Give half of the calculated dose and await maximum effect, then proceed further with increments until desired effect (e.g. deep sedation, endotracheal intubation).</p></list-item>
+</list>
+</p></list-item>
+
+<list-item><p>Poor analgesia (use with analgesic).</p></list-item>
+<list-item><p>Avoid in hypovolaemic patients.</p></list-item>
+<list-item><p>Avoid in patients with heart failure.</p></list-item>
+<list-item><p>Avoid in patients with hyperlipidaemia and pancreatitis.</p></list-item>
+<list-item><p>Avoid repeated (daily) propofol anaesthesia in cats.</p></list-item>
+<list-item><p>Can be used for induction of anaesthesia for Caesarean section. Use cautiously in cats for induction only.</p></list-item>
+<list-item><p>Can be used for induction of anaesthesia in Greyhounds and other sighthounds.</p></list-item>
+</list>
+</sec4>
+</sec3>
+<sec3 id="ch-ss">
+<title>Etomidate</title>
+<sec4 id="ch-ss">
+<title>Physicochemical properties:</title>
+<p>Etomidate is an imidazole derivative with peripheral effects at alpha-2 adrenoceptors (Paris <italic>et al.</italic>, 2003). It exists as a racemate, but only the R(+) isomer has hypnotic activity. Etomidate is water soluble at an acidic pH and becomes lipid soluble at physiological pH. Several formulations of etomidate exist. The &#x2018;classic&#x2019; etomidate 0.2% (v/v) preparation, which appears as a clear solution, contains propylene glycol (35% v/v), has a pH of 6.9 and a high osmolarity (4640 mOsm/l). Perivascular injection of this formulation causes tissue necrosis and phlebitis. It may also induce acute haemolysis after rapid injection or prolonged continuous infusion, mediated by a massive increase in plasma osmolarity.</p>
+<p>An Intralipid-containing emulsion (Etomidate-Lipuro<sub>&#x00AE;</sub>) has a pH of approximately 7 and appears as a slightly viscous, milky white liquid, like propofol. It does not cause irritation when injected perivascularly. The emulsion promotes bacterial growth and therefore open ampoules should be refrigerated and be discarded within 24 hours.</p>
+</sec4>
+<sec4 id="ch-ss">
+<title>Clinical properties:</title>
+<p>Etomidate is a hypnotic agent with rapid penetration of the blood&#x2013;brain barrier. Peak brain concentration is reached within 1 minute of adminis&#x00AD;tration. The hypnotic activity of etomidate is related to interaction with the GABA system, by enhancing the effect of GABA after binding to the &#x03B2;3 subunit of the GABA<sub>A</sub> receptor. Recovery after a single bolus injection is rapid (10&#x2013;20 minutes).</p>
+<p>After a single bolus injection in cats, etomidate blood concentration initially decreases rapidly, followed by a slower distribution phase and an elimination half-life of approximately 3 hours. Total body clearance rates are high. Etomidate is rapidly hydrolysed to inactive meta&#x00AD;b&#x00AD;olites by hepatic and plasma esterases. Drugs reducing hepatic blood flow (e.g. alpha-2 adrenoceptor agonists) will slow etomidate elimination. The pharmacokinetic profile (see Figure 14.6) would make etomidate suitable for repeated dosing or continuous infusion; however, this is hampered by its potent inhibition of adrenal steroid synthesis (see below).</p>
+<p>Etomidate alone produces minimal cardiovascular changes in healthy and hypovolaemic dogs, making it an ideal induction agent in patients with a low cardiac reserve and hypovolaemia. However, etomidate should not be used without pre-anaesthetic medication because of a high incidence of myoclonus and pain on injection (when using the propylene glycol preparation). Therefore, the choice of pre-anaesthetic medication, rather than the etomidate itself, will influence the patient&#x2019;s cardiovascular status. Combinations of etomidate either with diazepam or midazolam, or with fentanyl or other opioids, have been used successfully for induction of anaesthesia in high-risk patients.</p>
+<p>Etomidate induces dose-dependent respiratory depres&#x00AD;- sion. A slower injection rate results in less profound depression or lower likelihood of induction apnoea, similar to thiopental and propofol.</p>
+<p>Etomidate reduces cerebral metabolic oxygen requirements and cerebral blood flow, and decreases elevated ICP. Because of the minimal influence on arterial blood pressure, cerebral perfusion pressure is well maintained. Etomidate also decreases IOP. It has no analgesic properties.</p>
+<p>The major drawback or concern with the use of eto&#x00AD;midate is its inhibition of adrenal steroid synthesis. The production of cortisol, aldosterone and corticosterone is decreased by inhibition of 11-&#x03B1; and 11-&#x03B2; hydroxylases and the cholesterol side-chain cleavage enzyme. A major adverse effect (Addisonian crisis) can occur after infusion of etomidate: after a single induction bolus, adreno&#x00AD;- cor&#x00AD;tical responses and cortisol production are suppressed for 2&#x2013;6 hours in cats and dogs. The lack of a stress response to anaesthesia and surgery seems to have no detrimental effects in animals after a single intravenous bolus, but care must be taken in animals with pre-existing adrenal insufficiency.</p>
+<p>Overall, etomidate is a suitable induction agent for high-risk patients. The high cost, and packaging in single-use glass ampoules, are reasons for its limited use in vet&#x00AD;erinary practice.</p>
+</sec4>
+<sec4 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Practical use:</title>
+<list list-type="bullet">
+<list-item><p>Induction agent.</p></list-item>
+<list-item><p>Do not administer repeated boluses or infusions.</p></list-item>
+<list-item><p>Pain on injection and phlebitis (propylene glycol preparation).</p></list-item>
+<list-item><p>Refrigerate open ampoules (lipid emulsion).</p></list-item>
+<list-item><p>Discard open ampoules after 24 hours (lipid emulsion).</p></list-item>
+<list-item><p>High incidence of myoclonus when used as sole agent.</p></list-item>
+<list-item><p>Best used with proper pre-anaesthetic medication.</p></list-item>
+<list-item><p>Give to effect (see Figures 14.7 and 14.8):
+<list list-type="bullet">
+<list-item><p>Consider physical status of the animal</p></list-item>
+<list-item><p>Give by slow injection (60 seconds).</p></list-item>
+</list>
+</p></list-item>
+<list-item><p>No analgesic properties (use with analgesic).</p></list-item>
+<list-item><p>Good cardiovascular stability (high-risk patients).</p></list-item>
+<list-item><p>Avoid in animals with known adrenal insufficiency (unless cortisol supplementation is provided).</p></list-item>
+</list>
+</sec4>
+</sec3>
+
+
+</sec2>
+<sec2 id="ch-ss">
+<title>Dissociative agents</title>
+<sec3 id="ch-ss">
+<title>Ketamine</title>
+<sec4 id="ch-ss">
+<title>Physicochemical properties:</title>
+<p>The phencyclidine derivative ketamine hydrochloride occurs as a white crystalline powder. The commercially available solutions are slightly acidic (pH 3.5&#x2013;5.5). Ketamine consists of two stereo&#x00AD;isomers, S(+) ketamine and R(&#x2013;) ketamine. The S(+) isomer has about 1.5&#x2013;3-fold greater hypnotic potency and threefold greater analgesic potency than R(&#x2013;) ketamine. Compared with the racemic mixture, S(+) ketamine is 1.5&#x2013;2 times as potent. Racemic ketamine is a mixture of both stereoisomers in equal amounts and is available as 1% (w/v), 5% (w/v) and 10% (w/v) preparations containing the preservative benzethonium chloride. In some countries, S(+) ketamine is available as 0.5% (w/v) and 2.5% (w/v) solutions, marketed as veterinary preparations.</p>
+<p>Ketamine solutions are very stable, but should be protected from light and excessive heat. Solutions can be diluted with sterile water or physiological saline for injection. Ketamine can be administered by intramuscular, intravenous, subcutaneous or intraperitoneal injection. It is also effective when given by the transmucosal route (buccal, intranasal, rectal).</p>
+</sec4>
+<sec4 id="ch-ss">
+<title>Clinical properties:</title>
+<p>Ketamine penetrates the blood&#x2013;brain barrier rapidly. After intravenous injection, it has an onset of action of 30&#x2013;90 seconds in cats and dogs. After intramuscular injection (which is painful due to the low pH of the solution), it is distributed rapidly into body tissues and peak anaesthetic effects occur within 10&#x2013;15 minutes.</p>
+<p>Ketamine induces a dose-dependent alteration in CNS activity that leads to a dissociative state, characterized by profound analgesia and amnesia, with maintained ocular, laryngeal, pharyngeal, pinnal and pedal reflexes, and increased muscle tone. This state of catalepsy is caused (mainly) by inhibition of thalamocortical pathways and stimulation of the limbic system. The neuropharmacology of ketamine is complex and it interacts with multiple binding sites, including <italic>N</italic>-methyl-D-aspartate (NMDA) and non-NMDA glutamate receptors, nicotinic and muscarinic cholinergic, monoaminergic and opioid receptors. In addition, inhibition of voltage-dependent sodium and calcium channels has been described. The antagonism at the NMDA receptor appears to account for the majority of the analgesic, amnesic and psychotomimetic effects.</p>
+<p>After an intravenous bolus, racemic ketamine is distri&#x00AD;buted rapidly, followed by an elimination half-life of approximately 60 minutes in dogs and 80 minutes in cats (see Figure 14.6). Recovery after a single dose occurs mainly by redistribution. Ketamine undergoes high hepatic extraction and is metabolized rapidly by the liver. The main metabolite, norketamine, has about 10&#x2013;30% of the anaesthetic potency of ketamine. Accumulation of norketamine after repeated doses or infusions of ketamine contributes to prolonged recovery, hallucinatory behaviours and drowsiness. The parent compound and its metabolites undergo glucuronidation and are excreted via the kidney. In cats, unchanged ketamine is also excreted as the active drug via the kidney. Hepatic dysfunction impairs elimin&#x00AD;ation of the drug and prolongs its action considerably.</p>
+<p>The main pharmacokinetic difference between racemic ketamine and S(+) ketamine appears to be the higher elimination rate of the S(+) isomer. Complete recovery after S(+) ketamine is faster and less likely to be associated with excitatory effects. However, anaesthesia with either racemic or S(+) ketamine is associated with increased muscle tone, muscle spasm and seizures. Concurrent use of a benzodiazepine or an alpha-2 adrenoceptor agonist is required to reduce these side effects and obtain anaesthesia suitable for surgery. Acepromazine and ketamine can be used together in cats, but this combination is best avoided in dogs because acepromazine does not reliably control ketamine&#x2019;s undesirable effects. Therefore, in a clinical setting, the advantages of S(+) ketamine over racemic ketamine are influenced by the chosen pre-anaesthetic medication.</p>
+<p>Ketamine has unique cardiovascular effects. Unlike other intravenous anaesthetics, it stimulates the cardio&#x00AD;vascular system, resulting in increased heart rate, arterial blood pressure and cardiac output. These changes in haemodynamic variables are associated with increased myocardial work and oxygen consumption. In a healthy heart, the oxygen supply to the myocardium can increase through coronary vasodilation and increased cardiac output, but a compromised heart (e.g. hypertrophic or ischaemic heart) might not be able to mount such a response. Central stimulation of the sympathetic system is respons&#x00AD;ible for the cardiovascular stimulation. The concurrent use of sedatives will attenuate the stimulatory effects of ketamine. However, ketamine also has a direct myocardial depressant effect (negative inotropic effect); normally the stimulatory effects predominate, but high intravenous doses can result in transient hypotension. In severely compromised animals, or with concurrent use of other sedatives (e.g. alpha-2 adrenoceptor agonists) or anaesthetics, ketamine may induce cardiovascular depression.</p>
+<p>Ketamine has minimal effects on central respiratory drive. After bolus administration of an induction dose, initial respiratory depression occurs, often followed by a so-called &#x2018;apneustic&#x2019; pattern of breathing, characterized by periodic breath-holding on inspiration followed by short periods of hyperventilation. Generally, arterial and tissue oxygenation are well maintained and ketamine produces bronchodilation. Potential respiratory problems can occur in cats and small dogs because ketamine causes increased salivation, leading to upper airway obstruction or endotracheal tube occlusion. Anti&#x00AD;cho&#x00AD;linergics can be administered to reduce salivation. The swallow, sneeze and cough reflexes remain relatively intact after ketamine administration, but &#x2018;silent&#x2019; aspiration can still occur with ketamine anaesthesia.</p>
+<p>Due to its excitatory effects on the CNS, ketamine increases cerebral metabolism, cerebral blood flow and ICP. Cerebrovascular responsiveness to carbon dioxide remains intact and therefore reducing <italic>P</italic><sub>a</sub>CO<sub>2</sub> will attenuate the rise in ICP after ketamine administration. Ketamine has epileptogenic potential and has generally not been recommended for use at high doses in animals with known  seizure disorders or in procedures known to have potential to induce seizures (e.g. myelography). However, ketamine has recently also been used as an anticonvulsant in refractory epilepsy in both humans and veterinary patients (Serrano <italic>et al.</italic>, 2006; Gaspard <italic>et al.</italic>, 2013). Ketamine administered alone also increases IOP, and care should be taken when using ketamine for intraocular surgery or open globe injuries. However, these effects are attenuated by concurrent use of benzodiazepines, acepromazine and alpha-2 adrenoceptor agonists. The eyes do not rotate during ketamine anaesthesia, rendering animals prone to corneal drying and ulcers. Recovery from ketamine anaesthesia can be asso&#x00AD;ciated with hyperexcitability, because animals become hypersensitive to noise, light and handling.</p>
+<p><xref ref-type="page" id="page_"/>Ketamine is still licensed for use as the sole anaesthetic agent for cats and non-human primates in some countries. Because of the increased muscle tone, involuntary movements and high incidence of excitation during recovery in cats, it should always be used in combination with a sedative or tranquillizer to offset these side effects (see Figures 14.7 and 14.8). Ketamine is a popular anaesthetic in cats because deep sedation or anaesthesia for short surgical procedures (e.g. castration) can be induced via intramuscular administration &#x2013; a major advantage in uncooperative, fractious animals (Figure 14.10).</p>
+<p>Ketamine readily crosses the placenta. Neurological reflexes in puppies delivered by Caesarean section after anaesthesia induction with ketamine&#x2013;midazolam are reduced, but induction doses can be used. Unfortunately, diazepam is contra-indicated and the use of benzodiazepines may not be ideal in these patients (see Chapter 26).</p>
+<p>The activity of ketamine as a non-competitive antag&#x00AD;onist at NMDA glutamate receptors and its ability to produce profound somatic analgesia has expanded the indications for the drug. At sub-anaesthetic doses given in the perioperative period, ketamine may reduce the central &#x2018;wind-up&#x2019; phenomenon (see Chapter 8) and reduce the requirement for postoperative analgesics. In addition, keta&#x00AD;- mine might be helpful in the treatment of chronic and neuropathic pain, based on its interaction with NMDA receptors. Intravenous infusion of ketamine can be used during inhalational anaesthesia to provide pre-emptive analgesia and reduce the required concentration of the volatile anaesthetic. However, when high infusion rates are used, recovery can be characterized by excitation.</p>
+</sec4>
+<sec4 id="ch-ss">
+<title>Practical use:</title>
+<list list-type="bullet">
+<list-item><p>Induction agent; sole anaesthetic for short surgical procedures (see Figures 14.7, 14.8 and 14.10).</p></list-item>
+<list-item><p>Effective after intravenous, intramuscular, subcutaneous, intranasal, oral transmucosal or rectal administration.</p></list-item>
+<list-item><p>Pain can occur after intramuscular injection.</p></list-item>
+<list-item><p>Increased muscle tone and high incidence of convulsions (dogs) when used alone.</p></list-item>
+<list-item><p>Combine with benzodiazepine, alpha-2 adrenoceptor agonist or acepromazine.</p></list-item>
+<list-item><p>Intact eye and laryngeal reflexes.</p></list-item>
+<list-item><p>Anaesthetic depth difficult to judge.</p></list-item>
+<list-item><p>Good somatic and superficial analgesia.</p></list-item>
+<list-item><p>Use eye ointment to prevent corneal drying.</p></list-item>
+<list-item><p>Cardiovascular stimulation (heart rate and blood pressure increase).</p></list-item>
+<list-item><p>Do not use in patients with hypertrophic cardiomyopathy.</p></list-item>
+<list-item><p>Avoid in patients with seizure disorders.</p></list-item>
+<list-item><p>Avoid in animals with increased ICP (head trauma, tumours).</p></list-item>
+<list-item><p>Apneustic breathing (apnoea with high doses).</p></list-item>
+<list-item><p>Recover animal in a quiet, dimmed and heated room.</p></list-item>
+</list>
+
+<table-wrap id="tbl14_10">
+<label>14.10</label>
+<caption><title>Ketamine combinations given by the intramuscular route for short surgical procedures in the cat. Note that combinations with an alpha-2 adrenoceptor agonist can induce vomiting.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="30%"/>
+<col content-type="4" width="30%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drugs</p></entry>
+<entry align="left"><p>Doses</p></entry>
+<entry align="left"><p>Technique</p></entry>
+<entry align="left"><p>Indication</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Acepromazine</p>
+<p>Buprenorphine or butorphanol</p>
+<p>Ketamine</p></entry>
+<entry align="left"><p>0.02&#x2013;0.05 mg/kg</p>
+<p>0.02 mg/kg</p>
+<p>0.2&#x2013;0.4 mg/kg</p>
+<p>20&#x2013;30 mg/kg</p></entry>
+<entry align="left"><p>Give acepromazine/opioid combination 15 minutes before ketamine to avoid muscle stiffness</p></entry>
+<entry align="left"><p>Short surgical procedures (30&#x2013;40 minutes)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Xylazine</p>
+<p>Ketamine</p></entry>
+<entry align="left"><p>1 mg/kg</p>
+<p>5&#x2013;10 mg/kg</p></entry>
+<entry align="left"><p>Mixed in one syringe</p></entry>
+<entry align="left"><p>Short surgical procedures</p>
+<p>(20&#x2013;30 minutes)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Medetomidine or dexmedetomidine</p>
+<p>Ketamine</p></entry>
+<entry align="left"><p>0.04 mg/kg</p>
+<p>0.02 mg/kg</p>
+<p>5&#x2013;7 mg/kg</p></entry>
+<entry align="left"><p>Mixed in one syringe</p></entry>
+<entry align="left"><p>Short surgical procedures</p>
+<p>(30&#x2013;40 minutes)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Medetomidine or dexmedetomidine</p>
+<p>Butorphanol</p>
+<p>Ketamine</p></entry>
+<entry align="left"><p>0.02 mg/kg</p>
+<p>0.01 mg/kg</p>
+<p>0.1&#x2013;0.3 mg/kg </p>
+<p>5 mg/kg</p></entry>
+<entry align="left"><p>Mixed in one syringe</p>
+<p>&#x00A0;</p></entry>
+<entry align="left"><p>Short surgical procedures</p>
+<p>(30&#x2013;40 minutes)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Midazolam</p>
+<p>Ketamine</p></entry>
+<entry align="left"><p>0.2&#x2013;0.3 mg/kg</p>
+<p>10&#x2013;20 mg/kg</p></entry>
+<entry align="left"><p>Mixed in one syringe</p></entry>
+<entry align="left"><p>Short minor procedures</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+
+</sec4>
+</sec3>
+
+<sec3 id="ch-ss">
+<title>Tiletamine&#x2013;zolazepam</title>
+
+<sec4 id="ch-ss">
+<title>Physicochemical properties:</title>
+<p>Tiletamine is chemically related to ketamine (phencyclidine derivative, cyclo&#x00AD;hexanone) but has a longer duration of action than ketamine. Zolazepam is a benzodiazepine (diazepinone minor tranquillizer) with muscle relaxant and anticonvulsant effects. Zoletil<sup>&#x00AE;</sup> (Europe) or Telazol<sup>&#x00AE;</sup> (USA) is a proprietary combination of zolazepam and tiletamine in a 1:1 ratio (250 mg zolazepam, 250 mg tiletamine). The preparation comes as a lyophilized powder, which can be recon&#x00AD;stituted with 5 ml saline, 5% dextrose or sterile water (to give a solution of 50 mg/ml zolazepam, 50 mg/ml tiletamine). The clear solution is acidic (pH 2.0&#x2013;3.5) and should be discarded if precipitation occurs. The prepared solution can be stored at room temperature for 4 days, or for 14 days when refrigerated. Telazol&#x00AE; is a controlled substance in the USA (under Schedule III).</p>
+</sec4>
+<sec4 id="ch-ss">
+<title>Clinical properties:</title>
+<p>Administered alone, tiletamine pro&#x00AD;-duces a cataleptic, dissociative state similar to that produced by ketamine. High doses can produce unconsciousness and surgical anaesthesia in cats, but not in dogs, in which tiletamine produces severe convulsions. Zolazepam has anticonvulsant and anxiolytic properties and produces muscle relaxation. As with the benzo&#x00AD;- diaz&#x00AD;epine group in general, its sedative effects are unre&#x00AD;- l&#x00AD;iable in healthy animals. Zolazepam administered alone causes only minimal CNS depression and has minimal cardio&#x00AD;respiratory effects.</p>
+<p><xref ref-type="page" id="page_"/>The combination of tiletamine and zolazepam can produce sedation or general anaesthesia in cats and dogs. After intravenous injection, induction of anaesthesia is rapid (60&#x2013;90 seconds). Onset of action after intramuscular injection varies between 1 and 7 minutes in cats, and between 5 and 12 minutes in dogs. Intramuscular injection can be painful due to the low pH of the solution. Duration of anaesthesia (30&#x2013;60 minutes) is dependent on the dose used.</p>
+<p>In general, complete recovery from tiletamine&#x2013; zola&#x00AD;zepam anaesthesia can be long (4&#x2013;5 hours) and is smoother in cats than in dogs. In cats, the elimination half-life of zolazepam (4.5 hours) is longer than that of the tile&#x00AD;tamine component (2&#x2013;4 hours) and the recovery phase is influenced by the ongoing effects of tranquilizer. In dogs, the effects of zolazepam wane earlier (half-life 1 hour) than those of tiletamine (half-life 1.2 hours) and the recovery phase is characterized by muscle rigidity, excitation and seizure-like activity. High doses or repeated dosing will prolong and worsen recovery and therefore redosing is not recommended. Animals with renal disease have prolonged anaesthetic duration and recovery periods. Anaesthetic depth is difficult to judge because animals maintain ocular, laryngeal, pharyngeal and pedal reflexes.</p>
+<p>Cardiovascular effects of tiletamine&#x2013;zolazepam in cats and dogs are dose-dependent. In dogs, sinus tachycardia and premature ventricular complexes occur due to sym&#x00AD;pathetic stimulation, but tiletamine&#x2013;zolazepam does not change the arrhythmogenic dose of adrenaline. In cats, heart rate responses are variable, but the cardiostimu&#x00AD;latory effects of tiletamine&#x2013;zolazepam should be avoided in cats with hypertrophic cardiomyopathy. At lower doses, the overall haemodynamic state remains stable (blood pressure, cardiac output), whereas at higher doses cardiovascular depression occurs (reduced myocardial contractility, cardiac output and blood pressure).</p>
+<p>Respiratory depression with hypoxaemia (when breathing room air) and hypercapnia occurs after intravenous injection and after high intramuscular doses of tiletamine&#x2013;zolazepam. As with ketamine, hypersalivation is common and can be reduced with atropine or glycopyrronium if necessary.</p>
+<p>Like ketamine, tiletamine has excitatory effects on the CNS and increases cerebral metabolism, cerebral blood flow and ICP, and is therefore contraindicated in anaesthetic doses in patients with head trauma or intracranial tumours. Tiletamine increases IOP and is therefore not suitable for intraocular surgery or open globe injuries. In cats, a post-anaesthetic hyperthermic response can occur.</p>
+</sec4>
+
+<sec4 id="ch-ss">
+<title>Practical use:</title>
+<list list-type="bullet">
+<list-item><p>Induction agent (intravenous).</p></list-item>
+<list-item><p>Use as sole anaesthetic agent only for diagnostic or minor surgical procedures.</p></list-item>
+<list-item><p>Effective after intravenous and intramuscular administration.</p></list-item>
+<list-item><p>Intramuscular induction agent for aggressive dogs and fractious cats (small injection volume).</p></list-item>
+<list-item><p>Dose recommendations (see Figures 14.7 and 14.8) refer to total drug.</p></list-item>
+<list-item><p>Pain after intramuscular injection common.</p></list-item>
+<list-item><p>Intact eye and laryngeal reflexes.</p></list-item>
+<list-item><p>Anaesthetic depth difficult to judge.</p></list-item>
+<list-item><p>Do not redose.</p></list-item>
+<list-item><p>Use eye ointment to prevent drying of the cornea.</p></list-item>
+<list-item><p>Do not use in patients with hypertrophic cardiomyopathy.</p></list-item>
+<list-item><p>Avoid in patients with seizure disorders.</p></list-item>
+<list-item><p>Avoid in animals with increased ICP (head trauma, tumours).</p></list-item>
+<list-item><p>Apneustic breathing (apnoea with high doses).</p></list-item>
+<list-item><p>Recover animal in a quiet, dimmed and heated room.</p></list-item>
+<list-item><p>Pre-anaesthetic medication with acepromazine or an alpha-2 adrenoceptor agonist reduces dose requirements and improves recovery quality.</p></list-item>
+</list>
+</sec4>
+</sec3>
+</sec2>
+<sec2 id="ch-ss">
+<title>Steroid anaesthetics</title>
+<sec3 id="ch-ss">
+<title>Alfaxalone</title>
+<sec4 id="ch-ss">
+<title>Physicochemical properties:</title>
+<p>The progesterone derivative alfaxalone is a neuroactive steroid. This molecule is insol&#x00AD;uble in water and is now formulated with the solubilizing agent 2-hydroxypropyl-beta-cyclodextrin. It is licensed for use in cats and dogs as Alfaxan<sup>&#x00AE;</sup> and this formulation of alfaxalone will be discussed further. The formulation is a sterile, colourless and clear solution with a neutral pH of approximately 7. Perivascular injection is not painful and does not produce tissue necrosis. This preparation does not cause histamine release, unlike previous formulations. Alfaxan<sup>&#x00AE;</sup> does not promote bacterial growth, but the manufacturer recommends that any solution remaining in the vial following withdrawal of the required dose should be discarded.</p>
+</sec4>
+<sec4 id="ch-ss">
+<title>Clinical properties:</title>
+<p>Neuroactive steroids produce hyp&#x00AD;nosis and muscle relaxation by enhancing the inhibitory effect of GABA on the GABA<sub>A</sub> receptor/chloride channel complex. Anticonvulsive effects are low. Dependent on the dose, either sedation or anaesthesia can be achieved. Intravenous injection leads to rapid relaxation and induction of anaesthesia (30&#x2013;60 seconds) with dose-dependent duration. Intramuscular injection is effective, with onset of sedation/anaesthesia within 7&#x2013;10 minutes, but the degree of effect is very variable. Subcutaneous injection has been used to produce sedation in hyperthyroid cats, with max&#x00AD;imal effects seen 45 minutes after injection.</p>
+<p>Alfaxalone does not show significant plasma protein binding. Glucuronidation processes play a major role in metabolism and excretion of the drug, and hepatic insuf&#x00AD;ficiency will prolong anaesthetic duration. In dogs, alfaxalone is cleared from plasma very rapidly and recovery after an induction dose depends on redistribution (see Figure 14.6). This is reflected by an average duration of anaesthesia (allowing endotracheal intubation) of 6 minutes after a bolus dose of 2 mg/kg and 26 minutes after a bolus dose of 10 mg/kg (Ferr&#x00E9; <italic>et al.</italic>, 2006). Alfaxalone produces smooth anaesthesia induction, with excellent muscle relaxation, and dose-dependent changes in cardiovascular and respiratory variables and anaesthetic duration in dogs. At the recommended induction dose (see Figures 14.7 and 14.8), cardiorespiratory parameters return to baseline within 15 minutes. Rapid intravenous injection of alfaxalone can cause induction apnoea. Induction and maintenance of anaesthesia with alfaxalone (2 mg/kg for induction followed by 0.07 mg/kg/min infusion) or propofol (4 mg/kg for induction followed by 0.25 mg/kg/min infusion) for 120 minutes in premedicated (acepromazine and hydromorphone), spontaneously breathing dogs resulted in similar cardiovascular and respiratory changes, with signi&#x00AD;ficant hypo&#x00AD;ventilation (Ambros <italic>et al.</italic>, 2008). Therefore, mech&#x00AD;anical ventilation is recommended in TIVA protocols (see later). Recovery after infusion depends more on drug metabolism than redistribution, but cumulative effects in dogs are low.</p>
+<p><xref ref-type="page" id="page_"/>Pre-anaesthetic medication and dilution of alfaxalone reduces the required induction dose. The recovery phase after alfaxalone induction can be associated with excit&#x00AD;atory events, which are attenuated by the use of sedative pre-anaesthetic medication and by recovering the animal in a quiet room. Alfaxalone as an induction agent is suit&#x00AD;able for dogs younger than 12 weeks of age (O&#x2019;Hagan <italic>et al.</italic>, 2012a). Induction of anaesthesia with alfaxalone in dogs for Caesarean section resulted in improved viability (Apgar score) of the puppies during the first 60 minutes after delivery, with no difference in survival rate, compared with propofol induction (Doebeli <italic>et al</italic>., 2013) (see Chapter 26).</p>
+<p>In cats, dose-dependent disposition occurs and elim&#x00AD;ination is slower than in dogs (Warne <italic>et al.</italic>, 2014). Doses of 5 mg/kg i.v. and 25 mg/kg i.v. resulted in mean anaesthesia times to complete recovery of 44 minutes and 68 minutes, respectively. However, in cats, anaesthetic time increased non-linearly with doses above 5 mg/kg (Heit <italic>et al.</italic>, 2004). Maintenance of anaesthesia with alfaxalone over 60 minutes in cats prolongs the recovery period (Beths <italic>et al.</italic>, 2014). Recovery can be excitable: more paddling during recovery was observed in cats after alfaxalone induction than following propofol induction. The route of adminis&#x00AD;tration also affects quality of recovery: more excitation in the recovery phase was observed in cats after intra&#x00AD;- mus&#x00AD;cular injection of alfaxalone than after intravenous induction of anaesthesia with alfaxalone. Pre-anaesthetic medication with medetomidine, acepromazine, butor&#x00AD;phanol or midazolam reduces the induction dose to 2&#x2013;3 mg/kg i.v. (see Figure 14.8). Alfaxalone is also suitable as an induction agent for cats younger than 12 weeks of age (O&#x2019;Hagan <italic>et al.</italic>, 2012b).</p>
+<p>The maintenance dose of alfaxalone is approximately 0.1 mg/kg/min (0.01 ml/kg/min) in premedicated dogs and cats, although individual responses may vary. In practical terms, a 10 kg dog would require 10 mg (or 1 ml) for 10 additional minutes of anaesthesia, and a 5 kg cat would require 5 mg (or 0.5 ml) for 10 additional minutes of anaesthesia. Alfaxalone is a poor analgesic, therefore, for painful pro&#x00AD;cedures, appropriate analgesic administration is necessary.</p>
+</sec4>
+<sec4 id="ch-ss">
+<title>Practical use:</title>
+<list list-type="bullet">
+<list-item><p>Induction and maintenance agent in dogs and cats (see Figure 14.13).</p></list-item>
+<list-item><p>Redosing possible in cats (up to four times) (see Figure 14.14).</p></list-item>
+<list-item><p>Best used intravenously; also effective after intramuscular injection, but large injection volumes are required in larger animals.</p></list-item>
+<list-item><p>Give to effect (see Figures 14.7 and 14.8):
+
+<list list-type="bullet">
+<list-item><p>Dilution reduces induction dose</p></list-item>
+<list-item><p>Consider pre-anaesthetic medication (20&#x2013;50% reduction in induction dose depending on drugs used)</p></list-item>
+<list-item><p>Consider physical status of the animal</p></list-item>
+<list-item><p>Give by slow injection (over 60 seconds, one-quarter of the dose every 15 seconds).</p></list-item>
+</list>
+</p></list-item>
+<list-item><p>Recovery can be excitatory without appropriate pre-anaesthetic medication.</p></list-item>
+<list-item><p>Poor analgesia (use with analgesic).</p></list-item>
+</list>
+
+
+<table-wrap id="tbl14_11">
+<label>14.11</label>
+<caption><title>Neuroleptanalgesia for induction of anaesthesia in debilitated and old dogs. IPPV = intermittent positive pressure ventilation.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="25%"/>
+<col content-type="2" width="15%"/>
+<col content-type="3" width="10%"/>
+<col content-type="4" width="50%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drugs</p></entry>
+<entry align="left"><p>Dose</p></entry>
+<entry align="left"><p>Maintenance</p></entry>
+<entry align="left"><p>Comment</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Hydromorphone</p>
+<p>or</p>
+<p>L-Methadone</p>
+<p>or</p>
+<p>Methadone</p>
+<p>Midazolam/Diazepam</p></entry>
+<entry align="left"><p>0.05&#x2013;0.1 mg/kg i.v.</p>
+<p>&#x00A0;</p>
+<p>0.5 mg/kg i.v.</p>
+<p>&#x00A0;</p>
+<p>1 mg/kg i.v.</p>
+<p>0.1&#x2013;0.2 mg/kg i.v.</p></entry>
+<entry align="left"><p>Inhalant</p></entry>
+<entry align="left"><p>Inject in alternate increments until desired effect (intubation)</p>
+<p>Give opioid first, wait a few minutes, then administer benzodiazepine</p>
+<p>Do not mix in same syringe (excitement possible)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Fentanyl </p>
+<p>Midazolam </p></entry>
+<entry align="left"><p>0.002&#x2013;0.005 mg/kg i.v.</p>
+<p>0.2 mg/kg i.v. </p></entry>
+<entry align="left"><p>Inhalant</p></entry>
+<entry align="left"><p>Give opioid first, wait a few minutes, then administer benzodiazepine</p>
+<p>Do not mix in same syringe</p></entry>
+</row>
+<row>
+<entry align="left"><p>Sufentanil </p>
+<p>Midazolam</p></entry>
+<entry align="left"><p>0.003 mg/kg i.v</p>
+<p>0.9 mg/kg i.v.</p></entry>
+<entry align="left"><p>Sufentanil</p>
+<p>0.003 mg/kg/h</p>
+<p>Midazolam</p>
+<p>0.9 mg/kg/h</p></entry>
+<entry align="left"><p>Mix in one syringe, give in increments until intubation possible</p>
+<p>Used in gastric dilatation&#x2013;volvulus, endotoxaemic patients</p>
+<p>Requires IPPV/oxygen</p>
+<p>Bradycardia possible</p>
+<p>Reverse midazolam with flumazenil if necessary at end (10&#x2013;30 &#x03BC;g/kg i.v.)</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+</sec4>
+</sec3>
+</sec2>
+
+</sec1>
+<sec1 id="ch-ss">
+<title>Neuroleptanalgesia</title>
+<p>The concept of neuroleptanalgesia involves the combin&#x00AD;ation of a neuroleptic agent (butyrophenones, pheno&#x00AD;thiazines) with a potent opioid analgesic. The combination with benzo&#x00AD;- diazepines (ataractic agents) is sometimes also referred to as ataractanalgesia. This technique can be used in two ways. At low doses, it is commonly used for sedation and pre-anaesthetic medication via the intramuscular route (see Chapter 13). At high doses, usually given by intravenous injection, the combination can be used to produce sufficient CNS depression to allow endotracheal intubation and moderate surgical stimulation. The excit&#x00AD;atory effects of high doses of opioids make this technique unsuitable for healthy cats, although it has been used in severely debilitated cats.</p>
+<p>Neuroleptanalgesia is characterized by analgesia, suppression of motor activity, partial suppression of autonomic reflexes and behavioural indifference, but not &#x2018;true&#x2019; unconsciousness as defined by cortical suppression. Neuro&#x00AD;leptanalgesia combinations are not suitable for routine induction of anaesthesia in healthy, young animals, because a true anaesthetic state is not reached unless the combination is followed by another anaesthetic agent (volatile or injectable) or unduly high doses are used. How&#x00AD;ever, in high-risk and debilitated patients, sedative&#x2013;opioid combinations can have a profound effect (Figure 14.11).</p>
+<p>The advantages of this technique are a wide safety margin and reversibility (by using an opioid antagonist such as naloxone and the benzodiazepine antagonist flumazenil). The disadvantages are: possible occurrence of panting or marked respiratory depression (requiring IPPV); spon&#x00AD;tan&#x00AD;eous movements; sensitivity to noise and light; and pos&#x00AD;sible postoperative behavioural changes, especially when neuroleptanalgesic combinations are used as the sole anaesthetic agents. Bradycardia related to the high dose of opioid can be treated with an anticholinergic agent (atropine or glycopyrronium).</p>
+<p><xref ref-type="page" id="page_"/>The &#x2018;classic&#x2019; neuroleptanalgesic mixtures contain phenothiazines or butyrophenones such as acepro&#x00AD;mazine, droperidol or fluanisone, which can lead to significant alpha-1 adrenoceptor blockade (hypotension unresponsive to alpha-1 adrenoceptor agonists such as phenylephrine, adrenaline or noradenaline). Neurolept&#x00AD;analgesia with benzodiazepines (diazepam, midazolam) has a wide margin of safety, with minimal cardiovascular depression and lack of alpha-1 adrenoceptor blockade. Therefore, combin&#x00AD;ations of an opioid with a benzodiaz&#x00AD;epine are well suited for induction of anaesthesia in severely debilitated high-risk patients (see Figure 14.11). The time required to obtain conditions suitable for endo&#x00AD;tracheal intubation is longer than with other intravenous anaesthetics (&#x003E;2&#x2013;3 minutes) so there is an increased risk of aspiration and apnoea can occur, but haemodynamic stability is excellent.</p>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Total intravenous anaesthesia</title>
+<p>Total intravenous anaesthesia refers to the induction and maintenance of anaesthesia by intravenous drugs only. An intravenous anaesthetic (usually propofol or alfaxalone) provides hypnosis, muscle relaxation and immo&#x00AD;bility, whereas analgesia is provided by either an opioid, an alpha-2 adrenoceptor agonist or ketamine. Both the analgesic and the anaesthetic drug can be given by the intravenous route as an infusion. Some anaes&#x00AD;thetists prefer to provide the analgesic as part of the pre-anaesthetic medication and supplement it as required. Anaesthesia can be maintained by intermittent boluses of the agents, but a continuous infusion produces a more stable plane of anaesthesia and is more economical in terms of total drug use. Drugs can be given as an intra&#x00AD;venous infusion and the rate altered according to requirements (variable rate infusion). A better adjustment of anaesthetic depth and even more drug saving may be achieved with target-controlled infusion (TCI) devices, which deliver a drug to a predicted blood concentration set by the anaesthetist (see later).</p>
+
+<sec2 id="ch-ss">
+<title>Principles of TIVA</title>
+<p>Sedation or anaesthesia can be maintained by intermittent drug boluses. This technique is simple and does not require special equipment. The disadvantage of using intermittent drug boluses is the large variation in plasma concentration, and consequently excessive drug effect at the time the bolus is administered and inadequate effect before the next bolus. Continuous infusion results in less variation in plasma concentration, with fewer oscillations in haemodynamic, respiratory and central effects, and thus is safer for the animal.</p>
+
+<table-wrap id="tbl14_12">
+<label>14.12</label>
+<caption><title>Some pharmacokinetic parameters describing drug disposition in the body.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="35%"/>
+<col content-type="2" width="15%"/>
+<col content-type="3" width="50%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Parameter</p></entry>
+<entry align="left"><p>Symbol</p></entry>
+<entry align="left"><p>Description</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Distribution half-life </p>
+<p>Elimination half-life </p>
+<p>Terminal half-life</p></entry>
+<entry align="left"><p>T<sub>&#x00BD;</sub>&#x03B1;</p>
+<p>T<sub>&#x00BD;</sub>&#x03B2;r</p>
+<p>T<sub>&#x00BD;</sub> or T<sub>&#x00BD;</sub> term</p></entry>
+<entry align="left"><p>Time required for an amount of drug in plasma to decrease by half. The half-life is dependent on the extent of drug distribution in the body (volume of distribution) and excretion of drug from the body (clearance). About five times the elimination half-life is required to eliminate a drug from the body</p>
+<p>The number and names of half-lives depends on the pharmacokinetic model used</p></entry>
+</row>
+<row>
+<entry align="left"><p>Total body clearance</p></entry>
+<entry align="left"><p>Cl<sub>B</sub></p></entry>
+<entry align="left"><p>Volume of plasma (blood) cleared of a drug per unit time; total body clearance includes all elimination processes (liver, kidney, lung)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Volumes of distribution:</p>
+<p>Volume of the central compartment</p>
+<p>Volume of distribution at steady state</p>
+<p>Volume of distribution at pseudoequilibrium</p>
+<p>Apparent volume of distribution</p></entry>
+<entry align="left"><p>&#x00A0;</p>
+<p>Vc</p>
+<p>Vd<sub>SS</sub></p>
+<p>Vd area</p>
+<p>Vd (B)</p></entry>
+<entry align="left"><p>Theoretical or apparent degree of dilution of a drug within the body. A large volume of distribution implies extensive distribution of a drug to tissues. The lower limit is the plasma volume. The highly lipophilic anaesthetics have a very large volume of distribution. Disease states can alter the volume of distribution massively and thereby change dose requirements</p>
+<p>The volume of the different estimates varies, with Vc &#x003C; Vd<sub>SS</sub> &#x003C; Vd area &#x003C; Vd (B) Vd<sub>SS</sub> defines the extent of drug dilution at maximum distribution or when all compartments are in equilibrium; Vc is the volume from which clearance is determined and is used for target-controlled infusion calculations (vascular space)</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<p>Pharmacokinetic models can be used to develop dosing regimens for intravenous anaesthetic infusions. Such models are a mathematical description of drug disposition in the body. For detailed accounts of pharmaco&#x00AD;kinetic principles and models, standard pharmacokinetic textbooks (e.g. Riviere, 2011) should be consulted. The parameters describing the disposition process are usually estimated by administering a known dose of a drug and measuring the resulting plasma concentration at various time points.</p>
+<p>Pharmacokinetic variables that are important for intravenous drugs are the<italic>volume of distribution, total body clearance</italic> and <italic>elimination half-life</italic> (Figure 14.12). Typically, the drug concentration versus time curve is described as an exponential equation. Depending on the shape of the curve, the equation can have a single exponent (one-compartment model), two exponents (two-compartment model) or three exponents (three-compartment model), which reflect different rates of drug decay at different time points.</p>
+<p>Half-lives are derived from the rate of change in drug concentration. Different half-lives are reported, depending on the model. In a one-compartment model, only the elimination half-life occurs; in a two-compartment model, a distribution half-life and an elimination half-life are estimated; in a three-compartment model, there are three half-lives. The disposition of intravenous anaesthetics is usually described by a two- or three-compartment model: a rapid initial decrease in plasma drug concentration (distribution) is followed either by a second, slower distribution phase or directly by the elimination phase. The description of drug disposition by different models for the same drug, and differences in the sensitivity of the analyt&#x00AD;ical technique used to measure drug plasma concentration, contribute to the often large variation in reported elimination half-lives (see Figure 14.6).</p>
+<p>After infusion of an intravenous anaesthetic, the offset of effect (recovery) is not merely a function of the elimin&#x00AD;ation half-life; it is also affected by the rate of equilibration between plasma and effect site (brain) and by the duration of infusion. Therefore, the concept of <italic>context-sensitive half-time</italic> has been introduced; this is defined as the time for the plasma concentration to decrease by 50% after  termination of an intravenous infusion designed to main&#x00AD;- tain a constant plasma concentration. &#x2018;Context&#x2019; refers to the infusion duration. Considerable differences between the elimination half-life after a single intravenous bolus and context-sensitive half-times after different infusion times can be demonstrated for many drugs (e.g. thiopental, ketamine, fentanyl).</p>
+<p><xref ref-type="page" id="page_"/>Dosing regimens for TIVA consist of a loading dose aimed at achieving an effective concentration of the drug in the plasma, or, better, at the effect site, consistent with anaesthesia. For anaesthesia, the loading dose of a drug is equivalent to an anaesthesia induction dose. With knowledge of the volume of distribution of a drug and the effective plasma concentration, a loading dose can be calculated:
+
+<disp-quote>
+<p>Loading dose (LD) = desired plasma concentration (Cp) &#x00D7; volume of distribution (Vd<sub>SS</sub>)</p>
+</disp-quote>
+</p>
+
+<p>Many different volumes of distribution are reported in pharmacokinetic studies (see Figure 14.12) and there is considerable confusion about which one to use for estimation of a loading dose for a manual infusion regimen. The volume of distribution at steady state (Vd<sub>SS</sub>) seems to be a very robust estimate because it is independent of any elimination processes and constants, and usually avoids massive over- or under estimation of a loading dose as can occur with other volumes of distri&#x00AD;bution. For drugs with significant cardiopulmonary effects Vc might even be more appropriate than Vd<sub>ss</sub>. Plasma concentration, and thereby anaesthesia, is maintained by a maintenance infusion rate, which compensates for drug &#x2018;losses&#x2019; (via distribution, excretion, metabolism). Therefore, the maintenance dose can be derived from knowledge of the total body clearance of a drug and the desired plasma concentration:
+
+<disp-quote>
+<p>Maintenance dose (MD) = Cp &#x00D7; total body clearance (Cl<sub>B</sub>)</p>
+</disp-quote>
+</p>
+
+
+<table-wrap id="tbl14_13">
+ <label>14.13</label>
+<caption><title>Infusion regimens for TIVA in the dog after routine pre-anaesthetic medication. CRI = constant rate infusion; TCI = target-controlled infusion; TIVA = total intravenous anaesthesia; VRI = variable rate infusion.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="20%"/>
+<col content-type="4" width="20%"/>
+<col content-type="5" width="20%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drugs</p></entry>
+<entry align="left"><p>Induction/loading dose</p></entry>
+<entry align="left"><p>Maintenance dose</p></entry>
+<entry align="left"><p>Indication</p></entry>
+<entry align="left"><p>Infusion</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>4&#x2013;6 mg/kg</p></entry>
+<entry align="left"><p>12 mg/kg/h or 2 mg/kg about every 5 minutes as required</p></entry>
+<entry align="left"><p>Deep sedation</p></entry>
+<entry align="left"><p>CRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>4&#x2013;6 mg/kg</p></entry>
+<entry align="left"><p>24&#x2013;30 mg/kg/h</p></entry>
+<entry align="left"><p>Non-painful procedures</p></entry>
+<entry align="left"><p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p>
+<p>Fentanyl</p></entry>
+<entry align="left"><p>2&#x2013;4 mg/kg</p>
+<p>0.005 mg/kg</p></entry>
+<entry align="left"><p>6&#x2013;12 mg/kg/h</p>
+<p>0.03 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>VRI</p>
+<p>CRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p>
+<p>Fentanyl</p></entry>
+<entry align="left"><p>2&#x2013;4 mg/kg</p>
+<p>0.005 mg/kg</p></entry>
+<entry align="left"><p>18 mg/kg/h</p>
+<p>0.009&#x2013;0.018 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>CRI</p>
+<p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p>
+<p>Alfentanil</p></entry>
+<entry align="left"><p>2&#x2013;4 mg/kg</p>
+<p>0.005 mg/kg</p></entry>
+<entry align="left"><p>18 mg/kg/h</p>
+<p>0.06&#x2013;0.3 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>CRI</p>
+<p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p>
+<p>Remifentanil</p></entry>
+<entry align="left"><p>2&#x2013;4 mg/kg</p>
+<p>No loading</p></entry>
+<entry align="left"><p>18&#x2013;30 mg/kg/h</p>
+<p>0.018&#x2013;0.036 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>VRI</p>
+<p>CRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p>
+<p>Remifentanil</p></entry>
+<entry align="left"><p>2&#x2013;4 mg/kg</p>
+<p>No loading</p></entry>
+<entry align="left"><p>Plasma target 3&#x2013;3.5 &#x03BC;g/ml</p>
+<p>0.012&#x2013;0.03 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>TCI</p>
+<p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone</p></entry>
+<entry align="left"><p>2&#x2013;3 mg/kg</p></entry>
+<entry align="left"><p>7&#x2013;10 mg/kg/h</p></entry>
+<entry align="left"><p>Non-painful procedures</p></entry>
+<entry align="left"><p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone</p>
+<p>Buprenorphine</p></entry>
+<entry align="left"><p>1&#x2013;3 mg/kg</p>
+<p>0.02 mg/kg</p></entry>
+<entry align="left"><p>4&#x2013;18 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery (ovariohysterectomy)</p></entry>
+<entry align="left"><p>VRI</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+
+<table-wrap id="tbl14_14">
+<label>14.14</label>
+<caption><title>Infusion regimens for TIVA in the cat after routine pre-anaesthetic medication. CRI = constant rate infusion; TIVA = total intravenous anaesthesia; VRI = variable rate infusion.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="30%"/>
+<col content-type="4" width="20%"/>
+<col content-type="5" width="10%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drugs</p></entry>
+<entry align="left"><p>Induction/loading dose</p></entry>
+<entry align="left"><p>Maintenance dose</p></entry>
+<entry align="left"><p>Indication</p></entry>
+<entry align="left"><p>Infusion</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>6&#x2013;8 mg/kg</p></entry>
+<entry align="left"><p>12 mg/kg/h or 2 mg/kg every 5 minutes to effect</p></entry>
+<entry align="left"><p>Deep sedation</p></entry>
+<entry align="left"><p>CRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol</p></entry>
+<entry align="left"><p>6&#x2013;8 mg/kg</p></entry>
+<entry align="left"><p>24&#x2013;30 mg/kg/h</p></entry>
+<entry align="left"><p>Non-painful procedures</p></entry>
+<entry align="left"><p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol and fentanyl or alfentanil or sufentanil</p></entry>
+<entry align="left"><p>4&#x2013;6 mg/kg</p>
+<p>0.001 mg/kg</p>
+<p>0.005 mg/kg</p>
+<p>0.001 mg/kg</p></entry>
+<entry align="left"><p>7.2&#x2013;18 mg/kg/h</p>
+<p>0.006 mg/kg/h</p>
+<p>0.03 mg/kg/h</p>
+<p>0.006 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>VRI</p>
+<p>CRI</p>
+<p>CRI</p>
+<p>CRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Propofol and</p>
+<p>remifentanil</p></entry>
+<entry align="left"><p>6&#x2013;8 mg/kg</p>
+<p>No loading</p></entry>
+<entry align="left"><p>18 mg/kg/h</p>
+<p>0.012&#x2013;0.018 mg/kg/h</p></entry>
+<entry align="left"><p>Surgery</p></entry>
+<entry align="left"><p>CRI</p>
+<p>VRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone</p></entry>
+<entry align="left"><p>2&#x2013;3 mg/kg</p></entry>
+<entry align="left"><p>4&#x2013;8 mg/kg/h or 1 mg/kg every 10 minutes to effect</p></entry>
+<entry align="left"><p>Deep sedation, without endotracheal tube</p></entry>
+<entry align="left"><p>CRI</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfaxalone</p>
+<p>Buprenorphine</p></entry>
+<entry align="left"><p>3&#x2013;5 mg/kg</p>
+<p>0.02 mg/kg</p></entry>
+<entry align="left"><p>8&#x2013;14 mg/kg/h</p></entry>
+<entry align="left"><p>&#x00A0;</p></entry>
+<entry align="left"><p>VRI</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<p>The ideal drug for TIVA does not accumulate and can be infused at a constant rate over prolonged periods of time. However, distribution processes over time, individual and breed differences in pharmacokinetics and sensitivity to a drug, and surgical stimulation make adjustments of the infusion rate necessary. Therefore, the infusion rate is rarely kept constant throughout the whole anaesthetic, but is adjusted to the animal&#x2019;s needs. A common approach is to keep either the primary analgesic or the injectable anaesthetic at a constant rate and infuse the secondary drug to effect; if necessary both infusion rates can be adjusted (Figures 14.13 and 14.14).</p>
+
+<sec3 id="ch-ss">
+<title>Target-controlled infusion</title>
+<p>The idea of TCI systems is to aim for a specific drug plasma concentration, which is known to produce a desired effect. Based on a mathematical (pharma&#x00AD;&#x00AD;co&#x00AD;-&#x00AD;kinetic&#x2013;pharmacodynamic) model, the TCI system&#x2019;s microprocessor predicts changes in drug concentration and controls an infusion device. Infusion rates are adjusted automatically by the system to obtain the target drug plasma concentration. With an open, model-based system, the anaesthetist sets the target concentration based on knowledge of drug effects. The plasma target is a calculated number based on a mathematical model and not a measured concentration. Therefore, the performance of TCI systems depends on the pharmacokinetic model (ideally a population-based model) used, and requires careful evaluation. In veterinary anaesthesia, population-based models are lacking and differences between targeted and actual blood concentration can be large. The next step in the development of automated drug-delivery systems is to feed the measured drug effect (e.g. arterial blood pressure measurements, electroencephalography (EEG) traces) back into the system. With such &#x2018;closed loop&#x2019; systems the model is permanently updated based on actual drug effects rather than on drug concentration. With the advent of real-time drug analysers for propofol, feedback based on actual blood concentration might be possible.</p>
+</sec3>
+</sec2>
+
+<sec2 id="ch-ss">
+<title><xref ref-type="page" id="page_"/>Infusion devices</title>
+<p>Infusion devices are classified as either controllers or pos&#x00AD;itive displacement pumps. Rate controllers simply control the flow of fluid/drug produced by gravity. Infusion sets with regulating roller clamps come in different sizes, labelled as the number of drops producing 1 ml of fluid. They deliver fluids/drugs with an accuracy of &#x00B1; 10% depending on the height above ground. To restrict the total volume that can be infused and facilitate stan&#x00AD;dardized dilution, an infusion system with two drip chambers and a burette (Figure 14.15) (SmartSite<sup>&#x00AE;</sup>; Dosifix<sup>&#x00AE;</sup>) is useful. Infusion by gravity with an infusion set is a simple way of administering an anaesthetic continuously, but is less accurate than administration with an infusion pump and requires careful calculation and adjustment of the drip rate.</p>
+<p>Positive displacement pumps contain an active pumping mechanism. Volumetric infusion pumps (Figure 14.16) work with different delivery mechanisms (bellows, piston, peristaltic, shuttle) and can produce delivery rates of 0.1&#x2013;1999 ml/h with an accuracy of &#x00B1; 5%. This type of pump may require special tubing/infusion sets and cannot be used with regular infusion sets.</p>
+
+<fig id="fig14_15">
+<label>14.15</label>
+<caption><title>Infusion system with a burette and a microdrip chamber.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_15.png" mime-subtype="png"/>
+
+</fig>
+<fig id="fig14_16">
+<label>14.16</label>
+<caption><title>Volumetric infusion pumps.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_16.png" mime-subtype="png"/>
+</fig>
+
+<p>Administration of anaesthetics or haemodynamic agents using a drip infusion via roller clamps or a volu&#x00AD;metric infusion pump requires dilution of the very potent drugs to obtain dose rates (volume/time) suitable for administration by these systems. This can become prob&#x00AD;-lematic, particularly in very small animals. Piston pumps also divide the millilitre dose into portions, which can produce a &#x2018;mini-bolus&#x2019; effect in the patient, especially with diluted drugs that have a very short half-life (e.g. vasopressors).</p>
+<p>Syringe pumps (Figure 14.17) that use a stepper motor with a drive screw (syringe drivers) are particularly suitable for the delivery of potent anaesthetics. Rates as low as 0.01 ml/h can be delivered with high accuracy (2&#x2013;3 %). Many syringe drivers include a calculator feature, which enables the operator to set the patient bodyweight, the drug concentration and the infusion rate (as dose/weight/time); the device calculates the infusion in volume/unit time. Many pumps allow automatic recognition of syringe size and staged infusions, with programmable loading doses and maintenance infusions. Special tubing is not required with syringe drivers. Syringe drivers can deliver drugs accurately, even to very small patients, and infusion of the anaesthetic can be adjusted independent of fluid administration.</p>
+
+<fig id="fig14_17">
+<label>14.17</label>
+<caption><title>Syringe drivers.</title></caption>
+<graphic orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="fig14_17.png" mime-subtype="png"/>
+</fig>
+
+<p><xref ref-type="page" id="page_"/>Several modern syringe drivers have inbuilt TCI models for propofol, remifentanil and other drugs in humans. At present, syringe drivers with inbuilt computer software and pharmacokinetic models to run TCIs in dogs and cats are not commercially available. Syringe drivers (Graseby 3400 and 3500; see Figure 14.17) that can be controlled by a custom-built external computer and pharmacokinetic modelling software (Computer Control Infusion Pump (CCIP); University of Hong Kong), have been used to provide a target plasma concentration of various drugs in experimental animal studies and to evaluate TCI protocols for propofol anaesthesia in dogs. Because of the limited availability of infusion hardware and software, as well as the lack of evaluated population-based pharmacokinetic models, the TCI concept is still not ready to be used in veterinary practice.</p>
+
+</sec2>
+
+<sec2 id="ch-ss">
+<title>TIVA protocols</title>
+<p>Drugs used for maintenance of anaesthesia must have a pharmacokinetic profile that allows adjustment of anaesthetic depth by changing the infusion rate over prolonged periods of time, without significant accumulation and without significant prolongation of recovery (i.e. short and constant context-sensitive half-time). This means a suit&#x00AD;able drug should have rapid onset of effect, short duration of effect and high clearance rates with rapid metabolism to inactive substances and excretion.</p>
+<p>Of the currently licensed drugs, propofol is the most suitable and most commonly used for maintenance of anaesthesia by continuous infusion. Alfaxalone can also be used for maintenance of anaesthesia in dogs and for a limited time period in cats. Because both propofol and alfaxalone have poor analgesic properties, it is often combined with fentanyl or one of its derivatives (alfentanil, sufentanil or remifentanil). Medetomidine, dexmedetomidine and ketamine can also be given by infusion (Figure 14.18 and see Chapter 10).</p>
+<p>Diagnostic procedures, cast changes and low-invasive surgical procedures might be possible with low dose rates (and a low plasma concentration) of propofol or alfaxalone, at which spontaneous respiration is maintained. However, respiratory depression and hypoxaemia can occur even when spontaneous respiration persists. Therefore, oxygen should be supplemented for all pro&#x00AD;cedures lasting more than 20 minutes and equipment for intubation and IPPV should be readily available. TIVA protocols for prolonged, invasive surgical procedures require concurrent administration of an opioid with high efficacy. With these combinations, spontaneous respiration usually ceases and endotracheal intubation and mechanical ventilation are mandatory.</p>
+
+<table-wrap id="tbl">
+<label>14.18</label>
+<caption><title>Infusion regimens used in conjunction with inhalational anaesthesia to reduce anaesthetic requirements (partial intravenous anaesthesia). Intermittent positive pressure ventilation (IPPV) becomes necessary.</title></caption>
+<table frame="box" rules="all" border="1" cellpadding="1" cellspacing="1">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="30%"/>
+<col content-type="3" width="20%"/>
+<col content-type="4" width="30%"/>
+</colgroup>
+<thead>
+
+<row>
+<entry align="left"><p>Drugs</p></entry>
+<entry align="left"><p>Induction/loading dose</p></entry>
+<entry align="left"><p>Maintenance dose</p></entry>
+<entry align="left"><p>Comment</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Morphine</p></entry>
+<entry align="left"><p>0.15&#x2013;0.3 mg/kg slow i.v.</p></entry>
+<entry align="left"><p>0.1&#x2013;0.2 mg/kg/h</p></entry>
+<entry align="left"><p>Usually dogs only</p></entry>
+</row>
+<row>
+<entry align="left"><p>Hydromorphone</p></entry>
+<entry align="left"><p>0.05&#x2013;0.1 mg/kg i.v.</p></entry>
+<entry align="left"><p>0.05&#x2013;0.1 mg/kg/h</p></entry>
+<entry align="left"><p>Usually dogs only</p></entry>
+</row>
+<row>
+<entry align="left"><p>Fentanyl</p></entry>
+<entry align="left"><p>0.003&#x2013;0.005 mg/kg i.v.</p></entry>
+<entry align="left"><p>0.005&#x2013;0.04 mg/kg/h</p></entry>
+<entry align="left"><p>IPPV</p>
+<p>Bradycardia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Alfentanil</p></entry>
+<entry align="left"><p>0.003&#x2013;0.005 mg/kg i.v.</p></entry>
+<entry align="left"><p>0.03&#x2013;0.3 mg/kg/h</p></entry>
+<entry align="left"><p>IPPV</p>
+<p>Bradycardia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Sufentanil</p></entry>
+<entry align="left"><p>0.001&#x2013;0.003 mg/kg i.v.</p></entry>
+<entry align="left"><p>0.002&#x2013;0.006 mg/kg/h</p></entry>
+<entry align="left"><p>IPPV</p>
+<p>Bradycardia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Remifentanil</p></entry>
+<entry align="left"><p>None required or use fentanyl (takes 15&#x2013;30 minutes for remifentanil infusion to reach an effective plasma concentration)</p></entry>
+<entry align="left"><p>0.012&#x2013;0.04 mg/kg/h</p></entry>
+<entry align="left"><p>IPPV</p>
+<p>Bradycardia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Ketamine</p></entry>
+<entry align="left"><p>0.3&#x2013;0.5 mg/kg i.v.</p></entry>
+<entry align="left"><p>0.12&#x2013;1.2 mg/kg/h</p>
+<p>(commonly 0.3 mg/kg/h)</p></entry>
+<entry align="left"><p>High doses lead to ketamine &#x2018;signs&#x2019;</p>
+<p>(see text for details)</p></entry>
+</row>
+<row>
+<entry align="left"><p>Medetomidine</p></entry>
+<entry align="left"><p>0.001&#x2013;0.002 mg/kg i.m. or i.v.</p></entry>
+<entry align="left"><p>0.001&#x2013;0.002 mg/kg/h</p></entry>
+<entry align="left"><p>Bradycardia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Dexmedetomidine</p></entry>
+<entry align="left"><p>0.0005&#x2013;0.001 mg/kg i.m. or i.v. </p></entry>
+<entry align="left"><p>0.0005&#x2013;0.001 mg/kg/h</p></entry>
+<entry align="left"><p>Bradycardia</p></entry>
+</row>
+<row>
+<entry align="left"><p>Lidocaine</p></entry>
+<entry align="left"><p>Dog: 2 mg/kg i.v.</p>
+<p>Cat: 0.25 mg/kg slow i.v.</p></entry>
+<entry align="left"><p>1.5&#x2013;3 mg/kg/h</p>
+<p>0.6&#x2013;2 mg/kg/h</p></entry>
+<entry align="left"><p>Haemodynamic depression (hypotension) in cats</p></entry>
+</row>
+<row>
+<entry align="left"><p>Morphine </p>
+<p>Lidocaine </p>
+<p>Ketamine</p>
+<p>(MLK)</p></entry>
+<entry align="left"><p>Dog: 1&#x2013;2 ml/kg i.v.</p>
+<p>Cat: no loading or omit lidocaine</p></entry>
+<entry align="left"><p>0.2 mg/kg/h morphine</p>
+<p>3 mg/kg/h lidocaine</p>
+<p>0.6 mg/kg/h ketamine infused at 5 ml/kg/h </p>
+<p>Postoperative: 1 ml/kg/h</p></entry>
+<entry align="left"><p>10 mg morphine</p>
+<p>150 mg lidocaine</p>
+<p>30 mg ketamine in 250 ml saline</p></entry>
+</row>
+</tbody>
+</table>
+</table-wrap>
+
+<p><xref ref-type="page" id="page_"/>Various propofol TIVA infusion regimens (see Figure 14.13) have been used with excellent results in dogs for extended procedures (&#x003E;2 hours), but prolonged recoveries are to be expected in Greyhounds (see earlier). In cats, it seems advisable to restrict the duration of propofol infusions to 30&#x2013;60 minutes because of cats&#x2019; increased sensitivity to phenolic compounds and prolonged recoveries after propofol anaesthesia (see Figure 14.14).</p>
+<p>Maintenance of anaesthesia with TIVA administered by an infusion pump or a syringe driver does not mean that anaesthesia is automated, without need for intervention. Monitoring of anaesthesia and adjustment of anaesthetic depth by changing infusion rates should be as meticulous as monitoring during inhalational anaesthesia and asso&#x00AD;ciated adjustment by changing vaporizer settings.</p>
+</sec2>
+</sec1>
+
+<sec1 id="ch-ss">
+<title>Balanced anaesthesia</title>
+<p>As with propofol TIVA, different analgesic drugs (opioids, medetomidine/dexmedetomidine, ketamine and lidocaine) can be used as continuous infusions in conjunction with volatile agents, resulting in a type of balanced anaes&#x00AD;thesia, or partial intravenous anaesthesia (Duke, 2013). The analgesic and anaesthetic-sparing properties of these drugs allow use of reduced concentration of volatile agents and thereby less cardiovascular depression occurs. Dose rates of infusions for balanced anaesthesia techniques using various drugs are given in Figure 14.18. For detailed descriptions of the pharmacology of the single drugs, the reader is referred to Chapters 10 and 13.</p>
+</sec1>
+</body>
+
+<back>
+<ref-list>
+<title>References and further reading</title>
+<p>Adam HK, Glen JB and Hoyle PA (1980) Pharmacokinetics in laboratory animals of ICI 35 868, a new i.v. anaesthetic agent. <italic>British Journal of Anaesthesia</italic> <bold>52</bold>, 743&#x2013;746</p>
+<p>Ambros B, Duke-Novakovski T and Pasloske KS (2008) Comparison of the anesthetic efficacy and cardiopulmonary effects of continuous rate infusions of alfaxalone-2-hydroxypropyl-beta-cyclodextrin and propofol in dogs. <italic>American Journal of Veterinary Research</italic> <bold>69</bold>, 1391&#x2013;1398</p>
+<p>Andress JL, Day TK and Day D (1995) The effects of consecutive day propofol anesthesia on feline red blood cells. <italic>Veterinary Surgery</italic> <bold>24</bold>, 277&#x2013;282</p>
+<p>Beal MW and Hughes D (2000) Vascular access: theory and techniques in the small animal emergency patient. <italic>Clinical Techniques in Small Animal Practice</italic> <bold>15</bold>, 101&#x2013;109</p>
+<p>Beths T, Reid J, Monteiro AM, Nolan AM and Glen JB (2001) Evaluation and optimisation of target-controlled infusion systems for administering propofol to dogs as part of a total intravenous anaesthetic technique during dental surgery. <italic>Veterinary Record</italic> <bold>148</bold>, 198&#x2013;203</p>
+<p>Beths T, Touzot-Jourde G, Musk G and Pasloske K (2014) Clinical evaluation of alfaxalone to induce and maintain anaesthesia in cats undergoing neutering procedures. <italic>Journal of Feline Medicine and Surgery</italic> <bold>16(8)</bold>, 609&#x2013;615</p>
+<p>Bley CR, Roos M, Price J <italic>et al.</italic> (2007) Clinical assessment of repeated propofol-associated anesthesia in cats. <italic>Journal of the American Veterinary Medical Association</italic> <bold>231</bold>, 1347&#x2013;1353</p>
+<p>Boscan P, Pypendop B, Solano A and Ilkiw JE (2005) Cardiovascular and respiratory effects of ketamine infusions in isoflurane-anesthetized dogs before and during noxious stimulation. <italic>American Journal of Veterinary Research</italic> <bold>66</bold>, 2122&#x2013;2129</p>
+<p>Chamberlin SC, Sullivan LA, Morley PS and Boscan P (2013) Evaluation of ultrasound-guided vascular access in dogs. <italic>Journal of Veterinary Emergency and Critical Care</italic> <bold>23</bold>, 498&#x2013;503</p>
+<p>Clarke KW, Trim CM and Hall LW (2013) <italic>Veterinary Anaesthesia, 11th edn.</italic> Saunders, Edinburgh</p>
+<p>Doebeli A, Michel E, Bettschart R, Hartnack S and Reichler IM (2013) Apgar score after induction of anesthesia for canine cesarean section with alfaxalone versus propofol. <italic>Theriogenology</italic> <bold>80</bold>, 850&#x2013;854</p>
+<p>Duke T (2013) Partial intravenous anesthesia in cats and dogs. <italic>Canadian Veterinary Journal</italic> <bold>54</bold>, 276&#x2013;282</p>
+<p>Ferr&#x00E9; P, Pasloske K, Whittem T <italic>et al.</italic> (2006) Plasma pharmacokinetics of alfaxalone in dogs after an intravenous bolus of Alfaxan-CD RTU. <italic>Veterinary Anaesthesia and Analgesia</italic> <bold>33</bold>, 229&#x2013;236</p>
+<p>Gaspard N, Foreman B, Judd LM <italic>et al.</italic> (2013) Intravenous ketamine for the treatment of refractory status epilepticus: a retrospective multicenter study. <italic>Epilepsia</italic> <bold>54</bold>, 498&#x2013;503</p>
+<p>Hanna RM, Borchard RE and Schmidt SL (1988) Pharmacokinetics of ketamine HCl and metabolite I in the cat: a comparison of i.v., i.m., and rectal administration. <italic>Journal of Veterinary Pharmacology and Therapeutics</italic> <bold>11</bold>, 84&#x2013;93</p>
+<p>Heit M, Pasloske K, Whittem T, Ranasinghe M and Li Q (2004) Plasma pharmacokinetics of alfaxalone in cats after administration at 5 and 25 mg/kg as an intravenous bolus of Alfaxan-CD RTU. In: <italic>Proceedings of the American College of Veterinary Internal Medicine</italic>, Minneapolis, pp. 849&#x2013;850</p>
+<p>Herbert GL, Bowlt KL, Ford-Fennah V, Covey-Crump GL and Murrell JC (2013) Alfaxalone for total intravenous anaesthesia in dogs undergoing ovariohysterectomy: a comparison of premedication with acepromazine or dexmedetomidine. <italic>Veterinary Anaesthesia and Analgesia</italic> <bold>40</bold>, 124&#x2013;133</p>
+<p>Ilkiw J, Benthuysen J, Ebling W and McNeal D (1991) A comparative study of the pharmacokinetics of thiopental in the rabbit, sheep and dog. <italic>Journal of Veterinary Pharmacology and Therapeutics</italic> <bold>14</bold>, 134&#x2013;140</p>
+<p>Ilkiw J and Pascoe P (2003) Cardiovascular effects of propofol alone and in combination with ketamine for total intravenous anesthesia in cats. <italic>American Journal of Veterinary Research</italic> <bold>64</bold>, 913&#x2013;917</p>
+<p>Jackson A, Tobias K, Long C, Bartges J and Harvey R (2004) Effects of various anesthetic agents on laryngeal motion during laryngoscopy in normal dogs. <italic>Veterinary Surgery</italic> <bold>33</bold>, 102&#x2013;106</p>
+<p>Kaka J and Hayton W (1980) Pharmacokinetics of ketamine and two metabolites in the dog. <italic>Journal of Pharmacokinetics and Biopharmaceutics</italic> <bold>8</bold>, 193&#x2013;202</p>
+<p>Keates H and Whittem T (2012) Effect of intravenous dose escalation with alfaxalone and propofol on occurrence of apnoea in the dog. <italic>Research in Veterinary Science</italic> <bold>93</bold>, 904&#x2013;906</p>
+<p>Luna S, Cassu R, Castro G <italic>et al.</italic> (2004) Effects of four anaesthetic protocols on the neurological and cardiorespiratory variables of puppies born by caesarean section. <italic>Veterinary Record</italic> <bold>154</bold>, 387&#x2013;389</p>
+<p>Matot I, Neely CF, Katz RY and Neufeld GR (1993) Pulmonary uptake of propofol in cats. Effect of fentanyl and halothane. <italic>Anesthesiology</italic> <bold>78</bold>, 1157&#x2013;1165</p>
+<p>McIntosh MP, Schwarting N and Rajewski RA (2004) <italic>In vitro</italic> and <italic>in vivo</italic> evaluation of a sulfobutyl ether beta-cyclodextrin enabled etomidate formulation. <italic>Journal of Pharmaceutical Sciences</italic> <bold>93</bold>, 2585&#x2013;2594</p>
+<p>Mendes G and Selmi A (2003) Use of a combination of propofol and fentanyl, alfentanil, or sufentanil for total intravenous anesthesia in cats. <italic>Journal of the American Veterinary Medical Association</italic> <bold>223</bold>, 1608&#x2013;1613</p>
+<p>Muir W, Wiese AJ and March PA (2003) Effects of morphine, lidocaine, ketamine, and morphine-lidocaine-ketamine drug combination on minimum alveolar concentration in dogs anesthetized with isoflurane. <italic>American Journal of Veterinary Research</italic> <bold>64</bold>, 1155&#x2013;1160</p>
+<p>Murrell J, Notten RWV and Hellebrekers L (2005) Clinical investigation of remifentanil and propofol for the total intravenous anaesthesia of dogs. <italic>Veterinary Record</italic> <bold>156</bold>, 804&#x2013;808</p>
+<p>Musk GC and Flaherty DA (2007) Target-controlled infusion of propofol combined with variable rate infusion of remifentanil for anaesthesia of a dog with patent ductus arteriosus. <italic>Veterinary Anaesthesia and Analgesia</italic> <bold>34</bold>, 359&#x2013;364</p>
+<p>Musk GC, Pang DSJ, Beths T and Flaherty DA (2005) Target-controlled infusion of propofol in dogs &#x2013; evaluation of four targets for induction of anaesthesia. <italic>Veterinary Record</italic> <bold>157</bold>, 766&#x2013;770</p>
+<p>Nolan A and Reid J (1993) Pharmacokinetics of propofol administered by infusion in dogs undergoing surgery. <italic>British Journal of Anaesthesia</italic> <bold>70</bold>, 546&#x2013;551</p>
+<p>Nolan AM, Reid J and Grant S (1993) The effects of halothane and nitrous oxide on the pharmacokinetics of propofol in dogs. <italic>Journal of Veterinary Pharmacology and Therapeutics</italic> <bold>16</bold>, 335&#x2013;342</p>
+<p>O&#x2019;Hagan B, Pasloske K, McKinnon C, Perkins N and Whittem T (2012a) Clinical evaluation of alfaxalone as an anaesthetic induction agent in dogs less than 12 weeks of age. <italic>Australian Veterinary Journal</italic> <bold>90</bold>, 346&#x2013;350</p>
+<p>O&#x2019;Hagan BJ, Pasloske K, McKinnon C, Perkins NR and Whittem T (2012b) Clinical evaluation of alfaxalone as an anaesthetic induction agent in cats less than 12 weeks of age. <italic>Australian Veterinary Journal</italic> <bold>90</bold>, 395&#x2013;401</p>
+<p>Paris A, Philipp M, Tonner PH <italic>et al.</italic> (2003). Activation of alpha 2B-adrenoceptors mediates the cardiovascular effects of etomidate. <italic>Anesthesiology</italic> <bold>99</bold>, 889&#x2013;895</p>
+<p>Pascoe PJ, Ilkiw JE and Frischmeyer KJ (2006a) The effect of the duration of propofol administration on recovery from anesthesia in cats. <italic>Veterinary Anaesthesia and Analgesia</italic> <bold>33</bold>, 2&#x2013;7</p>
+<p>Pascoe PJ, Raekallio M, Kuusela E, McKusick B and Granholm M (2006b) Changes in the minimum alveolar concentration of isoflurane and some cardiopulmonary measurements during three continuous infusion rates of dexmedetomidine in dogs. <italic>Veterinary Anaesthesia and Analgesia</italic> <bold>33</bold>, 97&#x2013;103</p>
+<p><xref ref-type="page" id="page_"/>Pypendop B and Ilkiw J (2005) Pharmacokinetics of ketamine and its metabolite, norketamine, after intravenous administration of a bolus of ketamine to isoflurane-anesthetized dogs. <italic>American Journal of Veterinary Research</italic> <bold>66</bold>, 2034&#x2013;2038</p>
+<p>Ramoo S, Bradbury LA, Anderson GA and Abraham LA (2013) Sedation of hyperthyroid cats with subcutaneous administration of a combination of alfaxalone and butorphanol. <italic>Australian Veterinary Journal</italic> <bold>91</bold>, 131&#x2013;136</p>
+<p>Reid J and Nolan AM (1996) Pharmacokinetics of propofol as an induction agent in geriatric dogs. <italic>Research in Veterinary Science</italic> <bold>61</bold>, 169&#x2013;171</p>
+<p>Riviere JE (2011) <italic>Comparative Pharmacokinetics: Principles, Techniques and Applications, 2nd edn</italic>. John Wiley &#x0026; Sons</p>
+<p>Serrano S, Hughes D and Chandler K (2006) Use of ketamine for the management of refractory status epilepticus in a dog. <italic>Journal of Veterinary Internal Medicine</italic> <bold>20</bold>, 194&#x2013;197</p>
+<p>Strachan FA, Mansel JC and Clutton RE (2008) A comparison of microbial growth in alfaxalone, propofol and thiopental. <italic>Journal of Small Animal Practice</italic> <bold>49</bold>, 186&#x2013;190</p>
+<p>Ueda Y, Odunayo A and Mann FA (2013) Comparison of heparinized saline and 0.9% sodium chloride for maintaining peripheral intravenous catheter patency in dogs. <italic>Journal of Veterinary Emergency and Critical Care</italic> <bold>23</bold>, 517&#x2013;522</p>
+<p>Warne LN, Beths T, Whittem T, Carter JE and Bauquier SH (2015) A review of the pharmacology and clinical application of alfaxalone in cats. <italic>The Veterinary Journal</italic> <bold>203(2)</bold>, 141&#x2013;148</p>
+<p>Wertz E, Benson G, Thurmon J <italic>et al.</italic> (1990) Pharmacokinetics of etomidate in cats. <italic>American Journal of Veterinary Research</italic> <bold>51</bold>, 281&#x2013;285</p>
+<p>Woerlee GM (2008) Gerry&#x2019;s real world guide to pharmacokinetics and other things. Available from www.anesthesiaweb.org/images/real-world-guide/gwoerlee101508a.pdf</p>
+<p>Wright M (1982) Pharmacologic effects of ketamine and its use in veterinary medicine. <italic>Journal of the American Veterinary Medical Association</italic> <bold>180</bold>, 1462&#x2013;1471</p>
+<p>Zhang J, Maland L, Hague B <italic>et al.</italic> (1998) Buccal absorption of etomidate from a solid formulation in dogs. <italic>Anesthesia and Analgesia</italic> <bold>86</bold>, 1116&#x2013;1122</p>
+</ref-list>
+</back>
+</book-part>

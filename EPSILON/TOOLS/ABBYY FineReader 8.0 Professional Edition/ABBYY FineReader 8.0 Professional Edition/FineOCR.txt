@@ -1,0 +1,211 @@
+WORKING WITH ABBYY FINEREADER 8.0 VIA THE COMMAND LINE
+
+Command line syntax:
+
+FineOCR.exe ImageFiles [/lang LangNames] [/send SendTarget] [/read] [/OptionsFile OptionsFileName]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ImageFiles - the name of the image file to be processed in FineReader. You can specify several files (separate them by spaces). Enclose the name of the file in quotation marks if the full path to the file contains spaces.
+
+LangName - the internal name of the recognition language. You can specify several recognition languages (separate them by spaces).
+
+List of available recognition languages (internal names):
+ 
+Abkhaz
+Adyghe
+Afrikaans
+Agul
+Albanian
+Altai
+ArmenianEastern
+ArmenianGrabar
+ArmenianWestern
+Avar
+Aymara
+AzeriCyrillic
+AzeriLatin
+Bashkir
+Basque
+Belarusian
+Bemba
+Blackfoot
+Breton
+Bugotu
+Bulgarian
+Buryat
+Catalan
+Chamorro
+Chechen
+Chukchee
+Chuvash
+Corsican
+Crimean Tatar
+Croatian
+Crow
+Czech
+Danish
+Dargwa
+Dungan
+Dutch
+DutchBelgian
+English
+EskimoCyrillic
+EskimoLatin
+Esperanto
+Estonian
+Even
+Evenki
+Faeroese
+Fijian
+Finnish
+French
+Frisian
+Friulian
+Gagauz
+Galician
+Ganda
+German
+GermanLuxembourg
+GermanNewSpelling
+Greek
+Guarani
+Hani
+Hausa
+Hawaiian
+Hungarian
+Icelandic
+Ido
+Indonesian
+Ingush
+Interlingua
+Irish
+Italian
+Kabardian
+Kalmyk
+Karachay-balkar
+Karakalpak
+Kasub
+Kawa
+Kazakh
+Khakass
+Khanty
+Kikuyu
+Kirghiz
+Kongo
+Koryak
+Kpelle
+Kumyk
+Kurdish
+Lak
+Lappish
+Latin
+Latvian
+Lezgi
+Lithuanian
+Luba
+Macedonian
+Malagasy
+Malay
+Malinke
+Maltese
+Mansy
+Maori
+Mari
+Maya
+Miao
+Minankabaw
+Mohawk
+Mongol
+Mordvin
+RomanianMoldavia
+Nahuatl
+Nenets
+Nivkh
+Nogay
+Norwegian
+NorwegianBokmal
+NorwegianNynorsk
+Nyanja
+Occidental
+Ojibway
+Ossetian
+Papiamento
+PidginEnglish
+Polish
+PortugueseStandard
+PortugueseBrazilian
+Provencal
+Quechua
+RhaetoRomanic
+Romanian
+Romany
+Ruanda
+Rundi
+Russian
+RussianOldSpelling
+Mixed
+Samoan
+GaelicScottish
+Selkup
+SerbianCyrillic
+SerbianLatin
+Shona
+Chemistry
+Sioux
+Slovak
+Slovenian
+Somali
+Sorbian
+Sotho
+Spanish
+Sunda
+Swahili
+Swazi
+Swedish
+Tabasaran
+Tagalog
+Tahitian
+Tajik
+Tatar
+Tinpo
+Tongan
+Tswana
+Tun
+Turkish
+Turkmen
+Tuvinian
+Udmurt
+UighurCyrillic
+UighurLatin
+Ukrainian
+UzbekCyrillic
+UzbekLatin
+Visayan
+Welsh
+Wolof
+Xhosa
+Yakut
+Zapotec
+Zulu
+Basic
+C++
+Cobol
+Fortran
+Java
+Digits
+Pascal
+ 
+SendTarget - the name of the application into which FineReader must send the recognition results. ABBYY FineReader 8.0 can save recognition results in the following formats:
+- MSWord - Microsoft Word
+- MSExcel - Microsoft Excel
+- WordPro - Lotus Word Pro
+- WordPerfect - Corel WordPerfect
+- StarWriter - Sun StarWriter 
+- Mail application - Mail Application in MSWord format
+- Clipboard - Clipboard
+- WebBrowser - Default Web Browser
+- Acrobat - Adobe Acrobat
+- PowerPoint - Microsoft PowerPoint
+
+/read - means that the specified images must be recognized by FineReader. If you type in the /send command, FineReader will ignore the /read command.
+
+OptionsFileName - the path to the file containing the batch settings (*.fbt) to be used for recognition.

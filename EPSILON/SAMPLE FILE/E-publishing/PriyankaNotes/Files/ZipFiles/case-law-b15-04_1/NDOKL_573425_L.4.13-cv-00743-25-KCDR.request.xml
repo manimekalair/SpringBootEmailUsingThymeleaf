@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>JANSEN FINE, and JESSICA FINE, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>CHLOETA FIRE, LLC, an Oklahoma limited liability company, and MARK D. MASTERS, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No.13-CV-743-JHP-FHM</docket.line>
+<docket.number>13-CV-743-JHP-FHM</docket.number>
+<docket.line suppress-flag="y">4:13-cv-00743-JHP-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 08/26/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>REPORT AND RECOMMENDATION</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">FRANK H. McCARTHY UNITED STATES MAGISTRATE JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Defendants' Partial Motion to Dismiss, [Dkt. 7], has been referred to the undersigned United States Magistrate Judge for report and recommendation. The matter has been fully briefed, [Dkt. 7, 14, 15], and is ripe for decision. The undersigned RECOMMENDS that the motion be GRANTED in part and DENIED in part.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>BACKGROUND</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Defendant Mark D. Masters (Masters) and Plaintiff Jansen Fine (Jansen) formed Chloeta Fire, LLC, an Oklahoma Limited Liability Company under the Oklahoma Limited Liability Company Act and entered into an Operating Agreement to provide for the governance of the company (Chloeta Fire). [Dkt. 2-1]. Masters and Jansen each had a 50% membership interest when they started Chloeta Fire. Jansen invested money, quit his job, and devoted his efforts to Chloeta Fire. Jansen obtained contracts for Chloeta Fire. Masters convinced Jansen to decrease his membership interest in Chloeta Fire to 33.3%. Thereafter Masters began operating Chloeta Fire as if he were the sole owner. The business relationship between Masters and Jansen broke down. Masters filed Articles of Dissolution of Chloeta Fire without the knowledge and consent of Jansen and filed Articles of Incorporation for a new Chloeta Fire, LLC, without Jansen. The new Chloeta Fire, LLC is carrying out contracts awarded as the result of Jansen's efforts and is operating using the contributions made by Jansen. Jansen has not approved the dissolution of Chloeta Fire, LLC and has not been paid for his interest in that company.</paratext></para>
+<para><paratext ID="p3" level="1">Jansen and his wife Jessica Fine seek compensatory and punitive damages asserting the following claims: breach of contract; unjust enrichment; constructive trust; minority oppression; breach of fiduciary duty; and tortious interference. [Dkt. 2].</paratext></para>
+<para><paratext ID="p4" level="1">Defendants seek dismissal of all claims asserted by Jessica Fine for lack of standing under Fed.R.Civ.P. 12(b)(1) and 12(b)(6), and seek dismissal of Jansen Fine's claims for minority oppression and tortious interference with contract under Fed.R.Civ.P. 12(b)(6).</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>LEGAL STANDARDS</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p5" level="1">The court's function on a motion to dismiss brought under Fed.R.Civ.P. 12(b)(6) is to assess whether the complaint alone is legally sufficient to state a claim for which relief may be granted. <ital>Brokers Choice of America v. NBC Universal, Inc.</ital>, &#8212; F.3d &#8212; (10th Cir. 2014), 2014 WL 33007834 at *5. All well-pled factual allegations are accepted as true and viewed in the light most favorable to the nonmoving party. <ital>Id.</ital> To survive a Rule 12(b)(6) motion, a complaint does not need detailed factual allegations. However, a plaintiff's obligation to provide the grounds of his entitlement to relief requires more than labels and conclusions--a formulaic recitation of the elements of a cause of action will not suffice. <ital>Bell Atl. Corp. v. Twombly</ital>, 550 U.S. 544, 550, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007). &#x201C;A claim has facial plausibility when the plaintiff pleads factual content that allows the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.&#x201D; <ital>Ashcroft v. Iqbal</ital>, 556 U.S. 662, 678, 129 S.Ct. 1937, 173 L.Ed.2d 868 (2009). &#x201C;Factual allegations must be enough to raise the right to relief above the speculative level.&#x201D; <ital>Twombly</ital>, 550 U.S. at 555, 127 S.Ct. 1955.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>ANALYSIS</bold></underscore></headtext></head>
+<head><headtext align="center"><underscore><bold>Claims Asserted by Jessica Fine</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Defendants seek dismissal of all claims asserted by Plaintiff Jessica Fine for lack of standing, arguing that since she was not a party to the Operating Agreement she cannot prove she suffered injury attributable to Defendants' conduct as alleged in the complaint. In response, Plaintiffs argue that most of Defendants' brief can be &#x201C;summarily disregarded because the only claims alleged by Jessica are unjust enrichment and constructive trust.&#x201D; [Dkt. 14, p. 2].</paratext></para>
+<para><paratext ID="p7" level="1">It is not clear from a reading of the complaint that unjust enrichment and constructive trust are the only claims being asserted by Jessica Fine. Throughout the complaint in relation to other claims (minority oppression, breach of fiduciary duty, tortious interference) damages are sought on behalf of both Plaintiffs. [Dkt. 2, pp. 10, 11]. In light of Plaintiffs' representation that the only claims being asserted by Jessica Fine are unjust enrichment and constructive trust, the undersigned RECOMMENDS that the Motion to Dismiss be GRANTED as to any claims by Jessica Fine for damages resulting from alleged minority oppression, breach of fiduciary duty, and tortious interference.</paratext></para>
+<para><paratext ID="p8" level="1">The undersigned finds that the claims of Jessica Fine for unjust enrichment and constructive trust should be dismissed for lack of standing. There are two aspects to standing: Article III standing, which enforces the Constitution's case-or-controversy requirement; and prudential standing which embodies &#x201C;judicially self-imposed limits on the exercise of federal jurisdiction.&#x201D; <ital>Wilderness Soc'y v. Kane Cnty.</ital>, 632 F.3d 1162, 1168 (10th Cir.2011) (quoting <ital>Elk Grove Unified Sch. Dist. v. Newdow</ital>, 542 U.S. 1, 11, 124 S.Ct. 2301, 159 L.Ed.2d 98 (2004) (quoting <ital>Allen v. Wright</ital>, 468 U.S. 737, 751, 104 S.Ct. 3315, 82 L.Ed.2d 556 (1984))). &#x201C;To have Article III standing, &#x2018;[t]he plaintiff must show that the conduct of which he complains has caused him to suffer an &#x2018;injury in fact&#x2019; that a favorable judgment will redress.&#x2019;&#x201D; <ital>Id.</ital> (quoting <ital>Newdow</ital>, 542 U.S at 12, 124 S.Ct. 2301). &#x201C;The prudential standing doctrine encompasses various limitations, including &#x2018;the general prohibition on a litigant's raising another person's legal rights.&#x2019;&#x201D; <ital>Id.</ital> (quoting <ital>Allen</ital>, 468 U.S. at 751, 104 S.Ct. 3315). &#x201C;&#x2018;[T]he plaintiff generally must assert his own legal rights and interests, and cannot rest his claim to relief on the legal rights or interests of third parties.&#x2019;&#x201D; <underscore>Id.</underscore> (quoting <ital>Warth v. Seldin</ital>, 422 U.S. 490, 499, 95 S.Ct. 2197, 45 L.Ed.2d 343 (1975)). The undersigned finds that Jessica Fine does not have standing to assert any claims against Defendants. Plaintiffs have not alleged Jessica Fine had any personal involvement in the transactions at issue. The complaint alleges that Jessica Fine's husband, Jansen Fine, paid cash and provided his full-time services as his initial capital contribution to Chloeta Fire. Jessica Fine was not a party to the Operating Agreement, was not named as a member in the Operating Agreement, was not a manager, or an employee. Plaintiffs assert that as Jansen Fine's wife, Jessica Fine has suffered inconvenience and hardship as a result of Jansen Fine's relationship with Defendants and his efforts and investment of marital assets in carrying out the terms of the Operating Agreement. However, aside from her relationship as the spouse of Jansen Fine, the complaint contains no allegations that Jessica Fine, herself, played any part in the events that form the basis of the claims against Defendants.</paratext></para>
+<para><paratext ID="p9" level="1">One does not have standing to assert the legal rights of others. <ital>Wilderness Soc'y</ital>, 632 F.3d at 1168. Jessica Fine does not assert any claim of her own. The undersigned finds therefore, that because Jessica Fine lacks standing, she has not alleged any claim upon which relief can be granted.</paratext></para>
+<para><paratext ID="p10" level="1">The undersigned United States Magistrate Judge RECOMMENDS that the motion to dismiss be GRANTED as to all claims asserted by Jessica Fine.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>Claims Asserted by Jansen Fine <underscore>Tortious Interference</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">Defendants seek dismissal of Jansen Fine's claim that Masters interfered with Jansen Fine's relationship with Chloeta Fire. The relationship between Chloeta Fire and Jansen Fine was established by the Operating Agreement which under Oklahoma law, 18 Okla.Stat. &#167;2012.2(A)(1), governs the relations among the members and between the members and Chloeta Fire as a limited liability company. Defendants argue that since Masters was also a party to the Operating Agreement, under Oklahoma law,<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> he was legally incapable of interfering with the business relationship or contract. Oklahoma case law supports Defendants' argument.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p12">&#8195;The parties agree that Oklahoma law is applicable to the claims in this case.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p13" level="1">In <ital>Hawk Enterprises, Inc. v. Cash America International, Inc.</ital>, 282 P.2d 786 (Okla. Civ. App. 2012) the Oklahoma Court of Civil Appeals clearly stated that Oklahoma recognizes a claim for tortious interference with a contractual or business relationship if the plaintiff can prove the following:</paratext>
+<para><paratext ID="p14" first-line="2" turnover="2">(1) the interference was with an existing contractual or business right; (2) such interference was malicious and wrongful; (3) the interference was neither justified, privileged nor excusable; and (4) the interference proximately caused damage. <bold>Additionally, the claim is viable only if the interferor is not a party to the contract or business relationship.</bold></paratext></para>
+<paratext ID="p15" contd-flag="y">282 P.3d at 791 (quoting <ital>Wilspec Techs., Inc. v. Duncan Holding Group Co., Ltd.</ital>, 204 P.3d 69, 74 (Okla. 2009)), emphasis supplied. Since Masters, the alleged interferor, was a party to the Operating Agreement and the Chloeta Fire business relationship, it is apparent that Jansen Fine's claim for tortious interference fails to state a claim for which relief can be granted. The cases cited by Plaintiff which he argues establish an exception to the foregoing rule address whether an employee may be liable for interference with the contract of an employer or principal. Those cases do not address the current situation.</paratext>
+</para>
+<para><paratext ID="p16" level="1">The undersigned therefore RECOMMENDS that the motion to dismiss be GRANTED as to the claim for tortious interference.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>Minority Oppression</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="1">Jansen Fine has alleged a claim for minority oppression, which he acknowledges has not been recognized as a cause of action in Oklahoma. He argues, however, that this court is required to predict how the Oklahoma court would rule if presented with the question. Quoting <ital>Haas v. Farmers Insurance Group</ital>, 1991 WL 49768, *2 (10th Cir.), Defendants argue that the Tenth Circuit has ruled that it &#x201C;does not have the authority to confer or create a cause of action under state law where none exists.&#x201D; [Dkt. 15, p. 6].</paratext></para>
+<para><paratext ID="p18" level="1">Defendants' quote from the <ital>Haas</ital> case is not an accurate representation of the Tenth Circuit's opinion or the court's duty. The quoted language does appear in the <ital>Haas</ital> decision, but the Tenth Circuit was quoting language from a district court order, not stating a principle of law.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> In fact, it is a long-established rule that in a diversity case where the state's highest court has not addressed an issue presented, the federal court must determine what decision the state court would make if faced with the issue. <ital>Oliveros v. Mitchell</ital>, 449 F.3d 1091, 1093 (10th Cir. 2006)(quoting <ital>Armijo v. Ex Cam, Inc.</ital>, 843 F.2d 406, 407 (10th Cir. 1988). In performing this task, the federal court should consider state court decisions, decisions of other states, federal decisions, and the general weight and trend of authority. <ital>Hartford v. Gibbons &#38; Reed Co.</ital>, 617 F.2d 567, 569 (10th Cir. 1980). <ital>See also Schrock v. Wyeth, Inc.</ital>, 727 F.3d 1273, 1280 (10th Cir. 2013) (same).</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p19">&#8195;The issue on appeal was explicitly limited to whether the district court erred in failing to either rule definitively that the Oklahoma Supreme Court would or would not recognize a tort or certify the question. The appellant requested a remand to the district court with instructions for the court to do one or the other. The Tenth Circuit found that the district court did make a decision on the merits by finding that Oklahoma did not recognize the cause of action. The Tenth Circuit was critical of the quoted language, saying that the decision on the merits is &#x201C;no less conclusive because the reasoning behind it may be subject to challenge.&#x201D; 1991 WL 49768 at *2.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p20" level="1">The parties agree that neither the Oklahoma Courts, nor the Oklahoma Legislature has addressed the question of whether an independent cause of action exists for &#x201C;minority oppression.&#x201D; Plaintiff states that in 18 Okla.Stat. &#167;2060, the legislature specifically left the door open for such causes of action. Section 2060 states: &#x201C;In any case not provided for in th[e Oklahoma Limited Liability Company Act], the rules of law and equity, including the law merchant, shall govern.&#x201D; The undersigned is not persuaded that the existence of this provision provides any basis for predicting whether Oklahoma would recognize an independent tort for minority oppression. The cases from other jurisdictions Plaintiff cited are not helpful because they arise under a variety of statutory schemes and, while the cases address minority shareholder situations, many of the cases address fiduciary duty rather than an independent tort. The parties' briefs do not provide sufficient thoughtful analysis of the topic for the matter to be determined on the instant motion.</paratext></para>
+<para><paratext ID="p21" level="1">The undersigned notes, however, that 18 Okla.Stat. &#167;2017(B) prohibits the articles of organization or operating agreement of a limited liability company from limiting or eliminating the liability of a manager<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> for:</paratext>
+<para><paratext ID="p22" first-line="2" turnover="2">1. Any breach of the manager's duty of loyalty to the limited liability company or its members;</paratext></para>
+<para><paratext ID="p23" first-line="2" turnover="2">2. Acts or omissions not in good faith or which involve intentional misconduct or a knowing violation of the law; or</paratext></para>
+<para><paratext ID="p24" first-line="2" turnover="2">3. Any transaction from which the manager derived an improper personal benefit.</paratext></para>
+<paratext ID="p25" contd-flag="y">These provisions suggest that, to the extent Masters was operating as a manager, he may have liability under Oklahoma law to members for a breach of the duty of loyalty. Although, as a practical matter, that may be the same thing as the liability for breach of fiduciary duty.<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference></paratext>
+</para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p26">&#8195;One could conclude that Masters meets the statutory definition of a manager, 18 Okla. Stat. &#167;2001(13).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p27">&#8195;Oklahoma recognized and Plaintiff has plead a claim for breach of fiduciary duty by a majority shareholder. <ital>See Renberg v. Zarrow</ital>, 667 P.2d 465, 472 (Okla. 1983).</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p28" level="1">The undersigned finds that regardless of what the action is called, the allegations in the complaint are sufficient to raise the right of Jansen Fine to recover from Masters for the alleged misdeeds to be above the speculative level. Therefore, without deciding whether Oklahoma would recognize an independent tort for minority oppression, the undersigned RECOMMENDS that the motion to dismiss be DENIED without prejudice to seeking summary judgment on the topic.<footnote.reference ID="fr5" refid="f5" style="percent_n">5</footnote.reference></paratext></para>
+<footnote ID="f5"><footnote.body><para><label.designator>FN5.</label.designator><paratext ID="p29">&#8195;If summary judgment is sought on the subject of minority oppression, the parties should fully address the topic, including a thorough discussion of the elements and remedies. In addition the parties should explain how the elements and remedies differ from the other claims asserted.</paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="center"><underscore><bold>CONCLUSION</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p30" level="1">The undersigned United States Magistrate Judge RECOMMENDS that Defendants' Partial Motion to Dismiss, [Dkt. 7], be GRANTED in part and DENIED in part.</paratext></para>
+<para><paratext ID="p31" level="1">In accordance with 28 U.S.C. &#167;636(b) and Fed. R. Civ. P. 72(b)(2), a party may file specific written objections to this report and recommendation. Such specific written objections must be filed with the Clerk of the District Court for the Northern District of Oklahoma on or before September 9, 2014.</paratext></para>
+<para><paratext ID="p32" level="1">If specific written objections are timely filed, Fed.R.Civ.P. 72(b)(3) directs the district judge to:</paratext>
+<para><paratext ID="p33" first-line="2" turnover="2">determine de novo any part of the magistrate judge's disposition that has been properly objected to. The district judge may accept, reject, or modify the recommended disposition; receive further evidence; or return the matter to the magistrate judge with instructions.</paratext></para>
+</para>
+<para><paratext ID="p34" level="1">See also 28 U.S.C. &#167; 636(b)(1).</paratext></para>
+<para><paratext ID="p35" level="1">The Tenth Circuit has adopted a &#x201C;firm waiver rule&#x201D; which &#x201C;provides that the failure to make timely objections to the magistrate's findings or recommendations waives appellate review of factual and legal questions.&#x201D; <ital>United States v. One Parcel of Real Property</ital>, 73 F.3d 1057, 1059 (10th Cir. 1996) (quoting <ital>Moore v. United States</ital>, 950 F.2d 656, 659 (10th Cir. 1991)). Only a timely specific objection will preserve an issue for de novo review by the district court or for appellate review.</paratext></para>
+<para><paratext ID="p36" level="1">DATED this 26th day of August, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

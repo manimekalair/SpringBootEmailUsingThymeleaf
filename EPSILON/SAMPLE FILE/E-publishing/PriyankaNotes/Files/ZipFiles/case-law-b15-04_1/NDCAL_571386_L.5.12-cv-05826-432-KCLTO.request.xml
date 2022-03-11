@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>NORTHERN DISTRICT OF CALIFORNIA</venue.name>
+<venue.name>SAN JOSE DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>GOOD TECHNOLOGY CORPORATION and GOOD TECHNOLOGY SOFTWARE, INC., Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>MOBILEIRON, INC., Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 5:12-cv-05826-PSG</docket.line>
+<docket.number>5:12-cv-05826-PSG</docket.number>
+<docket.line suppress-flag="y">5:12-cv-05826-PSG</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 07/01/2015</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>ORDER GRANTING-IN-PART MOTION TO STRIKE PORTIONS OF REIHER EXPERT REPORT (Re: Docket No. 260)</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">PAUL S. GREWAL United States Magistrate Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Plaintiffs Good Technology Corporation and Good Technology Software, Inc. move to strike portions of Defendant MobileIron, Inc.'s expert report of Peter Reiher. Upon extended review of the parties' papers and consideration of last month's oral arguments, the motion is GRANTED but only IN PART.</paratext></para>
+<para><paratext ID="p2" level="1">There are two key issues to consider: was the portion of the expert report previously disclosed, and if not, was the non-disclosure substantially justified and harmless? Courts in this district consider five factors to determine whether a non-disclosure was substantially justified or harmless: &#x201C;(1) the surprise to the party against whom the evidence would be offered; (2) the ability of that party to cure the surprise; (3) the extent to which allowing the evidence would disrupt the trial; (4) the importance of the evidence; and (5) the non-disclosing party's explanation for it[s] failure to disclose the evidence.&#x201D;<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p3">&#8195;<ital>Guzik Tech. Enters. v. Western Digital Corp.</ital>, Case No. 11-cv-03786, 2013 U.S. Dist. LEXIS 164727, at *15 (N.D. Cal. Nov. 18, 2013) (citing <ital>San Francisco Baykeeper v. W. Bay Sanitary Dist.</ital>, 791 F. Supp. 2d 719, 733 (N.D. Cal. 2011)).</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p4" level="1">The Patent Local Rules &#x201C;require that parties lay out their infringement and validity contentions early enough to give their opponents a fair shot at rebuttal.&#x201D;<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> The rules are &#x201C;designed to require parties to crystalize theories of the case early in the litigation and to adhere to those theories once they have been disclosed.&#x201D;<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> Expert reports in patent litigation &#x201C;are expected to provide more information than is contained&#x201D; in a party's infringement contentions.<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference> &#x201C;Contentions need not disclose specific evidence, whereas expert reports must include a complete statement of the expert's opinions, the basis and reasons for them, and any data or other information considered when forming them.&#x201D;<footnote.reference ID="fr5" refid="f5" style="percent_n">5</footnote.reference> The primary question at this stage is, &#x201C;has the expert permissibly specified the application of a disclosed theory, or has the expert impermissibly substituted a new theory altogether?&#x201D;<footnote.reference ID="fr6" refid="f6" style="percent_n">6</footnote.reference> &#x201C;Exclusion of evidence is often an appropriate sanction for the failure to comply with the Patent Local Rules.&#x201D;<footnote.reference ID="fr7" refid="f7" style="percent_n">7</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p5">&#8195;<ital>Apple Inc. v. Samsung Elecs. Co., Ltd.</ital>, Case No. 12-cv-00630, 2014 WL 173409, at *1 (N.D. Cal. Jan. 9, 2014).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p6">&#8195;<ital>Id.</ital></paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p7">&#8195;<ital>Digital Reg of Texas, LLC v. Adobe Sys. Inc.</ital>, Case No. 12-cv-01971, 2014 U.S. Dist. LEXIS 58113, at *17 (N.D. Cal. Apr. 24, 2014).</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f5"><footnote.body><para><label.designator>FN5.</label.designator><paratext ID="p8">&#8195;<ital>Apple Inc. v Samsung Elecs. Co., Ltd.</ital>, 2014 WL 173409, at *1.</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f6"><footnote.body><para><label.designator>FN6.</label.designator><paratext ID="p9">&#8195;<ital>Id.</ital></paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f7"><footnote.body><para><label.designator>FN7.</label.designator><paratext ID="p10">&#8195;<ital>O2 Micro Int'l, Ltd. v. Monolithic Power Sys.</ital>, 467 F.3d 1355, 1369 (Fed. Cir. 2006).</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p11" level="1">The court rules as follows:</paratext>
+<para><paratext ID="p12" level="1"><underscore><bold>Issue</bold></underscore></paratext></para>
+<para><paratext ID="p13" level="1">Reiher Report &#182; 89</paratext></para>
+<para><paratext ID="p14" level="1">Reiher Report &#182; 90</paratext></para>
+<para><paratext ID="p15" level="1"><underscore><bold>Ruling</bold></underscore></paratext></para>
+<para><paratext ID="p16" level="1">DENIED</paratext></para>
+<para><paratext ID="p17" level="1">DENIED</paratext></para>
+<para><paratext ID="p18" level="1">Reiher Report &#182; 91</paratext></para>
+<para><paratext ID="p19" level="1">Reiher Report &#182; 92</paratext></para>
+<para><paratext ID="p20" level="1">Reiher Report &#182; 93</paratext></para>
+<para><paratext ID="p21" level="1">Reiher Report &#182; 94</paratext></para>
+<para><paratext ID="p22" level="1">Reiher Report &#182;&#182;131-32</paratext></para>
+<para><paratext ID="p23" level="1">Reiher Report &#182;&#182; 144-45</paratext></para>
+<para><paratext ID="p24" level="1">DENIED</paratext></para>
+<para><paratext ID="p25" level="1">DENIED</paratext></para>
+<para><paratext ID="p26" level="1">DENIED</paratext></para>
+<para><paratext ID="p27" level="1">GRANTED</paratext></para>
+<para><paratext ID="p28" level="1">DENIED</paratext></para>
+<para><paratext ID="p29" level="1">DENIED</paratext></para>
+<para><paratext ID="p30" level="1"><bold>SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p31" level="1"><bold>Dated: July 1, 2015</bold></paratext></para>
+</para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,10 @@
+[Common]
+AppName=finereader.exe
+CheckStartUpDisk=no
+LogName=*ABBYY*.log
+AppCUregPath=FineReader\8.00\Fine Objects
+
+[E-Mail]
+7=SMTP:support@abbyy.ru
+
+

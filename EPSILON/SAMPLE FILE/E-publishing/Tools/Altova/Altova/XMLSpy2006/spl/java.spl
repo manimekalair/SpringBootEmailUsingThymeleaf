@@ -1,0 +1,249 @@
+[
+'-----------------------------------------------------------
+' Java XML Project Template
+'
+' Copyright (C) 2002-2005 Altova GmbH - The XMLSPY Company
+' All rights reserved.
+'
+' XMLSpy Enterprise Edition generates Java classes
+' based on this template.
+' Refer to the XMLSpy Documentation for further details.
+'
+' http://www.altova.com/xmlspy
+'-----------------------------------------------------------
+
+map type "boolean"				to "SchemaBoolean"
+
+map type "byte"					to "SchemaByte"
+map type "unsignedByte"			to "SchemaShort"
+map type "short"				to "SchemaShort"
+map type "unsignedShort"		to "SchemaInt"
+map type "int"					to "SchemaInt"
+map type "unsignedInt"			to "SchemaLong"
+map type "long"					to "SchemaLong"
+map type "unsignedLong"			to "SchemaInteger"
+
+map type "integer"				to "SchemaInteger"
+map type "nonPositiveInteger"	to "SchemaInteger"
+map type "negativeInteger"		to "SchemaInteger"
+map type "positiveInteger"		to "SchemaInteger"
+map type "nonNegativeInteger"	to "SchemaInteger"
+
+map type "float"				to "SchemaFloat"
+map type "double"				to "SchemaDouble"
+map type "decimal"				to "SchemaDecimal"
+
+map type "duration"				to "SchemaString"
+map type "gYear"				to "SchemaString"
+map type "gDay"					to "SchemaString"
+map type "gMonth"				to "SchemaString"
+map type "gYearMonth"			to "SchemaString"
+map type "gMonthDay"			to "SchemaString"
+map type "date"					to "SchemaString"
+map type "time"					to "SchemaString"
+map type "dateTime"				to "SchemaDateTime"
+
+map type "anyURI"				to "SchemaString"
+map type "QName"				to "SchemaString"
+map type "NOTATION"				to "SchemaString"
+map type "string"				to "SchemaString"
+map type "normalizedString"		to "SchemaNormalizedString"
+map type "token"				to "SchemaToken"
+map type "language"				to "SchemaLanguage"
+map type "Name"					to "SchemaName"
+map type "NMTOKEN"				to "SchemaNMToken"
+map type "NMTOKENS"				to "SchemaNMToken"
+map type "NCName"				to "SchemaNCName"
+map type "ID"					to "SchemaID"
+map type "IDREF"				to "SchemaIDRef"
+map type "IDREFS"				to "SchemaIDRef"
+map type "ENTITY"				to "SchemaEntity"
+map type "ENTITIES"				to "SchemaEntity"
+
+map type "hexBinary"			to "SchemaHexBinary"
+map type "base64Binary"			to "SchemaBase64Binary"
+
+map type "anySimpleType"		to "SchemaString"
+
+map type "anyType"				to "com.altova.xml.AnyTypeNode"
+
+default "ValidFirstCharSet"			is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+default "ValidCharSet"				is "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz_0123456789"
+default "InvalidCharReplacement"	is "_"
+default "AnonTypePrefix"			is ""
+default "AnonTypeSuffix"			is "Type"
+default "ClassNamePrefix"			is ""
+default "ClassNameSuffix"			is ""
+default "EnumerationPrefix"			is "E"
+default "EnumerationUpperCase"		is "on"
+default "FallbackName"				is "Name"
+
+reserve "altova"
+reserve "abstract"
+reserve "boolean"
+reserve "break"
+reserve "byte"
+reserve "case"
+reserve "catch"
+reserve "char"
+reserve "class"
+reserve "const"
+reserve "continue"
+reserve "default"
+reserve "do"
+reserve "double"
+reserve "else"
+reserve "extends"
+reserve "false"
+reserve "final"
+reserve "finally"
+reserve "float"
+reserve "for"
+reserve "goto"
+reserve "if"
+reserve "implements"
+reserve "import"
+reserve "instanceof"
+reserve "int"
+reserve "interface"
+reserve "long"
+reserve "native"
+reserve "new"
+reserve "null"
+reserve "package"
+reserve "private"
+reserve "protected"
+reserve "public"
+reserve "return"
+reserve "short"
+reserve "static"
+reserve "strictfp"
+reserve "super"
+reserve "switch"
+reserve "synchronized"
+reserve "this"
+reserve "throw"
+reserve "throws"
+reserve "transient"
+reserve "true"
+reserve "try"
+reserve "void"
+reserve "volatile"
+reserve "while"
+
+reserve "Class"
+reserve "Value"
+
+$FullPackageDir		= ""
+$FullPackageName	= ""
+$JavaPackageName 	= "com." & $module
+$JavaPackageDir 	= "com/" & $module
+$QualifiedBase 		= ""
+$QualifiedType 		= ""
+$QualifiedValueType = ""
+$BasePath 			= ""
+$IsQualified 		= ""
+
+'-----------------------------------------------------------
+' Altova Common Package
+'-----------------------------------------------------------
+create $outputpath & "/com/altova/AltovaException.java"	: include "java/altova/AltovaException.java"	: close
+
+
+'-----------------------------------------------------------
+' Altova Common-Types Package
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/com/altova/types/"
+'Exceptions
+create $BasePath & "SchemaTypeException.java"			: include "java/altova/types/SchemaTypeException.java"			: close
+create $BasePath & "NotANumberException.java"			: include "java/altova/types/NotANumberException.java"			: close
+create $BasePath & "StringParseException.java"			: include "java/altova/types/StringParseException.java"			: close
+create $BasePath & "TypesIncompatibleException.java"	: include "java/altova/types/TypesIncompatibleException.java"	: close
+create $BasePath & "ValuesNotConvertableException.java"	: include "java/altova/types/ValuesNotConvertableException.java": close
+'Types
+create $BasePath & "SchemaTypeFactory.java"				: include "java/altova/types/SchemaTypeFactory.java"			: close
+
+create $BasePath & "SchemaType.java"					: include "java/altova/types/SchemaType.java"					: close
+create $BasePath & "SchemaTypeNumber.java"				: include "java/altova/types/SchemaTypeNumber.java"				: close
+create $BasePath & "SchemaTypeCalendar.java"			: include "java/altova/types/SchemaTypeCalendar.java"			: close
+create $BasePath & "SchemaTypeBinary.java"				: include "java/altova/types/SchemaTypeBinary.java"				: close
+
+create $BasePath & "SchemaBoolean.java"					: include "java/altova/types/SchemaBoolean.java"				: close
+create $BasePath & "SchemaByte.java"					: include "java/altova/types/SchemaByte.java"					: close
+create $BasePath & "SchemaShort.java"					: include "java/altova/types/SchemaShort.java"					: close
+create $BasePath & "SchemaInt.java"						: include "java/altova/types/SchemaInt.java"					: close
+create $BasePath & "SchemaLong.java"					: include "java/altova/types/SchemaLong.java"					: close
+create $BasePath & "SchemaInteger.java"					: include "java/altova/types/SchemaInteger.java"				: close
+create $BasePath & "SchemaDecimal.java"					: include "java/altova/types/SchemaDecimal.java"				: close
+create $BasePath & "SchemaDouble.java"					: include "java/altova/types/SchemaDouble.java"					: close
+create $BasePath & "SchemaFloat.java"					: include "java/altova/types/SchemaFloat.java"					: close
+
+create $BasePath & "SchemaCalendarBase.java"			: include "java/altova/types/SchemaCalendarBase.java"			: close
+create $BasePath & "SchemaDate.java"					: include "java/altova/types/SchemaDate.java"					: close
+create $BasePath & "SchemaTime.java"					: include "java/altova/types/SchemaTime.java"					: close
+create $BasePath & "SchemaDateTime.java"				: include "java/altova/types/SchemaDateTime.java"				: close
+create $BasePath & "SchemaDuration.java"				: include "java/altova/types/SchemaDuration.java"				: close
+
+create $BasePath & "SchemaBinaryBase.java"				: include "java/altova/types/SchemaBinaryBase.java"				: close
+create $BasePath & "SchemaBase64Binary.java"			: include "java/altova/types/SchemaBase64Binary.java"			: close
+create $BasePath & "SchemaHexBinary.java"				: include "java/altova/types/SchemaHexBinary.java"				: close
+
+create $BasePath & "SchemaString.java"					: include "java/altova/types/SchemaString.java"					: close
+create $BasePath & "SchemaAnyURI.java"					: include "java/altova/types/SchemaAnyURI.java"					: close
+create $BasePath & "SchemaNormalizedString.java"		: include "java/altova/types/SchemaNormalizedString.java"		: close
+create $BasePath & "SchemaToken.java"					: include "java/altova/types/SchemaToken.java"					: close
+create $BasePath & "SchemaLanguage.java"				: include "java/altova/types/SchemaLanguage.java"				: close
+create $BasePath & "SchemaName.java"					: include "java/altova/types/SchemaName.java"					: close
+create $BasePath & "SchemaNMToken.java"					: include "java/altova/types/SchemaNMToken.java"				: close
+create $BasePath & "SchemaNCName.java"					: include "java/altova/types/SchemaNCName.java"					: close
+create $BasePath & "SchemaID.java"						: include "java/altova/types/SchemaID.java"						: close
+create $BasePath & "SchemaIDRef.java"					: include "java/altova/types/SchemaIDRef.java"					: close
+create $BasePath & "SchemaEntity.java"					: include "java/altova/types/SchemaEntity.java"					: close
+
+
+'-----------------------------------------------------------
+' Altova XML Package
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/com/altova/xml/"
+create $BasePath & "Document.java"				: include "java/altova/xml/Document.java"		: close
+create $BasePath & "Node.java"					: include "java/altova/xml/Node.java"			: close
+create $BasePath & "AnyTypeNode.java"			: include "java/altova/xml/AnyTypeNode.java"	: close
+create $BasePath & "XmlException.java"			: include "java/altova/xml/XmlException.java"	: close
+
+
+$IsWSDLAndUsesRpcEncoding=0 
+
+'-----------------------------------------------------------
+' Wrapper Library Package
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/" & $JavaPackageDir
+$FullPackageDir = $JavaPackageDir
+$FullPackageName = $JavaPackageName
+$LibraryPackageName = $FullPackageName
+create $BasePath & "/" & $module & "Doc.java"	: include "java/library/xml/LibraryDoc.java"    : close
+foreach $class in $classes
+	if $class.NamespacePrefix = ""
+		$FullPackageDir  = $JavaPackageDir
+		$FullPackageName = $JavaPackageName
+	else			
+		$FullPackageDir  = $JavaPackageDir  & "/" & $class.NamespacePrefix
+		$FullPackageName = $JavaPackageName & "." & $class.NamespacePrefix
+	endif
+	if not $class.IsInternal
+		create $outputpath & "/" & $FullPackageDir & "/" & $class.Name & ".java"
+			include "java/library/xml/LibraryNode.java"
+		close
+	endif
+next
+
+
+'-----------------------------------------------------------
+' Test Application
+'-----------------------------------------------------------
+$BasePath = $outputpath & "/com/" & $module & "Test/" 
+create $BasePath & $module & "Test.java"	: include "java/libraryTest/LibraryTest.java" : close
+create $outputpath & "/build.xml"			: include "java/libraryTest/LibraryTestBuild.xml" : close
+create $outputpath & "/" & $module & ".jpx"	: include "java/libraryTest/LibraryTest.jpx"      : close
+
+
+]

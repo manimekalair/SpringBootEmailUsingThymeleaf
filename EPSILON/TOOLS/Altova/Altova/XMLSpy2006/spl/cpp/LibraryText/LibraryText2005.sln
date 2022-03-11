@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "[=$module]", "[=$module].vcproj", "{[=$ProjectLibGuid]}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Altova", "..\\Altova\\Altova.vcproj", "{[=$AltovaLibGuid]}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AltovaText", "..\\AltovaText\\AltovaText.vcproj", "{[=$AltovaTextLibGuid]}"
+EndProject
+Global
+[
+call vcsln8_SolutionConfigurationPlatforms()
+]	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+[
+call vcsln8_ProjectConfigurationPlatforms_Project($ProjectLibGuid)
+call vcsln8_ProjectConfigurationPlatforms_Project($AltovaLibGuid)
+call vcsln8_ProjectConfigurationPlatforms_Project($AltovaTextLibGuid)
+]	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

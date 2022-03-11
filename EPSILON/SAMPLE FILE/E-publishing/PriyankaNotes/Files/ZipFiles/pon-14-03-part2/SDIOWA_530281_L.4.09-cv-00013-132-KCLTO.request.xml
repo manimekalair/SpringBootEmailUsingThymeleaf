@@ -1,0 +1,66 @@
+===== SDIOWA_530281_L.4.09-cv-00013-132-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE SOUTHERN DISTRICT OF IOWA</venue.name>
+<venue.name>CENTRAL DIVISION</venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>UNITED STATES OF AMERICA, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>GREGORY SWECKER a/k/a GREGORY R. SWECKER a/k/a GREG SWECKER; BEVERLY SWECKER a/k/a BEVERLY F. SWECKER; SWECKS, INC.; PALISADES COLLECTION, LLC; STATE OF IOWA; GRAND JUNCTION MUNICIPAL UTILITIES; UNIFUND CCR PARTNERS; and MIDLAND POWER COOPERATIVE, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>4:09-cv-00013</docket.line>
+<docket.number>4:09-cv-00013</docket.number>
+<docket.line suppress-flag="y">4:09-cv-00013-RP-SBJ</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 01/13/2016</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER</headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ROBERT W. PRATT, Judge U.S. DISTRICT COURT</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">On December 15, 2015, the Court filed an Order dismissing all counterclaims filed by Defendants Gregory and Beverly Swecker (&#x201C;Defendants&#x201D; or &#x201C;Sweckers&#x201D;) in this action. Clerk's No. 128. On December 23, 2015, the Sweckers filed a Motion for Reconsideration, or in the alternative a Motion to Amend their Complaint (&#x201C;Motion&#x201D;). Clerk's No. 129. The government filed a resistance on January 11, 2016. Clerk's No. 131. The matter is fully submitted.</paratext></para>
+<para><paratext level="1">The Sweckers file their motion pursuant to Federal Rule of Civil Procedure 59(e), which &#x201C;serve[s] the limited function of correcting manifest errors of law or fact or to present newly discovered evidence.&#x201D; <italic>United States v. Metro. St. Louis Sewer Dist.</italic>, 440 F.3d 930, 933 (8th Cir. 2006). In the alternative, the Sweckers seek to amend their counterclaims. Federal Rule of Civil Procedure 15(a)(2) allows a party to amend a pleading with the court's leave; such leave should be &#x201C;freely give[n] . . . when justice so requires.&#x201D;</paratext></para>
+<head-c>I. RULE 59(e)</head-c>
+<para><paratext level="1">The Sweckers argue that the Court made a clear error of law in concluding that their Equal Credit Opportunity Act (&#x201C;ECOA&#x201D;) claim was barred by the statute of limitations, and that certain waiver provisions did not apply in this case. Clerk's No. 129 at 3. The ECOA contains a two-year statute of limitations, subject to certain narrow exceptions. 15 U.S.C. &#x00A7; 1691e(f). In 1998, Congress passed an exception &#x201C;for applicants who had filed a &#x2018;nonemployment related complaint&#x2019; with the USDA before July 1, 1997 that alleged discrimination occurring between January 1, 1981 and December 31, 1996.&#x201D; <italic>Garcia v. Vilsack</italic>, 563 F.3d 519, 521 (D.C. Cir. 2009). Those individuals were eligible for an extension of the ECOA statute of limitations until October 21, 2000, and could choose either to file their ECOA claim in federal court or obtain a decision on the merits from the USDA. <italic>Id</italic>.</paratext></para>
+<para><paratext level="1">The Sweckers claim that they filed an eligible nonemployment related complaint before July 1, 1997, and therefore, are entitled to the extension of the statute of limitations. Clerk's No. 129 at 7. Gregory Swecker did indeed file a complaint within the relevant time period, but that complaint was later found not to be eligible for the statute of limitations waiver. <italic>See</italic> Southern District of Iowa, Case No. 4:04-cv-90415, Clerk's No. 12. Furthermore, the Sweckers&#x2019; counterclaim in this case is related to a completely separate ECOA complaint that was filed by Beverly Swecker in 2009, and which the USDA found to be without merit. <italic>See</italic> Clerk's No. 113 at 86. Accordingly, Section 741 is not applicable, and the Court's decision to dismiss the counterclaim based on the statute of limitations was not a legal error. The Court notes that the Sweckers again raise the argument that this foreclosure action was improperly filed while they had pending civil rights complaints before the USDA; this case was stayed in order to allow for the resolution of those claims and the Court reiterates its previous conclusion that it is satisfied the foreclosure action can properly proceed. <italic>See</italic> Clerk's No. 128 at 13.</paratext></para>
+<para><paratext level="1">Finally, the Sweckers argue that their counterclaim against Rural Utility Services (&#x201C;RUS&#x201D;) under the Public Utility Regulatory Policy Act (&#x201C;PURPA&#x201D;) is &#x201C;ongoing.&#x201D; Clerk's No. 129 at 13. Even if true, any pending litigation or dispute that the Sweckers may have with RUS does not have any bearing on the allegations they made in their counterclaim, or on the Court's decision to dismiss it. The Court notes that Gregory Swecker filed a Notice indicating that he has filed a &#x201C;Form 95, permission to sue&#x201D; with RUS. Clerk's No. 130. He claims that the Notice &#x201C;is for staying the Statute of Limitations with [RUS] . . . until all administrative and court proceedings of recipients of Federal Financial Assistance, Midland Power Cooperative and Central Iowa Power Coop from the USDA have been finalized.&#x201D; It is unclear if Swecker feels the Notice has an impact on the Court's dismissal of the PURPA counterclaim, but the Court concludes that it does not. The PURPA counterclaim was not dismissed on statute of limitations grounds. <italic>See</italic> Clerk's No. 128 at 10&#x2013;13. Accordingly, the Court concludes that the Sweckers have identified no legal error or new evidence that suggests dismissal of the PURPA counterclaim was inappropriate.</paratext></para>
+<head-c>II. RULE 15(a)(2)</head-c>
+<para><paratext level="1">The Sweckers also allege that the Court erred by issuing its Order dismissing their counterclaims before they were able to submit their expert witness report. Clerk's No. 129 at 8&#x2013; 10. The Sweckers argue that they should be permitted to amend their ECOA claim by supplementing it with the expert report. <italic>Id</italic>. The Sweckers state that the report is &#x201C;based upon the review of the record of [the] Swecker's case file with USDA.&#x201D; Clerk's No. 129 at 9.</paratext></para>
+<para><paratext level="1">The Court is aware of its duty to construe pro se pleadings liberally and afford pro se litigants significant discretion in their filings. <italic>See Erickson v. Pardus</italic>, 551 U.S. 89, 94 (2007) (&#x201C;A document filed pro se is to be liberally construed.&#x201D; (internal quotation omitted)). But, as discussed in the Court's December 15, 2015 Order, and above, there is simply no basis upon which the ECOA claim could be considered timely. The submission of an expert report cannot change immutable facts.</paratext></para>
+<head-c>III. CONCLUSION</head-c>
+<para><paratext level="1">For the reasons stated above, the Sweckers&#x2019; Motion (Clerk's No. 129) is DENIED.</paratext></para>
+<para><paratext level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext level="1">Dated this __13th___ day of January, 2015.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

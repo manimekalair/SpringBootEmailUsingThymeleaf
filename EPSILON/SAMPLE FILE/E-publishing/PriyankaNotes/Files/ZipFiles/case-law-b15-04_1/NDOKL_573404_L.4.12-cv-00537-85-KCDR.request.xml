@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>PINNACLE PACKAGING COMPANY, INC., POLO ROAD LEASING, LLC, J. SCOTT DICKMAN, Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>ONE EQUITY PARTNERS (EUROPE) GmbH, and CONSTANTIA FLEXIBLES GmbH, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 12-CV-537-JED-TLW</docket.line>
+<docket.number>12-CV-537-JED-TLW</docket.number>
+<docket.line suppress-flag="y">4:12-cv-00537-JED-TLW</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 12/23/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JOHN ETDQWDELL UNITED S/ATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Plaintiff Pinnacle Packaging Company, Inc. seeks leave to amend the plaintiffs' Complaint to add a claim for promissory estoppel against the defendants. (Doc. 70). Defendants object, arguing that the proposed amendment is (1) untimely and (2) futile, because the Court lacks personal jurisdiction over the defendants and because the proposed amendment is insufficient to state a claim for promissory estoppel. (Doc. 76).</paratext></para>
+<para><paratext ID="p2" level="1">The Court has reviewed the parties' briefing on the proposed amendment and concludes that the proposed amendment should be allowed. &#x201C;The court should freely give leave [to amend] when justice so requires.&#x201D; Fed. R. Civ. P. 15(a)(2). Under that standard, a court will generally &#x201C;refuse leave to amend only on &#x2018;a showing of undue delay, undue prejudice to the opposing party, bad faith or dilatory motive, failure to cure deficiencies by amendments previously allowed, or futility of amendment.&#x2019;&#x201D; <ital>Duncan v. Manager, Dept. of Safety, City &#38; County of Denver</ital>, 397 F.3d 1300, 1315 (10th Cir. 2005) (quoting <ital>Frank v. U.S. West, Inc.</ital>, 3 F.3d 1357, 1365 (10th Cir.1993)).</paratext></para>
+<para><paratext ID="p3" level="1">Pinnacle's motion to amend was not unduly delayed or untimely. No schedule has been entered in this case, and the defendants have not shown how the proposed amendment will prejudice them. The Amended Complaint contains sufficient facts supporting a promissory estoppel claim, and the proposed additional claim alleges the basic elements of such a claim. The proposed amendment is thus not futile. The Motion to Amend Complaint (Doc. 70) is accordingly <bold>granted</bold>. Any amendment shall be filed within 14 days of the entry of this Order.</paratext></para>
+<para><paratext ID="p4" level="1">However, because the Court has dismissed One Equity Partners LLC from this suit due to a lack of personal jurisdiction over that entity, the plaintiffs' Second Amended Complaint shall not include One Equity Partners LLC as a defendant.</paratext></para>
+<para><paratext ID="p5" level="1">SO ORDERED this 23rd day of December, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

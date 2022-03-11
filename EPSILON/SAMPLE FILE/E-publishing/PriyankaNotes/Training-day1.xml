@@ -1,0 +1,97 @@
+Markup Language: SGML, HTML, XML
+
+SGML: Std Generalised
+HTML: Hypertext
+XML: Extensible
+
+
+HTML					XML
+1. No supporting doc			1. Need Supporting doc: DTD, XSL
+
+2. Pre-defined				2. User defined - Para: <p>, <P>, <para>, <ip>
+Para: <p>
+
+3. Directly open in browser for view	3. Browser view: Xml stylesheet
+
+
+4. Designing				4. Data base, Data transfer
+
+5. Multispace truncated			5. Multispace preserved
+
+6. No Casesensitive			6. Case sensitive
+<p>...</P>				<p>....</p>,  <P>... </P>
+
+7. Self autoclose			7. Nested and proper close
+
+<p>.....
+
+<p>
+
+8. Heading: H1.....H5			8. Heading Levels: H1..................
+
+
+DTD: Document type definition
+
+XSL: XML Stylesheet
+
+
+=======================
+
+BOOK, Article(Journal)
+
+
+BoOK				Article
+
+1. No of volumes		1. No of Issue
+
+2. Part, Chapters		2. Issues
+
+3. Only one author		3. Sample title with multiple editor
+for one title				
+
+4. Book: Easy to learn XML	4. Automobile today: Topic samle, But content different with different author(Editor)
+Author: RAJ
+No permission to edit
+
+
+BOOK: FM, Body, BACK
+
+
+FM: title, COPYright, TOC, ACK, Introduce - Roman page
+
+Body:	Introducton, Part - Chapters, 
+
+BACK: To describe the refering materials of book: Ref, Index, Notes
+
+
+Article (journals): As chapter content
+
+
+Chapters: Chap FM, Chap Body, Chap Back
+
+Chap -FM:
+==========
+Chap - No
+Chap -Titlte
+Chap - Author(s)
+Chap - Abstract
+Chap - Keyword
+
+Chap -Body:
+============
+Heading levels- Paras, Sub heading, fig, Table
+Paras
+Fig
+Tables
+
+
+Chap- Back:
+===========
+1. Ref
+2. Ack
+3. Notes: To explain the particular special word with brief explanation
+
+
+
+<p>Editor: Notepad, Word, Epsilon, Notepad++, Edit++, Ultraedit</p>
+<p>Browser: Explore, Chrome, Firefox

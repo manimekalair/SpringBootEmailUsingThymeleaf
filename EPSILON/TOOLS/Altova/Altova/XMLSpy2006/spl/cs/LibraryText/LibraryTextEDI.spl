@@ -1,0 +1,216 @@
+	public class [=$module]Document : TextDocument
+	{
+		[switch ($library.EDIKind)
+		   case 1:	$EDISettingsType= "EDIFactSettings"
+		   case 2:	$EDISettingsType= "EDIX12Settings"
+		   default:	$EDISettingsType= "UnknownSettings"
+		 endswitch]
+
+		private [=$EDISettingsType] mSettings = new [=$EDISettingsType]();
+		
+		public [=$module]Document()
+		{
+			InitScanner();
+			InitGeneral();
+			InitHandler();
+			InitFunction();
+			InitSettings();
+		}
+
+		void RecordDecimalSeparator()
+		{
+			base.Generator.RootNode.DecimalSeparator= base.Scanner.DecimalSeparator;
+		}
+		
+		protected override bool ValidateSource( ref string buffer )
+		{
+			[switch ($library.EDIKind)
+			  case 1:]
+			if( buffer.StartsWith("UNA") )
+			{
+				// extract the separator characters
+				char\[\] seps = buffer.ToCharArray(3, 6);
+				mSettings.ServiceStringAdvice.SetFromCharArray(seps);
+				// remove 'UNA' and the six separators
+				buffer = buffer.Remove(0, 9);
+
+				// 0: Component Separator 
+				// 1: Element Separator 
+				// 2: Decimal Notation Comma or full stop 
+				// 3: Release Indicator / Escape character
+				// 4: Reserved for future use 
+				// 5: Segment Terminator 
+		
+				Scanner scanner = base.Scanner;
+				scanner.AddSeparator( seps\[0\], "component" );
+				scanner.AddSeparator( seps\[1\], "element" );
+				scanner.AddSeparator( seps\[5\], "segment" );
+				scanner.EscapeChar= (seps\[3\]==' ') ? '\\0' : seps\[3\];
+				scanner.DecimalSeparator= seps\[2\];
+			}
+			[case 2:]
+			if (buffer.StartsWith("ISA")) 
+			{
+				Scanner scanner = base.Scanner;
+
+				char separatorelement= '\\0';
+				char separatorcomponent= '\\0';
+				char separatorsegment= '\\0';
+
+				int formatcharactercount = CountFormatCharacters(buffer, 105);
+				if (formatcharactercount > 0)
+				{
+					string segmentisa= buffer.Substring(0, 106 + formatcharactercount);
+					segmentisa = RemoveCRLF(segmentisa);
+
+					separatorelement= segmentisa\[3\];
+					separatorcomponent= segmentisa\[104\];
+					separatorsegment= segmentisa\[105\];
+				}
+				else
+				{
+					separatorelement= buffer\[3\];
+					separatorcomponent= buffer\[104\];
+					separatorsegment= buffer\[105\];
+				}
+
+				scanner.AddSeparator(separatorelement, "element");
+				scanner.AddSeparator(separatorcomponent, "component");
+				scanner.AddSeparator(separatorsegment, "segment");
+			}
+			[endswitch]
+			buffer= PrepareSource(buffer);
+			return true;
+		}
+		protected override bool ValidateResult()
+		{
+			bool result = base.ValidateResult();
+[			if ($library.EDIKind=1)]this.RecordDecimalSeparator();[endif
+]			return result;
+		}
+		protected override void ProcessToken(string token)
+		{
+			BaseFunction function = base.Handlers\[token.Trim()\];
+			if (null!=function)
+				function.Execute( this );
+			else
+				throw new AltovaException("Cannot find handler: " + token );
+			if (Scanner.IsEndOfText) return;
+			char segmentseparator = Scanner.GetSeparatorByName("segment");
+			// while the scanner is not at the end of the segment,
+			// ignore the extra content and move to the next 
+			// segment token. store the ignored text and 
+			// build an error entry for later processing
+			while ((Scanner.CurrentChar!=segmentseparator) && (Scanner.ScanChar()!=Scanner.Indicator.End));
+		}
+		protected override EDISettings Settings
+		{
+			get
+			{
+				return mSettings;
+			}
+		}
+		protected override EDIStandard Standard
+		{
+			get
+			{
+				[switch ($library.EDIKind)
+				   case 1:   $EDIKindSpecifier= "EDIFact"
+				   case 2:   $EDIKindSpecifier= "EDIX12"
+				   default:  $EDIKindSpecifier= "Unknown"
+				 endswitch]
+				return EDIStandard.[=$EDIKindSpecifier];
+			}
+		}
+		
+		public int Get[=$library.RootName]Count()
+		{
+			return 1; // always only one root
+		}
+
+		public [=$library.RootName]Type Get[=$library.RootName]()
+		{
+			return new [=$library.RootName]Type( base.Generator.RootNode );
+		}
+
+		public [=$library.RootName]Type Get[=$library.RootName]At ( int nIndex ) 
+		{
+			return Get[=$library.RootName]();
+		}
+		public void Add[=$library.RootName]([=$library.RootName]Type rhs) 
+		{
+			base.Generator.SetRootNode(rhs.Node);
+		}
+		public void Save(string filename)
+		{
+			TextNode structureroot= EnvelopeType.CreateStructureNode();
+			base.Save(structureroot, filename);
+		}
+		
+		protected virtual void InitScanner()
+		{
+			Scanner scanner = base.Scanner;
+			[foreach $separator in $library.Separators]			
+			scanner.AddSeparator( '[=$separator.Character]', "[=$separator.Symbol]" );[next]
+		}
+	
+		protected void InitSettings() 
+		{
+			base.StructureName= "[=$library.StructureName]";
+			[switch ($library.EDIKind)
+			case 1:]
+			// EDIFact specific settings:
+			[if $library.EDIFactSettings.SyntaxLevel<>""]
+			mSettings.SyntaxLevel = '[=$library.EDIFactSettings.SyntaxLevel]';
+			[endif]
+			mSettings.SyntaxVersionNumber = [=$library.EDIFactSettings.SyntaxVersionNumber];
+			[if $library.EDIFactSettings.ControllingAgency<>""]
+	 		mSettings.ControllingAgency = "[=$library.EDIFactSettings.ControllingAgency]";
+	 		[endif]
+	 		mSettings.WriteUNA = [=$library.EDIFactSettings.WriteUNA];
+			[case 2:]
+			// X12 specific settings:
+[			 $subsep = $library.ToHexCode($library.EDIX12Settings.SubElementSeparator)
+]			mSettings.SubElementSeparator = (char) 0x[=$subsep]; // [=$library.EDIX12Settings.SubElementSeparator]
+			mSettings.InterchangeControlVersionNumber = "[=$library.EDIX12Settings.InterchangeControlVersionNumber]";
+			mSettings.RequestAcknowledgement = [=$library.EDIX12Settings.RequestAcknowledgement];
+			[default:]
+			// unknown EDI document type
+			[endswitch]
+			// general settings:
+			mSettings.AutoCompleteData = [=$library.EDISettings.AutoCompleteData];
+			mSettings.TerminateSegmentsWithLinefeed = [=$library.EDISettings.TerminateSegmentsWithLinefeed];
+
+			ServiceStringAdvice una= mSettings.ServiceStringAdvice;
+[			$compsep = $library.ToHexCode($library.EDISettings.ComponentDataElementSeparator)
+			$datasep = $library.ToHexCode($library.EDISettings.DataElementSeparator)
+			$decisep = $library.ToHexCode($library.EDISettings.DecimalNotation)
+			$escpsep = $library.ToHexCode($library.EDISettings.ReleaseIndicator)
+			$segmsep = $library.ToHexCode($library.EDISettings.SegmentTerminator)
+]			una.ComponentSeparator = (char) 0x[=$compsep]; // [=$library.EDISettings.ComponentDataElementSeparator]
+			una.DataElementSeparator = (char) 0x[=$datasep]; // [=$library.EDISettings.DataElementSeparator]
+			una.DecimalSeparator = (char) 0x[=$decisep]; // [=$library.EDISettings.DecimalNotation]
+			una.ReleaseCharacter = (char) 0x[=$escpsep]; // [=$library.EDISettings.ReleaseIndicator]
+			una.SegmentTerminator = (char) 0x[=$segmsep]; // [=$library.EDISettings.SegmentTerminator]
+		}
+
+		protected virtual void InitGeneral()
+		{
+			base.Prolog= "[=$library.PrologName]"; 
+			base.Epilog= "[=$library.EpilogName]"; 
+		}
+
+		protected virtual void InitHandler()
+		{
+			StringToFunctionMap handlers = base.Handlers;
+			[foreach $handler in $library.Handlers]
+			handlers.Add( "[=$handler.Name]", new Handler[=$handler.Name]() );[next]
+		}
+
+		protected virtual void InitFunction()
+		{
+			StringToFunctionMap functions = base.Functions;
+			[foreach $function in $library.Functions]
+			functions.Add( "[=$function.Name]", new Function[=$function.Name]() );[next]
+		}
+	}

@@ -1,0 +1,451 @@
+[
+' // Subroutines for AlgorithmGroup.cs
+' // Language = C#
+' ////////////////////////////////////////////////////////////////////////
+
+' // Database execution implementation subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoopDB:
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoopDB( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter, byref $rDBLoop )
+
+	if $rAlgorithm.IsParentLoop
+
+][=$rIndent]// {LOOP} DB-PARENT
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsDocSwitchLoop
+
+][=$rIndent]// {LOOP} DB-DOC
+[		$lRootQType = $rAlgorithm.SourceContext.LibraryPrefix & "." & $rAlgorithm.SourceContext.Type
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType] [=$rSourceParameter]
+[=$rIndent]	= ([=$lRootQType])m_[=$rAlgorithm.SourceContext.Library.UniqueName]Instance;
+[=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop and $rAlgorithm.Query = ""
+
+][=$rIndent]// {LOOP} DB-VAR
+[		$lParentQType = $rAlgorithm.LoopContext.Library.Name & "." & $rAlgorithm.LoopContext.Type
+		if $rAlgorithm.SourceContext.UniqueName <> $rAlgorithm.SourceParentContext.UniqueName
+			$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lParentQType] [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject
+[=$rIndent]	= ([=$lParentQType])m_[=$rAlgorithm.VarID];
+[=$rIndent][=$lQType] [=$rSourceParameter]
+[=$rIndent]	= [=$rAlgorithm.LoopContext.UniqueName]VariableSourceObject.[=$rAlgorithm.SourceContext.Name];
+[		endif
+][=$rIndent]{
+[
+	else : if $rAlgorithm.IsVariableLoop or $rAlgorithm.SourceContext.IsTable ' Query & ResultSet-loop
+
+][=$rIndent]// {LOOP} DB-TABLE
+[		$rDBLoop = true
+		$lRootQType	= $rAlgorithm.SourceContext.Library.Name & "." & $rAlgorithm.SourceContext.Library.Type
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lRootQType] [=$rAlgorithm.SourceContext.UniqueName]SourceDatabase
+[=$rIndent]	= ([=$lRootQType])m_[=$rAlgorithm.SourceContext.Library.UniqueName]Instance;
+
+[=$rIndent]Altova.Db.Command stmt = new Altova.Db.Command( "[=$Algorithm.Query]", false );
+[		foreach $lParam in $rAlgorithm.Query.Parameters
+			if $lParam.Type = 11 Or $lParam.Type = 5 'assignment Or variable
+][=$rIndent]stmt.AddParameter( (ISchemaType)m_[=$lParam.VarID], false );
+[			else
+][=$rIndent]stmt.AddParameter( SchemaTypeFactory.CreateInstanceByString(\"[=$lParam.Value]\"), false );
+[			endif
+		next
+][=$rIndent][=$lQType] [=$rSourceParameter] = new [=$lQType](
+[=$rIndent]		[=$rAlgorithm.SourceContext.UniqueName]SourceDatabase,
+[=$rIndent]		stmt
+[=$rIndent]	);
+[=$rIndent]while( [=$rSourceParameter].Read() )
+[=$rIndent]{
+[
+	else
+
+][=$rIndent]// {LOOP} DB-FIELD
+[		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][=$lQType] [=$rSourceParameter]
+[=$rIndent]	= [=$rAlgorithm.LoopContext.UniqueName]SourceObject.[=$rAlgorithm.SourceContext.Name]; 
+[=$rIndent]if( ![=$rSourceParameter].IsNull() )
+[=$rIndent]{
+[
+	endif : endif : endif : endif
+
+	$rIndent = $rIndent & "	"
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginCreateDB:
+' ------------------------------------------------------------------------
+sub ExecuteBeginCreateDB( byval $lQType, byref $rIndent, byref $rAlgorithm )
+	if $rAlgorithm.TargetContext.IsTable
+
+][=$rIndent][=$lQType] [=$rAlgorithm.TargetContext.UniqueName]TargetObject = new [=$lQType]( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject[
+		if $rAlgorithm.TargetParentContext.IsTable : ].Database[endif] );
+[=$rIndent][=$rAlgorithm.TargetContext.UniqueName]TargetObject.Prepare( false );
+[=$rIndent]bool bRowsAffected = false;
+[=$rIndent]bool bProcessChilds = true;
+[=$rIndent]bool bDeleteRow = false;
+
+[		if $rAlgorithm.UseTransaction
+][=$rIndent]try
+[=$rIndent]{
+[=$rIndent]	[=$rAlgorithm.TargetContext.UniqueName]TargetObject.Database.BeginTransaction( "[=$rAlgorithm.TargetContext.TransactionName]" );
+[			$rIndent = $rIndent & "	"
+		endif
+
+	else	' DB-Field
+
+][=$rIndent][=$lQType] [=$rAlgorithm.TargetContext.UniqueName]TargetObject = new [=$lQType]();
+[
+	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' PrepareCreateDBBeforeChildren:
+' ------------------------------------------------------------------------
+sub PrepareCreateDBBeforeChildren( byref $rIndent, byref $rAlgorithm, byval $lTargetParameter )
+]
+[=$rIndent]// execute DB-query before looping through childs or create child-table entries
+[
+	foreach $lAction in $rAlgorithm.TableActions
+][=$rIndent]if( !bRowsAffected )
+[=$rIndent]{
+[=$rIndent]	ArrayList cmdList = new ArrayList();
+[=$rIndent]	Altova.Db.Command command;
+
+[		if $lAction.Type = 0 ' INSERT
+			call GenerateSQLInsert( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		else : if $lAction.Type = 1 ' UPDATE
+			call GenerateSQLUpdate( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		else ' DELETE
+			call GenerateSQLDelete( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		endif : endif
+
+		call GenerateSQLDeleteChildren( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+		call GenerateSQLProceedWithChildren( $lAction, $rIndent )
+][=$rIndent]}
+[	next
+][=$rIndent]if( bProcessChilds && bRowsAffected )
+[=$rIndent]{
+[	$rIndent = $rIndent & "	"
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeforeEndLoopDB:
+' ------------------------------------------------------------------------
+'sub ExecuteEndLoopDB( byval $lIndent, byval $lSourceParameter )
+sub ExecuteBeforeEndLoopDB( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndLoopDB:
+' ------------------------------------------------------------------------
+'sub ExecuteEndLoopDB( byval $lIndent, byval $lSourceParameter )
+sub ExecuteEndLoopDB( byval $lQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+	if $rAlgorithm.IsParentLoop
+		' nothing for now
+	else : if $rAlgorithm.IsDocSwitchLoop
+
+][=$rIndent]// {LOOP} DB-DOC
+[	else : if $rAlgorithm.IsVariableLoop and $rAlgorithm.Query = ""
+][=$rIndent]// {LOOP} DB-VAR -- END
+[	else : if $rAlgorithm.IsVariableLoop or $rAlgorithm.SourceContext.IsTable ' Query & ResultSet-loop
+][=$rIndent]// {LOOP} DB-TABLE -- END
+[		$rDBLoop = true
+		$lRootQType	= $rAlgorithm.SourceContext.Library.Name & "." & $rAlgorithm.SourceContext.Library.Type
+		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+][=$rIndent][$=$rSourceParameter].Close();
+[=$rIndent][$=$rSourceParameter] = null;
+
+[	else
+][=$rIndent]// {LOOP} DB-FIELD -- END
+[		$rSourceParameter = "Local" & $rAlgorithm.SourceContext.UniqueName & "SourceObject"
+	endif : endif : endif : endif
+
+	'$rIndent = $rIndent & "	"
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreateDB:
+' ------------------------------------------------------------------------
+sub ExecuteEndCreateDB( byref $rIndent, byref $rAlgorithm, byval $lTargetParameter, byval $lIsFirstListLoop )
+	if $rAlgorithm.TargetContext.IsTable
+		if $lIsFirstListLoop
+			foreach $lAction in $rAlgorithm.TableActions]
+[=$rIndent]// execute DB-query after all simple members were looped
+[=$rIndent]if( !bRowsAffected )
+[=$rIndent]{
+[=$rIndent]	ArrayList cmdList = new ArrayList();
+[=$rIndent]	Altova.Db.Command command;
+
+
+[				if $lAction.Type = 0 ' INSERT
+					call GenerateSQLInsert( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				else : if $lAction.Type = 1 ' UPDATE
+					call GenerateSQLUpdate( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				else ' DELETE
+					call GenerateSQLDelete( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				endif : endif
+				call GenerateSQLDeleteChildren( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				call GenerateSQLProceedWithChildren( $lAction, $rIndent )
+][=$rIndent]}
+[			next
+		else
+			$rIndent = "		"
+][=$rIndent]	}
+[		endif
+
+		foreach $lAction in $rAlgorithm.TableActions
+			if $lAction.Type = 2 ' DELETE
+				if $lAction.IsProceedChildren or $lAction.IsDeleteWithChildren
+					call GenerateSQLFinalDelete( $rAlgorithm, $lAction, $lTargetParameter, $rIndent )
+				endif 
+			endif
+		next
+
+		if $rAlgorithm.UseTransaction
+][=$rIndent]	[=$rAlgorithm.TargetContext.UniqueName]TargetObject.Database.CommitTransaction( "[=$rAlgorithm.TargetContext.TransactionName]" );
+[=$rIndent]}
+[=$rIndent]catch( DBExecuteException e )
+[=$rIndent]{
+[=$rIndent]	[=$rAlgorithm.TargetContext.UniqueName]TargetObject.Database.RollbackTransaction( "[=$rAlgorithm.TargetContext.TransactionName]" );
+
+[=$rIndent]	// TODO: implement your transaction handling, to ...
+[=$rIndent]	//	(1) rollback all transactions --> by default, don't change the line below
+[=$rIndent]	//	(2) rollback this transaction and stop --> use k_AltovaDBTransactionAction_Stop instead of k_AltovaDBTransactionAction_RollbackAll
+[=$rIndent]	//	(3) rollback this transaction, continue --> comment out the following line
+[=$rIndent]	throw new DBTransactionException( DBTransactionException.EErrorKind.RollbackAll, "[=$Algorithm.TargetContext.TransactionName]", e );
+[=$rIndent]}
+[		endif
+	else	' Column
+][=$rIndent][=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.TargetContext.Name] = [=$rAlgorithm.TargetContext.UniqueName]TargetObject;
+[	endif
+
+endsub
+
+
+
+' // Helpers
+' ////////////////////////
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLInsert:
+' ------------------------------------------------------------------------
+sub GenerateSQLInsert( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	foreach $lCommand in $rAction.Commands
+][=$lIndent] 		command = new Altova.Db.Command( "[=$lCommand.Query]", [if $lCommand.AutoReadFields ]true[else]false[endif] );
+[		if $lCommand.IsMainCommand and $rAlgorithm.KeyToParent <> ""
+][=$lIndent] 		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[		endif
+
+		foreach $lParameter in $lCommand.Parameters
+			if not $lParameter.IsConditionField
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lParameter.Name], [ if $lParameter.IsAutoUpdate ]true[else]false[endif] );
+[			endif 
+		next
+
+		if $lCommand.IsMainCommand 
+			foreach $lValueGenColumn in $rAlgorithm.ValueGenColumns
+				if $lValueGenColumn.ValueFromColumnIndirect <> "" 
+][=$lIndent] 		command.AddParameter( new SchemaString("[=$lValueGenColumn.ValueFromColumnIndirect]"), true );
+[				endif
+			next
+		endif
+][=$lIndent] 		cmdList.Add( command );
+[	next
+]
+[=$lIndent] 		bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLUpdate
+' ------------------------------------------------------------------------
+sub GenerateSQLUpdate( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	$lHasKeyColumns		= false
+	$lIsFirstMainCommand = true
+	foreach $lCommand in $rAction.Commands
+][=$lIndent] 		command = new Altova.Db.Command( "[=$lCommand.Query]", [if $lCommand.AutoReadFields ]true[else]false[endif] );
+[		foreach $lParameter in $lCommand.Parameters
+			if not $lParameter.IsConditionField
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lParameter.Name], [ if $lParameter.IsAutoUpdate ]true[else]false[endif] );
+[			endif 
+		next
+
+		if $lCommand.IsMainCommand 
+			if $rAlgorithm.KeyToParent <> ""
+][=$lIndent] 		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[			endif
+
+			foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lConditionField.Name], false );
+[			next
+
+			if not $rAction.HasMultipleMainCommands
+				$lHasKeyColumns = false
+				foreach $lKeyColumn in $rAlgorithm.KeyColumns
+					$lHasKeyColumns = true
+				next
+				if $lHasKeyColumns
+					foreach $lConditionField in $rAction.ConditionFields
+						if $rAlgorithm.KeyToParent <> ""
+][=$lIndent] 		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[						endif
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lConditionField.Name], false );
+[					next
+				endif
+			endif
+
+		endif
+][=$lIndent] 		cmdList.Add( command );
+[	next
+]
+[=$lIndent] 		bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLDelete:
+' ------------------------------------------------------------------------
+sub GenerateSQLDelete( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	foreach $lCommand in $rAction.Commands
+][=$lIndent] 		command = new Altova.Db.Command( "[=$lCommand.Query]", [if $lCommand.AutoReadFields ]true[else]false[endif] );
+[		if $lCommand.IsMainCommand 
+			if $rAlgorithm.KeyToParent <> ""
+][=$lIndent] 		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[			endif
+
+			foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lConditionField.Name], false );
+[			next
+
+			if not $rAction.HasMultipleMainCommands
+				if $rAction.IsProceedChildren or $rAction.IsDeleteWithChildren
+					$lHasKeyColumns = false
+					foreach $lKeyColumn in $rAlgorithm.KeyColumns
+						$lHasKeyColumns = true
+					next
+					if $lHasKeyColumns
+						foreach $lConditionField in $rAction.ConditionFields
+							if $rAlgorithm.KeyToParent <> ""
+][=$lIndent] 		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[							endif
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lConditionField.Name], false );
+[						next
+					endif
+				endif
+			endif
+
+		endif
+][=$lIndent] 		cmdList.Add( command );
+[	next
+]
+[=$lIndent]			bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[	if $rAction.IsProceedChildren or $rAction.IsDeleteWithChildren
+][=$lIndent]		bool	bRowsToDelete = [=$lTargetParameter].NumberOfRowsToDelete.Value != 0;
+[=$lIndent]			if( !bRowsToDelete )
+[=$lIndent]				bRowsAffected = false;	// No rows to delete
+[=$lIndent]			else
+[=$lIndent]				bDeleteRow = true;
+
+[	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLFinalDelete
+' ------------------------------------------------------------------------
+sub GenerateSQLFinalDelete( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	foreach $lCommand in $rAction.DeleteCommands
+][=$lIndent]	if( bDeleteRow )
+[=$lIndent]		{
+[=$lIndent]			ArrayList cmdList = new ArrayList();
+[=$lIndent] 		Altova.Db.Command command = new Altova.Db.Command( "[=$lCommand.Query]", [if $lCommand.AutoReadFields ]true[else]false[endif] );
+[		
+		if $lCommand.IsMainCommand 
+			if $rAlgorithm.KeyToParent <> ""
+][=$lIndent] 		command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[			endif
+
+			foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent] 		command.AddParameter( [=$lTargetParameter].[=$lConditionField.Name], false );
+[			next
+		endif
+	next
+]
+[=$lIndent]			cmdList.Add( command );
+[=$lIndent]			bRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[=$lIndent]		}
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLDeleteChildren
+' ------------------------------------------------------------------------
+sub GenerateSQLDeleteChildren( byref $rAlgorithm, byref $rAction, byval $lTargetParameter, byval $lIndent )
+	$lHasChildren = false
+	if $rAction.IsDeleteWithChildren
+][=$lIndent]		if( bRowsAffected )
+[=$lIndent]		{	// DeleteChildren
+[		foreach $lCommand in $rAction.DeleteChildrenCommands
+			$lHasChildren = true
+][=$lIndent]			command = new Altova.Db.Command( "[=$lCommand.Query]", [if $lCommand.AutoReadFields ]true[else]false[endif] );
+[
+			if $lCommand.IsMainCommand 
+				if $rAlgorithm.KeyToParent <> ""
+][=$lIndent]			command.AddParameter( [=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.[=$rAlgorithm.KeyFromParent], false );	// foreign-key value
+[				endif
+
+				foreach $lConditionField in $rAction.ConditionFields
+][=$lIndent]			command.AddParameter( [=$lTargetParameter].[=$lConditionField.Name], false );
+[				next
+			endif
+
+][=$lIndent]			cmdList.Add( command );
+[		next
+		if $lHasChildren
+]
+[=$lIndent]			bool bChildRowsAffected = [=$lTargetParameter].Execute( cmdList ) != 0;
+[		endif
+][=$lIndent]		}
+[
+	endif
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' GenerateSQLProceedWithChildren
+' ------------------------------------------------------------------------
+sub GenerateSQLProceedWithChildren( byref $rAction, byval $lIndent )
+	if not $rAction.IsProceedChildren
+][=$lIndent] 		if( bRowsAffected )	// don't process children
+[=$lIndent]				bProcessChilds = false;
+[	endif
+endsub
+
+
+
+' EOF
+]

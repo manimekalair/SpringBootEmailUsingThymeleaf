@@ -1,0 +1,96 @@
+[
+' // Subroutines for AlgorithmGroup.h / AlgorithmGroup.cpp
+' // Language = C++
+' ////////////////////////////////////////////////////////////////////////
+
+' // Library subroutines
+' ////////////////////////
+
+include "cpp/Mapforce/AlgorithmGroup_LibraryXML.spl"
+include "cpp/Mapforce/AlgorithmGroup_LibraryDB.spl"
+include "cpp/Mapforce/AlgorithmGroup_LibraryText.spl"
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraries:
+'
+'	Opens all source-libraries
+' ------------------------------------------------------------------------
+sub OpenSourceLibraries( byref $rArgs, byref $rFirstSourceInstance )
+	if $AlgorithmGroup.SourceLibraryCount = 0  or $AlgorithmGroup.FirstSourceLibrary.Kind = 4	' Parameter Library
+		$rFirstSourceInstance = ""
+		$rArgs = ""
+	else
+		$rFirstSourceInstance = $AlgorithmGroup.FirstSourceLibrary.UniqueName & "SourceObject"
+		$rArgs = $rFirstSourceInstance & ", "
+	endif
+
+	$lIsFirst = true
+	foreach $lSourceLibrary in $AlgorithmGroup.SourceLibraryList
+		if $lSourceLibrary.Kind = 1 ' XML Library
+			call OpenSourceLibraryXML( $lSourceLibrary, $rArgs )
+		endif
+		if $lSourceLibrary.Kind = 2 ' Database Library
+			call OpenSourceLibraryDB( $lSourceLibrary, $rArgs )
+		endif
+		if $lSourceLibrary.Kind = 3 ' Parser Library
+			call OpenSourceLibraryText( $lSourceLibrary, $rArgs )
+		endif
+		if $lSourceLibrary.Kind = 4	' Parameter Library
+]	[=$lSourceLibrary.DataType]	[=$lSourceLibrary.UniqueName]SourceObject( [=$lSourceLibrary.UniqueName]SourceParameter );
+	m_[=$lSourceLibrary.Name] = [=$lSourceLibrary.UniqueName]SourceObject;
+
+[		endif
+	next
+endsub
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibrary:
+'
+'	Creates/opens the target-library
+' ------------------------------------------------------------------------
+sub OpenTargetLibrary( byref $rArgs, byref $rIndent, byref $rTargetInstance )
+	$lRootName = ""
+	if $AlgorithmGroup.TargetContext.Library.Kind = 1 	' XML Library
+		call OpenTargetLibraryXML( $lRootName, $rIndent )
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 2 	' Database Library
+		call OpenTargetLibraryDB( $lRootName, $rIndent )
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 3 	' Text Library
+		call OpenTargetLibraryText( $lRootName, $rIndent )
+	endif
+	if $AlgorithmGroup.TargetContext.Library.Kind = 4	' Parameter Library
+		$lRootName = $AlgorithmGroup.TargetContext.Library.UniqueName
+]	[=$AlgorithmGroup.TargetContext.Library.DataType]	[=$lRootName]TargetObject;
+
+[	endif
+
+	$rTargetInstance = $lRootName & "TargetObject"
+	$rArgs		= $rArgs & $rTargetInstance
+endsub
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibrary:
+'
+'	Saves/closes the target-library
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibrary()
+	if $AlgorithmGroup.TargetContext.Library.Kind = 1 ' XML Library
+		call FinalizeTargetLibraryXML()
+	endif
+	if	$AlgorithmGroup.TargetContext.Library.Kind = 2	' Database Library
+		call FinalizeTargetLibraryDB()
+	endif
+	if	$AlgorithmGroup.TargetContext.Library.Kind = 3	' Text Library
+		call FinalizeTargetLibraryText()
+	endif
+	if	$AlgorithmGroup.TargetContext.Library.Kind = 4	' Parameter Library
+]	[=$AlgorithmGroup.TargetContext.Library.UniqueName]TargetParameter = [=$AlgorithmGroup.TargetContext.Library.UniqueName]TargetObject;
+[	endif
+endsub
+
+
+]

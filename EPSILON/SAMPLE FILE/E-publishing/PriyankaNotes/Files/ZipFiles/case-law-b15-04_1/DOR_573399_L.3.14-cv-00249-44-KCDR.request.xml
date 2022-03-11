@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE DISTRICT OF OREGON</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>COMMUNICATION MANAGEMENT SERVICES, LLC, et al., Plaintiffs</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>QWEST CORPORATION, UNIDENTIFIED CORPORATIONS I-X, JOHN DOES 1-10, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>3:14-cv-00249-BR</bold></docket.line>
+<docket.number><bold>3:14-cv-00249-BR</bold></docket.number>
+<docket.line suppress-flag="y">3:14-cv-00249-BR</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/13/2014</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1"><bold>FRANKLIN G. PATRICK</bold> P.O. Box 231119, Portland, OR 97281, (503) 245-2828, Attorney for Plaintiffs</attorney.line>
+<attorney.line first-line="1"><bold>LAWRENCE H. REICHMAN MISHA A.D. ISAAK</bold>, Perkins Coie, LLP, 1120 N.W. Couch Street, 10th Floor, Portland, OR 97209-4128, (503) 727-2019, Attorneys for Defendant Qwest Corporation</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"> OPINION AND ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ANNA J. BROWN</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1"><bold>BROWN, Judge.</bold></paratext></para>
+<para><paratext ID="p2" level="1">This matter comes before the Court on the Motion (#7) to Remand of Plaintiffs Communication Management Services, LLC; Davel Communications aka Phonetel Technologies, Inc.; NSC Communications Public Services Corporation; Pacific Northwest Payphones, Inc.; Central Telephone, Inc.; Interwest Tel, LLC; Interwest Telecom Services Corporation; Valley Pay Phones, Inc.; National Payphone Services, LLC; K. West Enterprises LLC, aka Partners In Communication; T &#38; C Management, LLC; Corban Technologies, Inc.; and Northwest Public Communications Council (NPCC) and Defendant Qwest Corporation's Motion (#27) to Strike Portions of the Declaration of Frank G. Patrick in Support of Plaintiffs' Motion to Remand.</paratext></para>
+<para><paratext ID="p3" level="1">For the reasons that follow, the Court <bold>DENIES</bold> Plaintiffs' Motion to Remand and <bold>DENIES</bold> Qwest's Motion to Strike.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>BACKGROUND</bold></underscore></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>I. Factual Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">The following facts are taken from Plaintiffs' Amended Complaint:</paratext></para>
+<para><paratext ID="p5" level="1">NPCC is a regional trade association that represented the other Plaintiffs in this case in a representative capacity in various other proceedings and is a member of a group of regional and national trade associations that were compensated for refunds and dial-around compensation (DAC) for its members.</paratext></para>
+<para><paratext ID="p6" level="1">The remaining Plaintiffs in this case are twelve Payphone Service Providers (herein referred to collectively as the PSP Plaintiffs) that are incorporated or have principal places of business in the following states: Oregon, Delaware, Colorado, Nevada, Washington, Indiana, and California. At all relevant times the PSP Plaintiffs provided payphone services in the State of Oregon and elsewhere either in the Qwest Service Area or in the western United States and purchased services from Qwest.</paratext></para>
+<para><paratext ID="p7" level="1">Qwest is a Colorado corporation with its principal place of business in Denver, Colorado. Qwest is a local exchange carrier in fourteen western states including Oregon (the Qwest Service Area) in which Qwest &#x201C;provides access to the local telephone network and through that network to the long distance and international telephone networks to PSPs within the Qwest Service Area.&#x201D; Compl. at &#182; 4. Qwest is a Regional Bell Operating Company (RBOC) that owns one or more Bell Operating Companies (BOCs). <ital>See</ital> 47 U.S.C. &#167; 153(4).</paratext></para>
+<para><paratext ID="p8" level="1">Pursuant to the Telecommunications Act of 1996, owners of payphones were to be compensated for all calls made from their payphones, including credit-card calls and calls to 800 numbers, and BOCs were required to provide payphone services to their independent PSP competitors at their costs plus a reasonable amount of overhead. The BOCs had to be &#x201C;NST compliant,&#x201D; which meant the rates had to meet the new-services tests and other federal tariffing requirements.</paratext></para>
+<para><paratext ID="p9" level="1">In an order dated April 4, 1997, the Federal Communications Commission (FCC) provided a 45-day waiver for RBOCs to file NST compliant tariffs with the FCC for their interstate rates, which would allow BOCs to collect DAC even if their rates had not been reviewed for NST compliance. As a result of the order, Qwest was one of a number of RBOC and BOC signatories of a letter to the FCC (Waiver Request Letter) dated April 10, 1997, requesting a 45-day waiver from the FCC's order. In response to the Waiver Request Letter, the FCC provided a limited 45-day waiver to Qwest and the other signatories, but, nevertheless, the FCC allowed the signatories to begin collecting DAC on Oregon intrastate calls beginning on April 15, 1997.</paratext></para>
+<para><paratext ID="p10" level="1">Qwest's payphone rates were not reviewed in Oregon for NST compliance until 2001. Before 2001 Plaintiffs and other PSPs in Oregon relied on Qwest's representation that its payphone rates were at all times NST compliant, including a letter to longdistance carriers in May 1997 in which Qwest certified that all of its intrastate payphone rates were NST complaint. Pursuant to Qwest's representations, Qwest demanded and received DAC for its payphones in Oregon commencing April 15, 1997.</paratext></para>
+<para><paratext ID="p11" level="1">Pursuant to two Oregon Public Utility Commission (PUC) orders (collectively referred to as the Settlement Order), Qwest was required to pay up to $272 million in refunds to all ratepayers including PSPs.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Procedural Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">On approximately November 15, 2013, Plaintiffs filed an action against Defendants in Multnomah County Circuit Court. On January 14, 2014, Plaintiffs filed an Amended Complaint in which they asserted claims against Defendants for (1) enforcement and specific enforcement of PUC Orders and the Settlement Order; (2) unjust enrichment; (3) promissory estoppel and judicial estoppel; (4) &#x201C;third-party beneficiary&#x201D;; (5) conversion; (6) intentional fraud; (7) negligent fraud; (8) violation of Oregon Deceptive Trade Practices Act, Oregon Revised Statutes &#167;&#167; 646.605, <ital>et seq.</ital>; (9) failure to pay a refund in violation of Oregon Revised Statute &#167; 759.185; (10) providing undue preferences in violation of Oregon Revised Statute &#167; 759.275; (11) denial of access to network elements in violation of Oregon Revised Statute &#167; 759.455; (12) loss of business opportunity; (13) breach of contract; and (14) constructive trust.</paratext></para>
+<para><paratext ID="p13" level="1">On February 13, 2014, Qwest removed Plaintiffs' action to this Court pursuant to 28 U.S.C. &#167; 1446 on the grounds that this Court has original jurisdiction over this case based on the presence of both federal questions pursuant to 28 U.S.C. &#167; 1331 and diversity of citizenship pursuant to 28 U.S.C. &#167; 1332.</paratext></para>
+<para><paratext ID="p14" level="1">On February 28, 2014, Plaintiffs filed a Motion (#7) to Remand this matter to Multnomah County Circuit Court on the ground that this Court lacks jurisdiction. On March 27, 2014, Qwest filed its Motion (#35) to Strike the Declaration of Frank G. Patrick.</paratext></para>
+<para><paratext ID="p15" level="1">The Court took the parties' Motions under advisement on April 18, 2014.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>STANDARDS</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">28 U.S.C. &#167; 1446(a) provides in pertinent part: &#x201C;A defendant or defendants desiring to remove any civil action or criminal prosecution from a State court shall file in the district court of the United States for the district and division within which such action is pending a notice of removal.&#x201D; 28 U.S.C. &#167; 1446(b) provides in pertinent part: &#x201C;The notice of removal of a civil action <charfill numchar="3">&#8228;</charfill> shall be filed within thirty days after the receipt by the defendant, through service or otherwise, of a copy of the initial pleading setting forth the claim for relief upon which such action or proceeding is based.&#x201D;</paratext></para>
+<para><paratext ID="p17" level="1">A motion to remand is the proper procedure for challenging removal. <ital>Babasa v. LensCrafters, Inc.</ital>, 498 F.3d 972, 974 (9<super style="percent_r">th</super> Cir. 2007). The removal statute is strictly construed, and any doubt about the right of removal is resolved in favor of remand. <ital>Durham v. Lockheed Martin Corp.</ital>, 445 F.3d 1247, 1252 (9<super style="percent_r">th</super> Cir. 2006). <ital>See also Prize Frieze, Inc. v. Matrix, Inc.</ital>, 167 F.3d 1261, 1265 (9<super style="percent_r">th</super> Cir. 1999), <ital>overruled on other grounds by Abrego Abrego v. The Dow Chem. Co.</ital>, 443 F.3d 676 (9<super style="percent_r">th</super> Cir. 2006). The party seeking removal bears the burden of establishing by a preponderance of the evidence that all removal requirements have been met. <ital>Serrano v. 180 Connect, Inc.</ital>, 478 F.3d 1018, 1021 (9<super style="percent_r">th</super> Cir. 2007). <ital>See also Valdez v. Allstate Ins. Co.</ital>, 372 F.3d 1115, 1117 (9<super style="percent_r">th</super> Cir. 2004).</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>DISCUSSION</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">Qwest removed this matter on the grounds that the Court has jurisdiction over this action pursuant to 28 U.S.C. &#167; 1331 because Plaintiffs' claims &#x201C;necessarily raise disputed and substantial issues of federal law, even though the causes of action are based on state law&#x201D; and pursuant to 28 U.S.C. &#167; 1332 because Plaintiffs &#x201C;are citizens of different states from Qwest and the amount in controversy exceeds $75,000, exclusive of costs and interest.&#x201D;</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Federal-Question Jurisdiction</bold></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">&#x201C;Ordinarily, determining whether a particular case arises under federal law turns on the &#x2018;well-pleaded complaint&#x2019; rule,&#x201D; which provides:</paratext>
+<para><paratext ID="p20" first-line="2" turnover="2">[W]hether a case is one arising under the Constitution or a law or treaty of the United States, in the sense of the jurisdictional statute[,] <charfill numchar="3">&#8228;</charfill> must be determined from what necessarily appears in the plaintiff's statement of his own claim in the [complaint], unaided by anything alleged in anticipation of avoidance of defenses which it is thought the defendant may interpose.</paratext></para>
+<paratext ID="p21" contd-flag="y"><ital>Aetregardingna Health, Inc. v. Davila</ital>, 542 U.S. 200, 207 (2004)(quotation omitted). Accordingly, &#x201C;the existence of a federal defense normally does not create statutory &#x2018;arising under&#x2019; jurisdiction and a defendant may not [generally] remove a case to federalcourt unless the <ital>plaintiff's</ital> complaint establishes that the case arises under federal law.&#x201D; <ital>Id.</ital> (quotations omitted; emphasis in original).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>A. Preclusive Effect of Prior Opinion and Order</bold></headtext></head>
+<section.body>
+<para><paratext ID="p22" level="1">Plaintiffs contend Qwest's removal of this action with respect to federal-question jurisdiction is precluded under the doctrine of issue preclusion by this Court's prior Opinion and Order (#66) issued October 25, 2010, in <ital>Northwest Public Communications Council v. Qwest Corporation</ital>, No. 3:09-cv-1351-BR (<ital>Qwest I).</ital></paratext></para>
+<para><paratext ID="p23" level="1">After &#x201C;an issue is actually and necessarily determined by a court of competent jurisdiction, that determination is conclusive in subsequent suits based on a different cause of action involving a party to the prior litigation.&#x201D; <ital>Montana v. U.S.</ital>, 440 U.S. 147, 153 (1979).</paratext></para>
+<para><paratext ID="p24" level="1">In <ital>Taylor v. Sturgell</ital>, 553 U.S. 880, 892 (2008), the Supreme Court defined issue preclusion as follows:</paratext>
+<para><paratext ID="p25" first-line="2" turnover="2">Issue preclusion <charfill numchar="3">&#8228;</charfill> bars &#x201C;successive litigation of an issue of fact or law actually litigated and resolved in a valid court determination essential to the prior judgment,&#x201D; even if the issue recurs in the context of a different claim.</paratext></para>
+</para>
+<para><paratext ID="p26" level="1">In its <ital>Qwest I</ital> Opinion and Order, the Court dismissed the plaintiffs' federal-law claims. The Court then dismissed the matter in its entirety after declining to exercise jurisdiction over the plaintiffs' remaining state-law claims based on the parties' prior representations that &#x201C;if Plaintiffs' federal claims were dismissed, the Court would no longer have jurisdiction over Plaintiffs' state-law [c]laims.&#x201D; Opin. and Order at 29.</paratext></para>
+<para><paratext ID="p27" level="1">As noted, issue preclusion by its very definition requires the parties to have &#x201C;actually litigated&#x201D; the issue of fact or law that creates the preclusive effect, and the issue must have been &#x201C;resolved&#x201D; in court. <ital>Taylor</ital>, 553 U.S. at 892. In <ital>Qwest I</ital> the issue as to whether the Court had jurisdiction over any of plaintiffs' remaining state-law claims was not actually litigated or resolved by the Court because, as noted, the Court declined to exercise jurisdiction over those claims based on the parties' prior representations. Here the parties have not made any such representations.</paratext></para>
+<para><paratext ID="p28" level="1">On this record the Court concludes Plaintiffs' argument that the <ital>Qwest I</ital> Opinion and Order has a preclusive effect as to Qwest's removal of this case is without merit.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. Jurisdiction over Plaintiffs' Claims</bold></headtext></head>
+<section.body>
+<para><paratext ID="p29" level="1">Qwest asserts in its Notice (#1) of Removal that this Court has original jurisdiction over this case because Plaintiffs' Second, Third, Fifth, Sixth, Seventh, Eighth, Thirteenth, and Fourteenth Claims involve substantial federal questions.</paratext></para>
+<para><paratext ID="p30" level="1">Qwest relies on <ital>Grable &#38; Sons Metal Products, Inc. v. Darue Engineering &#38; Manufacturing</ital> to support its argument that removal is proper based on federal-question jurisdiction. 545 U.S. 308 (2005). In <ital>Grable</ital> the plaintiff filed a state common-law, quiet-title action in which the plaintiff alleged the defendant's title to a parcel of land previously seized by the Internal Revenue Service (IRS) was invalid because the IRS failed to serve the plaintiff with notice as required by 26 U.S.C. &#167; 6335(a). The defendant &#x201C;removed the case to Federal District Court as presenting a federal question, because the claim of title depended on the interpretation of <charfill numchar="3">&#8228;</charfill> federal tax law.&#x201D; <ital>Id.</ital> at 311. The Court affirmed the Sixth Circuit's decision that jurisdiction was proper because &#x201C;federal-question jurisdiction will lie over state-law claims that implicate significant federal issues.&#x201D; <ital>Id.</ital> at 312.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>C. Plaintiffs' Second Claim</bold></headtext></head>
+<section.body>
+<para><paratext ID="p31" level="1">Plaintiffs allege in their Second Claim that Defendants have been unjustly enriched in part by failing to &#x201C;timely file NST compliant payphone rates as required by the FCC.&#x201D; Compl. at &#182; 104. For Plaintiffs to prevail on this ground, Qwest argues Plaintiffs will have to establish that Qwest did not comply with the rate-filing requirements established by the FCC and that Qwest, therefore, is obligated to make a refund under federal law. The Court agrees.</paratext></para>
+<para><paratext ID="p32" level="1">Plaintiffs contend the statement in their Second Claim regarding the timely filing of NST compliant rates is merely a reference to a federal standard and that they do not allege a claim for refunds under federal law. As noted, however, whether a claim involves a federal question &#x201C;must be determined from what necessarily appears in the plaintiff's statement of his own claim in the [complaint].&#x201D; <ital>Aetna Health</ital>, 542 U.S. at 207. Plaintiffs explicitly seek relief under this claim based in part on their allegation that Defendants did not comply with federal rate-filing requirements. Similar to the circumstances in <ital>Grable</ital>, resolution of this claim would, therefore, require interpretation of the alleged federal requirements and, accordingly &#x201C;implicates significant federal issues.&#x201D; <ital>See Grable</ital>, 545 U.S. at 312.</paratext></para>
+<para><paratext ID="p33" level="1">On this record the Court concludes Qwest has established Plaintiffs' Second Claim raises a substantial federal question, and, therefore, removal to this Court is proper.</paratext></para>
+<para><paratext ID="p34" level="1">District courts &#x201C;have supplemental jurisdiction over all other claims that are so related to claims in the action within such original jurisdiction that they form part of the same case or controversy under Article III of the United States Constitution.&#x201D; 28 U.S.C. &#167; 1367(a). Accordingly, when &#x201C;the federal court acquires jurisdiction of a case on removal, it also acquires jurisdiction over pendent state law claims, whether or not the federal claim proves out.&#x201D; <ital>Voga v. U.S. Bank</ital>, No. 3:11&#8211;cv&#8211;316&#8211;RCJ&#8211;VPC, 2011 WL 5180978, at *2 (D. Nev. Oct. 27, 2011)(quoting <ital>Salveson v. W. States Bankcard Ass'n</ital>, 731 F.2d 1423, 1430 (9<super style="percent_r">th</super> Cir. 1984)).</paratext></para>
+<para><paratext ID="p35" level="1">Because the Court has concluded removal was proper based on the allegations in Plaintiffs' Second Claim, the Court has jurisdiction over all of Plaintiffs' claims even if they are state-law claims, and, accordingly, the Court declines to address the other grounds for jurisdiction advanced by Qwest with respect to these remaining contested claims.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Diversity Jurisdiction</bold></headtext></head>
+<section.body>
+<para><paratext ID="p36" level="1">As noted, Qwest also contends removal is proper based on diversity jurisdiction. Specifically, Qwest argues Plaintiff Pacific Northwest Payphones, Inc. aka Tiger Industrial Engineering Corp was incorporated in Colorado just days before this action was filed &#x201C;for the sole purpose of destroying diversity jurisdiction.&#x201D;</paratext></para>
+<para><paratext ID="p37" level="1">The Court, however, has already concluded removal was proper because this Court has federal-question jurisdiction over this matter. The Court, therefore, declines to address Qwest's arguments as to diversity jurisdiction.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>QWEST'S MOTION (#27) TO STRIKE</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p38" level="1">Qwest moves the Court to strike paragraphs 5 through 23 of the Declaration (#9) of Plaintiffs' attorney, Frank G. Patrick, in support of Plaintiffs' Motion (#7) to Remand on the grounds that Patrick mischaracterizes the documents that are exhibits to his Declaration and makes legal arguments in his Declaration based on such documents.</paratext></para>
+<para><paratext ID="p39" level="1">The Court has considered paragraphs 5 through 23 of Patrick's Declaration and finds some of these paragraphs contain unnecessary characterizations of exhibits and, in addition, include legal arguments. The Court, however, notes Qwest has not been prejudiced by the Court's consideration of these portions of Patrick's Declaration in light of the Court's conclusion that removal is proper based on federal-question jurisdiction as to Plaintiffs' Second Claim.</paratext></para>
+<para><paratext ID="p40" level="1">Accordingly, the Court <bold>DENIES</bold> Qwest's Motion (#27) to Strike.</paratext></para>
+</section.body>
+<head><headtext align="center"><underscore><bold>CONCLUSION</bold></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p41" level="1">For these reasons, the Court <bold>DENIES</bold> Plaintiffs' Motion (#7) to Remand and <bold>DENIES</bold> Qwest's Motion (#27) to Strike.</paratext></para>
+<para><paratext ID="p42" level="1">Pursuant to the Court's Order (#40) issued April 8, 2014, the Court sets the following briefing schedule regarding Qwest's pending Motion (#28) to Dismiss Plaintiffs' First Amended Complaint and Plaintiffs' Motion (#10) for Partial Summary Judgment: The parties' responses to both Motions are due July 1, 2014, and any replies are due July 14, 2014, when the Court will take the Motions under advisement without oral argument.</paratext></para>
+<para><paratext ID="p43" level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p44" level="1">DATED this 13<super style="percent_r">th</super> day of June 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE issue-xml PUBLIC "-//Atypon//DTD Atypon JATS Journal Archiving and Interchange Issue XML DTD v1.0.0 20120831//EN" "Atypon-JATS-1.0.0/Atypon-Issue-Xml.dtd">
+<issue-xml><journal-meta>
+<journal-id journal-id-type="publisher-id">bull</journal-id>
+<journal-title-group>
+<journal-title>The Bulletin of the Royal College of Surgeons of England</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1473-6357</issn>
+<issn pub-type="epub">1478-7075</issn>
+<publisher>
+<publisher-name>Royal College of Surgeons</publisher-name>
+</publisher>
+</journal-meta><issue-meta issue-type="normal">
+<pub-date pub-type="ppub"><month>04</month><year>2017</year></pub-date>
+<pub-date pub-type="epub"><month>04</month><year>2017</year></pub-date>
+<volume>99</volume>
+<issue>4</issue>
+<issue-id pub-id-type="doi">10.1308/bull.2017.99.issue-4</issue-id>
+</issue-meta>
+<toc toc-type="subject-heading-order">
+<issue-subject-group>
+<issue-subject-title>
+<subject>Editorial</subject>
+</issue-subject-title>
+<issue-article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.131</article-id>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<subject>Research</subject>
+</issue-subject-title>
+<issue-article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.133</article-id>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<subject>Trainees&#x2019; Forum</subject>
+</issue-subject-title>
+<issue-article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.137</article-id>
+</issue-article-meta>
+<issue-article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.141</article-id>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<subject>Letters</subject>
+</issue-subject-title>
+<issue-article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.145</article-id>
+</issue-article-meta>
+</issue-subject-group>
+<issue-subject-group>
+<issue-subject-title>
+<subject>Letting off steam</subject>
+</issue-subject-title>
+<issue-article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.147</article-id>
+</issue-article-meta>
+</issue-subject-group>
+</toc>
+</issue-xml>

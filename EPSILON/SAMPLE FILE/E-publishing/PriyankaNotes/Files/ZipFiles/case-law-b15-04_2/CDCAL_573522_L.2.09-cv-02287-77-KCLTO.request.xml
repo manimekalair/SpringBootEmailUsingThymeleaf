@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold><underscore>CIVIL MINUTES &#8211; GENERAL</underscore></bold></court.message>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>CENTRAL DISTRICT OF CALIFORNIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>Vetra Perry-Roman</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>AIG Retirement Services, Inc.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-02287DOC(RNBx)</docket.line>
+<docket.number>CV 09-02287DOC(RNBx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-02287-DOC-RNB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/11/2009</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Kristee Hopkins, Courtroom Clerk, ATTORNEYS PRESENT FOR PLAINTIFFS: NONE PRESENT</attorney.line>
+<attorney.line first-line="1">None Present, Court Reporter, ATTORNEYS PRESENT FOR DEFENDANTS: NONE PRESENT</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">DOCKET ENTRY</attorney.line>
+<attorney.line first-line="1">[I hereby certify that this document was served by first class mail or Government messenger service, postage prepaid, to all counsel (or parties) at their respective most recent address of record in this action on this date.]</attorney.line>
+<attorney.line first-line="1">Date:____________ Deputy Clerk: _______________</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">PROCEEDING (IN CHAMBERS): ORDER GRANTING PLAINTIFF'S MOTION TO RE-CAPTION THE PLEADINGS AND DISMISS DEFENDANT AIG RETIREMENT SERVICES, INC. WITHOUT PREJUDICE</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1"><underscore>THE HONORABLE DAVID O. CARTER, JUDGE</underscore></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is Plaintiff Vetra Perry-Roman's Motion to Re-Caption the Pleadings and to Dismiss Defendant AIG Retirement Services, Inc. without Prejudice. The Court finds the matter appropriate for decision without oral argument. Fed. R. Civ. P. 78; Local R. 7-15. After considering the moving, opposing, and replying papers thereon, and for the reasons set forth below, the Court hereby GRANTS Plaintiff's Motion to Re-Caption the Pleadings and to Dismiss Defendant AIG Retirement Services, Inc. without Prejudice. In so doing, the Court finds that the First Amended Complaint relates back to the date of the originally filed Complaint.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">Plaintiff Vetra Perry-Roman (&#x201C;Plaintiff&#x201D;) commenced this wage and hour case by filing her class action complaint on November 24, 2008. Defense Counsel for Defendant AIG Retirement Services, Inc. (&#x201C;Defendant 1&#x201D;) contacted Plaintiff's counsel and informed Plaintiff that the sole defendant named therein did not employ Plaintiff, but rather, that a separate corporate entity of Defendant 1 was Plaintiff's employer.</paratext></para>
+<para><paratext ID="p3" level="1">Based on Defense Counsel's representations, Plaintiff reviewed the information and determined that it was appropriate to amend her complaint. Accordingly, on February 6, 2009, Plaintiff filed her First Amended Complaint, which omits Defendant 1, and names both AIG Retirement Advisors, Inc. (&#x201C;Defendant 2&#x201D;), and VALIC (&#x201C;Defendant 3&#x201D;), as the actual defendants.</paratext></para>
+<para><paratext ID="p4" level="1">Following the filing of Plaintiff's First Amended Complaint, Defense Counsel on February 10, 2009, demanded that Plaintiff formally dismiss Defendant 1 from this action. Defense Counsel argued that a court order is necessary to accomplish this dismissal, to which Plaintiff's attorney did not agree. Defense Counsel reiterated that a formal dismissal was necessary and that her office refused to accept service of the amended pleadings on behalf of Defendants 2 and 3. Following Defense Counsel's refusal to accept service on behalf of the new defendants, Plaintiff prepared an amended summons and served the same along with the First Amended Complaint on Defendants 2 and 3 on February 23, 2009. While Plaintiff does not concede that the order requested herein is necessary, she hereby requests that the Court issue an order: (1) amending the caption on the pleadings to accurately reflect the parties hereto, and (2) dismissing Defendant 1 without prejudice so that the parties may move this litigation along.</paratext></para>
+<para><paratext ID="p5" level="1">Defendants 2 and 3 do not object to the Court proceeding with the new caption for this action provided that the amended filing is not considered to relate back to the original filing date.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. LEGAL STANDARD</bold></headtext></head>
+<section.body>
+<para><paratext ID="p6" level="1">Generally, leave to amend a pleading &#x201C;shall be freely given when justice so requires.&#x201D; Fed. R. Civ. P. 15(a). Leave to amend lies within the sound discretion of the trial court, which &#x201C;must be guided by the underlying purpose of Rule 15 to facilitate decisions on the merits, rather than on the pleadings or technicalities.&#x201D; <ital>United States v. Webb</ital>, 655 F.2d 977, 979 (9th Cir. 1981). Thus, Rule 15's policy of favoring amendments to pleadings should be applied with &#x201C;extreme liberality.&#x201D; <ital>Id.</ital> (citation omitted); <ital>see Ascon Properties, Inc. v. Mobil Oil Co.</ital>, 866 F.2d 1149, 1160 (9th Cir. 1989). Additionally, under the Federal Rules, a party can amend a pleading once as a matter of course where no responsive pleading has been filed. Fed. R. Civ. P. 15(a)(1)(A).</paratext></para>
+<para><paratext ID="p7" level="1">In order for an amendment to relate back to the original date of the pleading, one of three factors must be met. First, the law that provides the applicable statute of limitations must allow relation back. <ital>See</ital> Fed. R. Civ. P. 15(c)(1)(A). In the alternative, the amendment must assert a claim or defense that arose out of the conduct, transaction, or occurrence set out-or attempted to be set out-in the original pleading. <ital>See</ital> Fed. R. Civ. P. 15(c)(1)(B). As a third alternative, where the amendment changes the party or the naming of the party against whom the claim is asserted, the new pleading will relate back if Rule 15(c)(1)(B) is satisfied and if, within the period provided by Rule 4(m)(120 days) for serving the summons and complaint, the party to be brought in by such amendment: (i) received such notice of the action that it will not be prejudiced in defending on the merits; and (ii) knew or should have known that the action would have been brought against it, but for a mistake concerning the proper party's identity. <ital>See</ital> Fed. R. Civ. P. 15(c)(1)(C). Under this standard, if an amendment adds a new defendant to an action, the new party has a due process right secured by Rule 15 to be served with and respond to the amended pleading. <ital>See Nelson v. Adams USA, Inc.</ital>, 529 U.S. 460, 466-67, 120 S. Ct. 1579, 1584-85 (2000). An amendment adding a new party requires a more stringent standard than others, and all three factors listed under rule 15(c)(1)(C) must be met in order to protect a plaintiff who mistakenly targets the wrong defendant and then discovers, after the relevant statute of limitations has run, the identity of the proper party; the rule is not, however, meant to assist a plaintiff who ignores or fails to take reasonable notice of the existence of a potential party. <ital>See G.F.Co. v. Pan Ocean Shipping Co., Ltd.</ital>, 23 F.3d 1498, 1503 (9th Cir. 1994).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. DISCUSSION</bold></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>A. Application of Rule 15(c)(1)(C)</bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>1. Notice of Pending Action Pursuant to Rule 4m</bold></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">For relation under Rule 15(c)(1)(C), the defendant must have had notice of the pending action within the period provided by Rule 4m for serving the summons and complaint which is 120 days. Fed. R. Civ. P. 15(c)(1)(C). Where an action is filed before the statute of limitations runs, persons who were aware of the action within the 120 day period for service of summons can later be joined as defendants by an amended complaint. However, persons who were not aware of the action within the 120-day period cannot later be joined as defendants in the action. <ital>See Miguel v. Country Funding Corp.</ital>, 309 F.3d 1161, 1165 (9th Cir. 2002).</paratext></para>
+<para><paratext ID="p9" level="1">In the instant case, because Defendants 2 and 3 had notice of the pending action within the period required by Rule 4m, this requirement is not at issue.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>2. Same Conduct Transaction or Occurrence</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Relation back under Rule 15(c)(1)(C) also requires that the claim against the newly added defendants arises out of the conduct set forth in the original complaint under Rule 15(c)(1)(B). <ital>See</ital> Fed. R. Civ. P. 15(c)(1)(C). In regards to this issue, Defendants argue that the original pleading alleged that Plaintiff was employed and denied overtime and meal/rest breaks by some other employer-Defendant 1. Defendants also state that the original pleading alleged that Plaintiff represented a group of employees that Defendant 1 never employed, and so because of these facts, Defendants conclude that the amended claims do not arise out of the same occurrence set forth in the original pleading. Defendants argument, however, seems to lack merit, in that Plaintiff is suing Defendants 2 and 3 for the same violations of wage and hour laws that were the basis for her initial suit against Defendant 1. All causes of actions asserted in the amended complaint are exactly the same as those asserted in the original complaint; the only difference is that Plaintiff was mistaken with respect to which party was actually responsible for these violations. Thus, the amended complaint clearly arises out of the same conduct, transaction or occurrence set forth in the original complaint.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>3. Prejudice and Knowledge of Mistake</bold></headtext></head>
+<section.body>
+<para><paratext ID="p11" level="1">The relation back test also requires that the defendants knew or should have known that but for a mistake concerning the proper party's identity, they would have been named in the original complaint, and that the newly added defendants are not otherwise prejudiced in their defense. <ital>See</ital> Fed. R. Civ. P. 15(c)(1)(C)(i)(ii). Adherence to this rule ensures that the added defendant was aware of the need to preserve evidence and prepare a defense, within the limitations period prescribed by the legislature. <ital>See Nelson v. Adams USA, Inc.</ital>, 529 US 460, 469, 120 S. Ct. 1579, 1586 (2000).</paratext></para>
+<para><paratext ID="p12" level="1">In regards to the instant case, Defendants 2 and 3 argue that there is nothing to suggest that they knew or should have known they would be named by Plaintiff in a subsequent Amended Complaint. Defendants point out that Plaintiff's original Complaint alleged numerous wage and hour violations related to her employment, and since Defendants 2 and 3 were not named in that original Complaint, it would be illogical to conclude that Defendants 2 and 3 knew or should have known that the lawsuit would have been brought against them but for Plaintiff's mistake. It is unreasonable, however, for Defendants 2 and 3 to claim that they knew nothing of the lawsuit given the fact that Defendants 2 and 3 are bound to Defendant 1 as related corporate entities, and are represented by the same attorney. In fact, it was Defendants' attorney who notified Plaintiff in the first place that she had sued the wrong defendant and who the correct defendants were. If Defendants 2 and 3 did not know of the lawsuit, then they, at the very least, should have known of the lawsuit given the interrelatedness of all the Defendants involved in this suit. In addition, the newly added defendants raise no arguments that they will be prejudiced in defending this suit on the merits. These requirements of the test therefore weigh in favor of Plaintiff.</paratext></para>
+<para><paratext ID="p13" level="1">In conclusion, Plaintiff has met the requirements for relation back of amendments as pursuant to Federal Rule of Civil Procedure 15(c)(1)(C), and so the amended complaint should be permitted to relate back to the filing date of the original complaint.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. DISPOSITION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p14" level="1">For the foregoing reasons, the Court GRANTS Plaintiff's Motion to Re-Caption the Pleadings and Dismiss Defendant AIG Retirement Services, Inc. without Prejudice. The Court also finds that the First Amended Complaint relates back to the date of the originally filed complaint.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

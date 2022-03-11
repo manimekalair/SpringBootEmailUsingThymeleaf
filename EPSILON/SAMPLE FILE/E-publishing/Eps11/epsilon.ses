@@ -1,0 +1,360 @@
+# Epsilon session
+
+30
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+New File 2
+0 0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+1 90 33 3 1 3
+0 0 89 31
+0 4 5 3
+128 3
+c:\temp\Hopkins\*.txt
+New File 2
+33 0 0
+0 32 0 0 1 0 0
+257 262 0
+$ct<<SES!@!END>>%<[a-z]+<<SES!@!END>><<SES!@!END>><<SES!@!END>>make<<SES!@!END>><<SES!@!END>>g:\ovid\qjme\96-6\sgm\*.gml<<SES!@!END>>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f-match find-file: c:\
+f-match find-file: c:\My Documents\new.txt
+nt-match named-command: sdfdf
+f-match find-file: g:\process.sgm\kluwer.sgm\
+search: : hea
+search: : <Aid
+search: : article 
+f-match find-file: g:\process.sgm\kluwer.sgm\programs\*.3d
+search: : aid
+f-match find-file: g:\process.sgm\kluwer.sgm\programs\
+search: : lati
+search: : jh
+f-match find-file: c:\temp\ent
+search: : zdot
+search: : lstrok
+search: : nacute
+f-match find-file: c:\kluwer.txt
+nt-match named-command: fundamental-mode
+f-match find-file: z:\Eps11\bin\
+f-match find-file: z:\scan-c\Projs\kluwer\
+f-match find-file: z:\scan-c\Projs\kluwer\valid\*.pl
+f-match find-file: z:\scan-c\Projs\kluwer\valid\KAPValid.pl
+search: : file
+search: : print err 
+search: Regex: print err 
+f-match grep: z:\scan-c\Projs\kluwer\valid\kluval.pl
+f-match find-file: z:\scan-c\Projs\kluwer\valid\
+f-match find-file: g:\iop\fullxml\16dec02\
+search: : passed:
+search: : beta
+search: : m\ne
+search: : passed:\ne
+search: : passed: 
+search: : \ne
+f-match find-file: g:\iop\fullxml\prgs\
+search: : sub in
+f-match find-file: g:\iop\fullxml\16dec02\tex\
+search: : <inline-eqn
+search: : <inline
+search: : \beta
+f-match find-file: g:\iop\fullxml\16dec02\xml\
+f-match dired-execute: g:\iop\fullxml\16dec02\xml\no3113.xml
+f-match dired-execute: d:\iop\TeX\no3115.tex
+search: : 054.
+f-match find-file: d:\iop\run.bat
+f-match find-file: d:\iop\
+f-match find-file: g:\iop\fullxml\16dec02\xml\*.xml
+f-match find-file: d:\iop
+f-match dired-execute: g:\iop\fullxml\16dec02\xml\
+search: : 056
+nt-match bind-to-key: show-menu
+f-match find-file: g:\
+f-match find-file: g:\oup\pap\
+f-match find-file: g:\process.sgm\kluwer.sgm\ectx\
+search: : 5112975
+search: : bib30
+search: : atkins
+search: : 1975b
+search: : barker
+search: : belz
+search: : bendahou
+search: : breed
+search: : bromensh
+search: : chande
+search: : cox
+search: : davis
+search: : de w
+search: : decour
+search: : delabie
+search: : deng
+search: : downs
+search: : ebad
+search: : epa<
+search: : 1996
+search: : eppo
+search: : goulson
+search: : guez
+search: : gupta
+search: : haynes
+search: : jay
+search: : jayc
+search: : kev
+search: : koch
+search: : kirchner
+search: : le bl
+search: : macken
+search: : bib32
+search: : mayer
+search: : menzel
+search: : moriar
+search: : nation
+search: : naum
+search: : nigg
+search: : pajot
+search: : pham
+search: : 1989
+search: : rieth
+search: : nrcc
+search: : oecd
+search: : oomen
+f-match find-file: g:\iop\fullxml\parser\*.dtd
+search: : book-ref
+f-match find-file: \\sgml-5\c\
+f-match find-file: c:\temp\
+search: : wbt
+nt-match named-command: kill-all-buffers
+f-match find-file: c:\WINDOWS\
+search: : pwl
+search: : msis
+f-match find-file: g:\palgrave\ehg\prgs\*.pl
+search: : entity re
+f-match find-file: z:\scan-c\Projs\
+f-match find-file: d:
+f-match find-file: g:\PRGS\
+f-match find-file: c:\Program Files\Accessories\
+search: : win 
+search: : rund
+search: : rundd
+f-match find-file: c:
+f-match find-file: c:\back\
+f-match find-file: c:\WINDOWS\TEMP\
+search: : auto
+f-match find-file: e:\perl
+f-match find-file: c:\WINDOWS
+search: : sa
+f-match find-file: g:\PRGS\perl\
+f-match dired-execute: c:\WINDOWS\SAMPLES\
+f-match find-file: c:\WINDOWS\SAMPLES\
+f-match find-file: g:\oup\JASON\TSOUKALIS\prgs\*.pl
+search: : untagged chapter
+f-match find-file: g:
+f-match find-file: g:\oup\JASON\TSOUKALIS\prgs\
+f-match find-file: g:\ONLINE\SUJA\NATURE\*.pl
+search: : nat
+f-match find-file: g:\ONLINE\SUJA\NATURE\
+search: : .bat
+search: : nature.pl
+search: : <iss
+search: : <issn
+f-match find-file: g:\ovid\qjme\96-6\sgm\*.0
+search: Nofold Regex: %<[a-z]+
+search: : "tbl
+search: : <t
+f-match find-file: g:\ovid\qjme\96-6\sgm\*.gml
+search: : <tab
+search: : <table
+search: : <fig
+search: : <tbl
+search: : <fig 
+f-match grep: g:\ovid\qjme\96-6\sgm\*.gml
+search: : referenc
+search: : referen
+f-match find-file: g:\ovid\PROGRAMS\
+f-match find-file: g:\ovid\PROGRAMS\*.pl
+search: : <cro
+search: : ([f
+search: : <\/cro
+search: : <lk idref=\"t
+f-match find-file: g:\ovid\qjme\
+f-match find-file: g:\ovid\qjme\96-6\sgm\
+f-match inp-exit: g:\ovid\qjme\96-6\sgm\temp
+f-match find-file: g:\ovid\qjme\96-6\sgm\temp\*.txt
+search: : biblist:
+search: : biblist
+search: : <d 
+search: : <rf
+search: : 09:
+search: : bib:
+nt-match bind-to-key: kill-all-buffers
+nt-match bind-to-key: kill-buffer
+nt-match bind-to-key: set-abort-key
+nt-match named-command: set-abort-key
+nt-match bind-to-key: find-file
+search: : -box
+nt-match bind-to-key: undo
+nt-match bind-to-key: save-file
+nt-match bind-to-key: exit
+nt-match bind-to-key: split-window
+search: : <hr 
+nt-match bind-to-key: end-of-line
+nt-match bind-to-key: beginning-of-line
+search: : 200
+search: : co
+search: : print txt 
+nt-match named-command: bind-to-key
+nt-match bind-to-key: yank
+f-only-match write-state: c:\program files\eps11\sara.sta
+search: : box
+search: : boxopen
+search: : $ct
+changedir: c:\temp\Hopkins\
+f-match find-file: c:\temp\Hopkins\
+f-match find-file: c:\temp\Hopkins\*.pl
+f-match find-file: c:\temp\Hopkins\*.xml
+f-match find-file: c:\temp\Hopkins\*.txt
+<<SES!@!END>>
+CWD: c:\temp\Hopkins
+OPENCWD: \\Sgml-3\c\PAP

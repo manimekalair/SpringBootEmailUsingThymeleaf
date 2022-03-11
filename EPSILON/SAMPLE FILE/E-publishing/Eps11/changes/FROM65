@@ -1,0 +1,54 @@
+New features from Epsilon 6.5 to Epsilon 7.0:
+
+Syntax highlighting.
+
+Command history: Recall previous responses at any prompt with Alt-<Up>.
+
+Extended file patterns.  Grep, dired, file-query-replace on files in
+multiple directories, etc.
+
+Cut and paste from Epsilon directly to the MS-Windows clipboard
+with normal Epsilon commands.
+
+VESA and Ultravision video support in DOS.
+
+Dired can sort its listings in many different ways, and has new
+subcommands to copy and move files.
+
+Replace text in multiple files, even multiple directories.
+
+The new edit-variables command makes it easier to set a variable.
+
+Brief emulation.
+
+New compile-buffer command.
+
+New variables let you show text in the echo area when Epsilon's
+idle.
+
+Epsilon now caches partial line counts, so determining the current
+line number is now very fast, even in big files.
+
+Epsilon can now use distinct cursor shapes when the cursor appears
+in virtual space (between characters).
+
+Incremental search now highlights the match.
+
+The new view-process command displays compiler output in a pop-up
+window.
+
+Improved autoloading.
+
+C and C++ indenting is smarter and has several new customization
+options.
+
+Many convenient new commands, including delete-matching-lines,
+keep-matching-lines, tabify-buffer, untabify-buffer.
+
+New printing commands.
+
+You can create keyboard macros that pause and let you edit text
+before continuing.
+
+Epsilon now distinguishes between shifted cursor keys and grey
+keys, and the unshifted variety.

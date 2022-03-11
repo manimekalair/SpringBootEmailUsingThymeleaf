@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>EASTERN DISTRICT OF MICHIGAN</venue.name>
+<venue.name>SOUTHERN DIVISION</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>LAMAR BURNO, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>PACIFIC MARKETING, INC., <ital>et al.</ital>, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 14-12262</docket.line>
+<docket.number>14-12262</docket.number>
+<docket.line suppress-flag="y">5:14-cv-12262-JCO-MKM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 08/06/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>ORDER DENYING PETITION <underscore>TO OBTAIN PRO BONO COUNSEL</underscore></bold></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Hon. John Corbett O'Meara United States District Judge, William Barkholz Case Manager</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the court is Plaintiff's Lamar Burno's petition to obtain pro bono counsel, filed July 31, 2014. Plaintiff filed his complaint on June 5, 2014, alleging employment discrimination. Plaintiff requests that the court appoint counsel for him.</paratext></para>
+<para><paratext ID="p2" level="1">Unlike in criminal cases, the appointment of counsel in a civil case is not a constitutional right, but is a privilege &#x201C;justified only by exceptional circumstances.&#x201D; <underscore>See Lopez v. Reyes</underscore>, 692 F.2d 15, 17 (5<super style="percent_r">th</super> Cir. 1982); <underscore>Lavado v. Keohene</underscore>, 992 F.2d 601, 605 (6<super style="percent_r">th</super> Cir. 1993).</paratext>
+<para><paratext ID="p3" first-line="2" turnover="2">In determining whether &#x201C;exceptional circumstances&#x201D; exist, courts have examined &#x201C;the type of case and the abilities of the plaintiff to represent himself.&#x201D; This generally involves a determination of the &#x201C;complexity of the factual and legal issues involved.&#x201D; Appointment of counsel <charfill numchar="3">&#8228;</charfill> is not appropriate when a <ital>pro se</ital> litigant's claims are frivolous, or when the chances of success are extremely slim.</paratext></para>
+<paratext ID="p4" contd-flag="y"><underscore>Lavado</underscore>, 992 F.2d at 605 (citations omitted). <underscore>See also Henry v. City of Detroit Manpower Dept.</underscore>, 763 F.2d 757, 760 (6<super style="percent_r">th</super> Cir. 1985) (in considering an application for appointment of counsel in civil cases, the court &#x201C;should at least consider a plaintiff's financial resources, the efforts of plaintiff to obtain counsel, and whether plaintiff's claim appears to have any merit&#x201D;).</paratext></para>
+<para><paratext ID="p5" level="1">A review of the complaint and application to appoint counsel does not reveal &#x201C;exceptional circumstances&#x201D; justifying the appointment of counsel at this time. Moreover, the court is unaware of what efforts, if any, Plaintiff has made to obtain counsel on a contingency basis. In the event that this case survives dispositive motions and proceeds to trial, the court will revisit Plaintiff's application.</paratext></para>
+<para><paratext ID="p6" level="1">Accordingly, IT IS HEREBY ORDERED that Plaintiff's petition for pro bono counsel is DENIED.</paratext></para>
+<para><paratext ID="p7" level="1">Date: August 6, 2014</paratext></para>
+<para><paratext ID="p8" level="1">I hereby certify that a copy of the foregoing document was served upon the parties of record on this date, August 6, 2014, using the ECF system and/or ordinary mail.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

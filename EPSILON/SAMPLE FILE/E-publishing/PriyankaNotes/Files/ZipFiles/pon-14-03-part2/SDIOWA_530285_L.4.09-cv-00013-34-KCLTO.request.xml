@@ -1,0 +1,72 @@
+===== SDIOWA_530285_L.4.09-cv-00013-34-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>FOR THE SOUTHERN DISTRICT OF IOWA</venue.name>
+<venue.name>CENTRAL DIVISION</venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>UNITED STATES OF AMERICA, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>GREGORY SWECKER aka GREGORY R. SWECKER aka GREG SWECKER; BEVERLY SWECKER aka BEVERLY F. SWECKER; SWECKS, INC.; PALISADES COLLECTION, LLC; STATE OF IOWA; GRAND JUNCTION MUNICIPAL; UNIFUND CCR PARTNERS; and MIDLAND POWER COOPERATIVE; Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>4:09-cv-00013</docket.line>
+<docket.number>4:09-cv-00013</docket.number>
+<docket.line suppress-flag="y">4:09-cv-00013-RP-SBJ</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 06/05/2009</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER</headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ROBERT W. PRATT, Chief Judge U.S. DISTRICT COURT</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+<para><paratext level="1">Before the Court are Gregory R. Swecker's (&#x201C;Mr. Swecker&#x201D;) and Beverly F. Swecker's (&#x201C;Mrs. Swecker&#x201D;) (collectively &#x201C;the Sweckers&#x201D;) Motion for Judicial Review and Change of Venue and Motion to Stay, both filed on April 29, 2009. Clerk's Nos. 26, 27. The United States filed responses to the Motions on May 18, 2009. Clerk's Nos. 32, 33. No replies, which were due by May 29, 2009, have been filed.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Accordingly, the Court considers the matter fully submitted.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p">&#8195; Under Local Rule 7.1(g), reply briefs are ordinarily deemed unnecessary, and the Court may rule on a motion without one. <italic>See</italic> L.R. 7.1(g).</paratext></para></footnote.body></footnote>
+<head-c>I. BACKGROUND</head-c>
+<para><paratext level="1">On April 2, 2009, the Court issued an Order denying the Sweckers&#x2019; Motion to Dismiss (hereinafter &#x201C;April 2, 2009 Order&#x201D;). The Sweckers then filed a Motion for Reconsideration, a Notice of Appeal, and a Motion for Leave to Appeal in Forma Pauperis on April 13, 2009. Clerk's Nos. 20, 22. The Court denied both the Motion for Reconsideration and the Motion for Leave to Appeal in Forma Pauperis on April 17, 2009 (hereinafter &#x201C;April 17, 2009 Order&#x201D;). Clerk's No. 24. The Sweckers then filed a Motion for Judicial Review and Change of Venue and a Motion to Stay on April 29, 2009. Clerk's Nos. 26, 27. While these motions were pending, on May 18, 2009, the Eighth Circuit Court of Appeals dismissed the Notice of Appeal as premature. Clerk's No. 31.</paratext></para>
+<head-c>II. LAW AND ANALYSIS</head-c>
+<head-c>A. <italic>Motion for Judicial Review and Change of Venue</italic></head-c>
+<para><paratext level="1">In their Motion for Judicial Review and Change of Venue, the Sweckers list several disagreements they have with the Court's prior rulings in the April 2, 2009 Order and the April 17, 2009 Order. On this basis, they &#x201C;seek a judicial review of this matter.&#x201D; Mot. for Judicial Rev. and Change of Venue &#x00B6; 12. In addition, the Sweckers &#x201C;seek a change in venue as they do not believe they will be afforded a fair and unbiased forum if this matter remains in its current location in the State of Iowa&#x201D; because: (1) &#x201C;the Hon. Judge Pratt has acted beyond his authority by not allowing Defendants the right to redress for grievances&#x201D;; and (2) &#x201C;Judge [Pratt] ruled against Defendant Greg Swecker on a prior discrimination complaint under the Statute of Limitations 741 Relief process.&#x201D; <italic>Id.</italic> at &#x00B6; 13.</paratext></para>
+<para><paratext level="1">First, in addressing the Sweckers&#x2019; request for &#x201C;judicial review,&#x201D; it is clear that the Sweckers seek to have a court, other than this Court, review the April 2, 2009 and April 17, 2009 Orders previously issued in this case. Congress has granted the courts of appeals jurisdiction of appeals from all final decisions and immediately appealable interlocutory decisions of the district courts of the United States. 28 U.S.C. &#x00A7;&#x00A7; 1291-92. However, as the Court noted in its April 17, 2009 Order, the April 2, 2009 Order was not a final judgment, nor is it an immediately appealable interlocutory decision under 28 U.S.C. &#x00A7; 1292(b). Likewise, the April 17, 2009 Order is neither a final judgment nor an immediately appealable interlocutory decision. The Sweckers have already sought to appeal the Court's April 2, 2009 Order, and, as the Eighth Circuit noted in its dismissal of the Notice of Appeal, it would be premature for the Eighth Circuit to hear such an appeal.   While there is no avenue open for the Sweckers&#x2019; request for judicial review at the present time, upon final resolution of this action, the Sweckers will have the opportunity to appeal and contest the basis of the Court's April 2, 2009 and April 17, 2009 Orders. <italic>See Van Cauwenberghe v. Biard</italic>, 486 U.S. 517, 525 (1988) (&#x201C;The final-judgment rule requires that except in certain narrow circumstances in which the right would be &#x2018;irretrievably lost&#x2019; absent an immediate appeal, litigants must abide by the district court's judgments, and suffer the concomitant burden of a trial, until the end of proceedings before gaining appellate review.&#x201D; (citing <italic>Richardson-Merrell Inc. v. Koller</italic>, 472 U.S. 424, 431 (1985)).</paratext></para>
+<para><paratext level="1">Second, the Sweckers request a change in venue, noting both their displeasure with the Court's Orders in this case, and their belief that the Court placed requirements on Mr. Swecker which were contrary to existing case law in a previous case before the Court.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> Title 28, United States Code, &#x00A7; 1404(a) provides: &#x201C;For the convenience of the parties and witnesses, in the interest of justice, a district court may transfer any civil action to any other district or division where it might have been brought.&#x201D; 28 U.S.C. &#x00A7;1404(a). &#x201C;Change of venue, although within the discretion of the district court, should not be freely granted.&#x201D; <italic>In re Nine Mile Ltd.</italic>, 692 F.2d 56, 61 (8th Cir. 1982), <italic>overruled on other grounds by Miss. Hous. Dev. Comm'n v. Brice</italic>, 919 F.2d 1306, 1311 (8th Cir. 1990). The burden is upon the party seeking transfer to &#x201C;make a clear showing that the balance of interests weighs in favor of the proposed transfer, and unless that balance is strongly in favor of the moving party, the plaintiff's choice of forum should not be disturbed.&#x201D; <italic>Houk v. Kimberly-Clark Corp.</italic>, 613 F. Supp. 923, 927 (W.D. Mo. 1985) (citations omitted); <italic>see also Shutte v. Armco Steel Corp.</italic>, 431 F.2d 22, 25 (3d Cir. 1970) (plaintiff's forum choice is to be given &#x201C;paramount consideration&#x201D;).</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p">&#8195; While this request is not framed as a request for recusal, the Court notes that generally allegations of bias and prejudice do not disqualify a judge unless they &#x201C;stem from an extrajudicial source and result in an opinion on the merits on some basis other than what the judge learned from his participation in the case.&#x201D; <italic>United States v. Grinnell Corp.</italic>, 384 U.S. 563, 583 (1966) (citing <italic>Berger v. United States</italic>, 255 U.S. 22, 31 (1921)). Disqualification due to remarks during an official proceeding might be appropriate only when those remarks &#x201C;reveal such a high degree of favoritism or antagonism as to make fair judgment impossible.&#x201D; <italic>In re Larson</italic>, 43 F.3d 410, 414 (8th Cir. 1994) (citing <italic>Liteky v. United States</italic>, 510 U.S. 540, 551 (1994)); <italic>Mitchell v. Kirk</italic>, 20 F.3d 936, 938 (8th Cir. 1994)). &#x201C;Because a judge is presumed to be impartial, a party seeking recusal bears the substantial burden of proving otherwise.&#x201D; <italic>United States v. Martinez</italic>, 446 F.3d 878, 883 (8th Cir. 2006) (citing <italic>United States v. Denton</italic>, 434 F.3d 1104, 1111 (8th Cir. 2006)). The Sweckers point to no extrajudicial comments, nor any comments during an official proceeding, by the undersigned judge that suggest antagonism toward the Sweckers beyond the Court's adverse disposition of their arguments. Prior judicial rulings against a party, such as those referenced by the Sweckers, do not support the disqualification of a judge in future adjudications involving that party.</paratext></para></footnote.body></footnote>
+<para><paratext level="1">Here, the property subject to foreclosure is located in Iowa. Likewise, the Sweckers and any other witnesses who may be called for trial work or reside in Iowa. Though the Sweckers assert that the Court has demonstrated bias against them, they provide no support for this claim beyond their dissatisfaction with prior judicial rulings made by this Court. Factors that bear on the interest of justice and weigh in favor of maintaining the action in Iowa are: (1) the promotion of judicial economy, (2) the Plaintiff's choice of forum in Iowa, (3) the increased comparative costs to the parties of litigating in another forum, and (4) the relative ease of enforcement of a judgment in Iowa. <italic>See Terra Int'l, Inc. v. Miss. Chem. Corp.</italic>, 119 F.3d 688, 696 (8th Cir. 1997). Given these considerations, it is clear that transfer of venue outside of Iowa would not serve the convenience of the parties, the convenience of the witnesses, or the interests of justice.</paratext></para>
+<head-c>B. <italic>Motion to Stay</italic></head-c>
+<para><paratext level="1">The Sweckers also seek a stay of the proceedings in this case, citing an April 21, 2009 news release issued by Secretary Thomas J. Vilsack (&#x201C;Secretary Vilsack&#x201D;) of the United States Department of Agriculture (&#x201C;USDA&#x201D;). Motion to Stay &#x00B6;&#x00B6; 1-3; <italic>Id.</italic> at 3-4. In the April 21, 2009 news release, Secretary Vilsack noted that several thousand civil rights complaints filed with the USDA since the year 2000 have yet to be reviewed. He announced that the USDA is temporarily suspending all Farm Services Agency Farm Loan Program foreclosures for approximately 90 days to allow the USDA &#x201C;the opportunity to review loans involving possible discriminatory conduct.&#x201D; <italic>Id.</italic> &#x00B6; 2. It is on the basis of this temporary suspension that the Sweckers seek to have a stay placed on these foreclosure proceedings.</paratext></para>
+<para><paratext level="1">The United States acknowledges this policy of temporary suspensions and suggests that &#x201C;because Mrs. Swecker has submitted a civil rights complaint, the United States is willing to have the Court hold its ruling on the Motion to Stay in abeyance until August 1, 2009, (90 days from the issuance of Secretary Vilsack's memorandum, which was effective May 1, 2009).&#x201D; Pl.&#x2019;s Resistance to Defs.&#x2019; Mot. to Stay &#x00B6; 5. In light of the United States&#x2019; acknowledgment of the USDA policy, the Court will stay this foreclosure matter for the duration of the USDA's temporary suspension on foreclosures. Because the Sweckers&#x2019; Motion to Stay is based solely on the USDA's temporary suspension of all foreclosure actions, the basis of the stay will be fully satisfied once the USDA's temporary suspension period has concluded on August 1, 2009, and the stay will be automatically lifted.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference></paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p">&#8195; The Court notes that the basis of this stay is not Title 7, United States Code &#x00A7; 1981a(b)(1)(A)-(B), which provides for a moratorium on foreclosure proceedings against any farmer or rancher who files, or has pending against the Department, a claim of program discrimination that is accepted by the Department as valid. As the Court previously stated in response to the Sweckers&#x2019; references to an allegedly outstanding civil rights complaint, &#x201C;[i]f the Sweckers wish to raise th[e] issue [of a moratorium on the foreclosure proceeding], they may file an appropriate motion to stay this foreclosure proceeding, accompanied by any pertinent documentary evidence . . . .&#x201D; April 12, 2009 Order, n.5.</paratext></para></footnote.body></footnote>
+<head-c>III. CONCLUSION</head-c>
+<para><paratext level="1">For the reasons stated above, the Sweckers&#x2019; Motion for Judicial Review and Change of Venue (Clerk's No. 26) in DENIED. The Motion to Stay (Clerk's No. 27) is GRANTED until August 1, 2009, upon which date it will be automatically lifted.</paratext></para>
+<para><paratext level="1">IT IS SO ORDERED.</paratext></para>
+<para><paratext level="1">Dated this_______5th_______day of June, 2009.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

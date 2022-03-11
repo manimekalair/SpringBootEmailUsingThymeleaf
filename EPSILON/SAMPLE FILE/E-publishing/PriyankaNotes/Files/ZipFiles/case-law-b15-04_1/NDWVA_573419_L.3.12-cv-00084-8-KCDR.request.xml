@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+<venue.name><bold>MARTINSBURG</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>RONALD HARRIS, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>AUTO CENTER, Defendant.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CIVIL ACTION NO. 3:12-CV-84 (GROH)</bold></docket.line>
+<docket.number><bold>3:12-CV-84 (GROH)</bold></docket.number>
+<docket.line suppress-flag="y">3:12-cv-00084-GMG-DJJ</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/20/2012</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER DISMISSING CASE</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GINA M. GROH UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On this day, the above-styled matter came before the Court upon the Court's Show Cause Order of August 29, 2012 [Doc. 4]. In that Order, this Court found as follows:</paratext>
+<para><paratext ID="p2" first-line="0" turnover="hanging">1. That the <ital>pro se</ital> Plaintiff had filed a Complaint alleging, essentially, that in April of 2012 he purchased a vehicle from the Defendant, that the transmission in the vehicle subsequently experienced problems, that the Defendant contracted with a third party company to repair the vehicle, that the third party company kept the vehicle for two weeks, during which time the Plaintiff incurred $487.00 in car rental expenses, that upon receiving the vehicle back from the third party company the issues with the transmission still had not been resolved, that the Plaintiff now suspects that the third party company never changed/fixed the transmission at all, and that the Plaintiff now suspects that the mileage on the odometer of the vehicle is incorrect.</paratext></para>
+<para><paratext ID="p3" first-line="0" turnover="hanging">2. The Plaintiff asserted that &#x201C;[i]t is of my belief Auto Center knew the transmission was bad when they sold me the vehicle and also they knew the odometer wasn't working correctly.&#x201D; Moreover, the Plaintiff asserted that &#x201C;I am asking for $150,000.00 because I have an extremely bad heart and transportation to me is necessary.&#x201D;</paratext></para>
+<para><paratext ID="p4" first-line="0" turnover="hanging">3. In its Show Cause Order of August 29, 2012, this Court found that &#x201C;[b]ased upon the vague assertions contained in the Plaintiff's Complaint, the Court is unable to determine whether or not the requisite amount-in-controversy has been met in this case <charfill numchar="3">&#8228;</charfill> [i]t is unclear what specific legal theories the Plaintiff is asserting and what specific amounts of damages the Plaintiff seeks to recover.&#x201D;</paratext></para>
+<para><paratext ID="p5" first-line="0" turnover="hanging">4. The Court accordingly ordered the Plaintiff to show cause why this matter should not be dismissed for lack of subject matter jurisdiction.</paratext></para>
+</para>
+<para><paratext ID="p6" level="1">On September 10, 2012, the Plaintiff filed a response to the Court's Show Cause Order, asserting, <ital>inter alia</ital>, that &#x201C;[t]he defendant Auto Center has a questionable and dishonest paper trail (title) to vehicle [sic] with the bad transmission sold to me,&#x201D; and that &#x201C;I have many expenses other than the car rental fee of $487.00.&#x201D; The Plaintiff does not assert what these other expenses are, nor does the Plaintiff assert any specific legal theory for which he would be entitled to damages.</paratext></para>
+<para><paratext ID="p7" level="1">United States &#x201C;district courts shall have original jurisdiction of all civil actions where the matter in controversy exceeds the sum or value of $75,000, exclusive of interest and costs, and is between <charfill numchar="3">&#8228;</charfill> citizens of different States.&#x201D; 28 U.S.C. &#167;1332(a)(1). When a case is originally filed in federal court, jurisdiction is proper where the parties are diverse &#x201C;unless it appears to a legal certainty that the claim is really for less than the jurisdictional amount.&#x201D; <ital><bold>Landmark Corp. v. Apogee Coal Co.</bold></ital>, 945 F.Supp. 932, 935 (S.D.W.Va.1996) (Copenhaver, J.) (citing <ital><bold>St. Paul Mercury Indem. Co. v. Red Cab Co.</bold></ital>, 303 U.S. 283, 289, 58 S.Ct. 586, 82 L.Ed. 845 (1938)) (internal quotation marks and alterations omitted).</paratext></para>
+<para><paratext ID="p8" level="1">In the case <ital>sub judice</ital>, however, it is impossible for the Court to make this determination because the Court cannot ascertain the Plaintiff's legal basis for seeking $150,000.00, and $487.00 is far below the requisite jurisdictional amount.</paratext></para>
+<para><paratext ID="p9" level="1"><bold>WHEREFORE</bold>, based upon the Plaintiff's failure to show cause why this matter should not be dismissed for lack of subject matter jurisdiction, the Court <bold>FINDS</bold> that this matter should be, and hereby is, <bold>DISMISSED WITH PREJUDICE</bold> from the Court's docket.</paratext></para>
+<para><paratext ID="p10" level="1">It is so <bold>ORDERED</bold>.</paratext></para>
+<para><paratext ID="p11" level="1">The Clerk is directed to transmit copies of this Order to all counsel of record and/or <ital>pro se</ital> parties.</paratext></para>
+<para><paratext ID="p12" level="1"><bold>DATED:</bold> September 20, 2012.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

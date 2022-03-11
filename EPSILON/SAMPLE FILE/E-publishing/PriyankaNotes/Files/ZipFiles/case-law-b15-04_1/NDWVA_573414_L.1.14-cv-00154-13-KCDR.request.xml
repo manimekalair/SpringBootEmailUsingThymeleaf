@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>PRO MOVES, d/b/a Professional Moves, Plaintiff</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>EMOVE, d/b/a Movinghelper.com; UHAUL, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Civil Action No. 1:14-cv-154</bold></docket.line>
+<docket.number><bold>1:14-cv-154</bold></docket.number>
+<docket.line suppress-flag="y">1:14-cv-00154-IMK-JSK</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/29/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">JOHN S. KAULL UNITED STATES MAGISTRATE JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On September 12, 2014, <ital>pro se</ital> Plaintiff Pro Moves (&#x201C;Plaintiff&#x201D;) filed a Complaint against Defendants Emove and Uhaul, alleging a breach of contract claim. (Docket No. 1.) Accompanying Plaintiff's Complaint was a &#x201C;Motion to Proceed In Forma Pauperis.&#x201D; (Docket No. 2.) In that motion, Plaintiff stated &#x201C;that by way of the actions that are listed in the complaint there has been a financial hardship placed on the business and the agents thereof.&#x201D; (<underscore>Id.</underscore>) In an attached Affidavit, Mr. Dale P. Field, Jr. asserted that he is the primary agent of Pro Moves and that he was &#x201C;now unemployed and without means to pay for this matter.&#x201D; (Docket No. 2-1.) In an Order entered on September 17, 2014, the undersigned denied Plaintiff's motion without prejudice and further ordered Plaintiff to file the Court's standard &#x201C;Application to Proceed Without Prepayment of Fees and Affidavit.&#x201D; (Docket No. 5.)</paratext></para>
+<para><paratext ID="p2" level="1">On October 2, 2014, Plaintiff filed its &#x201C;Application to Proceed Without Prepayment of Fees and Affidavit.&#x201D; (Docket No. 9.) In that document, Mr. Field asserted that he was currently residing with his mother &#x201C;in a home that is owned and maintained by [his] cousin.&#x201D;<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Mr. Field asserted that he was not &#x201C;currently in the position to pay [his] expenses, and [his] child support payments are in the arrears.&#x201D; In an Order entered October 3, 2014, the undersigned noted the following:</paratext>
+<para><paratext ID="p3" first-line="1" turnover="1">If Mr. Field were a plaintiff in this matter, he would certainly qualify to proceed <ital>in forma pauperis.</ital> However, the caption and content of the Complaint makes clear that Plaintiff Pro Moves, a business, wishes to bring claims against the Defendants. The Supreme Court has held that &#x201C;artificial entitles&#x201D; do not &#x201C;qualify for treatment <ital>in forma pauperis</ital> under [28 U.S.C.] &#167; 1915.&#x201D; <underscore>Rowland v. Cal. Men's Colony, Unit II Men's Advisory Council</underscore>, 506 U.S. 194, 196 (1993). Therefore, for Plaintiff to proceed in this matter, it must pay the $400.00 filing fee.</paratext></para>
+<paratext ID="p4" contd-flag="y">(Docket No. 10.) Accordingly, the undersigned denied Plaintiff's application to proceed <ital>in forma pauperis</ital> and directed Plaintiff to pay the &#x201C;filing fee and other fees in the amount of $400.00&#x201D; within twenty-one (21) days from the date of entry of the Order. (<underscore>Id.</underscore>) The undersigned also advised Plaintiff that failure to pay the $400.00 filing fee within twenty-one (21) days would result in a recommendation of dismissal to the presiding District Judge. (<underscore>Id.</underscore>) The Court's October 3, 2014 Order was mailed to Plaintiff, via certified mail, on October 3, 2014. Service of that Order was accepted on October 14, 2014. (Docket No. 11.)</paratext>
+</para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;While Mr. Field indicated that he currently resides with his mother, the return address on the envelope in which he mailed the &#x201C;Application to Proceed Without Prepayment of Fees and Affidavit&#x201D; was that of the Tygart Valley Regional Jail.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p6" level="1">On October 27, 2014, Plaintiff filed a &#x201C;Motion to Amend Complaint and Motion to Reconsider.&#x201D; (Docket No. 12.) That motion states as follows:</paratext>
+<para><paratext ID="p7" first-line="1" turnover="1">Now comes the Defendant [sic], Pro Moves, by and through Dale Field as primary agent for Pro Moves, and hereby requests that this Court grant leave to amend the complaint by changing the styling of the case. As Pro Moves is listed as a &#x201C;Sole Proprietor&#x201D; business, it is not in itself considered separate from the primary agent, and the primary agent, Dale. P. Field, may be listed as the acting Plaintiff in a sense that Dale P. Field is d/b/a the Sole Prop..</paratext></para>
+<para><paratext ID="p8" first-line="1" turnover="1">Additionally, in changing the style of the case, and allowing Dale P. Field to assume the position of Plaintiff, this filing would then be eligible for the filing under &#x201C;Informa Pauperis,&#x201D; as Field's &#x201C;Application to Proceed Without Payment of Fees and Affidavit&#x201D; have already been filed with the Court. Where Field requests that in the event he is named Plaintiff, this Court reconsider the Order denying &#x201C;Informa Pauperis.&#x201D;</paratext></para>
+<paratext ID="p9" contd-flag="y">(Docket No. 12.)</paratext>
+</para>
+<para><paratext ID="p10" level="1">The Court is obligated to liberally construe <ital>pro se</ital> pleadings. <underscore>See Estelle v. Gamble</underscore>, 429 U.S. 97, 106 (1976); <underscore>Haines v. Kerner</underscore>, 404 U.S. 519, 520-21 (1972). Given that the Complaint has not yet been served on the defendants, the undersigned finds no harm in permitting the caption in this matter to be amended. Accordingly, Plaintiff's &#x201C;Motion to Amend Complaint&#x201D; is <bold>GRANTED IN PART</bold> to the extent it requests that the caption in this case be amended. It is <bold>ORDERED</bold> that the caption of the above-referenced case shall be amended as follows:</paratext>
+<para><paratext ID="p11" first-line="1" turnover="1"><bold>DALE P. FIELD, d/b/a PRO MOVES; Plaintiff</bold>,</paratext></para>
+<para><paratext ID="p12" first-line="1" turnover="1"><bold>v. Civil Action No. 1:14-cv-154</bold></paratext></para>
+<para><paratext ID="p13" first-line="1" turnover="1"><bold>EMOVE, d/b/a Movinghelper.com; UHAUL; Defendants.</bold></paratext></para>
+<paratext ID="p14" contd-flag="y">The Clerk of the Court and the parties are authorized to take whatever actions necessary to update the ECF filing system and their respective records to reflect this amended caption. The Clerk of the Court is further <bold>DIRECTED</bold> to update Plaintiff's address to reflect his current incarceration at Tygart Valley Regional Jail. To the extent Plaintiff seeks to amend the substance of his complaint, he may do so within twenty-one (21) days of the entry of this order.</paratext>
+</para>
+<para><paratext ID="p15" level="1">As noted above, Plaintiff's motion also requests reconsideration of the undersigned's October 3, 2014 order denying the second motion to proceed <ital>in forma pauperis.</ital> Given the amended case caption, the new Plaintiff, Dale P. Field, is entitled to apply to proceed <ital>in forma pauperis.</ital> However, the undersigned notes that Mr. Field is currently incarcerated at the Tygart Valley Regional Jail. 28 U.S.C. &#167; 1915 requires prisoners to pay the full $350 filing fee when bringing a civil action <ital>in forma pauperis</ital> (&#x201C;IFP&#x201D;). 28 U.S.C. &#167; 1915(b)(1). If, however, insufficient funds exist in the prisoner's account to pay the full filing fee at the time of filing, the court must assess, and, when funds exist, collect an initial filing fee of twenty percent (20%) of the greater of the average monthly deposits to the prisoner's account or the average monthly balance in the prisoner's account for the prior six month period. <underscore>Id.</underscore> Thereafter, the prisoner is required to make monthly payments of twenty percent (20%) of the preceding month's income. <underscore>Id.</underscore> The agency having custody of the prisoner must forward payments from the prisoner's account to the Clerk of Court each time the amount in the account exceeds $10.00 until the $350 filing fee is paid in full. <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p16" level="1">Given the requirements of 28 U.S.C. &#167; 1915 as it pertains to prisoners, the undersigned cannot consider whether Mr. Field is entitled to <ital>in forma pauperis</ital> status without reviewing his Prisoner Trust Account Report with attached ledger sheets and his Consent to Collection of Fees form as well as any Amended Complaint he may file pursuant to this order. Accordingly, Plaintiff's motion is <bold>HELD IN ABEYANCE</bold> to the extent it requests reconsideration of the October 3, 2014 Order denying <ital>in forma pauperis</ital> status. The Clerk of the Court is <bold>DIRECTED</bold> to send this Court's Application to Proceed Without Prepayment of Fees and Affidavit, Consent to Collection of Fees from Trust Account Form, and Prisoner Trust Account Report to Plaintiff. Plaintiff is <bold>DIRECTED</bold> to return those forms, along with his ledger sheets, within <bold>twenty-one (21) days</bold> following entry of this Order. The undersigned cautions Plaintiff that failure to do so may result in a recommendation that Plaintiff's case be dismissed.</paratext></para>
+<para><paratext ID="p17" level="1">In conclusion, the undersigned:</paratext>
+<para><paratext ID="p18" first-line="0" turnover="hanging">1. <bold>GRANTS IN PART</bold> Plaintiff's motion to the extent it requests that the caption in this case be amended;</paratext></para>
+<para><paratext ID="p19" first-line="0" turnover="hanging">2. <bold>DIRECTS</bold> that the caption in this case be amended as follows:</paratext>
+<para><paratext ID="p20" level="1"><bold>DALE P. FIELD, d/b/a PRO MOVES; Plaintiff</bold>,</paratext></para>
+<para><paratext ID="p21" level="1"><bold>v. Civil Action No. 1:14-cv-154</bold></paratext></para>
+<para><paratext ID="p22" level="1"><bold>EMOVE, d/b/a Movinghelper.com; UHAUL; Defendants.</bold></paratext></para>
+</para>
+<para><paratext ID="p23" first-line="0" turnover="hanging">3. <bold>DIRECTS</bold> that the Clerk update Plaintiff's address to reflect his current incarceration at Tygart Valley Regional Jail;</paratext></para>
+<para><paratext ID="p24" first-line="0" turnover="hanging">4. <bold>HOLDS IN ABEYANCE</bold> Plaintiff's motion to the extent it requests reconsideration of the Court's October 3, 2014 order denying <ital>in forma pauperis</ital>;</paratext></para>
+<para><paratext ID="p25" first-line="0" turnover="hanging">5. <bold>DIRECTS</bold> that the Clerk provide Plaintiff copies of this Court's standard Application to Proceed Without Prepayment of Fees and Affidavit, Consent to Collection of Fees from Trust Account, and Prisoner Trust Account Report; and</paratext></para>
+<para><paratext ID="p26" first-line="0" turnover="hanging">6. <bold>DIRECTS</bold> that Plaintiff filed an updated Application to Proceed Without Prepayment of Fees and Affidavit; Consent to Collection of Fees from Trust Account; and Prisoner Trust Account Report with attached ledgers within <bold>twenty-one (21) days</bold> following entry of this Order.</paratext></para>
+<para><paratext ID="p27" first-line="0" turnover="hanging">7. DIRECTS that Plaintiff file any substantive Amended Complaint within twenty-one (21) days following entry of this order.</paratext></para>
+</para>
+<para><paratext ID="p28" level="1">The Clerk of the Court is directed to provide a copy of this Order to the <ital>pro se</ital> Plaintiff by certified mail, return receipt requested, along with the documents stated above.</paratext></para>
+<para><paratext ID="p29" level="1">It is so <bold>ORDERED.</bold></paratext></para>
+<para><paratext ID="p30" level="1">DATED: October 29, 2014</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

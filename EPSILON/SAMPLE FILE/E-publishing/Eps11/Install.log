@@ -1,0 +1,256 @@
+***  Installation Started 10/13/2002 13:46  ***
+Title: Epsilon 11.00 Installation
+Source: \\NEWGENFS1\LEGAL\EPSILON\11\E11.EXE
+* COMPONENTS=ACDE
+* PATHOPTION=A
+* MAINDIR=C:\Program Files\Eps11
+* BIN32=C:\Program Files\Eps11\bin
+* BIN16=C:\Program Files\Eps11\binw16
+* BINDIR=C:\Program Files\Eps11\bin
+* BINCON=C:\Program Files\Eps11\bin
+* OWNER=VENKAT
+* COMPANY=NEWGEN
+* SERIAL=24219
+* EBIN32=
+* EBIN16=
+* ECONDIR=
+* EVALVERSION=
+* KEEPOLD=A, FINDOLD=
+File tree: C:\Program Files\Eps11\*.*
+Made Dir: C:\Program Files\Eps11
+File Copy: C:\Program Files\Eps11\readme.txt
+Made Dir: C:\Program Files\Eps11\bin
+File Copy: C:\Program Files\Eps11\bin\epsilon.exe
+File Copy: C:\Program Files\Eps11\bin\epsilonc.exe
+File Copy: C:\Program Files\Eps11\edoc
+File Copy: C:\Program Files\Eps11\bin\inherit.exe
+File Copy: C:\Program Files\Eps11\bin\inherit.pif
+File Copy: C:\Program Files\Eps11\bin\epshlp.dll
+File Copy: C:\Program Files\Eps11\bin\VisEpsil.dll
+File Copy: C:\Program Files\Eps11\bin\SendEps.exe
+File Copy: C:\Program Files\Eps11\bin\owitheps.dll
+File Copy: C:\Program Files\Eps11\bin\concur16.exe
+File Copy: C:\Program Files\Eps11\bin\concur16.pif
+File Copy: C:\Program Files\Eps11\bin\concur16.ico
+File Copy: C:\Program Files\Eps11\bin\sheller.exe
+File Copy: C:\Program Files\Eps11\bin\sheller.pif
+File Copy: C:\Program Files\Eps11\bin\conagent.pif
+File Copy: C:\Program Files\Eps11\bin\edoc.hlp
+File Copy: C:\Program Files\Eps11\bin\eel.exe
+File Copy: C:\Program Files\Eps11\bin\eel_lib.dll
+File Copy: C:\Program Files\Eps11\bin\lhelp.exe
+File Copy: C:\Program Files\Eps11\BRIEF.B
+File Copy: C:\Program Files\Eps11\COLOR.B
+File Copy: C:\Program Files\Eps11\DIFF.B
+File Copy: C:\Program Files\Eps11\QUICKUP.B
+File Copy: C:\Program Files\Eps11\ASM.B
+File Copy: C:\Program Files\Eps11\INFO.B
+File Copy: C:\Program Files\Eps11\PERL.B
+File Copy: C:\Program Files\Eps11\DISPCHAR.B
+File Copy: C:\Program Files\Eps11\DISPLOOK.B
+File Copy: C:\Program Files\Eps11\EDITVARS.B
+File Copy: C:\Program Files\Eps11\KEYPROGS.B
+File Copy: C:\Program Files\Eps11\VIDEXTRA.B
+File Copy: C:\Program Files\Eps11\HEX.B
+File Copy: C:\Program Files\Eps11\VBASIC.B
+File Copy: C:\Program Files\Eps11\PYTHON.B
+File Copy: C:\Program Files\Eps11\epsilon.kbd
+File Copy: C:\Program Files\Eps11\brief.kbd
+File Copy: C:\Program Files\Eps11\CUA.MNU
+File Copy: C:\Program Files\Eps11\CUA.KBD
+File Copy: C:\Program Files\Eps11\gui.mnu
+File Copy: C:\Program Files\Eps11\epsilon.mnu
+File Copy: C:\Program Files\Eps11\brief.mnu
+File Copy: C:\Program Files\Eps11\latex.env
+File Copy: C:\Program Files\Eps11\colclass.txt
+Made Dir: C:\Program Files\Eps11\info
+File Copy: C:\Program Files\Eps11\info\EPSILON.INF
+File Copy: C:\Program Files\Eps11\info\DIR
+File Copy: C:\Program Files\Eps11\eteach
+Made Dir: C:\Program Files\Eps11\lhelp
+File Copy: C:\Program Files\Eps11\lhelp\epsilon.lhl
+File Copy: C:\Program Files\Eps11\lhelp\cover.gif
+File Copy: C:\Program Files\Eps11\lhelp\edoc.gif
+File Copy: C:\Program Files\Eps11\lhelp\eel.gif
+File Copy: C:\Program Files\Eps11\lhelp\eelride.gif
+File Copy: C:\Program Files\Eps11\lhelp\general.gif
+File Copy: C:\Program Files\Eps11\lhelp\index.gif
+File Copy: C:\Program Files\Eps11\lhelp\introeel.gif
+File Copy: C:\Program Files\Eps11\lhelp\luglogox.gif
+File Copy: C:\Program Files\Eps11\lhelp\misc.gif
+File Copy: C:\Program Files\Eps11\lhelp\modif.gif
+File Copy: C:\Program Files\Eps11\lhelp\prim.gif
+File Copy: C:\Program Files\Eps11\lhelp\screen1.gif
+File Copy: C:\Program Files\Eps11\lhelp\screen2.gif
+File Copy: C:\Program Files\Eps11\lhelp\screen3.gif
+File Copy: C:\Program Files\Eps11\lhelp\screen4.gif
+File Copy: C:\Program Files\Eps11\lhelp\screen5.gif
+File Copy: C:\Program Files\Eps11\lhelp\spacer.gif
+File Copy: C:\Program Files\Eps11\lhelp\started.gif
+File Copy: C:\Program Files\Eps11\lhelp\topic.gif
+File Copy: C:\Program Files\Eps11\lhelp\vars.gif
+File Copy: C:\Program Files\Eps11\lhelp\welcome.gif
+File Copy: C:\Program Files\Eps11\lhelp\wolfcol2.gif
+File Copy: C:\Program Files\Eps11\lhelp\cover2.gif
+File Copy: C:\Program Files\Eps11\lhelp\man.css
+File Copy: C:\Program Files\Eps11\lhelp\searchb.gif
+File Copy: C:\Program Files\Eps11\lhelp\relnotes.gif
+File Copy: C:\Program Files\Eps11\Lugaru.url
+File Copy: C:\Program Files\Eps11\primlist.doc
+File Copy: C:\Program Files\Eps11\manbugs.txt
+File Copy: C:\Program Files\Eps11\original.sta
+File Copy: C:\Program Files\Eps11\ebackup.sta
+File Copy: C:\Program Files\Eps11\epsilon.ses
+File Copy: C:\Program Files\Eps11\epsilon.sta
+Made Dir: C:\Program Files\Eps11\include
+File Copy: C:\Program Files\Eps11\include\EEL.H
+File Copy: C:\Program Files\Eps11\include\CODES.H
+File Copy: C:\Program Files\Eps11\include\BROWSE.H
+File Copy: C:\Program Files\Eps11\include\BUFED.H
+File Copy: C:\Program Files\Eps11\include\C.H
+File Copy: C:\Program Files\Eps11\include\COLCODE.H
+File Copy: C:\Program Files\Eps11\include\DIFF.H
+File Copy: C:\Program Files\Eps11\include\DIRED.H
+File Copy: C:\Program Files\Eps11\include\EPSNET.H
+File Copy: C:\Program Files\Eps11\include\FILTER.H
+File Copy: C:\Program Files\Eps11\include\GREP.H
+File Copy: C:\Program Files\Eps11\include\HTML.H
+File Copy: C:\Program Files\Eps11\include\INIMODE.H
+File Copy: C:\Program Files\Eps11\include\KEYDEF.H
+File Copy: C:\Program Files\Eps11\include\KEYEXT.H
+File Copy: C:\Program Files\Eps11\include\KILL.H
+File Copy: C:\Program Files\Eps11\include\LOWLEVEL.H
+File Copy: C:\Program Files\Eps11\include\MAKEMODE.H
+File Copy: C:\Program Files\Eps11\include\MENU.H
+File Copy: C:\Program Files\Eps11\include\PROC.H
+File Copy: C:\Program Files\Eps11\include\TAGS.H
+File Copy: C:\Program Files\Eps11\include\TEX.H
+File Copy: C:\Program Files\Eps11\include\VIDEO.H
+File Copy: C:\Program Files\Eps11\include\INFO.H
+File Copy: C:\Program Files\Eps11\include\PERL.H
+File Copy: C:\Program Files\Eps11\include\GAMS.H
+File Copy: C:\Program Files\Eps11\include\MISCLANG.H
+File Copy: C:\Program Files\Eps11\include\HEX.H
+File Copy: C:\Program Files\Eps11\include\PYTHON.H
+File Copy: C:\Program Files\Eps11\include\VBASIC.H
+File Copy: C:\Program Files\Eps11\epswhlp.hlp
+File Copy: C:\Program Files\Eps11\epswhlp.cnt
+Made Dir: C:\Program Files\Eps11\source
+File Copy: C:\Program Files\Eps11\source\EPSILON.E
+File Copy: C:\Program Files\Eps11\source\BASIC.E
+File Copy: C:\Program Files\Eps11\source\BOOKMARK.E
+File Copy: C:\Program Files\Eps11\source\BUFED.E
+File Copy: C:\Program Files\Eps11\source\BUFFER.E
+File Copy: C:\Program Files\Eps11\source\C.E
+File Copy: C:\Program Files\Eps11\source\CMDLINE.E
+File Copy: C:\Program Files\Eps11\source\COMPARE.E
+File Copy: C:\Program Files\Eps11\source\COMPLETE.E
+File Copy: C:\Program Files\Eps11\source\CONTROL.E
+File Copy: C:\Program Files\Eps11\source\DEBUG.E
+File Copy: C:\Program Files\Eps11\source\DIRED.E
+File Copy: C:\Program Files\Eps11\source\DISP.E
+File Copy: C:\Program Files\Eps11\source\EPSNET.E
+File Copy: C:\Program Files\Eps11\source\FILEDATE.E
+File Copy: C:\Program Files\Eps11\source\FILES.E
+File Copy: C:\Program Files\Eps11\source\FORMAT.E
+File Copy: C:\Program Files\Eps11\source\GREP.E
+File Copy: C:\Program Files\Eps11\source\HELP.E
+File Copy: C:\Program Files\Eps11\source\HTML.E
+File Copy: C:\Program Files\Eps11\source\INDENT.E
+File Copy: C:\Program Files\Eps11\source\KILL.E
+File Copy: C:\Program Files\Eps11\source\LOAD.E
+File Copy: C:\Program Files\Eps11\source\LOWLEVEL.E
+File Copy: C:\Program Files\Eps11\source\MENU.E
+File Copy: C:\Program Files\Eps11\source\MOUSE.E
+File Copy: C:\Program Files\Eps11\source\PROC.E
+File Copy: C:\Program Files\Eps11\source\PROG.E
+File Copy: C:\Program Files\Eps11\source\SEARCH.E
+File Copy: C:\Program Files\Eps11\source\SESSION.E
+File Copy: C:\Program Files\Eps11\source\SET.E
+File Copy: C:\Program Files\Eps11\source\SORT.E
+File Copy: C:\Program Files\Eps11\source\STORE.E
+File Copy: C:\Program Files\Eps11\source\TAGS.E
+File Copy: C:\Program Files\Eps11\source\UNDO.E
+File Copy: C:\Program Files\Eps11\source\VIDEO.E
+File Copy: C:\Program Files\Eps11\source\WINDOW.E
+File Copy: C:\Program Files\Eps11\source\ZOOM.E
+File Copy: C:\Program Files\Eps11\source\BRIEF.E
+File Copy: C:\Program Files\Eps11\source\COLCODE.E
+File Copy: C:\Program Files\Eps11\source\COLOR.E
+File Copy: C:\Program Files\Eps11\source\DIFF.E
+File Copy: C:\Program Files\Eps11\source\DISPCHAR.E
+File Copy: C:\Program Files\Eps11\source\STDCOLOR.E
+File Copy: C:\Program Files\Eps11\source\DISPLOOK.E
+File Copy: C:\Program Files\Eps11\source\EDITVARS.E
+File Copy: C:\Program Files\Eps11\source\KEYPROGS.E
+File Copy: C:\Program Files\Eps11\source\LIST-ALL.E
+File Copy: C:\Program Files\Eps11\source\VIDEXTRA.E
+File Copy: C:\Program Files\Eps11\source\CLIPBOAR.E
+File Copy: C:\Program Files\Eps11\source\UNIQ.E
+File Copy: C:\Program Files\Eps11\source\BROWSE.E
+File Copy: C:\Program Files\Eps11\source\TEX.E
+File Copy: C:\Program Files\Eps11\source\INFO.E
+File Copy: C:\Program Files\Eps11\source\QUICKUP.E
+File Copy: C:\Program Files\Eps11\source\ASM.E
+File Copy: C:\Program Files\Eps11\source\FILLCOMM.E
+File Copy: C:\Program Files\Eps11\source\PERL.E
+File Copy: C:\Program Files\Eps11\source\MAKEMODE.E
+File Copy: C:\Program Files\Eps11\source\INIMODE.E
+File Copy: C:\Program Files\Eps11\source\GAMS.E
+File Copy: C:\Program Files\Eps11\source\MISCLANG.E
+File Copy: C:\Program Files\Eps11\source\PULL.E
+File Copy: C:\Program Files\Eps11\source\UNICODE.E
+File Copy: C:\Program Files\Eps11\source\HEX.E
+File Copy: C:\Program Files\Eps11\source\VBASIC.E
+File Copy: C:\Program Files\Eps11\source\PYTHON.E
+File Copy: C:\Program Files\Eps11\source\MAKEFILE
+File Tree: C:\Program Files\Eps11\source\*.*
+Made Dir: C:\Program Files\Eps11\changes
+File Copy: C:\Program Files\Eps11\changes\FROM65
+File Copy: C:\Program Files\Eps11\changes\FROM70
+File Copy: C:\Program Files\Eps11\changes\FROM80
+File Copy: C:\Program Files\Eps11\changes\FROM90
+File Copy: C:\Program Files\Eps11\changes\LIST40.STD
+File Copy: C:\Program Files\Eps11\changes\LIST50.STD
+File Copy: C:\Program Files\Eps11\changes\LIST501.STD
+File Copy: C:\Program Files\Eps11\changes\LIST60.STD
+File Copy: C:\Program Files\Eps11\changes\LIST65.STD
+File Copy: C:\Program Files\Eps11\changes\LIST70.STD
+File Copy: C:\Program Files\Eps11\changes\LIST80.STD
+File Copy: C:\Program Files\Eps11\changes\LIST90.STD
+File Copy: C:\Program Files\Eps11\changes\LIST10.STD
+File Copy: C:\Program Files\Eps11\changes\LIST11.STD
+File Copy: C:\Program Files\Eps11\changes\NEWKEYS.E
+File Copy: C:\Program Files\Eps11\changes\NEWKEYS.B
+File Copy: C:\Program Files\Eps11\UNWISE.EXE
+File Copy: C:\Program Files\Eps11\UNWISE.INI
+Made Dir: C:\WINDOWS\Start Menu\Programs\Epsilon 11.00
+RegDB Key: Software\Lugaru\Epsilon
+RegDB Val: C:\WINDOWS\Start Menu\Programs\Epsilon 11.00
+RegDB Name: StartMenuGroup11
+RegDB Root: 1
+Shell Link: C:\WINDOWS\Start Menu\Programs\Epsilon 11.00\Epsilon.lnk
+Shell Link: C:\WINDOWS\Desktop\Epsilon 11.00.lnk
+Shell Link: C:\WINDOWS\SendTo\Epsilon 11.00.lnk
+Shell Link: C:\WINDOWS\Start Menu\Programs\Epsilon 11.00\Epsilon for Win32 Console.lnk
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\LugaruEpsilon11
+RegDB Val: Epsilon Programmer's Editor 11.00
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\LugaruEpsilon11
+RegDB Val: C:\PROGRA~1\EPS11\UNWISE C:\PROGRA~1\EPS11\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+RegDB Key: Software\Lugaru\Epsilon
+RegDB Val: C:\PROGRA~1\EPS11
+RegDB Name: EpsPath11
+RegDB Root: 1
+RegDB Key: Software\Lugaru\Epsilon
+RegDB Val: C:\PROGRA~1\EPS11\BIN
+RegDB Name: BinPath11
+RegDB Root: 1
+RegDB Key: System\CurrentControlSet\Services\VxD\Epsilon11
+RegDB Val: C:\WINDOWS\SYSTEM\lugeps1.386
+RegDB Name: StaticVxD
+RegDB Root: 2
+* RESTART=W

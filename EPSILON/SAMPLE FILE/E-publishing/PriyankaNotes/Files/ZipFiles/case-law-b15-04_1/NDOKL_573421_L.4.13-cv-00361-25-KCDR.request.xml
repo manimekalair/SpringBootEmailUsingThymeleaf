@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>RSF PARTNERS, LLC, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>SILVERMINE OPPORTUNITY FUNDING, LLC, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 13-CV-361-GKF-FHM</docket.line>
+<docket.number>13-CV-361-GKF-FHM</docket.number>
+<docket.line suppress-flag="y">4:13-cv-00361-GKF-FHM</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 04/04/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GREGORY K. FRIZZELL, CHIEF JUDGE UNITED STATES DISTRICT COURT</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the Court is the Motion to Dismiss Without Prejudice of plaintiff RSF Partners, LLC. [Dkt. # 23]. Plaintiff requests the Court dismiss its claim without prejudice in a single-page motion. Defendant opposes this request, as plaintiff has failed to properly amend its Complaint per the Court's order. On February 3, 2014, the Court granted defendant's Motion to Dismiss for failure to state a claim, as RSF Partners (&#x201C;RSF&#x201D;) had failed to plead the required element of malice. [Dkt. # 19]. The Court dismissed RSF's claims without prejudice and granted RSF 10 days, or until February 13, 2014, to file an amended Complaint. [Dkt. # 20].</paratext></para>
+<para><paratext ID="p2" level="1">Instead of amending its claims, on February 21, 2014 RSF requested the Court dismiss its claims without prejudice. Generally it is proper to allow plaintiff an opportunity to amend its claims, unless it is patently obvious that plaintiff cannot prevail on its claim. <ital>Curley v. Perry</ital>, 246 F.3d 1278, 1281-82 (10th Cir. 2001). Thus, although plaintiff had not made out any claim for malice, the Court dismissed RSF's Complaint &#x201C;without prejudice&#x201D; so that RSF could properly plead its claim. It is now 50 days past RSF's deadline to amend. Given RSF's failure to properly amend its claim, the Court determines RSF's Complaint should be dismissed with prejudice. <ital>Campos v. Ocwen Loan Servicing, LLC</ital>, 2013 WL 5614317, at *1 (S.D. Tex. Oct. 14, 2013); <ital>Rashdan v. Geissberger</ital>, 2011 WL 1750955, at *2 n.2 (N.D. Cal. May 9, 2011).</paratext></para>
+<para><paratext ID="p3" level="1">WHEREFORE, RSF's Motion to Dismiss Without Prejudice is denied.</paratext></para>
+<para><paratext ID="p4" level="1">IT IS SO ORDERED this 4<super style="percent_r">th</super> day of April, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

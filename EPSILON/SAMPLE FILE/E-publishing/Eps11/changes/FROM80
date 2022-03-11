@@ -1,0 +1,746 @@
+New features from Epsilon 8.0 to Epsilon 8.01:
+
+Most dialogs in Epsilon for Windows can now be resized by dragging
+their borders.
+
+You can now make the new-file command start its buffers in a
+different mode by setting the variables new-file-mode and
+new-file-ext.
+
+The printing commands in Epsilon for Windows now understand the
+Ctrl-L (form feed) character in documents.  A new variable
+print-heading lets you easily customize the heading printed at the
+top of each page.
+
+***************************************************************
+
+New features from Epsilon 8.01 to Epsilon 9.0:
+
+Highlights:
+
+Internet support.
+Auto ID of file types (Binary, Unix and Macintosh).
+Concurrent process for Windows NT.
+Create file associations for Epsilon.
+Add files to an Epsilon session via DDE.
+Modes for HTML, TeX.
+Syntax highlighting for HTML, TeX, dired, grep, process, diff, etc.
+C Mode enhancements.
+Integrated EEL compiler.
+New set-colors dialog.
+Auto show delimiters.
+DOS/OEM character set translation.
+Set the font for dialogs or printing.
+Case preserving replace.
+
+Some of the features listed in this document only apply to specific
+versions of Epsilon.  These features are only available in Epsilon
+for Windows 95/NT: Internet support, integrated EEL compiler, .BSC
+file support.  These features are only available in Epsilon for
+Windows 3.1 or in Epsilon for Windows 95/NT: DDE, DOS/OEM character
+set translation, font setting.
+
+Internet Support
+======== =======
+
+Epsilon 9.0 for Windows 95/NT has several commands and facilities
+that make it easy for you to edit files on other computers using the
+Internet.
+
+The find-file and dired commands, as well as a few others, understand
+Internet URL's.  If you do a find-file and provide the URL
+ftp://user@machine.com/myfile.c, Epsilon will engage in an FTP
+interaction to download the file and display it in a buffer.  All of
+the Internet activity happens in the background, so you don't have to
+wait for the file to download before continuing with your work.  In
+fact, the file appears in the buffer as it downloads (syntax
+highlighted if appropriate), so you can be editing the beginning of a
+large file while the rest of it downloads.
+
+Saving a file in such a buffer, or writing a buffer to a file name
+that starts with ftp://, will cause Epsilon to send the file to the
+remote computer.  Upload and download status is indicated in the mode
+line, and there's also a show-connections command (on Ctrl-Alt-C)
+that shows the status of all Internet activities and buffers.  As in
+bufed, you can select a buffer and press <Enter> to switch to it, or
+press <Escape> to remain in the current buffer.
+
+The FTP URL's work with dired also, so if you do a dired (or a
+find-file) on ftp://user@machine.com, you'll get a directory listing
+of the files on the remote machine, in a familiar dired context.
+Dired knows how to delete and rename remote files, and sort by size,
+date, file name or extension.  There's a new '+' dired key that
+creates subdirectories.  It works both locally and remotely.
+
+The new telnet command lets you connect to a command shell on a
+remote computer.  It puts you in a buffer that works much like the
+Epsilon process buffer, except the commands you type are executed on
+the remote machine.  You can either use the telnet command directly,
+or specify a telnet: URL to find-file.  (Epsilon ignores any username
+or password included in the URL.)
+
+If you specify an http: URL to find-file (for example,
+http://www.lugaru.com), Epsilon will use the HTTP protocol to
+retrieve the HTML code from the given location.  The HTML code will
+appear in an appropriately named buffer, syntax highlighted.
+
+The new finger command prompts for a string like "steven@lugaru.com",
+then uses the finger protocol to query the given machine for
+information about the given user.  The output appears in an
+appropriately named buffer.
+
+URL Syntax
+=== ======
+
+In Epsilon, URL's must start with ftp://, http://, or telnet://.  (If
+you omit the ftp: part, Epsilon will pass the file name to Windows as
+a UNC-style network file name.)
+
+You can specify a user name, password, or port number using the URL
+syntax of service://username:password@hostname:portnumber/filepath.
+If you include a user name but omit the :password part, Epsilon will
+prompt for one (and will make sure the password does not appear in
+your state file, session file, or similar places).  But if you
+include a password in your URL, note that it may be saved in
+Epsilon's session file or similar places.
+
+If you omit the username:password@ or username@ part entirely,
+Epsilon uses the user name "anonymous" and the password specified by
+the anon-ftp-password variable (default -EpsilonUser@unknown.host).
+You can set this to your email address if you prefer.
+
+You can also use Emacs-style syntax for specifying remote file names:
+/username@hostname:filepath.  Epsilon will behave as if you had typed
+the corresponding URL.
+
+In ftp:// URL's, Epsilon treats a file name following the / as a
+relative pathname.  That is, ftp://user@host.com/myfile refers to a
+file named myfile in the user's home directory.  Put two slashes, as
+in ftp://user@host.com//myfile, to refer to /myfile in the root
+directory.  You can type \ instead of / in any URL and Epsilon will
+substitute /.
+
+Auto ID of File Types
+==== == == ==== =====
+
+Epsilon now automatically determines whether you're editing a regular
+file, a binary file, a Unix file, or a Mac file, and uses the
+appropriate translation scheme.  You can explicitly override this if
+necessary.  This works with both local files and files retrieved
+over the Internet.  Epsilon determines the file type by looking at
+the first few thousand bytes of the file, and applying heuristics.
+This is quite reliable in practice.  However, Epsilon may occasionally
+guess incorrectly.  You can tell Epsilon exactly which translation
+scheme to use by providing a numeric argument to a file reading
+command like find-file.  Epsilon will then prompt for which translation
+scheme to use.
+
+The set-line-translate command has been changed to accommodate the
+new system.  It now ignores any numeric argument, and prompts for the
+line translation scheme to use for the current buffer.
+
+In EEL code, the strip_returns variable has been replaced by the
+translation_type variable.  References in older EEL code to
+strip_returns.default can often be replaced with the variable
+default_translation_type.  Expressions like
+
+	(has_arg ? !strip_returns.default : strip_returns.default)
+
+can often be replaced by a call to the function ask_line_translate().
+
+
+The Concurrent Process
+--- ---------- -------
+
+Epsilon now supports a concurrent process under Windows NT as well as
+Windows 95.  The process buffer is now syntax colored, so the
+prompts, the input, and the output are each colored differently.
+
+Epsilon now maintains a command history for the process buffer.  You
+can now use Alt-P and Alt-N to retrieve the text of previous commands.
+
+The <Enter> key in a concurrent process buffer now moves to the end
+of a line before sending it.  The new process-enter-whole-line
+variable controls this.
+
+Under Windows 95, Epsilon can now send a Ctrl-C to 32-bit programs
+running in its concurrent process buffer, though it still cannot send
+input to them.  Under Windows NT, all input and output, and Ctrl-C, work
+as expected.
+
+
+File Associations and DDE
+==== ============ === ===
+
+You can now set up file associations for Epsilon using the
+create-file-associations command.  It lets you modify a list of
+common extensions, then sets up Windows to invoke Epsilon to edit
+files with those extensions.  The files will be sent to an existing
+copy of Epsilon, if one is running, via Epsilon's new DDE support.
+
+A DDE execute message to Epsilon uses a subset of the syntax of
+Epsilon's command line; it can contain file names to edit, the
++linenum flag, the flag -dVARNAME=VALUE to set an Epsilon variable,
+-lFILENAME to load an EEL bytecode file, or -rFUNCNAME to run an EEL
+function, command, or macro.  Epsilon uses a DDE server name of
+"Epsilon" and a topic name of "Open".  In EEL, DDE messages arrive
+via a special kind of WIN_DRAG_DROP event.
+
+The new command line flag -add tells Epsilon for Windows to locate an
+existing instance of Epsilon, pass it the rest of the command line
+via DDE, and exit.  (Epsilon ignores the flag if there's no prior
+instance.)  The new command line flag -nodde tells Epsilon for
+Windows not to register itself as a DDE server or respond to DDE
+messages.
+
+
+C Mode Enhancements
+- ---- ------------
+
+By default, when you yank text in a buffer in C mode, Epsilon
+automatically reindents it.  This is similar to the "smart paste"
+feature in some other editors.  Set reindent-after-c-yank to zero to
+disable this behavior.  Epsilon won't automatically reindent if the
+text is very large, or isn't a whole line, or if you provide a
+negative argument to the yank command.  Alt-<Minus> Ctrl-Y is one way
+to yank without reindenting in C mode.
+
+In C mode, the Alt-<Down> and Alt-<Up> keys move to the next or
+previous #if/#else/#endif preprocessor line.  When starting from
+such a line, Epsilon finds the next/previous matching one, skipping
+over inner nested preprocessor lines.  Alt-] and Alt-[ do the same.
+
+All delimiter-matching commands such as forward-level and
+backward-level now understand and ignore delimiters inside comments
+or strings, when appropriate, in C/C++ mode.
+
+If you want the width of tab characters to be different in C mode
+buffers than in other buffers, set c-tab-override to the desired
+value.
+
+The new merge-diff command is a variation on diff; it compares two C
+mode buffers and produces a new buffer with differences marked off by
+#ifdef lines.  Also see the new command visual-diff.
+
+HTML Mode
+==== ====
+
+Epsilon now includes HTML mode.  Epsilon does syntax highlighting
+(including embedded JavaScript) and brace-matching.  The commenting
+commands work too.
+
+Also see the description of the auto-show-html-delimiters variable.
+
+
+Integrated EEL Compiler
+---------- --- --------
+
+The EEL compiler has been integrated into Epsilon, so you can enjoy
+lightning-fast compiles via compile-buffer on Alt-F3.
+
+Epsilon for Windows 95/NT includes an eval command that quickly
+evaluates an arbitrary EEL expression.  Similarly, the execute-eel
+command executes a line of EEL code that you type in.
+
+
+Tags & Browser Support
+---- - ------- -------
+
+You can set tag_case_sensitive nonzero if you want tagging to
+consider MAIN, Main and main to be distinct tags.  By default,
+typing main will find any of these.
+
+When there are several instances of a single tag, you can now use
+Ctrl-<NumPlus> and Ctrl-<NumMinus> to move among them.
+Ctrl-<NumStar> is now another way to jump back to the previous
+location after following a tag, like Alt-j.
+
+The tag system can now use .BSC files from Microsoft Visual C++
+4.1/4.2/5.0.  Epsilon requires a Microsoft Browser Toolkit DLL to do
+this.  We have not received permission to redistribute this DLL from
+Microsoft, but you can download it from their web site at
+<http://www.microsoft.com/kb/articles/q153/3/93.htm>, or from an MSDN
+library disk (search for Knowledge Base article Q153393 or the older
+Q94375).  If you use Visual 4.1 or 4.2, download the archive
+BSCKIT41.EXE and extract the file bsc41.dll.  If you use Visual C
+5.0, download the archive BSCKIT50.EXE and extract the file
+msbsc50.dll.  With either DLL file, rename it to bsc.dll and place it
+in the directory containing Epsilon's executable (for example,
+c:\Program Files\Epsilon\Bin).  Then use the select-tag-file command
+on Ctrl-X Alt-<Comma> to select your .BSC file.  (See Microsoft
+compiler documentation for information on generating .BSC and .SBR
+files.)
+
+
+TeX Mode
+=== ====
+
+Epsilon now includes TeX mode.  For TeX, Epsilon provides features
+similar to Herb Schulz's popular TeX mode user extension, plus syntax
+highlighting and auto-show-delimiters.  (See the description of the
+auto-show-tex-delimiters variable.)
+
+Keys in TeX mode include Alt-i for italic text, Alt-Shift-I for
+slanted text, Alt-Shift-T for typewriter, Alt-Shift-B for boldface,
+Alt-Shift-F for a footnote, and Alt-s for a centered line.
+Alt-Shift-E prompts for the name of a LaTeX environment, then inserts
+\begin{env} and \end{env} lines for the one you select.  (The list of
+environments comes from the file latex.env, which you can edit.)
+
+For all these commands, you can highlight a block of text first and
+Epsilon will make the text italic, slanted, etc. or you can use the
+command and then type the text to be italic, slanted, etc.
+
+The keys { and $ insert matched pairs of characters (either {} or
+$$), the keys <Comma> and <Period> remove a preceding italic
+correction \/, the " key inserts the appropriate kind of doublequote
+sequence like `` or '', and the Alt-" inserts an actual " character.
+
+Some TeX mode commands are slightly different in LaTeX than in pure
+TeX.  Set tex-force-latex to 1 if all your documents are LaTeX, 0 if
+all your documents are TeX, or 2 if Epsilon should determine this on
+a document-by-document basis.  In that case, Epsilon will assume a
+document is LaTeX if it contains a \begin{document} statement or if
+it's in a file with an .ltx extension.
+
+
+Display Changes
+------- -------
+
+Epsilon now does syntax highlighting in HTML, TeX, dired, grep, and
+several other types of buffers.
+
+The new visual-diff command is like diff but uses colors to show
+differences.  Also see the new command merge-diff.
+
+The commands menu-bar and scroll-bar, which toggle the menu bar and
+scroll bar, respectively, have been renamed toggle-menu-bar and
+toggle-scroll-bar.  (Epsilon for Windows does not yet recognize
+toggle-scroll-bar.)
+
+When the cursor is on a delimiter like ( or [ in C/C++, HTML, or TeX
+modes, Epsilon now automatically highlights that delimiter and its
+matching delimiter.  If the delimiter has no match, Epsilon does not
+highlight.  You can set the variables auto-show-c-delimiters,
+auto-show-html-delimiters, or auto-show-tex-delimiters to zero to
+disable this feature.
+
+By default Epsilon's VESA SVGA support for DOS is now disabled.  Set
+the extra-video-modes variable to 3 to turn it back on.
+
+Searching
+---------
+
+Replace commands now preserve case.  Epsilon examines the case of
+each match.  If a match is entirely uppercase, or all words are
+capitalized, Epsilon makes the replacement text entirely uppercase or
+capitalized, as appropriate.  Epsilon only does this when searching
+is case-insensitive, and neither the search string nor the replace
+string contain uppercase letters.  For example, if you search for the
+regular expression "welcome|hello" and replace it with "greetings",
+Epsilon replaces HELLO with GREETINGS and Welcome with Greetings.
+
+The searching commands that use special dialogs have been renamed:
+
+Old name            New Name
+find                dialog-search
+reverse-find        dialog-reverse-search
+replace-box         dialog-replace
+regex-replace-box   dialog-regex-replace
+
+
+DOS/OEM Character Set Support
+======= ========= === =======
+
+Windows programs typically use a different character set than do DOS
+programs.  The DOS character set is known as the DOS/OEM character
+set, and includes various line drawing characters and miscellaneous
+characters not in the Windows/ANSI set.  The Windows/ANSI character
+set includes many accented characters not in the DOS/OEM character
+set.  Epsilon for Windows uses the Windows/ANSI character set (with
+most fonts).
+
+The oem-to-ansi command converts the current buffer from the DOS/OEM
+character set to the Windows/ANSI character set.  The ansi-to-oem
+command does the reverse.  If any character in the buffer doesn't
+have a unique translation, these commands warn first, and move to the
+first character without a unique translation.
+
+The find-oem-file command reads a file using the DOS/OEM character
+set, translating it into the Windows/ANSI character set, and arranges
+things so when you save the file, the reverse translation
+automatically occurs.  These commands are only available in Epsilon
+for Windows.
+
+Commands like forward-word that navigate by words now use the ANSI
+character set to determine which characters represent letters.  This
+change affects Epsilon for Windows only; other versions of Epsilon
+still use the OEM character set for this purpose.
+
+
+EEL Language Changes
+--- -------- -------
+
+The EEL language itself has been improved by the addition of
+ANSI-C-style function declarations, and ANSI-C-style prototypes.
+We've expanded the facility that lets you call DLL routines from EEL
+to allow for passing pointers by reference.
+
+The EEL compiler now understands ANSI-C-style declarations like
+
+   int get_something(char *p, int size);
+
+The EEL compiler now creates .b files in the current directory, not
+the directory containing the source file.
+
+Keyboard macros defined in command files can now use the syntax
+<!find-file> to run a command without knowing which key it's bound
+to.  For example, you can define a macro as (define-macro
+"fill-buffer" "<!mark-whole-buffer><!fill-region>").  You can now use
+a menu bar command or a command on the tool bar while defining a
+macro, and it will be recorded (using the above syntax).
+
+
+More Font Choices
+---- ---- -------
+
+You can now specify a specific font for use in printing with the
+set-printer-font command.  Similarly, the set-dialog-font command
+lets you specify what font to use for Epsilon's dialog windows (like
+the one bufed displays).  There are also corresponding new variables
+font-printer and font-dialog.
+
+The new command change-font-size supplements set-font by providing
+additional font choices.  Some Windows fonts include a variety of
+character cell widths for a given character cell height.  (For
+example, many of the font selections available in windowed DOS
+sessions use multiple widths.)  Commands like set-font utilize the
+standard Windows font dialog, which doesn't provide any way to select
+these alternate widths.  The change-font-size command lets you choose
+these fonts.
+
+The change-font-size command doesn't change the font name, or toggle
+bold or italic.  You'll need to use the set-font command to do that.
+
+Instead, change-font-size lets you adjust the height and width of the
+current font using the arrow keys.  You can abort to restore the old
+font settings, or press <Enter> or <Space> to keep them.  This is a
+handy way to shrink or expand the font size.  A width or height of 0
+means use a suitable default.
+
+
+Improved Color Selection
+-------- ----- ---------
+
+The set-color command now works in Epsilon for Windows.  A new
+command export-colors constructs an EEL source file of color
+settings based on the current color settings.
+
+The list-all command no longer includes color settings.  To transfer
+color settings to future versions, use the export-colors command, not
+list-all.  (The new list-colors command makes a list of color
+settings like list-all did in previous versions.)
+
+The EEL syntax for defining colors has been extended slightly.  You
+can now specify that a particular color class is the same as a
+previously-defined color class, like this:
+
+color_scheme "standard-gui" {
+    color_class text black on white;
+    color_class tex_text = color_class text;
+};
+
+Starting Epsilon
+-------- -------
+
+The preserve-session variable now understands new values.  Set it to
+2 to save the session every time you exit, but not to restore the
+session by default.  Set it to 4 to restore the session normally (see
+the session-always-restore variable) but not to save the session.
+The value 1 does both, as before, and the value 0 does neither.
+
+The default value of the session-always-restore variable is now 1.
+This means that Epsilon will restore its previous session even when
+you invoke it with a file name on its command line, or double-click
+on a file associated with Epsilon.  This variable no longer overrides
+the preserve-session variable or the -p flag; it only sets whether
+Epsilon behaves differently when started with a file name.
+
+You can set the session-restore-files variable to control whether
+Epsilon restores files named in a session file, or just search
+strings, command history, and similar settings.  If
+session-restore-files is 0, when Epsilon restores a session, it won't
+load any files named in the session, only things like like previous
+search strings.  If 1, the default, Epsilon will restore previous
+files as well as other settings.  If 2, Epsilon will restore previous
+files only if there were no files specified on Epsilon's command line.
+
+When Epsilon looks for one of its files, it no longer looks in the
+current directory first.  (Previously, Epsilon looked in the current
+directory first, but the -w2 flag told it to skip this step.  Now
+Epsilon acts as if this flag is always present.)  Epsilon now looks
+for its files in the directory containing its executable, the parent
+of that directory, and then in the directories named by the EPSPATH
+configuration variable.  See EPSPATH in the manual for complete
+details.
+
+The new -w16 flag tells Epsilon to set its current directory to the
+directory containing the first file named on its command line.  If
+you edit files by dragging them to a shortcut to Epsilon, you may
+wish to use this flag in the shortcut.
+
+Miscellaneous
+-------------
+
+Epsilon for Windows 95/NT now supports the Microsoft IntelliMouse.
+You can roll the wheel to scroll the current window.  Or click the
+wheel and drag the mouse to pan/auto-scroll--the speed and direction
+of scrolling varies as you move the mouse.  The latter operation
+works with any three-button mouse, under any version of Epsilon; it
+does not require a wheeled mouse.
+
+At most prompts Alt-E will retrieve your last response.  It's a
+faster alternative to displaying the prompt history with <Up> or
+Alt-<Up>, selecting the last item, and then pressing Alt-E to edit it.
+
+The cd command now provides the current buffer's directory as a
+previous response.  F7 Alt-E <Enter> is a quick way to change to the
+current buffer's directory.
+
+When a file changes on disk, Epsilon can automatically read the new
+version.  (It doesn't do this if you've modified the copy in memory,
+or the file on disk is substantially smaller than the copy in
+memory.)  Set the auto-read-changed-file variable nonzero to enable
+this behavior.  The dialog that displays when a file has been
+modified has a new option to set this variable.
+
+Epsilon now only creates a .bak file the first time it saves a file
+in each session (if you've set want-backups to 1).  Set want-backups
+to 2 if you want Epsilon to back up a file on every save.
+
+The kill-current-buffer command is now bound to Ctrl-X Ctrl-K.  The
+new kill-all-buffers command discards all user buffers.
+
+With a numeric argument, the paragraph-filling commands now unwrap
+lines in a paragraph, removing all line breaks.  Alt-2 Alt-Q is one
+quick way to unwrap the current paragraph.
+
+In previous versions, you couldn't use Shift-<ArrowKey> to select
+text in a keyboard macro.  This and some related problems have been
+fixed.
+
+Pressing <Tab> or Backtab (Shift-<Tab>) with a highlighted region now
+indents or unindents the region using indent-rigidly.
+
+The profile command now works in Epsilon for Windows 95/NT.
+
+New Primitives
+--- ----------
+
+memset(char *ptr, char value, int count)
+
+The memset() primitive sets all the count characters in a character
+array ptr to the given value.
+
+windows_set_font(char *title, b16 fnt_code)
+
+The windows_set_font() primitive now takes two parameters.  Title
+specifies the title of the dialog box to display.  The fnt_code says
+whether to set Epsilon's main font (FNT_SCREEN), the font for
+printing (FNT_PRINTER), or the font for Epsilon's dialogs
+(FNT_DIALOG).
+
+int comm_dlg_color(int oldcolor, char *title)
+
+In Epsilon for Windows, the comm_dlg_color() primitive lets the user
+select a color using the Windows common color dialog.  The oldcolor
+parameter specifies the default color, and title specifies the
+dialog's title.  The primitive returns the selected color, or -1 if
+the user canceled.
+
+display_dialog_box(char *dialogname, char *title,
+                   int win1, int win2, int win3,
+                   char *button1, char *button2, char *button3)
+
+The display_dialog_box() primitive now takes three window handles,
+and can create dialogs with up to three windows.  Some new
+dialognames have been defined:
+
+Name			Windows
+ASKEXITBOX		2
+HELPSETUP1		1
+SETCOLORBOX		3
+
+
+int eel_compile(char *file, int use_fsys, char *flags,
+                char *errors, int just_check)
+
+The eel_compile primitive lets Epsilon for Windows NT/95 run the EEL
+compiler via a DLL, without having to invoke a command processor.
+File specifies the name of a file or buffer.  If use_fsys is nonzero,
+it names a file; if use_fsys is zero, a buffer.  The flags parameter
+may contain any desired command line flags.  Compiler messages will
+go to the buffer named errors.  Unless errors occur or the just_check
+parameter is nonzero, Epsilon will automatically load the result of
+the compilation.  No bytecode file on disk will be modified.  Note
+that when the compiler includes header files, it will always read
+them from disk, even if they happen to be in an Epsilon buffer.
+
+char *make_pointer(int value)
+
+The make_pointer() primitive can be useful when interacting with
+system DLL's.  It takes a machine address as a number, and returns an
+EEL pointer that may be used to access memory at that address.  No
+error checking will be done on the validity of the pointer.
+
+int mouse_panning;
+int mouse_panning_rate(int percent, int slow, int fast)
+
+The mouse_panning variable and the mouse_panning_rate() primitive
+work together to support panning and auto-scroll with the Microsoft
+IntelliMouse (or any other three button mouse).  The EEL subroutine
+that receives clicks of the third mouse button sets mouse_panning
+nonzero to tell Epsilon to begin panning and record the initial
+position of the mouse.
+
+Then the subroutine can regularly call mouse_panning_rate() to
+determine how quickly, and in what direction, to scroll.  The
+parameter percent specifies the percentage of the screen the mouse
+has to travel to reach maximum speed (usually 40%).  The parameter
+slow specifies the minimum speed in milliseconds per screen line
+(usually 2000 ms/line).  The parameter fast specifies the maximum
+speed in milliseconds per screen line (usually 1 ms/line).
+
+The mouse_panning_rate() primitive uses these figures, plus the
+current position of the mouse, to return the scroll rate in
+milliseconds per screen line.  It returns a positive number if
+Epsilon should scroll down, a negative number to scroll up, or zero
+if Epsilon should not scroll.
+
+int is_remote_file(char *fname)
+
+The is_remote_file() primitive tells whether fname looks like a valid
+URL.  It returns 1 if fname starts with a service name like ftp://,
+http://, or telnet://, or 2 if fname appears to be an Emacs-style
+remote file name like /hostname:filename.
+
+call_dll(dll_name, func_name, ftype, args, ...)
+    char *dll_name, *func_name, *ftype, *args;
+
+The call_dll() primitive can now unload a DLL.  Call it with just the
+DLL name, omitting any function name or other parameters, to do this.
+
+A new parameter-type letter can appear in the ftype parameter.  R
+indicates that a DLL function returns a pointer by reference; Epsilon
+will pass the pointer you supply (if any) and retrieve the result.
+Use this for DLL functions that require a pointer to a pointer, and
+pass the address of any EEL variable whose type is "pointer to ..."
+(other than "pointer to function").
+
+user buffer int type_point;
+
+The type_point variable is now buffer-specific.  Internet commands
+for Telnet and FTP use type_point much like the process buffer does,
+to determine where to insert text into a buffer and where to read any
+text to be sent.
+
+copy_buffer_variables(int tobuf, int frombuf)
+
+The copy_buffer_variables() primitive sets all buffer-specific
+variables in the buffer tobuf to their values in the buffer frombuf.
+If frombuf is zero, Epsilon resets all buffer-specific variables in
+the buffer tobuf to their default values.
+
+EEL Subroutine Changes
+--- ---------- -------
+
+The meaning of the FOLD and MODFOLD bits in searching flags is now
+slightly different.  Now MODFOLD means to use a specific case-fold
+setting, not the default setting for the buffer, and FOLD indicates
+the specific case-fold setting.  When MODFOLD is zero, searching
+functions use the default setting for the buffer.  When MODFOLD is
+nonzero, searching functions case-fold if and only if FOLD is nonzero.
+
+
+File Name Case
+---- ---- ----
+
+When retrieving file names from some file systems, Epsilon
+automatically translates the file names to lowercase.  Epsilon now
+uses different rules for determining when to convert retrieved file
+names to lowercase, and when two file names that differ only by case
+refer to the same file.
+
+Epsilon distinguishes between three types of file systems:
+
+On a case-sensitive file system, MyFile, MYFILE, and myfile refer to
+three different files.  Unix file systems are case-sensitive.
+
+On a case-preserving (but not case-sensitive) file system, MyFile,
+MYFILE, and myfile all refer to the same file.  But if you create a
+file as MyFile, the file system will display that file as MyFile
+without altering its case.  VFAT, NTFS, and HPFS file systems used in
+Windows 95, Windows NT, and OS/2 are case-preserving.
+
+On a non-case-preserving file system, MyFile, MYFILE, and myfile all
+refer to the same file.  Moreover, the operating system converts all
+file names to upper case.  So no matter how you create the file, the
+operating system always shows it as MYFILE.  DOS's FAT file system is
+non-case-preserving.  When Epsilon displays a file name from such a
+file system, it changes the file name to all-lowercase.
+
+Epsilon asks the operating system for information on each drive, the
+first time the drive is accessed.  (Actually only Epsilon for Windows
+95/NT and Epsilon for OS/2 can do this; Epsilon for Windows 3.1
+assumes that all drives are non-case-preserving.  Epsilon for DOS
+asks the operating system when it runs under Windows 95; in other
+environments it assumes drives are non-case-preserving.)
+
+
+You can tell Epsilon to use particular rules for each drive on your
+system by defining an environment variable.  The MIXEDCASEDRIVES
+environment variable should contain a list of drive letters or
+ranges.  If the variable exists and a lowercase letter like k appears
+in it, Epsilon assumes drive K: has a Unix-style case-sensitive file
+system.  If the variable exists and an uppercase letter like J
+appears in it, Epsilon assumes drive J: is not case-preserving or
+case-sensitive, like traditional FAT drives.  If the variable exists
+but a drive letter does not appear in it, Epsilon assumes the drive
+has a case-preserving but not case-sensitive file system like NTFS,
+HPFS, or VFAT drives.
+
+If, for example, drives h:, i:, j:, and p: access Unix filesystems
+over a network, drive q: accesses a server that uses a FAT
+filesystem, and other drives use a VFAT filesystem (local drives
+under NT or 95, for example), you could set MIXEDCASEDRIVES to h-jpQ.
+When Epsilon finds a MIXEDCASEDRIVES variable, it assumes the
+variable contains a complete list of such drives, and doesn't examine
+filesystems as described.  If an EPSMIXEDCASEDRIVES configuration
+variable exists, that overrides any MIXEDCASEDRIVES environment
+variable that may be found.  (Note that MIXEDCASEDRIVES appears in
+the environment under all operating systems, while EPSMIXEDCASEDRIVES
+must be put in lugeps.ini, in the registry, or in the environment,
+depending on the operating system.  See "configuration variables" in
+the manual for details.)
+
+When Epsilon retrieves an all-uppercase file name from a
+non-case-sensitive file system, it normally shows the name in
+lowercase.  Set the variable preserve-filename-case nonzero if you
+want Epsilon to show file names exactly as the operating system
+reports them.
+
+
+An EEL program can use the filename_rules() primitive to determine
+the rules Epsilon is using for a particular file system.  It takes
+any legal file name and returns a code whose values are represented
+by macros defined in codes.h.
+
+The FSYS_CASE_IGNORED code indicates a non-case-preserving file
+system like DOS.  The FSYS_CASE_PRESERVED code indicates a
+case-preserving file system like NTFS or VFAT.  The
+FSYS_CASE_SENSITIVE code indicates a case-sensitive file system like
+Unix.  The FSYS_CASE_UNKNOWN code indicates that Epsilon couldn't
+determine anything about the file system.  The function also returns
+a bit flag FSYS_SHORT_NAMES, valid whenever any code but
+FSYS_CASE_UNKNOWN is returned, that indicates whether only 8+3 names
+are supported.

@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "e0ac8be2-1aa3-4427-9fea-c402ea160a43",
+		"name": "Astravue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TaskManagement",
+			"item": [
+				{
+					"name": "TaskManagement",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"taskId\": 21,\r\n    \"taskName\": \"todos\",\r\n    \"dueDate\": \"2022-12-10\",\r\n    \"startDate\": \"2022-10-14\",\r\n    \"priority\": \"low\",\r\n    \"status\": \"open\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2014/api/task/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2014",
+							"path": [
+								"api",
+								"task",
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskManagement",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"taskId\": 21,\r\n    \"taskName\": \"todos\",\r\n    \"dueDate\": \"2022-12-10\",\r\n    \"startDate\": \"2022-10-14\",\r\n    \"priority\": \"medium\",\r\n    \"status\": \"open\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:2014/api/task/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2014",
+							"path": [
+								"api",
+								"task",
+								"task"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskManagement",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:2014/api/task/task/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2014",
+							"path": [
+								"api",
+								"task",
+								"task",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "TaskManagement",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:2014/api/task/task",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "2014",
+							"path": [
+								"api",
+								"task",
+								"task"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Calculator",
+			"item": [
+				{
+					"name": "Addition Claculator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/calc/arithmetic/add?a=5&b=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"calc",
+								"arithmetic",
+								"add"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "5"
+								},
+								{
+									"key": "b",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subtraction Calculator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/calc/arithmetic/sub?a=50&b=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"calc",
+								"arithmetic",
+								"sub"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "50"
+								},
+								{
+									"key": "b",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Multiplication Claculator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/calc/arithmetic/mul?a=15&b=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"calc",
+								"arithmetic",
+								"mul"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "15"
+								},
+								{
+									"key": "b",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Division Calculator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/calc/arithmetic/div?a=150&b=5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"calc",
+								"arithmetic",
+								"div"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "150"
+								},
+								{
+									"key": "b",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modules Claculator",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/calc/arithmetic/mod?a=85&b=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"calc",
+								"arithmetic",
+								"mod"
+							],
+							"query": [
+								{
+									"key": "a",
+									"value": "85"
+								},
+								{
+									"key": "b",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

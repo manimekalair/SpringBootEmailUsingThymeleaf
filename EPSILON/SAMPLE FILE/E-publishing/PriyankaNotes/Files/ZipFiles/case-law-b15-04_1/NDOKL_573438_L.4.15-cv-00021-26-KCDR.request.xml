@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF OKLAHOMA</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>SMART KIDS, L.L.C., and DEBORAH A. BROWN, Plaintiffs</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>WILLIE S. KING, JR., Defendant and Counterclaimant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 15-CV-21-GKF-PJC</docket.line>
+<docket.number>15-CV-21-GKF-PJC</docket.number>
+<docket.line suppress-flag="y">4:15-cv-00021-GKF-PJC</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed in USDC ND/OK on 10/01/2015</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GREGORY K. FRIZZELL, CHIEF JUDGE UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Before the court is the Motion for Leave to File an Amended Answer of plaintiffs/counterclaim defendants Smart Kids, L.L.C. and Deborah A. Brown (collectively, &#x201C;Smart Kids&#x201D;). [Dkt. #23]. Smart Kids brought this action against defendant/counterclaimant Willie S. King Jr. on January 13, 2015. [Dkt. #2]. King filed an answer on April 30, 2015, which included several counterclaims against Smart Kids. [Dkt. #14]. Smart Kids filed its answer to King's counterclaims on May 21, 2015. [Dkt. #16].</paratext></para>
+<para><paratext ID="p2" level="1">In its motion, Smart Kids asserts that it recently deposed King and learned information regarding the &#x201C;time frames upon which his counterclaims arose.&#x201D; [Dkt. #23, p.2]. Based on this new information, Smart Kids believes that most of King's counterclaims fall outside of the applicable the statute of limitations and seeks leave to file an Amended Answer asserting such defenses. For his part, King submits that the material facts relating to any alleged statute of limitations defense were adequately set forth his original counterclaims and that any such defense would be baseless. King, however, acknowledges that based on Smart Kids' submissions &#x201C;this Court cannot know (on the basis of the incomplete record now before it) whether Smart Kids could in good faith assert such a defense.&#x201D; [<ital>Id.</ital>]. King thus &#x201C;respectfully leave[s] to this Court's discretion the issue of whether Smart Kids' motion for leave to amend should be granted.&#x201D; [<ital>Id.</ital>].</paratext></para>
+<para><paratext ID="p3" level="1">Federal Rule of Civil Procedure 15(a)(2) instructs courts to &#x201C;freely give leave [to amend] when justice so requires.&#x201D; As the Supreme Court has explained, Rule 15 &#x201C;was designed to facilitate the amendment of pleadings except where prejudice to the opposing party would result.&#x201D; <ital>United States v. Hougham</ital>, 364 U.S. 310, 316 (1960). &#x201C;Courts typically find prejudice only when the amendment unfairly affects the defendants in terms of preparing their defense to the amendment.&#x201D; <ital>Minter v. Prime Equip. Co.</ital>, 451 F.3d 1196, 1208 (10th Cir. 2006). King does not contend that he would be prejudiced by Smart Kids' proposed amendments. The court, therefore, concludes that leave to amend is warranted.</paratext></para>
+<para><paratext ID="p4" level="1">WHEREFORE, Smart Kids' Motion for Leave to File an Amended Answer [Dkt. #23] is granted. Smart Kids is granted leave to submit an Amended Answer asserting statute of limitations defenses to King's counterclaims. Smart Kids shall submit its Amended Answer on or before October 12, 2015.</paratext></para>
+<para><paratext ID="p5" level="1">IT IS SO ORDERED this 1st day of October, 2015.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

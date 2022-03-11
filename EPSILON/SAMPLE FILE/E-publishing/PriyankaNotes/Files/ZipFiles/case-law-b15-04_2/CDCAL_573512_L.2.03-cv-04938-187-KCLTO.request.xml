@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>FARHAD FAZLI DBA FOUNTAIN VALLEY 76, et al., Plaintiffs,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>CONOCOPHILLIPS COMPANY, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 2:03-cv-04938-FMC-VBKx</docket.line>
+<docket.number>2:03-cv-04938-FMC-VBKx</docket.number>
+<docket.line suppress-flag="y">2:03-cv-04938-FMC-VBK</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 11/19/2008</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER DENYING DEFENDANT'S MOTION FOR FEES AND COSTS</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">FLORENCE-MARIE COOPER, JUDGE UNITED STATES DISTRICT COURT</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">This matter is before the Court on Defendant Conoco Phillips Company's Motion for Attorney Fees and Costs (docket no. 172), filed on October 24, 2008. The Court has considered the moving, opposition and reply documents submitted in connection with the Motion. The Court deems this matter appropriate for decision without oral argument. <ital>See</ital> Fed. R. Civ. P. 78(b); Local Rule 7-15. The hearing set for November 24, 2008, is removed from the Court's calendar. For the reasons and in the manner set forth below, Defendant's Motion is DENIED.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>I. BACKGROUND</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">The facts of this case are familiar to the parties and presented in detail in the Court's previous orders in this case. A brief summary of the procedural history relevant to the instant Motion is included here.</paratext></para>
+<para><paratext ID="p3" level="1">On November 23, 2004, this Court granted Defendant's Motion for Summary Judgment on all Plaintiff Farhad Fazli's claims. The Court's ruling included a finding that, although the appraised value of the subject gas station was in dispute, Defendant had nonetheless complied with the requirements of the Petroleum Marketing Practices Act (&#x201C;PMPA&#x201D;), because it had given Plaintiff a right of first refusal after it received an offer from a third party to purchase the property.</paratext></para>
+<para><paratext ID="p4" level="1">On October 19, 2005, the Court granted in part Defendant's motion for attorney fees and costs, awarding $15,941.51 to Defendant in fees and $754.58 in costs. The Court found that Defendant was not eligible for an award of fees under the PMPA because Plaintiff's PMPA claim &#x201C;although ultimately unsuccessful, c[ould] not be said to have been unreasonable, lacking in foundation, or brought for an improper purpose.&#x201D; Looking to the attorney fee and costs provision of the parties Agreement,<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> the Court awarded 15% of the lodestar amount for defense of Plaintiff's non-PMPA claims. Oct. 19, 2005 Order (docket no. 120) at 2-4. The Court explained:</paratext>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;Section 49 of that Agreement provides the following regarding attorney fees: &#x201C;In the event an action is brought to <ital>enforce or interpret this Agreement</ital>, the prevailing party shall be entitled to reimbursement of all costs including, but not limited to, reasonable attorney fees and court costs incurred.&#x201D; Memo. of P. &#38; A. in Suppt. of Def's Mot. for Fees and Costs at 4:22-28 (emphasis added).</paratext></para></footnote.body></footnote>
+<para><paratext ID="p6" first-line="2" turnover="1">At the outset, the Court notes that the driving force behind this action was the PMPA claim. Plaintiff's contractual claims regarding pump maintenance were not pursued. The preliminary injunctive relief sought in this action was related solely to the PMPA claim. The contractual claims were successfully defended by Defendant at the summary judgment stage based on a two-page, three-paragraph declaration from one of Defendant's employees. Plaintiff did not offer any disputing evidence. Based on a review of the record in this action, the Court concludes that Plaintiff's breach of contract and bad faith claims required little effort to defend, and the Court reduces the amount of fees requested accordingly.</paratext></para>
+<para><paratext ID="p7" first-line="2" turnover="1">Plaintiff's other non-PMPA claim, his &#167; 17200 claim, was derivative of his PMPA claim. Little additional effort was required to defend the &#167; 17200 claim in light of the defense mounted against the PMPA claim. Therefore, based on a review of the record, the Court concludes that Plaintiff's &#167; 17200 claim also required little effort to defend, and the Court reduces the amount of fees requested accordingly.</paratext></para>
+<paratext ID="p8" contd-flag="y"><ital>Id.</ital> at 3-4 (footnote omitted).</paratext></para>
+<para><paratext ID="p9" level="1">Thereafter, Plaintiff appealed, but the appeal did not include Plaintiff's breach of contract and breach of implied covenant of good faith and fair dealing claims. The Ninth Circuit Court of Appeals found that the right of first refusal had not been timely given, and could not, therefore, support a finding of compliance with the PMPA. The Court of Appeals remanded, instructing this Court to &#x201C;determine whether the offer satisfied &#167;2802(b)(3)(D)(iii)(I) (<ital>i.e.</ital>, whether the offer was &#x201C;bona fide&#x201D;).&#x201D;</paratext></para>
+<para><paratext ID="p10" level="1">On September 23, 2008, this Court again granted summary judgment in Defendant's favor on Plaintiff's PMPA claim, unfair business practices claim pursuant to California Business and Profession Code Section 17200 <ital>et seq.</ital>, and claim for declaratory relief. The Court noted: &#x201C;The Court previously granted summary judgment in favor of Defendant on Plaintiff's claims for breach of contract and breach of covenant of good faith and fair dealing. Plaintiff did not appeal those claims.&#x201D; Sept. 23, 2008 Order Granting Def's MSJ (docket no. 168) at 3 n.1. Examining the question presented on remand in connection with the PMPA claim, the Court found in Defendant's favor. <ital>Id.</ital> at 3-8. The Court went on to explain that Plaintiff's unfair business practices claim and declaratory relief claim were derivative of his PMPA claim and:</paratext>
+<para><paratext ID="p11" first-line="2" turnover="1">[T]o the extent that the claims relate to the procedural requirement for franchise termination, they are preempted by the PMPA. Additionally, to the extent that Plaintiff's remaining state law claims were premised on his claims of breach of contract and breach of the covenant of good faith and fair dealing, they fail by virtue of the fact that summary judgment was previously granted in Defendant's favor on those claims.</paratext></para>
+<paratext ID="p12" contd-flag="y"><ital>Id.</ital> at 8 (internal citations omitted).</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. DISCUSSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">With the instant Motion, Defendant seeks an award of $46,367.76, comprising: (1) enforcement of the Court's October 2005 award of fees and costs; (2) an award of $17,972.97, representing 15% of Defendant's post-remand fees and costs; and (3) an award of $11,698.70 for the costs of the Motion ($11,536 for the Motion and $162.70 for the Reply).</paratext></para>
+<para><paratext ID="p14" level="1">As to the first component of Defendant's request, Defendant is not entitled to a re-award of the $17,972.97 awarded to it in October 2005. The Court's October 19, 2005 Order is valid and remains in effect; nothing about Plaintiff's appeal, the Ninth Circuit's decision on remand, or the Court's post-remand grant of summary judgment altered the validity or effect of that award.</paratext></para>
+<para><paratext ID="p15" level="1">The second and third components of Defendant's request are also denied. As is clear from the procedural history set out above, Plaintiff's contract claims (breach of contract and breach of the covenant of good faith and fair dealing) were not at issue after the case was remanded to this Court. Any time Defendant expended post-remand in connection with the contract claims was not time reasonably spent; the claims had been, and remained, denied on the merits. Whether or not Plaintiff attempted to &#x201C;resurrect&#x201D; those claims in the post-remand motion for summary judgment, the resolution of those claims did not involve the enforcement of the parties' Agreement or an interpretation of that Agreement. Additionally, Plaintiff's other state law claims were, and are, preempted by the PMPA.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">For the reasons set forth above, Defendant Conoco Phillips Company's Motion Attorney Fees and Costs (docket no. 172) is DENIED.</paratext></para>
+<para><paratext ID="p17" level="0"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext ID="p18" level="0">Dated: November 19, 2008.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

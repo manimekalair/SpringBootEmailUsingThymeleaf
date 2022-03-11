@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "[=$module]", "[=$module].csproj", "{[=$ProjectLibGuid]}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltovaXML", "..\\AltovaXML\\AltovaXML.csproj", "{[=$AltovaXMLLibGuid]}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altova", "..\\Altova\\Altova.csproj", "{[=$AltovaLibGuid]}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{[=$ProjectLibGuid]}.0 = {[=$AltovaXMLLibGuid]}
+		{[=$AltovaXMLLibGuid]}.0 = {[=$AltovaLibGuid]}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{[=$ProjectLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$ProjectLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$ProjectLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$ProjectLibGuid]}.Release.Build.0 = Release|.NET
+		{[=$AltovaXMLLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaXMLLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaXMLLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaXMLLibGuid]}.Release.Build.0 = Release|.NET
+		{[=$AltovaLibGuid]}.Debug.ActiveCfg = Debug|.NET
+		{[=$AltovaLibGuid]}.Debug.Build.0 = Debug|.NET
+		{[=$AltovaLibGuid]}.Release.ActiveCfg = Release|.NET
+		{[=$AltovaLibGuid]}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

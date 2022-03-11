@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE patent-application-publication PUBLIC "-//USPTO//DTD PAP V1.6 2002-01-01//EN" "http://www.altova.com/schemas/uspto/pap-v16-2002-01-01.dtd">
+<?altova_sps http://www.altova.com/sps/template/Patents/application.sps?>
+<?xml-stylesheet type="text/xsl" href="http://www.altova.com/stylesheets/USPTO/pap.xsl"?>
+<patent-application-publication>
+	<subdoc-bibliographic-information>
+		<document-id>
+			<doc-number>20010018193</doc-number>
+			<kind-code>A1</kind-code>
+			<document-date>20010830</document-date>
+		</document-id>
+		<publication-filing-type>new</publication-filing-type>
+		<domestic-filing-data>
+			<application-number>
+				<doc-number>09054141</doc-number>
+			</application-number>
+			<application-number-series-code>09</application-number-series-code>
+			<filing-date>19980402</filing-date>
+			<continued-prosecution-application>This is a publication of a continued prosecution application (CPA) filed under 37 CFR 1.53(d).</continued-prosecution-application>
+		</domestic-filing-data>
+		<technical-information>
+			<classification-ipc>
+				<classification-ipc-primary>
+					<ipc>G01N033/569</ipc>
+				</classification-ipc-primary>
+				<classification-ipc-secondary>
+					<ipc>C07K016/00</ipc>
+				</classification-ipc-secondary>
+				<classification-ipc-edition>07</classification-ipc-edition>
+			</classification-ipc>
+			<classification-us>
+				<classification-us-primary>
+					<uspc>
+						<class>435</class>
+						<subclass>007370</subclass>
+					</uspc>
+				</classification-us-primary>
+				<classification-us-secondary>
+					<uspc>
+						<class>530</class>
+						<subclass>387100</subclass>
+					</uspc>
+				</classification-us-secondary>
+			</classification-us>
+			<title-of-invention>ANTIBODIES TO INTIMIN-LIKE PROTEINS OF E. COLI</title-of-invention>
+		</technical-information>
+		<continuity-data>
+			<division-of>
+				<parent-child>
+					<child>
+						<document-id>
+							<doc-number>09054141</doc-number>
+							<kind-code>A1</kind-code>
+							<document-date>19980402</document-date>
+						</document-id>
+					</child>
+					<parent>
+						<document-id>
+							<doc-number>08409452</doc-number>
+							<document-date>19950323</document-date>
+							<country-code>US</country-code>
+						</document-id>
+					</parent>
+					<parent-status>GRANTED</parent-status>
+					<parent-patent>
+						<document-id>
+							<doc-number>5747293</doc-number>
+							<country-code>US</country-code>
+						</document-id>
+					</parent-patent>
+				</parent-child>
+			</division-of>
+		</continuity-data>
+		<inventors>
+			<first-named-inventor>
+				<name>
+					<given-name>GORDON</given-name>
+					<family-name>DOUGAN</family-name>
+				</name>
+				<residence>
+					<residence-non-us>
+						<city>LONDON</city>
+						<country-code>GB</country-code>
+					</residence-non-us>
+				</residence>
+				<authority-applicant>INV</authority-applicant>
+			</first-named-inventor>
+			<inventor>
+				<name>
+					<given-name>GAD</given-name>
+					<family-name>FRANKEL</family-name>
+				</name>
+				<residence>
+					<residence-non-us>
+						<city>LONDON</city>
+						<country-code>GB</country-code>
+					</residence-non-us>
+				</residence>
+				<authority-applicant>INV</authority-applicant>
+			</inventor>
+		</inventors>
+		<correspondence-address>
+			<name-1>HALE AND DORR LLP</name-1>
+			<name-2></name-2>
+			<address>
+				<address-1>60 STATE STREET</address-1>
+				<city>BOSTON</city>
+				<state>MA</state>
+				<postalcode>02109</postalcode>
+			</address>
+		</correspondence-address>
+	</subdoc-bibliographic-information>
+	<subdoc-abstract>
+		<paragraph id="A-0001" lvl="0">The invention is related to antibodies, particularly monoclonal antibodies, which recognize particularly epitopes of the intimin protein of enteropathogenic <highlight>
+				<italic>E. coli </italic>
+			</highlight>and enterohemorrhagic <highlight>
+				<italic>E. coli</italic>
+			</highlight>, methods of detecting such <highlight>
+				<italic>E. coli </italic>
+			</highlight>by use of these antibodies, and kits containing these antibodies for diagnosis. </paragraph>
+	</subdoc-abstract>
+	<subdoc-description>
+		<summary-of-invention>
+			<paragraph id="P-0001" lvl="0"><number>&lsqb;0001&rsqb;</number> The present invention relates to antibodies, particularly monoclonal antibodies which recognise particular epitopes of the intimin protein of enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>and enterohemorrhagic <highlight>
+					<italic>E. coli</italic>
+				</highlight>, their use in the detection of such enterophathogenic <highlight>
+					<italic>E. coli</italic>
+				</highlight>, and kits containing such antibody for such use. </paragraph>
+			<paragraph id="P-0002" lvl="0"><number>&lsqb;0002&rsqb;</number> Enteropathogenic <highlight>
+					<italic>Escherichia coli </italic>
+				</highlight>(EPEC) were the first <highlight>
+					<italic>E. coli </italic>
+				</highlight>linked with diarrhoea in humans. They are a sub-group of pathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>that are a major cause of infant diarrhoea. Enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>(EHEC) are another such sub-group. EPEC normally fall into several distinct serotype groups based on the type of lipopolysaccharide which is expressed at their cell surface. The most common serogroups that are associated with EPEC are 026, 055, 0111, 0114, 0126, 0127, 0128, 0142 and 0157. Although EPEC and EHEC infections are still a serious problem world-wide, no specific treatment or vaccine is as yet available for treating these diseases and furthermore, no relatively simply and/or accurate tests are as yet available for diagnosis. </paragraph>
+			<paragraph id="P-0003" lvl="0"><number>&lsqb;0003&rsqb;</number> One major problem in diagnosing EPEC infections is that, apart from the link with several O serotypes, EPEC are difficult to distinguish from commensal, non-pathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>which are usually resident in the intestines of healthy individuals. Ultra-structural studies of intestinal biopsy specimens from children with EPEC-induced diarrhoea have shown that EPEC attach to the intestinal epithelium in a characteristic fashion, which is central to the pathogenesis of the disease. </paragraph>
+			<paragraph id="P-0004" lvl="0"><number>&lsqb;0004&rsqb;</number> Wherever bacteria bind to the brush border of the intestine, microvilli are destroyed, or &ldquo;effaced&rdquo;. The apical cell membrane of the bare enterocytes form cup-like pedestals upon which the bacteria intimately adhere. EHEC, <highlight>
+					<italic>Hafnia alvei </italic>
+				</highlight>and <highlight>
+					<italic>Citrobacter freundii </italic>
+				</highlight>biotype 4280 have also been shown to induce similar lesions, termed effacement and attachment lesions, to the intestinal brush border of infected hosts. </paragraph>
+			<paragraph id="P-0005" lvl="0"><number>&lsqb;0005&rsqb;</number> Pedestal formation is associated with accumulation of polymerised actin below the surface of the eukaryotic cell directly engulfing the bacteria. This polymerised actin can be detected by staining with a specific dye called phalloidin. A diagnostic test, based on the use of this stain with cultured mammalian cells incubated with pathogenic bacteria has been developed. However, this test is not EPEC-specific, and is expensive and time consuming, which renders its routine use difficult. </paragraph>
+			<paragraph id="P-0006" lvl="0"><number>&lsqb;0006&rsqb;</number> The EPEC or EHEC gene product that mediates intimate attachment to epithelial cells is a protein called intimin (Int<highlight>
+					<subscript>EPEC </subscript>
+				</highlight>and Int<highlight>
+					<subscript>EHEC </subscript>
+				</highlight>respectively), which is a 94 kdal outer membrane protein encoded by the chromosomal eaeA gene. The amino-terminis of Int<highlight>
+					<subscript>EPEC </subscript>
+				</highlight>and Int<highlight>
+					<subscript>EHEC </subscript>
+				</highlight>have a high degree of homology with the eae gene products of <highlight>
+					<italic>Citrobacter freundii </italic>
+				</highlight>biotype 4280 (Int<highlight>
+					<subscript>CF</subscript>
+				</highlight>) and also with the amino terminus of invasin (Inv), the product of inv gene of <highlight>
+					<italic>Yersinia pseudotuberculosis </italic>
+				</highlight>(Inv<highlight>
+					<subscript>YP</subscript>
+				</highlight>) and <highlight>
+					<italic>Yersinia enterocolitica </italic>
+				</highlight>(Inv<highlight>
+					<subscript>YE</subscript>
+				</highlight>). </paragraph>
+			<paragraph id="P-0007" lvl="0"><number>&lsqb;0007&rsqb;</number> The DNA and protein sequences of various intimins were disclosed by Kaper (<highlight>
+					<italic>Proc. Natl. Acad. Sci. USA, </italic>
+				</highlight>87: 7839-7843 (1990) and <highlight>
+					<italic>Mol. Microbiol., </italic>
+				</highlight>6: 411-417 (1992)). However, the proteins themselves were not purified. Frankel et al. (<highlight>
+					<italic>Infec. Immun., </italic>
+				</highlight>62: 1835-1842 (1994)) have isolated the intimin proteins from various sources and have generated Maltose-binding protein (MBP), fusion proteins carrying particular domains of the intimin proteins. </paragraph>
+			<paragraph id="P-0008" lvl="0"><number>&lsqb;0008&rsqb;</number> The cell binding activity of Inv<highlight>
+					<subscript>YP </subscript>
+				</highlight>resides predominantly in the 192 carboxy-terminus amino acids of the protein. Previously, Frankel et al. (supra) used fusions to maltose binding protein (MBP) to show that, like Inv, an Int domain which mediates receptor binding resides in the 280 (or 275 in the case of EHEC) amino acids of the carboxy-terminus of the protein (Int<highlight>
+					<subscript>EPEC280</subscript>
+				</highlight>, Int<highlight>
+					<subscript>EHEC275</subscript>
+				</highlight>, Int<highlight>
+					<subscript>HA280</subscript>
+				</highlight>, Int<highlight>
+					<subscript>CF280</subscript>
+				</highlight>). </paragraph>
+			<paragraph id="P-0009" lvl="0"><number>&lsqb;0009&rsqb;</number> However, unlike Inv, which by itself can convert an <highlight>
+					<italic>E. coli </italic>
+				</highlight>K12 strain to an organism capable of attaching and then invading mammalian cells, Int requires the cooperation of other EPEC proteins to induce the effacement and attachment lesion. Notwithstanding that, however, Int<highlight>
+					<subscript>EPEC </subscript>
+				</highlight>is a virulent factor that induces seroconversion in human volunteers (Donnenberg et al, <highlight>
+					<italic>J. Clin. Invest., </italic>
+				</highlight>92: 1412-1417 (1993)). The carboxy-terminal domain of this protein is able to bind to target cells and thus it is likely to be surface exposed, thus making it accessible, on whole bacteria, to immune reagents. </paragraph>
+			<paragraph id="P-0010" lvl="0"><number>&lsqb;0010&rsqb;</number> We have now generated further fusion proteins in addition to MBP-Int<highlight>
+					<subscript>EPEC280 </subscript>
+				</highlight>(amino acids 660-939). These fusion proteins include different amino acid sequences derived from the 280 binding domain. MBP-Int<highlight>
+					<subscript>EPEC150 </subscript>
+				</highlight>(amino acids 790-939) was found to be the smallest fusion protein that had the ability to mediate cell binding. In addition the cysteine residue at position 937 of Int seems to be required for binding activity, as substitution with serine results in a loss in biological activity. Using the MBP expression system we have obtained high yields of MBP<highlight>
+					<subscript>IntEPEC280</subscript>
+				</highlight>, MBP-Int<highlight>
+					<subscript>EHEC275</subscript>
+				</highlight>, MBP-Int<highlight>
+					<subscript>CF280 </subscript>
+				</highlight>and MBP-Inv<highlight>
+					<subscript>YP280 </subscript>
+				</highlight>fusion proteins. These proteins can be used to immunise mice in order to generate specific monoclonal antibodies. We have now identified monoclonal antibodies which specifically recognise the antigen MBP-Int<highlight>
+					<subscript>EPEC280 </subscript>
+				</highlight>and which do not recognise MBP, MBP-Int<highlight>
+					<subscript>EHEC275</subscript>
+				</highlight>, MBP-Int<highlight>
+					<subscript>CF280 </subscript>
+				</highlight>or MBP-Inv<highlight>
+					<subscript>YP280</subscript>
+				</highlight>. These antibodies are therefore specific for the 280 amino acid domain of Int<highlight>
+					<subscript>EPEC </subscript>
+				</highlight>and will therefore be useful in both the detection and/or treatment of EPEC infection. </paragraph>
+			<paragraph id="P-0011" lvl="0"><number>&lsqb;0011&rsqb;</number> Similarly, MBP-Int<highlight>
+					<subscript>EHEC275 </subscript>
+				</highlight>can be used to generate monclonal antibodies which recognise MBP-Int<highlight>
+					<subscript>EHEC275 </subscript>
+				</highlight>but not MBP-Int<highlight>
+					<subscript>EPEC280</subscript>
+				</highlight>. </paragraph>
+			<paragraph id="P-0012" lvl="0"><number>&lsqb;0012&rsqb;</number> Thus, in a first aspect, the present invention provides an antibody which recognises a region within either the carboxy-terminus 280 amino acid domain of the enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>intimin protein (Int<highlight>
+					<subscript>EPEC280</subscript>
+				</highlight>) or the enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>intimin protein (Int<highlight>
+					<subscript>EPEC280</subscript>
+				</highlight>). </paragraph>
+			<paragraph id="P-0013" lvl="0"><number>&lsqb;0013&rsqb;</number> In the context of the present invention, &ldquo;antibody&rdquo; refers to conventional polyclonal and monoclonal antibodies and includes antigen binding portions or fragments thereof, e.g. Fab and/or fragments of Fab. </paragraph>
+			<paragraph id="P-0014" lvl="0"><number>&lsqb;0014&rsqb;</number> In a preferred embodiment, the antibody is a monoclonal antibody. In particularly preferred embodiments, the antibody is a monoclonal antibody which recognises a region within the following carboxy-terminus 280 amino acid sequence:  
+<table-cwu id="TABLE-US-00001">
+					<number>1</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGQDAIT YTVKVMKGDK PVSNQEVTFT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTLGKLSNST EKTDTNGYAK VTLTSTTPGK SLVSARVSDV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>AVDVKAPEVE FFTTLTIDDG NIEIVGTGVK GKLPTVWLQY</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>GQVNLKASGG NGKYTWRSAN PAIASVDASS GQVTLKEKGT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTISVISSDN QTATYTIATP NSLIVPNMSK RVTYNDAVNT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>CKNFGGKLPS SQNELENVFK AWGAANKYEY YKSSQTIISW</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VQQTAQDAKS GVASTYDLVK QNPLNNIKAS ESNAYATCVK</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></paragraph>
+			<paragraph id="P-0015" lvl="7"><number>&lsqb;0015&rsqb;</number> or </paragraph>
+			<paragraph id="P-0016" lvl="7"><number>&lsqb;0016&rsqb;</number> a region within the following carboxy-terminus 275 amino acid sequence:  
+<table-cwu id="TABLE-US-00002">
+					<number>2</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGKDAIK YTVKVMKNGQ PVNNQSVTFS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TNFGMFNGKS QTQATTGNDG RATITLTSSS AGKATVSATV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SDGAEVKATE VTFFDELKID NKVKIIGNNV RGELPNIWLQ</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>YGQFKLKASG GDGTYSWYSE NTSIATVDAS GKVTLNGKGS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VVIKATSGDK QTVSYTIKAP SYMIKVDKQA YYADAMSICK</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>NLLPSTQTVL SKIYDSWGAA NKYSHYSSMN SITAWIKQTS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SEQRSGVSST YNLITQNPLP GVNVNTPNVY AVCVE.</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></paragraph>
+			<paragraph id="P-0017" lvl="0"><number>&lsqb;0017&rsqb;</number> Preferably, a monoclonal antibody recognising Int<highlight>
+					<subscript>EPEC280 </subscript>
+				</highlight>does not recognise the carboxy-terminus 280 amino acid domain of the intimin protein from enterohemorragic <highlight>
+					<italic>E. coli </italic>
+				</highlight>(Int<highlight>
+					<subscript>EHEC</subscript>
+				</highlight>275) or Citrobacter freundii biotype 4280 (Int<highlight>
+					<subscript>CF</subscript>
+				</highlight>200) or the carboxy-terminus 280 amino acid domain of the invasion protein from <highlight>
+					<italic>Yersinia pseudotuberculosis </italic>
+				</highlight>(Inv<highlight>
+					<subscript>YP</subscript>
+				</highlight>200). </paragraph>
+			<paragraph id="P-0018" lvl="0"><number>&lsqb;0018&rsqb;</number> More preferably, the monoclonal antibody recognising Int<highlight>
+					<subscript>EPEC280 </subscript>
+				</highlight>recognises an epitope in the 660-790 amino acid region of the enterophathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>intimin protein. Hybridomas producing monoclonal antibodies of the invention are also included within the scope of the invention. </paragraph>
+			<paragraph id="P-0019" lvl="0"><number>&lsqb;0019&rsqb;</number> The properties of the monoclonal antibodies of the invention render them useful for detecting enterophathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>and enterohemorrhagic <highlight>
+					<italic>E. coli</italic>
+				</highlight>. Thus, the invention also provides the use of such monoclonal antibodies in detecting enteropathogenic and enterohemorrhagic <highlight>
+					<italic>E. coli. </italic>
+				</highlight></paragraph>
+			<paragraph id="P-0020" lvl="0"><number>&lsqb;0020&rsqb;</number> In a further aspect, the invention provides a method for detecting the presence of enteropathogenic or enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>which comprises the step of bringing a sample to be tested into contact with a monoclonal antibody of the invention. In one embodiment, the monoclonal antibody of the invention could be attached to a solid support, for example a test strip or a microtitre well, and the sample containing the antigen could be brought into contact with it. </paragraph>
+			<paragraph id="P-0021" lvl="0"><number>&lsqb;0021&rsqb;</number> Suitably, the method will be an ELISA method. </paragraph>
+			<paragraph id="P-0022" lvl="0"><number>&lsqb;0022&rsqb;</number> In a further aspect, the invention provides a method for detecting enteropathogenic or enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>infection in a subject which comprises the step of contacting a monoclonal antibody of the invention with a sample obtained from the subject. Suitably, the sample will be a faecal sample. </paragraph>
+			<paragraph id="P-0023" lvl="0"><number>&lsqb;0023&rsqb;</number> The fusion proteins (MBP-Int<highlight>
+					<subscript>EPEC</subscript>
+				</highlight>280 and MBP-Int<highlight>
+					<subscript>EHEC275</subscript>
+				</highlight>) are particularly convenient for generating hybridomas capable of producing monoclonal antibodies of the invention, and form another aspect of the present invention. </paragraph>
+			<paragraph id="P-0024" lvl="0"><number>&lsqb;0024&rsqb;</number> In a final aspect, the invention provides a peptide having the sequence:  
+<table-cwu id="TABLE-US-00003">
+					<number>3</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="2">
+							<colspec colname="1" colwidth="14PT" align="left"/>
+							<colspec colname="2" colwidth="203PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry>a)</entry>
+									<entry>ITEIKADKTT AVANGQDAIT YTVKVMKGDK PVSNQEVTFT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>TTLGKLSNST EKTDTNGYAK VTLTSTTPGK SLVSARVSDV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>AVDVKAPEVE FFTTLTIDDG NIEIVGTGVK GKLPTVWLQY</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>GQVNLKASGG NGKYTWRSAN PAIASVDASS GQVTLKEKGT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>TTISVISSDN QTATYTIATP NSLIVPNMSK RVTYNDAVNT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>CKNFGGKLPS SQNELENVFK AWGAANKYEY YKSSQTIISW</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>VQQTAQDAKS GVASTYDLVK QNPLNNIKAS ESNAYATCVK; or</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry>b)</entry>
+									<entry>ITEICADKTT AVANGKDAIK YTVKVMKNGQ PVNNQSVTFS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>TNFGMFNGKS QTQATTGNDG RATITLTSSS AGKATVSATV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>SDGAEVKATE VTFFDELKID NKVKIIGNNV RGELPNIWLQ</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>YGQFKLKASG GDGTYSWYSE NTSIATVDAS GKVTLNGKGS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>VVIKATSGDK QTVSYTIKAP SYMIKVDKQA YYADAMSICK</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>NLLPSTQTVL SKIYDSWGAA NKYSHYSSMN SITAWIKQTS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+									<entry colname="2"></entry>
+								</row>
+								<row>
+									<entry></entry>
+									<entry>SEQRSGVSST YNLITQNPLP GVNVNTPNVY AVCVE.</entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></paragraph>
+			<paragraph id="P-0025" lvl="0"><number>&lsqb;0025&rsqb;</number> The invention will now be described with reference to the following examples which should not be construed as in any way limiting the invention. </paragraph>
+		</summary-of-invention>
+		<detailed-description>
+			<section>
+				<heading lvl="1">EXAMPLE 1 </heading>
+				<paragraph id="P-0026" lvl="7"><number>&lsqb;0026&rsqb;</number> Antibody Production. </paragraph>
+				<paragraph id="P-0027" lvl="7"><number>&lsqb;0027&rsqb;</number> 1. Procedure for Polyclonal Antibodies. </paragraph>
+				<paragraph id="P-0028" lvl="0"><number>&lsqb;0028&rsqb;</number> 50 &mgr;g of antigen (Int<highlight>
+						<subscript>EPEC280</subscript>
+					</highlight>) was diluted with 2 ml of PBS. Lyophilised MPL/TDM/CWS adjuvant (Sigma) was reconstituted with the antigen solution. Two rabbits were then immunised and boosted for preparation of polyclonal antibodies as follows: </paragraph>
+				<paragraph id="P-0029" lvl="2"><number>&lsqb;0029&rsqb;</number> 300 &mgr;l were injected intradermally; </paragraph>
+				<paragraph id="P-0030" lvl="2"><number>&lsqb;0030&rsqb;</number> 400 &mgr;l were injected intramuscularly; </paragraph>
+				<paragraph id="P-0031" lvl="2"><number>&lsqb;0031&rsqb;</number> 100 &mgr;l were injected subcutaneously; </paragraph>
+				<paragraph id="P-0032" lvl="2"><number>&lsqb;0032&rsqb;</number> 200 &mgr;l were injected intraperitoneally. </paragraph>
+				<paragraph id="P-0033" lvl="0"><number>&lsqb;0033&rsqb;</number> Serum antibodies were tested in an ELISA assay against MBP and MBP-Int<highlight>
+						<subscript>EPEC280</subscript>
+					</highlight>. </paragraph>
+			</section>
+			<section>
+				<heading lvl="1">EXAMPLE 2 </heading>
+				<paragraph id="P-0034" lvl="7"><number>&lsqb;0034&rsqb;</number> (See Also Frankel Et Al, Supra) </paragraph>
+				<paragraph id="P-0035" lvl="7"><number>&lsqb;0035&rsqb;</number> (i) Construction of MBP-Int<highlight>
+						<subscript>EPEC280 </subscript>
+					</highlight>and MBP-Int<highlight>
+						<subscript>EHEC275 </subscript>
+					</highlight>Fusion Proteins. </paragraph>
+				<paragraph id="P-0036" lvl="0"><number>&lsqb;0036&rsqb;</number> Polymerase chain reaction was used to amplify the DNA sequence encoding the carboxy terminus 280 amino acids of Int<highlight>
+						<subscript>EPEC </subscript>
+					</highlight>(and other MBP-Int<highlight>
+						<subscript>EPEC </subscript>
+					</highlight>derivatives) and Int<highlight>
+						<subscript>EHEC275 </subscript>
+					</highlight>using EPEC and EHEC chromosomal DNA, respectively, as templates. Forward and reverse primers (including Eco RI and Xba I restriction sites, respectively) were prepared, according to the published DNA sequences, and these were used to amplify both genes. The PCR products (840 bp) were cloned downstream from MalE (encoding MBP) by using the pMAL C2 plasmid. </paragraph>
+				<paragraph id="P-0037" lvl="7"><number>&lsqb;0037&rsqb;</number> (ii) Purification of MBP Fusion Proteins. </paragraph>
+				<paragraph id="P-0038" lvl="0"><number>&lsqb;0038&rsqb;</number> The MBP fusion proteins were purified by amylose chromatography. One liter of Luria broth containing 0.2% glucose and ampicillin was inoculated with 10 ml of an overnight culture of <highlight>
+						<italic>E. coli </italic>
+					</highlight>TG1 containing the recombinant PMAL C2 and incubated at 37&deg; C. for 2 h. IPTG was added to final concentration of 0.3 mM and the culture was incubated for an additional 2 h. Subsequent purification was conducted at 4&deg; C. The culture was centrifuged, the supernatant was discarded, the pellet was re-suspended in 30 ml of column buffer (50 mM tris-Hcl pH 7.4, 200 mM NaCl, 1 mM EDTA, 1 mM DTT) and then frozen overnight at &minus;20&deg; C. After thawing and centrifugation, the supernatant was loaded onto an amylose column (20 ml bed volume), previously washed with 200 ml of column buffer. The loaded column was washed with 160 ml of column buffer before the bound material was eluted with column buffer containing 10 mM maltose. Fractions were collected and the optical density at 280 nm was determined. Protein concentration was determined with Bredeford reagent and the purity of the preparation was determined by western blotting using anti-MBP antiserum. </paragraph>
+			</section>
+			<section>
+				<heading lvl="1">EXAMPLE 3 </heading>
+				<paragraph id="P-0039" lvl="7"><number>&lsqb;0039&rsqb;</number> (i) Preparation of Monoclonal Antibodies. </paragraph>
+				<paragraph id="P-0040" lvl="0"><number>&lsqb;0040&rsqb;</number> Mice were immunised with the fusion proteins and were boosted last 2-4 days before spleen cells were displaced and lymphocytes were fused with NSO myeloma cells. NSO cells were grown in RPMI 1640 containing 5% FCS and 1% L-Glutamine. Removed spleen were trimmed of any connective tissue and homogenised gently in 5 ml Hanks BSS containing 1 mM HEPES (Hanks/HEPES). The cells were counted and combined with NSO cells that were previously washed with Hanks/HEPES buffer, in a 10:1 ratio (lymphocytes: myelomas). The volume was brought to 50 ml with Hanks/HEPES buffer and the cells were spun at 10000 for 10 min at 25&deg; C. This washing step was repeated twice more. On the last wash, enough supernatant was left to re-suspend the cells in 2 ml of warm DMSO/PEG solution (3 g PEG 1500 in 8.5 ml RPMI 1640, 15% DMSO) was added dropwise over 45 sec. After an additional 20 sec, the PEG was diluted out by adding 10 ml of serum free RPMI dropwise over 60 sec. The volume was brought to 50 ml and the cells were incubated for 5 min before they were pelleted by centrifugation. The pellet was re-suspended in 5 ml of RPMI-20% FCS/HAT (2 ml of 50&times;stock to 100 ml of RPMI/FCS) and the volume was brought to 90 ml with same medium. 150 ul of the cell suspension were divided into 6&times;96 well plates. 50 ul medium was added 8 days after the plating. </paragraph>
+				<paragraph id="P-0041" lvl="7"><number>&lsqb;0041&rsqb;</number> (ii) Screening for Positive Antibody Secretion. </paragraph>
+				<paragraph id="P-0042" lvl="0"><number>&lsqb;0042&rsqb;</number> 10-14 days after fusion, 50-100 ul of supernatant were removed and tested in an ELISA assay using MBP-Int<highlight>
+						<subscript>EPEC</subscript>
+					</highlight>280 as the coating antigen. Positive supernatants were then tested against MBP using similar assay. Cells secreting MBP-Int<highlight>
+						<subscript>EPEC280</subscript>
+					</highlight>-positive/MBP-negative antibodies were used for cloning. </paragraph>
+				<paragraph id="P-0043" lvl="0"><number>&lsqb;0043&rsqb;</number> Details of the ELISA procedure were as follows: </paragraph>
+				<paragraph id="P-0044" lvl="1"><number>&lsqb;0044&rsqb;</number> 1. Coat wells of Costar EIA plates (Cat. No. 3590) overnight at 4&deg; C. with 50 &mgr;l of antigen in PBS (usually 1 &mgr;g/ml). If doing capture ELISA, coat overnight with capture agent (antibodies, ganglioside, lectin, etc. diluted in PBS), wash, then add antigen diluted in PBS&plus;0.1% BSA or PBST&plus;0.1% BSA for 1 h at 37&deg; C. </paragraph>
+				<paragraph id="P-0045" lvl="1"><number>&lsqb;0045&rsqb;</number> 2. Wash 3&times; with PBST (PBS&plus;0.05% Tween 20). </paragraph>
+				<paragraph id="P-0046" lvl="1"><number>&lsqb;0046&rsqb;</number> 3. Block 1 hour at 37&deg; C. with 200 &mgr;l 1% BSA. </paragraph>
+				<paragraph id="P-0047" lvl="1"><number>&lsqb;0047&rsqb;</number> 4. Dilute mouse serum in PBST&plus;0.1% BSA. </paragraph>
+				<paragraph id="P-0048" lvl="2"><number>&lsqb;0048&rsqb;</number> Dilution range {fraction (1/50)} to {fraction (1/50,000)}. </paragraph>
+				<paragraph id="P-0049" lvl="1"><number>&lsqb;0049&rsqb;</number> 5. Add 50 &mgr;l diluted sera to wells. </paragraph>
+				<paragraph id="P-0050" lvl="2"><number>&lsqb;0050&rsqb;</number> Incubate 1-2 hours at 37&deg; C. </paragraph>
+				<paragraph id="P-0051" lvl="1"><number>&lsqb;0051&rsqb;</number> 6. Wash 3&times; PBST. </paragraph>
+				<paragraph id="P-0052" lvl="1"><number>&lsqb;0052&rsqb;</number> 7. Add Rabbit anti-mouse HRP conjugate at {fraction (1/1000)} dilution. </paragraph>
+				<paragraph id="P-0053" lvl="2"><number>&lsqb;0053&rsqb;</number> 50 &mgr;l per well 1-2 hours at 37&deg; C. </paragraph>
+				<paragraph id="P-0054" lvl="1"><number>&lsqb;0054&rsqb;</number> 8. Wash 3&times; PBST. </paragraph>
+				<paragraph id="P-0055" lvl="1"><number>&lsqb;0055&rsqb;</number> 9. Add 50 &mgr;l substrate (see below). Incubate at room temperature or 37&deg; C. until colour develops. </paragraph>
+				<paragraph id="P-0056" lvl="1"><number>&lsqb;0056&rsqb;</number> 10. After 30 min or whenever the reaction is judged to be complete, add 50 &mgr;l 12.5% H<highlight>
+						<subscript>2</subscript>
+					</highlight>SO<highlight>
+						<subscript>4</subscript>
+					</highlight>. </paragraph>
+				<paragraph id="P-0057" lvl="1"><number>&lsqb;0057&rsqb;</number> 11. Read absorbance at 492 nm in plate reader. </paragraph>
+				<paragraph id="P-0058" lvl="0"><number>&lsqb;0058&rsqb;</number> Substrate </paragraph>
+				<paragraph id="P-0059" lvl="0"><number>&lsqb;0059&rsqb;</number> 6.25 ml 0.1 M Citric acid (21.01 g/L) </paragraph>
+				<paragraph id="P-0060" lvl="0"><number>&lsqb;0060&rsqb;</number> 6.15 ml 0.25 M NA<highlight>
+						<subscript>2</subscript>
+					</highlight>HPO<highlight>
+						<subscript>4 </subscript>
+					</highlight></paragraph>
+				<paragraph id="P-0061" lvl="0"><number>&lsqb;0061&rsqb;</number> 12.5 ml deionised water </paragraph>
+				<paragraph id="P-0062" lvl="0"><number>&lsqb;0062&rsqb;</number> Add 10 mg o-phenylene diamine (Sigma tablets) </paragraph>
+				<paragraph id="P-0063" lvl="0"><number>&lsqb;0063&rsqb;</number> Add 10 &mgr;l 30% H<highlight>
+						<subscript>2</subscript>
+					</highlight>O<highlight>
+						<subscript>2 </subscript>
+					</highlight></paragraph>
+				<paragraph id="P-0064" lvl="0"><number>&lsqb;0064&rsqb;</number> NB Can leave antibodies on plate at 4&deg; C. overnight instead. </paragraph>
+				<paragraph id="P-0065" lvl="7"><number>&lsqb;0065&rsqb;</number> (iii) Cloning of Specific Hybridomas. </paragraph>
+				<paragraph id="P-0066" lvl="0"><number>&lsqb;0066&rsqb;</number> Each positive hybridoma was single-cell cloned 3 times and the supernatant tested for the presence of antibodies. At the final cloning step, positive hybridomas were expended and frozen in liquid nitrogen. </paragraph>
+			</section>
+			<section>
+				<heading lvl="1">EXAMPLE 4 </heading>
+				<paragraph id="P-0067" lvl="7"><number>&lsqb;0067&rsqb;</number> Testing the Monoclonal Antibodies Against Different MBP-Int<highlight>
+						<subscript>EPEC </subscript>
+					</highlight>Fusion Proteins. </paragraph>
+				<paragraph id="P-0068" lvl="0"><number>&lsqb;0068&rsqb;</number> The repertoire of MBP-Int<highlight>
+						<subscript>EPEC </subscript>
+					</highlight>fusion proteins was used in an ELISA assay to identify the region within the 280 domain that was recognised by the monoclonal antibodies. MBP, MBP-Int<highlight>
+						<subscript>EHEC275</subscript>
+					</highlight>, MBP-Int<highlight>
+						<subscript>CF280 </subscript>
+					</highlight>and MBP-Inv<highlight>
+						<subscript>YP280 </subscript>
+					</highlight>were used as controls. </paragraph>
+				<paragraph id="P-0069" lvl="7"><number>&lsqb;0069&rsqb;</number> Results </paragraph>
+				<paragraph id="P-0070" lvl="0"><number>&lsqb;0070&rsqb;</number> Two productive hybridomas secreting specific anti Int<highlight>
+						<subscript>EPEC280 </subscript>
+					</highlight>monoclonal antibodies were cloned. Using an ELISA based assay we found that both monoclonal antibodies reacted with Int<highlight>
+						<subscript>EPEC280 </subscript>
+					</highlight>but not with MBP, MBP-Int<highlight>
+						<subscript>EHEC275</subscript>
+					</highlight>, MBP-Int<highlight>
+						<subscript>CF280 </subscript>
+					</highlight>and MBP-Inv<highlight>
+						<subscript>YP280</subscript>
+					</highlight>. In order to identify the region within the 280 domain that contain the specific epitopes, the monoclonal antibodies were tested against a collection of different MBP-Int<highlight>
+						<subscript>EPEC </subscript>
+					</highlight>fusion proteins that included in addition to MBP-Int<highlight>
+						<subscript>EPEC280 </subscript>
+					</highlight>(amino acids 660-939) also MBP-Int<highlight>
+						<subscript>EPEC150 </subscript>
+					</highlight>(amino acids 790-939), MBP-Int<highlight>
+						<subscript>EPEC120C </subscript>
+					</highlight>(amino acids 820-939), MBP-Int<highlight>
+						<subscript>EPEC120N </subscript>
+					</highlight>(amino acids 790-909), MBP-Int<highlight>
+						<subscript>EPEC</subscript>
+					</highlight>70 (amino acids 870-939): MBP-Int<highlight>
+						<subscript>EPEC40 </subscript>
+					</highlight>(amino acids 820-859) and MBP-Int<highlight>
+						<subscript>EPEC280CS </subscript>
+					</highlight>(as Int<highlight>
+						<subscript>EPEC280</subscript>
+					</highlight>, but with Cys to Ser substitution at position 937). Both monoclonal antibodies recognised the 280 domain acids domain of Int<highlight>
+						<subscript>EPEC </subscript>
+					</highlight>but failed to react with any of the other derivatives of Int<highlight>
+						<subscript>EPEC</subscript>
+					</highlight>. We concluded that both monoclonal antibodies recognised an epitope that mapped between amino acids 660-790 of Int. Preliminary results from agglutination assays and ELISA-based tests performed with both monoclonal antibodies, indicated that they can detect expression of intimin at the surface of several serotypes of EPEC but cannot react with eaeA mutant strain of EPEC (CVD206) or with <highlight>
+						<italic>Citrobacter freundii </italic>
+					</highlight>biotype 4280.  </paragraph>
+			</section>
+		</detailed-description>
+	</subdoc-description>
+	<sequence-cwu id="SEQLST-1">
+		<number>1</number>
+		<sequence-list-old-rules>
+			<s-1>
+				<s-1-iii>
+2 
+</s-1-iii>
+			</s-1>
+			<s-2 seq-no="1 ">
+				<s-2-i>
+					<s-2-i-a>280 amino acids </s-2-i-a>
+					<s-2-i-b>amino acid </s-2-i-b>
+					<s-2-i-c>single </s-2-i-c>
+					<s-2-i-d>linear </s-2-i-d>
+				</s-2-i>
+				<s-2-ii>
+					<s-2-ii-mt>peptide </s-2-ii-mt>
+				</s-2-ii>
+				<s-2-vi/>
+				<s-2-xi> 1 
+Ile Thr Glu Ile Lys Ala Asp Lys Thr Thr Ala Val Ala Asn Gly Gln 
+1               5                   10                  15 
+Asp Ala Ile Thr Tyr Thr Val Lys Val Met Lys Gly Asp Lys Pro Val 
+            20                  25                  30 
+Ser Asn Gln Glu Val Thr Phe Thr Thr Thr Leu Gly Lys Leu Ser Asn 
+        35                  40                  45 
+Ser Thr Glu Lys Thr Asp Thr Asn Gly Tyr Ala Lys Val Thr Leu Thr 
+    50                  55                  60 
+Ser Thr Thr Pro Gly Lys Ser Leu Val Ser Ala Arg Val Ser Asp Val 
+65                  70                  75                  80 
+Ala Val Asp Val Lys Ala Pro Glu Val Glu Phe Phe Thr Thr Leu Thr 
+                85                  90                  95 
+Ile Asp Asp Gly Asn Ile Glu Ile Val Gly Thr Gly Val Lys Gly Lys 
+            100                 105                 110 
+Leu Pro Thr Val Trp Leu Gln Tyr Gly Gln Val Asn Leu Lys Ala Ser 
+        115                 120                 125 
+Gly Gly Asn Gly Lys Tyr Thr Trp Arg Ser Ala Asn Pro Ala Ile Ala 
+    130                 135                 140 
+Ser Val Asp Ala Ser Ser Gly Gln Val Thr Leu Lys Glu Lys Gly Thr 
+145                 150                 155                 160 
+Thr Thr Ile Ser Val Ile Ser Ser Asp Asn Gln Thr Ala Thr Tyr Thr 
+                165                 170                 175 
+Ile Ala Thr Pro Asn Ser Leu Ile Val Pro Asn Met Ser Lys Arg Val 
+            180                 185                 190 
+Thr Tyr Asn Asp Ala Val Asn Thr Cys Lys Asn Phe Gly Gly Lys Leu 
+        195                 200                 205 
+Pro Ser Ser Gln Asn Glu Leu Glu Asn Val Phe Lys Ala Trp Gly Ala 
+    210                 215                 220 
+Ala Asn Lys Tyr Glu Tyr Tyr Lys Ser Ser Gln Thr Ile Ile Ser Trp 
+225                 230                 235                 240 
+Val Gln Gln Thr Ala Gln Asp Ala Lys Ser Gly Val Ala Ser Thr Tyr 
+                245                 250                 255 
+Asp Leu Val Lys Gln Asn Pro Leu Asn Asn Ile Lys Ala Ser Glu Ser 
+            260                 265                 270 
+Asn Ala Tyr Ala Thr Cys Val Lys 
+        275                 280 
+</s-2-xi>
+			</s-2>
+			<s-2 seq-no="2 ">
+				<s-2-i>
+					<s-2-i-a>275 amino acids </s-2-i-a>
+					<s-2-i-b>amino acid </s-2-i-b>
+					<s-2-i-c>single </s-2-i-c>
+					<s-2-i-d>linear </s-2-i-d>
+				</s-2-i>
+				<s-2-ii>
+					<s-2-ii-mt>peptide </s-2-ii-mt>
+				</s-2-ii>
+				<s-2-vi/>
+				<s-2-xi> 2 
+Ile Thr Glu Ile Lys Ala Asp Lys Thr Thr Ala Val Ala Asn Gly Lys 
+1               5                   10                  15 
+Asp Ala Ile Lys Tyr Thr Val Lys Val Met Lys Asn Gly Gln Pro Val 
+            20                  25                  30 
+Asn Asn Gln Ser Val Thr Phe Ser Thr Asn Phe Gly Met Phe Asn Gly 
+        35                  40                  45 
+Lys Ser Gln Thr Gln Ala Thr Thr Gly Asn Asp Gly Arg Ala Thr Ile 
+    50                  55                  60 
+Thr Leu Thr Ser Ser Ser Ala Gly Lys Ala Thr Val Ser Ala Thr Val 
+65                  70                  75                  80 
+Ser Asp Gly Ala Glu Val Lys Ala Thr Glu Val Thr Phe Phe Asp Glu 
+                85                  90                  95 
+Leu Lys Ile Asp Asn Lys Val Lys Ile Ile Gly Asn Asn Val Arg Gly 
+            100                 105                 110 
+Glu Leu Pro Asn Ile Trp Leu Gln Tyr Gly Gln Phe Lys Leu Lys Ala 
+        115                 120                 125 
+Ser Gly Gly Asp Gly Thr Tyr Ser Trp Tyr Ser Glu Asn Thr Ser Ile 
+    130                 135                 140 
+Ala Thr Val Asp Ala Ser Gly Lys Val Thr Leu Asn Gly Lys Gly Ser 
+145                 150                 155                 160 
+Val Val Ile Lys Ala Thr Ser Gly Asp Lys Gln Thr Val Ser Tyr Thr 
+                165                 170                 175 
+Ile Lys Ala Pro Ser Tyr Met Ile Lys Val Asp Lys Gln Ala Tyr Tyr 
+            180                 185                 190 
+Ala Asp Ala Met Ser Ile Cys Lys Asn Leu Leu Pro Ser Thr Gln Thr 
+        195                 200                 205 
+Val Leu Ser Lys Ile Tyr Asp Ser Trp Gly Ala Ala Asn Lys Tyr Ser 
+    210                 215                 220 
+His Tyr Ser Ser Met Asn Ser Ile Thr Ala Trp Ile Lys Gln Thr Ser 
+225                 230                 235                 240 
+Ser Glu Gln Arg Ser Gly Val Ser Ser Thr Tyr Asn Leu Ile Thr Gln 
+                245                 250                 255 
+Asn Pro Leu Pro Gly Val Asn Val Asn Thr Pro Asn Val Tyr Ala Val 
+            260                 265                 270 
+Cys Val Glu 
+        275
+</s-2-xi>
+			</s-2>
+		</sequence-list-old-rules>
+	</sequence-cwu>
+	<subdoc-claims>
+		<claim id="CLM-00001">
+			<claim-text><highlight>
+					<bold>1</bold>
+				</highlight>. An antibody which recognises a region within the carboxy-terminus 280 amino acid domain of the enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>intimin protein (Int<highlight>
+					<subscript>EPEC280</subscript>
+				</highlight>) or the carboxy-terminus 275 amino acid domain of the enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>intimin protein (Int<highlight>
+					<subscript>EHEC</subscript>
+				</highlight>275). </claim-text>
+		</claim>
+		<claim id="CLM-00002">
+			<claim-text><highlight>
+					<bold>2</bold>
+				</highlight>. An antibody as claimed in <dependent-claim-reference depends_on="CLM-00001">claim 1</dependent-claim-reference> which is a monoclonal antibody. </claim-text>
+		</claim>
+		<claim id="CLM-00003">
+			<claim-text><highlight>
+					<bold>3</bold>
+				</highlight>. A monoclonal antibody as claimed in <dependent-claim-reference depends_on="CLM-00002">claim 2</dependent-claim-reference> which recognises a region within the following 280 amino acid sequence:  
+<table-cwu id="TABLE-US-00004">
+					<number>4</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGQDAIT YTVKVMKGDK PVSNQEVTFT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTLGKLSNST EKTDTNGYAK VTLTSTTPGK SLVSARVSDV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>AVDVKAPEVE FFTTLTIDDG NIEIVGTGVK GKLPTVWLQY</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>GQVNLKASGG NGKYTWRSAN PAIASVDASS GQVTLKEKGT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTISVISSDN QTATYTIATP NSLIVPNNSK RVTYNDAVNT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>CKNFGGKLPS SQNELENVFK AWGAANKYEY YKSSQTIISW</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VQQTAQDAKS GVASTYDLVK QNPLNNIKAS ESNAYATCVK.</entry>
+								</row>
+								<row>
+									<entry></entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></claim-text>
+		</claim>
+		<claim id="CLM-00004">
+			<claim-text><highlight>
+					<bold>4</bold>
+				</highlight>. A monoclonal antibody as claimed in <dependent-claim-reference depends_on="CLM-00002">claim 2</dependent-claim-reference> which recognises a region within the following 275 amino acid sequence:  
+<table-cwu id="TABLE-US-00005">
+					<number>5</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGKDAIK YTVKVMKNGQ PVNNQSVTFS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TNFGMFNGKS QTQATTGNDG RATITLTSSS AGKATVSATV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SDGAEVKATE VTFFDELKID NKVKIIGNNV RGELPNIWLQ</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>YGQFKLKASG GDGTYSWYSE NTSIATVDAS GKVTLNGKGS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VVIKATSGDK QTVSYTIKAP SYMIKVDKQA YYADAMSICK</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>NLLPSTQTVL SKIYDSWGAA NKYSHYSSMN SITAWIKQTS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SEQRSGVSST YNLITQNPLP GVNVNTPNVY AVCVE.</entry>
+								</row>
+								<row>
+									<entry></entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></claim-text>
+		</claim>
+		<claim id="CLM-00005">
+			<claim-text><highlight>
+					<bold>5</bold>
+				</highlight>. A monoclonal antibody as claimed in <dependent-claim-reference depends_on="CLM-00003">claim 3</dependent-claim-reference> which recognises Int<highlight>
+					<subscript>EPEC280</subscript>
+				</highlight>. </claim-text>
+		</claim>
+		<claim id="CLM-00006">
+			<claim-text><highlight>
+					<bold>6</bold>
+				</highlight>. A monoclonal antibody as claimed in <dependent-claim-reference depends_on="CLM-00004">claim 4</dependent-claim-reference> which recognises Int<highlight>
+					<subscript>EHEC275</subscript>
+				</highlight>. </claim-text>
+		</claim>
+		<claim id="CLM-00007">
+			<claim-text><highlight>
+					<bold>7</bold>
+				</highlight>. A monoclonal antibody as claimed in <dependent-claim-reference depends_on="CLM-00005">claim 5</dependent-claim-reference> which does not recognise the carboxy-terminus 275 amino acid domain of the intimin protein from enterohemorragic <highlight>
+					<italic>E. coli </italic>
+				</highlight>(Int<highlight>
+					<subscript>EHEC275</subscript>
+				</highlight>) or <highlight>
+					<italic>Citrobacter freundii </italic>
+				</highlight>biotype 4280 (Int<highlight>
+					<subscript>CF280</subscript>
+				</highlight>) or the carboxy-terminus 280 amino acid domain of the invasion protein from <highlight>
+					<italic>Yersinia pseudotuberculosis </italic>
+				</highlight>(Inv<highlight>
+					<subscript>YP280</subscript>
+				</highlight>). </claim-text>
+		</claim>
+		<claim id="CLM-00008">
+			<claim-text><highlight>
+					<bold>8</bold>
+				</highlight>. A monoclonal antibody as claimed in <dependent-claim-reference depends_on="CLM-00005">claim 5</dependent-claim-reference> or <dependent-claim-reference depends_on="CLM-00007">claim 7</dependent-claim-reference> which recognises an epitope in the 660-790 amino acid region of the enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>intimin protein. </claim-text>
+		</claim>
+		<claim id="CLM-00009">
+			<claim-text><highlight>
+					<bold>9</bold>
+				</highlight>. A hybridoma which produces a monoclonal antibody as defined in any one of <dependent-claim-reference depends_on="CLM-00002">claims 2</dependent-claim-reference> to <dependent-claim-reference depends_on="CLM-00008">8</dependent-claim-reference>. </claim-text>
+		</claim>
+		<claim id="CLM-00010">
+			<claim-text><highlight>
+					<bold>10</bold>
+				</highlight>. A hybridoma as claimed in <dependent-claim-reference depends_on="CLM-00009">claim 9</dependent-claim-reference> which produces a monoclonal antibody as defined in <dependent-claim-reference depends_on="CLM-00007">claim 7</dependent-claim-reference>. </claim-text>
+		</claim>
+		<claim id="CLM-00011">
+			<claim-text><highlight>
+					<bold>11</bold>
+				</highlight>. The use of a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>3</bold>
+				</highlight>, <highlight>
+					<bold>5</bold>
+				</highlight>, <highlight>
+					<bold>7</bold>
+				</highlight> or <highlight>
+					<bold>8</bold>
+				</highlight> in detecting enteropathogenic <highlight>
+					<italic>E. coli. </italic>
+				</highlight></claim-text>
+		</claim>
+		<claim id="CLM-00012">
+			<claim-text><highlight>
+					<bold>12</bold>
+				</highlight>. The use of a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>4</bold>
+				</highlight> or <highlight>
+					<bold>6</bold>
+				</highlight> in detecting enterohemorrhagic <highlight>
+					<italic>E. coli. </italic>
+				</highlight></claim-text>
+		</claim>
+		<claim id="CLM-00013">
+			<claim-text><highlight>
+					<bold>13</bold>
+				</highlight>. A method for detecting the presence of enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>which comprises the step of bringing a sample to be tested into contact with a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>3</bold>
+				</highlight>, <highlight>
+					<bold>5</bold>
+				</highlight>, <highlight>
+					<bold>7</bold>
+				</highlight> or <highlight>
+					<bold>8</bold>
+				</highlight>. </claim-text>
+		</claim>
+		<claim id="CLM-00014">
+			<claim-text><highlight>
+					<bold>14</bold>
+				</highlight>. A method for detecting the presence of enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>which comprises the step of bringing a sample to be tested into contact with a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>4</bold>
+				</highlight> or <highlight>
+					<bold>6</bold>
+				</highlight>. </claim-text>
+		</claim>
+		<claim id="CLM-00015">
+			<claim-text><highlight>
+					<bold>15</bold>
+				</highlight>. A method as claimed in <dependent-claim-reference depends_on="CLM-00013">claim 13</dependent-claim-reference> or <dependent-claim-reference depends_on="CLM-00014">claim 14</dependent-claim-reference> wherein the monoclonal antibody or the antigen is attached to a solid support. </claim-text>
+		</claim>
+		<claim id="CLM-00016">
+			<claim-text><highlight>
+					<bold>16</bold>
+				</highlight>. A method as claimed in any one of <dependent-claim-reference depends_on="CLM-00013">claims 13</dependent-claim-reference> to <dependent-claim-reference depends_on="CLM-00015">15</dependent-claim-reference> which is an ELISA method. </claim-text>
+		</claim>
+		<claim id="CLM-00017">
+			<claim-text><highlight>
+					<bold>17</bold>
+				</highlight>. A method of detecting enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>infection in a subject which comprises the step of contacting a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>3</bold>
+				</highlight>, <highlight>
+					<bold>5</bold>
+				</highlight>, <highlight>
+					<bold>7</bold>
+				</highlight> or <highlight>
+					<bold>8</bold>
+				</highlight> with a sample obtained from the subject. </claim-text>
+		</claim>
+		<claim id="CLM-00018">
+			<claim-text><highlight>
+					<bold>18</bold>
+				</highlight>. A method of detecting enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>infection in a subject which comprises the step of contacting a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>4</bold>
+				</highlight> or <highlight>
+					<bold>6</bold>
+				</highlight> with a sample obtained from the subject. </claim-text>
+		</claim>
+		<claim id="CLM-00019">
+			<claim-text><highlight>
+					<bold>19</bold>
+				</highlight>. A method as claimed in <dependent-claim-reference depends_on="CLM-00017">claim 17</dependent-claim-reference> or <dependent-claim-reference depends_on="CLM-00018">claim 18</dependent-claim-reference> wherein the subject is human and the sample is a faecal sample. </claim-text>
+		</claim>
+		<claim id="CLM-00020">
+			<claim-text><highlight>
+					<bold>20</bold>
+				</highlight>. A protein which is MBP-Int<highlight>
+					<subscript>EPEC280 </subscript>
+				</highlight>fusion protein. </claim-text>
+		</claim>
+		<claim id="CLM-00021">
+			<claim-text><highlight>
+					<bold>21</bold>
+				</highlight>. A protein as claimed in <dependent-claim-reference depends_on="CLM-00020">claim 20</dependent-claim-reference> which comprises the following amino acid sequence:  
+<table-cwu id="TABLE-US-00006">
+					<number>6</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGQDAIT YTVKVMKGDK PVSNQEVTFT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTLGKLSNST EKTDTNGYAK VTLTSTTPGK SLVSARVSDV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>AVDVKAPEVE FFTTLTIDDG NIEIVGTGVK GKLPTVWLQY</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>GQVNLKASGG NGKYTWRSAN PAIASVDASS GQVTLKEKGT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTISVISSDN QTATYTIATP NSLIVPNMSK RVTYNDAVNT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>CKNFGGKLPS SQNELENVFK AWGAANKYEY YKSSQTIISW</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VQQTAQDAXS GVASTYDLVK QNPLNNIKAS ESNAYATCVK.</entry>
+								</row>
+								<row>
+									<entry></entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></claim-text>
+		</claim>
+		<claim id="CLM-00022">
+			<claim-text><highlight>
+					<bold>22</bold>
+				</highlight>. A protein which is MBP-Int<highlight>
+					<subscript>EHEC275 </subscript>
+				</highlight>fusion protein. </claim-text>
+		</claim>
+		<claim id="CLM-00023">
+			<claim-text><highlight>
+					<bold>23</bold>
+				</highlight>. A protein as claimed in <dependent-claim-reference depends_on="CLM-00022">claim 22</dependent-claim-reference> which comprises the following amino acid sequence:  
+<table-cwu id="TABLE-US-00007">
+					<number>7</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGKDAIK YTVKVMKNGQ PVNNQSVTFS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TNFGMFNGKS QTQATTGNDG RATITLTSSS AGKATVSATV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SDGAEVKATE VTFFDELKID NKVKIIGNNV RGELPNIWLQ</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>YGQFKLKASG GDGTYSWYSE NTSIATVDAS GKVTLNGKGS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VVIKATSGDK QTVSYTIKAP SYMIKVDKQA YYADAMSICK</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>NLLPSTQTVL SKIYDSWGAA NKYSHYSSMN SITAWIKQTS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SEQRSGVSST YNLITQNPLP GVNVNTPNVY AVCVE.</entry>
+								</row>
+								<row>
+									<entry></entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></claim-text>
+		</claim>
+		<claim id="CLM-00024">
+			<claim-text><highlight>
+					<bold>24</bold>
+				</highlight>. A peptide having the following sequence:  
+<table-cwu id="TABLE-US-00008">
+					<number>8</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGQDAIT YTVKVMKGDK PVSNQEVTFT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTLGKLSNST EKTDTNGYAK VTLTSTTPGK SLVSARVSDV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>AVDVKAPEVE FFTTLTIDDG NIEIVGTGVK GKLPTVWLQY</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>GQVNLKASGG NGKYTWRSAN PAIASVDASS GQVTLKEKGT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TTISVISSDN QTATYTIATP NSLIVPNMSK RVTYNDAVNT</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>CKNFGGKLPS SQNELENVFK AWGAANKYEY YKSSQTIISW</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VQQTAQDAKS GVASTYDLVK QNPLNNIKAS ESNAYATCVK.</entry>
+								</row>
+								<row>
+									<entry></entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></claim-text>
+		</claim>
+		<claim id="CLM-00025">
+			<claim-text><highlight>
+					<bold>25</bold>
+				</highlight>. A peptide having the following sequence:  
+<table-cwu id="TABLE-US-00009">
+					<number>9</number>
+					<table frame="none" colsep="0" rowsep="0" tabstyle="monospace">
+						<tgroup align="left" colsep="0" rowsep="0" cols="1">
+							<colspec colname="1" colwidth="217PT" align="left"/>
+							<tbody valign="top">
+								<row>
+									<entry></entry>
+								</row>
+								<row>
+									<entry>ITEIKADKTT AVANGKDAIK YTVKVMKNGQ PVNNQSVTFS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>TNFGMFNGKS QTQATTGNDG RATITLTSSS AGKATVSATV</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SDGAEVKATE VTFFDELKID NKVKIIGNNV RGELPNIWLQ</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>YGQFKLKASG GDGTYSWYSE NTSIATVDAS GKVTLNGKGS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>VVIKATSGDK QTVSYTIKAP SYMIKVDKQA YYADAMSICK</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>NLLPSTQTVL SKIYDSWGAA NKYSHYSSMN SITAWIKQTS</entry>
+								</row>
+								<row>
+									<entry> </entry>
+								</row>
+								<row>
+									<entry>SEQRSGVSST YNLITQNPLP GVNVNTPNVY AVCVE.</entry>
+								</row>
+								<row>
+									<entry></entry>
+								</row>
+							</tbody>
+						</tgroup>
+					</table>
+				</table-cwu></claim-text>
+		</claim>
+		<claim id="CLM-00026">
+			<claim-text><highlight>
+					<bold>26</bold>
+				</highlight>. A kit for use in the detection of Enteropathogenic <highlight>
+					<italic>E. coli </italic>
+				</highlight>which comprises a monclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>3</bold>
+				</highlight>, <highlight>
+					<bold>5</bold>
+				</highlight>, <highlight>
+					<bold>7</bold>
+				</highlight> or <highlight>
+					<bold>8</bold>
+				</highlight> or a hybridoma as defined in <dependent-claim-reference depends_on="CLM-00009">claim 9</dependent-claim-reference>. </claim-text>
+		</claim>
+		<claim id="CLM-00027">
+			<claim-text><highlight>
+					<bold>27</bold>
+				</highlight>. A kit for use in the detection of Enterohemorrhagic <highlight>
+					<italic>E. coli </italic>
+				</highlight>which comprises a monoclonal antibody as defined in any one of claims <highlight>
+					<bold>2</bold>
+				</highlight>, <highlight>
+					<bold>4</bold>
+				</highlight> or <highlight>
+					<bold>6</bold>
+				</highlight> or a hybridoma as defined in <dependent-claim-reference depends_on="CLM-00009">claim 9</dependent-claim-reference>. </claim-text>
+		</claim>
+	</subdoc-claims>
+</patent-application-publication>

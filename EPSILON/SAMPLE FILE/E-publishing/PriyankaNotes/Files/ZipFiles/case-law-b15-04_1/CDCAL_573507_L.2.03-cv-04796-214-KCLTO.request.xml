@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<court.message suppress-flag="y"><bold>CIVIL MINUTES &#8211; GENERAL</bold></court.message>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>Lola F Martin, et al</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>Midwest Express Hold, et al</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 03-4796 GAF (PJWx)</docket.line>
+<docket.number>CV 03-4796 GAF (PJWx)</docket.number>
+<docket.line suppress-flag="y">2:03-cv-04796-DMG-PJW</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/30/2009</date.line>
+</content.date>
+<procedural.history xml:lang="en">
+<appeal>
+<appeal.text>
+<para><paratext ID="p1" level="1"><bold>LINK: 199</bold></paratext></para>
+</appeal.text>
+</appeal>
+</procedural.history>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">Renee Fisher, Deputy Clerk, Attorneys Present for Plaintiffs: None</attorney.line>
+<attorney.line first-line="1">None Court, Reporter/Recorder</attorney.line>
+<attorney.line first-line="1">N/A Tape No., Attorneys Present for Defendants: None</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>Proceedings: (In Chambers) ORDER RE: MOTION FOR PARTIAL SUMMARY JUDGMENT</bold></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">The Honorable <bold>GARY ALLEN FEESS</bold></judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<head><headtext align="center"><bold>I. INTRODUCTION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">In May 2002, while disembarking from a plane, Carrie Heckman and her son Malcolm Martin sustained injuries after falling from the top of the airplane stairs onto the concrete ramp below. Carrie and various members of her family filed suit against Skyway Airlines (&#x201C;Skyway&#x201D;) for, <underscore>inter alia</underscore>, negligence. Skyway then filed a third-party complaint against the Fairchild Defendants, the manufacturer of the airplane stairs, for indemnification under a strict products liability theory. In May 2005, Plaintiffs and Skyway Airlines settled for the sum of $8 million, which included both economic and noneconomic damage elements. However, the indemnification claim against the Fairchild Defendants remains to be litigated.</paratext></para>
+<para><paratext ID="p3" level="1">The Fairchild Defendants now move for partial summary judgment seeking an order that it has no obligation to indemnify Skyway for the noneconomic damage portion of its settlement with Plaintiffs. The Fairchild Defendants contend that, under California law, the right to indemnity arises only out of a joint legal obligation and that, after the enactment of Proposition 51, California Civil Code section 1431.2, joint tortfeasors do not have joint liability for the non-economic damage component arising from their tortious conduct. The Court agrees. Joint tortfeasors are only severally liable for noneconomic damage arising from their conduct, and a settling defendant has no right to seek indemnity or contribution for that portion of the settlement allocated to noneconomic damages. Therefore, the Fairchild Defendants' present motion is <bold>GRANTED</bold>. The Court explains its reasoning in greater detail below.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. BACKGROUND</bold></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold><underscore><csc>A. Factual Background</csc></underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">On May 22, 2002, Wrye Martin (&#x201C;Wrye&#x201D;) purchased two round-trip tickets for his wife, Carrie Heckman (&#x201C;Carrie&#x201D;) and his son, Malcolm Martin (&#x201C;Malcolm&#x201D;) from Milwaukee to Minneapolis-St. Paul. (Soffer Decl., Ex G. [Third Am. Compl.] at 4.) Midwest Airlines issued the tickets for the Skyway Airlines flight from Milwaukee to Minneapolis-St.Paul. (<underscore>Id.</underscore> at 4-5.) Before the flight, Wrye went to a Midwest ticket counter and &#x201C;requested that because [his] wife was traveling with a small child and pregnant, that they simply note that and make sure they were aware of it and take care of her and do what they could.&#x201D; (Soffer Decl., Ex. B [Wrye Depo.] at 56.)</paratext></para>
+<para><paratext ID="p5" level="1">When Malcolm and Carrie, who was approximately 22-23 weeks pregnant with Lola at the time, arrived in Minneapolis-St. Paul airport on May 31, 2002, they did not receive any assistance as they attempted to disembark from the airplane. (Soffer Decl., Ex G. [Third Am. Compl.] at 5.) As Carrie attempted to disembark from the plane while holding Malcolm in her left arm, she fell from the top of the airplane stairs (the &#x201C;airstairs&#x201D;) with Malcolm onto the concrete ramp below. (<underscore>Id.</underscore>) Although Malcolm did not suffer any injury, Carrie sustained various personal injuries. (Mem. at 8.)</paratext></para>
+<para><paratext ID="p6" level="1">In the weeks following her fall, Carrie testified that she experienced spotting and/or bleeding, and occasional cramps and contractions. (Soffer Decl., Ex. A. [Carrie Depo.] at 107-08, 119, 122, 127-28.) Approximately one week after the accident, a doctor performed an ultrasound examination and observed blood pooling in her uterus. (<underscore>Id.</underscore> at 116-18.) On June 25, 2002, an ultrasound examination revealed low amniotic fluid, and Carrie was admitted to the hospital. (<underscore>Id.</underscore> at 123-25.)</paratext></para>
+<para><paratext ID="p7" level="1">On July 4, 2002, Lola was delivered by C-section. (<underscore>Id.</underscore> at 138.) Lola has had several operations, several hospitalizations, takes 75% of her nutrition by g-tube and requires oxygen at night. (Soffer Decl., Ex. M at 4.) She continues to be seen regularly by doctors and sees occupational therapists, physical therapists, speech therapists, and feeding therapists. (<underscore>Id.</underscore>)</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><csc><bold>B. Procedural History</bold></csc></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p8" level="1">Plaintiffs Carrie, her husband Wrye, her son Malcolm and daughter Lola (collectively, &#x201C;Plaintiffs&#x201D;) filed suit in Los Angeles Superior Court on April 18, 2003. (Mem. at 2.) Defendants Midwest Express Holdings, Inc.; Midwest Airlines, Inc.; and Skyway Airlines (collectively, &#x201C;Skyway&#x201D;) removed the case to federal court on July 7, 2003 pursuant to diversity jurisdiction, 28 U.S.C. &#167; 1332. (Docket No. 1.)</paratext></para>
+<para><paratext ID="p9" level="1">On August 4, 2003 Plaintiffs filed a first amended complaint. (Docket No. 8.) On August 18, 2003, Skyway filed an answer to the first amended complaint, and a counterclaim against Carrie for comparative equitable indemnity, contribution, and declaratory relief. (Statement of Genuine Issues (&#x201C;SGI&#x201D;) &#182; 5.) On the same day, Skyway filed a third-party complaint for comparative equitable indemnity and declaratory relief against Fairchild Dornier Corporation (&#x201C;FDC&#x201D;). (Docket No. 10.)</paratext></para>
+<para><paratext ID="p10" level="1">On November 25, 2003, Plaintiffs filed a second amended complaint (Docket No. 20.). On March 26, 2004, Plaintiffs filed a third amended complaint, substituting Airport Terminal Services, Inc. (&#x201C;ATS&#x201D;),<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference> Fairchild Dornier Luftfahrt Beteiligungs GmbH and Fairchild Dornier GmbH for various &#x201C;Doe&#x201D; defendants. (Docket No. 32.) On January 25, 2005, Plaintiffs filed an amendment to their third amended complaint, substituting FDC in place of a &#x201C;Doe&#x201D; defendant. (Mem. at 4 n.5.)</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p11">&#8195;In November 2004, Plaintiffs and Skyway dismissed ATS from the case, and ATS dismissed all of its claims against all parties. (Mem. at 4 n.7.)</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p12" level="1">Skyway also filed a second amended third-party complaint on March 26, 2004, substituting Fairchild Dornier Luftfahrt Beteiligungs GmbH, Fairchild Dornier GmbH, Dr. Eberhard Braun<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> (collectively, &#x201C;Fairchild Defendants&#x201D;) in place of various &#x201C;Doe&#x201D; defendants. (Docket No. 30.) Skyway asserted claims against the Fairchild Defendants for comparative indemnity, equitable indemnity, and declaratory relief. (SGI &#182; 7.) The basis for Skyway's indemnity claim against the Fairchild Defendants is that the Fairchild Defendants proximately caused Plaintiffs' damages because the airstairs contained a design defect by not including a handrail running the entire length of right side of the airstairs. (<underscore>Id.</underscore> &#182; 9.)</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p13">&#8195;<underscore>Dr. Eberhard Braun is the insolvency administrator of Fairchild Dornier GmbH.</underscore></paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p14" level="1">On January 10, 2005, FDC answered Skyway's second amended third-party complaint. (Docket No. 57.) On February 4, 2005, FDC answered Plaintiffs' third amended complaint, asserting a counterclaim against Carrie for comparative equitable indemnity, contribution, and declaratory relief, and a cross-claim against Skyway for total equitable indemnity, comparative indemnity equitable apportionment of fault, contribution and declaratory relief. (<underscore>Id.</underscore>)</paratext></para>
+<para><paratext ID="p15" level="1">On May 23, 2005, the Court issued an order approving the settlement of Plaintiffs' claims and ordering that the settlement proceeds of $8 million be allocated in the following manner: (1) $2,250,000 to Carrie for her individual claims for personal injury; (2) $250,000 to Wrye for his claims of loss of consortium; (3) $5,500,000 to Lola for her past, present, and future personal injuries; and (4) $0 to Malcolm. (SGI &#182; 16.) The Plaintiffs agreed to dismiss all their claims against the defendants, leaving Skyway's third-party complaint against the Fairchild Defendants and all actions filed by FDC pending. The entire settlement amount was paid by Skyway, who now seeks indemnification from Fairchild. (SGI &#182; 17.)</paratext></para>
+</section.body>
+<head><headtext align="center"><csc><bold>III. DISCUSSION</bold></csc></headtext></head>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><csc><bold>A. California Law Applies</bold></csc></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p16" level="1">As a threshold matter, it is clear that California law governs the substantive elements in this case. <underscore>See Erie Railroad Co. v. Tompkins</underscore>, 304 U.S. 64, 78 (1938) (finding that a federal court sitting in diversity jurisdiction must apply state substantive law and federal procedural law). Here, the Court, sitting in diversity jurisdiction, must apply substantive California law. Moreover, the right to recover damages in a diversity action is substantive and determined by state law. As &#x201C;the question of the proper measure of damages is inseparably connected with the right of action,&#x201D; the Court will apply state law principles to the present motion regarding damages. <underscore>Chesapeake &#38; Ohio Ry. Co. v. Kelly</underscore>, 241 U.S. 485, 491 (1916); <underscore>see also Clausen v. M/V NEW CARISSA</underscore>, 339 F.3d 1049, 1064-64 (9th Cir. 2003) (finding that a right to damages is substantive and citing a number of cases that have held the same).</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><csc><bold>B. Proposition 51</bold></csc></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p17" level="1">Under Proposition 51, California Civil Code section 1431.2, &#x201C;in any action for personal injury, property damage, or wrongful death, based upon principles of comparative fault, the liability of each defendant for non-economic damages shall be <ital>several only and shall not be joint.</ital>&#x201D; <csc>Cal. Civ. Code</csc> &#167; 1431.2(a) (emphasis added); <underscore>see also Ovando v. County of Los Angeles</underscore>, 71 Cal. Rptr. 3d 415, 437 (Cal. App. 2008) (&#x201C;each defendant remains jointly and severally liable to the plaintiff for economic damages, but is liable to the plaintiff for only its proportionate share of noneconomic damages based on its degree of fault&#x201D;). Under the statute, the term &#x201C;economic damages&#x201D; means objectively verifiable monetary losses such as medical expenses or loss of earnings and the term &#x201C;non-economic damages&#x201D; means subjective, non-monetary losses including pain, suffering, <ital>loss of consortium</ital>, and emotional distress. <csc>Cal. Civ. Code</csc> &#167; 1431.2(b)(1), (2) (emphasis added). Thus, pursuant to Proposition 51, liability for noneconomic damages is several only; there is no joint liability for noneconomic damages.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference></paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p18">&#8195;In <underscore>Arena v. Owens Corning Fiberglas Corp.</underscore>, the court analyzed California Supreme Court authority allocating fault between strictly liable and negligent defendants. 74 Cal. Rptr. 2d 580, 592 (Cal. App. 1998). After review of numerous cases, the court concluded that &#x201C;neither principles of comparative fault nor the policy underlying Proposition 51 requires it to be interpreted to exclude its application in the strict liability context.&#x201D; <underscore>Id.</underscore> at 592-93. Thus, in a comparative fault scenario where one defendant is strictly liable for products liability and another defendant is liable for negligence, as in the case before the Court, the limitation of noneconomic damages <underscore>pursuant to Proposition 51 is applicable.</underscore></paratext></para>
+</footnote.body>
+</footnote>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><underscore><csc><bold>C. A Settling Defendant May <ital>Not</ital> Seek Indemnity for the Noneconomic Damages Portion of a Settlement from a Non-settling Co-Defendant</bold></csc></underscore></headtext></head>
+<section.body>
+<para><paratext ID="p19" level="1">Under California law, it is well established that the right to indemnity stems from a joint legal obligation. <underscore>Union Pac. Corp. v. Wengert</underscore>, 95 Cal. Rptr. 2d 68, 71 (Ct. App. 2000) (citing <underscore>Western Steamship Lines, Inc. v. San Pedro Peninsula Hosp.</underscore>, 876 P.2d 1062, 1070 (Cal. 1994)). Under Proposition 51, responsibility for noneconomic damages is not joint but several, and the liability of any one defendant for noneconomic damages is based on that defendant's degree of fault. <underscore>Id</underscore>. Since a defendant's liability for noneconomic damages under Proposition 51 is several only, there is <ital>no</ital> right to indemnity from a non-settling defendant for noneconomic damages.</paratext></para>
+<para><paratext ID="p20" level="1">In <underscore>In re Dow Corning Corp.</underscore>, Hair Replacement Centers, Inc. (&#x201C;HRC&#x201D;) appealed the district court's grant of partial summary judgment, which held that Dow Corning Corporation (&#x201C;DCC&#x201D;) was not required to equitably indemnify HRC for the portion of HRC's tort settlement attributable to noneconomic damages. 220 F. App'x 457, 458 (9th Cir. 2007). Citing both Proposition 51 and <underscore>Union Pac.</underscore>, the Ninth Circuit affirmed, finding that &#x201C;[s]ince HRC was never at risk for being held liable for DCC's liability for non-economic damages, under either strict liabiltiy or negligence theories, HRC's equitable indemnity claim against DCC for such damages fails.&#x201D; <underscore>Id.</underscore> at 459.</paratext></para>
+<para><paratext ID="p21" level="1">Here, Skyway entered into a settlement with the Plaintiffs for $8 million. Skyway is not entitled to seek indemnity from the Fairchild Defendants for whatever portion of the settlement amount is allocated to noneconomic damages. The Court notes that although it is unclear to what extent Carrie and Lola's settlement amounts are allocated to noneconomic damages, the entire $250,000 allocated to Wrye for his claims for loss of consortium is unquestionably noneconomic damages. (<underscore>See</underscore> Soffer Decl., Ex. M [Order Approving Settlement].) Thus, at a minimum, because of Proposition 51 and applicable California law, Skyway is barred from seeking indemnity for at least the $250,000 settlement amount paid to Wrye.</paratext></para>
+<para><paratext ID="p22" level="1">Skyway argues that <underscore>Union Pac.</underscore> is distinguishable because at the time Skyway and the Plaintiffs entered into the settlement, &#x201C;it was not at all clear that plaintiffs' action against Skyway was &#x2018;subject to Proposition 51.&#x2019;&#x201D; (Opp. at 8.) Skyway cites numerous facts<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference> indicating that, at the time of the settlement, Skyway believed that application of Minnesota or Wisconsin law was very plausible. (<underscore>Id.</underscore>) This argument is unavailing. Simply because Skyway believed that Minnesota or Wisconsin law might apply does not undermine application of California law under <underscore>Erie</underscore> or create an exception to controlling substantive state law. Furthermore, Skyway was fully aware that the present case was brought in a California federal court pursuant to diversity jurisdiction before entering into the operative settlement. Thus, the Court finds the analysis in <underscore>Union Pac.</underscore> dispositive of the present motion.<footnote.reference ID="fr5" refid="f5" style="percent_n">5</footnote.reference></paratext></para>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p23">&#8195;Skyway argues that the flight originated from Wisconsin and arrived in Minnesota. Moreover, the accident occurred in Minnesota, Wrye purchased the tickets for the flight in Wisconsin, Wrye was employed in Wisconsin, the Plaintiffs' home was located in Minnesota at the time of the accident, Carrie was registered to vote in Minnesota and held a valid Minnesota driver's license on the date of the accident, and the Plaintiffs' vehicle was registered in Minnesota on the date of the accident. (Opp. at 8.)</paratext></para>
+</footnote.body>
+</footnote>
+<footnote ID="f5"><footnote.body><para><label.designator>FN5.</label.designator><paratext ID="p24">&#8195;The parties argue whether Minnesota or Wisconsin law allows for joint and several liability. Because the Court concludes that California law is applicable in this case, an analysis of Minnesota and Wisconsin law is <underscore>unnecessary.</underscore></paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p25" level="1">Finally, the Court notes that Skyway's ability to seek indemnity for the economic damages portion of the settlement amount against the Fairchild Defendants remains viable. <underscore>See Union Pac.</underscore>, 95 Cal. Rptr. 2d at 73. However, as discussed previously, Skyway is barred from seeking indemnity against the Fairchild Defendants for any portion of the settlement attributable to noneconomic damages.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>IV. CONCLUSION</bold></headtext></head>
+<section.body>
+<para><paratext ID="p26" level="1">For the foregoing reasons, the Fairchild Defendants' Partial Motion for Summary Judgment is <bold>GRANTED</bold>. Skyway may not seek equitable indemnity against the Fairchild Defendants for any portion of the settlement amount that is attributable to noneconomic damages. Accordingly, the hearing previously scheduled for January 4, 2009 is hereby <bold>VACATED</bold>. <csc>Fed R. Civ. P.</csc> 78; C.D. Cal. R. 7-15.</paratext></para>
+<para><paratext ID="p27" level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

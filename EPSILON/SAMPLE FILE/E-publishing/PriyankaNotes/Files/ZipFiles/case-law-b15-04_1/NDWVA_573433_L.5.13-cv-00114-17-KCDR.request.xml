@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+<venue.name><bold>Wheeling</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>DOMINION NGL PIPELINES, LLC</bold>, a foreign limited liability company, Plaintiff</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>JOSEPH F. BIPPUS, JR.</bold>, Individually, <bold>JOSEPH F. BIPPUS, JR.</bold>, as Executor of the Estate of Joseph F. Bippus, Sr., <bold>MARY LEE BIPPUS FEKETE, BETTY ANN BIPPUS</bold> aka Betty Ann Bippus Smith, and <bold>RONALD D. FEKETE</bold>, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>Civil Action No. 5:13-CV-114</bold></docket.line>
+<docket.number><bold>5:13-CV-114</bold></docket.number>
+<docket.line suppress-flag="y">5:13-cv-00114-JPB</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/09/2013</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><bold>ORDER GRANTING IN PART AND DENYING IN PART <underscore>PLAINTIFF'S MOTION FOR A TEMPORARY RESTRAINING ORDER</underscore></bold></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">Judge Bailey, JOHN PRESTON BAILEY CHIEF UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Pending before this Court is Plaintiff's Motion for Temporary Restraining Order and Preliminary Injunction [Doc. 2]. After notice to the defendants, a hearing was held on August 28, 2013. All parties were represented at the hearing.</paratext></para>
+<para><paratext ID="p2" level="1">After some negotiation and agreement among the parties, two issues remained for this Court to determine. First, whether the Road Grant [Doc. 2-6] remains in effect such that the plaintiff may utilize the roadway for access to its pipeline easement for maintenance and/or replacement of the lines. Second, whether the plaintiff may encroach beyond the limits of its pipeline easement on order to perform repair or replacement work on the lines.</paratext></para>
+<para><paratext ID="p3" level="1">Based upon the language of the Road Grant, and construing any ambiguity against the plaintiff, this Court finds that, for purposes of the temporary restraining order, the plaintiff does have the right to utilize the roadway for access to its pipeline easement for maintenance and/or replacement of the lines. Three phrases in the Road Grant are important to this Court's determination. First, the Road Grant grants &#x201C;the right to open, repair, maintain and use a vehicular roadway for ingress and egress in order to build&#x201D; the pipeline. Second, the Road Grant provides that the plaintiff &#x201C;will repair and maintain the said right-of-way during the construction of the GL-150 Pipeline.&#x201D; While these phrases may seem to limit the right-of-way to the construction period only, the third phrase dispels that idea. The Road Grant further provides that &#x201C;[t]his right-of-way shall be limited to the lifetime of said pipeline.&#x201D;</paratext></para>
+<para><paratext ID="p4" level="1">The fact that the road grant shall last the lifetime of the pipeline is not inconsistent with the other phrases. The first cited phrase merely identifies the purpose of the Road Grant. The second cited phrase lays the burden of road maintenance on the plaintiff during construction. After construction, the burden of maintenance returns to the defendants, subject, of course, to the duty of the plaintiff to remedy any damage which it causes to the road.</paratext></para>
+<para><paratext ID="p5" level="1">With respect to the second issue, that of whether the plaintiff may encroach beyond the limits of its pipeline easement on order to perform repair or replacement work on the lines, this Court finds that the plaintiff is required to stay within the confines of the granted pipeline easement. Any encroachment outside the easement area would constitute a trespass. The Restatement (Third) of Property (Servitudes) &#167; 4.8 (2000) states:</paratext></para>
+<para><paratext ID="p6" level="1"><bold>&#167; 4.8 Location, Relocation, and Dimensions of a Servitude Except where the location and dimensions are determined by the instrument</bold> or circumstances surrounding creation of a servitude, they are determined as follows:</paratext>
+<para><paratext ID="p7" first-line="2" turnover="2">(1) The owner of the servient estate has the right within a reasonable time to specify a location that is reasonably suited to carry out the purpose of the servitude.</paratext></para>
+<para><paratext ID="p8" first-line="2" turnover="2">(2) The dimensions are those reasonably necessary for enjoyment of the servitude.</paratext></para>
+<para><paratext ID="p9" first-line="2" turnover="2">(3) Unless expressly denied by the terms of an easement, as defined in &#167; 1.2, the owner of the servient estate is entitled to make reasonable changes in the location or dimensions of an easement, at the servient owner's expense, to permit normal use or development of the servient estate, but only if the changes do not</paratext></para>
+<para><paratext ID="p10" first-line="2" turnover="2">(a) significantly lessen the utility of the easement,</paratext></para>
+<para><paratext ID="p11" first-line="2" turnover="2">(b) increase the burdens on the owner of the easement in its use and enjoyment, or</paratext></para>
+<para><paratext ID="p12" first-line="2" turnover="2">(c) frustrate the purpose for which the easement was created.</paratext></para>
+<paratext ID="p13" contd-flag="y">(Emphasis added).</paratext>
+</para>
+<para><paratext ID="p14" level="1">In this case, the location and dimensions of the right-of-way are determined and defined by the Road Grant. Accordingly, the remainder of &#167; 4.8 are not applicable.</paratext></para>
+<para><paratext ID="p15" level="1">In <ital><bold>Phillips Pipe Line Co. v. Clear Creek Properties, Inc.</bold></ital>, 553 S.W.2d 389 (Tex. Civ. App. 1977), the Texas court held that where pipeline easement specified a precisely described 20-foot strip, easement holder had no right to use area outside of described strip during construction of additional line even though easement area was too narrow for the purpose.</paratext></para>
+<para><paratext ID="p16" level="1">Similarly, in <ital><bold>Tatum v. R &#38; R Cable, Inc.</bold></ital>, 30 Wash.App. 580, 636 P.2d 508 (Wash.App. 1981), the Washington state court held that a deviation from width and location of utility easement constitutes a trespass.</paratext></para>
+<para><paratext ID="p17" level="1">The plaintiff relies upon two cases to support its position that it may utilize property outside the easement area. In both cases, <ital><bold>Whaley v. Central Church of Christ of Pearland</bold></ital>, 227 S.W.2d 228 (2007) and <ital><bold>Breliant v. Preferred Equities Corp.</bold></ital>, 109 Nev. 842, 858 P.2d 1258 (1993), the location and dimensions of the easement in question was not determined by the instrument.</paratext></para>
+<para><paratext ID="p18" level="1">For the reasons stated above, this Court <bold>GRANTS IN PART</bold> the Plaintiff's Motion for Temporary Restraining Order and Preliminary Injunction [<bold>Doc. 2</bold>].</paratext></para>
+<para><paratext ID="p19" level="1">The defendants herein are enjoined, directly or indirectly, from:</paratext></para>
+<para><paratext ID="p20" level="1">1. Obstructing or in any way preventing the plaintiff from gaining access to its Pipeline G-150, either through its pipeline easement or the roadway defined in the Road Grant leading from McGraws Run Road to the pipeline easement;</paratext></para>
+<para><paratext ID="p21" level="1">2. Verbally assaulting, including threats of arrest, or otherwise obstructing any persons who enter the defendants' property on behalf of the plaintiff for the purpose of performing maintenance on Pipeline G-150, so long as such persons remain on the pipeline easement and/or the road right-of way.</paratext></para>
+<para><paratext ID="p22" level="1">This Court further <bold>ORDERS</bold> that the plaintiff post a suitable bond in the penalty amount of Ten Thousand Dollars ($10,000) to offset any damages that the defendants may incur from the imposition of the temporary restraining order.</paratext></para>
+<para><paratext ID="p23" level="1">This temporary restraining order shall be in effect from <underscore><bold>September 9, 2013, at 2:00 p.m.</bold></underscore></paratext></para>
+<para><paratext ID="p24" level="1">It is so <bold>ORDERED</bold>.</paratext></para>
+<para><paratext ID="p25" level="1">The Clerk is hereby directed to transmit copies of this Order to counsel of record herein.</paratext></para>
+<para><paratext ID="p26" level="1"><bold>DATED:</bold> September 9, 2013.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

@@ -1,0 +1,135 @@
+<part>Markup Language: SGML, HTML, XML</part>
+
+<title>SGML: Std Generalised</title>
+<subtitle>HTML: Hypertext</subtitle>
+
+<chapter1><title>XML: Extensible</title>
+<body>
+<section1>
+<p>
+<table1>
+<column>1</column>
+<row>9</row>
+<td>
+<tr><p>HTML:</p></tr>
+<tr><p><label>1.</label> No supporting doc.</p></tr>
+<tr><p><label>2.</label> Pre-defined.</p>
+<p>Para:</p></tr>
+<tr><p><label>3.</label> Directly open in browser for view</p></tr>
+<tr><p><label>4.</label> Designing</p></tr>
+<tr><p><label>5.</label> Multispace truncated</p></tr>
+<tr><p><label>6.</label> No Casesensitive</p></tr>
+<tr><p><label>7.</label> Self autoclose</p></tr>
+<tr><p><label>8.</label> Heading: H1.....H5</p></tr>
+</td>
+</table1>
+</p>
+
+==========================
+
+<p>
+<table2>
+<column>1</column>
+<row>9</row>
+<td>
+<tr><p>XML:</p></tr>
+<tr><p><label>1.</label> Need Supporting doc: DTD, XSL.</p></tr>
+<tr><p><label>2.</label> User defined - Para:</p></tr>
+<tr><p><label>3.</label> Browser view: Xml stylesheet</p></tr>
+<tr><p><label>4.</label> Data base, Data transfer</p></tr>
+<tr><p><label>5.</label> Multispace preserved</p></tr>
+<tr><p><label>6.</label> Case sensitive</p></tr>
+<tr><p><label></label>7. Nested and proper close</p></tr>
+<tr><p><label>8.</label> Heading Levels: H1..................</p></tr>
+</td>
+</table2>
+</p>
+</section1>
+
+<section2>
+
+<p>DTD: Document type definition</p>
+<p>XSL: XML Stylesheet</p>
+<p>
+<table3>
+<title>BOOK, Article(Journal)</title>
+<column>2</column>
+<row>5</row>
+<td>
+<tr><p>BoOK</p></tr>
+<tr><p><label>1.</label> No of volumes</p></tr>
+<tr><p><label>2.</label> Part, Chapters</p></tr>
+<tr><p><label>3.</label> Only one author for one title</p></tr>
+<tr><p><label>4.</label> Book: Easy to learn XML</p></tr>
+<tr><p><label>Author:</label> RAJ</p>
+<p>No permission to edit</p></tr>
+</td>
+<td>
+<tr><p>Article</p></tr>
+<tr><p><label>1.</label> No of Issue</p></tr>
+<tr><p><label>2.</label> Issues</p></tr>
+<tr><p><label>3.</label> Sample title with multiple editor</p></tr>
+<tr><p><label>4.</label> Automobile today: Topic samle, But content different with different author(Editor)</p></tr>
+</td>
+</table3>
+</p>
+</section2>
+</body>
+</chapter1>
+
+=====================
+
+<chapter2><title>BOOK: FM, Body, BACK</title>
+<body>
+<section1>
+<p>FM: title, COPYright, TOC, ACK, Introduce - Roman page</p>
+<p>Body:	Introducton, Part - Chapters,</p>
+<p>BACK: To describe the refering materials of book: Ref, Index, Notes</p>
+</section1>
+<section2>
+<title>Article (journals): As chapter content</title>
+<p>Chapters: Chap FM, Chap Body, Chap Back</p>
+<p>
+<table4>
+<title>Chap -FM:</title>
+<column>1</column>
+<row>5</row>
+<td>
+<tr><p>Chap - No</p></tr>
+<tr><p>Chap -Titlte</p></tr>
+<tr><p>Chap - Author(s)</p></tr>
+<tr><p>Chap - Abstract</p></tr>
+<tr><p>Chap - Keyword</p></tr>
+</td>
+</table4>
+</p>
+
+<p>
+<table4>
+<title>Chap -Body:</title>
+<column>1</column>
+<row>4</row>
+<td>
+<tr><p>Heading levels- Paras, Sub heading, fig, Table</p></tr>
+<tr><p>Paras</p></tr>
+<tr><p>Fig</p></tr>
+<tr><p>Tables</p></tr>
+</td>
+</table4>
+</p>
+
+
+<p>
+<table4>
+<title>Chap- Back:</title>
+<column>1</column>
+<row>4</row>
+<td>
+<tr><label>1.</label> Ref
+   2. Ack
+   3. Notes: To explain the particular special word with brief explanation
+
+
+
+   <p>Editor: Notepad, Word, Epsilon, Notepad++, Edit++, Ultraedit</p>
+   <p>Browser: Explore, Chrome, Firefox</p>

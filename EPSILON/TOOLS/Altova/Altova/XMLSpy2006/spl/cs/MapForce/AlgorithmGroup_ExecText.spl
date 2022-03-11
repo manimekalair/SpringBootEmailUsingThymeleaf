@@ -1,0 +1,76 @@
+[
+' // Subroutines for AlgorithmGroup.cs
+' // Language = C#
+' ////////////////////////////////////////////////////////////////////////
+
+' // Text execution implementation subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginLoopText
+' ------------------------------------------------------------------------
+sub ExecuteBeginLoopText( byref $rQType, byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+	'Define the qualified type name for generated variables in the loop
+	if $rAlgorithm.SourceContext.Library.Kind = 3 ' TXT-loop
+		$rQType = $rAlgorithm.SourceContext.LibraryPrefix & "." & $rAlgorithm.SourceContext.Name & "Type"
+	endif
+
+	call ExecuteBeginLoopXML( $rQType, $rIndent, $rAlgorithm, $rSourceParameter, "TEXT" )
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' ExecuteBeginCreateText
+' ------------------------------------------------------------------------
+sub ExecuteBeginCreateText( byref $rQType, byval $lIndent, byref $rAlgorithm )
+][=$lIndent][=$rQType] [=$rAlgorithm.TargetContext.UniqueName]TargetObject  = new [=$rQType]();
+[
+endsub
+
+
+' ------------------------------------------------------------------------
+' ExecuteEndCreateText
+' ------------------------------------------------------------------------
+sub ExecuteEndCreateText( byval $lIndent, byref $rAlgorithm )
+][=$lIndent][=$rAlgorithm.TargetParentContext.UniqueName]TargetObject.Add[=$rAlgorithm.TargetContext.Name]( [=$rAlgorithm.TargetContext.UniqueName]TargetObject );
+[
+endsub
+
+' ------------------------------------------------------------------------
+' ExecuteBeginDistributeTXT:
+' ------------------------------------------------------------------------
+sub ExecuteBeginDistributeTXT( byref $rIndent, byref $rAlgorithm, byref $rSourceParameter )
+]
+[=$rIndent]foreach ( IDataElement node in [=$rAlgorithm.SourceParentContext.UniqueName]SourceObject.Children )
+[=$rIndent]{
+[endsub
+
+' ------------------------------------------------------------------------
+' ExecuteDistLoopTXT:
+' ------------------------------------------------------------------------
+sub ExecuteDistLoopTXT( byref $rIndent, byref $rSubAlgorithm, byref $rSourceParameter, byref $rTargetParameter  )
+	if $rSubAlgorithm.SourceContext.IsBuiltinType
+		$lQType = $rSubAlgorithm.SourceContext.Type & "( node.Value )"
+	else
+		$lQType = $rSubAlgorithm.SourceContext.LibraryPrefix & "." & $rSubAlgorithm.SourceContext.Type & "( node )"
+	endif
+][=$rIndent][=$rIndent]if ( node.Name == "[=$rSubAlgorithm.SourceContext.Name]" )
+[=$rIndent][=$rIndent]{
+[$srcParam = "new " & $lQType
+][=$rIndent][=$rIndent][call ExecuteBlock( $rIndent, $rSubAlgorithm.SubAlgorithms, $srcParam, $rTargetParameter, $rSubAlgorithm )
+][=$rIndent][=$rIndent][=$rIndent]continue;
+[=$rIndent][=$rIndent]}
+[endsub
+
+' ------------------------------------------------------------------------
+' ExecuteEndDistributeTXT:
+' ------------------------------------------------------------------------
+sub ExecuteEndDistributeTXT( byref $rIndent, byref $rAlgorithm, byref $rTargetParameter )
+][=$rIndent]}
+[endsub
+
+' EOF
+]

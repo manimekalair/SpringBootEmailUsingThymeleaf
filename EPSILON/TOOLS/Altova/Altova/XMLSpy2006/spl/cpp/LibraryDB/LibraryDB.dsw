@@ -1,0 +1,64 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Altova"="..\\Altova\\Altova.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "AltovaDB"="..\\AltovaDB\\AltovaDB.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "[=$module]"=".\\[=$module].dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AltovaDB
+    End Project Dependency
+[if $libtype <> 1 'Static lib
+]    Begin Project Dependency
+    Project_Dep_Name Altova
+    End Project Dependency
+[endif
+]}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

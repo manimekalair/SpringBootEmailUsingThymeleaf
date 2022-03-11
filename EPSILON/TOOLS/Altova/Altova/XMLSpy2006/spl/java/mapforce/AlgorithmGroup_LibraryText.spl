@@ -1,0 +1,76 @@
+[
+' // Subroutines for AlgorithmGroup.java
+' // Language = Java
+' ////////////////////////////////////////////////////////////////////////
+
+' // Text Library subroutines
+' ////////////////////////
+
+
+
+' ------------------------------------------------------------------------
+' OpenSourceLibraryText:
+' ------------------------------------------------------------------------
+sub OpenSourceLibraryText( byref $rSourceLibrary, byref $rArgs )
+	$lInstance	= $rSourceLibrary.UniqueName & "SourceFilename"
+	$lRootType	= $rSourceLibrary.Name & "." & $rSourceLibrary.RootName & "Type"
+	$lRootName	= $rSourceLibrary.RootName
+]		writeTrace("Loading Parser ...\\n");
+		var[=$rSourceLibrary.UniqueName]Instance = new [=$JavaPackageName].[=$rSourceLibrary.Name].[=$rSourceLibrary.Type]();
+		writeTrace("Parsing Text File ...\\n");
+		var[=$rSourceLibrary.UniqueName]Instance.setEncoding("[=$rSourceLibrary.InputEncodingName]");
+		[if $rSourceLibrary.ParseMode = 0]
+		var[=$rSourceLibrary.UniqueName]Instance.parseFile( [=$lInstance] );
+		[else]
+		var[=$rSourceLibrary.UniqueName]Instance.parse( [=$lInstance] );
+		[endif]
+		[=$JavaPackageName].[=$rSourceLibrary.Name].[=$rSourceLibrary.Type] [=$rSourceLibrary.UniqueName]SourceObject 
+			= var[=$rSourceLibrary.UniqueName]Instance;
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' OpenTargetLibraryText:
+' ------------------------------------------------------------------------
+sub OpenTargetLibraryText( byref $rRootName, byref $rIndent )
+	$rRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+	$QlRootType	= $AlgorithmGroup.TargetParentContext.Library.Type
+]	[=$QlRootType]	[=$rRootName]TargetObject= new [=$QlRootType]();
+
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' FinalizeTargetLibraryText:
+' ------------------------------------------------------------------------
+sub FinalizeTargetLibraryText()
+	$lRootName	= $AlgorithmGroup.TargetContext.Library.UniqueName
+]	[=$lRootName]TargetObject.setEncoding("[=$AlgorithmGroup.TargetEncoding]");
+	[=$lRootName]TargetObject.save( [=$lRootName]TargetFilename );
+[
+endsub
+
+
+
+' ------------------------------------------------------------------------
+' jbInitText:
+' ------------------------------------------------------------------------
+sub jbInitText( byref $rLibrary, byval $lNr )
+]
+		j[=$rLibrary.Name]Label[=$lNr].setText("[if $rLibrary.SourceOnly]Source instance[else]Instance[endif] of [=$rLibrary.Name] file:");
+		j[=$rLibrary.Name]Label[=$lNr].setBounds(new Rectangle(15, [=$y1], 438, 23));
+		jPanelStructures.add(j[=$rLibrary.Name]Label[=$lNr], null);
+
+		j[=$rLibrary.Name]TextField[=$lNr].setText("[=$rLibrary.InputFileName]");
+		j[=$rLibrary.Name]TextField[=$lNr].setBounds(new Rectangle(15, [=$y2], 438, 23));
+		j[=$rLibrary.Name]TextField[=$lNr].setEditable(false);
+		jPanelStructures.add(j[=$rLibrary.Name]TextField[=$lNr], null);
+[
+endsub
+' EOF
+]

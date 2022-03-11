@@ -1,0 +1,34 @@
+HKCR
+{
+	IDEPlugInAsActiveX.IDESampleActiveX.1 = s 'IDESampleActiveX Class'
+	{
+		CLSID = s '{6CBB8B79-357F-4065-92B7-478D8B44B0B6}'
+	}
+	IDEPlugInAsActiveX.IDESampleActiveX = s 'IDESampleActiveX Class'
+	{
+		CLSID = s '{6CBB8B79-357F-4065-92B7-478D8B44B0B6}'
+		CurVer = s 'IDEPlugInAsActiveX.IDESampleActiveX.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {6CBB8B79-357F-4065-92B7-478D8B44B0B6} = s 'IDESampleActiveX Class'
+		{
+			ProgID = s 'IDEPlugInAsActiveX.IDESampleActiveX.1'
+			VersionIndependentProgID = s 'IDEPlugInAsActiveX.IDESampleActiveX'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			ForceRemove 'Control'
+			ForceRemove 'Insertable'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 102'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '131473'
+			}
+			'TypeLib' = s '{B5F1719A-61E5-4EFF-8918-DE66F1B320D4}'
+			'Version' = s '1.0'
+		}
+	}
+}

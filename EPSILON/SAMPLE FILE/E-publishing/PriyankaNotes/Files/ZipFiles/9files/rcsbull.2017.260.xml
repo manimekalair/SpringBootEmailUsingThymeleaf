@@ -1,0 +1,309 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "C:\Documents and Settings\riyaz.EXETERPM\Desktop\archiveJats-interchange-dtd-1.1\JATS-archivearticle1.dtd">
+<?release-delay 0|0?>
+<article article-type="research-article" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">bull</journal-id>
+<journal-title-group>
+<journal-title>The Bulletin of the Royal College of Surgeons of England</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1473-6357</issn>
+<issn pub-type="epub">1478-7075</issn>
+<publisher>
+<publisher-name>Royal College of Surgeons</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.260</article-id>
+<article-id pub-id-type="publisher-id">2017.260</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>SURGICAL TRIALS SERIES</subject>
+</subj-group>
+<subj-group subj-group-type="rcs-spec">
+<compound-subject>
+<compound-subject-part content-type="code">adm</compound-subject-part>
+<compound-subject-part content-type="label">Hospital administration</compound-subject-part>
+</compound-subject>
+<compound-subject>
+<compound-subject-part content-type="code">emg</compound-subject-part>
+<compound-subject-part content-type="label">Emergency care</compound-subject-part>
+</compound-subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Improving communication in recruitment consultations for randomised controlled trials</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<surname>Burke</surname>
+<given-names>Joshua R</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Academic Foundation Year 2</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Glasbey</surname>
+<given-names>James</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>NIHR Academic Clinical Fellow in General Surgery</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Nepogodiev</surname>
+<given-names>Dmitri</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>NIHR Academic Clinical Fellow in General Surgery</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Drake</surname>
+<given-names>Thomas</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+<role>Academic Foundation Year 1</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Blencowe</surname>
+<given-names>Natalie</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0002"><sup>2</sup></xref>
+<role>Clinical Lecturer in Surgery</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Rooshenas</surname>
+<given-names>Leila</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0002 AF0003"><sup>2,3</sup></xref>
+<role>Lecturer in Qualitative Health Sciences</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Fitzgerald</surname>
+<given-names>J Edward</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Visiting Lecturer Centre of Global Health, Kings College London</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Fearnhead</surname>
+<given-names>Nicola S</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0004 AF0005"><sup>4,5</sup></xref>
+<role>Consultant Colorectal Surgeon</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Blazeby</surname>
+<given-names>Jane M</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0002 AF0003"><sup>2,3</sup></xref>
+<role>Professor of Surgery</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Bach</surname>
+<given-names>Simon</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0005 AF0006"><sup>5,6</sup></xref>
+<role>Senior Lecturer in Surgery</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Bhangu</surname>
+<given-names>Aneel</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001 AF0007"><sup>1,7</sup></xref>
+<role>Clinical Lecturer in Surgery</role>
+</contrib>
+<x>, </x>
+<aff id="AF0001"><sup>1</sup>STARSurg Collaborative, Nationwide</aff>
+<aff id="AF0002"><sup>2</sup>MRC ConDuCT-II Hub, <country>Bristol</country></aff>
+<aff id="AF0001"><sup>3</sup>QuinteT research group, <institution>University of Bristol</institution></aff>
+<aff id="AF0002"><sup>4</sup>Addenbrooke&#x2019;s Hospital, <country>Cambridge</country></aff>
+<aff id="AF0001"><sup>5</sup>Bowel Disease Research Foundation</aff>
+<aff id="AF0002"><sup>6</sup>Diagnostics, Drugs, Devices and Biomarkers (D3 B) Clinical Trials, <country>Birmingham</country></aff>
+<aff id="AF0002"><sup>7</sup>Birmingham Surgical Trials Consortium, <country>Birmingham</country></aff>
+</contrib-group>
+<pub-date pub-type="ppub"><month>07</month><year>2017</year></pub-date>
+<pub-date pub-type="epub"><month>07</month><year>2017</year></pub-date>
+<volume>99</volume>
+<issue>7</issue>
+<fpage>260</fpage>
+<lpage>263</lpage>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2017 Royal College of Surgeons</copyright-statement>
+<copyright-year>2017</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="rcsbull.2017.260.pdf" content-type="pdf"></self-uri>
+<abstract>
+<p>Six key recommendations for increasing recruitment to clinical trials.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<p><BOLD>T</BOLD> he Student Audit and Research in Surgery collaborative (STARSurg, www. starsurg.org) was founded in 2013 to empower students to participate in high-quality academic projects, gain an understanding of audit and research methodology and develop communication, teamwork and leadership skills.<sup>1,2,3</sup> As of March , more than 2,400 UK medical students from across the UK and Ireland have participated in STARSurg&#x2019;s observational studies. STARSurg shares the National Institute of Health Research (NIHR) vision of ensuring that all doctors acquire research skills that enable them to effectively contribute to high-impact multicentre studies that have the potential to change clinical practice and improve patient care.<sup>4</sup></p>
+
+
+<sec1>
+<title>TRIAL RECRUITMENT IN SURGERY</title>
+<p>Despite patients being increasingly willing participate in research,<sup>5</sup> up to 80&#x0025; of randomised controlled trials (RCTs) fail to reach their recruitment target and are either discontinued, or published but underpowered to address the original research question.<sup>6,7,8,9</sup> Although junior doctors are ideally placed to identify and recruit patients to clinical trials across emergency, inpatient and outpatient settings, few are confident in discussing participation in clinical trials with patients. Most medical students graduate having received limited clinical research training and no structured training on how to recruit patients into research studies. Given the particular challenges associated with balancing the risks and benefits of participating in complex surgical trials,<sup>9,10</sup> there is an opportunity for junior surgeons and medical students to be trained to undertake recruitment. A dedicated course aimed at empowering these groups to participate in clinical trial recruitment has the potential to benefit patients by enhancing recruitment to the UK surgical research portfolio.</p>
+
+</sec1>
+<sec1>
+<title>GENERATING STUDENT RECRUITERS FOR RANDOMISED TRIALS (GRANULE) COURSE</title>
+<p>STARSurg has collaborated with the Birmingham Surgical Trials Consortium, the Bristol Surgical Trials Centre and members of the Medical Research Council Hub for Trials Methodology Research (ConDuCT-II) and QuinteT research group to design and deliver a one-day course to train medical students to effectively communicate equipoise to patients, and recruit to clinical trials. Twenty senior medical students attended the first Generating Student Recruiters for Randomised Trials (GRANULE) course, held at The Royal College of Surgeons of England in May 2016.</p>
+<p>The course highlighted six key recommendations for improving recruitment to clinical trials and communication in recruitment consultations (Table 1):</p>
+
+</sec1>
+<sec1>
+<title>1.	KNOW YOUR PATIENT POPULATION</title>
+<p>It is important to have a clear understanding of the trial&#x2019;s inclusion and exclusion criteria. This will enable you to readily identify patients, and approach them within the clinical environment. Consider all potential recruitment pathways, including outpatient and pre-assessment clinics, telephone contact and ward review. The multidisciplinary team (for example, surgeons, radiologists, ward nurses and clinical nurse specialists) should be made aware of ongoing trials and incentivised to flag up potential patients for recruitment. Flexible communication platforms such as WhatsApp<sup>11</sup> and Slack<sup>12 </sup>can enhance communication within a site&#x2019;s research team. Following these steps will maximise the number of patients who can be approached for a recruitment consultation; this is particularly important for trials in emergency surgery.</p>
+</sec1>
+<sec1>
+<title>2. PROVIDE CLEAR SUMMARIES OF THE TRIAL, SUPPORTED WITH A PUBLISHED PATIENT INFORMATION LEAFLET (PIL)</title>
+<p>During the recruitment consultation, it is important to provide a clear, succinct summary of the research study to potential patient participants. The patient will want to be told why they are eligible to participate, what aspect of their care or procedure the intervention will change, and what the expectations of involvement are (eg frequency and nature of follow-up). In particular, <italic>Good Clinical Practice </italic>guidelines stipulate that the following key points should be explained to patients:<sup>13</sup>
+
+<list list-type="simple">
+<list-item><label>&#x00BB;</label><p>Purpose of the trial</p></list-item>
+<list-item><label>&#x00BB;</label><p>Standard treatment</p></list-item>
+<list-item><label>&#x00BB;</label><p>Uncertainty about experimental treatment arms, their features and potential risks and benefits</p></list-item>
+<list-item><label>&#x00BB;</label><p>Randomisation procedure</p></list-item>
+<list-item><label>&#x00BB;</label><p>Right to withdraw from the research.</p></list-item>
+</list>
+</p>
+
+<p>The volume, rate and delivery of information must be flexible and targeted to a patient&#x2019;s needs, which vary greatly.<sup>14</sup></p>
+</sec1>
+
+<sec1>
+<title>3.	EQUIPOISE</title>
+<p>Be mindful of your personal sense of equipoise, and think about whether there is community equipoise (ie within the scientific community there is uncertainty as to what the superior treatment is).<sup>15</sup> If you lack personal equipoise, or are unable to communicate community equipoise, this can be reflected in your recruitment consultation and potentially bias the patient towards a particular treatment.<sup>16,17</sup> This problem is particularly common if the trial includes both surgical and non-operative treatment arms. In this type of challenging surgical trial, support to improve communication and informed consent is recommended.<sup>18</sup> Interventions have been developed to optimise recruitment to these challenging RCTs. For example, the QuinteT Recruitment Intervention<sup>6</sup> aims to rapidly understand recruitment challenges in an RCT, with a view to delivering tailored strategies to overcome recruitment obstacles as the trial is underway. This can be particularly helpful in feasibility studies, which provide an opportunity to fine tune recruitment strategies for a main RCT.<sup>19</sup></p>
+</sec1>
+<sec1>
+<title>4.	ELICIT PATIENT PREFERENCES AND EXPLORE REASONING</title>
+<p>During recruitment consultations it is important to explore and address patients&#x2019; ideas, concerns and expectations, in the context of the evidence for each trial arm. Trial participation can improve when patients feel supported and reassured about the management of potential adverse effects.<sup>18</sup> Avoid coercion at all costs. Recruiters sometimes inadvertently use &#x2018;loaded&#x2019; vocabulary such as &#x2018;gold standard&#x2019; and &#x2018;experimental&#x2019;, which can lead to an unbalanced presentation of the facts.<sup>17,20,21</sup></p>
+
+<table-wrap id="T1" position="float">
+<label>Table 1</label>
+<caption>
+<p>Summary of six key recommendations for improving recruitment to clinical trials and communication in recruitment consultations</p>
+</caption>
+<table frame="above">
+<colgroup>
+<col charoff="col1" align="left"/>
+<col charoff="col2" align="left"/>
+</colgroup>
+<thead>
+<tr>
+<th><bold>Recommendation</bold></th>
+<th><bold>Summary</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Know your patient population</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Provide clear summaries of the trial, supported with a published patient information leaflet (PIL)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Equipoise</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Elicit patient preferences and explore reasoning</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Understand and explain the randomisation process</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Seek recruitment training</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec1>
+
+<sec1>
+<title>5.	UNDERSTAND AND EXPLAIN THE RANDOMISATION PROCESS</title>
+<p>Randomisation is a key aspect of RCT participation that needs to be clearly communicated to patients to safeguard informed consent. One approach to discussing this concept is to explain the &#x2018;process&#x2019; and &#x2018;purpose&#x2019; of randomisation. Randomisation may be described as a process of creating two or more groups of patients that are as similar as possible. These groups are determined by chance. Neither doctors nor the patient can choose which group the patient goes in, as this could result in the groups being unequal. In terms of purpose, randomisation is done to achieve as fair a comparison as possible, in that any differences observed in the groups at the end of the study can be attributed to the treatments received, rather than differences in group characteristics (the &#x2018;purpose&#x2019;).<sup>6</sup></p>
+</sec1>
+
+<sec1>
+<title>6.	SEEK RECRUITMENT TRAINING</title>
+<p>Several studies have assessed variation in training of trial recruiters and how this can influence recruitment.<sup>22-25</sup> A recent review describing interventions to improve recruitment identified training site staff as a priority,<sup>26</sup> with an emergent need to develop recruiter training programmes.<sup>10</sup> A number of UK-registered Clinical Trials Units and universities provide trial recruitment courses for clinicians of all stages of training.<sup>27 </sup>Bespoke training can also be provided through interventions such as the QuinteT Recruitment Intervention,<sup>6</sup> which works with the trial management group, clinicians, and nurses to optimise recruitment during a n RCT.</p>
+
+</sec1>
+<sec1>
+<title>PLANS FOR THE FUTURE</title>
+<p>STARSurg are connecting GRANULE participants with trainee-led research collaboratives and RCT chief investigators, to develop pathways for delegates to gain practical experience. The group will work with the Surgical Specialty Leads and the Royal College of Surgeons Surgical Trials Units to build a database of current opportunities to participate in trial recruitment across surgery.</p>
+<p>GRANULE demonstrated that medical students and junior doctors have an appetite for developing the necessary skills to effectively recruit patients to RCTs. The course has created a geographically dispersed cohort of trainees who will champion surgical RCTs across the UK. The next GRANULE course will take place in June 2017, continuing STARSurg&#x2019;s work to integrate clinical research into undergraduate training with direct benefits for patients.</p>
+</sec1>
+</body>
+
+<back>
+<ack>
+<title>ACKNOWLEDGEMENTS</title>
+<p>This course was supported by a research grant from the Bowel Disease Research Foundation. We are also grateful to The Royal College of Surgeons of England, the Birmingham Surgical Trials Consortium, the Bristol Surgical Trials Centre, the MRC ConDuCT-II Hub (Collaboration and innovation for Difficult and Complex randomized controlled Trials in Invasive procedures &#x2013; MR/ K025643/1), and the Association of Surgeons in Training &#x2013; without whose support, the GRANULE course would not have been possible. STARSurg is part of the SURG Foundation collaborative research charity, registered charity number 1159898.</p>
+</ack>
+
+<ref-list>
+<title>References</title>
+<p>1. STARSurg Collaborative. Impact of postoperative non-steroidal anti-inflammatory drugs on adverse events after gastrointestinal surgery. <italic>Br J Surg </italic>2014; 101(11): 1,413&#x2013;1,423.</p>
+<p>2. STARSurg Collaborative. Multicentre prospective cohort study of body mass index and postoperative complications following gastrointestinal surgery: Body mass index and postoperative complications following gastrointestinal surgery. <italic>Br J Surg </italic>2016; 103(9): 1,157&#x2013;1,172.</p>
+<p>3. Chapman SJ, Glasbey JCD, Khatri C <italic>et al</italic>. Promoting research and audit at medical school: evaluating the educational impact of participation in a student-led national collaborative study. <italic>BMC Med Educ </italic>2015; 15: 47.</p>
+<p>4. London: Department of Health. <italic>Department of Health: Best Research for Best Health &#x2013; A New National Health Research Strategy. </italic>2006. https://www.gov.uk/ government/uploads/system/uploads/attachment_ data/file/568772/dh_4127152_v2.pdf [last accessed 31 March 2017].</p>
+<p>5. Medical Research Council. <italic>The use of personal health information in medical research. General public consultation. 2007</italic>. https://www.mrc.ac.uk/documents/ pdf/the-use-of-personal-health-information-in-medical-research-june-2007/ [last accessed 18 January 2017].</p>
+<p>6. Donovan JL, Rooshenas L, Jepson M <italic>et al</italic>. Optimising recruitment and informed consent in randomised controlled trials: the development and implementation of the Quintet Recruitment Intervention (QRI). <italic>Trials </italic>2016; 17: 1. http://trialsjournal.biomedcentral.com/ articles/10.1186/s13063-016-1391-4 [last accessed 18 January 2017].</p>
+<p>7. Sully BGO, Julious SA, Nicholl J. A reinvestigation of recruitment to randomised, controlled, multicenter trials: a review of trials funded by two UK funding agencies. <italic>Trials </italic>2013; 14(1): 166.</p>
+<p>8. Carlisle B, Kimmelman J, Ramsay T, MacKinnon N. Unsuccessful trial accrual and human subjects protections: An empirical analysis of recently closed trials. <italic>Clin Trials </italic>2015; 12(1): 77&#x2013;83.</p>
+<p>9. Chapman SJ, Shelton B, Mahmood H <italic>et al</italic>. Discontinuation and non-publication of surgical randomised controlled trials: observational study. <ITALIC>BMJ </ITALIC>2014; 349: g6870&#x2013;g6870.</p>
+<p>10. Townsend D, Mills N, Savovi&#x0107; J, Donovan JL. A systematic review of training programmes for recruiters to randomised controlled trials. <italic>Trials </italic>2015; 16: 1. http:// trialsjournal.biomedcentral.com/articles/10.1186/s13063-015-0908-6 [last accessed 18 January 2017].</p>
+<p>11. Whatsapp Messenger [Internet]. www.whatsapp.com/ [last accessed 19 January 2017].</p>
+<p>12. Slack Messaging [Internet]. <italic>https://slack.com/ is?</italic>cvosrc=ppc.google.slack&#x0026;cvo_campaign=&#x0026;cvo_ crid=102683539275&#x0026;Matchtype=b&#x0026;utm_ source=google&#x0026;utm_medium=ppc&#x0026;utm_campai gn=generalbrand&#x0026;c3api=5542,32949068115,kwd-16140880&#x0026;gclid=CNL8vveyz9ECFccV0wodFR4A5Q [last accessed 19 January 2017].</p>
+<p>13. International Conference on Harmonisation. <italic>Guideline for good clinical practice E6. </italic>1996. https://www. ich.org/fileadmin/Public_Web_Site/ICH_Products/ Guidelines/Efficacy/E6/E6_R1_Guideline.pdf [last accessed 19 January 2017].</p>
+<p>14. McDonald AM, Treweek S, Shakur H <italic>et al</italic>. Using a business model approach and marketing techniques for recruitment to clinical trials. <italic>Trials </italic>2011; 12: 1. http://trialsjournal. biomedcentral.com/articles/10.1186/1745-6215-12-74 [last accessed 19 January 2017].</p>
+<p>15. Kukla R. Resituating the principle of equipoise: justice and access to care in non-ideal conditions. <italic>Kennedy Inst Ethics J </italic>2007; 17(3): 171&#x2013;202.</p>
+<p>16. Cook C, Sheets C. Clinical equipoise and personal equipoise: two necessary ingredients for reducing bias in manual therapy trials. <italic>J Man Manip Ther </italic>2011; 19(1): 55&#x2013;57.</p>
+<p>17. Rooshenas L, Elliott D, Wade J <italic>et al</italic>. Conveying equipoise during recruitment for clinical trials: qualitative synthesis of clinicians&#x2019; practices across six randomised controlled trials. <italic>PLOS Med </italic>2016; 13 (10): e1002147.</p>
+<p>18. Paramasivan S, Huddart R, Hall E <italic>et al</italic>. Key issues in recruitment to randomised controlled trials with very different interventions: a qualitative investigation of recruitment to the SPARE trial (CRUK/07/011). <italic>Trials </italic>2011; 12: 1. http://trialsjournal.biomedcentral.com/ articles/10.1186/1745-6215-12-78 [last accessed 18 January 2017].</p>
+<p>19. O&#x2019;Cathain A, Hoddinott P, Lewin S <italic>et al</italic>. Maximising the impact of qualitative research in feasibility studies for randomised controlled trials: guidance for researchers. <italic>Pilot Feasibility Stud </italic>2015; 1: 1. http://pilotfeasibilitystudies.biomedcentral.com/ articles/10.1186/s40814-015-0026-y [last accessed 18 January 2017].</p>
+<p>20. Albrecht TL, Eggly SS, Gleason MEJ <italic>et al</italic>. Influence of clinical communication on patients&#x2019; decision making on participation in clinical trials. <italic>J Clin Oncol </italic>2008; 26 (16): 2,666&#x2013;2,673.</p>
+<p>21. Donovan J. Quality improvement report: Improving design and conduct of randomised trials by embedding them in qualitative research: ProtecT (prostate testing for cancer and treatment) study. Commentary: presenting unbiased information to patients can be difficult. <ITALIC>BMJ </ITALIC>2002; 325: 7 6 6 &#x2013;7 7 0 .</p>
+<p>22. Donovan JL, Paramasivan S, de Salis I, Toerien M. Clear obstacles and hidden challenges: understanding recruiter perspectives in six pragmatic randomised controlled trials. <italic>Trials </italic>2014; 15 (1): 5.</p>
+<p>23. Larkey LK, Staten LK, Ritenbaugh C <italic>et al</italic>. Recruitment of Hispanic women to the Women&#x2019;s Health Initiative. <italic>Control Clin Trials </italic>2002; 23 (3): 289&#x2013;298.</p>
+<p>24. Kimmick GG. Improving accrual of older persons to cancer treatment trials: A randomized trial comparing an educational intervention with standard information: CALGB 360001. <italic>J Clin Oncol </italic>2005; 23 (10): 2,201&#x2013;2,207.</p>
+<p>25. Donovan JL, Athene Lane J, Peters TJ <italic>et al</italic>. Development of a complex intervention improved randomization and informed consent in a randomized controlled trial. <italic>J Clin Epidemiol </italic>2009; 62 (1): 29&#x2013;36.</p>
+<p>26. Bower P, Brueton V, Gamble C <italic>et al</italic>. Interventions to improve recruitment and retention in clinical trials: a survey and workshop to assess current practice and future priorities. <italic>Trials </italic>2014; 15: 1. http://trialsjournal. biomedcentral.com/articles/10.1186/1745-6215-15-399 [last accessed 18 January 2017].</p>
+<p>27. QuinteT Team, School of Social and Community Medicine, The University of Bristol. <italic>Qualitative Research Integrated within Trials (QuinteT). </italic>http:// www.bristol.ac.uk/social-community-medicine/ research/groups/social-sciences-health/quintet/ [last accessed 12 March 2017].</p>
+</ref-list>
+</back>
+</article>

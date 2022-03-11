@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "BITS-book-oasis2.dtd">
+<book>
+<book-meta>
+
+<book-id book-id-type="doi">10.4324/9781315209302</book-id>
+
+<book-title-group>
+<book-title>Academic Writing and Dyslexia</book-title>
+<subtitle>A Visual Guide to Writing at University</subtitle>
+</book-title-group>
+
+<contrib contrib-type="author">
+<name name-style="western">
+<surname>Wallbank</surname>
+<given-names>Adrian J.</given-names>
+</name>
+<bio><p><named-content content-type="bio-name">Adrian J. Wallbank</named-content> is a Teaching Fellow and Programme Leader for Academic Writing and Communication in the Centre for the Development of Academic Skills at Royal Holloway, University of London, UK.</p></bio>
+</contrib>
+
+<book-volume-number>1</book-volume-number>
+
+<isbn publication-format="hbk">978-1-138-29148-5</isbn>
+<isbn publication-format="pbk">978-1-138-29149-2</isbn>
+<isbn publication-format="ebk">978-1-315-26534-6</isbn>
+
+<publisher>
+<publiser-name>Routledge</publiser-name>
+<publiser-loc>2 Park Square, Milton Park, Abingdon, Oxon OX14 4RN</publiser-loc>
+</publisher>
+
+<publisher>
+<publiser-name>Routledge</publiser-name>
+<publiser-loc>711 Third Avenue, New York, NY 10017</publiser-loc>
+</publisher>
+
+<edition>*********</edition>
+<permissions>
+<copyright-statement>&#x00A9; 2018 Adrian J. Wallbank</copyright-statement>
+<copyright-year>2018</copyright-year>
+<copyright-holder>Adrian J. Wallbank</copyright-holder>
+</permissions>
+<abstract abstract-type="blurb">
+<p>This book presents a unique visual approach to academic writing and composition specifically tailored to the needs of dyslexic students in higher education. Readers will learn to successfully structure and articulate their ideas, get to grips with critical reading, thinking and writing, and fulfil their full academic potential.</p>
+<p>The ‘writing process’ is demystified and techniques for writing compelling, insightful and mark generating essays are conveyed via innovative and meaningful representations, templates, images, icons and prompts, specifically designed to meet the visual and ‘big picture’ strengths of dyslexic learners. A companion website offers supplementary exercises, examples, videos and a full range of downloadable templates and bookmarks.</p>
+<p>Written by a dyslexic for dyslexics, Academic Writing and Dyslexia is underpinned by extensive research. As a dyslexic student you will learn to present your thoughts with confidence, critically evaluate competing arguments and gain top marks. The book will help you bridge the gap between your existing coping strategies and the increased demands and rigours of academic writing at university. It will be an invaluable resource for dyslexic students, academics, dyslexia specialists, learning developers and writing tutors throughout the higher education sector.</p>
+</abstract>
+<counts>
+<book-fig-count count=""/>
+<book-table-count count=""/>
+<book-equation-count count=""/>
+<book-ref-count count=""/>
+<book-page-count count=""/>
+<book-word-count count=""/>
+</counts>
+<notes notes-type="imprint-page">
+<sec sec-type="imprint-publication-data">
+<p>First published 2018</p>
+<p>by Routledge</p>
+<p>2 Park Square, Milton Park, Abingdon, Oxon OX14 4RN</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>and by Routledge</p>
+<p>711 Third Avenue, New York, NY 10017</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>Routledge is an imprint of the Taylor & Francis Group, an informa business</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>The right of Adrian J. Wallbank to be identified as author of this work has been asserted by him in accordance with sections 77 and 78 of the Copyright, Designs and Patents Act 1988.</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>All rights reserved. No part of this book may be reprinted or reproduced or utilised in any form or by any electronic, mechanical, or other means, now known or hereafter invented, including photocopying and recording, or in any information storage or retrieval system, without permission in writing from the publishers.</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>Trademark notice: Product or corporate names may be trademarks or registered trademarks, and are used only for identification and explanation without intent to infringe.</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>British Library Cataloguing in Publication Data</p>
+<p>A catalogue record for this book is available from the British Library</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>Names: Wallbank, Adrian J., author.</p>
+<p>Title: Academic writing and dyslexia : a visual guide to writing at university / Adrian J. Wallbank.</p>
+<p>Description: Abingdon, Oxon ; New York, NY : Routledge, [2018] | Includes bibliographical references.</p>
+<p>Identifiers: LCCN 2017019479| ISBN 9781138291485 (hbk) | ISBN 9781138291492 (pbk) | ISBN 9781315265346 (ebk)</p>
+<p>Subjects: LCSH: Academic writing—Handbooks, manuals, etc. | Report writing—Handbooks, manuals, etc. | Research—Handbooks, manuals, etc. | Dyslexics—Education, Higher. | College students with disabilities.</p>
+<p>Classification: LCC LB2369 .W259 2018 | DDC 808.06/6378—dc23</p>
+<p>LC record available at https://lccn.loc.gov/2017019479</p>
+</sec>
+<sec sec-type="imprint-publication-data">
+<p>Visit the companion website: <uri>www.routledge.com/cw/Wallbank</uri></p>
+</sec>
+</notes>
+<notes notes-type="supplier">
+<p>Florence Production Ltd</p>
+</notes>
+</book-meta>
+<front-matter>
+<p>In memory of Herbert Ward (1914–1995)</p>
+<preface id="preace1">
+<book-part-meta>
+<p>Foreword</p>
+<p>Acknowledgements</p>
+</book-part-meta>
+</preface>
+<foreword>
+<title><target target-type="page" id="page_"/>Foreword</title>
+<disp-quote>
+<p>One picture is worth a thousand words.</p>
+<attrib>(English idiom)</attrib>
+</disp-quote>
+<p>Sometime in the mid-1990s, filming was taking place for an ITV News report on the teaching strategies used with dyslexics at Maple Hayes School and Research Centre (where I was a pupil). During a break in filming, I vividly remember a reporter quizzing one of the students as to why using a visual system of icons to learn how to spell was effective. The reporter repeated the same comments and suspicions that many of us had heard before and which has plagued the reputation of its inventor and the school’s principal, Dr E. Neville Brown. ‘I don’t get it’, he quipped, ‘I don’t understand how words can have visual meanings!’ ‘You wouldn’t’, the student replied rather cheekily, ‘you’re not dyslexic!’</p>
+<p>Despite this student’s rather brazen dismissal of the reporter’s questions, this memory has stayed with me ever since and I feel is central to understanding the rationale behind this book. Dyslexics are predominantly right brain, visual thinkers – words are secondary considerations. Dyslexics think holistically and visually, and this is why it is necessary to visualise the patterns and underlying meanings of writing as a means of understanding its content and structure. This is a different way of doing things to left brain thinkers, hence why the reporter mentioned above just didn’t ‘get it’. So while this book may be of considerable use to the non-dyslexic, the aim here is to tap into your visual strengths as a dyslexic and add additional coping/ compensatory strategies to the ones that have brought you this far. If you are dyslexic, and you are reading this, you’ve undoubtedly done an excellent job of adjusting to, if not excelling within, a system that simply does not suit your right brain learning preferences and visual strengths. The next step, however, is a big one. ‘Stepping up’ from school/college to university, irrespective of your dyslexia, is a challenge, but is one that I guarantee you will succeed in providing you adjust and learn new, more sophisticated coping strategies. Your dyslexia will never go away; all we can do is find ever more inventive ways of working with or around it. You need better aids to help you succeed, and this is what this book aims to provide. But you also have an edge – dyslexics usually have high intelligence and a unique ability to discern patterns, connections and think holistically. It has brought you and sustained thus far, so with the guidance provided in this book, why not see where else it can take you?</p>
+
+<p>This book is dedicated to dyslexics everywhere, with faith in the fact that success is obtainable, can be achieved, and is ours for the taking . . .
+<attrib>Dr Adrian J. Wallbank, Centre for the Development of Academic Skills (CeDAS), Royal Holloway, University of London, April 2017</attrib>
+</p>
+</foreword>
+<ack>
+<title><target target-type="page" id="page_"/>Acknowledgments</title>
+<p>This book has been many years in the making. As a pupil at Maple Hayes School and Research Centre I was introduced to the concept of learning how to spell using visual icons through the pioneering work of Dr E. Neville Brown. I arrived at Maple Hayes as an underachieving dyslexic who had been placed in the lowest possible band at high school and told that although I’d ‘never amount to much’, one day I’d at ‘least make someone a good husband’. Brown, along with his staff, formed the basis of my transformation into a successful academic, lecturer and researcher, and their influences lie behind much of this book. More recently, I have accrued numerous debts during the course of writing this textbook. I owe a great deal to my students, both at Warwick and Royal Holloway. Their difficulties and triumphs have frustrated and inspired me in equal measure, and without having read hundreds, if not thousands of their essays, I’d not have been able to formulate my ideas. At Warwick, the work and enthusiasm of Thomas Docherty has been a constant source of motivation and he was one of the first people to suggest that I write this book. At Royal Holloway, Jackie Knowles supported my ideas throughout, Silke Placzeck kindly re-arranged my teaching commitments to give me what she so managerially calls ‘head space’, and my colleague Gerard Clough has, in his own unique ways, been lurking in the background offering constant encouragement. But my greatest debt is to my wife, Mona Khatibshahidi, who is responsible for battling with the vagaries of technology and the murky depths of graphic design in order to painstakingly construct all of the visual elements of this book. This nearly killed both of us at times, not least because she has consistently challenged my thinking and my predilection for making ‘piles’ everywhere in ways that only married couples will know about and I’m sure she’ll be heartily glad to see the back of this project. To her patience and design skills I owe more than words can say.</p>
+
+<p>Thank you to Bloomsbury Publishing Plc. for granting us permission to use the index from the following material: © Thomas Docherty, 2011, For the University: Democracy and the Future of the Institution and Bloomsbury Academic, an imprint of Bloomsbury Publishing Plc.</p>
+</ack>
+</front-matter>
+<book-body>
+<book-part book-part-type="chapter" id="chapter1">
+<title-group>
+<label>1</label>
+<title><target target-type="page" id="page_"/>‘Stepping up’ from school/college to university</title>
+<alt-title alt-title-type="running-head-left">Stepping up to university</alt-title>
+<alt-title alt-title-type="running-head-right">Stepping up to university</alt-title>
+</title-group>
+<body>
+<disp-quote>
+<p>Whenever people talk about dyslexia, it’s important to know that some of the smartest people in the world, major owners of companies, are dyslexic. We just see things differently, so that’s an advantage. I just learn a different way; there’s nothing bad about it.</p>
+<attrib>(Charlotte McKinney, American model and actress)</attrib>
+</disp-quote>
+<sec1>
+<title>The potential to excel</title>
+<p>In the Foreword to the third edition of Ronald D. Davis’s famous book The Gift of Dyslexia (2010, p. xi), Linda Silverman highlights the ‘essential gifts of dyslexics’, these being:</p>
+<fig1/>
+<p><target target-type="page" id="page_"/>As you have probably already noticed, however, the current pre-university education system (in the UK at least), with its focus on passing exams rather than learning, on hitting ‘Assessment Objectives’ and ‘Learning Outcomes’ rather than critical thinking and creativity, is simply not suited to the learning styles and ‘gifts’ of dyslexics. Indeed, you may well have had an enormous struggle to make it to university in the first place and feel as though your experience of education thus far has been stifling rather than enlightening. This is something that even Albert Einstein, himself a dyslexic, probably had in mind when he stated that ‘it is a miracle that curiosity survives formal education . . . Education is what remains after one has forgotten everything he learned in school’ (TheDyslexiaProject, 2017). Fortunately, university level study is rather different and gives you much more intellectual and creative space to spread your wings. Indeed, as Silverman points out, in today’s world student success (both within and beyond university), depends upon the
+<disp-quote>
+<p>ability to see the big picture, to predict trends, to read customers, to think outside the box, to see patterns, to inspire collaboration among peers, to empathize, to synthesize information from a variety of sources, and to perceive possibilities from different perspectives. These are the natural talents of dyslexics.</p>
+<attrib>(p. xi)</attrib>
+</disp-quote>
+</p>
+<p>While these words are undoubtedly inspiring and hopeful, and have a profound relevance in a world which is seeing increasing amounts of complex and sometimes contradictory agendas, let us not get ahead of ourselves. A new battle awaits in the form of the higher intellectual demands associated with advanced study, whether this is as a first-year undergraduate, masters or doctoral student. Do not underestimate the challenges (which all students, not just those with dyslexia) face when ‘stepping up’ from ‘A’ levels, Access or International Baccalaureate to the first year of an undergraduate course. Indeed, you will need to ‘step up’ again as you transition from first year to second year, from second year to third year, from third year to masters, and from masters to doctorate. This may seem obvious, but in contrast to the nondyslexic, this natural process of ‘stepping up’ also means that you need to develop increasingly sophisticated coping, learning and writing strategies so as to meet the higher demands placed on you as a result of your dyslexia (most notably in relation to difficulties associated with working memory, slower reading speeds and problems with sequencing and organising ideas). Unfortunately, nobody can wave a magic wand and make your dyslexia disappear. As such, what is required is the development and expansion of the coping strategies that have brought you this far to help you meet the new, advanced challenges. Remaining static, or relying on the coping strategies you have already developed are unlikely to work. Your dyslexia doesn’t mean that you cannot compete with your peers, or that the increasingly sophisticated coping strategies you need to develop mean that your progress will be slower or hindered in some way. Rather, the coping strategies proposed in this book harness and tap into your gifts as a visual and multidimensional thinker. By adopting them, you will not only cope at university but will thrive and excel.</p>
+</sec1>
+<sec1>
+<title>Getting started – understanding the differences between writing at school/college and university</title>
+<p>Studying and writing at university is very different from what you have probably encountered at school or college. While the International Baccalaureate does a better job of preparing students for university study, the traditional and currently more popular ‘A’ level or Access route is less helpful. Some of the key differences are as follows:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="50%"/>
+<col content-type="2" width="50%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>‘A’ level/Access</p></entry>
+<entry align="left"><p>University</p></entry>
+</row>
+</thead>
+
+<tbody>
+<row>
+<entry align="left"><p>Taught, coached and mentored.</p></entry>
+<entry align="left"><p>Emphasis is on independent learning.</p></entry>
+</row>
+<row>
+<entry align="left"><p>Prescriptive (coursework titles are often chosen by the teacher or exam board, or if the student chooses it you are coached to create one which allows you to focus on meeting the exam boards’ very precise criteria).</p></entry>
+<entry align="left"><p>Student increasingly autonomous and independent, minimal coaching/guidance.</p></entry>
+</row>
+<row>
+<entry align="left"><p>Focused on fulfilling the exam boards’ very explicit criteria (‘Assessment Objectives’ – these are set in the UK by Office of Qualifications and Examinations Regulation (OFQUAL)).</p></entry>
+<entry align="left"><p>Focused on articulating an argument that is engaged critically and creatively with the question.</p></entry>
+</row>
+<row>
+<entry align="left"><p>Limited engagement with secondary reading.</p></entry>
+<entry align="left"><p>Extensive, critical and evaluative engagement with secondary materials and theories.</p></entry>
+</row>
+<row>
+<entry align="left"><p>Focused on exhibiting or achieving a specific aim or demonstrating a specific acquisition of knowledge rather than exhibiting wide ranging, critically perceptive knowledge of the discipline.</p></entry>
+<entry align="left"><p>Critical evaluation, analysis and creativity/independent thinking.</p></entry>
+</row>
+</tbody>
+</table>
+<p><target target-type="page" id="page_"/>If you have studied for ‘A’ levels or an Access qualification, you’ll probably have already seen how these priorities are mapped onto the assessment criteria. Exam boards have to adhere to ‘Assessment Objectives’ defined by OFQUAL, and these are designed to provide teachers and examiners with a framework for assessing work in a fair, transparent and rigorous manner. These aims are entirely understandable, but what this often leads to is the student being taught how to ‘jump through hoops’ rather than gaining an in-depth knowledge of the subject. Indeed, as a former teacher of ‘A’ level English, I probably spent 80 per cent of my time teaching students how to meet ‘Assessment Objectives’ rather than teaching them about English. This results in rather formulaic, precise writing that is obsessed with hitting targets rather than exploring ideas. Let’s look at the following exemplar ‘A’ level literature essay that seeks to compare Shakespeare’s Hamlet with William Blake’s Songs of Innocence and Experience to see how this happens:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="50%"/>
+<col content-type="2" width="50%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Exemplar paragraph</p></entry>
+<entry align="left"><p>Assessment objectives</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>One of the main themes around which the play pivots is Hamlet’s despair and alleged madness. In Act Three Scene One we find him uttering the now famous and thought-provoking line ‘To be, or not to be – that is the question;’ which initiates a bout of philosophical questioning concerning life and death. The definitive determiner ‘the’ emphasises the level of despair that Hamlet feels as it is ‘the question’; no other question matters. Moreover, ‘is’, the third person singular of ‘be’, reinforces the definitive determiner by preventing any possibility of modal questioning such as ‘might be the question’. Hamlet’s questions thus stand in sharp contrast to the rather more emotive, rhetorical questions Blake poses in relation to poverty, abuse and religion (such as ‘Is that trembling cry a song?’ in ‘Holy Thursday’ and in respect of child abuse, ‘are such things done on Albion’s shore?’ in ‘A Little Boy Lost’), although they clearly engage the reader in a similar form of self-examination as that encouraged by Hamlet and are perhaps intended to make the reader question not their life, but their conscience in relation to the ongoing suffering of children caught up in the exploitation of early industrial society.</p></entry>
+
+<entry align="left"><p>AO1: Articulate informed, per sonal and creative responses to literary texts, using associated con cepts and terminology, and coherent, accurate written expression</p>
+
+<p>(Note – terminology is underlined)</p>
+<p>AO2: Analyse ways in which meanings are shaped in literary texts</p>
+<p>AO3: Demonstrate understanding of the significance and influence of the contexts in which literary texts are written and received</p>
+<p>AO4: Explore connections across literary texts</p></entry>
+</row>
+</tbody>
+</table>
+<p><target target-type="page" id="page_"/>As you can probably see by the sheer number of colours I’ve used here (and even this is not enough), there is an awful lot of thought gone into this extract to make it fit the assessment criteria. The fact that there is only limited analysis/evaluation and that comparing Shakespeare’s Hamlet with Blake is a very odd decision indeed is irrelevant. The main thing that matters is the student hitting the ‘Assessment Objectives’, which in this case they have done superbly.</p>
+
+<p>Access assignments are similar. Access courses are marked as a pass, merit or distinction in accordance with the following criteria:</p>
+<list list-type="simple">
+<list-item><label>1)</label><p>Understanding of the subject</p></list-item>
+<list-item><label>2)</label><p>Application of knowledge</p></list-item>
+<list-item><label>3)</label><p>Application of skills</p></list-item>
+<list-item><label>4)</label><p>Use of information</p></list-item>
+<list-item><label>5)</label><p>Communication and presentation</p></list-item>
+<list-item><label>6)</label><p>Autonomy/Independence</p></list-item>
+<list-item><label>7)</label><p>Quality</p></list-item>
+</list>
+<p>Again, note the emphasis here upon testing the acquisition, application and use of knowledge rather than wide-ranging analysis, independent thinking, critical analysis, evaluation and argumentation. These are assessed, but like in ‘A’ levels, they are not the driving factor. But addi tion ally, the assessment criteria and assignment brief often dictate the sequence of ideas within the essay and, along with the tutor’s guidance, this schema coaches the student towards responding in a set way. For example, take the following assignment for psychology:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="15%"/>
+<col content-type="2" width="45%"/>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Assignment title: Outline and evaluate the causes, effects and treatment of stress (1500 words)</p></entry>
+</row>
+
+<row>
+<entry align="left"><p>No.</p></entry>
+<entry align="left"><p>Assessment criteria: the learner can</p></entry>
+<entry align="left"><p>Achieved?</p>
+<p>First submission</p></entry>
+<entry align="left"><p></p>
+<p>Second submission</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>1</p></entry>
+<entry align="left"><p>Define the term stress and describe potential sources of stress (internal or external stressors) and their biological effects.</p></entry>
+<entry align="left"><p></p></entry>
+<entry align="left"><p></p></entry>
+</row>
+<row>
+<entry align="left"><p>2</p></entry>
+<entry align="left"><p>Explain and evaluate some of the effects of chronic stress on the body and behaviour.</p></entry>
+<entry align="left"><p></p></entry>
+<entry align="left"><p></p></entry>
+</row>
+<row>
+<entry align="left"><p>3</p></entry>
+<entry align="left"><p>Evaluate three different treatments/therapies for stress.</p></entry>
+<entry align="left"><p></p></entry>
+<entry align="left"><p></p></entry>
+</row>
+</tbody>
+<tfoot>
+<fn><p>Evaluate three different treatments/therapies for stress.</p></fn>
+</tfoot>
+</table>
+<p>Notice that the student here is practically told what to write in their essay, and in what sequence. In fact, one could even match up the three aspects of the assessment criteria to the word count and simply allocate 500 words to each criterion. It is no surprise, therefore, that this incredibly formulaic, assessment driven way of teaching results in extremely formulaic, assessment driven essays. Indeed, note the fact that two submissions are allowed – a situation that usually leads to the tutor ‘coaching’ their students towards fulfilling the assessment criteria rather than giving them the intellectual space and freedom to explore their own ideas. This level of intervention, coaching and prescriptiveness simply doesn’t happen at university. Take a look at the following extract from a typical university marking criteria. As you will see, it is rather less prescriptive and considerably vaguer:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="40%"/>
+<col content-type="2" width="40%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Category</p></entry>
+<entry align="left"><p>1st</p></entry>
+<entry align="left"><p>2:2</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Relevance:</p></entry>
+<entry align="left"><p>Demonstrates an accurate grasp of the issues raised by the question or brief, and engages with them fully.</p></entry>
+<entry align="left"><p>Demonstrates partial recognition of the issues, and the material presented may lose focus in places.</p></entry>
+</row>
+<row>
+<entry align="left"><p>Argument:</p></entry>
+<entry align="left"><p>Elucidates a sustained, coherent, original and persuasive argument.</p></entry>
+<entry align="left"><p>Argument may not be fully sustained or relevant, may be over-general or over - simplified.</p></entry>
+</row>
+<row>
+<entry align="left"><p>Knowledge:</p></entry>
+<entry align="left"><p>Demonstrates excellent skills in marshalling appropriate evidence; engages critically and creatively with a range of materials.</p></entry>
+<entry align="left"><p>Received ideas may be repeated or described rather than critically interrogated.</p></entry>
+</row>
+</tbody>
+<tfoot>
+<fn><p>(Royal Holloway, University of London, 2017)</p></fn>
+</tfoot>
+</table>
+<p><target target-type="page" id="page_"/>The vagueness within these descriptors may appear unsettling at first, and many students react with frustration as they simply do not know what is expected of them. This is understandable given that you are moving from an educational setting where you are coached and guided, to one where independence and autonomy are highly valued. If you try to follow the templates for hitting ‘Assessment Objectives’ that you used successfully at school or college, you simply won’t achieve good marks, no matter how hard you try, as the goals are completely different. Let’s examine this passage from an undergraduate law essay to see how different it is from the ‘A’ level literature exemplar:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="50%"/>
+<col content-type="2" width="50%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Assignment Task: Despite many changes to law and policy relating to domestic violence, criminal justice responses still fail to provide adequate protection for those at risk. Discuss:</p></entry>
+<entry align="left"><p>Descriptor from mark scheme:</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Although CPS reports suggest that ‘highest volumes ever’ of domestic violence referrals were charged last year, totalling over 70,000 (CPS 2014b), there are numerous significant counter - arguments pointing out inadequacies in the legal framework and its ambiguous definitions. Despite repeated, valid attempts to create a definition of domestic violence which encompasses a wide array of actions (Smith, 1999 and Jones, 2001), the notion of domestic violence as meaning physical beating, and nothing less, remains the ‘dominant view’ (Stark, 2007, p. 84). As Stark (2007) has testified, victims are reluctant to acknowledge their situation absent of physical violence (Stark, 2007, p. 111). Furthermore, no specific ‘domestic violence’ offence exists, with instances being artificially categorised as regular offences instead. Indeed, they are mostly classified as merely ‘common assault’ (Hester, 2006, p. 85), which does not accurately reflect the severity of domestic violence. State liability for failing to prevent domestic violence, though welcome, is set to a very high threshold (Osman v UK), and as such may not be robust enough to have much effect domestically save in exceptional circumstances (Burton, 2010, p. 134) and domestic case law interpreting the obligation has only watered down this obligation further (Burton, 2010, p. 292).</p></entry>
+<entry align="left"><p>Elucidates a sustained, coherent, original and persuasive argument.</p>
+<p>Demonstrates excellent skills in marshalling appropriate evidence; engages critically and creatively with a range of materials</p></entry>
+</row>
+</tbody>
+</table>
+<p><target target-type="page" id="page_"/>As you can see, there is a considerable amount of primary and secondary source use here, but that doesn’t dominate what is said. The student drives an argument, with critical analysis and evaluation, through the entire passage and uses the sources either to support their points, or as a means of initiating critical engagement with the fact that the criminal justice system, even in its very definitions of what constitutes domestic violence, is flawed (and as a result, is failing those at risk). The passage is concise, focused and uses evidence in a sophisticated and thorough manner. Notice also that the student is not attempting to tick boxes and meet assessment criteria (simply because they are not specific enough for you to do this), but focuses on insightful argumentation, evaluation and answering the question. They are not setting out to merely exhibit knowledge in an attempt to acquire marks, but he/she is using that knowledge as the background to the analysis and argument.</p>
+<p>In making the transition from school/college to university, then, you need to adopt new approaches and techniques in your writing and engage in much more critical thinking. This involves:</p>
+<fig2/>
+
+<list list-type="bullet">
+<list-item><p>Moving on from ‘Assessment Objectives’ and ‘jumping through hoops’ towards a more independent, less structured approach.</p></list-item>
+<list-item><p>Creating an argument.</p></list-item>
+<list-item><p>Critical thinking, analysis and evaluation rather than simply displaying knowledge.</p></list-item>
+<list-item><p>Incorporating and engaging with secondary reading and theoretical perspectives.</p></list-item>
+<list-item><p>Weighing up the evidence (as is often indicated by key activity words in the assignment title) in order to make an argument amid considerable complexity, uncertainty and competing views/evidence:</p></list-item>
+<list-item><p>Higher level thinking – as can be depicted on Bloom’s famous taxonomy of educational objectives:</p></list-item>
+</list>
+
+<fig3/>
+
+<p><target target-type="page" id="page_"/>These skills apply to all university students, but as a dyslexic, making this transition will necessitate using your dyslexia and ability to engage in ‘big picture’ thinking, synthesis, perceptiveness and making connections, and making these traits work for you rather than against you. This is precisely where this book comes in. This book presents a ‘process orientated’, step-by-step approach to academic writing and composition specifically tailored to the needs of dyslexic students in higher education. The writing ‘process’ (e.g. understanding the genre and style, reading, critical thinking, writing and proofreading/editing) is explored and demonstrated in detail, but the content is translated into meaningful visual representations in the form of templates, frameworks, images, icons and prompts. The purpose of this is to help you make sense of your ideas by harnessing your visual learning preferences and strengths and thus present your thoughts in a structured, sequenced and ordered manner (which is the predominant difficulty dyslexics encounter). The visual system presented here is intended to be used as a sophisticated ‘coping’ strategy to support you in bridging the gap between your existing ‘coping’ or ‘compensatory’ strategies and the heightened demands and rigours of academic writing in higher education settings while also acting as a system of prompts to enable you to write independently. This is undoubtedly a different way of doing things and will thus require perseverance in order to master it fully, but surely this is what has brought you to this point in the first place! Embrace the challenge! Embrace the greater freedom and autonomy associated with studying and writing at university. You are now largely free of the constrictions of ‘Assessment Objectives’ so take full advantage. University marking criteria give you more space to enable you to play to your dyslexic strengths, so keep fighting – there is no reason to let your dyslexia hold you back. Remember, many of the world’s most famous artists, thinkers, writers, philosophers and scientists are dyslexic – keep an eye out for some of their inspiring quotes as you proceed through the book.</p>
+</sec1>
+</body>
+<back>
+<ref-list>
+<title><target target-type="page" id="page_"/>Bibliography</title>
+<ref>Davis, Ronald, D. (2010) The Gift of Dyslexia. 3rd edn. London: Souvenir Press.</ref>
+<ref>Einstein, Albert. Famous Dyslexics. Available at: www.thedyslexiaproject.com/famous-dyslexics (accessed: 30 March 2017).</ref>
+<ref>Openawards, (2016) Access to HE Psychology Exemplar Assignment. Available at: http://openawards. org.uk/media/1818/access-to-he-psychology-exemplar-assignment-2016.pdf (accessed: 30 March 2017).</ref>
+<ref>Royal Holloway, (2015) Complete General Regulations. Available at: www.royalholloway.ac.uk/ecampus/ documents/pdf/completegeneralregulationsoctober2015.pdf (accessed: 30 March 2017).</ref>
+</ref-list>
+</back>
+</book-part>
+
+
+<book-part book-part-type="chapter" id="chapter2">
+<title-group>
+<label>2</label>
+<title><target target-type="page" id="page_"/>Reading to write</title>
+<alt-title alt-title-type="running-head-left">Reading to write</alt-title>
+<alt-title alt-title-type="running-head-right">Reading to write</alt-title>
+</title-group>
+<body>
+
+<disp-quote>
+<p>I had to train myself to focus my attention. I became very visual and learned how to create mental images in order to comprehend what I read.</p>
+<attrib>(Tom Cruise, actor and dyslexic)</attrib>
+</disp-quote>
+
+<p>At university, you will be expected to undertake large amounts of reading, often in a very short space of time. This can be a daunting prospect (even for the non-dyslexic), and discussion forums, student blogs and feedback to tutors often highlight reading as being a major challenge, especially when first making the transition from school or college to university. Indeed, a 2014 survey in the Centre for the Development of Academic Skills at Royal Holloway, University of London revealed that students ranked reading as being their number one challenge during the first year of their degrees. So why is such extensive reading so important? What is its function?</p>
+
+<sec1>
+<title>The purpose of reading</title>
+<list list-type="numeric">
+<list-item><label>1)</label><p>Reading at university is essential for two primary reasons:</p>
+<p>Never lose sight of the fact that you came to university to learn, and not just to pass exams and gain a degree. Not all of your reading will be needed for your essay writing or exams – large quantities of it is simply to fill your brain with information, ideas, questions and skills which you hadn’t previously encountered, and at a much higher level than that learned at school or college. But additionally, as Steven Pinker has pointed out,
+<disp-quote>
+<p>good writers are avid readers. They have absorbed a vast inventory of words, idioms, constructions, tropes, and rhetorical tricks, and with them a sensitivity to how they mesh and how they clash. This is the elusive ‘ear’ of a skilled writer’.</p>
+<attrib>(2015, p.11)</attrib>
+</disp-quote>
+</p>
+<p>Wide reading, then, will help you to write well.</p></list-item>
+<list-item><label>2)</label><p>To find specific information for use in your academic writing (essays/exams).</p>
+<p><target target-type="page" id="page_"/>Here the purpose is driven entirely by what has been set by your lecturers in the assignment task/essay question. The task of finding and using specific information will largely be informed by the reading you have done to expand your knowledge, so it is essential you read with both of these purposes in mind, rather than just focusing on reading for essay writing as your only priority. The two main purposes of reading are interrelated and inseparable – reading for knowledge will enrich your essay writing, and reading for specific information will enrich your knowledge. Try to view reading as a holistic process and don’t short change yourself by only reading in preparation for assignments.</p></list-item>
+</list>
+<p>The reason you need to use sources in your writing is to demonstrate the following skills and abilities:</p>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures-biomatric"/>That you have read around the subject and can conduct independent research.</p></list-item>
+<list-item><p>That you can select and prioritise appropriate sources and information, filtering out what is/is not needed.</p></list-item>
+<list-item><p>That you can harness evidence in support of your views/arguments. Throughout this book, evidence is visualised as a fingerprint, because like a lawyer or police officer, you need to present evidence for your case/argument.</p></list-item>
+<list-item><p>That you can consider and evaluate arguments/counterarguments and integrate these into your own argument.</p></list-item>
+</list>
+<p>Evidence can take several forms, but the most common are as follows:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="50%"/>
+<col content-type="2" width="50%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Evidence:</p></entry>
+<entry align="left"><p>Symbolic representation used in this book:</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>Data and statistics</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures1"/></p></entry>
+</row>
+<row>
+<entry align="left"><p>Formulae</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures2"/></p></entry>
+</row>
+<row>
+<entry align="left"><p>Direct quotation from primary or secondary sources</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures3"/></p></entry>
+</row>
+<row>
+<entry align="left"><p>Summary of something from a primary or secondary source</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures4"/></p></entry>
+</row>
+<row>
+<entry align="left"><p>Paraphrase of something from a primary or secondary source</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures5"/></p></entry>
+</row>
+</tbody>
+</table>
+<p><target target-type="page" id="page_"/>Without adequate sources and reading your essays and assignments are likely to score poor marks. This is because your essays need to show how your ideas enter into an intellectual conversation with, are informed by, or even challenge, the work of others. In other words, academic writing, and academia generally, is largely dialogic:</p>
+<fig4/>
+<p>It is essential, therefore, that you spend time reading and enriching your knowledge.</p>
+</sec1>
+<sec1>
+<title><target target-type="page" id="page_"/>Types of sources</title>
+<p>Not all sources are created equally and some are more suitable than others. Let’s compare some examples. Which of these sources do you think might be the most appropriate for an essay about global warming?</p>
+<boxed-text>
+<list list-type="numeric">
+<list-item><label>1)</label><p>Global temperature is subject to short-term fluctuations that overlay long-term trends and can temporarily mask them. The relative stability in surface temperature from 2002 to 2009, which has been dubbed the global warming hiatus by the media and some scientists, is consistent with such an episode. 2015 updates to account for differing methods of measuring ocean surface temperature measurements show a positive trend over the recent decade.</p></list-item>
+</list>
+</boxed-text>
+
+<boxed-text>
+<list list-type="simple">
+<list-item><label>2)</label><p>A recent spate of shark attacks in North Carolina may have been partly caused by global warming, an expert has claimed. The warmer weather not only brings sharks further north, but also entices more people to get into the water. Coupled with other factors such as higher salinity and an increased number of ‘bait fish’, this has supposedly created a ‘perfect storm’ of conditions for shark attacks.</p></list-item>
+</list>
+</boxed-text>
+
+<boxed-text>
+<list list-type="simple">
+<list-item><label>3)</label><p>Model calculations have, for the last decade, suggested that a doubling of CO2 will lead to increases in globally averaged temperature of 1.5 to 5 degrees (NRC 83) . . . However, such large predictions suggest that the changes in CO2 that have occurred over the last 150 years should already have produced warmings of 0.5- 2 degrees. Yet the warming effect is logarithmic and increases in CO2 have become progressively less influential.</p></list-item>
+</list>
+</boxed-text>
+
+<p><graphic orientation="portrait" xlink:href="figures-down"/>The first source looks very useful indeed, gives a good overview of the main issues at stake and is written in an accessible, yet authoritative manner. As such you’d be forgiven for thinking that it is an entirely suitable source to use. However, it is taken from Wikipedia (2017). Many students wrongly use Wikipedia and often either quote from it in their essays or even copy and paste from it and try and pass it off as their own work (plagiarism). One of the reasons the Wikipedia extract from above sounds so authoritative is because it is largely a patchwork of ideas, phrases and direct, but sometimes unattributed quotations from academic sources, most notably Marion Henkel’s book, 21st Century Homestead: Sustainable Agriculture II (2015). Wikipedia is undoubtedly a useful source of information, and it’s a great place to go as a STARTING POINT for your research, particularly for the references at the end of each article. However, none of the material on Wikipedia is subjected to ‘peer review’ (the process by which material is assessed by experts in the field before publication). This means that its quality and accuracy has not been validated and cannot be relied upon. Furthermore, markers often think that using Wikipedia looks ‘lazy’, as it is clear that the student has not done their own research or read anything that was recommended on their reading lists.</p>
+<p><graphic orientation="portrait" xlink:href="figures_down"/>The second source comes from the Daily Mail newspaper (O’ Callaghan, 2015). Again, this is an unsuitable source. Although ‘an expert’ is cited, the article is merely a news report, and neither academic nor peer reviewed. Indeed, many newspapers resort to rhetorical strategies and sometimes deliberate misrepresentation of the facts to scare (hence the story about shark attacks), inspire or sway their readers, either politically or ideologically. They are, there - fore, overtly biased rather than neutral and cannot be used as an authority in your reading and writing (except if you were perhaps citing a newspaper or other media production as evidence of bias or as cultural phenomenon).</p>
+
+<p><graphic orientation="portrait" xlink:href="figures_up"/>The third source is taken from a journal article by Richard S. Lindzen, which appeared in the Bulletin of the American Meteorological Society (1990, p.289). Although perhaps not as entertaining as stories about shark attacks, the source is authoritative (since it is written by an eminent professor) and has been subjected to peer review before publication. Furthermore, notice how the argument is balanced in that the author subjects the ‘model calculations’ to scrutiny and analysis based on evidence. Not all academic sources are unbiased or even-handed, but there is a noticeable degree of critical analysis within their arguments, unlike the openly biased or inflammatory publications produced by newspapers or other mass-media outlets.</p>
+
+<sec2>
+<title><target target-type="page" id="page_"/>TIPS</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Use only peer-reviewed, quality academic sources.</p>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Steer clear of mass-media publications and websites.</p>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Avoid online revision guides (these are aimed at ‘A’ level or Access students, and are thus too basic for undergraduates/postgraduates).</p>
+<p>When reading at university, then, use mostly textbooks, monographs, edited collections and journal articles (as recommended by your lecturers). Even some academic sources, however, are more useful than others, and textbooks in particular need to be read with a different purpose in mind. Let’s have a look at how each can be used and why some might have distinct advantages and drawbacks.</p>
+<sec3>
+<title><target target-type="page" id="page_"/>Textbooks</title>
+<p>What are they?</p>
+<list list-type="bullet">
+<list-item><p>Usually chronological or thematic introductory guides for students.</p></list-item>
+<list-item><p>Provide a synthesised summary of key events, topics or themes within an easily understood and accessible framework.</p></list-item>
+<list-item><p>Provide a synthesised summary of key events, topics or themes within an easily understood and accessible framework.</p></list-item>
+</list>
+<p>Do you think, then, that textbooks are a suitable source to use in your essays?</p>
+<p><graphic orientation="portrait" xlink:href="figures_down"/>You might be surprised to learn that the answer is essentially no! A student textbook is an introduction to the subject, rather than a piece of original, academic research. Although this can make textbooks a very useful, easily digestible source of information, they are a little too basic for use in essays. What you need is the ‘real deal’, the original academic source rather than merely a watered-down version or an introductory summary. By using journal articles and monographs, you will go deeper into the subject, use the original, authoritative sources, and impress your marker with your ability to conduct research and engage with complex, higher level thinking and theory. This will inevitably result in better marks.</p>
+</sec3>
+</sec2>
+<sec2>
+<title>TEXTBOOK TIPS</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Use the bibliography as your cue to hit the library in search of the monographs and journal articles they recommend or cite.</p>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Many textbooks provide quotes from and references to the key theorists or critics working in the field, and thus often highlight what is most important for you to read.</p>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Textbooks are ideal for exam revision and for finding out about the main topics, key debates, who the key theorists are and what they said, and what the overall context of the field, topic or discipline looks like. This makes them an ideal starting point for your research and provides a good sense of perspective and the ‘big picture’ – precisely what dyslexic students find invaluable. Furthermore, as we shall see later, they can help you understand the complexities of monographs and journal articles if you alternate between reading materials (dual assistive reading).</p>
+<sec3>
+<title>Monographs</title>
+<p>What are they?</p>
+<list list-type="bullet">
+<list-item><p>Extended investigations/research of 60,000 words or more on a specific topic.</p></list-item>
+<list-item><p>Written primarily for academics and subject-specific professionals.</p></list-item>
+<list-item><p>Undergo an extensive ‘peer-review’ process that guarantees academic integrity.</p></list-item>
+</list>
+
+<sec4>
+<title>Pros</title>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures_up"/>Present up-to-date research when first published.</p></list-item>
+<list-item><p>Have convenient contents pages and indexes to help you find information quickly.</p></list-item>
+<list-item><p>Are academically robust and show that you have undertaken scholarly research.</p></list-item>
+</list>
+</sec4>
+
+<sec4>
+<title>Cons</title>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures_down"/>Obscurity (focus can be too narrow).</p></list-item>
+<list-item><p>Can be hard to read due to subject technicalities and length.</p></list-item>
+<list-item><p>‘Date’ rapidly.</p></list-item>
+<list-item><p>Dyslexic students can easily become ‘lost’ while reading them as it’s difficult to keep sight of the ‘big picture’. This is particularly problematic if reading them online (i.e. via Google Books or from a publisher’s ‘open access’ portal).</p></list-item>
+<list-item><p>If borrowed from a library, you can’t make notes on them or highlight passages with a pen; only Post-it notes or bookmarks can be used.</p></list-item>
+<list-item><p>Often unfeasible to print out large sections of the text (this could also breach copyright laws).</p></list-item>
+</list>
+</sec4>
+</sec3>
+<sec3>
+<title><target target-type="page" id="page_"/>Journal articles</title>
+<p>What are they?</p>
+<list list-type="bullet">
+<list-item><p>Short essays written by academics that investigate a problem/issue or present the results of research.</p></list-item>
+<list-item><p>Written primarily for academics and subject-specific professionals.</p></list-item>
+<list-item><p>Undergo an extensive ‘peer-review’ process that guarantees academic integrity.</p></list-item>
+</list>
+
+<sec4>
+<title><target target-type="page" id="page_"/>Pros</title>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures_up"/>Present up-to-date research.</p></list-item>
+<list-item><p>Usually have short abstracts providing a summary of the topic – this gives you a useful ‘snapshot’ of what the article is about and the main findings/ argument.</p></list-item>
+<list-item><p>Are academically robust and show that you have undertaken scholarly research.</p></list-item>
+<list-item><p>Often accessible online through your university’s library catalogue, Google Scholar or the publisher’s website.</p></list-item>
+<list-item><p>Narrow focus.</p></list-item>
+<list-item><p>Easy to print out, make notes on and carry with you.</p></list-item>
+</list>
+</sec4>
+<sec4>
+<title>Cons</title>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures_down"/>Obscurity (focus can be too narrow).</p></list-item>
+<list-item><p>Can be hard to read due to subject technicalities.</p></list-item>
+<list-item><p>No index, so it can be harder to scan for specific information.</p></list-item>
+</list>
+</sec4>
+</sec3>
+<sec3>
+<title>Edited collections</title>
+<p>What are they?</p>
+<list list-type="bullet">
+<list-item><p>Short essays written by academics that investigate a problem/issue or present the results of research, but they are collected together by an academic editor around a core theme.</p></list-item>
+<list-item><p>Written primarily for academics and subject-specific professionals.</p></list-item>
+<list-item><p>Undergo an extensive ‘peer-review’ process that guarantees academic integrity.</p></list-item>
+</list>
+
+<sec4>
+<title>Pros</title>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures_up"/>Academically robust and show that you have undertaken scholarly research.</p></list-item>
+<list-item><p>Narrow focus, but grouped around a core, general theme.</p></list-item>
+<list-item><p>Relatively easy to print out, make notes on and carry with you if you only require one or two chapters.</p></list-item>
+</list>
+</sec4>
+<sec4>
+<title>Cons</title>
+<list list-type="bullet">
+<list-item><p><graphic orientation="portrait" xlink:href="figures_down"/>Obscurity (focus can be too narrow).</p></list-item>
+<list-item><p>Can be hard to read due to subject technicalities.</p></list-item>
+<list-item><p>‘Date’ rapidly.</p></list-item>
+</list>
+</sec4>
+</sec3>
+</sec2>
+</sec1>
+
+<sec1>
+<title>The dyslexic experience of academic reading</title>
+<p>For dyslexics, reading can be problematic, disorientating, frustrating and even demoralising. Dyslexic students typically experience the following issues:</p>
+<list list-type="numeric">
+<list-item><label>1)</label><p>Reading slowly and falling behind (the average non-dyslexic student can read approximately 200–250 words per minute as opposed to 90–120).</p></list-item>
+<list-item><label>2)</label><p>Having difficulty maintaining attention.</p></list-item>
+<list-item><label>3)</label><p>Losing sight of or completely forgetting what has just been read only a few pages previously.</p></list-item>
+<list-item><label>4)</label><p>Being unable to see the purpose of the reading.</p></list-item>
+<list-item><label>5)</label><p>Having difficulty following the argument advanced by the author.</p></list-item>
+<list-item><label>6)</label><p>Frustration at what has been termed ‘the paradox of dyslexia’ – namely that as a dyslexic you read slowly but your brain works extremely quickly (Shaywitz, 1996). This means that dyslexic readers can often ‘jump’ or anticipate what is going to be said on the next page but cannot remember what was said on the previous one. This can have a severe and negative impact upon your self-esteem.</p></list-item>
+</list>
+<p>One of the biggest differences between a dyslexic and non-dyslexic reader is that nondyslexics read in a linear, sequential manner, taking one step/sentence/paragraph/section/ chapter at a time. Dyslexics, on the other hand, need to see the ‘bigger picture’. In other words, because the dyslexic brain can think and form connections quickly, it needs to be at the end of the paragraph or chapter at the same time as being at the beginning, thus getting a picture of the full meaning in an instant. This is obviously impossible when reading wordby- word, line-by-line, and even chapter-by-chapter. The dyslexic brain, by preferring visual, ‘big picture’ thinking, is more than capable of seeing and comprehending the whole, but is constrained by the fact that the information is not present on the page in one, complete, entire and instantly comprehensible package. This can prove immensely frustrating and often leads to lapses in concentration and even boredom. But equally, some dyslexia and study skills specialists recommend strategies that make the problem even worse:
+<disp-quote>
+<p><graphic orientation="portrait" xlink:href="figures_down"/>At school, teachers often get dyslexic students to read even more slowly, ‘sounding out’ or pronouncing individual words. This focus on ‘vocalisation’ divorces words (and particularly clusters of words) from their meaning, leading to a decrease in comprehension.</p>
+</disp-quote>
+<disp-quote>
+<p><graphic orientation="portrait" xlink:href="figures_down"/>Being taught to slow down runs contrary to natural eye movements. By forcing yourself to read from left to right in a slow, careful and deliberate manner, you force the eyes out of their natural tendency to wander all over the page. Studies with high-speed cameras have proven that while reading the eyes can wander up to 18 times per minute (Toikka, 2008, p.4). Why not capitalise upon this tendency rather than forcing yourself to read more slowly and deliberately? By slowing down, you place greater visual stress upon your eyes, something that dyslexics often suffer from anyway.</p>
+</disp-quote>
+<disp-quote>
+<p><graphic orientation="portrait" xlink:href="figures_down"/>Dyslexics are often told to use a pencil, ruler, finger or even a card to point to or exclude sections of text to help them maintain focus on the sentences and words they are reading while blocking out what surrounds the words/sentences in question. This again slows the reader down and again runs counter to the tendency of the eyes to wander and our ability to use our ‘peripheral’ vision (which is capable of viewing between five to seven words at a time). In other words, such techniques prevent you from seeing the ‘big picture’ of the sentence or paragraph, especially if sentences or paragraphs straddle lines or pages.</p>
+</disp-quote>
+</p>
+<p><target target-type="page" id="page_"/>As a dyslexic, then, what is needed is a reading strategy that allows you to grasp the ‘big picture’ while avoiding long, unproductive, frustrating and even demoralising reading sessions. A form of speed reading is the answer. Indeed, ‘speed reading’ as an activity that dyslexics can excel at. One prominent advocate of speed reading, George Stancliffe, claims that dyslexics are usually ‘gifted’ when it comes to rapid reading, primarily because the right brain is precisely where such rapid, holistic reading takes place (2003). The issue of time/speed here is crucial, and is something which, rather than causing anxiety, can be turned into a strength. For dyslexics, the reading process needs to be quick so as to tap into your brain’s ability to form ideas rapidly while also minimising the risk of ‘zoning out’, reading on ‘autopilot’, and thus not understanding what is read.</p>
+<p>One of the most effective ways of speed reading is to practise the skills and processes associated with what is known as skimming and scanning (some aspects of which are referred to as the SQ3R approach). In what follows, we will go through these skills in detail but relate the processes involved to visual icons which can act as quick references to/explanations of the activity being undertaken. Use these as ‘big picture’ prompts in order to keep focused on the different stages involved rather than getting bogged down with detailed, close, analytical reading and critical thinking (this will be covered in the next chapter).</p>
+</sec1>
+<sec1>
+<title><target target-type="page" id="page_"/>Reading techniques: skimming and scanning for dyslexics</title>
+<sec2>
+<sec3>
+<title>Skimming</title>
+<p>As the name and the icon on the left suggests, skimming is a very superficial, fast activity that requires little depth. It is for this reason that we can visualise it as akin to flicking through the pages of a book. It is a great technique to use to acquire a sense of the ‘big picture’, overall structure and content of the text very quickly. Lecturers will sometimes recommend that you read an entire book or article, and thus it might seem as though there is little point in skimming, or that it is too superficial. Not so. Skimming gives you a good sense of the entire text, so it is a vital preparatory exercise for dyslexics to do so that when the text is read in depth, the various elements you read can be seen within the context of the whole. In the case of extended reading lists or ‘recommended reading’, it is very tempting to think that you should read the texts from cover to cover. Indeed, sometimes it can feel like cheating not to do so. However, as a student, you are looking to find RELEVANT information QUICKLY, so skimming is an effective way of doing this and it can be a useful technique for very quickly assessing whether it’s going to be worth reading the text at all, or if so, which parts might be read or excluded. So, what sort of things are you looking for when you skim read a book or article? In order of importance, you should pay particular attention to the following:</p>
+<fig5/>
+<sec4>
+<label>1)</label>
+<title>Title and subtitle</title>
+<p>Occasionally, titles can be a little cryptic or abstract, but generally the title and subtitle can give you valuable clues as to whether the book or article is worth reading. Let’s imagine you are researching the benefits of higher education on society in the UK for an assign - ment. A search in a library catalogue might offer the following results. Let’s decipher and evaluate the potential usefulness of each in turn:</p>
+<fig6/>
+
+<p><target target-type="page" id="page_"/>They always say you should ‘never judge a book by its cover’, but as you can see here, you can get an awful lot of information from titles, and they can give you a good indication of how relevant they are to your task, so always pay attention to them.</p>
+</sec4>
+<sec4>
+<label>2)</label>
+<title><target target-type="page" id="page_"/>Abstract or synopsis</title>
+<p>As we have seen, some titles contain keywords or statements that are of immediate relevance to the topic under consideration, whereas others are more cryptic or ambiguous. To clarify whether these texts are likely to be useful, the next step is to look at the abstract or synopsis. Journal articles have abstracts (located at the beginning of the article), and monographs have a synopsis (usually either on the back cover or inside the front cover). In both cases, they consist of one or two short paragraphs that outline what the text is about. They usually identify:</p>
+<list list-type="numeric">
+<list-item><label>1)</label><p>The subject matter.</p></list-item>
+<list-item><label>2)</label><p>The research problem or context and why it matters.</p></list-item>
+<list-item><label>3)</label><p>The argument.</p></list-item>
+<list-item><label>4)</label><p>Methods or approach.</p></list-item>
+<list-item><label>5)</label><p>Key results or findings.</p></list-item>
+<list-item><label>6)</label><p>The implications of the research.</p></list-item>
+</list>
+<p>So, digging a little deeper, let’s see if Roland Barnett’s abstract can help us decide how useful his article may be for our assignment:</p>
+<fig7/>
+<p><target target-type="page" id="page_"/>What is also important about abstracts and synopses is that they often contain keywords (as underlined above), so you can keep an eye out for these to see whether they match what you are looking for. If the abstract/synopsis looks of interest and is relevant then read further. If it does not, reject it in favour of more immediately useful material.</p>
+</sec4>
+<sec4>
+<label>3)</label>
+<title>Contents page: chapter titles</title>
+<p>Chapter titles can also sometimes be cryptic, but the contents page ought to be your next port of call when skimming a text. Look for keywords or phrases that are relevant in the titles and reject any chapters that do not appear to be immediately useful. Again, time is of the essence here – don’t waste time reading chapters which might be interesting but ultimately irrelevant and don’t waste time reading them because you feel not doing so will be cheating (especially if the text has appeared on a mandatory reading list). For example, in the case of Docherty’s monograph, we can see that only around half of the book is of direct relevance to our purposes, even though the rest of the book may be very interesting indeed:</p>
+<fig8/>
+</sec4>
+<sec4>
+<label>4)</label>
+<title><target target-type="page" id="page_"/>Index</title>
+<p>The index is probably the most overlooked resource at your disposal. If you have access to a good index then finding the information you want can be very quick and efficient indeed. Some books have two indexes, one for key names, critics, authors or theorists and one for topics. Simply find the keyword or name you want and then look up the page number and find the issue/individual under consideration by scanning (more on scanning below). Let’s have a look at snapshots from pages 196–197 from Docherty’s topic index to see if there is anything that might relate specifically to our assignment:</p>
+<fig9/>
+</sec4>
+</sec3>
+</sec2>
+
+<sec2>
+<title><target target-type="page" id="page_"/>TIP</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>The index can help you narrow down which aspects of the chapter identified in the contents page are relevant, so use them in conjunction with each other.</p>
+<sec3>
+<sec4>
+<label>5)</label>
+<title>Subheadings</title>
+<p>Skim through the text and look for subheadings (just like the ones used here!), which can be invaluable in helping you to navigate the chapters and sections and can help you decide which are worth reading. In particular, look out for keywords (e.g. multiculturalism, profiteering or European Convention on Human Rights), key names (e.g. Shakespeare, Einstein or Obama) and key verbs (e.g. analysis, processing or applying). These will give you an excellent indication of what the section is about, and like titles, an immediate impression of its usefulness and relevance.</p>
+</sec4>
+<sec4>
+<label>6)</label>
+<title>Imagery</title>
+<p>‘One picture is worth a thousand words’ may well be a popular English idiom but visual material really is an essential part of grasping meaning from a text quickly when scanning – especially given that dyslexics have particular strengths in visualising ideas. Skim the text for diagrams, photographs, maps, graphs, pie charts, icons, bullet points or any other visual indicators of meaning. Humanities subjects tend to have less visual material, but the sciences and social sciences use them frequently (depending on the subject). Obviously, some visuals may be too technical to understand, but generally any visual material, especially if it is accompanied by a brief written explanation or key, can help you to quickly get an impression of what the subject is about or what the key findings may be.</p>
+</sec4>
+<sec4>
+<label>7)</label>
+<title>Introductions</title>
+<p>Introductions can be a useful place to focus upon when skimming. Even if the text you are reading has an abstract, the introduction can still be a good place to start as it can provide valuable, immediate information about the study and its implications. Introductions are useful because they usually provide the reader with the following information:</p>
+<list list-type="bullet">
+<list-item><p>What the book/study/chapter is about.</p></list-item>
+<list-item><p>Why it’s important.</p></list-item>
+<list-item><p>Some background so as to ‘set the scene’ and give the study a context.</p></list-item>
+<list-item><p>The purpose of the study.</p></list-item>
+<list-item><p>An argument.</p></list-item>
+</list>
+<p>In other words, the introduction gives us a sense of the ‘big picture’ and additional context over and above that provided by the abstract or synopsis. For this reason, it is an invaluable tool in the task of assessing the usefulness and relevance of the text, and it can provide a snapshot of what we need to know about the subject and why it’s important. At that point, we can make an informed decision as to whether to continue reading or not.</p>
+</sec4>
+<sec4>
+<label>8)</label>
+<title><target target-type="page" id="page_"/>Conclusions</title>
+<p>Conclusions can also be a valuable source of immediate information, especially in the case of journal articles or essays in edited collections. They can sometimes be a little disorientating as obviously, you only have a limited idea of what the author has said throughout the rest of the text, but they can be an effective way of quickly finding out the following information:</p>
+<list list-type="bullet">
+<list-item><p>Whether the author’s argument/thesis/research hypothesis has been proven or disproven (or was perhaps unsuccessful).</p></list-item>
+<list-item><p>The key, headline results.</p></list-item>
+<list-item><p>Why the study matters – how it has changed our understanding of the subject and itsimpact in relation to the world or the discipline.</p></list-item>
+<list-item><p>What further questions need answering or what further research needs undertaking.</p></list-item>
+</list>
+<p>In many respects, then, a good conclusion can again give us a snapshot of the ‘big picture’ (both of the research and its implications). This will give you a sense (in addition to that gleaned from the abstract, synopsis, introduction, imagery and subheadings) of whether it is relevant and useful and thus worth reading in more depth.</p>
+</sec4>
+<sec4>
+<label>9)</label>
+<title>Topic sentences</title>
+<p>A topic sentence is the first sentence you will come across when you read a new paragraph. You can find them by looking for indentations or spaces between the paragraphs. The significance of topic sentences for skimming is that:</p>
+<list list-type="alpha-lower">
+<list-item><label>a)</label><p>They are very easy to find.</p></list-item>
+<list-item><label>b)</label><p>They should contain two core ingredients which will tell you an awful lot about the content of the paragraph as a whole.</p></list-item>
+</list>
+
+<p>We will look more closely at how to write topic sentences in Chapter 5, but the key thing to remember is that all good topic sentences should contain:</p>
+<list list-type="numeric">
+<list-item><label>1)</label><p>A clear identification of the topic.</p></list-item>
+<list-item><label>2)</label><p>An indication of an argument or provable opinion.</p></list-item>
+</list>
+<p>These two ingredients should give you a very clear and immediate idea of whether the paragraph is going to be useful or relevant. So, let’s look at some examples. Imagine you need to write an essay about postwar British cinema and culture. Based on a cursory skim of the title, contents page and introduction, a book entitled British Culture of the Postwar: An Introduction to Literature and Society 1945–1999 by Alistair Davies and Alan Sinfield appears to be relevant, particularly the chapter ‘A Cinema in Between: Postwar British Cinema’, pp.110–123. Let’s look at some topic sentences from this chapter so as to evaluate their usefulness and relevance:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="20%"/>
+<col content-type="4" width="20%"/>
+<col content-type="5" width="20%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Paragraph:</p></entry>
+<entry align="left"><p>Topic sentence:</p></entry>
+<entry align="left"><p>Core themes:</p></entry>
+<entry align="left"><p>Relevance:</p></entry>
+<entry align="left"><p>Topic sentence reflects paragraph content:</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>1</p></entry>
+<entry align="left"><p>‘Had matters taken a different course, Brighton and Hove (where some of the earliest British filmmakers were based) rather than Hollywood might now be the centre of world cinema.’</p></entry>
+<entry align="left"><p>Background to the initial creativeness of British cinema, why it declined, and why Hollywood was so successful.</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+<entry align="left"><p>Yes</p>
+<p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>2</p></entry>
+<entry align="left"><p>‘Despite quotas, tariffs, tax advantages and subsidies to domestic producers, European national cinemas have been unable to reverse the domination of Hollywood.’</p></entry>
+<entry align="left"><p>Background to the rise of Hollywood and falling cinema attendance.</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+<entry align="left"><p>Yes, mostly</p>
+<p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>3</p></entry>
+<entry align="left"><p>‘Until the 1950s, cinema-going had been for most British families their favourite form of entertainment, but with the advent of the television (Independent Television began to broadcast in 1955) they preferred to stay at home or to spend their disposable income on new consumer goods and on other leisure pursuits.’</p></entry>
+<entry align="left"><p>Figures on falling cinema attendance and more recent rise in multiplexes as an outlet for Hollywood films.</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+<entry align="left"><p>Yes</p>
+<p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>4</p></entry>
+<entry align="left"><p>‘Nothing provides a more striking illustration of these issues than the British situation in the late 1940s.’</p></entry>
+<entry align="left"><p>In-depth discussion of the British market, government subsidies, import duties on American films, pressures from the American government and the appeal of American glamour absent from postwar Britain due to austerity.</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+<entry align="left"><p>Yes</p>
+<p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+</row>
+</tbody>
+</table>
+<p><target target-type="page" id="page_"/>As you can see here, the topic sentences give a largely accurate summary of what is within the paragraph and so during skimming you can quickly narrow down which paragraphs are of relevance, which are perhaps of some use, and which are not worth reading. All the above paragraphs look entirely relevant to our topic and provide both good background information as well as specific time periods, trends and influences.</p>
+</sec4>
+</sec3>
+<sec3>
+<title><target target-type="page" id="page_"/>A note of caution</title>
+<p>Textbooks, collected essays and introductory monographs are usually written with a student audience in mind and are thus fairly accessible. Topic sentences in some journal articles and monographs, on the other hand, are occasionally less clear. This can be owing to the obscurity and complexity of the issues discussed, because the writing itself is of dubious quality (even though the research may be groundbreaking!), or because the writer wrongly presumes that only specialists will read the work, so there is no need to make it accessible. Let’s look at a slightly less student-friendly text to see how the topic sentences differ. Imagine you are researching the issue of freedom of speech in readiness for an essay on freedom and democracy in the UK. A book entitled Extreme Speech and Democracy, edited by Ivan Hare and James Weinstein looks useful, particularly the chapter ‘Freedom of Speech in a Globalized World’ by Dieter Grimm (2009), pp.11–22. Let’s have a look at the first six topic sentences to see how well they reflect the content of the paragraph:</p>
+
+<table frame="box" rules="all">
+<colgroup>
+<col content-type="1" width="20%"/>
+<col content-type="2" width="20%"/>
+<col content-type="3" width="20%"/>
+<col content-type="4" width="20%"/>
+<col content-type="5" width="20%"/>
+</colgroup>
+
+<thead>
+<row>
+<entry align="left"><p>Paragraph:</p></entry>
+<entry align="left"><p>Topic sentence:</p></entry>
+<entry align="left"><p>Core themes:</p></entry>
+<entry align="left"><p>Topic sentence reflects paragraph content:</p></entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left"><p>1</p></entry>
+<entry align="left"><p>‘There is no democracy without public discourse and no public discourse without freedom of speech, freedom of the media, and freedom of information.’</p></entry>
+<entry align="left"><p>Mutual links between freedom of speech and democracy.</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>2</p></entry>
+<entry align="left"><p>‘Most socialist constitutions contained a right to free speech.’</p></entry>
+<entry align="left"><p>Link between socialism and freedom of speech with examples. Specific case of Australia introduced.</p></entry>
+<entry align="left"><p>Partly</p>
+<p><graphic orientation="portrait" xlink:href="figures_down"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>3</p></entry>
+<entry align="left"><p>‘The High Court reasoned that the Constitution declares Australia to be a democracy, and that there is no way to be a democracy without a recognition of freedom of speech.’</p></entry>
+<entry align="left"><p>Specific example of the Australian legal framework guaranteeing freedom of speech and the mutual importance of democracy and freedom of speech.</p></entry>
+<entry align="left"><p><graphic orientation="portrait" xlink:href="figures_up"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>4</p></entry>
+<entry align="left"><p>‘This is of some importance because it shows that freedom of speech does not derive its raison d’etre from democracy.’</p></entry>
+<entry align="left"><p>Free speech a necessary element for individuality, yet it is not an absolute right since it can harm others.</p></entry>
+<entry align="left"><p>Topic sentence and content misaligned and unclear.</p>
+<p><graphic orientation="portrait" xlink:href="figures_down"/></p></entry>
+</row>
+
+<row>
+<entry align="left"><p>5</p></entry>
+<entry align="left"><p>‘Even a country whose constitution reads “Congress shall make no law . . . abridging the freedom of speech”, as does the First Amendment to the United States Constitution, recognises that not all speech is protected.’</p></entry>
+<entry align="left"><p>Not all speech is protected, and there is a difference in the purpose for which free speech is protected and its limitations – examples of Chinese vs. Canadian and South African Constitutions</p></entry>
+<entry align="left"><p>Topic sentence seems to indicate a focus on US, but this is not really what the paragraph is about.</p>
+<p><graphic orientation="portrait" xlink:href="figures_down"/></p></entry>
+</row>
+</tbody>
+</table>
+
+<p><target target-type="page" id="page_"/>So, as you can see, not all topic sentences, especially in academic monographs and journal articles, are accurate in mapping out what the rest of the paragraph will discuss, so while topic sentences are an extremely valuable tool in helping you skim for information, do not necessarily rely upon them. You may need to dig deeper to find the information you need.</p>
+</sec3>
+</sec2>
+</sec1>
+<sec1>
+<title>Skimming in practice: time and making annotations</title>
+<p>You should aim to skim as fast as you can (as a guide, a journal article of 5,000 words can be skimmed in a maximum of 8 minutes). If you start labouring the process, you will end up going too deep and will lose sight of the ‘bigger picture’ and overall impression of the text. The key thing to remember is that at this stage you are ONLY assessing the RELEVANCE of the text in relation to your PRIORITIES. In other words, if a quick skim of the text does not reveal material to be immediately applicable to your assignment or gaining specific information/knowledge, you need to move on to another text that is to avoid wasting valuable time that could be more usefully deployed reading something more productive. At this stage in the process you could start to annotate the text using a highlighter pen or use Post-it notes to draw your attention back to the relevant sections and paragraphs. By doing so you can easily return to them later, either to scan for specific information, or close read in order to understand and analyse the author’s ideas, argument or theory.</p>
+<sec2>
+<title>TIP</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>One method for enhancing comprehension, seeing its importance in relation to the ‘big picture’ and revising the material (perhaps in readiness for an exam or just for recalling important points), is to make a note at the side of the paragraph that reduces/summarises what the paragraph is about in just one or two words. This will jog the memory when you return to it later and helps you identify and visualise the ‘big picture’, especially if you are using the scroll/text-mapping technique outlined as follows.</p>
+<sec3>
+<title><target target-type="page" id="page_"/>Creating a scroll</title>
+<p>If you can print out the material (individual chapters and journal articles are only really suitable for this), one method of skimming in order to see the ‘big picture’ is to produce a scroll. This is also known as ‘text-mapping’, and was devised by R. David Middlebrook in 1990. The scroll is an effective way of skimming backwards and forwards across the text so as to get an immediate, overall impression of the article, especially when you have marked up the text with your own very brief notes. The way to produce a scroll is to:</p>
+<list list-type="numeric">
+<list-item><label>1)</label><p>Print the article/chapter out on single sided paper.</p></list-item>
+<list-item><label>2)</label><p>Make notes on the text/highlight the main paragraphs, ideas or sections of relevance. These
+notes can often be one-word descriptions such as ‘introduction’, ‘background’, ‘data’,
+‘theory’, or ‘benefits of consumerism’. You can add to these brief evaluations such as ‘useful’,
+not ‘useful’, ‘maybe useful’ depending on what works best for you.</p></list-item>
+<list-item><label>3)</label><p>Lay the papers out in order and Sellotape them together.</p></list-item>
+</list>
+<p>The complete scroll or ‘text-map’ might look something like this:</p>
+<fig10/>
+<p>As you can see, one glance can quickly reveal the ‘big picture’ of the article/chapter and this makes it easy to quickly find the information you want while setting it within the context of the overall argument being advanced. For more details about ‘text-mapping’ see www.textmapping.org/.</p>
+</sec3>
+</sec2>
+<sec2>
+<title>TIP</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>If you prefer looking at things from top to bottom rather than left to right, simply Sellotape the short edges of the papers instead of the long edges. Orientate the scroll in whatever way works best for you.</p>
+<p>Once you have briefly skimmed the material and have ascertained that it is indeed worth reading in further depth, the next technique to use is scanning.</p>
+<sec3>
+<title><target target-type="page" id="page_"/>Scanning</title>
+<p>Like skimming, the process of scanning a text is quick, but delves into the material at a deeper level. Here you are aiming to find specific pieces of information as quickly as possible. This information is usually something that you already know about (and you are looking for references to it through keywords, dates, names or data). For instance, you might want to know if the author discusses a specific author or theory, whether they refer to a specific Act of Parliament or legislation, or maybe you are looking for key phrases such as ‘credit crunch’, ‘climate change’ or ‘zone of proximal development’.</p>
+<fig11/>
+<p>A vital aid in this process is the use of a good index (possibly accompanied by the contents page). As we saw earlier, in many cases you can simply look up the keyword, author, theory or even phrase in the index and it will list all the pages on which those terms or pieces of information occur. This means that you can simply scan specific pages rather than entire chapters or sections, thus saving you both time and effort.</p>
+<p>Not all indexes are good (and in some cases, such as in a journal article, there might not even be one), but they can be a vital tool to use when scanning. On occasions when the index is unhelpful or unavailable, you might need to scan larger sections of text (possibly with the help of the contents page). To avoid larger sections of text becoming confusing (perhaps even with words jumping around) you should use coloured overlays if you find them helpful (your dyslexia diagnosis should be able to advise on which colours are best for you). The key thing to remember is to keep scanning rather than getting bogged down in detail. One way of doing this is to use your finger to trace the sentences, but unlike what you may have been taught at school, DO NOT ALLOW YOUR FINGER TO STOP MOVING. Do not slow down – keep scanning the pages and keep the momentum, and do not start reading individual words or sentences. At this point you are merely looking for key words, facts or phrases and nothing more.</p>
+</sec3>
+</sec2>
+<sec2>
+<title>TIP</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>If there are lots of references to what you are looking for and they occur within a few pages of each other (e.g. ‘materialism’, pp.89, 91–92, 95–97), then it’s probably worth just reading the entire section rather than looking up each individual reference.</p>
+<p><target target-type="page" id="page_"/>Once you have arrived at the page referenced in the index, scan up and down looking for the keyword, term, date, fact or piece of information that you need. Once found, you have several options, which can be summarised like this:</p>
+<fig12/>
+</sec2>
+</sec1>
+<sec1>
+<title><target target-type="page" id="page_"/>Scanning for the ‘gist’: identifying key sites of meaning in sentences and clauses</title>
+<p>Another aspect of scanning is to quickly look through paragraphs and particularly sentences, to understand the ‘gist’ of what is going on. To do this you need to be looking for and identifying key sites of meaning (this will again help you to identify the ‘big picture’ rather than identifying, reading and decoding every single word). Once you have identified the key ideas in each paragraph (via the topic sentence or by using the index), you can start looking for specific pieces of information. Begin by identifying individual sentences/clauses and where they begin and end. You should be able to spot them quite easily. The human eye uses what’s known as peripheral vision to see items either side of the main focus, and thus we can see anywhere between five to seven words at any one time. Use this ability to get a sense of the various clusters of sentences quickly. The next task is to identify the key sites of meaning within individual sentences (particularly main clauses). This entails scanning for three elements, namely the topic, the action (usually in the form of a key verb or verb phrase) and specific detail (often in the form of keywords/dates/names). Subordinate clauses, as we shall see in Chapter 6, largely supply additional or clarifying information, and can thus be glossed over at this stage. These elements, as the icon above indicates, are like jigsaw pieces – separately they give an indication of the meaning but see them together (even if they are not actually slotted together), and you can immediately get a ‘gist’ of the overall picture and how it all fits together. Identifying these aspects will allow you to piece together the meaning and see how it all fits into the ‘big picture’ of the paragraph and then the chapter/article/section as a whole. Let’s take the following sentence by way of illustration:
+<disp-quote>
+<p>Despite its popularity, social media has become an insidious, negative and highly addictive means of disseminating ‘fake news’.</p>
+</disp-quote>
+</p>
+<fig13/>
+<p>Here we have what’s known as a complex sentence (complex as it involves the dependent/ subordinate clause ‘despite its popularity’), but there are only really three elements, three pieces of the jigsaw, which are of immediate interest. ‘Social media’ indicates the topic, ‘disseminating’ is the verb phrase or action part of the sentence, and ‘fake news’ denotes the primary object and detail of the sentence – its key purpose and argument. In other words, the sentence follows the standard subject, verb, object (SVO) sequence, which is considered to be the cornerstone of English written and spoken sentences, and is even thought to be the most inherently ‘obvious’ to human psychology (Diamond, 2002, p.143). So, irrespective of what type of sentence we are looking at (simple, compound, complex, or compound-complex – all of which we will examine in Chapter 6), the main clauses are a means of communicating a ‘big picture’ – action – detail sequence of ideas, and as such the topic, verb (action) and detail elements of sentence structures form the sites of the keywords and meaning. Indeed, if we strip away all the words in black in the sample sentence above and below (particularly in the subordinate clauses), you can still get a good ‘gist’ of what the sentence is about, including its key argument, just by scanning for, identifying and reading three key components. Let’s have a look at some typical sentences you may encounter in your reading to see how these elements can be identified:</p>
+<list list-type="bullet">
+<list-item><p>‘The culture industry as a whole has moulded men as a type unfailingly reproduced in every product’ (Adorno and Horkheimer, 1999, p.35).</p></list-item>
+<list-item><p>‘The unconscious – that is to say, the “repressed” – offers no resistance whatever to the efforts of the treatment’ (Freud, 2015, p.13).</p></list-item>
+</list>
+<p><target target-type="page" id="page_"/>In the case of compound sentences (two independent clauses), you can normally gloss over the second clause (even though it contains its own topic, verb and detail), as the first clause usually lays out the foundations and the second provides additional detail (as is often indicated by conjunctions – words such as ‘and’, ‘that’, ‘but’, ‘so’, ‘as’, ‘or’ – all of which indicate an additional level of detail or clarification). When scanning, you are only looking for the ‘gist’, so don’t worry too much about what comes after the comma – you can read this once you have identified whether it is worth looking at in further detail. For example:</p>
+<list list-type="bullet">
+<list-item><p>‘The importance of the role of the bioinformatician as a major player in modern biology cannot be overstated, and it will only grow with the advent of next-generation sequencers and sequencing pipelines’ ( Janitz, 2008, p.9).</p></list-item>
+<list-item><p>‘Like most humanities scholars, musicologists are prone to build interpretations on very small data sets or even on single instances, and the less the evidence that has survived from the past, the stronger this tendency will be’ (Clarke and Cook, 2004, p.4).</p></list-item>
+</list>
+<p>Some reading guides recommend scanning for verbs and nouns as a means of increasing reading speed and comprehension, most notably Howard Stephen Berg’s Super Reading Secrets (1992). But you need to be able to find these elements in the first place. Where do nouns and verbs usually occur? How do you find them? As we shall see in Chapter 6, this is not an easy task for dyslexics since the rules of grammar are often too abstract to be easily understood. What is more, on their own, grammatical principles do not allow you to see how the individual elements fit into the ‘bigger picture’ of the sentence. The word ‘see’ here is used very deliberately, as an understanding of grammar, even if you are lucky enough to have grasped it, does not allow us to visualise the ‘big picture’ of the sentence and thus the units/key sites of meaning. This is where it is beneficial to conceive of the basic structure of sentences, and main clauses in particular, as like a Christmas Cracker:</p>
+<fig14/>
+<p>When reading, then, visualise each sentence as a Christmas Cracker and look for the ‘big picture’ – action – detail sequence. Focus on these three elements as a means of locating the most valuable information (usually nouns and verbs) quickly. Once you have done that, you are ready to make the next step and start critically evaluating the material, which is the focus of the next chapter.</p>
+</sec1>
+<sec1>
+<title><target target-type="page" id="page_"/>Maintaining focus and concentration</title>
+<p>Many students feel that they need to spend long periods of time reading without taking regular breaks. However, studies have suggested that concentration declines markedly after 10–15 minutes, while recent research has rather controversially suggested that human beings have an attention span which barely rivals that of a goldfish (Wilson and Korn, 2007; Gausby, 2015). Another study has found that during lectures, attention spans wax and wane, with attention lapses occurring most notably after 4.5–5.5 minutes, 7–9 minutes and 9–10 minutes (Bunce, Flens and Neiles, 2010). Dyslexics, of course, fair even worse and it’s a well-known fact that short attention spans are a tell-tale symptom of dyslexia. If you try to concentrate for long periods you will end up exhausted and overtired (yet another characteristic of dyslexia). It is best to have short, intense bursts of activity rather than persevering and ending up frustrated that either you have not fully understood everything, or that your mind has wandered off course. Try the following techniques to maintain and improve your concentration:</p>
+
+<list list-type="simple">
+<list-item><label>1)</label><p>Never read for longer than 5 minutes before having a quick 1-minute break to ‘reset’ your mind. If necessary, do this at the end of every paragraph (this will also help if you suffer from visual stress as it will give your eyes a rest).</p></list-item>
+<list-item><label>2)</label><p>Try to summarise (in one or two words) each paragraph before your break, so that when you go back to it the note will jog your memory as to what you’ve just read.</p></list-item>
+<list-item><label>3)</label><p>After each break, take a few seconds to re-read the one or two word summaries you have written at the side of the preceding paragraphs so as to re-orientate yourself back into the ‘big picture’. This also reinforces what you have learned.</p></list-item>
+</list>
+</sec1>
+<sec1>
+<title>Using your difficulties in maintaining focus to your advantage: some advanced techniques</title>
+<sec2>
+<sec3>
+<title>Dual reading</title>
+<p>Dyslexics often have a short-term working memory, which means that if you read a text for too long you will lose focus, read on ‘autopilot’ (you are reading the words but you’re actually just daydreaming), or give up entirely. And because dyslexics need quick, imme diate, preferably visual gratification, they often get bored by persevering with one reading at a time. One way around this is to alternate between two chapters/books or articles. Read a paragraph, summarise it, have a break and then flip to another text you are working on. This might sound confusing (and perhaps it is to the non-dyslexic), but dyslexics, as Eide and Eide have suggested, often excel at multidimensional or ‘multiframework approaches’ that ‘engage their ability to see interconnections’ (2011, p.174), so why not give it a go? It allows you to pursue multiple interests at once, ‘resets’ your concentration, and it helps you sustain focus while also covering a lot of ground.</p>
+<fig15/>
+</sec3>
+<sec3>
+<title><target target-type="page" id="page_"/>Dual assistive reading</title>
+<p>This is a very similar technique to that outlined above, but instead of alter nating between two different academic texts, the aim here is to alternate between a textbook/study guide/ introductory website and an academic text. This is a variation of a strategy that Eide and Eide accurately term ‘pre-equipping’, whereby students read sections of the textbook/study guide or introductory website first to get an accessible, student-friendly overview or ‘big picture’ of the subject (2011, p.177). Here, however, you alternate these readings with more in-depth academic texts on the same topic. This will allow you to flip between ‘big picture’ introductions and technical/scholarly detail so that you can situate the latter into its context more easily. Importantly, this technique also allows you to associate new information with what you already know from the textbook/study guide/introductory website. This has an important effect on reinforcing, consolidating and scaffolding learning. Again, try reading a paragraph or two, summarise it, and then flip texts – don’t get bogged down in reading too much from either text without flipping, or your attention will wane.</p>
+<fig16/>
+</sec3>
+</sec2>
+</sec1>
+<sec1>
+<title>‘Big picture’ speed reading at university – bringing it all together</title>
+<p>While reading to understand and reading to write remain central to why you should read at university, these purposes are largely governed by other issues and pressures, most notably:</p>
+<list list-type="numeric">
+<list-item><label>1)</label><p>Time (not only in terms of deadlines but also the need to read quickly).</p></list-item>
+<list-item><label>2)</label><p>Relevance (how relevant is what you are reading to the purposes outlined above?).</p></list-item>
+<list-item><label>3)</label><p>Priorities (what needs to be read first or most urgently to address the purposes above).</p></list-item>
+</list>
+<p><target target-type="page" id="page_"/>One way of bringing these competing, yet also complimentary aspects of university reading into an easily grasped process is to visualise the task of reading at university as like an old-fashioned egg timer – the shape of which indicates the depth of the reading and how it relates specifically to the pressures of time and the relevance of the material. Let’s return to and examine the two purposes of reading outlined at the beginning of this chapter to see how the skills that you need to be learning and practising can be brought together as a process and mapped onto a ‘big picture’, visual template:</p>
+<fig17/>
+<p>As you can see by the shape of the upper half of the egg timer, the focus gets more specific but also more skilled and time-consuming as you work through the processes of skimming and scanning, but where the information is relevant to your priorities, it leads to understanding and knowledge. This understanding and knowledge can then be applied in a wide range of contexts within your discipline but also your life, hence why the second half of the timer broadens back out into the general, into the ‘bigger picture’ and its application to the world. In the case of reading for essay writing, meanwhile, the egg timer can be subdivided into preparation and application:</p>
+<fig18/>
+<p><target target-type="page" id="page_"/>The process here is similar to reading to learn and understand (because without this you cannot use the source effectively in your writing), but then the second half shows how you can apply what you have learned in your writing. Quotation is specific and detailed, hence why it appears at the top, narrow or focused point of the triangle. Paraphrasing and summarising, meanwhile, get progressively less specific and more general in terms of the way they capture the original author’s ideas, but also how you use them in your essays (we will look at quotation, paraphrasing, summarising and their visual icons in Chapter 5). Governing both reading frameworks, though, is the overarching issues of time, relevance and priorities and application. Time is possibly the most crucial factor here (hence why the reading process is depicted as an egg timer), as even non-dyslexic students tend to get bogged down reading detail rather than skimming and scanning. Don’t waste time – set yourself short time limits to read articles and chapters so as to avoid reading detail – you can go back to this later once you have a sense of the relevance of the material and the ‘big picture’.</p>
+<sec2>
+<title><target target-type="page" id="page_"/>TIP</title>
+<p><graphic orientation="portrait" xlink:href="figures_red"/>Keep referring to the two diagrams to remind yourself to stay on track with your reading. Skim and scan quickly and keep to your priorities. If what you are reading doesn’t look relevant, either move on to a section that does or look at the next item on your reading list.</p>
+</sec2>
+</sec1>
+<sec1>
+<title>Summary</title>
+<p>In the next chapter, we will consider how to subject the information you have found to scrutiny and critical analysis, but for now, practise and keep in mind the following key points – they may well save you an awful lot of time, energy and frustration:</p>
+<list list-type="bullet">
+<list-item><p>Read effectively, efficiently and strategically rather than trying to read everything.</p></list-item>
+<list-item><p>Read abstracts and contents pages first to check suitability and relevance before reading anything else – don’t waste time.</p></list-item>
+<list-item><p>Skim and scan texts before reading in depth.</p></list-item>
+<list-item><p>Make uses of indexes to search for key terms, ideas or authors.</p></list-item>
+<list-item><p>Read in small doses, with plenty of breaks to ‘reset’ your concentration (quality is often better than quantity).</p></list-item>
+<list-item><p>Use online articles and guides for introductory or more accessible information (Dual Assistive Reading) but always reference, quote or summarise from academic, peer-reviewed sources so as to maintain academic credibility and integrity.</p></list-item>
+<list-item><p>Use textbooks that are laid out in a way that suits you – use them mainly as introductory guides or for revision.</p></list-item>
+<list-item><p>Read widely as a means of familiarising yourself with the academic community and the writing conventions/styles of the subject you are studying.</p></list-item>
+<list-item><p>Read to learn and expand your knowledge – not just to write essays.</p></list-item>
+</list>
+</sec1>
+</body>
+
+<back>
+<ref-list>
+<title><target target-type="page" id="page_"/>Bibliography</title>
+<ref>Clarke, Eric, and Cook, Nicholas, (2004) Empirical Musicology: Aims, Methods, Prospects. Oxford: Oxford University Press.</ref>
+<ref>Davies, Alistair, and Sinfield, Alan, (2000) British Culture of the Postwar: An Introduction to Literature and Society 1945–1999. Oxford: Routledge.</ref>
+<ref>Diamond, Jared, (2002) The Rise and Fall of the Third Chimpanzee: How Our Animal Heritage Affects the Way We Live. London: Vintage.</ref>
+<ref>Docherty, Thomas, (2011) For the University: Democracy and the Future of the Institution. London: Bloomsbury Academic.</ref>
+<ref>Eide, Brock L. and Eide, Fernette, F., (2011) The Dyslexic Advantage: Unlocking the Hidden Potential of the Dyslexic Brain. London: Hay House.</ref>
+<ref>Freud, Sigmund, (2015) Beyond the Pleasure Principle. New York: Dover Publications, Inc.</ref>
+<ref>Gausby, Alyson, (2015) ‘Attention Spans’, ‘Consumer Insights’, Microsoft Canada.</ref>
+<ref>Grimm, Dieter, (2009) ‘Freedom of Speech in a Globalized World’, in Hare, Ivan, and Weinstein, James (eds) Extreme Speech and Democracy. Oxford: Oxford University Press, pp.11–22.</ref>
+<ref>Henkel, Marion, (2015) 21st Century Homestead: Sustainable Agriculture II: Farming and Natural Resources. Lulu.</ref>
+<ref>Janitz, Michal, (2008) Next Generation Genome Sequencing: Towards Personalized Medicine. Weinheim: Wiley-Blackwell.</ref>
+<ref>Kezar, Adrianna, (2004) ‘Obtaining Integrity? Reviewing and Examining the Charter between Higher Education and Society’, The Review of Higher Education, 27:4, pp.429–459.</ref>
+<ref>Lindzen, Richard S., (1990) ‘Some Coolness Concerning Global Warming’, Bulletin of the American Meteorological Society, 71:3, pp.288–299.</ref>
+<ref>O’Callaghan, Jonathan, (2015) ‘Is global warming increasing the risk of shark attacks? Higher temperatures blamed for record number in North Carolina’, Daily Mail, 2 July [Online]. Available at: www.daily mail.co.uk/sciencetech/article-3147050/Is-global-warming-increasing-risk-shark-attacks-Highertemperatures- blamed-record-numbers-North-Carolina.html#ixzz4cv4qE5br (accessed 30 July 2017).</ref>
+<ref>Pinker, Steven, (2015) The Sense of Style: The Thinking Person’s Guide to Writing in the 21st Century. London: Penguin Books.</ref>
+<ref>Shaywitz, Sally, E., (1996) ‘Dyslexia’, Scientific American 275:5 [Online]. Available at: www.scientific american.com/article/dyslexia/ (accessed 30 March 2017).</ref>
+<ref>Stancliffe, George, (2003) Speed Reading 4 Kids. The American Speed Reading Project.</ref>
+<ref>Toikka, Tarmo, (2008) Effective Screen Reading: Manage E-mail and the Internet More Effectively. Massachusetts: HRD Press, Inc.</ref>
+<ref>Wikipedia, (2017) Global Warming. Available at: https://en.wikipedia.org/wiki/Global_warming (accessed: 27 December 2016).</ref>
+<ref>Wilson, Karen, and Korn, James H., (2007) ‘Attention during Lectures: Beyond Ten Minutes’, Teaching of Psychology, 34:2, pp.85–89.</ref>
+</ref-list>
+</back>
+</book-part>
+</book-body>
+</book>

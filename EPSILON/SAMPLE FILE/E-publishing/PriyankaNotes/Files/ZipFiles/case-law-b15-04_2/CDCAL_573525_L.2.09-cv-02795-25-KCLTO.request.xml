@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>UNITED STATES DISTRICT COURT</venue.name>
+<venue.name>CENTRAL DISTRICT OF CALIFORNIA</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>FREDA TANUVASA, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>FEDERAL DEPOSIT INSURANCE CORPORATION, (&#x201C;FDIC&#x201D;) Successor to Washington Mutual Savings bank (&#x201C;WaMu&#x201D;), JP. MORGAN CHASE BANK, NA (&#x201C;Chase&#x201D;), purchaser of WaMu from FDIC, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. CV 09-02795 DDP (AGRx)</docket.line>
+<docket.number>CV 09-02795 DDP (AGRx)</docket.number>
+<docket.line suppress-flag="y">2:09-cv-02795-DDP-AGR</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 10/14/2009</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>Amended Order Granting Motion to Dismiss</bold></headtext></head>
+<head><headtext align="center">[Motion filed on June 17, 2009]</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">DEAN D. PREGERSON United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">This matter comes before the Court on defendant J.P Morgan Chase's (&#x201C;Chase&#x201D;) motion to dismiss for failure to state a claim. After reviewing the materials submitted by the parties, the Court grants the motion with respect to Plaintiff's federal law claims.</paratext></para>
+<para><paratext ID="p2" level="1">The Court grants Plaintiff leave to amend the complaint with respect to her Truth in Lending Act (&#x201C;TILA&#x201D;) damages claim, her TILA rescission claim, and her Home Owner Equity Protection Act (&#x201C;HOEPA&#x201D;) claim. If she fails to amend the complaint such that it states a federal claim on which relief can be granted, the Court will likely decline to exercise supplemental jurisdiction over the pendant state law claims. <underscore>See</underscore> 28 U.S.C. &#167; 1367(c). Plaintiff must file an amended complaint within twenty (20) days of the date of this Amended Order.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>I. Background</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">Pro se plaintiff Freda Tanuvasa obtained a $669,755 mortgage loan in connection with residential real property located at 13236 Rutgers Avenue in Downey, California. (Compl. &#182; 7.) The loan was secured by a Deed of Trust that was recorded with the Los Angeles County Recorder's Office on December 11, 2006. (<underscore>Id.</underscore>) The Deed of Trust identifies defendant Washington Mutual Bank (&#x201C;WaMu&#x201D;) as the lender, and the California Reconveyance Company as the trustee. Chase acquired WaMu's banking operations from the Federal Deposit Insurance Corporation (&#x201C;FDIC&#x201D;) on September 25, 2008. (Request for Judicial Notice (&#x201C;RJN&#x201D;) Ex. 1.)<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p4">&#8195;Chase asks the Court to take judicial notice of the Chase-FDIC purchase agreement. The document is available for public review on the FDIC's website, and plaintiff quotes it at length in her complaint. The Court concludes that the purchase agreement is a matter of public record, provided by a government agency for public review, and as such, it is judicially noticeable. <underscore>See See NRDC v. Kempthorne</underscore>, 539 F. Supp. 2d 1155, 1166-67 (E.D. Cal. 2008)(taking judicial notice of documents from the website of the United States Bureau of Reclamation).</paratext></para></footnote.body></footnote>
+<para><paratext ID="p5" level="1">Plaintiff alleges that at the time of purchase, both she and the lender believed the property was worth more than $700,000. (Compl. &#182; 45.) She asserts that, as of April 2009, the property was worth less than $350,000. (Compl. &#182; 46.) At some point, plaintiff defaulted on the loan and lost her home in a foreclosure action. (Compl. &#182; 26.) Chase, after acquiring title to the property in the foreclosure sale, has moved to evict her. <underscore>Id.</underscore></paratext></para>
+<para><paratext ID="p6" level="1">In her complaint, plaintiff contends that WaMu, the original lender, failed to make material loan disclosures in accordance with TILA, 15 U.S.C. &#167; 1601 <ital>et seq.</ital>, and HOEPA, 15 U.S.C. &#167; 1639 <ital>et seq.</ital> She argues, for example, that WaMu did not inform her of her right to rescind, calculate the annual percentage rate of interest on the loan, or disclose the direct and indirect fees associated with the transaction. Compl. &#182;&#182; 11-13. She brought the present action seeking damages and declaratory and injunctive relief on May 15, 2009.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>II. Legal Standard</bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging">A. <underscore>Motion to Dismiss under Rule 12(b)(6)</underscore></headtext></head>
+<section.body>
+<para><paratext ID="p7" level="1">Pursuant to Federal Rule of Procedure Rule 12(b)(6), a complaint is subject to dismissal when the plaintiff's allegations fail to state a claim upon which relief can be granted.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference> When considering a Rule 12(b)(6) motion, courts accept the plaintiff's allegations of material fact as true, and construe the complaint in the light most favorable to the non-moving party. <underscore>Cahill v. Liberty Mut. Ins. Co.</underscore>, 80 F.3d 336, 337-338 (9th Cir. 1996).</paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p8">&#8195;As a general rule, pro se pleadings are to be liberally construed, and courts must give the claims of pro se litigants fair and meaningful consideration. <underscore>See Haines v. Kerner</underscore>, 404 U.S. 519 (1972). Pro se plaintiffs are not, however, exempt from the requirement of stating a claim upon which relief may be granted.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p9" level="1">In <underscore>Ashcroft v. Iqbal</underscore>, 129 S.Ct. 1937, 1950 (2009), the Supreme Court explained that a court considering a 12(b)(6) motion should first &#x201C;identify[] pleadings that, because they are no more than conclusions, are not entitled to the assumption of truth.&#x201D; Next, the court should identify the complaint's &#x201C;well-pleaded factual allegations,<charfill numchar="3">&#8228;</charfill> assume their veracity and then determine whether they plausibly give rise to an entitlement to relief.&#x201D; <underscore>Id.</underscore></paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>III. Discussion</bold></headtext></head>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>A. <underscore>Chase's Successor Liability</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">Chase contends that, pursuant to the FDIC-Chase purchase agreement, it did not assume &#x201C;any liabilities for tortious or other conduct&#x201D; arising from WaMu's lending activity. (Reply Br. at 1.) Because Chase raised the successor liability argument for the first time in its reply brief, the Court declines to consider it. <underscore>See Delgadillo v. Woodford</underscore>, 527 F.3d 919, 930 n. 4 (9th Cir. 2008).</paratext></para>
+<para><paratext ID="p11" level="1">Accordingly, for the purposes of the present motion, the Court concludes that the FDIC-Chase purchase agreement does not preclude plaintiff's claims against Chase as a matter of law.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. <underscore>TILA</underscore></bold></headtext></head>
+<section.body>
+<para><paratext ID="p12" level="1">TILA and its implementing regulations require lenders to make certain disclosures in connection with consumer loans. TILA's purpose is to &#x201C;protect consumers' choice through full disclosure and to guard against the divergent and at times fraudulent practices stemming from uninformed use of credit.&#x201D; <underscore>King v. California</underscore>, 784 F.2d 910, 915 (9th Cir. 1986).</paratext></para>
+</section.body>
+<head><headtext align="center">1. Damages</headtext></head>
+<section.body>
+<para><paratext ID="p13" level="1">Plaintiff contends that defendant's alleged TILA violations entitle her to statutory damages.</paratext></para>
+<para><paratext ID="p14" level="1">TILA provides that an &#x201C;action [for damages]<charfill numchar="3">&#8228;</charfill> may be brought in any United States district court, or in any other court of competent jurisdiction, within one year from the date of the occurrence of the violation.&#x201D; 15 U.S.C. &#167; 1640(e). The Ninth Circuit has held that the one-year window for filing a TILA damages claim generally &#x201C;runs from the date of the consummation of the transaction.&#x201D; <underscore>King v. State of Cal.</underscore>, 784 F.3d 910, 915 (9th Cir. 1986).</paratext></para>
+<para><paratext ID="p15" level="1">TILA's statute of limitations may, however, be subject to equitable tolling. The doctrine of equitable tolling suspends the applicable limitations period &#x201C;until the borrower discovers or had reasonable opportunity to discover the fraud or nondisclosures that form the basis of the TILA action.&#x201D; <underscore>Cervantes v. City of San Diego</underscore>, 5 F.3d 1273, 1277 (9th Cir. 1993). Courts must consider the applicability of equitable tolling whenever a complaint, liberally construed, alleges facts showing the &#x201C;potential applicability of the equitable tolling doctrine.&#x201D;</paratext></para>
+<para><paratext ID="p16" level="1">Here, the Court can discern from the face of the complaint that TILA's one-year statute of limitations has run. Plaintiff obtained the loan at issue in this case in December 2006. She filed her complaint in this action on May 15, 2009. Therefore, unless equitable tolling applies, TILA's statute of limitations bars her claim for damages.</paratext></para>
+<para><paratext ID="p17" level="1">Plaintiff does not argue that equitable tolling applies, and the Court finds no basis in her complaint for concluding that it should. The complaint does not indicate when plaintiff discovered the alleged TILA violation, and it does not plead facts suggesting that defendant took steps to prevent her from discovering the alleged nondisclosures. The Court thus grants Chase's motion to dismiss plaintiff's TILA damages claim, but grants plaintiff leave to amend her complaint to include facts relevant to the applicability of equitable tolling.</paratext></para>
+</section.body>
+<head><headtext align="center">2. Rescission</headtext></head>
+<section.body>
+<para><paratext ID="p18" level="1">TILA gives a borrower a right to rescind any credit transaction involving a security interest in the borrower's home if the lender fails to make the required disclosures. 15 U.S.C. &#167; 1635.<footnote.reference ID="fr3" refid="f3" style="percent_n">3</footnote.reference> The right of rescission, however, &#x201C;does not apply to [] residential mortgage transaction[s].&#x201D; <underscore>Id.</underscore> &#167; 1635(e)(1). 15 U.S.C. &#167; 1602(w) defines the phrase &#x201C;residential mortgage transaction&#x201D; as &#x201C;a transaction in which a mortgage, deed of trust, purchase money security interest arising under an installment sales contract, or equivalent consensual security interest is created or retained against the consumer's dwelling to finance the acquisition or initial construction of such dwelling.&#x201D;</paratext></para>
+<footnote ID="f3"><footnote.body><para><label.designator>FN3.</label.designator><paratext ID="p19">&#8195;Unlike plaintiff's damages claim, any right to rescission under &#167; 1635 has a three-year limitations period. <underscore>Beach v. Ocwen Federal Bank</underscore>, 523 U.S. 410, 415-18 (1998). Accordingly, plaintiff's rescission claim is not time barred.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p20" level="1">Plaintiff does not allege that the loan at issue was used for any reason other than to finance the acquisition of her home. Further, the Court takes judicial notice of a grant deed, dated October 31, 2006, where a Kevin Lee Wilson transferred the 13236 Rutgers Avenue Property to Plaintiff. (RJN, Ex. 2.) Accordingly, the Court concludes the that the mortgage transaction at issue in this case was a residential mortgage transaction within the meaning of 15 U.S.C. &#167; 1602(w), and thus Plaintiff does not have a right to rescind under TILA.</paratext></para>
+<para><paratext ID="p21" level="1">The Court grants Plaintiff leave to amend her complaint so that she can include facts relating to whether the mortgage transaction at issue in this case was a purchase money mortgage.</paratext></para>
+<para><paratext ID="p22" level="0">///</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="1" turnover="hanging"><bold>B. HOEPA</bold></headtext></head>
+<section.body>
+<para><paratext ID="p23" level="1">Congress enacted HOEPA, which amended TILA in certain respects, to &#x201C;combat predatory lending.&#x201D; <underscore>In re First Alliance Mortg. Co.</underscore>, 471 F.3d 977, 984 n. 1 (9th Cir. 2006). For loans that fall within the scope of HOEPA, the Act requires, in relevant part, that lenders make certain warnings and disclosures at least three business days prior to the consummation of a HOEPA transaction. <underscore>See</underscore> 15 U.S.C. &#167; 1639(a)-(b)(1).</paratext></para>
+<para><paratext ID="p24" level="1">First, the Court notes that HOEPA is simply a component of TILA, and thus, it is governed by the same statute of limitations. <underscore>See In re Cmty. Bank of Northern Va.</underscore>, 418 F.3d 277, 304-05 (3d Cir. 2005) (noting that there is a &#x201C;one-year statute of limitations on affirmative TILA and HOEPA claims&#x201D;). For the reasons discussed above with respect to plaintiff's TILA damages claim, her HOEPA damages claim is also untimely.</paratext></para>
+<para><paratext ID="p25" level="1">Plaintiff also fails to plead facts suggesting that HOEPA applies to the mortgage loan at issue in this case. The statute provides that &#x201C;[a] mortgage referred to in this subsection means a consumer credit transaction that is secured by the consumer's principal dwelling, other than a residential mortgage transaction, a reverse mortgage transaction, or a transaction under an open end credit plan<charfill numchar="4">&#8228;</charfill>&#x201D; 15 U.S.C. &#167; 1602(aa)(1).</paratext></para>
+<para><paratext ID="p26" level="1">As discussed above, plaintiff does not allege that she obtained the mortgage loan at issue in this case for some purpose other than financing the purchase of her home. Accordingly, the Court concludes that the loan is a &#x201C;residential mortgage transaction&#x201D; within the meaning of 15 U.S.C. &#167; 1602(w), and as such, it is excluded from HOEPA's reach.</paratext></para>
+<para><paratext ID="p27" level="1">As with Plaintiff's TILA claims, the Court grants her leave to amend her complaint so that she can include facts relating to whether the mortgage transaction at issue in this case was a purchase money mortgage, and if so, whether equitable tolling applies.</paratext></para>
+</section.body>
+<head><headtext align="left" first-line="0" turnover="hanging"><bold>IV. Conclusion</bold></headtext></head>
+<section.body>
+<para><paratext ID="p28" level="1">For the reasons set forth above, the Court dismisses Plaintiff's federal law claims against Chase. Plaintiff may amend her complaint to state facts relevant to the applicability of equitable tolling, and to the question whether the mortgage transaction at issue in this case was a purchase money mortgage. She must do so within twenty (20) days of the date of this Amended Order.<footnote.reference ID="fr4" refid="f4" style="percent_n">4</footnote.reference></paratext></para>
+<footnote ID="f4"><footnote.body><para><label.designator>FN4.</label.designator><paratext ID="p29">&#8195;If Plaintiff does not timely file an amended complaint, the TILA damages claim will be dismissed with prejudice.</paratext></para></footnote.body></footnote>
+<para><paratext ID="p30" level="1">If plaintiff fails to state a colorable claim under federal law, this Court will likely decline to exercise supplemental jurisdiction over the remaining state law claims.</paratext></para>
+<para><paratext ID="p31" level="0">IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p32" level="0">Dated: October 14, 2009</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

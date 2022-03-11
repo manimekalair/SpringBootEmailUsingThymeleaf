@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>[$ProjectLibGroupGuid = createguid]
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">Default.Personality</Option>
+			<Option Name="ProjectType" Type="String"></Option>
+			<Option Name="Version" Type="String">1.0</Option>
+			<Option Name="GUID" Type="String">{[=$ProjectLibGroupGuid]}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="[=$module].dll" Type="String">[=$module].bdsproj</Projects>
+      <Projects Name="Altova.TextParser.dll" Type="String">..\\AltovaText\\Altova.TextParser.bdsproj</Projects>
+      <Projects Name="Altova.dll" Type="String">..\\Altova\\Altova.bdsproj</Projects>
+      <Projects Name="Targets" Type="String">[=$module].dll Altova.TextParser.dll Altova.dll</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{[=$ProjectLibGuid]}">
+        <Dependency GUID="{[=$AltovaTextLibGuid]}"/>
+      </Dependency>
+      <Dependency GUID="{[=$AltovaTextLibGuid]}">
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>

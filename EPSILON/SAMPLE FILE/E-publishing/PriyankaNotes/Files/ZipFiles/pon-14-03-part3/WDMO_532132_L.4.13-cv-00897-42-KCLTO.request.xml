@@ -1,0 +1,71 @@
+===== WDMO_532132_L.4.13-cv-00897-42-KCLTO.request.xml =====
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load>
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>WESTERN DISTRICT OF MISSOURI</bold></venue.name>
+<venue.name><bold>WESTERN DIVISION</bold></venue.name>
+</content.venue>
+
+<content.long.title level="primary">
+<individual.title>
+<title.segment>HENRY E. LYONS, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>F. WAYNE VAUGHT, <italic>et al.</italic>, Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+
+<content.docket.number>
+<docket.line>Case No. 13-00897-CV-W-BP</docket.line>
+<docket.number>13-00897-CV-W-BP</docket.number>
+<docket.line suppress-flag="y">4:13-cv-00897-BP</docket.line>
+</content.docket.number>
+
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/03/2015</date.line>
+</content.date>
+
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><u><bold>ORDER</bold></u></headtext></head>
+
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">BETH PHILLIPS, JUDGE UNITED STATES DISTRICT COURT</judge.line>
+</content.judge>
+
+<opinion.body>
+<section>
+<section.body>
+
+
+<para><paratext level="1">This matter comes before the Court on Plaintiff's Motion for Leave to File a Second Amended Complaint. (Doc. 37.) For the following reasons, Plaintiff's Motion is <bold>GRANTED</bold>.</paratext></para>
+<head-1><bold>I. Background<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></bold></head-1>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p">&#8195; The facts of this case are contained in the Court's Order on Defendants&#x2019; Motion to Dismiss, (Doc. 28), and the Eighth Circuit's opinion, (Doc. 35-1), and therefore are only repeated as needed here.</paratext></para></footnote.body></footnote>
+<para><paratext level="1">Plaintiff filed this action against Defendants, bringing claims under 42 U.S.C. &#x00A7; 1983 for alleged violations of his First Amendment rights arising from incidents during his employment and his subsequent termination. (<italic>See</italic> Doc. 12.) Plaintiff argues he exercised his First Amendment right to speak on matters of public concern at a meeting, which lead to Defendants retaliating against him and effectively terminating his employment by failing to renew his contract. Defendants filed a Motion to Dismiss, (Doc. 16), arguing that Plaintiff had failed to state a claim for which relief could be granted, and that, even if Plaintiff could state a claim, they were entitled to qualified immunity. On March 3, 2015, this Court denied Defendant's Motion to Dismiss, concluding that Plaintiff dismissal for failure to state a claim was inappropriate at that time and that Defendants were not entitled to qualified immunity. (Doc. 28.) Specifically, the Court stated that the Amended Complaint set forth sufficient facts to plead a violation of a constitutional right, and that it must know the specific contents and circumstances surrounding Plaintiff's speech before determining whether it was clear that Plaintiff's speech was constitutionally protected. (<italic>Id.</italic>) Therefore, the Court concluded that Defendants were not entitled to qualified immunity at the Motion to Dismiss stage. (<italic>Id.</italic>)</paratext></para>
+<para><paratext level="1">Defendants appealed the Court's Order on the qualified immunity issue. On March 24, 2015, the Eighth Circuit concluded that Defendants were entitled to qualified immunity on the First Amendment retaliation claim because Plaintiff had not alleged that Defendants were apprised of the speech that allegedly gave rise the failure to reinstate Plaintiff, or that speech's nature and purpose. Based on that analysis, the Eighth Circuit reversed and remanded the case to this Court for &#x201C;further proceedings not inconsistent&#x201D; with its opinion.</paratext></para>
+<para><paratext level="1">Upon issuance of the mandate, Plaintiff filed the instant Motion seeking leave to file a second amended complaint. Plaintiff contends that the proposed Second Amended Complaint would cure the pleading defect that lead the Eighth Circuit to conclude Defendants would be entitled to qualified immunity. Defendants oppose, arguing that the Eighth Circuit decision and mandate, as law of the case, require dismissal of the case. They further note that the instant Motion is a post-dismissal motion to amend, which are disfavored and routinely rejected. Thus, they contend that Plaintiff should not be granted leave to amend. The Court takes up the parties&#x2019; arguments below.</paratext></para>
+<head-1><bold>II. Discussion</bold></head-1>
+<para><paratext level="1">&#x201C;Law of the case is a doctrine of discretion which provides that when a court decides upon a rule of law, that decision should continue to govern the same issues in subsequent stages in the same case.&#x201D; <italic>Harbor Ins. Co. v. Essman</italic>, 918 F.2d 734, 738 (8th Cir. 1990) (internal marks and quotation omitted).   &#x201C;The doctrine applies to issues decided implicitly as well as those decided explicitly.&#x201D; <italic>Mosley v. City of Northwoods, Missouri</italic>, 415 F.3d 908, 911 (8th Cir. 2005). (internal quotation and marks omitted).</paratext></para>
+<para><paratext level="1">Here, the Court does not believe that the Eighth Circuit's decision and mandate required dismissal. Neither this Court nor the Eighth Circuit dismissed this case, and nothing in the Eighth Circuit's opinion implicitly or explicitly directed or required the Court to dismiss the case. (<italic>See</italic> Docs. 28; 35-1; 36.) Instead, the Eighth Circuit then remanded the case for &#x201C;further proceedings not inconsistent&#x201D; with its opinion. As such, Plaintiff's Motion is not a postdismissal request to amend the pleadings and should not be analyzed in that way. <italic>See Trinity Lutheran Church of Columbia, Inc. v. Pauley</italic>, 788 F.3d 779, 788 (8th Cir. 2015) (&#x201C;While a postdismissal motion may be granted if timely requested, &#x2018;interests of finality dictate that leave to amend should be less freely available after a final order has been entered.&#x2019;&#x201D;).</paratext></para>
+<para><paratext level="1">On the other hand, the Eighth Circuit did not direct the Court to grant Plaintiff leave to amend. However, the Eighth Circuit explicitly noted that the pleadings, without more, were defective and thus Defendants were entitled to qualified immunity on Plaintiff's First Amendment retaliation claim. (<italic>See</italic> Doc. 35.) Additionally, the Eighth Circuit indicated that the pleading deficiency could be remedied by pleading that Defendants knew or were apprised of the speech that allegedly lead to the failure to reinstate Plaintiff. (<italic>Id.</italic> (&#x201C;Lyons does not allege that [Defendants] knew of Lyons's speech to Morton when they declined to recommend him for reappointment, only that he had &#x2018;voiced the same concerns&#x2019; to [Defendants] after the meeting with Morton, an allegation plausibly related to the student appeal process, not to any unrelated speech as a citizen . . . it was not clearly established that failure to reappoint for this reason was wrongful retaliation because Lyons also made allegedly unrelated, protected speech at a meeting [Defendants] did not attend, when it is not alleged that they were apprised of that speech and its nature and purpose.&#x201D;).</paratext></para>
+<para><paratext level="1">As the law of the case doctrine is one of discretion, <italic>see Harbor Ins. Co.</italic>, 918 F.2d at 738, granting Plaintiff leave to file amended pleadings is not &#x201C;inconsistent&#x201D; with the Eighth Circuit's decision. In fact, Federal Rule of Civil Procedure 15(a) provides that this Court should freely give leave to amend pleadings when justice so requires. <italic>See also Trinity Lutheran Church of Columbia</italic>, 788 F.3d at 788. In this case, the Eighth Circuit clearly indicated the pleading defect and Plaintiff has submitted a proposed amended complaint that would correct that deficiency. Given these circumstances, the Court concludes it is appropriate to grant Plaintiff leave to file an amended complaint. <italic>See Roberson v. Hayti Police Dept.</italic>, 241 F.3d 992, 995 (8th Cir. 2001) (&#x201C;[A] district court's denial of leave to amend pleadings is appropriate only in those limited circumstances in which undue delay, bad faith on the part of the moving partly, futility of the amendment, or unfair prejudice to the non-moving party can be demonstrated.&#x201D;) (citations omitted).<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p">&#8195; Defendants also suggest the proposed Second Amended Complaint is futile, both factually and legally. The factual arguments are premature given the state of the Record and the minimal discovery conducted to date. The alleged legal futility centers on Defendants&#x2019; theory that even with the amendments they are still entitled to qualified immunity. The argument is not fully developed in Defendants&#x2019; opposition, and in particular there is no discussion of the Supreme Court's recent decision in <italic>Lane v. Franks</italic>, 134 S. Ct. 2369 (2014). The Court is not holding that Defendants are not entitled to qualified immunity; the Court is holding that they have not sufficiently presented the issue for the Court's consideration. Defendants are free to file an appropriate motion under Rule 12 or Rule 56 that discusses the issue in greater detail.</paratext></para></footnote.body></footnote>
+<head-1><bold>III. Conclusion</bold></head-1>
+<para><paratext level="1">Accordingly, Plaintiff's Motion for Leave to File a Second Amended Complaint, (Doc. 37), is <bold>GRANTED</bold>.   Plaintiff shall file his Second Amended Complaint within 5 days of the date of this Order.</paratext></para>
+<para><paratext level="1"><bold>IT IS SO ORDERED.</bold></paratext></para>
+<para><paratext level="1">DATE: <u>September 3, 2015</u></paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>
+

@@ -1,0 +1,457 @@
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="[=$application.Name]"
+[if $mfc]
+	Keyword="MFCProj"
+[endif]
+	SccProjectName=""
+	SccLocalPath="">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory=".\\Release"
+			IntermediateDirectory=".\\Release"
+			ConfigurationType="1"
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\\Altova,..\\AltovaXML,..\\AltovaDB,..\\AltovaFunctions"
+				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
+				StringPooling="TRUE"
+[if $libtype = 1]
+	[if $mfc]
+				RuntimeLibrary="2"
+	[else]
+				RuntimeLibrary="0"
+	[endif]
+[else]
+				RuntimeLibrary="2"
+[endif]
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\Release/[=$application.Name].pch"
+				AssemblerListingLocation=".\\Release/"
+				ObjectFile=".\\Release/"
+				ProgramDataBaseFileName=".\\Release/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\Release/[=$application.Name].exe"
+				AdditionalDependencies="kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ProgramDatabaseFile=".\\Release/[=$application.Name].pdb"
+				SubSystem="1"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\\Release/[=$application.Name].tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Debug|Win32"
+			OutputDirectory=".\\UnicodeDebug"
+			IntermediateDirectory=".\\UnicodeDebug"
+			ConfigurationType="1"
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\\Altova,..\\AltovaXML,..\\AltovaDB,..\\AltovaFunctions"
+				PreprocessorDefinitions="_DEBUG;WIN32;_CONSOLE;UNICODE"
+				BasicRuntimeChecks="3"
+[if $libtype = 1]
+	[if $mfc]
+				RuntimeLibrary="3"
+	[else]
+				RuntimeLibrary="1"
+	[endif]
+[else]
+				RuntimeLibrary="3"
+[endif]
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\UnicodeDebug/[=$application.Name].pch"
+				AssemblerListingLocation=".\\UnicodeDebug/"
+				ObjectFile=".\\UnicodeDebug/"
+				ProgramDataBaseFileName=".\\UnicodeDebug/"
+				BrowseInformation="1"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\UnicodeDebug/[=$application.Name].exe"
+				AdditionalDependencies="kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\\UnicodeDebug/[=$application.Name].pdb"
+				SubSystem="1"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\\UnicodeDebug/[=$application.Name].tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"/>
+		</Configuration>
+		<Configuration
+			Name="Unicode Release|Win32"
+			OutputDirectory=".\\UnicodeRelease"
+			IntermediateDirectory=".\\UnicodeRelease"
+			ConfigurationType="1"
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="1">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="..\\Altova,..\\AltovaXML,..\\AltovaDB,..\\AltovaFunctions"
+				PreprocessorDefinitions="NDEBUG;WIN32;_CONSOLE;UNICODE"
+				StringPooling="TRUE"
+[if $libtype = 1]
+	[if $mfc]
+				RuntimeLibrary="2"
+	[else]
+				RuntimeLibrary="0"
+	[endif]
+[else]
+				RuntimeLibrary="2"
+[endif]
+				EnableFunctionLevelLinking="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\UnicodeRelease/[=$application.Name].pch"
+				AssemblerListingLocation=".\\UnicodeRelease/"
+				ObjectFile=".\\UnicodeRelease/"
+				ProgramDataBaseFileName=".\\UnicodeRelease/"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				CompileAs="0"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\UnicodeRelease/[=$application.Name].exe"
+				AdditionalDependencies="kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				ProgramDatabaseFile=".\\UnicodeRelease/[=$application.Name].pdb"
+				SubSystem="1"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\\UnicodeRelease/[=$application.Name].tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\\Debug"
+			IntermediateDirectory=".\\Debug"
+			ConfigurationType="1"
+			UseOfMFC="[=$MFCCodeVS7]"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="..\\Altova,..\\AltovaXML,..\\AltovaDB,..\\AltovaFunctions"
+				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
+				BasicRuntimeChecks="3"
+[if $libtype = 1]
+	[if $mfc]
+				RuntimeLibrary="3"
+	[else]
+				RuntimeLibrary="1"
+	[endif]
+[else]
+				RuntimeLibrary="3"
+[endif]
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				PrecompiledHeaderThrough="stdafx.h"
+				PrecompiledHeaderFile=".\\Debug/[=$application.Name].pch"
+				AssemblerListingLocation=".\\Debug/"
+				ObjectFile=".\\Debug/"
+				ProgramDataBaseFileName=".\\Debug/"
+				BrowseInformation="1"
+				WarningLevel="3"
+				SuppressStartupBanner="TRUE"
+				DebugInformationFormat="4"
+				CompileAs="0"/>
+			<Tool
+				Name="VCLinkerTool"
+				OutputFile=".\\Debug/[=$application.Name].exe"
+				AdditionalDependencies="kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib"
+				LinkIncremental="1"
+				SuppressStartupBanner="TRUE"
+				GenerateDebugInformation="TRUE"
+				ProgramDatabaseFile=".\\Debug/[=$application.Name].pdb"
+				SubSystem="1"
+				TargetMachine="1"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\\Debug/[=$application.Name].tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"/>
+		</Configuration>
+		</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat">
+			<File
+				RelativePath="[=$application.Name].cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="[=$application.Name].rc">
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="_DEBUG;$(NoInherit)"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCResourceCompilerTool"
+						PreprocessorDefinitions="NDEBUG;$(NoInherit)"/>
+				</FileConfiguration>
+			</File>
+[foreach $Mapping in $application.Mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups]
+			<File
+				RelativePath="[=$application.Name][=$AlgorithmGroup.Name].cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+[	next]
+[	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions]
+			<File
+				RelativePath="[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+[	next
+next]
+			<File
+				RelativePath="StdAfx.cpp">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Unicode Release|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="2"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						UsePrecompiledHeader="1"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCLCompilerTool"
+						Optimization="0"
+						AdditionalIncludeDirectories=""
+						PreprocessorDefinitions=""
+						BasicRuntimeChecks="3"
+						UsePrecompiledHeader="1"
+						BrowseInformation="1"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl">
+			<File
+				RelativePath="[=$application.Name].h">
+			</File>
+[foreach $Mapping in $application.Mappings
+	foreach $AlgorithmGroup in $Mapping.AlgorithmGroups]
+			<File
+				RelativePath="[=$application.Name][=$AlgorithmGroup.Name].h">
+			</File>
+[	next]
+[	foreach $AlgorithmGroup in $Mapping.AllLocalFunctions]
+			<File
+				RelativePath="[=$AlgorithmGroup.LocalFunctionNamespace]_[=$AlgorithmGroup.Name].h">
+			</File>
+[	next
+next]
+			<File
+				RelativePath="Resource.h">
+			</File>
+			<File
+				RelativePath="StdAfx.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name>IN THE UNITED STATES DISTRICT</venue.name>
+<venue.name>COURT FOR THE DISTRICT OF OREGON</venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>YING CHANG, Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>CITIMORTGAGE, INC., a foreign company, Defendant.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>No. 3:12-cv-01884</docket.line>
+<docket.number>3:12-cv-01884</docket.number>
+<docket.line suppress-flag="y">3:12-cv-01884-HU</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 11/02/2013</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1">David W. Richardson, PDX Law Group P.C., 621 SW Morrison St., Suite 1200, Portland, OR 97205, Attorney for Plaintiff</attorney.line>
+<attorney.line first-line="1">Rochelle L. Stanford, Pite Duncan, LLP, 4375 Jutland Drive, Suite 200, PO Box 17935, San Diego, CA 92177-0935</attorney.line>
+<attorney.line first-line="1">Tracy J. Frazier, Pite Duncan LLP, 621 SW Morrison St., Suite 425, Portland, OR 97204, Attorneys for Defendant</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center">ORDER</headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">MARCO A. HERNANDEZ United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">HERNANDEZ, District Judge:</paratext></para>
+<para><paratext ID="p2" level="1">Magistrate Judge Hubel issued a Findings and Recommendation (#17) on August 27, 2013, in which he recommends that the Court should grant Plaintiff's request for judicial notice, deny Defendant's request for judicial notice, and grant in part and deny in part Defendant's motion to dismiss. Defendant timely filed an objection to the Findings and Recommendation. The matter is now before me pursuant to 28 U.S.C. &#167; 636(b)(1) and Federal Rule of Civil Procedure 72(b).</paratext></para>
+<para><paratext ID="p3" level="1">When any party objects to any portion of the Magistrate Judge's Findings and Recommendation, the district court must make a <ital>de novo</ital> determination of that portion of the Magistrate Judge's report. 28 U.S.C. &#167; 636(b)(1); <underscore>Dawson v. Marshall</underscore>, 561 F.3d 930, 932 (9th Cir. 2009); <underscore>United States v. Reyna-Tapia</underscore>, 328 F.3d 1114, 1121 (9th Cir. 2003) (en banc).</paratext></para>
+<para><paratext ID="p4" level="1">Plaintiff objects to the Findings and Recommendation because Judge Hubel found that Plaintiff had sufficiently pled a claim for intentional infliction of emotional distress (&#x201C;IIED&#x201D;). Objection to F&#38;R, 1. I have carefully considered Defendant's objection and conclude that the objection does not provide a basis to modify the recommendation. I have also reviewed the pertinent portions of the record <ital>de novo</ital> and find no error in the Magistrate Judge's Findings and Recommendation.</paratext></para>
+<para><paratext ID="p5" level="1">CONCLUSION</paratext></para>
+<para><paratext ID="p6" level="1">The Court adopts Magistrate Judge Hubel's Findings and Recommendation (#17). Therefore, Plaintiff's request for judicial notice (#14) is granted, Defendant's request for judicial notice (#16) is denied and Defendant's motion to dismiss (#11) is granted in part and denied in part as follows: the FDCPA claim is dismissed; the FCRA claim under &#167; 1681s-2(a) and the claim for emotional distress damages from breach of contract are dismissed with prejudice; and the UDCPA, UTPA, IIED, and breach of contract claims are sufficiently pled. Plaintiff has 14 days from the date of this order to amend claims that were not dismissed with prejudice. IT IS SO ORDERED.</paratext></para>
+<para><paratext ID="p7" level="1">DATED this <underscore>2</underscore> day of November, 2013.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

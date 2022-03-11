@@ -1,0 +1,2 @@
+/* Make angle brackets for key names be less sharp. */
+span.bracket { font-family: "courier new", courier, symbol; font-size: small }

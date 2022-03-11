@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>[$TestProjectGroupGuid = createguid]
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality" Type="String">Default.Personality</Option>
+			<Option Name="ProjectType" Type="String"></Option>
+			<Option Name="Version" Type="String">1.0</Option>
+			<Option Name="GUID" Type="String">{[=$TestProjectGroupGuid]}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  
+    
+    <Projects>
+      <Projects Name="[=$module]Test.exe" Type="String">[=$module]Test.bdsproj</Projects>
+      <Projects Name="[=$module].dll" Type="String">..\\[=$module]\\[=$module].bdsproj</Projects>
+      <Projects Name="AltovaXML.dll" Type="String">..\\AltovaXML\\AltovaXML.bdsproj</Projects>
+      <Projects Name="Altova.dll" Type="String">..\\Altova\\Altova.bdsproj</Projects>
+      <Projects Name="Targets" Type="String">[=$module]Test.exe [=$module].dll AltovaXML.dll Altova.dll</Projects>
+    </Projects>
+    <Dependencies>
+      <Dependency GUID="{[=$TestProjectGuid]}">
+        <Dependency GUID="{[=$ProjectLibGuid]}"/>
+      </Dependency>
+      <Dependency GUID="{[=$ProjectLibGuid]}">
+        <Dependency GUID="{[=$AltovaXMLLibGuid]}"/>
+      </Dependency>
+      <Dependency GUID="{[=$AltovaXMLLibGuid]}">
+        <Dependency GUID="{[=$AltovaLibGuid]}"/>
+      </Dependency>
+    </Dependencies>
+  </Default.Personality>
+</BorlandProject>

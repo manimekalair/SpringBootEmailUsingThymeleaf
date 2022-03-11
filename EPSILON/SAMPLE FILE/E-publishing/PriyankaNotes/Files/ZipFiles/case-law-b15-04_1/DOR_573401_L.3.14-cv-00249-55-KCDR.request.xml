@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT</bold></venue.name>
+<venue.name><bold>COURT FOR THE DISTRICT OF OREGON</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>COMMUNICATION MANAGEMENT SERVICES, LLC, et al., Plaintiffs</bold>,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>QWEST CORPORATION, UNIDENTIFIED CORPORATIONS I-X, JOHN DOES, Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>3:14-cv-00249-BR</bold></docket.line>
+<docket.number><bold>3:14-cv-00249-BR</bold></docket.number>
+<docket.line suppress-flag="y">3:14-cv-00249-BR</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 09/03/2014</date.line>
+</content.date>
+<content.attorney.block>
+<content.attorney>
+<attorney.line first-line="1"><bold>FRANKLIN G. PATRICK</bold>, P.O. Box 231119, Portland, OR 97281, (503) 245-2828, Attorney for Plaintiffs</attorney.line>
+<attorney.line first-line="1"><bold>LAWRENCE H. REICHMAN MISHA A.D. ISAAK</bold>, Perkins Coie, LLP, 1120 N.W. Couch Street, 10th Floor, Portland, OR 97209-4128, (503) 727-2019, (503) 727-2086, Attorneys for Defendant Qwest</attorney.line>
+</content.attorney>
+</content.attorney.block>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>ORDER TO SHOW CAUSE</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ANNA J. BROWN United States District Judge</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">The Court has completed a substantive review of the briefing on Plaintiffs' Motion (#10) for Partial Summary Judgment and Defendant Qwest's Motion (#28) to Dismiss First Amended Complaint. For the reasons that follow, the Court concludes it should refrain from addressing the merits of these Motions until Defendant Qwest demonstrates this Court has (and should exercise) jurisdiction to do so.</paratext></para>
+<para><paratext ID="p2" level="1">As the parties well know, the Court previously dismissed as time-barred Plaintiffs' federal claims arising from their long-running dispute with Defendant. <ital>See Northwest Public Communications Council v. Qwest</ital>, Case No. 3:09-cv-1351-BR (#66, #67). In the exercise of its discretion and at Defendant's urging (<ital>see id.</ital>, Def.'s Mem. in Support of Mot. to Dismiss (#13) at 35-36), the Court also declined to exercise supplemental jurisdiction over Plaintiffs' remaining nonfederal, &#x201C;state-law&#x201D; claims arising from the same controversy. In particular, Defendant did not make any assertion in Case No. 3:09-cv-1351 that the Court had federal-question or diversity jurisdiction to decide those claims.</paratext></para>
+<para><paratext ID="p3" level="1">It appears that Plaintiffs then filed Multnomah County Circuit Court Case No. 1311-15906 to litigate those same non-federal, &#x201C;state-law&#x201D; claims, but Plaintiffs are now back in this Court upon Defendant's removal of the state-court case on a current assertion of federal-question and diversity jurisdiction, a position that, at the least, seems inconsistent with Defendant's arguments in Case No. 3:09-cv-1351. As a result, this Court questions whether Defendant's removal of this matter was proper in the first place, and, therefore, the Court requires the propriety of Defendant's removal to be resolved before the Court will address the merits of the pending Motions.</paratext></para>
+<para><paratext ID="p4" level="1">Accordingly, the Court <bold>STRIKES</bold> Motions #10 and #28 with leave to renew them in the event the Court determines it has (and should exercise) jurisdiction to resolve Plaintiffs' nonfederal, &#x201C;state-law&#x201D; claims.</paratext></para>
+<para><paratext ID="p5" level="1">In addition, the Court hereby <bold>ORDERS</bold> Defendant Qwest <bold>TO SHOW CAUSE</bold> no later than <bold>September 22, 2014</bold>, why this matter should not be remanded to Multnomah County Circuit Court consistent with the Court's declination of supplemental jurisdiction in Case No. 3:09-cv-1351, which was at Defendant's urging. In particular, the Court directs Defendant to explain why the Court should not conclude Defendant is judicially estopped from asserting federal-question and/or diversity jurisdiction as a basis for removal of this matter when it did not raise those jurisdictional arguments in Case No. 3:09-cv-1351 and supported the declination of supplemental jurisdiction in that case. <ital>See Hamilton v. State Farm Fire &#38; Cas. Co.</ital>, 270 F.3d 778, 782 (9<super style="percent_r">th</super> Cir. 2001)(&#x201C;Judicial estoppel is an equitable doctrine that precludes a party from gaining an advantage by asserting one position, and then later seeking an advantage by taking a clearly inconsistent position. <charfill numchar="3">&#8228;</charfill> This court invokes judicial estoppel not only to prevent a party from gaining an advantage by taking inconsistent positions, but also because of &#x2018;general consideration[s] of the orderly administration of justice and regard for the dignity of judicial proceedings,&#x2019; and to &#x2018;protect against a litigant playing fast and loose with the courts.&#x2019;&#x201D; (internal citations omitted)).</paratext></para>
+<para><paratext ID="p6" level="1">Plaintiffs' response, if any, to Defendant's showing is due <bold>October 13, 2014</bold>, when the Court will consider the removal issues fully briefed (without any reply by Defendant). The Court will then determine whether oral argument would be helpful as to the removal issues the Court has raised.</paratext></para>
+<para><paratext ID="p7" level="1">In summary, for these reasons, the Court <bold>STRIKES</bold> Plaintiffs' Motion (#10) for Partial Summary Judgment and Defendant Qwest's Motion (#28) to Dismiss First Amended Complaint with leave to renew in the event the Court determines it has (and should exercise) jurisdiction to decide such Motions. In addition, the Court <bold>ORDERS</bold> Defendant Qwest <bold>TO SHOW CAUSE</bold> no later than <bold>September 22, 2014</bold>, why this matter should not be remanded to Multnomah County Circuit Court consistent with the Court's declination of supplemental jurisdiction in Case No. 3:09-cv-1351-BR as herein specified. Plaintiffs' response, if any, to Defendant's showing is due <bold>October 13, 2014</bold>, when the Court will consider the removal issues fully briefed (without any reply by Defendant).</paratext></para>
+<para><paratext ID="p8" level="1">IS SO ORDERED.</paratext></para>
+<para><paratext ID="p9" level="1">DATED this 3<super style="percent_r">rd</super> day of September, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

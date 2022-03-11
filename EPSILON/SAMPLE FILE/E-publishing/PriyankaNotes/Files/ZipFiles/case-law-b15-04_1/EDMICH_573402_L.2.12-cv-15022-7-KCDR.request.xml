@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>UNITED STATES DISTRICT COURT</bold></venue.name>
+<venue.name><bold>FOR THE EASTERN DISTRICT OF MICHIGAN</bold></venue.name>
+<venue.name><bold>SOUTHERN DIVISION</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment>BLAKE TRANSPORTATION SERVICES, INC., Plaintiff,</title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment>DAVROND CORPORATION, et al., Defendants.</title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line>Case No. 12-15022</docket.line>
+<docket.number>12-15022</docket.number>
+<docket.line suppress-flag="y">2:12-cv-15022-RHC-MJH</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 12/19/2012</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head><headtext align="center"><bold>ORDER REMANDING TO STATE COURT</bold></headtext></head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">ROBERT H. CLELAND UNITED STATES DISTRICT JUDGE</judge.line>
+<judge.line first-line="1"><underscore>s/Lisa Wagner</underscore> Case Manager and Deputy Clerk (313) 234-5522</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">On August 7, 2012, Plaintiff Blake Transportation Services, Inc., a Michigan corporation, sued in state court Davrond Corporation, a Canadian corporation; Universal Handling Equipment Company, Inc. (&#x201C;UHE, Inc.&#x201D;), a Michigan corporation; Universal Handling Equipment Company Limited, a Canadian corporation; and David Gerrard, a Canadian citizen. A summons was issued and served on each Canadian Defendant shortly thereafter. (Pl.'s Resp. Defs.' Mot. Dismiss Ex. F, Dkt. # 6-7.)</paratext></para>
+<para><paratext ID="p2" level="1">UHE, Inc. is currently litigating an involuntary Chapter 7 Bankruptcy. In April 2012, the bankruptcy court approved the sale of UHE, Inc.'s assets free and clear of liabilities to Universal Handling Equipment Acquisition Company (&#x201C;UHE Acquisition&#x201D;). (Notice of Removal Ex. 4, Dkt. # 1-5.) The property located at 1650 Industrial Drive, Owosso, Michigan, was included in the sale. In an attempt to serve UHE, Inc., Plaintiff served a summons and complaint on &#x201C;Universal Handling, Ron Chrzan (Agent)&#x201D; at 1650 Industrial Drive, Owosso, Michigan. (Pl.'s Resp. Defs.' Mot. Dismiss Ex. F at 9, Dkt. # 6-7.)</paratext></para>
+<para><paratext ID="p3" level="1">Defendants claim that Plaintiff served UHE Acquisition, not UHE, Inc., when it served Chrzan. Under Michigan law, a summons expires ninety-one days after the date the complaint is filed. MCR 2.102(D). If a defendant has not been served with a summons before it expires, the case is deemed dismissed without prejudice as to that defendant. MCR 2.102(E). Plaintiff's summons expired on November 6, 2012. Defendants argue that UHE, Inc. was deemed dismissed on November 7, 2012, and the case became eligible on that date for removal under diversity jurisdiction with only Defendants of Canadian citizenship remaining. Defendants removed the case on November 13, 2012, pursuant to 28 U.S.C. &#167; 1332.</paratext></para>
+<para><paratext ID="p4" level="1">After removal, Defendants moved to dismiss for lack of personal jurisdiction. Plaintiff's response, in addition to addressing the arguments raised in Defendants' motion, asserts that service was proper on UHE, Inc. because its last presiding president, Gerrard, and its registered agent, Chrzan, were both served.</paratext></para>
+<para><paratext ID="p5" level="1">The court may <ital>sua sponte</ital> determine whether it has subject matter jurisdiction. <ital>Page v. City of Southfield</ital>, 45 F.3d 128, 133 (6th Cir. 1995). Under Michigan law:</paratext>
+<para><paratext ID="p6" first-line="1" turnover="1">[s]ervice of process on a domestic <charfill numchar="3">&#8228;</charfill> corporation may be made by serving a summons and a copy of the complaint on the last presiding officer [or] president <charfill numchar="3">&#8228;</charfill> of a corporation that has ceased to do business by failing to keep up its organization by the appointment of officers or otherwise, or whose term of existence has expired.</paratext></para>
+<paratext ID="p7" contd-flag="y">MCR 2.105(D)(3). At UHE, Inc.'s 341 hearing in March 2012, Gerrard testified that he was the president, only director, and only registered officer of UHE, Inc. (Pl.'s Resp. Defs.' Mot. Dismiss Ex. D at 4-5, 14-15, 18-19, Dkt. # 6-5.) Gerrard also testified that he had resigned as president, director, and officer of UHE, Inc. and that the company no longer has any officers. (<ital>Id.</ital> at 19.) Gerrard, therefore, was the last presiding officer and president of UHE, Inc., a company that no longer appoints new officers. Defendants do not dispute that Plaintiff properly served Gerrard. Therefore, serving Gerrard with a summons and complaint effectuated proper service of process upon UHE, Inc. under Michigan Court Rule 2.105(D)(3). UHE, Inc. has not been deemed dismissed pursuant to Michigan Court Rule 2.102(E) and remains a party to the case, thereby eliminating complete diversity. As a result, Defendants have not invoked the court's subject matter jurisdiction pursuant to 28 U.S.C. &#167; 1332, and the court will remand the case to state court. 28 U.S.C. &#167; 1447(c). Accordingly,</paratext></para>
+<para><paratext ID="p8" level="1">IT IS ORDERED that the case is REMANDED to the Circuit Court of Shiawassee County, Michigan. All other motions are TERMINATED WITHOUT PREJUDICE.</paratext></para>
+<para><paratext ID="p9" level="1">Dated: December 19, 2012</paratext></para>
+<para><paratext ID="p10" level="1">I hereby certify that a copy of the foregoing document was mailed to counsel of record on this date, December 19, 2012, by electronic and/or ordinary mail.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

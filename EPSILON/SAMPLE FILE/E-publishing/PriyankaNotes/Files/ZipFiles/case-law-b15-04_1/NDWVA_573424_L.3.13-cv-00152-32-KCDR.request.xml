@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<n-load xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.thomsonreuters.com/legal/judicialdocs" xsi:schemaLocation="http://www.thomsonreuters.com/legal/judicialdocs http://prod.content.judicial.int.westgroup.com/ContentService/resources/judicialartifact/schema/judicial.artifact.xsd">
+<n-document>
+<n-docbody>
+<judicial.artifact>
+<content.venue>
+<venue.name><bold>IN THE UNITED STATES DISTRICT COURT FOR THE</bold></venue.name>
+<venue.name><bold>NORTHERN DISTRICT OF WEST VIRGINIA</bold></venue.name>
+<venue.name><bold>MARTINSBURG</bold></venue.name>
+</content.venue>
+<content.long.title level="primary">
+<individual.title>
+<title.segment><bold>DAVID GOLDMAN and ADAM GOLDMAN, Plaintiffs</bold></title.segment>
+<title.segment.connector type="vs">v.</title.segment.connector>
+<title.segment><bold>PHILLIPS</bold> &#38; <bold>SONS DRILLING, INC. and MID MARYLAND EXCAVATING, INC., Defendants.</bold></title.segment>
+</individual.title>
+</content.long.title>
+<content.docket.number>
+<docket.line><bold>CIVIL ACTION NO: 3:13-CV-152 (JUDGE GROH)</bold></docket.line>
+<docket.number><bold>3:13-CV-152 (JUDGE GROH)</bold></docket.number>
+<docket.line suppress-flag="y">3:13-cv-00152-GMG-RWT</docket.line>
+</content.docket.number>
+<content.date xml:lang="en">
+<date.line type="filed">Filed 02/28/2014</date.line>
+</content.date>
+<decision>
+<decision.body>
+<opinion category="lead">
+<head>
+<headtext align="center"><underscore><bold>ORDER GRANTING PLAINTIFFS' MOTION FOR LEAVE TO AMEND COMPLAINT</bold></underscore></headtext>
+</head>
+<content.judge role="majority" xml:lang="en">
+<judge.line first-line="1">GINA M. GROH UNITED STATES DISTRICT JUDGE</judge.line>
+</content.judge>
+<opinion.body>
+<section>
+<section.body>
+<para><paratext ID="p1" level="1">Currently pending before the Court is the Plaintiffs' Motion for Leave to Amend Complaint [Doc. 30], filed on February 6, 2014. The Defendants have not filed a response. Because the deadline to do so has passed, this motion is ripe for the Court's review. For the reasons that follow, the Court <bold>GRANTS</bold> the Motion for Leave to Amend Complaint.</paratext></para>
+</section.body>
+<head><headtext align="center">I. <bold>FACTUAL ALLEGATIONS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p2" level="1">This case involves a contract entered into by the Plaintiffs, David and Adam Goldman, and the Defendants, Phillips &#38; Sons Drilling, Inc. and Mid Maryland Excavating, Inc. The Plaintiffs allege that the parties agreed that the Defendants would install a well system and excavate for its installation on the Plaintiffs' real property located at 249 Black Bear Trail, Harpers Ferry, West Virginia. Compl. &#182;&#182; 5-6. According to the Plaintiffs, the Defendants did not, among other things, install a proper well system and damaged their property. <underscore>Id.</underscore> &#182;&#182; 9-12. The Plaintiffs also allege that the Defendants later trespassed on their property and threatened them to obtain payment for their work. <underscore>Id.</underscore> &#182; 13.</paratext></para>
+</section.body>
+<head><headtext align="center"><bold>II. PROCEDURAL HISTORY</bold></headtext></head>
+<section.body>
+<para><paratext ID="p3" level="1">The Plaintiffs initiated this action on September 27, 2013 by filing suit against the Defendants in the Circuit Court of Jefferson County, West Virginia. Their complaint raises claims for breach of contract and negligence that arise from the alleged improper work at the Plaintiffs' property. <underscore>Id.</underscore> &#182; 16-26. On October 25, 2013, the Defendants removed the case to this Court. They answered the complaint on November 5, 2013. The Court thereafter entered a scheduling order. The scheduling order set an amended pleadings deadline of March 21, 2014, a discovery deadline of May 31, 2014, and trial for October 28, 2014. On February 6, 2014, the Plaintiffs filed the instant Motion for Leave to Amend Complaint. The Defendants had until February 24, 2014 to respond to this motion but did not do so.<footnote.reference ID="fr1" refid="f1" style="percent_n">1</footnote.reference></paratext></para>
+</section.body>
+<head><headtext align="center"><bold>III. STANDARD OF REVIEW</bold></headtext></head>
+<section.body>
+<para><paratext ID="p4" level="1">Under Federal Rule of Civil Procedure 15(a)(1), &#x201C;[a] party may amend its pleading once as a matter of course within (A) 21 days after serving it, or (B) if the pleading is one to which a responsive pleading is required, 21 days after service of a responsive pleading or 21 days after service of a motion under Rule 12(b), (e), or (f), whichever is earlier.&#x201D; If this provision does not apply, &#x201C;a party may amend its pleading only with the opposing party's written consent or the court's leave.&#x201D; <csc>Fed.</csc> R. <csc>Civ.</csc> P. 15(a)(2). &#x201C;The court should freely give leave when justice so requires.&#x201D; <ital>]&#177;</ital> Because the time limits provided in Rule 15(a)(1)(B) have elapsed and Defendants have not consented to the amendment, the Plaintiffs can only amend their complaint with the Court's permission.</paratext></para>
+<footnote ID="f1"><footnote.body><para><label.designator>FN1.</label.designator><paratext ID="p5">&#8195;Under Local Rule of Civil Procedure 7.02(b)(1), a response to a motion to amend &#x201C;shall be filed and served within fourteen (14) days from the date of service of the motion.&#x201D; Where, as here, service is made electronically, three days are added to this period. <csc>Fed.</csc> R. <csc>Civ.</csc> P. 6(d); <csc>Fed.</csc> R. <csc>Civ.</csc> P. 5(b)(2)(E). The Defendants' response therefore would have been due on Sunday, February 23, 2014. When the filing deadline falls on a Sunday, however, the deadline runs to the next day counted under Federal Rule of Civil Procedure 5. <csc>Fed.</csc> R. <csc>Civ.</csc> P. 5(a)(1)(C). The deadline therefore was Monday, February 24, 2014.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p6" level="1">The law is well settled &#x201C;that leave to amend a pleading should be denied only when the amendment would be prejudicial to the opposing party, there has been bad faith on the part of the moving party, or the amendment would be futile.&#x201D; <underscore>Johnson v. Oroweat Foods Co.</underscore>, 785 F.2d 503, 509 (4th Cir.1986). Delay alone is an insufficient reason to deny leave to amend. <underscore>See Id.</underscore> Rather, the delay must be accompanied by prejudice, bad faith, or futility. <underscore>See Edwards v. City of Goldsboro</underscore>, 178 F.3d 231, 242 (4th Cir. 1999).</paratext></para>
+<para><paratext ID="p7" level="1">&#x201C;An amendment is futile if the proposed claim would not withstand a motion to dismiss.&#x201D; <underscore>Woods v. Bennett</underscore>, No. CIV.A. 2:12-03592, 2013 WL 4779018, at *3 (S.D. W. Va. Sept. 5, 2013) (citing <underscore>Perkins v. United States</underscore>, 55 F.3d 910, 917 (4th Cir.1995)). As for the prejudice inquiry, the Fourth Circuit has stated that:</paratext>
+<para><paratext ID="p8" first-line="1" turnover="1">Whether an amendment is prejudicial will often be determined by the nature of the amendment and its timing. A common example of a prejudicial amendment is one that &#x201C;raises a new legal theory that would require the gathering and analysis of facts not already considered by the [defendant, and] is offered shortly before or during trial.&#x201D; An amendment is not prejudicial, by contrast, if it merely adds an additional theory of recovery to the facts already pled and is offered before any discovery has occurred.</paratext></para>
+<paratext ID="p9" contd-flag="y"><underscore>Laberv. Harvey</underscore>, 438 F.3d 404, 427 (4th Cir. 2006) (citations omitted).</paratext>
+</para>
+</section.body>
+<head><headtext align="center"><bold>IV. ANALYSIS</bold></headtext></head>
+<section.body>
+<para><paratext ID="p10" level="1">The Plaintiffs seek to add one count of trespass to timber to their complaint pursuant to West Virginia Code section 61-3-48(a). The proposed claim is based on the same facts contained in the current complaint. <underscore>Compare</underscore> Compl. &#182;&#182; 5-15, <underscore>with</underscore>, Pis.' First Am. Compl. &#182;&#182; 5-15, 27. It alleges that the Defendants &#x201C;damaged or caused to be damaged timber, trees, growing plants, or products thereof on the Plaintiffs' real property&#x201D; and seeks treble damages. <underscore>Id.</underscore> &#182;&#182; 28, 30. The Plaintiffs argue that none of the grounds for denying leave to amend apply. The Court agrees.</paratext></para>
+<para><paratext ID="p11" level="1">First, the amendment is not prejudicial as the Plaintiffs are merely raising a new theory of recovery and sought to do so early in this case. <underscore>See Laber</underscore>, 438 F.3d at 427. Like the breach of contract and negligence claims, the trespass to timber claim arises from the alleged contract and improper work. The Plaintiffs also sought to add this claim well before the discovery deadline and trial date. Accordingly, allowing the Plaintiffs to amend their complaint will not prejudice the Defendants.</paratext></para>
+<para><paratext ID="p12" level="1">Second, the fact that the Plaintiffs did not wait until on or near the amended pleadings deadline to file their motion shows that they have acted in good faith. Indeed, the Plaintiffs sought leave to amend over one month before the deadline. Bad faith therefore is not implicated here.</paratext></para>
+<para><paratext ID="p13" level="1">Finally, amendment would not be futile. West Virginia provides landowners with a cause of action for damage done to, among other things, their timber, trees, growing plants, and products of growing plants. W. <csc>Va. Code</csc> &#167; 61-3-48a; <underscore>see also Bullman v. D &#38; R Lumber Co.</underscore>, 464 S.E.2d 771, 776 (W. Va. 1995) (&#x201C;The treble damage award available under W.Va.Code, 61-3-48a, is to provide compensatory damages to landowners for damaged or removed trees, logs, fruit, etc.&#x201D;). This is the type of claim that the Plaintiffs want to add to their complaint. Accordingly, because West Virginia law recognizes the proposed claim, its addition is not futile.<footnote.reference ID="fr2" refid="f2" style="percent_n">2</footnote.reference></paratext></para>
+<footnote ID="f2"><footnote.body><para><label.designator>FN2.</label.designator><paratext ID="p14">&#8195;The amended complaint, however, references the wrong statute in the trespass to timber claim. It cites a criminal statute concerning the damage of flora&#8211;West Virginia Code section 61-3-48(a)&#8211;ratherthan section 61-3-48a. The amendments deadline has not yet expired should the Plaintiffs desire to correct this error.</paratext></para>
+</footnote.body>
+</footnote>
+<para><paratext ID="p15" level="1">Having determined that no basis exists for denying the Plaintiffs' motion, the Court <bold>GRANTS</bold> their Motion for Leave to Amend Complaint.</paratext></para>
+<para><paratext ID="p16" level="1">It is so <bold>ORDERED.</bold></paratext></para>
+<para><paratext ID="p17" level="1">The Clerk is directed to transmit copies of this Order to all counsel of record.</paratext></para>
+<para><paratext ID="p18" level="1"><bold>DATED:</bold> February 28, 2014.</paratext></para>
+</section.body>
+</section>
+</opinion.body>
+</opinion>
+</decision.body>
+</decision>
+</judicial.artifact>
+</n-docbody>
+</n-document>
+</n-load>

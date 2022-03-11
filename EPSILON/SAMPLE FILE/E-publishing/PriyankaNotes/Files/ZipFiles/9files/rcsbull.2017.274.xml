@@ -1,0 +1,415 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "C:\Documents and Settings\riyaz.EXETERPM\Desktop\archiveJats-interchange-dtd-1.1\JATS-archivearticle1.dtd">
+<?release-delay 0|0?>
+<article article-type="research-article" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">bull</journal-id>
+<journal-title-group>
+<journal-title>The Bulletin of the Royal College of Surgeons of England</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1473-6357</issn>
+<issn pub-type="epub">1478-7075</issn>
+<publisher>
+<publisher-name>Royal College of Surgeons</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1308/rcsbull.2017.274</article-id>
+<article-id pub-id-type="publisher-id">2017.274</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research</subject>
+</subj-group>
+<subj-group subj-group-type="rcs-spec">
+<compound-subject>
+<compound-subject-part content-type="code">adm</compound-subject-part>
+<compound-subject-part content-type="label">Hospital administration</compound-subject-part>
+</compound-subject>
+<compound-subject>
+<compound-subject-part content-type="code">emg</compound-subject-part>
+<compound-subject-part content-type="label">Emergency care</compound-subject-part>
+</compound-subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Re-evaluation of three-session theatre efficiency</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<string-name>
+<surname>Nadig</surname>
+<given-names>AS</given-names>
+</string-name>
+<role>Senior Registrar in Neurosurgery</role>
+</contrib>
+<x>, </x>
+<contrib contrib-type="author">
+<string-name>
+<surname>Kamaly-Asl</surname>
+<given-names>ID</given-names>
+</string-name>
+<xref ref-type="aff" rid="AF0001"><sup>1</sup></xref>
+<role>Consultant Paediatric Neurosurgeon</role>
+</contrib>
+<x>, </x>
+<aff id="AF0001"><sup>1</sup>Salford Royal NHS Foundation Trust Hospital</aff>
+</contrib-group>
+<pub-date pub-type="ppub"><month>07</month><year>2017</year></pub-date>
+<pub-date pub-type="epub"><month>07</month><year>2017</year></pub-date>
+<volume>99</volume>
+<issue>7</issue>
+<fpage>133</fpage>
+<lpage>136</lpage>
+<permissions>
+<copyright-statement>Copyright &#x00A9; 2017 Royal College of Surgeons</copyright-statement>
+<copyright-year>2017</copyright-year>
+<license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/">
+<license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+</license>
+</permissions>
+<self-uri xlink:href="rcsbull.2017.274.pdf" content-type="pdf"></self-uri>
+<abstract>
+<p>How does it compare with the 2S system?</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<p><BOLD>T</BOLD> he first decade of the new millennium brought in a vast amount of changes in the National Health Service (NHS). There has been a need and constant drive towards efficiency and savings. Theatre utilisation has become the principal managerial measure of theatre performance across trusts in the UK.<sup>1</sup> In 2002 the Modernisation Agency published its <italic>Step Guide to Improving Theatre Performance</italic><sup>2</sup> while the Audit Commission reported on operating theatres in 2002 and 2003.<sup>3,4</sup> Theatre utilisation of 84&#x0025; has been considered an acceptable standard of theatre practice.<sup>4</sup></p>
+<p>Trusts across the country have taken measures to meet the national targets such as a reduction in waiting list times for elective surgery. Enhancing theatre capacity is a key step in reducing total waiting times to under 18 weeks.<sup>1</sup> The regular two-session (2S) theatre lists have been increasingly replaced by three-session (3S) lists. The aim of this study was to compare the efficiency of 3S theatre days and 2S days at the Greater Manchester Neuroscience Centre in Salford.</p>
+
+
+<sec1>
+<title>METHODS</title>
+<p>Data were analysed retrospectively. The initial evaluation period covered nine months (August 2007 &#x2013; April 2008). Three neuro-surgical firms with separate subspecialty interests (pituitary, vascular and oncology) were identified. The number of patients, theatre utilisation, operative time, time between cases and case mix for 3S and 2S theatre days were compared. The re-evaluation period comprised six months (February &#x2013; August 2010). Similar data collection and analysis was carried out for the same three firms.</p>
+<p>Each theatre session comprised 3.5 hours (210 minutes). Theatre utilisation time was defined as the total time from the first patient on the list arriving in the department to the last patient leaving theatre to go to the recovery ward. Operative time was defined as the total anaesthetic and surgical time. The time between cases was defined as the time between a patient leaving to go to the recovery ward following surgery and the arrival of the next patient in the anaesthetic room.</p>
+
+
+<table-wrap id="T1" position="float">
+<label>Table 1</label>
+<caption>
+<p>Comparison of three-session (3S) and two-session (2S) theatre days in 2007&#x2013;2008 evaluation period</p>
+</caption>
+<table frame="above">
+<colgroup>
+<col charoff="col1" align="left"/>
+<col charoff="col2" align="left"/>
+<col charoff="col3" align="left"/>
+<col charoff="col4" align="left"/>
+<col charoff="col5" align="left"/>
+<col charoff="col6" align="left"/>
+<col charoff="col7" align="left"/>
+<col charoff="col8" align="left"/>
+<col charoff="col9" align="left"/>
+<col charoff="col10" align="left"/>
+</colgroup>
+<thead>
+<tr>
+<th><bold>2007&#x2013;2008</bold></th>
+<th><bold>Number of theatre days</bold></th>
+<th><bold>Number of sessions</bold></th>
+<th><bold>Number of cases</bold></th>
+<th><bold>Average cases per session</bold></th>
+<th><bold><italic>p</italic>-value</bold></th>
+<th><bold>Theatre utilisation</bold></th>
+<th><bold>Operative time</bold></th>
+<th><bold>Time between cases</bold></th>
+<th><bold><italic>p</italic>-value</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3S</td>
+<td>65</td>
+<td>195</td>
+<td>236</td>
+<td>1.2</td>
+<td>0.14</td>
+<td>89&#x0025;</td>
+<td>50&#x0025;</td>
+<td>12&#x0025;</td>
+<td>0.07</td>
+</tr>
+<tr>
+<td>2S</td>
+<td>71</td>
+<td>140</td>
+<td>179</td>
+<td>1.3</td>
+<td/>
+<td>98&#x0025;</td>
+<td>54&#x0025;</td>
+<td>10&#x0025;</td>
+<td/>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+
+
+<table-wrap id="T2" position="float">
+<label>Table 2</label>
+<caption>
+<p>Comparison of three-session (3S) and two-session (2S) theatre days in 2010 evaluation period</p>
+</caption>
+<table frame="above">
+<colgroup>
+<col charoff="col1" align="left"/>
+<col charoff="col2" align="left"/>
+<col charoff="col3" align="left"/>
+<col charoff="col4" align="left"/>
+<col charoff="col5" align="left"/>
+<col charoff="col6" align="left"/>
+<col charoff="col7" align="left"/>
+<col charoff="col8" align="left"/>
+<col charoff="col9" align="left"/>
+<col charoff="col10" align="left"/>
+</colgroup>
+<thead>
+<tr>
+<th><bold>2010</bold></th>
+<th><bold>Number of theatre days</bold></th>
+<th><bold>Number of sessions</bold></th>
+<th><bold>Number of cases</bold></th>
+<th><bold>Average cases per session</bold></th>
+<th><bold><italic>p</italic>-value</bold></th>
+<th><bold>Theatre utilisation</bold></th>
+<th><bold>Operative time</bold></th>
+<th><bold>Time between cases</bold></th>
+<th><bold><italic>p</italic>-value</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3S</td>
+<td>71</td>
+<td>213</td>
+<td>255</td>
+<td>1.2</td>
+<td>0.02</td>
+<td>93&#x0025;</td>
+<td>55&#x0025;</td>
+<td>9&#x0025;</td>
+<td>0.21</td>
+</tr>
+<tr>
+<td>2S</td>
+<td>41</td>
+<td>74</td>
+<td>85</td>
+<td>1.1</td>
+<td/>
+<td>91&#x0025;</td>
+<td>51&#x0025;</td>
+<td>8&#x0025;</td>
+<td/>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+
+<table-wrap id="T3" position="float">
+<label>Table 3</label>
+<caption>
+<p>Comparison of underutilised lists for three-session (3S) and two-session (2S) theatre days</p>
+</caption>
+<table frame="above">
+<colgroup>
+<col charoff="col1" align="left"/>
+<col charoff="col2" align="left"/>
+<col charoff="col3" align="left"/>
+<col charoff="col4" align="left"/>
+<col charoff="col5" align="left"/>
+<col charoff="col6" align="left"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th namest="col2" nameend="col3"><bold>Underutilised lists</bold></th>
+<th namest="col4" nameend="col5"><bold>Average underutilised time</bold></th>
+<th/>
+</tr>
+<tr>
+<td/>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+<th><bold><italic>p</italic>-value</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007&#x2013;2008</td>
+<td>47 (72&#x0025;)</td>
+<td>34 (48&#x0025;)</td>
+<td>103 mins</td>
+<td>108 mins</td>
+<td>0.80</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>47 (66&#x0025;)</td>
+<td>27 (66&#x0025;)</td>
+<td>61 mins</td>
+<td>112 mins</td>
+<td>0.002</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+
+
+<table-wrap id="T4" position="float">
+<label>Table 4</label>
+<caption>
+<p>Comparison of overrun lists for three-session (3S) and two-session (2S) theatre days</p>
+</caption>
+<table frame="above">
+<colgroup>
+<col charoff="col1" align="left"/>
+<col charoff="col2" align="left"/>
+<col charoff="col3" align="left"/>
+<col charoff="col4" align="left"/>
+<col charoff="col5" align="left"/>
+<col charoff="col6" align="left"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th namest="col2" nameend="col3"><bold>Overrun lists</bold></th>
+<th namest="col4" nameend="col5"><bold>Average overrun time</bold></th>
+<th/>
+</tr>
+<tr>
+<th/>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+<th><bold><italic>p</italic>-value</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007&#x2013;2008</td>
+<td>17 (26&#x0025;)</td>
+<td>36 (51&#x0025;)</td>
+<td>42 mins</td>
+<td>88 mins</td>
+<td>0.02</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>24 (34&#x0025;)</td>
+<td>14 (34&#x0025;)</td>
+<td>34 mins</td>
+<td>66 mins</td>
+<td>0.06</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+
+
+<table-wrap id="T5" position="float">
+<label>Table 5</label>
+<caption>
+<p>Mean score for medical students and residents in general surgery with a special interest in the arts</p>
+</caption>
+<table frame="above">
+<colgroup>
+<col charoff="col1" align="left"/>
+<col charoff="col2" align="left"/>
+<col charoff="col3" align="left"/>
+<col charoff="col4" align="left"/>
+<col charoff="col5" align="left"/>
+<col charoff="col6" align="left"/>
+<col charoff="col7" align="left"/>
+</colgroup>
+<thead>
+<tr>
+<th/>
+<th namest="col2" nameend="col3"><bold>Spinal cases</bold></th>
+<th namest="col4" nameend="col5"><bold>Cranial cases</bold></th>
+<th namest="col6" nameend="col7"><bold>Local anaesthetic cases</bold></th>
+</tr>
+<tr>
+<th/>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+<th><bold>3S</bold></th>
+<th><bold>2S</bold></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2007&#x2013;2008</td>
+<td>40&#x0025;</td>
+<td>50&#x0025;</td>
+<td>40&#x0025;</td>
+<td>26&#x0025;</td>
+<td>19&#x0025;</td>
+<td>24&#x0025;</td>
+</tr>
+<tr>
+<td>2010</td>
+<td>45&#x0025;</td>
+<td>58&#x0025;</td>
+<td>39&#x0025;</td>
+<td>34&#x0025;</td>
+<td>16&#x0025;</td>
+<td>8&#x0025;</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+
+</sec1>
+<sec1>
+<title>RESULTS</title>
+<p>In the 2007&#x2013;2008 evaluation period, there were 65 theatre days using the 3S system (195 sessions in total) and 71 days with the 2S system (140 sessions in total because the 2S lists were converted to single-session lists on two occasions) (Table 1). On 3S days, there was a mean of 1.2 cases per session compared with 1.3 cases on 2S days (t-test, p=0.14).</p>
+<p>During the 2010 evaluation period, there were 71 days with 3S lists (213 sessions) and 41 days with 2S lists (74 sessions) (Table 2). The mean number of cases operated on per session were 1.2 and 1.1 respectively (t-test, <italic>p=</italic>0.02).</p>
+
+<sec2>
+<title>Theatre utilisation</title>
+<p>In the initial evaluation period, total theatre utilisation amounted to 89&#x0025; on 3S days compared with 98&#x0025; on 2S days (Table 1). The time between cases took up 12&#x0025; of the total time for 3S and 10&#x0025; for 2S lists (t-test, p=0.07). For the 3S system, the total operative time comprised 50&#x0025; of the time available; on 2S days, this comprised 54&#x0025; of the time. Almost three-quarters (72&#x0025;) of the 3S days were underutilised compared with just under half (48&#x0025;) of the 2S days (Table 3). The mean duration of underutilisation on 3S days was 103 minutes whereas for 2S days, it was 108 minutes (t-test, p=0.80). A quarter (26&#x0025;) of 3S days overran compared with half (51&#x0025;) of 2S days (Table 4). The mean overrunning time was 42 minutes on 3S days and 88 minutes on 2S days (t-test, p=0.002).</p>
+<p>In the second evaluation period, 93&#x0025; of the total time available in theatre was utilised on 3S days compared with 91&#x0025; on 2S days (Table 2). The time between cases took up 9&#x0025; of the total time for 3S and 8&#x0025; for 2S lists (t-test, <italic>p=</italic>0.21). The total operative time comprised 55&#x0025; of the time available on 3S days and 51&#x0025; on 2S days. Two-thirds (66&#x0025;) of both the 3S and 2S days were underutilised (Table 3). The 3S days were underutilised by a mean of 61 minutes compared with 112 minutes for 2S days (t-test, <italic>p=</italic>0.002). A third (34&#x0025;) of both the 3S and 2S days overran (Table 4). 3S days overran by a mean of 34 minutes and 2S days by a mean of 66 minutes (t-test, <italic>p=</italic>0.06).</p>
+<p>The breakdown for case mix (cranial, spinal and local anaesthetic cases) in the two time periods evaluated is shown in Table 5.</p>
+</sec2>
+
+</sec1>
+<sec1>
+<title>DISCUSSION</title>
+<p>Theatre efficiency can be defined by appropriate theatre time utilisation (minimising overrunning and underutilisation) with a greater amount of time spent on performing procedures and less time taken up between cases. Underutilisation could be due to late starts, early finishes or more time in between cases. The surgical skills, experience and technical challenges also vary between surgeons and their case mix. These factors can influence the productivity of each operating session but are difficult to standardise. Nevertheless, with theatre-list planning and well-organised use of existing resources, efficiency can be increased. This can only have a positive influence on the overall productivity of theatre sessions.</p>
+
+<p>Underutilisation of any theatre session is a form of financial waste and represents a missed opportunity to decrease waiting times for surgery. Overrunning, however, is also not sensible as it can have an adverse impact on staff morale, possibly causing problems with staff retention. This can lead to a greater requirement for agency staff, adding to the financial burden in the NHS. Furthermore, an overrunning list can affect other theatres as it puts extra pressure on staff distribution among the running theatre lists.</p>
+<p>In recent years in our department, there has been an increase in use of the 3S over the 2S theatre system. There were more 3S days during the 6 months of the second evaluation period than during the 9 months of the first evaluation period.</p>
+<p>In our trust, a computerised theatre patient flow system has been implemented. The current version came into use in 2009. The journey of a patient is timed and recorded for each segment of his or her pathway. It is broken down into individual times from point of arrival of a patient at theatre reception to transfer from the recovery area to his or her postoperative bed. The anaesthetic start time, time of arrival of the patient in the operating room, surgical start time, surgical finish time, time of patient moving out of the theatre to the recovery area are also documented. From this data, average times can be calculated for each case type and each individual surgeon over time. This information is used in the weekly theatre list meetings to plan the utilisation of theatre sessions.</p>
+<p>In the initial evaluation period, 3S lists were still in their early phase of implementation. There appeared to be a general perception among theatre teams that the increased theatre time in the 3S system led to a lower impetus to move on between cases. There was a trend towards a greater proportion of theatre time consisting of time between cases with the 3S compared with the 2S system and the productivity per session was better on 2S theatre days (Table 1). However, 2S days overran frequently (Table 4) and so more cases were performed, with greater utilisation and operative time (Table 1). There was also a trend towards underutilisation of theatre sessions on 3S days (Table 3), with uncertainty over how many operations could be performed over the three sessions.</p>
+
+<p>By the second evaluation period, there was an update for the patient flow system software. The data collected were used extensively in the weekly theatre session planning meetings. This appears to have had a positive influence on theatre planning for 3S lists. Over time, the theatre teams seem to have become more familiar with the 3S system. Theatre utilisation improved (from 89&#x0025; to 93&#x0025;), the proportion of time taken up between cases reduced (from 12&#x0025; to 9&#x0025;) and there was a significant drop in the proportion of underutilised lists (from 72&#x0025; to 66&#x0025;). Although there was an increase in the proportion of theatre lists overrunning, there was a drop in the average duration of overrun time (from 42 minutes to 34 minutes.</p>
+
+<p>For 2S days on the other hand, there was an increase over time in the proportion of lists being underutilised as well as in the average duration of underutilisation time (Table 3). There was also still evidence of overrun lists (Table 4).</p>
+<p>It is hard to say with certainty what factors changed between the two time periods evaluated to account for the relative changes in theatre efficiency. It is likely that there were multiple influences causing this effect. Our perception is that familiarisation with the practice, better planning, smoother running of the theatre and the expectations of the 3S system were important in this change.</p>
+
+</sec1>
+<sec1>
+<title>CONCLUSIONS</title>
+<p>Theatre days with 3S lists have the potential to be more efficient than the 2S system. The influence of familiarisation by theatre personnel and theatre planning should be considered. An internal evaluation to review the suitability of such theatre expansion for each surgical specialty should be encouraged.</p>
+</sec1>
+</body>
+
+<back>
+<ref-list>
+<title>References</title>
+<p>1. Faiz O, Tekkis P, McGuire A <italic>et al</italic>. Is theatre utilization a valid performance indicator for NHS operating theatres? <italic>BMC Health Serv Res </italic>2008, 8: 28.</p>
+<p>2. NHS Modernisation Agency. <italic>Step Guide to Improving Operating Theatre Performance. </italic>London: NHS Modernisation Agency; 2002.</p>
+<p>3. Audit Commission. <italic>Operating Theatres: A Bulletin for Health Bodies. </italic>London: AC; 2002.</p>
+<p>4. Audit Commission. <italic>Operating Theatres: Review of National Findings. </italic>London: AC; 2003.</p>
+</ref-list>
+</back>
+</article>
